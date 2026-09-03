@@ -148,6 +148,7 @@ def page(title: str, content: str, depth: int, desc: str = "", canonical: str = 
   <a class="brand" href="{p}index.html"><img class="logo" src="{p}assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
   <nav>
     <a href="{p}archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="{p}about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
     <a href="{REPO_URL}" class="nav-link">GitHub</a>
     <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
   </nav>
@@ -179,7 +180,7 @@ def load_editions() -> list[dict]:
             m["_slug"] = f.stem
             arts.append(m)
         editions.append({"date": date, "num": meta.get("edition", "?"),
-                         "cover": body, "articles": arts})
+                         "cover": body, "articles": arts, "folder": folder})
     editions.sort(key=lambda e: e["date"], reverse=True)
     return editions
 
@@ -264,6 +265,9 @@ def main() -> int:
                  edition_body(ed, "Выпуск", "Edition", ""), 2), encoding="utf-8")
         for a in ed["articles"]:
             (out / f"{a['_slug']}.html").write_text(render_article_page(a), encoding="utf-8")
+            src_md = ed["folder"] / f"{a['_slug']}.md"
+            if src_md.exists():
+                (out / f"{a['_slug']}.md").write_text(src_md.read_text(encoding="utf-8"), encoding="utf-8")
 
     if editions:
         latest = editions[0]
@@ -287,6 +291,17 @@ def main() -> int:
              f'<h1 class="page-title"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></h1><ul class="archive">{rows}</ul>', 0),
         encoding="utf-8")
 
+    about_ru = """<h1 class=\"page-title\">Как это работает</h1>
+<div class=\"editorial\"><p>frontier-wire — полностью открытое автоматизированное издание. Дважды в день облачная рутина запускает <code>scripts/digest.py</code>, который читает публичные RSS/Atom-источники из <a href=\"https://github.com/ADanMan/frontier-wire/blob/main/feeds.txt\">feeds.txt</a> (весь список открыт), выбирает самое интересное и пишет выпуск на двух языках. Каждая статья обязана ссылаться на реальный первоисточник; выдумывать факты рутине запрещено промптом. Весь контент, код и история изменений — в <a href=\"https://github.com/ADanMan/frontier-wire\">публичном репозитории</a>: видно всё нутро, вплоть до каждого коммита.</p>
+<p>Никакой человеческой редакции нет — и мы это не скрываем, это и есть эксперимент. Ошибки source-ссылок можно репортить issue в репозитории. Источник можно предложить pull-request'ом в feeds.txt.</p></div>"""
+    about_en = """<div class=\"editorial\"><p>frontier-wire is a fully transparent automated publication. Twice a day a cloud routine runs <code>scripts/digest.py</code>, which reads public RSS/Atom sources from <a href=\"https://github.com/ADanMan/frontier-wire/blob/main/feeds.txt\">feeds.txt</a> (the whole list is open), picks the most interesting items and writes a bilingual edition. Every article must cite a real primary source; the routine's prompt forbids inventing facts. All content, code and change history live in the <a href=\"https://github.com/ADanMan/frontier-wire\">public repository</a> — every commit is visible.</p>
+<p>There is no human newsroom, and we don't hide it — that is the experiment. Report broken source links via an issue; suggest a source via a pull request to feeds.txt.</p></div>"""
+    (DOCS / "about.html").write_text(
+        page("frontier-wire — как это работает",
+             f'<div class="edition-head"><div class="lang-ru">{about_ru}</div><div class="lang-en">{about_en}</div></div>',
+             0, "How frontier-wire works — a fully transparent automated newspaper."),
+        encoding="utf-8")
+
     (DOCS / "404.html").write_text(
         page("404 - frontier-wire",
              '<div class="edition-head"><h1 class="page-title">404</h1><p class="lang-ru">Такой полосы нет. <a href="/frontier-wire/">На первую</a>.</p><p class="lang-en">No such page. <a href="/frontier-wire/">Front page</a>.</p></div>', 0),
@@ -308,7 +323,7 @@ def main() -> int:
         '<description>An openly automated bilingual news wire (RU+EN): AI, tech, science, world, culture.</description>'
         + "".join(items) + "</channel></rss>", encoding="utf-8")
 
-    urls = [BASE_URL, f"{BASE_URL}archive.html"] + [
+    urls = [BASE_URL, f"{BASE_URL}archive.html", f"{BASE_URL}about.html"] + [
         f"{BASE_URL}e/{e['date']}/{a['_slug']}.html" for e, a in all_arts] + [
         f"{BASE_URL}e/{e['date']}/index.html" for e in editions]
     (DOCS / "sitemap.xml").write_text(
@@ -340,6 +355,16 @@ def main() -> int:
     ] + [f"- [{a.get('title_en', a['_slug'])}]({BASE_URL}e/{e['date']}/{a['_slug']}.html) — {a.get('dek_en','')}"
          for e, a in all_arts[:20]]
     (DOCS / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
+
+    full = ["# frontier-wire — full content (llms-full.txt)", ""]
+    for e in editions:
+        full.append(f"\n\n===== EDITION {e['num']} — {e['date']} =====\n")
+        full.append(e["cover"])
+        for a in e["articles"]:
+            full.append(f"\n\n----- {a['_slug']} ({a.get('rubric','')}) — source: {a.get('source','')} -----\n")
+            full.append("## Русская версия\n\n" + a["_ru"])
+            full.append("\n## English version\n\n" + a["_en"])
+    (DOCS / "llms-full.txt").write_text("\n".join(full) + "\n", encoding="utf-8")
 
     # stable machine endpoints for agents
     if editions:

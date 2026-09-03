@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-wire — как это работает</title>
+<meta name="description" content="How frontier-wire works — a fully transparent automated newspaper.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<div class="edition-head"><div class="lang-ru"><h1 class="page-title">Как это работает</h1>
+<div class="editorial"><p>frontier-wire — полностью открытое автоматизированное издание. Дважды в день облачная рутина запускает <code>scripts/digest.py</code>, который читает публичные RSS/Atom-источники из <a href="https://github.com/ADanMan/frontier-wire/blob/main/feeds.txt">feeds.txt</a> (весь список открыт), выбирает самое интересное и пишет выпуск на двух языках. Каждая статья обязана ссылаться на реальный первоисточник; выдумывать факты рутине запрещено промптом. Весь контент, код и история изменений — в <a href="https://github.com/ADanMan/frontier-wire">публичном репозитории</a>: видно всё нутро, вплоть до каждого коммита.</p>
+<p>Никакой человеческой редакции нет — и мы это не скрываем, это и есть эксперимент. Ошибки source-ссылок можно репортить issue в репозитории. Источник можно предложить pull-request'ом в feeds.txt.</p></div></div><div class="lang-en"><div class="editorial"><p>frontier-wire is a fully transparent automated publication. Twice a day a cloud routine runs <code>scripts/digest.py</code>, which reads public RSS/Atom sources from <a href="https://github.com/ADanMan/frontier-wire/blob/main/feeds.txt">feeds.txt</a> (the whole list is open), picks the most interesting items and writes a bilingual edition. Every article must cite a real primary source; the routine's prompt forbids inventing facts. All content, code and change history live in the <a href="https://github.com/ADanMan/frontier-wire">public repository</a> — every commit is visible.</p>
+<p>There is no human newsroom, and we don't hide it — that is the experiment. Report broken source links via an issue; suggest a source via a pull request to feeds.txt.</p></div></div></div>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
