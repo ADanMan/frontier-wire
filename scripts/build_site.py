@@ -31,6 +31,7 @@ RUBRICS = {
 SITE_NAME = "frontier-wire"
 REPO_URL = "https://github.com/ADanMan/frontier-wire"
 AUTHOR_URL = "https://adanman.github.io"
+BASE_URL = "https://adanman.github.io/frontier-wire/"
 
 
 def _inline(text: str) -> str:
@@ -121,8 +122,14 @@ def split_cover(body: str) -> tuple[str, str]:
     return _split_on(body, r"^##\s+От редакции", r"^##\s+Editorial")
 
 
-def page(title: str, content: str, depth: int, desc: str = "") -> str:
+def page(title: str, content: str, depth: int, desc: str = "", canonical: str = "", jsonld: str = "") -> str:
     p = "../" * depth
+    extra = ""
+    if canonical:
+        extra += f'<link rel="canonical" href="{BASE_URL}{canonical}">\n'
+    extra += f'<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="{BASE_URL}feed.xml">\n'
+    if jsonld:
+        extra += f'<script type="application/ld+json">{jsonld}</script>\n'
     return f"""<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -134,7 +141,7 @@ def page(title: str, content: str, depth: int, desc: str = "") -> str:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
 <link rel="stylesheet" href="{p}assets/style.css">
-</head>
+{extra}</head>
 <body>
 <div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
 <header class="masthead">
@@ -210,6 +217,19 @@ def render_article_page(a: dict) -> str:
     en_l, ru_l = RUBRICS.get(rub, RUBRICS["tech"])
     img = f'<img class="hero-img" src="{html.escape(a["image"])}" alt="" loading="lazy">' if a.get("image") else ""
     src = html.escape(a.get("source", ""))
+    import json as _json
+    can = f"e/{a.get('date','')}/{a['_slug']}.html"
+    ld = _json.dumps({
+        "@context": "https://schema.org", "@type": "NewsArticle",
+        "headline": a.get("title_en", a["_slug"]),
+        "alternativeHeadline": a.get("title_ru", ""),
+        "datePublished": a.get("date", ""),
+        "inLanguage": ["ru", "en"],
+        "isBasedOn": a.get("source", ""),
+        "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": BASE_URL},
+        "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": AUTHOR_URL},
+        "mainEntityOfPage": BASE_URL + can,
+    }, ensure_ascii=False)
     return page(
         a.get("title_ru", a["_slug"]) + " - frontier-wire",
         f"""<article class="article">
@@ -223,6 +243,8 @@ def render_article_page(a: dict) -> str:
 </article>""",
         2,
         a.get("dek_en", ""),
+        canonical=can,
+        jsonld=ld,
     )
 
 
@@ -248,8 +270,13 @@ def main() -> int:
         front = edition_body(latest, "Свежий выпуск", "Latest edition", f"e/{latest['date']}/")
     else:
         front = "<p>Первый выпуск уже в печати. / First edition is at the press.</p>"
+    import json as _json
+    site_ld = _json.dumps({"@context": "https://schema.org", "@type": "WebSite",
+        "name": "frontier-wire", "url": BASE_URL,
+        "description": "An openly automated bilingual (RU+EN) news wire: AI, tech, science, world, culture.",
+        "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": AUTHOR_URL}}, ensure_ascii=False)
     (DOCS / "index.html").write_text(
-        page("frontier-wire - все новости, дважды в день", front, 0), encoding="utf-8")
+        page("frontier-wire - все новости, дважды в день", front, 0, canonical="", jsonld=site_ld), encoding="utf-8")
 
     rows = "\n".join(
         f'<li><a href="e/{e["date"]}/index.html">№{e["num"]} &middot; {e["date"]}</a>'
@@ -264,6 +291,53 @@ def main() -> int:
         page("404 - frontier-wire",
              '<div class="edition-head"><h1 class="page-title">404</h1><p class="lang-ru">Такой полосы нет. <a href="/frontier-wire/">На первую</a>.</p><p class="lang-en">No such page. <a href="/frontier-wire/">Front page</a>.</p></div>', 0),
         encoding="utf-8")
+
+    # agent/SEO surface: feed.xml, sitemap.xml, robots.txt, llms.txt
+    all_arts = [(e, a) for e in editions for a in e["articles"]]
+    items = []
+    for e, a in all_arts[:40]:
+        url = f"{BASE_URL}e/{e['date']}/{a['_slug']}.html"
+        title = html.escape(f"{a.get('title_ru','')} / {a.get('title_en','')}")
+        desc = html.escape(a.get("dek_en", "") or a.get("dek_ru", ""))
+        src = html.escape(a.get("source", ""))
+        items.append(f"<item><title>{title}</title><link>{url}</link><guid>{url}</guid>"
+                     f"<pubDate>{a.get('date','')}</pubDate><description>{desc} (source: {src})</description></item>")
+    (DOCS / "feed.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+        f'<title>frontier-wire</title><link>{BASE_URL}</link>'
+        '<description>An openly automated bilingual news wire (RU+EN): AI, tech, science, world, culture.</description>'
+        + "".join(items) + "</channel></rss>", encoding="utf-8")
+
+    urls = [BASE_URL, f"{BASE_URL}archive.html"] + [
+        f"{BASE_URL}e/{e['date']}/{a['_slug']}.html" for e, a in all_arts] + [
+        f"{BASE_URL}e/{e['date']}/index.html" for e in editions]
+    (DOCS / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>", encoding="utf-8")
+
+    (DOCS / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}sitemap.xml\n", encoding="utf-8")
+
+    llms = ["# frontier-wire",
+        "",
+        "> An openly automated, bilingual (RU + EN) news wire covering AI, tech, science, world and culture.",
+        "> Written twice a day by a scheduled agent from real, cited sources. Everything is open:",
+        "> the source list, the pipeline, and every edition as plain markdown.",
+        "",
+        "Publisher: Danila Katalshov — https://adanman.github.io",
+        "",
+        "## Machine-friendly entry points",
+        f"- RSS feed: {BASE_URL}feed.xml",
+        f"- Sitemap: {BASE_URL}sitemap.xml",
+        "- Raw markdown of every article: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/<YYYY>/<MM-DD>/<NN-slug>.md",
+        "- Source list (RSS feeds we read): https://raw.githubusercontent.com/ADanMan/frontier-wire/main/feeds.txt",
+        "- Edition format spec: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/FORMAT.md",
+        "- Repository: https://github.com/ADanMan/frontier-wire",
+        "",
+        "## Latest articles",
+    ] + [f"- [{a.get('title_en', a['_slug'])}]({BASE_URL}e/{e['date']}/{a['_slug']}.html) — {a.get('dek_en','')}"
+         for e, a in all_arts[:20]]
+    (DOCS / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
 
     n = sum(len(e["articles"]) for e in editions)
     print(f"Built docs/: {len(editions)} editions, {n} articles")
