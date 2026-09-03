@@ -1,0 +1,546 @@
+{
+ "date": "2026-09-03",
+ "repos": {
+  "ADanMan/frontier-wire": {
+   "stars": 0,
+   "forks": 0,
+   "views": {
+    "count": 0,
+    "uniques": 0,
+    "views": [
+     {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     }
+    ]
+   },
+   "clones": {
+    "count": 0,
+    "uniques": 0,
+    "clones": [
+     {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     }
+    ]
+   },
+   "referrers": [],
+   "paths": []
+  },
+  "ADanMan/ADanMan.github.io": {
+   "stars": 0,
+   "forks": 0,
+   "views": {
+    "count": 0,
+    "uniques": 0,
+    "views": [
+     {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     }
+    ]
+   },
+   "clones": {
+    "count": 1,
+    "uniques": 1,
+    "clones": [
+     {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-09-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     }
+    ]
+   },
+   "referrers": [],
+   "paths": []
+  },
+  "ADanMan/agentic-frontier": {
+   "stars": 0,
+   "forks": 0,
+   "views": {
+    "count": 206,
+    "uniques": 8,
+    "views": [
+     {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 57,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 13,
+      "uniques": 2
+     },
+     {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 15,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 2,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 8,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 8,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+     },
+     {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 51,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 3,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 3,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 41,
+      "uniques": 4
+     },
+     {
+      "timestamp": "2026-09-02T00:00:00Z",
+      "count": 4,
+      "uniques": 1
+     }
+    ]
+   },
+   "clones": {
+    "count": 125,
+    "uniques": 74,
+    "clones": [
+     {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 32,
+      "uniques": 22
+     },
+     {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 18,
+      "uniques": 14
+     },
+     {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 10,
+      "uniques": 10
+     },
+     {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 8,
+      "uniques": 7
+     },
+     {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 9,
+      "uniques": 9
+     },
+     {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+     },
+     {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+     },
+     {
+      "timestamp": "2026-08-27T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+     },
+     {
+      "timestamp": "2026-08-28T00:00:00Z",
+      "count": 3,
+      "uniques": 2
+     },
+     {
+      "timestamp": "2026-08-29T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+     },
+     {
+      "timestamp": "2026-08-30T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+     },
+     {
+      "timestamp": "2026-08-31T00:00:00Z",
+      "count": 11,
+      "uniques": 4
+     },
+     {
+      "timestamp": "2026-09-01T00:00:00Z",
+      "count": 17,
+      "uniques": 6
+     },
+     {
+      "timestamp": "2026-09-02T00:00:00Z",
+      "count": 8,
+      "uniques": 4
+     }
+    ]
+   },
+   "referrers": [
+    {
+     "referrer": "github.com",
+     "count": 137,
+     "uniques": 5
+    }
+   ],
+   "paths": [
+    {
+     "path": "/ADanMan/agentic-frontier",
+     "title": "Overview",
+     "count": 31,
+     "uniques": 6
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/tree/main/posts",
+     "title": "/tree/main/posts",
+     "count": 13,
+     "uniques": 4
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/blob/main/guides/mcp-explained.md",
+     "title": "/blob/main/guides/mcp-explained.md",
+     "count": 11,
+     "uniques": 2
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/blob/main/digests/2026/2026-08-20.md",
+     "title": "/blob/main/digests/2026/2026-08-20.md",
+     "count": 8,
+     "uniques": 4
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/blob/main/posts/2026-08-20.md",
+     "title": "/blob/main/posts/2026-08-20.md",
+     "count": 8,
+     "uniques": 1
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/tree/main/digests/2026",
+     "title": "/tree/main/digests/2026",
+     "count": 6,
+     "uniques": 4
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/blob/main/ROADMAP.md",
+     "title": "/blob/main/ROADMAP.md",
+     "count": 5,
+     "uniques": 2
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/blob/main/posts/2026-08-20/01-spade-self-play-environments/index.md",
+     "title": "/blob/main/posts/2026-08-20/01-spade-self-play-environments/index.md",
+     "count": 5,
+     "uniques": 1
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/blob/main/til/2026/2026-08-20.md",
+     "title": "/blob/main/til/2026/2026-08-20.md",
+     "count": 4,
+     "uniques": 2
+    },
+    {
+     "path": "/ADanMan/agentic-frontier/tree/main/posts/2026-08-24",
+     "title": "/tree/main/posts/2026-08-24",
+     "count": 4,
+     "uniques": 2
+    }
+   ]
+  }
+ }
+}
