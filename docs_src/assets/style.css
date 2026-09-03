@@ -106,3 +106,8 @@ footer a:hover{background:var(--pink);color:#fff}
 @media(prefers-reduced-motion:reduce){
   *,.card:hover,.nav-link:hover{transition:none!important;animation:none!important;transform:none!important}
 }
+
+/* v4 typography */
+h1,h2,h3,.card h3{text-wrap:balance}
+.prose{hyphens:auto;-webkit-hyphens:auto}
+.dek,.editorial{text-wrap:pretty}
