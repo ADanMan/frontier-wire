@@ -138,7 +138,7 @@ def page(title: str, content: str, depth: int, desc: str = "") -> str:
 <body>
 <div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
 <header class="masthead">
-  <a class="brand" href="{p}index.html">FRONTIER<span>&mdash;</span>WIRE</a>
+  <a class="brand" href="{p}index.html"><img class="logo" src="{p}assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
   <nav>
     <a href="{p}archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
     <a href="{REPO_URL}" class="nav-link">GitHub</a>

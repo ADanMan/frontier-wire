@@ -1,7 +1,7 @@
 /* frontier-wire — neubrutalist newspaper. yellow / pink / black. */
 :root{
-  --bg:#FFF8E7; --ink:#141414; --yellow:#FFD41F; --pink:#FF5DA2;
-  --paper:#FFFDF6; --border:3px solid var(--ink);
+  --bg:#FDFDFB; --ink:#0E0E0E; --yellow:#FFE500; --pink:#FF2E88;
+  --paper:#FFFFFF; --border:3px solid var(--ink);
   --shadow:6px 6px 0 var(--ink); --shadow-sm:4px 4px 0 var(--ink);
   --font-d:'Space Grotesk',system-ui,sans-serif;
   --font-b:'IBM Plex Serif',Georgia,serif;
@@ -9,7 +9,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-b);line-height:1.6;
-  background-image:radial-gradient(var(--ink) 0.5px,transparent 0.5px);background-size:26px 26px;background-attachment:fixed}
+  background-image:radial-gradient(rgba(14,14,14,.18) 1px,transparent 1px);background-size:22px 22px;background-attachment:fixed}
 a{color:var(--ink);text-decoration-thickness:2px;text-underline-offset:3px}
 a:hover{background:var(--yellow)}
 img{max-width:100%}
@@ -20,12 +20,15 @@ body:not(.en) .lang-en{display:none!important}
 
 /* masthead */
 .masthead{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;
-  background:var(--yellow);border-bottom:var(--border);padding:.9rem clamp(1rem,4vw,2.5rem);
+  background:var(--ink);border-bottom:6px solid var(--yellow);padding:.9rem clamp(1rem,4vw,2.5rem);
   position:sticky;top:0;z-index:50}
 .brand{font-family:var(--font-d);font-weight:700;font-size:clamp(1.3rem,3.5vw,1.9rem);
-  letter-spacing:-.03em;text-decoration:none;background:none}
+  letter-spacing:-.03em;text-decoration:none;background:none;color:var(--yellow)}
 .brand span{color:var(--pink)}
+.logo{height:2.1em;vertical-align:middle;margin-right:.55rem}
+.brand{display:flex;align-items:center}
 .brand:hover{background:none;color:var(--pink)}
+.masthead .nav-link{box-shadow:4px 4px 0 var(--pink)}
 .masthead nav{display:flex;align-items:center;gap:.9rem}
 .nav-link{font-family:var(--font-d);font-weight:700;text-decoration:none;border:var(--border);
   background:var(--paper);padding:.25rem .8rem;box-shadow:var(--shadow-sm)}
@@ -40,7 +43,7 @@ main{max-width:1100px;margin:0 auto;padding:clamp(1.2rem,4vw,3rem)}
 /* edition head */
 .kicker{font-family:var(--font-d);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.9rem}
 .edition-head{margin-bottom:2.2rem}
-.editorial{border:var(--border);background:var(--paper);box-shadow:var(--shadow);
+.editorial{border:var(--border);background:var(--yellow);box-shadow:var(--shadow);
   padding:1.2rem 1.5rem;max-width:52rem;font-size:1.08rem}
 .editorial p:first-child{margin-top:0}.editorial p:last-child{margin-bottom:0}
 .page-title{font-family:var(--font-d);font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.03em}
@@ -53,7 +56,7 @@ main{max-width:1100px;margin:0 auto;padding:clamp(1.2rem,4vw,3rem)}
   .grid .card:first-child h3{font-size:1.7rem}}
 .card{border:var(--border);background:var(--paper);box-shadow:var(--shadow);padding:1.2rem 1.4rem;
   transition:transform .12s,box-shadow .12s}
-.card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}
+.card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--pink)}
 .card-img{display:block;border-bottom:var(--border);margin:-1.2rem -1.4rem 1rem;width:calc(100% + 2.8rem);
   max-width:none;height:170px;object-fit:cover;filter:contrast(1.05)}
 .card h3{font-family:var(--font-d);letter-spacing:-.02em;font-size:1.25rem;line-height:1.25;margin:.6rem 0 .4rem}
@@ -85,9 +88,10 @@ main{max-width:1100px;margin:0 auto;padding:clamp(1.2rem,4vw,3rem)}
 .archive li:hover{transform:translate(-2px,-2px);box-shadow:var(--shadow)}
 .archive .count{font-weight:500;font-family:var(--font-b);font-size:.9rem}
 
-footer{border-top:var(--border);background:var(--yellow);margin-top:3rem;
+footer{border-top:6px solid var(--pink);background:var(--ink);color:#F5F5F0;margin-top:3rem;
   padding:1.4rem clamp(1rem,4vw,2.5rem);font-size:.92rem}
-footer a:hover{background:var(--pink);color:var(--paper)}
+footer a{color:var(--yellow)}
+footer a:hover{background:var(--pink);color:#fff}
 
 /* loader — generativeloaders-style three stamping squares */
 .loader{position:fixed;inset:0;background:var(--bg);z-index:200;display:none;
