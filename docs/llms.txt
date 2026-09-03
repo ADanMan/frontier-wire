@@ -8,6 +8,8 @@ Publisher: Danila Katalshov — https://adanman.github.io
 
 ## Machine-friendly entry points
 - RSS feed: https://adanman.github.io/frontier-wire/feed.xml
+- JSON Feed (with raw-markdown pointers): https://adanman.github.io/frontier-wire/feed.json
+- Latest edition, plain markdown index: https://adanman.github.io/frontier-wire/latest.md
 - Sitemap: https://adanman.github.io/frontier-wire/sitemap.xml
 - Raw markdown of every article: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/<YYYY>/<MM-DD>/<NN-slug>.md
 - Source list (RSS feeds we read): https://raw.githubusercontent.com/ADanMan/frontier-wire/main/feeds.txt

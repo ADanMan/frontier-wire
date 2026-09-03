@@ -328,6 +328,8 @@ def main() -> int:
         "",
         "## Machine-friendly entry points",
         f"- RSS feed: {BASE_URL}feed.xml",
+        f"- JSON Feed (with raw-markdown pointers): {BASE_URL}feed.json",
+        f"- Latest edition, plain markdown index: {BASE_URL}latest.md",
         f"- Sitemap: {BASE_URL}sitemap.xml",
         "- Raw markdown of every article: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/<YYYY>/<MM-DD>/<NN-slug>.md",
         "- Source list (RSS feeds we read): https://raw.githubusercontent.com/ADanMan/frontier-wire/main/feeds.txt",
@@ -338,6 +340,36 @@ def main() -> int:
     ] + [f"- [{a.get('title_en', a['_slug'])}]({BASE_URL}e/{e['date']}/{a['_slug']}.html) — {a.get('dek_en','')}"
          for e, a in all_arts[:20]]
     (DOCS / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
+
+    # stable machine endpoints for agents
+    if editions:
+        latest = editions[0]
+        lm = [f"# frontier-wire — latest edition №{latest['num']} ({latest['date']})", ""]
+        for a in latest["articles"]:
+            lm.append(f"## {a.get('title_en', a['_slug'])} / {a.get('title_ru','')}")
+            lm.append(f"rubric: {a.get('rubric','')} · source: {a.get('source','')}")
+            lm.append(f"markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/{latest['date'][:4]}/{latest['date'][5:]}/{a['_slug']}.md")
+            lm.append("")
+        (DOCS / "latest.md").write_text("\n".join(lm), encoding="utf-8")
+        import json as _json2
+        (DOCS / "feed.json").write_text(_json2.dumps({
+            "version": "https://jsonfeed.org/version/1.1",
+            "title": "frontier-wire",
+            "home_page_url": BASE_URL,
+            "feed_url": BASE_URL + "feed.json",
+            "description": "Openly automated bilingual news wire (RU+EN).",
+            "items": [{
+                "id": f"{BASE_URL}e/{e['date']}/{a['_slug']}.html",
+                "url": f"{BASE_URL}e/{e['date']}/{a['_slug']}.html",
+                "external_url": a.get("source", ""),
+                "title": a.get("title_en", a["_slug"]),
+                "summary": a.get("dek_en", ""),
+                "date_published": a.get("date", ""),
+                "language": "en",
+                "_ru": {"title": a.get("title_ru", ""), "summary": a.get("dek_ru", "")},
+                "_markdown": f"https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/{e['date'][:4]}/{e['date'][5:]}/{a['_slug']}.md",
+            } for e in editions for a in e["articles"]][:60],
+        }, ensure_ascii=False), encoding="utf-8")
 
     n = sum(len(e["articles"]) for e in editions)
     print(f"Built docs/: {len(editions)} editions, {n} articles")
