@@ -1,0 +1,58 @@
+# Sources for the frontier-wire digest — the raw material of every edition.
+#
+# One URL per line. Blank lines and lines starting with # are ignored; an inline
+# "# note" after a URL is fine (only the first token is used). Dead or moved feeds
+# are skipped automatically on fetch, so optimistic entries are safe.
+#
+# ORDER MATTERS. digest.py keeps the newest few items per feed and caps the total,
+# walking this file top-down. The cloud routine's sandbox blocks egress to almost
+# everything EXCEPT raw.githubusercontent.com, so the reliably-reachable MIRRORS are
+# listed FIRST — they keep the digest alive from inside the sandbox. Everything else
+# enriches the digest on an open network and is skipped silently when blocked.
+#
+# The feed-gardener skill (.claude/skills/feed-gardener/) tends this file: it prunes
+# dead feeds, adds new sources, and hunts for general-news mirrors hosted on
+# raw.githubusercontent.com — the standing quest, since today's mirrors are tech-only.
+
+# ── reachable-in-sandbox mirrors (raw.githubusercontent.com, rebuilt daily) ──
+https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/huggingface_papers_rss.xml   # HF trending papers (arXiv-backed)
+https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/github_trending_rss.xml       # GitHub trending repos
+https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/github_ranking_ai_rss.xml     # top AI repos by momentum
+https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/huggingface_blog_rss.xml      # HF blog
+https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/anthropic_engineering_rss.xml # Anthropic engineering (check freshness)
+https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/deeplearning_the_batch_rss.xml # The Batch newsletter
+
+# ── world & general news (open-network only) ───────────────────────
+https://feeds.bbci.co.uk/news/world/rss.xml
+https://www.theguardian.com/world/rss
+https://feeds.npr.org/1001/rss.xml            # NPR top stories
+https://www.aljazeera.com/xml/rss/all.xml
+https://rss.dw.com/rdf/rss-en-all             # Deutsche Welle
+
+# ── science & space (open-network only) ────────────────────────────
+https://www.nature.com/nature.rss
+https://www.sciencedaily.com/rss/all.xml
+https://www.quantamagazine.org/feed/
+https://www.nasa.gov/feed/
+https://phys.org/rss-feed/
+
+# ── tech & engineering (open-network only) ─────────────────────────
+https://feeds.arstechnica.com/arstechnica/index
+https://www.theverge.com/rss/index.xml
+https://hnrss.org/frontpage                   # Hacker News front page
+https://spectrum.ieee.org/rss/fulltext
+https://simonwillison.net/atom/everything/
+
+# ── AI vendors & research (open-network only) ──────────────────────
+https://openai.com/news/rss.xml
+https://huggingface.co/blog/feed.xml
+https://blog.google/technology/ai/rss/
+https://deepmind.google/blog/rss.xml
+https://magazine.sebastianraschka.com/feed
+
+# ── culture & ideas (open-network only) ────────────────────────────
+https://aeon.co/feed.rss
+https://www.smithsonianmag.com/rss/latest_articles/
+https://kottke.org/main/index.xml
+https://longreads.com/feed/
+https://www.openculture.com/feed
