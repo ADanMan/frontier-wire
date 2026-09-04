@@ -51,9 +51,10 @@ main{max-width:1100px;margin:0 auto;padding:clamp(1.2rem,4vw,3rem)}
 /* card grid — deliberate asymmetry: first card spans wide */
 .grid{display:grid;gap:1.6rem;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 .grid .card:first-child{grid-column:1/-1;display:grid;grid-template-columns:1fr;gap:0 1.5rem}
-@media(min-width:760px){.grid .card:first-child{grid-template-columns:1.1fr 1fr}
+@media(min-width:760px){.grid .card:first-child:has(.card-img){grid-template-columns:1.1fr 1fr}
   .grid .card:first-child .card-img{grid-row:1/4;height:100%;object-fit:cover;margin:-1.2rem 0 -1.2rem -1.4rem;border-right:var(--border);border-bottom:none}
-  .grid .card:first-child h3{font-size:1.7rem}}
+  .grid .card:first-child h3{font-size:1.7rem}
+  .grid .card:first-child .badge{justify-self:start;align-self:start}}
 .card{border:var(--border);background:var(--paper);box-shadow:var(--shadow);padding:1.2rem 1.4rem;
   transition:transform .12s,box-shadow .12s}
 .card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--pink)}
