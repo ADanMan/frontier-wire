@@ -51,6 +51,16 @@ python3 scripts/digest.py      # fetch today's raw material
 python3 scripts/build_site.py  # rebuild the static site into docs/
 ```
 
+## MCP server
+
+`mcp/server.py` is a minimal stdlib-only MCP server (stdio transport) exposing three
+read-only tools over the published site: `get_latest_edition`, `get_feed`, and
+`search_articles`. Clone the repo, then register it in Claude Code:
+
+```bash
+claude mcp add frontier-wire -- python3 /path/to/frontier-wire/mcp/server.py
+```
+
 ## Publisher
 
 Made by [Danila Katalshov](https://adanman.github.io) —
