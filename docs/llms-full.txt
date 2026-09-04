@@ -121,6 +121,114 @@ Their proposed fix is entity-aligned retrieval instead of similarity search: rat
 Visual question-answering systems are increasingly showing up in search, assistants, and document processing. As long as those systems confuse "looks like" with "is," they'll keep failing exactly where accuracy matters most — on rare, specific cases, not on the generic cats and cars that are easy to get right.
 
 
+----- 05-deepseek-harness (ai) — source: https://github.com/deepseek-ai/deepseek-harness -----
+
+## Русская версия
+
+DeepSeek выпустила [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) — открытый фреймворк для ИИ-агентов, построенный на архитектуре «всё — это плагин» поверх внутреннего движка Cordis. За последние сутки репозиторий прибавил 1 521 звезду и перевалил за 210 тысяч — сейчас у проекта 211,3 тысячи звёзд, 24,7 тысячи форков и почти 15 тысяч коммитов в основной ветке.
+
+Идея фреймворка простая: вместо монолитного агента с зашитой логикой — ядро плюс экосистема плагинов, которые можно ставить, комбинировать и публиковать под тегом `dsh-plugin`. Поставить и запустить можно одной командой (`npx @deepseek-ai/dsh web`), после чего открывается веб-интерфейс на локальном порту. Проект пока в статусе developer preview: авторы честно предупреждают, что архитектура может меняться и обратная совместимость не гарантирована.
+
+Лицензия — MIT, что для DeepSeek уже привычная практика: компания системно публикует свои инструменты как открытый код, в отличие от многих конкурентов, которые держат agent-обвязку внутри закрытых продуктов. На фоне того, что в последние дни в трендах GitHub одновременно оказались несколько репозиториев про «навыки» и «плагины» для агентов, выход харнесса от DeepSeek — ещё один сигнал, что крупные лаборатории делают ставку не столько на саму модель, сколько на архитектуру вокруг неё.
+
+### Почему это важно
+
+Когда модель одна и та же (или почти одна), конкуренция смещается в обвязку: кто предложит агенту более удобную, расширяемую и открытую платформу. DeepSeek с её историей открытых релизов имеет здесь фору — и почти четверть миллиона звёзд за короткое время показывают, что спрос на такую инфраструктуру уже есть, а не только предполагается.
+
+## English version
+
+DeepSeek has released [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`), an open-source agent framework built on an "everything is a plugin" architecture running on its internal Cordis engine. The repository gained 1,521 stars in the last 24 hours alone, crossing 210,000 — it now sits at 211,300 stars, 24,700 forks, and nearly 15,000 commits on its main branch.
+
+The pitch is simple: instead of a monolithic agent with hardcoded logic, there's a core plus an ecosystem of plugins that can be installed, combined, and published under the `dsh-plugin` tag. Getting started takes one command (`npx @deepseek-ai/dsh web`), which opens a web UI on a local port. The project is still labeled developer preview, and the maintainers are upfront that the architecture may change with breaking updates.
+
+It ships under the MIT license, consistent with DeepSeek's pattern of releasing tools as open source rather than keeping agent tooling locked inside closed products, unlike many competitors. The timing lines up with several other "skills" and "plugin" repositories for agents trending on GitHub the same week — another sign that major labs are competing less on the model itself and more on the scaffolding built around it.
+
+### Why it matters
+
+When the underlying model is roughly the same across labs, competition shifts to tooling: whoever offers agents a more flexible, extensible, open platform wins developer mindshare. DeepSeek's track record of open releases gives it an edge here, and gaining a quarter-million stars this fast shows the demand for that kind of infrastructure is already real, not just theoretical.
+
+
+----- 06-ponytail-lazy-senior-dev (tech) — source: https://github.com/DietrichGebert/ponytail -----
+
+## Русская версия
+
+Репозиторий [ponytail](https://github.com/DietrichGebert/ponytail) за сутки прибавил почти 2 000 звёзд и сейчас держит 122,4 тысячи — с ростом на 1 977 звёзд и 6 614 форками. Это плагин для ИИ-кодинг-агентов (Claude Code, Codex, GitHub Copilot CLI, Cursor, Windsurf и ещё полтора десятка платформ), который встраивает в агента философию «ленивого синьора»: прежде чем писать новый код, агент обязан пройти по «лестнице решений» — проверить, нет ли готового ответа в уже подключённых зависимостях, стандартной библиотеке или самой платформе.
+
+Девиз проекта — «лучший код тот, который вы никогда не писали». Авторы описывают архетип агента цитатой: «Он ничего не говорит. Он пишет одну строку. Она работает» — и утверждают, что в реальных задачах плагин даёт 54% сокращение объёма сгенерированного кода и экономию 20% на стоимости токенов, не жертвуя при этом валидацией, обработкой ошибок и безопасностью. У плагина четыре режима интенсивности (lite, full, ultra, off) и набор команд для аудита существующего кода на предмет технического долга — `/ponytail-audit`, `/ponytail-debt`, `/ponytail-review`.
+
+Идея бьёт по узнаваемой проблеме: агенты по умолчанию склонны переписывать вместо того, чтобы переиспользовать, — плодят обёртки вокруг уже существующих функций просто потому, что «так проще сгенерировать». Заявленные цифры пока не проверены независимо — это данные самих авторов, а не отдельное бенчмарк-исследование.
+
+### Почему это важно
+
+Стоимость агентной разработки считается не только в деньгах на API, но и в объёме кода, который потом придётся поддерживать человеку. Если подобные плагины действительно режут лишний код на десятки процентов, это не просто экономия токенов — это меньше технического долга на выходе, а значит и меньше причин потом жалеть о том, что задачу отдали агенту.
+
+## English version
+
+The [ponytail](https://github.com/DietrichGebert/ponytail) repository gained almost 2,000 stars in a day and now sits at 122,400 — up 1,977 stars, with 6,614 forks. It's a plugin for AI coding agents (Claude Code, Codex, GitHub Copilot CLI, Cursor, Windsurf, and more than a dozen other platforms) that bakes in a "lazy senior developer" philosophy: before writing new code, the agent has to work through a decision ladder — check whether a solution already exists in installed dependencies, the standard library, or the native platform.
+
+The project's tagline is "the best code is the code you never wrote." Its authors describe the archetype they're aiming for with a quote: "He says nothing. He writes one line. It works." They claim real-world testing shows a 54% reduction in generated code volume and 20% savings on token costs, without sacrificing validation, error handling, or security. The plugin ships with four intensity modes (lite, full, ultra, off) and dedicated commands for auditing existing code for technical debt — `/ponytail-audit`, `/ponytail-debt`, `/ponytail-review`.
+
+The pitch targets a familiar failure mode: agents left to their own devices tend to rewrite rather than reuse, wrapping new functions around code that already does the job simply because generating something new is the path of least resistance. The claimed numbers come from the project's own testing, not an independent benchmark, so they haven't been verified by a third party.
+
+### Why it matters
+
+The cost of agentic coding isn't only measured in API spend — it's also measured in how much code a human eventually has to maintain. If plugins like this genuinely cut generated code by double-digit percentages, that's not just a token-cost saving; it's less technical debt on the other end, and one less reason to regret handing a task to an agent in the first place.
+
+
+----- 07-fanqiang-github-trending (world) — source: https://github.com/bannedbook/fanqiang -----
+
+## Русская версия
+
+Репозиторий [fanqiang](https://github.com/bannedbook/fanqiang) («翻墙» — «перелезть через стену») занял 11-е место в трендах GitHub, добавив за сутки 539 звёзд и в сумме собрав 52,3 тысячи звёзд, 8,5 тысячи форков и 335 открытых issue. Это не отдельная программа, а собранная в одном месте библиотека гайдов и готовых сборок под Windows, macOS, iOS, Android, Linux и роутеры, плюс преднастроенные версии браузеров и клиенты для нескольких протоколов туннелирования.
+
+Проект существует не первый год, но именно сейчас снова попал в топ трендов — рядом со свежими репозиториями про ИИ-агентов и модели. Авторы описывают распространение инструмента формулой «свободно распространяйте, не используйте в коммерческих целях» и держат отдельный Telegram-канал для обратной связи с пользователями. Ни в дайджесте, ни на странице репозитория нет данных о том, что именно спровоцировало всплеск интереса именно сегодня — цифры говорят только о самом факте роста.
+
+Попадание такого инструмента в общий тренд GitHub — редкость: обычно верхние строчки занимают проекты про фреймворки, модели и SDK. Всплеск интереса к инструментам обхода блокировок обычно совпадает с ужесточением цензуры в какой-то части мира, но подтвердить или опровергнуть эту связь по имеющимся данным нельзя.
+
+### Почему это важно
+
+GitHub trending обычно читают как барометр интересов разработчиков — что нового в ИИ, какой фреймворк выстрелил. Когда в этот список неожиданно врывается инструмент для обхода цензуры, это сигнал о том, что где-то в мире прямо сейчас растёт спрос на свободный доступ к интернету, и открытый код продолжает оставаться одним из немногих работающих ответов на блокировки.
+
+## English version
+
+The [fanqiang](https://github.com/bannedbook/fanqiang) repository — its name translates roughly as "climb over the wall" — landed at #11 on GitHub's trending page, adding 539 stars in a single day and now totaling 52,300 stars, 8,500 forks, and 335 open issues. It isn't a single app but a curated library of guides and ready-made builds for Windows, macOS, iOS, Android, Linux, and routers, alongside preconfigured browser packages and clients for several tunneling protocols.
+
+The project has existed for years, but it resurfaced on the trending list right alongside a wave of fresh AI-agent and model repositories. Its maintainers describe distribution terms as "freely distribute, do not use for commercial purposes" and run a dedicated Telegram channel for user feedback. Neither the source digest nor the repository page explains what specifically drove today's spike — the numbers only confirm that a spike happened.
+
+A censorship-circumvention toolkit reaching general GitHub trending is unusual; that list is normally dominated by frameworks, models, and SDKs. Spikes in interest around circumvention tools typically track tightening internet restrictions somewhere in the world, but the available data here can't confirm or rule out that connection.
+
+### Why it matters
+
+GitHub's trending page usually reads as a barometer of what developers care about — the newest AI framework, the model everyone's testing. When a censorship-circumvention toolkit breaks into that list, it's a sign that demand for unrestricted internet access is rising somewhere right now, and open-source code remains one of the few tools that still works against it.
+
+
+----- 08-zero-data-crs (science) — source: https://huggingface.co/papers/2504.15476 -----
+
+## Русская версия
+
+Диалоговые рекомендательные системы (CRS) — это боты, которые не просто выдают список товаров или фильмов по запросу, а ведут с пользователем разговор, уточняя вкусы и сужая выбор. Проблема в том, что обучить такого бота обычно можно только на специально размеченных диалогах для конкретного домена — а такие данные дорогие, редкие и почти никогда не существуют для новой предметной области. Команда авторов — Рохан Сурана, Джунда Ву, Чжоуханг Се, Ю Ся, Натан Каллус и другие — опубликовала работу [«An Empirical Study on Zero-Data Bootstrapping for Conversational Recommender Systems»](https://huggingface.co/papers/2504.15476), где систематически проверяют, насколько CRS вообще способны работать без единого обучающего диалога, полагаясь только на существующие возможности больших языковых моделей.
+
+Сама постановка вопроса важна для практики: компании, которые хотят запустить диалогового рекомендателя в новой нише — от подбора вина до подбора репетитора, — сегодня либо тратятся на разметку данных с нуля, либо просто отказываются от идеи. Авторы систематически исследуют, где именно в этой цепочке (понимание запроса, уточняющие вопросы, финальная рекомендация) zero-data подход справляется, а где начинает давать сбои. Конкретных цифр по итоговому качеству в доступном описании работы авторы не приводят — это скорее картирование проблемы, чем готовый рецепт с гарантированным приростом метрик.
+
+Такие эмпирические работы редко попадают в заголовки, но именно они определяют, стоит ли бизнесу вообще пытаться разворачивать CRS без разметки — или проще подождать, пока появится более зрелый метод.
+
+### Почему это важно
+
+Если окажется, что диалоговые рекомендатели действительно можно бутстрапить без данных, это резко снижает порог входа для маленьких компаний и нишевых сервисов — не нужно будет нанимать разметчиков и собирать тысячи диалогов, чтобы запустить работающего рекомендательного бота.
+
+## English version
+
+Conversational recommender systems (CRS) are bots that don't just spit out a list of products or movies on request — they hold an actual conversation, asking clarifying questions and narrowing down preferences. The catch is that training one usually requires domain-specific labeled dialogue data, which is expensive, scarce, and almost never exists for a brand-new domain. A team of researchers — Rohan Surana, Junda Wu, Zhouhang Xie, Yu Xia, Nathan Kallus, and others — published [«An Empirical Study on Zero-Data Bootstrapping for Conversational Recommender Systems»](https://huggingface.co/papers/2504.15476), systematically testing how far CRS can go with zero training dialogues, relying only on what large language models already know.
+
+The question matters in practice: a company that wants to launch a conversational recommender in a new niche — wine pairing, tutor matching, whatever it is — today either pays to build a labeled dataset from scratch or drops the idea. The authors map out, step by step (query understanding, clarifying questions, the final recommendation), exactly where a zero-data approach holds up and where it breaks down. The available description of the work doesn't give final quality numbers — this reads as a systematic mapping of the problem rather than a recipe with guaranteed metric gains.
+
+Empirical studies like this rarely make headlines, but they're exactly what determines whether a business should even attempt a data-free CRS deployment or wait for a more mature method to show up.
+
+### Why it matters
+
+If conversational recommenders really can be bootstrapped without training data, that sharply lowers the barrier to entry for small companies and niche services — no need to hire annotators and collect thousands of dialogues just to get a working recommendation bot off the ground.
+
+
 ===== EDITION 1 — 2026-09-03 =====
 
 ## От редакции

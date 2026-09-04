@@ -15,3 +15,19 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Not "looks like" but "is that": teaching AI to recognize rare objects in photos / Не «похоже», а «то самое»: как научить ИИ узнавать редкие объекты на фото
 rubric: ai · source: https://huggingface.co/papers/2608.21450
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-04/04-entity-aligned-vqa.md
+
+## DeepSeek ships its own agent framework — and it already has 211,000 stars / DeepSeek выкатила свой agent-фреймворк — и сразу с 211 тысячами звёзд
+rubric: ai · source: https://github.com/deepseek-ai/deepseek-harness
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-04/05-deepseek-harness.md
+
+## A plugin teaches AI agents to think like a "lazy senior dev": 54% less code / Плагин учит ИИ-агентов думать как «ленивый синьор»: минус 54% кода
+rubric: tech · source: https://github.com/DietrichGebert/ponytail
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-04/06-ponytail-lazy-senior-dev.md
+
+## A censorship-circumvention toolkit jumps into GitHub's top 11 trending repos / Сборник инструментов для обхода цензуры взлетел в топ-11 трендов GitHub
+rubric: world · source: https://github.com/bannedbook/fanqiang
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-04/07-fanqiang-github-trending.md
+
+## Can you teach a recommendation bot to hold a conversation without a single example dialogue / Можно ли научить рекомендательного бота вести диалог без единого примера диалога
+rubric: science · source: https://huggingface.co/papers/2504.15476
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-04/08-zero-data-crs.md

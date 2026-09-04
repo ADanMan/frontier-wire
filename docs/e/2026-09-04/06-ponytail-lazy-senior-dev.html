@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Плагин учит ИИ-агентов думать как «ленивый синьор»: минус 54% кода - frontier-wire</title>
+<meta name="description" content="Ponytail makes an agent check for an existing solution before writing anything — its authors claim a 54% cut in generated code and 20% savings on tokens.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-04/06-ponytail-lazy-senior-dev.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "A plugin teaches AI agents to think like a \"lazy senior dev\": 54% less code", "alternativeHeadline": "Плагин учит ИИ-агентов думать как «ленивый синьор»: минус 54% кода", "datePublished": "2026-09-04", "inLanguage": ["ru", "en"], "isBasedOn": "https://github.com/DietrichGebert/ponytail", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-04/06-ponytail-lazy-senior-dev.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-09-04 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Плагин учит ИИ-агентов думать как «ленивый синьор»: минус 54% кода</span><span class="lang-en">A plugin teaches AI agents to think like a &quot;lazy senior dev&quot;: 54% less code</span></h1>
+  <p class="dek big"><span class="lang-ru">Ponytail заставляет агента сперва искать готовое решение и только потом писать код — авторы заявляют о 54% сокращении объёма генерируемого кода и экономии 20% на токенах.</span><span class="lang-en">Ponytail makes an agent check for an existing solution before writing anything — its authors claim a 54% cut in generated code and 20% savings on tokens.</span></p>
+  
+  <div class="prose lang-ru"><p>Репозиторий <a href="https://github.com/DietrichGebert/ponytail">ponytail</a> за сутки прибавил почти 2 000 звёзд и сейчас держит 122,4 тысячи — с ростом на 1 977 звёзд и 6 614 форками. Это плагин для ИИ-кодинг-агентов (Claude Code, Codex, GitHub Copilot CLI, Cursor, Windsurf и ещё полтора десятка платформ), который встраивает в агента философию «ленивого синьора»: прежде чем писать новый код, агент обязан пройти по «лестнице решений» — проверить, нет ли готового ответа в уже подключённых зависимостях, стандартной библиотеке или самой платформе.</p>
+<p>Девиз проекта — «лучший код тот, который вы никогда не писали». Авторы описывают архетип агента цитатой: «Он ничего не говорит. Он пишет одну строку. Она работает» — и утверждают, что в реальных задачах плагин даёт 54% сокращение объёма сгенерированного кода и экономию 20% на стоимости токенов, не жертвуя при этом валидацией, обработкой ошибок и безопасностью. У плагина четыре режима интенсивности (lite, full, ultra, off) и набор команд для аудита существующего кода на предмет технического долга — <code>/ponytail-audit</code>, <code>/ponytail-debt</code>, <code>/ponytail-review</code>.</p>
+<p>Идея бьёт по узнаваемой проблеме: агенты по умолчанию склонны переписывать вместо того, чтобы переиспользовать, — плодят обёртки вокруг уже существующих функций просто потому, что «так проще сгенерировать». Заявленные цифры пока не проверены независимо — это данные самих авторов, а не отдельное бенчмарк-исследование.</p>
+<h3>Почему это важно</h3>
+<p>Стоимость агентной разработки считается не только в деньгах на API, но и в объёме кода, который потом придётся поддерживать человеку. Если подобные плагины действительно режут лишний код на десятки процентов, это не просто экономия токенов — это меньше технического долга на выходе, а значит и меньше причин потом жалеть о том, что задачу отдали агенту.</p></div>
+  <div class="prose lang-en"><p>The <a href="https://github.com/DietrichGebert/ponytail">ponytail</a> repository gained almost 2,000 stars in a day and now sits at 122,400 — up 1,977 stars, with 6,614 forks. It's a plugin for AI coding agents (Claude Code, Codex, GitHub Copilot CLI, Cursor, Windsurf, and more than a dozen other platforms) that bakes in a "lazy senior developer" philosophy: before writing new code, the agent has to work through a decision ladder — check whether a solution already exists in installed dependencies, the standard library, or the native platform.</p>
+<p>The project's tagline is "the best code is the code you never wrote." Its authors describe the archetype they're aiming for with a quote: "He says nothing. He writes one line. It works." They claim real-world testing shows a 54% reduction in generated code volume and 20% savings on token costs, without sacrificing validation, error handling, or security. The plugin ships with four intensity modes (lite, full, ultra, off) and dedicated commands for auditing existing code for technical debt — <code>/ponytail-audit</code>, <code>/ponytail-debt</code>, <code>/ponytail-review</code>.</p>
+<p>The pitch targets a familiar failure mode: agents left to their own devices tend to rewrite rather than reuse, wrapping new functions around code that already does the job simply because generating something new is the path of least resistance. The claimed numbers come from the project's own testing, not an independent benchmark, so they haven't been verified by a third party.</p>
+<h3>Why it matters</h3>
+<p>The cost of agentic coding isn't only measured in API spend — it's also measured in how much code a human eventually has to maintain. If plugins like this genuinely cut generated code by double-digit percentages, that's not just a token-cost saving; it's less technical debt on the other end, and one less reason to regret handing a task to an agent in the first place.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://github.com/DietrichGebert/ponytail">https://github.com/DietrichGebert/ponytail</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
