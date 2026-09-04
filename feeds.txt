@@ -50,6 +50,23 @@ https://blog.google/technology/ai/rss/
 https://deepmind.google/blog/rss.xml
 https://magazine.sebastianraschka.com/feed
 
+# ── niche pool: universal non-AI lanes (open-network only) ─────────
+https://www.atlasobscura.com/feeds/latest        # странные места и истории
+https://www.smashingmagazine.com/feed/           # веб-дизайн
+https://www.dezeen.com/feed/                     # архитектура и дизайн
+https://pitchfork.com/feed/feed-news/rss         # музыка
+https://www.seriouseats.com/rss                  # еда, кулинарная наука
+https://www.hakaimagazine.com/feed/              # океаны и побережья
+https://www.bldgblog.com/feed/                   # урбанизм и пространство
+https://www.chess.com/rss/news                   # шахматы
+https://simpleflying.com/feed/                   # авиация
+https://www.gamedeveloper.com/rss.xml            # геймдев
+https://restofworld.org/feed/latest/             # техножизнь вне Запада
+https://worksinprogress.co/feed/                 # прогресс и институции
+https://www.historytoday.com/feed/rss.xml        # история
+https://nautil.us/feed/                          # наука как эссеистика
+https://www.themarginalian.org/feed/             # идеи и книги
+
 # ── culture & ideas (open-network only) ────────────────────────────
 https://aeon.co/feed.rss
 https://www.smithsonianmag.com/rss/latest_articles/

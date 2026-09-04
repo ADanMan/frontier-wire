@@ -51,7 +51,7 @@ UA = "frontier-wire-digest/1.0 (+https://github.com/ADanMan/frontier-wire)"
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 MAX_PER_FEED = 4     # newest N entries kept per feed
-MAX_FEED_ITEMS = 80  # overall cap across all feeds
+MAX_FEED_ITEMS = 120  # overall cap across all feeds
 MAX_IMAGES = 20      # how many feed items to probe for an og:image URL
 
 # og:image / twitter:image, both attribute orders.

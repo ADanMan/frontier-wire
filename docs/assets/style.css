@@ -1,6 +1,6 @@
 /* frontier-wire — neubrutalist newspaper. yellow / pink / black. */
 :root{
-  --bg:#FAF8F9; --ink:#191216; --yellow:#FFD900; --pink:#F0257F;
+  --bg:#FBFAF7; --ink:#191216; --yellow:#EFC127; --pink:#D6336C;
   --paper:#FFFFFF; --border:3px solid var(--ink);
   --shadow:6px 6px 0 var(--ink); --shadow-sm:4px 4px 0 var(--ink);
   --font-d:'Space Grotesk',system-ui,sans-serif;
@@ -9,7 +9,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-b);line-height:1.6;
-  background-image:radial-gradient(rgba(240,37,127,.14) 1px,transparent 1px);background-size:22px 22px;background-attachment:fixed}
+  background-image:radial-gradient(rgba(23,20,26,.10) 1px,transparent 1px) 1px,transparent 1px);background-size:22px 22px;background-attachment:fixed}
 a{color:var(--ink);text-decoration-thickness:2px;text-underline-offset:3px}
 a:hover{background:var(--yellow)}
 img{max-width:100%}
@@ -43,7 +43,7 @@ main{max-width:1100px;margin:0 auto;padding:clamp(1.2rem,4vw,3rem)}
 /* edition head */
 .kicker{font-family:var(--font-d);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.9rem}
 .edition-head{margin-bottom:2.2rem}
-.editorial{border:var(--border);background:var(--yellow);box-shadow:var(--shadow);
+.editorial{border:var(--border);border-left:14px solid var(--yellow);background:var(--paper);box-shadow:var(--shadow);
   padding:1.2rem 1.5rem;max-width:52rem;font-size:1.08rem}
 .editorial p:first-child{margin-top:0}.editorial p:last-child{margin-bottom:0}
 .page-title{font-family:var(--font-d);font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.03em}
