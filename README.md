@@ -10,21 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №1 / Edition №1 — 2026-09-03** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №2 / Edition №2 — 2026-09-04** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [ChatGPT, Grok и Claude легли одновременно — и это неудобный вопрос](editions/2026/09-03/01-ai-outage.md)
-- **[ИИ]** [OpenAI назвала собственную модель критическим киберриском](editions/2026/09-03/02-astra-cybersecurity.md)
-- **[Технологии]** [Google говорит, что её погодный ИИ стал точнее](editions/2026/09-03/03-google-weather-ai.md)
-- **[Технологии]** [Репозиторий Anthropic со «скиллами» для агентов взлетел в топ GitHub](editions/2026/09-03/04-anthropic-skills-github.md)
-- **[Наука]** [У Сатурна нашли десятиугольник на южном полюсе](editions/2026/09-03/05-saturn-decagon.md)
-- **[Мир]** [30 танкеров в день через Ормузский пролив? Данные так не считают](editions/2026/09-03/06-hormuz-oil-data.md)
-- **[Культура]** [Погоне на паровозе Бастера Китона — сто лет](editions/2026/09-03/07-buster-keaton-100.md)
-- **[ИИ]** [Anthropic публикует системные промпты Claude — и там неожиданно много про тексты песен](editions/2026/09-03/08-claude-system-prompt-lyrics.md)
-- **[Мир]** [Жертвы бойни в Шарпевиле спустя 66 лет требуют компенсации от властей ЮАР](editions/2026/09-03/09-sharpeville-massacre-compensation.md)
-- **[Наука]** [Учёные впервые сфотографировали архею-«археарда» в тесной связке с бактерией](editions/2026/09-03/10-asgard-archaeon-living-fossils.md)
-- **[Технологии]** [Взял машину в аренду — через несколько часов его права продавали на даркнет-сайте](editions/2026/09-03/11-drivers-license-breach.md)
-- **[Мир]** [Почти половина фермеров мира каждый год травится пестицидами, показало исследование](editions/2026/09-03/12-pesticide-poisoning-farmers.md)
-- **[Культура]** [Умерла Глория Стайнем — журналистка, изменившая представление о том, какой может быть женщина](editions/2026/09-03/13-gloria-steinem-obituary.md)
+- **[Технологии]** [«Skills» для ИИ-агентов ворвались в тренды GitHub — сразу два репозитория](editions/2026/09-04/01-agent-skills-github-trend.md)
+- **[ИИ]** [Миллиарды токенов из старых газет: как ИИ учится на архивах](editions/2026/09-04/02-newspapers-pipeline-tokens.md)
+- **[ИИ]** [Судьи для ИИ-агентов сами не проходили экзамен](editions/2026/09-04/03-agentjudgebench.md)
+- **[ИИ]** [Не «похоже», а «то самое»: как научить ИИ узнавать редкие объекты на фото](editions/2026/09-04/04-entity-aligned-vqa.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

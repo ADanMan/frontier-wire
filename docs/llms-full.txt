@@ -2,6 +2,125 @@
 
 
 
+===== EDITION 2 — 2026-09-04 =====
+
+## От редакции
+
+Сегодняшний день пахнет инфраструктурой, а не громкими анонсами: две независимые команды выкатили репозитории с «навыками» для ИИ-агентов, и оба тут же попали в тренды GitHub. Исследователи тем временем разбираются, кто и как проверяет качество самих агентов — и откуда вообще брать данные для их обучения, вплоть до столетних газетных архивов. Никаких прорывов на первых полосах, зато честный срез того, чем индустрия занята между релизами.
+
+## Editorial
+
+Today reads like infrastructure day rather than headline day: two unrelated teams shipped "skills" repositories for AI agents, and both landed on GitHub's trending page within hours of each other. Researchers, meanwhile, are asking who grades the graders — the LLM judges scoring other agents — and where training data comes from, down to century-old newspaper archives. No splashy launches, just an honest cross-section of what the industry works on between releases.
+
+
+----- 01-agent-skills-github-trend (tech) — source: https://github.com/anthropics/skills -----
+
+## Русская версия
+
+Репозиторий [anthropics/skills](https://github.com/anthropics/skills) за один день набрал 277 звёзд и с ходу занял 5-е место в трендах GitHub как новая запись. Это публичный набор «навыков» для ИИ-агентов — по сути, готовых пакетов инструкций и инструментов, которые агент может подгрузить под конкретную задачу, вместо того чтобы держать всё в системном промпте.
+
+В тот же день на 12-й строке трендов оказался ещё один проект на ту же тему — [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), заявленный как «продакшен-грейд инженерные навыки для ИИ-кодинг-агентов» и собравший 260 звёзд за сутки. Авторы никак не связаны друг с другом, но идея у обоих одна: агент работает лучше, если у него есть не общая инструкция «будь полезным», а конкретный, проверяемый набор шагов под конкретный тип задач — ревью кода, работа с определённым фреймворком, дебаг конкретного класса ошибок.
+
+Сам по себе паттерн не новый — модульные промпты и «плагины для ассистентов» пытались делать и раньше. Но совпадение по времени двух независимых репозиториев в топе трендов — неплохой индикатор того, что индустрия параллельно нащупывает один и тот же формат: не «более умная модель», а более структурированная обвязка вокруг уже существующей. Дигест не даёт данных о том, кто и как эти навыки уже использует в проде — судить об этом рано.
+
+### Почему это важно
+
+Когда два независимых проекта с похожей идеей одновременно взлетают в трендах, это обычно значит не «мода», а то, что индустрия нашла реальную боль и предлагает на неё похожий ответ. Стоит присматриваться к формату «skills» — он может стать таким же стандартным слоем в агентных системах, каким когда-то стали плагины для браузеров.
+
+## English version
+
+The [anthropics/skills](https://github.com/anthropics/skills) repository picked up 277 stars in a single day and debuted at #5 on GitHub's trending page. It's a public collection of "skills" for AI agents — packaged sets of instructions and tools an agent can load for a specific task instead of cramming everything into a system prompt.
+
+The same day, another project built on the same idea showed up at #12: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), billed as "production-grade engineering skills for AI coding agents," gained 260 stars in 24 hours. The two authors aren't connected, but the pitch is identical: an agent performs better with a concrete, checkable set of steps for a specific job — code review, working with a particular framework, debugging a specific class of bug — rather than a vague "be helpful" instruction.
+
+The pattern itself isn't new; modular prompts and "assistant plugins" have been tried before. But two unrelated repositories hitting the trending page on the same day is a decent signal that the industry is converging on the same shape of answer independently — not a smarter model, but more structured scaffolding around the model that already exists. The available data doesn't say who's actually running these skills in production yet, so it's too early to call this more than a trend.
+
+### Why it matters
+
+When two unrelated projects built on the same idea trend at the same time, that's usually not fashion — it means the industry found a real pain point and is converging on a similar fix. The "skills" pattern is worth watching; it could become as standard a layer in agentic systems as browser plugins once did.
+
+
+----- 02-newspapers-pipeline-tokens (ai) — source: https://huggingface.co/papers/2608.18972 -----
+
+## Русская версия
+
+Группа авторов во главе с Маттео Каргнелутти опубликовала работу [«Institutional Newspapers Pipeline»](https://huggingface.co/papers/2608.18972) — конвейер, который извлекает из архивов исторических газет миллиарды качественных токенов для обучения языковых моделей. В числе соавторов — Кэтрин Бробстон, Эбен Инглиш, Джейк Сэдоу, Кейси Бейли и другие.
+
+Проблема, которую решают авторы, звучит просто, а на деле упирается в детали: старые газеты — это огромный и малоиспользуемый архив живой речи и общественной жизни, но их плотная, нерегулярная и часто зашумлённая вёрстка делает компьютерную обработку таких материалов сложной и ограниченной задачей. Колонки наезжают друг на друга, шрифты плывут от скана к скану, OCR путает заголовки с подписями к фотографиям — извлечь из этого читаемый связный текст в промышленных масштабах не так тривиально, как кажется.
+
+Именно это авторы и предлагают решить конвейером, который доводит необработанные сканы до чистых, пригодных для обучения текстов в объёме миллиардов токенов. Для индустрии, которая всё чаще упирается в дефицит качественных данных для обучения новых моделей, архивы библиотек и институтов — один из немногих ещё не выработанных источников, и эта работа — конкретный шаг к тому, чтобы сделать его пригодным для использования.
+
+### Почему это важно
+
+Гонка за данными для обучения ИИ давно вышла за пределы интернета в его нынешнем виде — компании и исследователи всё активнее смотрят на архивы, которые раньше были доступны разве что историкам с лупой в читальном зале. Если такие конвейеры заработают массово, качество и разнообразие обучающих данных может вырасти не за счёт новых источников в сети, а за счёт того, что уже давно лежит на бумаге.
+
+## English version
+
+A team led by Matteo Cargnelutti published [the "Institutional Newspapers Pipeline" paper](https://huggingface.co/papers/2608.18972), describing a pipeline that extracts billions of high-quality tokens from historical newspaper archives for training language models. Co-authors include Catherine Brobston, Eben English, Jake Sadow, Kacie Bailey, and others.
+
+The problem they're tackling sounds simple but hides in the details: historical newspapers are an abundant record of public life and everyday language, but their dense, irregular, and often noisy layouts make computational access to these materials both challenging and limited. Columns bleed into each other, fonts drift from scan to scan, and OCR routinely confuses headlines with photo captions — turning that into clean, coherent text at scale is harder than it looks.
+
+That's exactly what the pipeline is built to fix, turning raw scans into training-ready text at a scale measured in billions of tokens. For an industry increasingly running into a shortage of quality training data, library and institutional archives are one of the few genuinely untapped sources left, and this work is a concrete step toward making them usable.
+
+### Why it matters
+
+The race for AI training data has already moved past the open internet as it exists today — companies and researchers are looking harder at archives that used to be accessible mostly to historians with a magnifying glass in a reading room. If pipelines like this scale up, the next gains in training-data quality and diversity may come not from new sources online, but from what's already been sitting on paper for a century.
+
+
+----- 03-agentjudgebench (ai) — source: https://huggingface.co/papers/2608.26623 -----
+
+## Русская версия
+
+Абхигья Верма, Амит Кумар Саха, Сегнарасан Субраманиан и Сай Харшита Алуру опубликовали работу [«AgentJudgeBench»](https://huggingface.co/papers/2608.26623) — первый, по их словам, бенчмарк, который проверяет надёжность LLM-«судей» на структурированных, зависимых друг от друга агентных задачах разной сложности.
+
+Суть проблемы в том, что LLM-судьи давно и широко используются для оценки агентных систем с вызовом инструментов — по сути, одна модель проверяет работу другой вместо дорогой и медленной ручной разметки. Но насколько эти судьи вообще надёжны на реалистичных, «многошаговых» сценариях, где один вызов инструмента зависит от результата предыдущего, авторы называют largely unexamined — то есть почти не изученным вопросом. Это довольно неудобное признание для целой индустрии, которая уже встроила автоматических судей в свои процессы оценки.
+
+AgentJudgeBench устроен как набор задач разной сложности специально для того, чтобы найти границу, на которой судьи-модели начинают ошибаться. Дигест не раскрывает конкретных цифр точности из работы — но сама постановка вопроса важнее любого отдельного числа: индустрия строит целые пайплайны оценки на инструменте, чью надёжность на сложных сценариях до сих пор толком не проверяли.
+
+### Почему это важно
+
+Если методология «одна модель судит другую» станет стандартом контроля качества для агентных систем, тем важнее знать, где она даёт сбой. Бенчмарк, который честно ищет слепые пятна LLM-судей, — не менее ценен, чем очередная модель с рекордом на лидерборде.
+
+## English version
+
+Abhigya Verma, Amit Kumar Saha, Seganrasan Subramanian, and Sai Harshitha Aluru published [the "AgentJudgeBench" paper](https://huggingface.co/papers/2608.26623), describing what they call the first benchmark testing how reliable LLM judges are on structured, dependency-driven agentic tasks across multiple difficulty levels.
+
+The problem is that LLM judges are already widely used to evaluate agentic tool-calling systems — one model checking another's work, instead of slow and expensive manual review. But how reliable those judges actually are on realistic, multi-step scenarios, where one tool call depends on the result of the last, is what the authors describe as "largely unexamined." That's an uncomfortable admission for an industry that has already built automatic judging into its evaluation pipelines.
+
+AgentJudgeBench is structured as a set of tasks spanning difficulty levels specifically to find where judge models start getting things wrong. The available material doesn't include the paper's actual accuracy numbers, but the framing matters more than any single figure: the industry is building whole evaluation pipelines on a tool whose reliability on hard, structured scenarios hadn't really been tested until now.
+
+### Why it matters
+
+If "one model judges another" becomes the standard quality check for agentic systems, it matters a lot where that check breaks down. A benchmark that honestly hunts for the blind spots of LLM judges is worth as much attention as another model topping a leaderboard.
+
+
+----- 04-entity-aligned-vqa (ai) — source: https://huggingface.co/papers/2608.21450 -----
+
+## Русская версия
+
+Ханруй Сюй, Чжэнсянь У, Юньяо Юй, Чжохун Чэнь, Жуй Кун и соавторы опубликовали работу [«Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering»](https://huggingface.co/papers/2608.21450), посвящённую задаче «визуальных вопросов на основе знаний» (KB-VQA) — когда системе нужно ответить не просто «что на картинке», а что-то, требующее внешних знаний о конкретной, редко встречающейся сущности.
+
+Авторы указывают на слабое место существующих подходов: большинство систем поиска для таких вопросов опираются на модели вроде CLIP, которые ищут изображения, похожие визуально, а не сущности, совпадающие фактически. Проблема в том, что визуальное сходство и фактическое совпадение — разные вещи. Два разных здания могут выглядеть архитектурно похожими, но быть совершенно разными объектами с разной историей; система, ищущая «похожее», в таком случае система найдёт не то, что нужно.
+
+Решение, которое предлагают авторы, — «выравнивание по сущностям» вместо поиска по визуальному сходству: вместо того чтобы искать картинки, похожие на данную, система пытается напрямую сопоставить объект на фото с конкретной сущностью в базе знаний. Особенно это должно помочь с «длинным хвостом» — редкими объектами, которых мало в обучающих данных и которые визуальное сходство склонно путать с чем-то более распространённым.
+
+### Почему это важно
+
+Системы, которые отвечают на вопросы по изображениям, всё активнее используют в поиске, ассистентах и обработке документов. Пока такие системы путают «похоже» с «то же самое», они будут ошибаться именно там, где точность важнее всего — на редких, специфичных случаях, а не на типовых котиках и автомобилях, на которых легко получить хороший результат.
+
+## English version
+
+Hangrui Xu, Zhengxian Wu, Yunyao Yu, Zhuohong Chen, Rui Cong, and co-authors published [the "Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering" paper](https://huggingface.co/papers/2608.21450), tackling knowledge-based visual question answering (KB-VQA) — questions that require external knowledge about a specific, often rare entity, not just a description of what's in a photo.
+
+The authors point to a weak spot in existing systems: most retrieval pipelines for this task rely on CLIP-style models, which retrieve images that look visually similar rather than entities that actually match. The problem is that visual similarity and factual identity aren't the same thing. Two different buildings can look architecturally alike while being completely different landmarks with different histories; a system searching for "similar-looking" images will retrieve the wrong one.
+
+Their proposed fix is entity-aligned retrieval instead of similarity search: rather than looking for images that resemble the query, the system tries to match the object in the photo directly to a specific entity in a knowledge base. That should matter most for the long tail — rare objects underrepresented in training data, which visual-similarity search tends to confuse with something more common.
+
+### Why it matters
+
+Visual question-answering systems are increasingly showing up in search, assistants, and document processing. As long as those systems confuse "looks like" with "is," they'll keep failing exactly where accuracy matters most — on rare, specific cases, not on the generic cats and cars that are easy to get right.
+
+
 ===== EDITION 1 — 2026-09-03 =====
 
 ## От редакции

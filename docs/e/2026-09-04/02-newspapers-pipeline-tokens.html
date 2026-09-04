@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Миллиарды токенов из старых газет: как ИИ учится на архивах - frontier-wire</title>
+<meta name="description" content="Researchers unveiled a pipeline that turns digitized historical newspapers into high-quality training data for language models.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-04/02-newspapers-pipeline-tokens.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Billions of tokens from old newsprint: teaching AI on the archives", "alternativeHeadline": "Миллиарды токенов из старых газет: как ИИ учится на архивах", "datePublished": "2026-09-04", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/papers/2608.18972", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-04/02-newspapers-pipeline-tokens.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-04 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Миллиарды токенов из старых газет: как ИИ учится на архивах</span><span class="lang-en">Billions of tokens from old newsprint: teaching AI on the archives</span></h1>
+  <p class="dek big"><span class="lang-ru">Исследователи представили конвейер, который превращает оцифрованные исторические газеты в качественные данные для обучения языковых моделей.</span><span class="lang-en">Researchers unveiled a pipeline that turns digitized historical newspapers into high-quality training data for language models.</span></p>
+  
+  <div class="prose lang-ru"><p>Группа авторов во главе с Маттео Каргнелутти опубликовала работу <a href="https://huggingface.co/papers/2608.18972">«Institutional Newspapers Pipeline»</a> — конвейер, который извлекает из архивов исторических газет миллиарды качественных токенов для обучения языковых моделей. В числе соавторов — Кэтрин Бробстон, Эбен Инглиш, Джейк Сэдоу, Кейси Бейли и другие.</p>
+<p>Проблема, которую решают авторы, звучит просто, а на деле упирается в детали: старые газеты — это огромный и малоиспользуемый архив живой речи и общественной жизни, но их плотная, нерегулярная и часто зашумлённая вёрстка делает компьютерную обработку таких материалов сложной и ограниченной задачей. Колонки наезжают друг на друга, шрифты плывут от скана к скану, OCR путает заголовки с подписями к фотографиям — извлечь из этого читаемый связный текст в промышленных масштабах не так тривиально, как кажется.</p>
+<p>Именно это авторы и предлагают решить конвейером, который доводит необработанные сканы до чистых, пригодных для обучения текстов в объёме миллиардов токенов. Для индустрии, которая всё чаще упирается в дефицит качественных данных для обучения новых моделей, архивы библиотек и институтов — один из немногих ещё не выработанных источников, и эта работа — конкретный шаг к тому, чтобы сделать его пригодным для использования.</p>
+<h3>Почему это важно</h3>
+<p>Гонка за данными для обучения ИИ давно вышла за пределы интернета в его нынешнем виде — компании и исследователи всё активнее смотрят на архивы, которые раньше были доступны разве что историкам с лупой в читальном зале. Если такие конвейеры заработают массово, качество и разнообразие обучающих данных может вырасти не за счёт новых источников в сети, а за счёт того, что уже давно лежит на бумаге.</p></div>
+  <div class="prose lang-en"><p>A team led by Matteo Cargnelutti published <a href="https://huggingface.co/papers/2608.18972">the "Institutional Newspapers Pipeline" paper</a>, describing a pipeline that extracts billions of high-quality tokens from historical newspaper archives for training language models. Co-authors include Catherine Brobston, Eben English, Jake Sadow, Kacie Bailey, and others.</p>
+<p>The problem they're tackling sounds simple but hides in the details: historical newspapers are an abundant record of public life and everyday language, but their dense, irregular, and often noisy layouts make computational access to these materials both challenging and limited. Columns bleed into each other, fonts drift from scan to scan, and OCR routinely confuses headlines with photo captions — turning that into clean, coherent text at scale is harder than it looks.</p>
+<p>That's exactly what the pipeline is built to fix, turning raw scans into training-ready text at a scale measured in billions of tokens. For an industry increasingly running into a shortage of quality training data, library and institutional archives are one of the few genuinely untapped sources left, and this work is a concrete step toward making them usable.</p>
+<h3>Why it matters</h3>
+<p>The race for AI training data has already moved past the open internet as it exists today — companies and researchers are looking harder at archives that used to be accessible mostly to historians with a magnifying glass in a reading room. If pipelines like this scale up, the next gains in training-data quality and diversity may come not from new sources online, but from what's already been sitting on paper for a century.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/papers/2608.18972">https://huggingface.co/papers/2608.18972</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

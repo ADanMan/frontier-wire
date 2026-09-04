@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Не «похоже», а «то самое»: как научить ИИ узнавать редкие объекты на фото - frontier-wire</title>
+<meta name="description" content="A new entity-alignment method targets visual questions where plain image-similarity search keeps missing the mark.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-04/04-entity-aligned-vqa.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Not \"looks like\" but \"is that\": teaching AI to recognize rare objects in photos", "alternativeHeadline": "Не «похоже», а «то самое»: как научить ИИ узнавать редкие объекты на фото", "datePublished": "2026-09-04", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/papers/2608.21450", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-04/04-entity-aligned-vqa.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-04 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Не «похоже», а «то самое»: как научить ИИ узнавать редкие объекты на фото</span><span class="lang-en">Not &quot;looks like&quot; but &quot;is that&quot;: teaching AI to recognize rare objects in photos</span></h1>
+  <p class="dek big"><span class="lang-ru">Новый метод выравнивания сущностей нацелен на вопросы по изображениям, где обычный поиск по визуальному сходству регулярно промахивается.</span><span class="lang-en">A new entity-alignment method targets visual questions where plain image-similarity search keeps missing the mark.</span></p>
+  
+  <div class="prose lang-ru"><p>Ханруй Сюй, Чжэнсянь У, Юньяо Юй, Чжохун Чэнь, Жуй Кун и соавторы опубликовали работу <a href="https://huggingface.co/papers/2608.21450">«Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering»</a>, посвящённую задаче «визуальных вопросов на основе знаний» (KB-VQA) — когда системе нужно ответить не просто «что на картинке», а что-то, требующее внешних знаний о конкретной, редко встречающейся сущности.</p>
+<p>Авторы указывают на слабое место существующих подходов: большинство систем поиска для таких вопросов опираются на модели вроде CLIP, которые ищут изображения, похожие визуально, а не сущности, совпадающие фактически. Проблема в том, что визуальное сходство и фактическое совпадение — разные вещи. Два разных здания могут выглядеть архитектурно похожими, но быть совершенно разными объектами с разной историей; система, ищущая «похожее», в таком случае система найдёт не то, что нужно.</p>
+<p>Решение, которое предлагают авторы, — «выравнивание по сущностям» вместо поиска по визуальному сходству: вместо того чтобы искать картинки, похожие на данную, система пытается напрямую сопоставить объект на фото с конкретной сущностью в базе знаний. Особенно это должно помочь с «длинным хвостом» — редкими объектами, которых мало в обучающих данных и которые визуальное сходство склонно путать с чем-то более распространённым.</p>
+<h3>Почему это важно</h3>
+<p>Системы, которые отвечают на вопросы по изображениям, всё активнее используют в поиске, ассистентах и обработке документов. Пока такие системы путают «похоже» с «то же самое», они будут ошибаться именно там, где точность важнее всего — на редких, специфичных случаях, а не на типовых котиках и автомобилях, на которых легко получить хороший результат.</p></div>
+  <div class="prose lang-en"><p>Hangrui Xu, Zhengxian Wu, Yunyao Yu, Zhuohong Chen, Rui Cong, and co-authors published <a href="https://huggingface.co/papers/2608.21450">the "Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering" paper</a>, tackling knowledge-based visual question answering (KB-VQA) — questions that require external knowledge about a specific, often rare entity, not just a description of what's in a photo.</p>
+<p>The authors point to a weak spot in existing systems: most retrieval pipelines for this task rely on CLIP-style models, which retrieve images that look visually similar rather than entities that actually match. The problem is that visual similarity and factual identity aren't the same thing. Two different buildings can look architecturally alike while being completely different landmarks with different histories; a system searching for "similar-looking" images will retrieve the wrong one.</p>
+<p>Their proposed fix is entity-aligned retrieval instead of similarity search: rather than looking for images that resemble the query, the system tries to match the object in the photo directly to a specific entity in a knowledge base. That should matter most for the long tail — rare objects underrepresented in training data, which visual-similarity search tends to confuse with something more common.</p>
+<h3>Why it matters</h3>
+<p>Visual question-answering systems are increasingly showing up in search, assistants, and document processing. As long as those systems confuse "looks like" with "is," they'll keep failing exactly where accuracy matters most — on rare, specific cases, not on the generic cats and cars that are easy to get right.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/papers/2608.21450">https://huggingface.co/papers/2608.21450</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
