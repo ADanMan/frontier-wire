@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>«Оптимизируй окно контекста, остальное запомни» — ещё одна попытка приручить ИИ-агентов - frontier-wire</title>
+<meta name="description" content="The ECC repository promises to turn a chaotic AI agent into a disciplined engineer: plan, test, review, memory — 68 agents and 286 skills instead of one long prompt.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-05/03-ecc-agent-harness.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Optimize the context window. Persist everything else.\" — another attempt to tame AI coding agents", "alternativeHeadline": "«Оптимизируй окно контекста, остальное запомни» — ещё одна попытка приручить ИИ-агентов", "datePublished": "2026-09-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://github.com/affaan-m/ECC", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-05/03-ecc-agent-harness.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-09-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">«Оптимизируй окно контекста, остальное запомни» — ещё одна попытка приручить ИИ-агентов</span><span class="lang-en">Optimize the context window. Persist everything else.&quot; — another attempt to tame AI coding agents</span></h1>
+  <p class="dek big"><span class="lang-ru">Репозиторий ECC обещает превратить хаотичного ИИ-агента в дисциплинированного инженера: план, тесты, ревью, память — 68 агентов и 286 навыков вместо одного длинного промпта.</span><span class="lang-en">The ECC repository promises to turn a chaotic AI agent into a disciplined engineer: plan, test, review, memory — 68 agents and 286 skills instead of one long prompt.</span></p>
+  
+  <div class="prose lang-ru"><p>Репозиторий <a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a> вошёл в топ трендов GitHub, прибавив 141 звезду за сутки и перевалив по счётчику за 248 тысяч. Проект описывает себя как «систему оптимизации производительности агентного харнесса» — то есть не отдельный ИИ-инструмент, а обвязку поверх Claude Code, Codex, Cursor, OpenCode, Gemini, Zed и других агентных сред.</p>
+<p>Проблема, которую решают авторы, знакома всем, кто пробовал регулярно работать с кодогенерирующими агентами: агент неплохо пишет код в моменте, но у него нет согласованной инженерной системы вокруг — контекст теряется между сессиями, проверки качества выполняются от случая к случаю, а полезные паттерны, найденные вчера, сегодня приходится придумывать заново. ECC предлагает зашить в агента фиксированный рабочий цикл: план → тест → реализация → ревью → верификация → запоминание → улучшение — и устанавливать это один раз как часть того, как агент вообще работает, а не переписывать в каждом промпте заново.</p>
+<p>Внутри — 68 специализированных под-агентов (планирование, ревью, безопасность, архитектура, доменные задачи) и 286 навыков, которые подгружаются по требованию: TDD, исследование, безопасность, документация, фронтенд, данные, ML, операции. Отдельно заявлен модуль AgentShield — сканирование промптов, хуков, конфигурации MCP, прав доступа и секретов на предмет проблем безопасности. Проект держит открытую лицензию MIT, а разработка финансируется через GitHub Sponsors и отдельное коммерческое приложение для приватных репозиториев.</p>
+<h3>Почему это важно</h3>
+<p>Счётчики звёзд у подобных агентных фреймворков в GitHub-трендах в последнее время достигают величин, которые стоит воспринимать со здоровым скепсисом, — сотни тысяч звёзд для узкоспециализированного инструмента для разработчиков через несколько месяцев после запуска выглядят необычно на фоне куда более известных проектов с похожими цифрами, копившимися годами. Сама идея зашить в агента дисциплину — тесты, ревью, память между сессиями — не нова и решает реальную боль, но судить о том, работает ли конкретно эта реализация, стоит по опыту использования, а не по счётчику на странице репозитория.</p></div>
+  <div class="prose lang-en"><p>The <a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a> repository landed on GitHub's trending page, adding 141 stars in a day and pushing its total star count past 248,000. The project describes itself as an "agent harness performance optimization system" — not a standalone AI tool, but a layer on top of Claude Code, Codex, Cursor, OpenCode, Gemini, Zed, and other agentic environments.</p>
+<p>The problem the authors are solving is familiar to anyone who has worked with code-generating agents regularly: an agent can write decent code in the moment, but there's no coordinated engineering system around it — context gets lost between sessions, quality checks happen inconsistently, and useful patterns discovered yesterday have to be reinvented today. ECC bakes a fixed workflow into the agent instead: plan → test → implement → review → verify → remember → improve — installed once as part of how the agent works, rather than rebuilt in every prompt.</p>
+<p>Under the hood are 68 specialized sub-agents (planning, review, security, architecture, domain-specific work) and 286 skills loaded on demand: TDD, research, security, documentation, frontend, data, ML, operations. A separate module called AgentShield is billed as scanning prompts, hooks, MCP configuration, permissions, and secrets for security issues. The project stays MIT-licensed and open-source, with development funded through GitHub Sponsors and a separate commercial app for private repositories.</p>
+<h3>Why it matters</h3>
+<p>Star counts on agent-framework repos trending on GitHub lately reach numbers worth reading with real skepticism — hundreds of thousands of stars for a niche developer tool a few months after launch look unusual next to far better-known projects that took years to accumulate similar figures. Baking discipline into an agent — tests, review, memory across sessions — isn't a new idea and does address a real pain point, but whether this particular implementation actually delivers is something to judge from hands-on use, not from the counter on the repo's page.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://github.com/affaan-m/ECC">https://github.com/affaan-m/ECC</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

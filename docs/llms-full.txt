@@ -2,6 +2,125 @@
 
 
 
+===== EDITION 3 — 2026-09-05 =====
+
+## От редакции
+
+Сегодняшний день пахнет кодом и микроскопами больше, чем чем-либо ещё: два свежих препринта решают узкие, но реальные задачи — как научить модель узнавать редкую сущность на фото вместо «чего-то похожего» и как аккуратнее разделять налегающие друг на друга клетки под микроскопом. На GitHub тем временем в трендах инструменты для ИИ-агентов со счётчиками звёзд, которые стоит читать со здоровым скепсисом, а не как показатель реальной пользы. И рядом — вещь без всякого ИИ-глянца: скучная на вид C++-библиотека форматирования строк, на которой тихо держатся MongoDB и PyTorch.
+
+## Editorial
+
+Today smells more of code and microscopes than anything else: two new preprints tackle narrow but real problems — teaching a model to recognize a specific rare entity instead of "something similar," and separating overlapping cells under a microscope more carefully. Meanwhile GitHub's trending page is full of AI-agent tooling with star counts worth reading skeptically rather than as a measure of actual usefulness. And alongside it, something with zero AI shine: an unglamorous C++ string-formatting library that quietly underpins MongoDB and PyTorch.
+
+
+----- 01-conditional-experience-transfer (ai) — source: https://huggingface.co/papers/2608.26730 -----
+
+## Русская версия
+
+Тинъюнь Ли, Вэньфэн Фэн, Вэйцин Ли, Абудукелиму Вуэркайси, Гохуа Лю и соавторы опубликовали работу [«Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training»](https://huggingface.co/papers/2608.26730). Речь о системах, которые сами дообучают большие языковые модели под новые домены, инструменты и требования: такие автономные пайплайны сами предлагают обновления, тренируют кандидатов и по фидбэку выбирают, что оставить.
+
+Проблема, на которую указывают авторы: раз дообучение приходится повторять снова и снова при каждом изменении требований, у системы естественным образом накапливается опыт прошлых итераций — удачные и неудачные варианты обновлений, метрики, отклики оценщиков. Логично попробовать этот опыт переиспользовать в следующий раз, чтобы не начинать с нуля. Но авторы делают акцент именно на обратной стороне: слепое переиспользование чужого опыта может быть вредным, если новая задача на самом деле отличается от предыдущей сильнее, чем кажется на поверхности.
+
+Отсюда и название — «знать, когда НЕ переиспользовать». Вместо того чтобы всегда тащить прошлый опыт в новую итерацию, авторы предлагают делать это условно: система должна сама оценивать, насколько релевантен накопленный опыт конкретной новой задаче, и в части случаев отказываться от переноса вовсе, полагаясь на свежее обучение. Дигест не даёт количественных результатов — насколько именно такой отбор улучшает качество дообучения по сравнению с «переносить всегда» или «не переносить никогда», остаётся судить по [самой статье](https://huggingface.co/papers/2608.26730).
+
+### Почему это важно
+
+Автономные системы, которые сами себя дообучают без постоянного присмотра человека, всё активнее продвигаются как способ ускорить адаптацию моделей. Но у самообучающейся системы есть соблазн: чем больше накопленного опыта, тем сильнее тянет его переиспользовать — даже там, где это заведёт не туда. Работа напоминает не самую эффектную, но важную вещь: умение вовремя отбросить прошлый опыт — часть интеллекта системы, а не её слабое место.
+
+## English version
+
+Tingyun Li, Wenfeng Feng, Weiqing Li, Abudukelimu Wuerkaixi, Guohua Liu, and co-authors published [the "Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training" paper](https://huggingface.co/papers/2608.26730). It looks at systems that retrain large language models on their own as domains, tools, and requirements shift — autonomous pipelines that propose updates, train candidate versions, and pick what to keep based on evaluation feedback.
+
+The problem the authors flag: since post-training has to be repeated every time requirements change, such a system naturally accumulates experience from past rounds — which update variants worked, which didn't, what the metrics and evaluator feedback said. Reusing that experience for the next round sounds like an obvious way to skip starting from scratch. But the authors focus on the flip side: blindly reusing past experience can actively hurt results if the new task differs from the old one more than it looks on the surface.
+
+Hence the title — knowing when *not* to reuse. Instead of always carrying past experience into a new round, the authors propose doing it conditionally: the system should judge how relevant its accumulated experience actually is to the specific new task, and in some cases skip the transfer entirely, training fresh instead. No quantitative results made it into the available summary — how much this selective approach improves on "always transfer" or "never transfer" as baselines is a question for [the paper itself](https://huggingface.co/papers/2608.26730).
+
+### Why it matters
+
+Autonomous systems that retrain themselves without constant human oversight are increasingly pitched as a way to speed up model adaptation. But a self-training system has a built-in temptation: the more experience it accumulates, the harder it pulls toward reusing it — even where that leads somewhere wrong. The paper is a reminder of something unglamorous but real: knowing when to throw out past experience is part of a system's intelligence, not a gap in it.
+
+
+----- 02-qcell-overlapping-cells (science) — source: https://huggingface.co/papers/2608.29253 -----
+
+## Русская версия
+
+Ярослав Притула, Антон Попов и Дмитро Фишман опубликовали работу [«QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation»](https://huggingface.co/papers/2608.29253) — про то, как компьютеру разделять клетки на микроскопных снимках, когда они налезают друг на друга.
+
+Проблема звучит просто, но остаётся нерешённой годами: сегментация отдельных клеток на изображении, где клетки часто полупрозрачны и перекрывают одна другую. В зоне перекрытия граница между двумя клетками получается слабой и неоднозначной — визуальных данных там буквально мало и они смешаны с данными от соседней клетки. Авторы отмечают, что существующие методы пытаются решить это либо через локальные области интереса, либо через априорные представления о форме клетки, но им не хватает глобального рассуждения — способности учитывать контекст всего изображения, а не только конкретного проблемного пятна.
+
+Именно это авторы и предлагают в QCell: вместо того чтобы разбираться с каждой зоной перекрытия изолированно, метод перекомбинирует и выравнивает «запросы» (cell queries) — внутренние представления кандидатов на отдельные клетки — так, чтобы модель учитывала связи между клетками по всему изображению целиком. Технические детали алгоритма и то, насколько он обходит существующие подходы по метрикам, описаны в [самой статье](https://huggingface.co/papers/2608.29253) — короткая аннотация в дайджесте этих цифр не приводит.
+
+### Почему это важно
+
+Автоматическая сегментация клеток — рутинная, но критичная часть цифровой патологии и биологических исследований: от неё зависит, сколько клеток посчитают, как классифицируют ткань и что в итоге увидит врач или исследователь. Ошибка именно там, где клетки перекрываются — а перекрываются они постоянно в реальных тканях, — не редкий крайний случай, а системная слабость, которая тихо портит статистику по целым выборкам образцов.
+
+## English version
+
+Yaroslav Prytula, Anton Popov, and Dmytro Fishman published [the "QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation" paper](https://huggingface.co/papers/2608.29253), addressing how to get a computer to tell individual cells apart in microscopy images when the cells overlap.
+
+The problem sounds simple but has resisted a full fix for years: segmenting individual cells in an image where cells are often semi-transparent and stacked on top of each other. In the overlap zone, the boundary between two cells becomes weak and ambiguous — there's genuinely little visual evidence there, and what exists is mixed with signal from the neighboring cell. The authors note that existing methods try to handle this through local regions of interest or shape priors, but lack global reasoning — the ability to draw on context from the whole image rather than just the problem patch itself.
+
+That's exactly what QCell proposes to fix: instead of handling each overlap zone in isolation, the method recombines and aligns "cell queries" — the model's internal candidate representations for individual cells — so it can reason about relationships between cells across the entire image. The technical details of the algorithm, and how much it improves on existing approaches by the numbers, are in [the paper itself](https://huggingface.co/papers/2608.29253) — the short abstract available here doesn't include those figures.
+
+### Why it matters
+
+Automated cell segmentation is a routine but critical part of digital pathology and biological research: it determines how many cells get counted, how tissue gets classified, and ultimately what a doctor or researcher sees. Getting it wrong specifically where cells overlap — and in real tissue, they overlap constantly — isn't a rare edge case. It's a systematic weakness that quietly skews statistics across entire sample sets.
+
+
+----- 03-ecc-agent-harness (tech) — source: https://github.com/affaan-m/ECC -----
+
+## Русская версия
+
+Репозиторий [affaan-m/ECC](https://github.com/affaan-m/ECC) вошёл в топ трендов GitHub, прибавив 141 звезду за сутки и перевалив по счётчику за 248 тысяч. Проект описывает себя как «систему оптимизации производительности агентного харнесса» — то есть не отдельный ИИ-инструмент, а обвязку поверх Claude Code, Codex, Cursor, OpenCode, Gemini, Zed и других агентных сред.
+
+Проблема, которую решают авторы, знакома всем, кто пробовал регулярно работать с кодогенерирующими агентами: агент неплохо пишет код в моменте, но у него нет согласованной инженерной системы вокруг — контекст теряется между сессиями, проверки качества выполняются от случая к случаю, а полезные паттерны, найденные вчера, сегодня приходится придумывать заново. ECC предлагает зашить в агента фиксированный рабочий цикл: план → тест → реализация → ревью → верификация → запоминание → улучшение — и устанавливать это один раз как часть того, как агент вообще работает, а не переписывать в каждом промпте заново.
+
+Внутри — 68 специализированных под-агентов (планирование, ревью, безопасность, архитектура, доменные задачи) и 286 навыков, которые подгружаются по требованию: TDD, исследование, безопасность, документация, фронтенд, данные, ML, операции. Отдельно заявлен модуль AgentShield — сканирование промптов, хуков, конфигурации MCP, прав доступа и секретов на предмет проблем безопасности. Проект держит открытую лицензию MIT, а разработка финансируется через GitHub Sponsors и отдельное коммерческое приложение для приватных репозиториев.
+
+### Почему это важно
+
+Счётчики звёзд у подобных агентных фреймворков в GitHub-трендах в последнее время достигают величин, которые стоит воспринимать со здоровым скепсисом, — сотни тысяч звёзд для узкоспециализированного инструмента для разработчиков через несколько месяцев после запуска выглядят необычно на фоне куда более известных проектов с похожими цифрами, копившимися годами. Сама идея зашить в агента дисциплину — тесты, ревью, память между сессиями — не нова и решает реальную боль, но судить о том, работает ли конкретно эта реализация, стоит по опыту использования, а не по счётчику на странице репозитория.
+
+## English version
+
+The [affaan-m/ECC](https://github.com/affaan-m/ECC) repository landed on GitHub's trending page, adding 141 stars in a day and pushing its total star count past 248,000. The project describes itself as an "agent harness performance optimization system" — not a standalone AI tool, but a layer on top of Claude Code, Codex, Cursor, OpenCode, Gemini, Zed, and other agentic environments.
+
+The problem the authors are solving is familiar to anyone who has worked with code-generating agents regularly: an agent can write decent code in the moment, but there's no coordinated engineering system around it — context gets lost between sessions, quality checks happen inconsistently, and useful patterns discovered yesterday have to be reinvented today. ECC bakes a fixed workflow into the agent instead: plan → test → implement → review → verify → remember → improve — installed once as part of how the agent works, rather than rebuilt in every prompt.
+
+Under the hood are 68 specialized sub-agents (planning, review, security, architecture, domain-specific work) and 286 skills loaded on demand: TDD, research, security, documentation, frontend, data, ML, operations. A separate module called AgentShield is billed as scanning prompts, hooks, MCP configuration, permissions, and secrets for security issues. The project stays MIT-licensed and open-source, with development funded through GitHub Sponsors and a separate commercial app for private repositories.
+
+### Why it matters
+
+Star counts on agent-framework repos trending on GitHub lately reach numbers worth reading with real skepticism — hundreds of thousands of stars for a niche developer tool a few months after launch look unusual next to far better-known projects that took years to accumulate similar figures. Baking discipline into an agent — tests, review, memory across sessions — isn't a new idea and does address a real pain point, but whether this particular implementation actually delivers is something to judge from hands-on use, not from the counter on the repo's page.
+
+
+----- 04-fmtlib-fmt-trending (tech) — source: https://github.com/fmtlib/fmt -----
+
+## Русская версия
+
+Пока в трендах GitHub соревнуются свежие ИИ-агентные фреймворки с сотнями тысяч звёзд за считанные месяцы, рядом с ними на третьем месте оказался [fmtlib/fmt](https://github.com/fmtlib/fmt) — библиотека форматирования строк для C++, у которой почти 7 976 коммитов истории и куда более скромные 25 462 звезды, из них 25 за последние сутки.
+
+{fmt} реализует функциональность `std::format` из C++20 и `std::print` из C++23 — по сути, современную, безопасную и быструю замену старому доброму `printf` и потоковому выводу C++. Авторы заявляют, что библиотека работает от «десятков процентов» до в 20–30 раз быстрее `sprintf` и iostreams, при этом даёт позиционные аргументы для локализации, поддержку Unicode и расширяемость под собственные типы данных. Скомпилированный бинарник с {fmt} по размеру сравним с обычным `printf` — то есть скорость не куплена ценой раздутого кода.
+
+Библиотеку уже используют FoundationDB (Apple), ClickHouse, MongoDB, PyTorch, Windows Terminal и Battle.net от Blizzard — список достаточно длинный и разнородный, чтобы говорить не о моде, а о инфраструктурной зависимости. Именно поэтому появление {fmt} в трендах — хороший повод напомнить: алгоритм трендов GitHub время от времени поднимает не свежий хайп, а зрелые, скучные на вид инструменты, на которых давно и тихо всё держится.
+
+### Почему это важно
+
+Разница между {fmt} и соседними по трендам агентными фреймворками — это разница между библиотекой, чью пользу можно проверить по списку реальных проектов, использующих её годами, и репозиторием, чья ценность пока измеряется только счётчиком звёзд. Не всё новое — хайп, но и не всё старое — скука: иногда скучное и есть самое надёжное.
+
+## English version
+
+While fresh AI-agent frameworks with hundreds of thousands of stars racked up in a few months compete for attention on GitHub's trending page, sitting at #3 today is [fmtlib/fmt](https://github.com/fmtlib/fmt) — a C++ string-formatting library with nearly 7,976 commits of history and a far more modest 25,462 stars, 25 of them gained in the last day.
+
+{fmt} implements C++20's `std::format` and C++23's `std::print` — a modern, safe, fast replacement for old-school `printf` and C++ iostreams. The project claims performance ranging from "tens of percent" up to 20–30 times faster than `sprintf` and iostreams, while adding positional arguments for localization, Unicode support, and extensibility for custom types. A compiled binary using {fmt} comes out about the same size as one using plain `printf` — the speed isn't bought with code bloat.
+
+The library is already used by FoundationDB (Apple), ClickHouse, MongoDB, PyTorch, Windows Terminal, and Blizzard's Battle.net — a long and varied enough list to call this infrastructure dependency rather than fashion. That's exactly why {fmt} showing up in the trending list is a good reminder: GitHub's trending algorithm occasionally surfaces not fresh hype but mature, boring-looking tools that a lot of software has quietly depended on for years.
+
+### Why it matters
+
+The gap between {fmt} and the agent frameworks trending alongside it is the gap between a library whose value you can check against a list of real projects that have used it for years, and a repository whose value is currently measured mostly by its star counter. Not everything new is hype, and not everything old is boring — sometimes boring is exactly what's most reliable.
+
+
 ===== EDITION 2 — 2026-09-04 =====
 
 ## От редакции

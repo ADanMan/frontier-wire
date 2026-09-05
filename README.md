@@ -10,16 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №2 / Edition №2 — 2026-09-04** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №3 / Edition №3 — 2026-09-05** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Технологии]** [«Skills» для ИИ-агентов ворвались в тренды GitHub — сразу два репозитория](editions/2026/09-04/01-agent-skills-github-trend.md)
-- **[ИИ]** [Миллиарды токенов из старых газет: как ИИ учится на архивах](editions/2026/09-04/02-newspapers-pipeline-tokens.md)
-- **[ИИ]** [Судьи для ИИ-агентов сами не проходили экзамен](editions/2026/09-04/03-agentjudgebench.md)
-- **[ИИ]** [Не «похоже», а «то самое»: как научить ИИ узнавать редкие объекты на фото](editions/2026/09-04/04-entity-aligned-vqa.md)
-- **[ИИ]** [DeepSeek выкатила свой agent-фреймворк — и сразу с 211 тысячами звёзд](editions/2026/09-04/05-deepseek-harness.md)
-- **[Технологии]** [Плагин учит ИИ-агентов думать как «ленивый синьор»: минус 54% кода](editions/2026/09-04/06-ponytail-lazy-senior-dev.md)
-- **[Мир]** [Сборник инструментов для обхода цензуры взлетел в топ-11 трендов GitHub](editions/2026/09-04/07-fanqiang-github-trending.md)
-- **[Наука]** [Можно ли научить рекомендательного бота вести диалог без единого примера диалога](editions/2026/09-04/08-zero-data-crs.md)
+- **[ИИ]** [Когда ИИ дообучает сам себя, ему нужно уметь забывать чужой опыт](editions/2026/09-05/01-conditional-experience-transfer.md)
+- **[Наука]** [Клетки под микроскопом слипаются — новый метод учится их всё-таки различать](editions/2026/09-05/02-qcell-overlapping-cells.md)
+- **[Технологии]** [«Оптимизируй окно контекста, остальное запомни» — ещё одна попытка приручить ИИ-агентов](editions/2026/09-05/03-ecc-agent-harness.md)
+- **[Технологии]** [Не всё, что в трендах GitHub, — новый ИИ-хайп: библиотеке форматирования строк уже больше десяти лет](editions/2026/09-05/04-fmtlib-fmt-trending.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

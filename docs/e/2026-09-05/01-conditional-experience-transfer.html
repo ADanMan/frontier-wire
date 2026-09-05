@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Когда ИИ дообучает сам себя, ему нужно уметь забывать чужой опыт - frontier-wire</title>
+<meta name="description" content="A new paper asks autonomous post-training systems to decide not just what to reuse from past attempts, but when reusing nothing at all is the right call.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-05/01-conditional-experience-transfer.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "When AI retrains itself, it needs to know which lessons not to keep", "alternativeHeadline": "Когда ИИ дообучает сам себя, ему нужно уметь забывать чужой опыт", "datePublished": "2026-09-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/papers/2608.26730", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-05/01-conditional-experience-transfer.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Когда ИИ дообучает сам себя, ему нужно уметь забывать чужой опыт</span><span class="lang-en">When AI retrains itself, it needs to know which lessons not to keep</span></h1>
+  <p class="dek big"><span class="lang-ru">Новая работа предлагает автономным системам дообучения решать не только что переиспользовать из прошлых попыток, но и когда лучше не переиспользовать ничего.</span><span class="lang-en">A new paper asks autonomous post-training systems to decide not just what to reuse from past attempts, but when reusing nothing at all is the right call.</span></p>
+  
+  <div class="prose lang-ru"><p>Тинъюнь Ли, Вэньфэн Фэн, Вэйцин Ли, Абудукелиму Вуэркайси, Гохуа Лю и соавторы опубликовали работу <a href="https://huggingface.co/papers/2608.26730">«Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training»</a>. Речь о системах, которые сами дообучают большие языковые модели под новые домены, инструменты и требования: такие автономные пайплайны сами предлагают обновления, тренируют кандидатов и по фидбэку выбирают, что оставить.</p>
+<p>Проблема, на которую указывают авторы: раз дообучение приходится повторять снова и снова при каждом изменении требований, у системы естественным образом накапливается опыт прошлых итераций — удачные и неудачные варианты обновлений, метрики, отклики оценщиков. Логично попробовать этот опыт переиспользовать в следующий раз, чтобы не начинать с нуля. Но авторы делают акцент именно на обратной стороне: слепое переиспользование чужого опыта может быть вредным, если новая задача на самом деле отличается от предыдущей сильнее, чем кажется на поверхности.</p>
+<p>Отсюда и название — «знать, когда НЕ переиспользовать». Вместо того чтобы всегда тащить прошлый опыт в новую итерацию, авторы предлагают делать это условно: система должна сама оценивать, насколько релевантен накопленный опыт конкретной новой задаче, и в части случаев отказываться от переноса вовсе, полагаясь на свежее обучение. Дигест не даёт количественных результатов — насколько именно такой отбор улучшает качество дообучения по сравнению с «переносить всегда» или «не переносить никогда», остаётся судить по <a href="https://huggingface.co/papers/2608.26730">самой статье</a>.</p>
+<h3>Почему это важно</h3>
+<p>Автономные системы, которые сами себя дообучают без постоянного присмотра человека, всё активнее продвигаются как способ ускорить адаптацию моделей. Но у самообучающейся системы есть соблазн: чем больше накопленного опыта, тем сильнее тянет его переиспользовать — даже там, где это заведёт не туда. Работа напоминает не самую эффектную, но важную вещь: умение вовремя отбросить прошлый опыт — часть интеллекта системы, а не её слабое место.</p></div>
+  <div class="prose lang-en"><p>Tingyun Li, Wenfeng Feng, Weiqing Li, Abudukelimu Wuerkaixi, Guohua Liu, and co-authors published <a href="https://huggingface.co/papers/2608.26730">the "Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training" paper</a>. It looks at systems that retrain large language models on their own as domains, tools, and requirements shift — autonomous pipelines that propose updates, train candidate versions, and pick what to keep based on evaluation feedback.</p>
+<p>The problem the authors flag: since post-training has to be repeated every time requirements change, such a system naturally accumulates experience from past rounds — which update variants worked, which didn't, what the metrics and evaluator feedback said. Reusing that experience for the next round sounds like an obvious way to skip starting from scratch. But the authors focus on the flip side: blindly reusing past experience can actively hurt results if the new task differs from the old one more than it looks on the surface.</p>
+<p>Hence the title — knowing when <em>not</em> to reuse. Instead of always carrying past experience into a new round, the authors propose doing it conditionally: the system should judge how relevant its accumulated experience actually is to the specific new task, and in some cases skip the transfer entirely, training fresh instead. No quantitative results made it into the available summary — how much this selective approach improves on "always transfer" or "never transfer" as baselines is a question for <a href="https://huggingface.co/papers/2608.26730">the paper itself</a>.</p>
+<h3>Why it matters</h3>
+<p>Autonomous systems that retrain themselves without constant human oversight are increasingly pitched as a way to speed up model adaptation. But a self-training system has a built-in temptation: the more experience it accumulates, the harder it pulls toward reusing it — even where that leads somewhere wrong. The paper is a reminder of something unglamorous but real: knowing when to throw out past experience is part of a system's intelligence, not a gap in it.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/papers/2608.26730">https://huggingface.co/papers/2608.26730</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
