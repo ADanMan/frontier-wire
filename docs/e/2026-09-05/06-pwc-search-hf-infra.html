@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Поиск на Papers with Code теперь работает на собственной инфраструктуре Hugging Face - frontier-wire</title>
+<meta name="description" content="Hugging Face explained how its Inference Endpoints, Jobs, and Buckets now serve search on Papers with Code — swapping a third-party stack for its own product lineup.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-05/06-pwc-search-hf-infra.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Papers with Code's search now runs on Hugging Face's own infrastructure", "alternativeHeadline": "Поиск на Papers with Code теперь работает на собственной инфраструктуре Hugging Face", "datePublished": "2026-09-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/pwc-search", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-05/06-pwc-search-hf-infra.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-09-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Поиск на Papers with Code теперь работает на собственной инфраструктуре Hugging Face</span><span class="lang-en">Papers with Code&#x27;s search now runs on Hugging Face&#x27;s own infrastructure</span></h1>
+  <p class="dek big"><span class="lang-ru">Hugging Face рассказала, как её Inference Endpoints, Jobs и Buckets обслуживают поиск на Papers with Code — вместо стороннего стека используется набор продуктов самой компании.</span><span class="lang-en">Hugging Face explained how its Inference Endpoints, Jobs, and Buckets now serve search on Papers with Code — swapping a third-party stack for its own product lineup.</span></p>
+  
+  <div class="prose lang-ru"><p>Hugging Face опубликовала пост о том, как её собственные продукты — <a href="https://huggingface.co/blog/pwc-search">Inference Endpoints, Jobs и Buckets теперь обслуживают поиск на сайте Papers with Code</a>. Автор поста, Нильс Рогге, описывает это как переезд поисковой функции сервиса на инфраструктуру самой компании вместо стороннего стека.</p>
+<p>Papers with Code — площадка, которая связывает научные статьи с их кодом и результатами на бенчмарках; ей многие годы пользуются, чтобы быстро понять, чья реализация конкретного метода публична и как она соотносится с другими по метрикам. Поиск — одна из ключевых функций такой площадки: чем он быстрее и точнее, тем проще находить нужную статью среди тысяч.</p>
+<p>Технически три продукта решают разные задачи: Inference Endpoints разворачивают модель как API без своей инфраструктуры, Jobs запускают разовые или периодические вычисления по расписанию, а Buckets — это хранилище файлов. Вместе они, судя по посту, закрывают весь путь от индексации контента до ответа на поисковый запрос.</p>
+<p>Источник не приводит цифр — насколько вырос охват индекса, изменилась ли скорость ответа поиска или его стоимость по сравнению с прежним решением. Это скорее инженерный кейс о том, что компания использует собственные продукты для собственных же сервисов, чем новость с измеримым результатом.</p>
+<h3>Почему это важно</h3>
+<p>Для самой Hugging Face это витрина: если Inference Endpoints, Jobs и Buckets достаточно надёжны для инфраструктуры Papers with Code, это косвенный аргумент в пользу того же стека для внешних разработчиков. Для пользователей Papers with Code изменение, скорее всего, останется незаметным, если только всё не заработало заметно хуже или лучше — судить об этом пока рано.</p></div>
+  <div class="prose lang-en"><p>Hugging Face published a post explaining how its own products — <a href="https://huggingface.co/blog/pwc-search">Inference Endpoints, Jobs, and Buckets now serve search on Papers with Code</a>. Author Niels Rogge frames it as moving the site's search feature onto the company's own infrastructure instead of a third-party stack.</p>
+<p>Papers with Code links academic papers to their code and benchmark results; it's long been a quick way to find a public implementation of a given method and see how it stacks up against others on the numbers. Search is one of the site's core functions — the faster and more precise it is, the easier it is to find the right paper among thousands.</p>
+<p>Technically, the three products cover different jobs: Inference Endpoints deploy a model as an API without managing your own servers, Jobs run one-off or scheduled compute, and Buckets provide file storage. Together, per the post, they cover the whole path from indexing content to answering a search query.</p>
+<p>The source doesn't give numbers — no figures on index coverage, response speed, or cost compared with the previous setup. It reads more as an engineering case study of a company running its own services on its own products than as news with a measurable outcome.</p>
+<h3>Why it matters</h3>
+<p>For Hugging Face, this doubles as a showcase: if Inference Endpoints, Jobs, and Buckets are solid enough to run Papers with Code's infrastructure, that's an implicit pitch for the same stack to outside developers. For Papers with Code users, the change will likely go unnoticed unless something visibly gets faster, slower, better, or worse — too early to say which.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/pwc-search">https://huggingface.co/blog/pwc-search</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

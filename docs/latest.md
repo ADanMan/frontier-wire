@@ -15,3 +15,11 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Not everything trending on GitHub is fresh AI hype — this string-formatting library is over a decade old / Не всё, что в трендах GitHub, — новый ИИ-хайп: библиотеке форматирования строк уже больше десяти лет
 rubric: tech · source: https://github.com/fmtlib/fmt
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/04-fmtlib-fmt-trending.md
+
+## Quantization-aware healing": a shrunk model outperforms its own original / «Квантизационное исцеление»: сжатая модель обошла собственный оригинал
+rubric: ai · source: https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/05-quantization-aware-healing.md
+
+## Papers with Code's search now runs on Hugging Face's own infrastructure / Поиск на Papers with Code теперь работает на собственной инфраструктуре Hugging Face
+rubric: tech · source: https://huggingface.co/blog/pwc-search
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/06-pwc-search-hf-infra.md
