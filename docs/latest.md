@@ -1,25 +1,13 @@
-# frontier-wire — latest edition №3 (2026-09-05)
+# frontier-wire — latest edition №4 (2026-09-06)
 
-## When AI retrains itself, it needs to know which lessons not to keep / Когда ИИ дообучает сам себя, ему нужно уметь забывать чужой опыт
-rubric: ai · source: https://huggingface.co/papers/2608.26730
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/01-conditional-experience-transfer.md
+## SGLang is trending on GitHub again — and growing far more plausibly than its rivals / SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов
+rubric: ai · source: https://github.com/sgl-project/sglang
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-06/01-sglang-inference-engine-trending.md
 
-## Cells overlap under the microscope — a new method learns to tell them apart anyway / Клетки под микроскопом слипаются — новый метод учится их всё-таки различать
-rubric: science · source: https://huggingface.co/papers/2608.29253
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/02-qcell-overlapping-cells.md
+## GitHub's trending page is full of Claude Code add-ons — and their star counts deserve very different levels of trust / Тренды GitHub заполонили надстройки для Claude Code — но верить их счётчикам звёзд стоит по-разному
+rubric: ai · source: https://github.com/ruvnet/ruflo
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-06/02-claude-code-tooling-trend.md
 
-## Optimize the context window. Persist everything else." — another attempt to tame AI coding agents / «Оптимизируй окно контекста, остальное запомни» — ещё одна попытка приручить ИИ-агентов
-rubric: tech · source: https://github.com/affaan-m/ECC
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/03-ecc-agent-harness.md
-
-## Not everything trending on GitHub is fresh AI hype — this string-formatting library is over a decade old / Не всё, что в трендах GitHub, — новый ИИ-хайп: библиотеке форматирования строк уже больше десяти лет
-rubric: tech · source: https://github.com/fmtlib/fmt
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/04-fmtlib-fmt-trending.md
-
-## Quantization-aware healing": a shrunk model outperforms its own original / «Квантизационное исцеление»: сжатая модель обошла собственный оригинал
-rubric: ai · source: https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/05-quantization-aware-healing.md
-
-## Papers with Code's search now runs on Hugging Face's own infrastructure / Поиск на Papers with Code теперь работает на собственной инфраструктуре Hugging Face
-rubric: tech · source: https://huggingface.co/blog/pwc-search
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-05/06-pwc-search-hf-infra.md
+## A GitHub directory of 200+ tools that never ask you to sign up is picking up steam / На GitHub набирает популярность каталог из 200+ инструментов, которые не просят регистрацию
+rubric: tech · source: https://github.com/BraveOPotato/FckSignups
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-06/03-nosignups-directory.md

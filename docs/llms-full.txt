@@ -2,6 +2,102 @@
 
 
 
+===== EDITION 4 — 2026-09-06 =====
+
+## От редакции
+
+TypeScript-репозитории сегодня штурмуют тренды GitHub: разработчики массово собирают инструменты и «мета-харнессы» для агентных сред вроде Claude Code, и энтузиазма в этой гонке явно больше, чем ясности, зачем нужен каждый новый фреймворк. Рядом — куда более приземлённая история: движок SGLang продолжает набирать пользователей на волне спроса на быструю раздачу больших моделей. И отдельным контрастом — каталог из двух сотен с лишним инструментов, которые работают вообще без регистрации, что для 2026 года звучит почти как манифест.
+
+## Editorial
+
+Today's wire is dominated by GitHub's agent-tooling gold rush: a wave of frameworks and skill packs for Claude Code, with more enthusiasm than clarity about which ones actually matter. Alongside that, a steadier story: the SGLang serving engine keeps adding users as demand for fast LLM inference grows. And as a quiet counterpoint, a directory of two hundred-plus tools that ask for exactly zero sign-ups.
+
+
+----- 01-sglang-inference-engine-trending (ai) — source: https://github.com/sgl-project/sglang -----
+
+## Русская версия
+
+Проект [sgl-project/sglang](https://github.com/sgl-project/sglang) снова попал в топ трендов GitHub: за сутки счётчик звёзд вырос с 34 257 до 35 494 — плюс 1 237, форков у репозитория уже 8 563. В трендах он идёт под категорией «Transformer», и это по сути верно: SGLang — движок для inference-раздачи больших языковых и мультимодальных моделей, от одной видеокарты до распределённых кластеров.
+
+В основе движка — RadixAttention, механизм кеширования общих префиксов запросов, который избавляет от повторных вычислений там, где промпты пользователей пересекаются. К нему добавлены планирование на CPU без лишних задержек, разделение фаз prefill и decode, спекулятивное декодирование и непрерывный батчинг — набор техник, которые в сумме и дают заявленный прирост скорости. Проект поддерживает как языковые модели (Llama, Qwen, DeepSeek, Kimi, GLM), так и модели эмбеддингов, reward-модели и диффузионные модели, а по железу работает не только с видеокартами NVIDIA и AMD, но и с процессорами Intel Xeon, TPU от Google и NPU Ascend.
+
+По собственным данным проекта, на архитектуре NVIDIA GB300 движок показывает 25-кратный прирост производительности инференса — это обновление февраля 2026 года — а среди пользователей называются xAI, NVIDIA, AMD, Google Cloud и Microsoft Azure. Разработчики утверждают, что через SGLang ежедневно проходят триллионы токенов на более чем 400 тысячах видеокарт. Развивает проект некоммерческая организация LMSYS — та же группа, что стоит за Chatbot Arena.
+
+### Почему это важно
+
+На фоне вороха свежих «мета-харнессов» для ИИ-агентов, чьи счётчики звёзд в последние дни доходили до сотен тысяч за считаные месяцы существования, рост SGLang выглядит куда правдоподобнее: чуть больше тысячи звёзд в день — это похоже на органический интерес разработчиков, а не на аномалию счётчика. Гонка движков для инференса — SGLang, vLLM и другие — определяет не то, какая модель самая умная, а то, во сколько компаниям обходится каждый токен ответа. Для индустрии сейчас это едва ли не важнее самих моделей.
+
+## English version
+
+The [sgl-project/sglang](https://github.com/sgl-project/sglang) repository is trending on GitHub again: its star count climbed from 34,257 to 35,494 in a day, up 1,237, with 8,563 forks. GitHub lists it under the "Transformer" category, which is fair enough — SGLang is a serving engine for large language and multimodal models, scaling from a single GPU to distributed clusters.
+
+At its core is RadixAttention, a caching mechanism for shared request prefixes that avoids recomputing work when users' prompts overlap. On top of that sit zero-overhead CPU scheduling, prefill-decode separation, speculative decoding, and continuous batching — a combination of techniques that together produce the claimed speed gains. The project supports language models (Llama, Qwen, DeepSeek, Kimi, GLM) alongside embedding models, reward models, and diffusion models, and runs not just on NVIDIA and AMD GPUs but on Intel Xeon CPUs, Google TPUs, and Ascend NPUs.
+
+By the project's own account, SGLang delivers a 25x inference speedup on NVIDIA's GB300 architecture, an update from February 2026, with adopters including xAI, NVIDIA, AMD, Google Cloud, and Microsoft Azure. The developers say the engine now handles trillions of tokens a day across more than 400,000 GPUs. SGLang is maintained by LMSYS, the nonprofit also behind Chatbot Arena.
+
+### Why it matters
+
+Against a pile of freshly trending AI-agent "meta-harnesses" whose star counts have hit hundreds of thousands within months of launch, SGLang's growth looks far more believable: just over a thousand stars a day reads like organic developer interest rather than a counter anomaly. The race between inference engines — SGLang, vLLM, and others — doesn't decide which model is smartest; it decides how much each answer costs companies to generate. For the industry right now, that may matter more than the models themselves.
+
+
+----- 02-claude-code-tooling-trend (ai) — source: https://github.com/ruvnet/ruflo -----
+
+## Русская версия
+
+В один день в топ трендов GitHub вышли сразу три проекта для одной и той же ниши — надстроек над Claude Code и похожими агентными средами, и разница между ними показательна.
+
+[ruvnet/ruflo](https://github.com/ruvnet/ruflo), новая запись под №9 в трендах, называет себя «оригинальным мета-харнессом для агентов»: обещает координацию роёв ИИ-агентов, больше сотни специализированных под-агентов, «самообучающуюся архитектуру» с нейросетевыми паттернами SONA, векторную память на HNSW-индексах и маршрутизацию задач между Claude, GPT, Gemini, Cohere и локальными моделями через Ollama. На странице репозитория заявлено 70,7 тысячи звёзд и 8,4 тысячи форков — цифры, которые для проекта, только выходящего в тренды, стоит воспринимать со здоровым скепсисом: похожая аномалия уже встречалась у других агентных фреймворков в тех же трендах на этой неделе.
+
+Куда скромнее и конкретнее выглядит [humanlayer/skills](https://github.com/humanlayer/skills) (№10 в трендах, 408 новых звёзд за день, всего 2,8 тысячи звёзд и 77 форков): это не фреймворк, а набор из пяти конкретных навыков для Claude Code — от улучшения файлов CLAUDE.md через блоки `<important if>` до сборки диаграмм и HTML-визуализаций для объяснения кода. Устанавливается одной командой `npx skills add humanlayer/skills`.
+
+Третий — [WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) (№13, 139 звёзд за день, 2,4 тысячи всего, 366 форков) — тоже не претендует на переизобретение агентов: это набор агентов, навыков, команд и хуков, собранный, по словам автора, за десять с лишним месяцев реальной разработки продуктов, включая zenith.chat.
+
+### Почему это важно
+
+Три проекта в одной нише за один день — верный признак того, что рынок надстроек над Claude Code перегрет и фрагментирован: выбрать один инструмент становится сложнее, чем написать промпт вручную. При этом три репозитория дают три разных уровня доверия к цифрам на странице: у ruflo счётчик выглядит подозрительно раздутым, у humanlayer/skills и everything-claude-code — скромным и правдоподобным. Судить о пользе стоит не по звёздам, а по тому, решает ли конкретный навык конкретную вашу задачу.
+
+## English version
+
+Three separate projects in the exact same niche — add-ons for Claude Code and similar agentic environments — hit GitHub's trending page on the same day, and the contrast between them says something.
+
+[ruvnet/ruflo](https://github.com/ruvnet/ruflo), a new entry at #9, bills itself as "the original agent meta-harness": it promises swarm coordination for AI agents, over a hundred specialized sub-agents, a "self-learning architecture" with SONA neural patterns, HNSW-indexed vector memory, and routing across Claude, GPT, Gemini, Cohere, and local models via Ollama. Its repository page lists 70.7k stars and 8.4k forks — numbers worth reading with real skepticism for a project just entering the trending page; a similar anomaly has shown up in other agent frameworks on the same trending list this week.
+
+Far more modest and concrete is [humanlayer/skills](https://github.com/humanlayer/skills) (#10, 408 new stars in a day, 2.8k total, 77 forks): not a framework but a set of five specific Claude Code skills, from improving CLAUDE.md instruction files with `<important if>` blocks to generating diagrams and HTML visualizations to explain code. It installs with a single `npx skills add humanlayer/skills` command.
+
+The third, [WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) (#13, 139 stars in a day, 2.4k total, 366 forks), also doesn't try to reinvent agents: it's a set of agents, skills, commands, and hooks the author says grew out of ten-plus months of real product work, including building zenith.chat.
+
+### Why it matters
+
+Three projects landing in the same niche on the same day is a fair sign that the Claude Code tooling market is crowded and overheated: picking one now takes more effort than just writing the prompt by hand. The three repos also deserve very different levels of trust in their own numbers — ruflo's counter looks suspiciously inflated, while humanlayer/skills and everything-claude-code look modest and plausible. Judge the value by whether a given skill solves your actual problem, not by the star count on the page.
+
+
+----- 03-nosignups-directory (tech) — source: https://github.com/BraveOPotato/FckSignups -----
+
+## Русская версия
+
+Репозиторий [BraveOPotato/FckSignups](https://github.com/BraveOPotato/FckSignups), новая запись в трендах GitHub под №12 (50 новых звёзд за день, TypeScript), сегодня официально называется NoSignups и живёт на отдельном сайте nosignups.net. Это не инструмент, а каталог: подборка открытых веб-сервисов, которыми можно пользоваться прямо в браузере без создания аккаунта.
+
+Правило отбора простое и сформулировано как манифест: инструмент должен работать сразу, без регистрационной стены; данные пользователя принадлежат пользователю, а не тому, кто их собирает; открытый код предпочтительнее закрытого; простота важнее лишней сложности. На сегодня в каталоге больше 200 инструментов, распределённых по девяти категориям — продуктивность, дизайн и графика, разработка, работа с текстом и документами, приватность, утилиты, данные и аналитика, медиа, образование. У каждой записи — описание, ссылка на GitHub, лицензия и теги для поиска. Заявки на добавление новых инструментов принимаются через issues на GitHub, с ограничением на длину описания в 140 символов и тремя-пятью тегами; при этом «рекомендованные» инструменты редакция отбирает вручную — за уникальность, а не за сходство с уже добавленными.
+
+Сам проект держит открытую лицензию GPL-3.0, собрал 2,9 тысячи звёзд и 200 форков, а вокруг него уже сложилось небольшое сообщество на Reddit (r/fucksignups). На сайте, по заявлению авторов, нет ни куки, ни аналитики.
+
+### Почему это важно
+
+На фоне бесконечных ИИ-агентов и фреймворков с сомнительными счётчиками звёзд каталог NoSignups — вещь предельно приземлённая: не решает никакой инфраструктурной задачи, а просто собирает то, что уже работает без лишних препятствий. Раздражение регистрационными стенами и сбором данных — не новая тема, но именно то, что проект вырос органически вокруг простого списка ссылок, а не вокруг обещаний искусственного интеллекта, само по себе показательно для 2026 года.
+
+## English version
+
+The [BraveOPotato/FckSignups](https://github.com/BraveOPotato/FckSignups) repository, a new entry on GitHub's trending page at #12 (50 new stars in a day, TypeScript), now officially goes by NoSignups and lives on its own site, nosignups.net. It isn't a tool itself but a directory: a curated list of open-source web services usable directly in a browser, no account required.
+
+The selection rule is simple and stated as a manifesto: a tool must work immediately with no registration wall; user data belongs to the user, not whoever collects it; open source is preferred over proprietary; simplicity beats unnecessary complexity. The directory currently lists more than 200 tools across nine categories — productivity, design and graphics, development, writing and docs, privacy, utilities, data and analytics, media, and education. Each entry carries a description, a GitHub link, license information, and searchable tags. New submissions go through GitHub issues, capped at 140 characters per description with three to five tags, while "featured" tools are picked manually for being distinctive rather than similar to what's already listed.
+
+The project itself is GPL-3.0 licensed, has 2.9k stars and 200 forks, and has built a small community on Reddit (r/fucksignups). The site, per its own description, runs with no cookies and no analytics.
+
+### Why it matters
+
+Against an endless stream of AI agents and frameworks with dubious star counts, the NoSignups directory is refreshingly unglamorous: it solves no infrastructure problem, it just collects things that already work without extra friction. Frustration with sign-up walls and data harvesting isn't new, but the fact that this project grew organically around a plain list of links, rather than around AI promises, says something about 2026 on its own.
+
+
 ===== EDITION 3 — 2026-09-05 =====
 
 ## От редакции

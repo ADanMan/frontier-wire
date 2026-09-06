@@ -10,14 +10,11 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №3 / Edition №3 — 2026-09-05** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №4 / Edition №4 — 2026-09-06** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Когда ИИ дообучает сам себя, ему нужно уметь забывать чужой опыт](editions/2026/09-05/01-conditional-experience-transfer.md)
-- **[Наука]** [Клетки под микроскопом слипаются — новый метод учится их всё-таки различать](editions/2026/09-05/02-qcell-overlapping-cells.md)
-- **[Технологии]** [«Оптимизируй окно контекста, остальное запомни» — ещё одна попытка приручить ИИ-агентов](editions/2026/09-05/03-ecc-agent-harness.md)
-- **[Технологии]** [Не всё, что в трендах GitHub, — новый ИИ-хайп: библиотеке форматирования строк уже больше десяти лет](editions/2026/09-05/04-fmtlib-fmt-trending.md)
-- **[ИИ]** [«Квантизационное исцеление»: сжатая модель обошла собственный оригинал](editions/2026/09-05/05-quantization-aware-healing.md)
-- **[Технологии]** [Поиск на Papers with Code теперь работает на собственной инфраструктуре Hugging Face](editions/2026/09-05/06-pwc-search-hf-infra.md)
+- **[ИИ]** [SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов](editions/2026/09-06/01-sglang-inference-engine-trending.md)
+- **[ИИ]** [Тренды GitHub заполонили надстройки для Claude Code — но верить их счётчикам звёзд стоит по-разному](editions/2026/09-06/02-claude-code-tooling-trend.md)
+- **[Технологии]** [На GitHub набирает популярность каталог из 200+ инструментов, которые не просят регистрацию](editions/2026/09-06/03-nosignups-directory.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

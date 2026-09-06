@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов - frontier-wire</title>
+<meta name="description" content="The engine for fast LLM serving added 1,237 stars in a day; the project claims a 25x inference speedup on new NVIDIA hardware.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-06/01-sglang-inference-engine-trending.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "SGLang is trending on GitHub again — and growing far more plausibly than its rivals", "alternativeHeadline": "SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов", "datePublished": "2026-09-06", "inLanguage": ["ru", "en"], "isBasedOn": "https://github.com/sgl-project/sglang", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-06/01-sglang-inference-engine-trending.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-06 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов</span><span class="lang-en">SGLang is trending on GitHub again — and growing far more plausibly than its rivals</span></h1>
+  <p class="dek big"><span class="lang-ru">Движок для быстрой раздачи больших моделей прибавил 1 237 звёзд за сутки; по собственным данным проекта, на новом железе NVIDIA он ускоряет инференс в 25 раз.</span><span class="lang-en">The engine for fast LLM serving added 1,237 stars in a day; the project claims a 25x inference speedup on new NVIDIA hardware.</span></p>
+  
+  <div class="prose lang-ru"><p>Проект <a href="https://github.com/sgl-project/sglang">sgl-project/sglang</a> снова попал в топ трендов GitHub: за сутки счётчик звёзд вырос с 34 257 до 35 494 — плюс 1 237, форков у репозитория уже 8 563. В трендах он идёт под категорией «Transformer», и это по сути верно: SGLang — движок для inference-раздачи больших языковых и мультимодальных моделей, от одной видеокарты до распределённых кластеров.</p>
+<p>В основе движка — RadixAttention, механизм кеширования общих префиксов запросов, который избавляет от повторных вычислений там, где промпты пользователей пересекаются. К нему добавлены планирование на CPU без лишних задержек, разделение фаз prefill и decode, спекулятивное декодирование и непрерывный батчинг — набор техник, которые в сумме и дают заявленный прирост скорости. Проект поддерживает как языковые модели (Llama, Qwen, DeepSeek, Kimi, GLM), так и модели эмбеддингов, reward-модели и диффузионные модели, а по железу работает не только с видеокартами NVIDIA и AMD, но и с процессорами Intel Xeon, TPU от Google и NPU Ascend.</p>
+<p>По собственным данным проекта, на архитектуре NVIDIA GB300 движок показывает 25-кратный прирост производительности инференса — это обновление февраля 2026 года — а среди пользователей называются xAI, NVIDIA, AMD, Google Cloud и Microsoft Azure. Разработчики утверждают, что через SGLang ежедневно проходят триллионы токенов на более чем 400 тысячах видеокарт. Развивает проект некоммерческая организация LMSYS — та же группа, что стоит за Chatbot Arena.</p>
+<h3>Почему это важно</h3>
+<p>На фоне вороха свежих «мета-харнессов» для ИИ-агентов, чьи счётчики звёзд в последние дни доходили до сотен тысяч за считаные месяцы существования, рост SGLang выглядит куда правдоподобнее: чуть больше тысячи звёзд в день — это похоже на органический интерес разработчиков, а не на аномалию счётчика. Гонка движков для инференса — SGLang, vLLM и другие — определяет не то, какая модель самая умная, а то, во сколько компаниям обходится каждый токен ответа. Для индустрии сейчас это едва ли не важнее самих моделей.</p></div>
+  <div class="prose lang-en"><p>The <a href="https://github.com/sgl-project/sglang">sgl-project/sglang</a> repository is trending on GitHub again: its star count climbed from 34,257 to 35,494 in a day, up 1,237, with 8,563 forks. GitHub lists it under the "Transformer" category, which is fair enough — SGLang is a serving engine for large language and multimodal models, scaling from a single GPU to distributed clusters.</p>
+<p>At its core is RadixAttention, a caching mechanism for shared request prefixes that avoids recomputing work when users' prompts overlap. On top of that sit zero-overhead CPU scheduling, prefill-decode separation, speculative decoding, and continuous batching — a combination of techniques that together produce the claimed speed gains. The project supports language models (Llama, Qwen, DeepSeek, Kimi, GLM) alongside embedding models, reward models, and diffusion models, and runs not just on NVIDIA and AMD GPUs but on Intel Xeon CPUs, Google TPUs, and Ascend NPUs.</p>
+<p>By the project's own account, SGLang delivers a 25x inference speedup on NVIDIA's GB300 architecture, an update from February 2026, with adopters including xAI, NVIDIA, AMD, Google Cloud, and Microsoft Azure. The developers say the engine now handles trillions of tokens a day across more than 400,000 GPUs. SGLang is maintained by LMSYS, the nonprofit also behind Chatbot Arena.</p>
+<h3>Why it matters</h3>
+<p>Against a pile of freshly trending AI-agent "meta-harnesses" whose star counts have hit hundreds of thousands within months of launch, SGLang's growth looks far more believable: just over a thousand stars a day reads like organic developer interest rather than a counter anomaly. The race between inference engines — SGLang, vLLM, and others — doesn't decide which model is smartest; it decides how much each answer costs companies to generate. For the industry right now, that may matter more than the models themselves.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://github.com/sgl-project/sglang">https://github.com/sgl-project/sglang</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
