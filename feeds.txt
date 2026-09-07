@@ -28,6 +28,7 @@ https://www.theguardian.com/world/rss
 https://feeds.npr.org/1001/rss.xml            # NPR top stories
 https://www.aljazeera.com/xml/rss/all.xml
 https://rss.dw.com/rdf/rss-en-all             # Deutsche Welle
+https://theconversation.com/global/rss.xml    # planted 2026-09-07: academic-authored world/science analysis, underrepresented angle
 
 # ── science & space (open-network only) ────────────────────────────
 https://www.nature.com/nature.rss
@@ -35,6 +36,7 @@ https://www.sciencedaily.com/rss/all.xml
 https://www.quantamagazine.org/feed/
 https://www.nasa.gov/feed/
 https://phys.org/rss-feed/
+https://undark.org/feed/                      # planted 2026-09-07: nonprofit science journalism, science-rubric under-supply
 
 # ── tech & engineering (open-network only) ─────────────────────────
 https://feeds.arstechnica.com/arstechnica/index
@@ -66,6 +68,7 @@ https://worksinprogress.co/feed/                 # прогресс и инст�
 https://www.historytoday.com/feed/rss.xml        # история
 https://nautil.us/feed/                          # наука как эссеистика
 https://www.themarginalian.org/feed/             # идеи и книги
+https://africasacountry.com/feed                 # planted 2026-09-07: independent world/culture commentary, region under-covered here
 
 # ── culture & ideas (open-network only) ────────────────────────────
 https://aeon.co/feed.rss
