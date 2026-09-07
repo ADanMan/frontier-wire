@@ -1,0 +1,22 @@
+#!/bin/zsh
+# Open-network digest bridge.
+# The cloud routine's sandbox reaches only raw.githubusercontent.com, so every
+# non-mirror feed in feeds.txt is invisible to it. This script runs on the
+# operator's Mac (open network), builds the full digest and pushes it; the
+# routine then reuses the ready file instead of refetching a narrow one.
+# Installed as a launchd agent: ~/Library/LaunchAgents/com.frontierwire.digest.plist
+set -e
+REPO="$HOME/Desktop/frontier-wire"
+export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
+cd "$REPO"
+git pull --rebase --autostash -q origin main
+python3 scripts/digest.py
+if ! git diff --quiet digests/; then
+  git add digests/
+  git commit -q -m "digest: $(date -u +%Y-%m-%d) (open-network)" \
+    --author="Danila Katalshov <56929384+ADanMan@users.noreply.github.com>"
+  git push -q origin main
+  echo "$(date -u) pushed digest"
+else
+  echo "$(date -u) digest unchanged"
+fi
