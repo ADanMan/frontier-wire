@@ -83,6 +83,114 @@ The more telling design choice is how it handles missing information. Every arti
 Scientific labs struggled with reproducibility long before AI agents arrived, and agents make the problem sharper: one can run code, query a database, and generate a chart in seconds, but the result is only as trustworthy as the record of where it came from. Tools like Open Science try to build that discipline into the workflow itself, rather than leaving it to a researcher's memory.
 
 
+----- 03-isar-aerospace-orbital-rocket (science) — source: https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/ -----
+
+## Русская версия
+
+Немецкая компания Isar Aerospace [первой в Европе успешно запустила полностью коммерческую орбитальную ракету](https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/). Представитель компании коротко резюмировал итог: «Мы достигли за несколько лет того, на что европейской космической отрасли раньше требовались десятилетия».
+
+Это не первая попытка. Как [пишет The Verge](https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch), в марте ракета Isar Aerospace уже пыталась взлететь — и продержалась в воздухе всего 30 секунд, прежде чем упасть в море и взорваться. На этот раз пуск прошёл успешно.
+
+До сих пор ни одна частная европейская компания не доводила ракету собственной разработки до успешного орбитального пуска — Isar Aerospace первой прошла этот путь до конца. Мартовская авария показала, насколько тонкая грань отделяет удачный запуск от катастрофы: 30 секунд полёта — и всё, взрыв над морем. Вернуться к пуску меньше чем через полгода и добиться успеха со второй попытки — само по себе редкость для отрасли, где переделка ракеты после аварии обычно занимает куда больше времени.
+
+### Почему это важно
+
+Представитель компании сам обозначил масштаб: то, что раньше требовало от европейской космической отрасли десятилетий, Isar Aerospace прошла за несколько лет. Собственная работающая коммерческая ракета — это заявка на то, что Европа больше не обязана полагаться исключительно на чужие стартовые площадки, когда нужно вывести спутник на орбиту.
+
+## English version
+
+German company Isar Aerospace has [become the first in Europe to successfully launch a fully commercial orbital rocket](https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/). A company representative summed it up simply: "We achieved within a few years what had taken the European space industry decades before."
+
+This wasn't the first try. As [The Verge reports](https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch), Isar Aerospace attempted a launch back in March, and that rocket lasted all of 30 seconds before crashing into the sea and exploding. This time, the launch succeeded.
+
+No private European company had ever taken a rocket of its own design all the way to a successful orbital launch before Isar Aerospace pulled it off. The March failure showed how thin the line is between success and disaster: 30 seconds of flight, then an explosion at sea. Coming back to try again in under six months and succeeding on the second attempt is unusual in an industry where rebuilding a rocket after a crash typically takes far longer.
+
+### Why it matters
+
+The company's own framing sets the scale: what used to take the European space industry decades, Isar Aerospace did in a few years. A working commercial rocket of its own is a statement that Europe no longer has to depend entirely on someone else's launch pad to get a satellite into orbit.
+
+
+----- 04-germany-afd-exit-polls (world) — source: https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right-exit -----
+
+## Русская версия
+
+По данным [экзитполов, о которых сообщает NPR](https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right-exit), крайне правая «Альтернатива для Германии» (AfD) вышла в уверенные лидеры на очередных региональных выборах в стране. При этом остаётся неясным, сможет ли партия конвертировать этот результат в нечто большее — сформировать правительство земли впервые с момента окончания Второй мировой войны. Утренняя сводка NPR в номере от 7 сентября уже описывает исход выборов словом «landslide» — разгромная победа.
+
+Экзитполы — это ещё не окончательный протокол, а первая, предварительная оценка результата сразу после закрытия участков. Даже с уверенным лидерством партии по опросам на выходе вопрос о власти в земле решается не только числом голосов: чтобы реально возглавить правительство, AfD нужны либо партнёры по коалиции, либо готовность других партий признать её мандат на формирование кабинета в одиночку. Именно на этой развилке — между «победила на выборах» и «сформировала правительство» — и стоит сегодня немецкая политика.
+
+NPR формулирует это предельно конкретно: если AfD всё же удастся собрать правительство земли, это будет первый такой случай со времён окончания Второй мировой войны. Сама эта формулировка — не просто фигура речи: она означает, что за всё послевоенное время ни одна земля в Германии ещё не имела правительства, которое полностью возглавляла бы крайне правая партия.
+
+### Почему это важно
+
+Итог этих выборов — не просто региональная новость. Он покажет, держится ли ещё в Германии послевоенный консенсус против прихода крайне правых к власти хотя бы на уровне земли, или эта граница уже сдвинулась. От того, смогут ли другие партии договориться и не допустить AfD к формированию правительства, зависит куда больше, чем состав одного регионального кабинета.
+
+## English version
+
+According to [exit polls reported by NPR](https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right-exit), Germany's far-right Alternative for Germany (AfD) has taken a commanding lead in a regional election. What remains unclear is whether the party can turn that lead into something more: forming a state government for the first time since World War II. NPR's morning brief on September 7 already describes the outcome in one word — landslide.
+
+Exit polls are a first, preliminary read taken right after polls close, not a final tally. Even with a strong lead in the exit polls, actually taking charge of a state government depends on more than vote share — the AfD would need either coalition partners or other parties willing to accept its mandate to govern alone. That gap, between "won the most votes" and "formed the government," is exactly where German politics stands right now.
+
+NPR puts it in concrete terms: if the AfD does manage to form a state government, it would be the first time this has happened since World War II ended. That framing isn't just a rhetorical flourish — it means that in the entire postwar period, no German state has yet had a government fully led by a far-right party.
+
+### Why it matters
+
+This election is more than a regional headline. It's a test of whether Germany's postwar consensus against handing power to the far right, even at the state level, still holds, or whether that line has already moved. Whether other parties can agree to keep the AfD out of government matters well beyond the makeup of one regional cabinet.
+
+
+----- 05-social-isolation-neet-youth (world) — source: https://phys.org/news/2026-09-socially-isolated-linked-young-people.html -----
+
+## Русская версия
+
+Британские исследователи [обнаружили связь](https://phys.org/news/2026-09-socially-isolated-linked-young-people.html) между социальной изоляцией в юности и попаданием в категорию NEET — «не учится, не работает, не проходит обучение» (Not in Education, Employment or Training). В Великобритании таких молодых людей сейчас около миллиона. Как отмечают авторы работы, последствия для здоровья и доходов этой группы могут быть значительными и долговременными, а издержки ложатся и на экономику в целом.
+
+Сама аббревиатура NEET в британской статистике обозначает довольно широкую и разнородную группу: кто-то не может найти работу, кто-то бросил учёбу, кто-то не может выйти на рынок труда из-за проблем со здоровьем. Именно поэтому попытка нащупать один из факторов, предшествующих этому статусу, — социальную изолированность в подростковом возрасте, — важна: она указывает не на симптом, а на то, что могло происходить с человеком ещё до того, как он оказался «вне системы».
+
+Цифра в миллион человек — это не абстракция, а значительная доля целого поколения молодых британцев. Для британской экономики это означает не просто потерю рабочей силы: люди, годами остающиеся без образования и работы, реже платят налоги, чаще нуждаются в социальной поддержке и с большей вероятностью сталкиваются с проблемами физического и психического здоровья, которые сами по себе требуют финансирования системы здравоохранения.
+
+### Почему это важно
+
+Когда причиной называют не экономику или доступность образования, а социальную изоляцию, это меняет разговор о том, что вообще можно сделать. Хорошая экономическая конъюнктура и новые образовательные программы не обязательно помогут молодому человеку, который вырос в изоляции от сверстников. Значит, часть решения может лежать не в сфере трудовой политики, а в том, насколько дети и подростки включены в социальную жизнь задолго до того, как перед ними встаёт вопрос учёбы или первой работы.
+
+## English version
+
+British researchers have [found a link](https://phys.org/news/2026-09-socially-isolated-linked-young-people.html) between social isolation in youth and ending up NEET — Not in Education, Employment, or Training. About a million young people in the UK currently fall into that category. The consequences for their health and income, the researchers note, can be significant and long-lasting, with costs to the wider economy as well.
+
+The NEET label covers a fairly broad and mixed group in UK statistics: some can't find work, some dropped out of education, some are kept out of the labor market by health problems. That's exactly why pointing to one factor that can precede this status — social isolation in the teenage years — matters: it points not to a symptom, but to something that may have been happening to a person well before they fell out of the system.
+
+A million people is not an abstract figure — it's a substantial slice of a whole generation of young Britons. For the UK economy, that means more than lost labor. People who go years without education or work pay less in taxes, are more likely to need social support, and face a higher risk of physical and mental health problems that themselves place a burden on the healthcare system.
+
+### Why it matters
+
+When the cause named is social isolation rather than the economy or access to education, it changes the conversation about what can actually be done. A stronger economy or new education programs won't necessarily help a young person who grew up isolated from their peers. That suggests part of the answer may lie not in labor policy, but in how included children and teenagers are in social life long before the question of school or a first job even comes up.
+
+
+----- 06-durham-town-hall (culture) — source: https://www.atlasobscura.com/places/durham-town-hall -----
+
+## Русская версия
+
+Ратуша английского города Дарем [снова открыта для посетителей](https://www.atlasobscura.com/places/durham-town-hall) — после реставрационных работ. Здание находится в центре истории города с 1350 года: почти семь веков подряд оно так или иначе оставалось частью городской жизни. Теперь, как пишет Atlas Obscura, каждый может «открыть для себя её богатую историю и скрытые истории» — с помощью аудиогидов, интерактивных информационных точек и коротких фильмов, размещённых внутри.
+
+1350 год — это середина XIV века: почти семь столетий отделяют эту дату от сегодняшнего дня. Здание, способное непрерывно служить городским нуждам с той эпохи до наших дней, застало смену не одной политической системы и не одной архитектурной моды — и, судя по всему, реставраторы решили не прятать эти слои истории, а сделать их частью экскурсии.
+
+Формат, который выбрали для ратуши — аудиогиды и интерактивные точки вместо, скажем, обычных табличек с датами, — говорит о смещении в сторону музеев, которые предлагают посетителю самому пройти маршрут и услышать историю по частям, а не просто прочитать список фактов у входа. Для здания, которое почти семь столетий было рабочим пространством, а не музейным экспонатом, это неплохой способ совместить его прежнюю функцию с новой ролью — открытого для всех места, где город рассказывает сам о себе.
+
+### Почему это важно
+
+Городские ратуши редко становятся туристическими достопримечательностями первого ряда — обычно это рабочие здания, куда обычному человеку заглянуть незачем. Реставрация и открытие Дарем-ратуши для широкой публики — это пример того, как город решает не запирать свою многовековую историю в архивах, а буквально открыть на неё двери.
+
+## English version
+
+Durham's town hall has [reopened to visitors](https://www.atlasobscura.com/places/durham-town-hall) following refurbishment work. The building has been central to the city's history since 1350 — nearly seven centuries during which it has remained, in one form or another, part of civic life. Now, as Atlas Obscura puts it, everyone can "discover its rich history and hidden stories," with audio guides, interactive information points, and short films built into the visit.
+
+1350 sits in the middle of the 14th century — nearly seven hundred years back from today. A building that has continuously served a city's needs from that era to the present has lived through more than one political system and more than one architectural fashion, and it sounds like the people behind this restoration chose to make those layers of history part of the visit rather than hide them.
+
+The format chosen for the town hall — audio guides and interactive points rather than, say, plain date plaques — reflects a broader shift toward museums that let visitors walk a route and hear a story unfold piece by piece, instead of reading a list of facts at the entrance. For a building that spent nearly seven centuries as working civic space rather than a museum exhibit, that's a fitting way to combine its old function with a new one: an open place where the city tells its own story.
+
+### Why it matters
+
+Town halls rarely become first-tier tourist attractions — they're usually working buildings with no obvious reason for an outsider to walk in. Restoring Durham's and opening it to the public is a small example of a city choosing not to keep centuries of history locked in an archive, but to literally open the door to it.
+
+
 ===== EDITION 4 — 2026-09-06 =====
 
 ## От редакции
