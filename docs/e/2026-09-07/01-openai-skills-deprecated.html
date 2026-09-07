@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAI закрывает каталог скиллов для Codex — как раз когда скилл-паки бьют рекорды на GitHub - frontier-wire</title>
+<meta name="description" content="The official repo got tagged &quot;deprecated&quot; and redirected to plugins, while a third-party marketing-skills catalog picked up hundreds of stars in a single day.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-07/01-openai-skills-deprecated.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "OpenAI shuts down its Codex skills catalog just as third-party skill packs blow up on GitHub", "alternativeHeadline": "OpenAI закрывает каталог скиллов для Codex — как раз когда скилл-паки бьют рекорды на GitHub", "datePublished": "2026-09-07", "inLanguage": ["ru", "en"], "isBasedOn": "https://github.com/openai/skills", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-07/01-openai-skills-deprecated.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-07 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">OpenAI закрывает каталог скиллов для Codex — как раз когда скилл-паки бьют рекорды на GitHub</span><span class="lang-en">OpenAI shuts down its Codex skills catalog just as third-party skill packs blow up on GitHub</span></h1>
+  <p class="dek big"><span class="lang-ru">Официальный репозиторий помечен «deprecated» и отправляет разработчиков к плагинам, а сторонний каталог маркетинговых скиллов тем временем собрал почти 400 звёзд за сутки.</span><span class="lang-en">The official repo got tagged &quot;deprecated&quot; and redirected to plugins, while a third-party marketing-skills catalog picked up hundreds of stars in a single day.</span></p>
+  
+  <div class="prose lang-ru"><p>В репозитории <a href="https://github.com/openai/skills">openai/skills</a> — каталоге агентных скиллов для Codex — с сегодняшнего дня висит предупреждение: «Этот репозиторий устарел». Дальше в README прямая инструкция: идите в новый репозиторий <a href="https://github.com/openai/plugins">openai/plugins</a> или используйте гайд по созданию плагинов, где объясняется, как оформить скилл в виде отдельного плагина.</p>
+<p>Сама идея скиллов простая: папка с инструкциями, скриптами и ресурсами, которую агент может подключить и переиспользовать — «напиши один раз, используй везде». В Codex такие папки жили в трёх категориях: <code>.system</code> ставились автоматически вместе с последней версией Codex, <code>.curated</code> и <code>.experimental</code> — через команду <code>$skill-installer</code>. Теперь этот механизм сворачивается в пользу более широкой системы плагинов, где скилл — лишь один из компонентов пакета: рядом с ним могут идти MCP-серверы, конфигурации агентов, хуки и команды, упакованные в единый манифест <code>.codex-plugin/plugin.json</code>.</p>
+<p>Забавно, что даже с пометкой «deprecated» репозиторий сегодня всё равно попал в топ трендов GitHub — с 44 новыми звёздами за сутки. Но настоящий рекорд дня поставил не он, а сторонний каталог <a href="https://github.com/coreyhaines31/marketingskills">marketingskills</a> — коллекция скиллов для маркетологов (SEO, копирайтинг, CRO, реклама, аналитика), которую можно подключить к Claude Code, Codex, Cursor или Windsurf. За один день он собрал 355 звёзд — больше, чем любой другой репозиторий в сегодняшней подборке трендов.</p>
+<p>Каталог формально бесплатный и лицензирован по MIT, но по сути это витрина. Автор Кори Хейнс встраивает в README ссылки на свои платные продукты — агентство Conversion Factory, курс по ИИ-маркетингу и автономного агента-«CMO» под названием Magister, — а часть работы над репозиторием финансируют «проверенные партнёры», сервисы Converly и Ploy. Если убрать хайп вокруг слова «скиллы», получится обычная воронка лидогенерации, просто упакованная в открытый исходный код.</p>
+<p>Вывод простой: формат скиллов явно прижился как способ упаковки знаний для агентов, но пока индустрия спорит, где ему место — в официальном каталоге платформы или в системе плагинов, — открытые репозитории на GitHub продолжают расти сами по себе, независимо от того, что решит OpenAI.</p>
+<h3>Почему это важно</h3>
+<p>Скиллы стали стандартным способом расширять ИИ-агентов без переобучения моделей, и то, куда крупные платформы решают их поместить — в основной продукт, в отдельную систему плагинов или вовсе списать в архив, — определяет, будет ли экосистема сторонних каталогов держаться на официальной поддержке или продолжит жить в диком поле GitHub, как сейчас.</p></div>
+  <div class="prose lang-en"><p>The <a href="https://github.com/openai/skills">openai/skills</a> repository — Codex's catalog of agent skills — now carries a banner: "This repository is deprecated." The README points straight to the new <a href="https://github.com/openai/plugins">openai/plugins</a> repo, or to the plugin-building guide that explains how to package a skill as a standalone plugin instead.</p>
+<p>The idea behind skills is simple: a folder of instructions, scripts, and resources an agent can pick up and reuse — "write once, use everywhere." In Codex, these folders lived in three tiers: <code>.system</code> skills installed automatically with the latest Codex release, while <code>.curated</code> and <code>.experimental</code> ones went in through the <code>$skill-installer</code> command. That model is now folding into a broader plugin system, where a skill is just one piece of a bundle that can also include MCP servers, agent configs, hooks, and commands, all wrapped in a single <code>.codex-plugin/plugin.json</code> manifest.</p>
+<p>Oddly enough, even tagged deprecated, the repo still landed on GitHub's trending list today, picking up 44 new stars. But the real record of the day went to a different catalog: <a href="https://github.com/coreyhaines31/marketingskills">marketingskills</a>, a collection of skills for marketers — SEO, copywriting, CRO, ads, analytics — built for Claude Code, Codex, Cursor, and Windsurf. It gained 355 stars in a single day, more than any other repo in today's trending roundup.</p>
+<p>The catalog is free and MIT-licensed, but it's also a funnel. Creator Corey Haines links his README to paid products: his Conversion Factory agency, an AI-marketing course, and an autonomous "CMO" agent called Magister, with "verified partners" Converly and Ploy helping fund the project. Strip away the word "skills" and what's left is a fairly ordinary lead-generation setup, just shipped as open source.</p>
+<p>The takeaway: skills have clearly stuck as a format for packaging knowledge into agents, but while the industry argues over where they belong — a platform's official catalog or a broader plugin system — open repos on GitHub keep growing on their own, regardless of what OpenAI decides.</p>
+<h3>Why it matters</h3>
+<p>Skills have become the default way to extend AI agents without retraining models, and where the big platforms choose to put them — folded into the core product, spun into a separate plugin system, or shelved entirely — decides whether the ecosystem of third-party catalogs rides on official support or keeps living wild on GitHub, the way it does today.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://github.com/openai/skills">https://github.com/openai/skills</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

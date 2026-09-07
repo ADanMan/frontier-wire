@@ -2,6 +2,87 @@
 
 
 
+===== EDITION 5 — 2026-09-07 =====
+
+## От редакции
+
+Hugging Face сегодня выпустил очередную порцию инженерных постов, но не в них главная интрига дня. Куда интереснее контраст: репозиторий с маркетинговыми скиллами для ИИ-агентов собрал почти 400 звёзд за сутки, а официальный каталог скиллов OpenAI для Codex в это же время получил пометку «deprecated» и отправил разработчиков в новый репозиторий с плагинами. Добавьте сюда Open Science — локальный исследовательский workbench, который обновился до версии с поддержкой Slurm-кластеров и менеджера научной литературы, — и получится обычный день индустрии: формат скиллов явно прижился, но крупные платформы и open source решают, что с ним делать, по-разному.
+
+## Editorial
+
+Hugging Face put out another batch of engineering posts today, but that's not where the real story is. The sharper contrast: a marketing-skills repo for AI agents picked up almost 400 stars in a day, while OpenAI's own Codex skills catalog got tagged "deprecated" and redirected developers to a new plugins repo. Add Open Science — a local research workbench that just shipped Slurm-cluster support and a literature manager — and you get a fairly ordinary day in the industry: skills have clearly stuck as a format, but platforms and open source keep deciding what to do with them in different ways.
+
+
+----- 01-openai-skills-deprecated (ai) — source: https://github.com/openai/skills -----
+
+## Русская версия
+
+В репозитории [openai/skills](https://github.com/openai/skills) — каталоге агентных скиллов для Codex — с сегодняшнего дня висит предупреждение: «Этот репозиторий устарел». Дальше в README прямая инструкция: идите в новый репозиторий [openai/plugins](https://github.com/openai/plugins) или используйте гайд по созданию плагинов, где объясняется, как оформить скилл в виде отдельного плагина.
+
+Сама идея скиллов простая: папка с инструкциями, скриптами и ресурсами, которую агент может подключить и переиспользовать — «напиши один раз, используй везде». В Codex такие папки жили в трёх категориях: `.system` ставились автоматически вместе с последней версией Codex, `.curated` и `.experimental` — через команду `$skill-installer`. Теперь этот механизм сворачивается в пользу более широкой системы плагинов, где скилл — лишь один из компонентов пакета: рядом с ним могут идти MCP-серверы, конфигурации агентов, хуки и команды, упакованные в единый манифест `.codex-plugin/plugin.json`.
+
+Забавно, что даже с пометкой «deprecated» репозиторий сегодня всё равно попал в топ трендов GitHub — с 44 новыми звёздами за сутки. Но настоящий рекорд дня поставил не он, а сторонний каталог [marketingskills](https://github.com/coreyhaines31/marketingskills) — коллекция скиллов для маркетологов (SEO, копирайтинг, CRO, реклама, аналитика), которую можно подключить к Claude Code, Codex, Cursor или Windsurf. За один день он собрал 355 звёзд — больше, чем любой другой репозиторий в сегодняшней подборке трендов.
+
+Каталог формально бесплатный и лицензирован по MIT, но по сути это витрина. Автор Кори Хейнс встраивает в README ссылки на свои платные продукты — агентство Conversion Factory, курс по ИИ-маркетингу и автономного агента-«CMO» под названием Magister, — а часть работы над репозиторием финансируют «проверенные партнёры», сервисы Converly и Ploy. Если убрать хайп вокруг слова «скиллы», получится обычная воронка лидогенерации, просто упакованная в открытый исходный код.
+
+Вывод простой: формат скиллов явно прижился как способ упаковки знаний для агентов, но пока индустрия спорит, где ему место — в официальном каталоге платформы или в системе плагинов, — открытые репозитории на GitHub продолжают расти сами по себе, независимо от того, что решит OpenAI.
+
+### Почему это важно
+
+Скиллы стали стандартным способом расширять ИИ-агентов без переобучения моделей, и то, куда крупные платформы решают их поместить — в основной продукт, в отдельную систему плагинов или вовсе списать в архив, — определяет, будет ли экосистема сторонних каталогов держаться на официальной поддержке или продолжит жить в диком поле GitHub, как сейчас.
+
+## English version
+
+The [openai/skills](https://github.com/openai/skills) repository — Codex's catalog of agent skills — now carries a banner: "This repository is deprecated." The README points straight to the new [openai/plugins](https://github.com/openai/plugins) repo, or to the plugin-building guide that explains how to package a skill as a standalone plugin instead.
+
+The idea behind skills is simple: a folder of instructions, scripts, and resources an agent can pick up and reuse — "write once, use everywhere." In Codex, these folders lived in three tiers: `.system` skills installed automatically with the latest Codex release, while `.curated` and `.experimental` ones went in through the `$skill-installer` command. That model is now folding into a broader plugin system, where a skill is just one piece of a bundle that can also include MCP servers, agent configs, hooks, and commands, all wrapped in a single `.codex-plugin/plugin.json` manifest.
+
+Oddly enough, even tagged deprecated, the repo still landed on GitHub's trending list today, picking up 44 new stars. But the real record of the day went to a different catalog: [marketingskills](https://github.com/coreyhaines31/marketingskills), a collection of skills for marketers — SEO, copywriting, CRO, ads, analytics — built for Claude Code, Codex, Cursor, and Windsurf. It gained 355 stars in a single day, more than any other repo in today's trending roundup.
+
+The catalog is free and MIT-licensed, but it's also a funnel. Creator Corey Haines links his README to paid products: his Conversion Factory agency, an AI-marketing course, and an autonomous "CMO" agent called Magister, with "verified partners" Converly and Ploy helping fund the project. Strip away the word "skills" and what's left is a fairly ordinary lead-generation setup, just shipped as open source.
+
+The takeaway: skills have clearly stuck as a format for packaging knowledge into agents, but while the industry argues over where they belong — a platform's official catalog or a broader plugin system — open repos on GitHub keep growing on their own, regardless of what OpenAI decides.
+
+### Why it matters
+
+Skills have become the default way to extend AI agents without retraining models, and where the big platforms choose to put them — folded into the core product, spun into a separate plugin system, or shelved entirely — decides whether the ecosystem of third-party catalogs rides on official support or keeps living wild on GitHub, the way it does today.
+
+
+----- 02-open-science-workbench (science) — source: https://github.com/aipoch/open-science -----
+
+## Русская версия
+
+Открытый проект [Open Science](https://github.com/aipoch/open-science) от команды AIPOCH называет себя «домашней лабораторией» для учёных: локальное, model-agnostic приложение, где ИИ-агент читает файлы, ищет в вебе, запускает код на Python и R и обращается к научным базам данных, а результат остаётся с полной историей происхождения. Проект бесплатный, лицензирован по Apache 2.0 и работает на macOS, Windows и Linux. Сегодня он попал в тренды GitHub, набрав 145 звёзд за сутки.
+
+Повод — свежий релиз v0.26.0 (вышел в сентябре 2026-го). Главные новые вещи две. Первая — «HPC-класс вычислений»: теперь можно подключать удалённые вычислительные хосты не только по прямому SSH, но и через персональный режим выполнения на Slurm, то есть отправлять задачи в очередь настоящего кластера. Вторая — менеджер литературы: библиотека ссылок с импортом по DOI, PubMed ID или arXiv ID, автоматическим поиском полнотекстовых PDF через открытые источники (Europe PMC, PMC, OpenAlex, arXiv, Unpaywall), склейкой дублей и форматированием цитат. В этом же релизе среди провайдеров моделей появился Apodex — рядом с последними моделями OpenAI и Anthropic.
+
+Внутри — 22 готовых научных скилла: свёртка белков (AlphaFold2, ESMFold2, OpenFold3, Boltz, Chai-1), докинг лигандов (DiffDock, LigandMPNN, SolubleMPNN, ProteinMPNN), геномика одной клетки (scGPT, scvi-tools) и работа с текстом самой науки — обзор литературы, «рассказ» о статье, компоновка рисунков. К ним прилагаются 24 встроенных коннектора к базам данных: PubMed, bioRxiv, ChEMBL, ZINC, реестр клинических испытаний и ещё два десятка источников — каждый под отдельным разрешением («всегда разрешать», «спрашивать каждый раз», «блокировать»).
+
+Отдельно авторы гордятся результатом на бенчмарке BiomniBench-DA: в подкатегории Public 50 проект помечен как занимающий первое место. У проекта даже есть DOI через Zenodo — редкая деталь для GitHub-репозитория, которая явно нацелена на то, чтобы его можно было цитировать в статьях наравне с другими инструментами.
+
+Самое интересное решение — как проект обращается с недостающими данными. Каждый сгенерированный агентом артефакт хранится как неизменяемая, проверенная контрольной суммой версия, а во вкладке «Provenance» видно, на основе какого кода, каких входных файлов и в каком окружении он получен. Если что-то из этой цепочки не удалось восстановить, интерфейс так и пишет — «недоступно», а не додумывает историю от себя. Для инструмента, который претендует на роль лабораторного журнала для ИИ-агентов, это едва ли не более важная деталь, чем список подключённых баз данных.
+
+### Почему это важно
+
+Научные лаборатории годами боролись за воспроизводимость экспериментов ещё до появления ИИ-агентов, а с ними эта задача только усложнилась: агент может запустить код, обратиться к базе данных и сгенерировать график за секунды, но без честной записи, откуда что взялось, результату нельзя доверять. Инструменты вроде Open Science пытаются встроить эту дисциплину в сам рабочий процесс, а не оставлять её на совесть исследователя.
+
+## English version
+
+The open-source [Open Science](https://github.com/aipoch/open-science) project from the AIPOCH team bills itself as a local "home lab" for researchers: a model-agnostic desktop app where an AI agent reads files, searches the web, runs Python and R code, and queries scientific databases, with every result kept alongside a full record of how it was produced. It's free, Apache 2.0-licensed, and runs on macOS, Windows, and Linux. It landed on GitHub's trending list today, picking up 145 stars in a single day.
+
+The trigger is a fresh release, v0.26.0, shipped in September 2026. Two additions stand out. First, "HPC-class compute": remote compute hosts can now be reached not just over direct SSH but through a per-host Slurm execution mode, meaning jobs can be submitted straight to a real cluster's queue. Second, a literature manager: a reference library that imports by DOI, PubMed ID, or arXiv ID, automatically finds open-access full-text PDFs across Europe PMC, PMC, OpenAlex, arXiv, and Unpaywall, merges duplicate records, and formats citations. The same release adds Apodex as a model provider alongside the latest OpenAI and Anthropic models.
+
+Under the hood sit 22 ready-made scientific skills: protein folding (AlphaFold2, ESMFold2, OpenFold3, Boltz, Chai-1), ligand docking (DiffDock, LigandMPNN, SolubleMPNN, ProteinMPNN), single-cell genomics (scGPT, scvi-tools), and tools for the writing side of science, like literature review and figure composition. Alongside them are 24 built-in data connectors — PubMed, bioRxiv, ChEMBL, ZINC, a clinical-trials registry, and about twenty more sources — each gated by its own permission setting ("always allow," "ask each time," or "block").
+
+The project also flags a benchmark result: it claims the top spot in the Public 50 category of the BiomniBench-DA leaderboard. It even carries a Zenodo DOI, an unusual touch for a GitHub repo, clearly meant to make it citable in papers the same way any other research tool would be.
+
+The more telling design choice is how it handles missing information. Every artifact an agent generates is stored as an immutable, checksummed version, and a "Provenance" tab shows the code, input files, and environment behind it. When part of that chain can't be verified, the interface says so — "unavailable" — instead of guessing. For a tool positioning itself as a lab notebook for AI agents, that may matter more than the length of its connector list.
+
+### Why it matters
+
+Scientific labs struggled with reproducibility long before AI agents arrived, and agents make the problem sharper: one can run code, query a database, and generate a chart in seconds, but the result is only as trustworthy as the record of where it came from. Tools like Open Science try to build that discipline into the workflow itself, rather than leaving it to a researcher's memory.
+
+
 ===== EDITION 4 — 2026-09-06 =====
 
 ## От редакции

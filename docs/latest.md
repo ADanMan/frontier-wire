@@ -1,13 +1,9 @@
-# frontier-wire — latest edition №4 (2026-09-06)
+# frontier-wire — latest edition №5 (2026-09-07)
 
-## SGLang is trending on GitHub again — and growing far more plausibly than its rivals / SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов
-rubric: ai · source: https://github.com/sgl-project/sglang
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-06/01-sglang-inference-engine-trending.md
+## OpenAI shuts down its Codex skills catalog just as third-party skill packs blow up on GitHub / OpenAI закрывает каталог скиллов для Codex — как раз когда скилл-паки бьют рекорды на GitHub
+rubric: ai · source: https://github.com/openai/skills
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-07/01-openai-skills-deprecated.md
 
-## GitHub's trending page is full of Claude Code add-ons — and their star counts deserve very different levels of trust / Тренды GitHub заполонили надстройки для Claude Code — но верить их счётчикам звёзд стоит по-разному
-rubric: ai · source: https://github.com/ruvnet/ruflo
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-06/02-claude-code-tooling-trend.md
-
-## A GitHub directory of 200+ tools that never ask you to sign up is picking up steam / На GitHub набирает популярность каталог из 200+ инструментов, которые не просят регистрацию
-rubric: tech · source: https://github.com/BraveOPotato/FckSignups
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-06/03-nosignups-directory.md
+## Scientists get a local AI research workbench — now with Slurm clusters and a reference library / Учёным сделали «домашнюю лабораторию» для ИИ-агентов — теперь со Slurm и менеджером литературы
+rubric: science · source: https://github.com/aipoch/open-science
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-07/02-open-science-workbench.md

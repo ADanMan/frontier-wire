@@ -10,11 +10,10 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №4 / Edition №4 — 2026-09-06** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №5 / Edition №5 — 2026-09-07** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [SGLang снова в трендах GitHub — и растёт куда правдоподобнее конкурентов](editions/2026/09-06/01-sglang-inference-engine-trending.md)
-- **[ИИ]** [Тренды GitHub заполонили надстройки для Claude Code — но верить их счётчикам звёзд стоит по-разному](editions/2026/09-06/02-claude-code-tooling-trend.md)
-- **[Технологии]** [На GitHub набирает популярность каталог из 200+ инструментов, которые не просят регистрацию](editions/2026/09-06/03-nosignups-directory.md)
+- **[ИИ]** [OpenAI закрывает каталог скиллов для Codex — как раз когда скилл-паки бьют рекорды на GitHub](editions/2026/09-07/01-openai-skills-deprecated.md)
+- **[Наука]** [Учёным сделали «домашнюю лабораторию» для ИИ-агентов — теперь со Slurm и менеджером литературы](editions/2026/09-07/02-open-science-workbench.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
