@@ -1,0 +1,26 @@
+name: digest
+# Bridge for the cloud routine: the routine's sandbox can only reach
+# raw.githubusercontent.com, so open-network feeds must be fetched here and
+# committed. The routine then reuses the ready digest instead of refetching.
+on:
+  schedule:
+    - cron: '20 3 * * *'    # 40 min before the 04:00 UTC routine
+    - cron: '20 15 * * *'   # 40 min before the 16:00 UTC routine
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch digest
+        run: python3 scripts/digest.py
+      - name: Commit
+        run: |
+          git config user.name "Danila Katalshov"
+          git config user.email "56929384+ADanMan@users.noreply.github.com"
+          git add digests/
+          git diff --staged --quiet || git commit -m "digest: $(date -u +%Y-%m-%d) (open-network)"
+          git pull --rebase --autostash origin main
+          git push origin main
