@@ -191,6 +191,188 @@ The format chosen for the town hall — audio guides and interactive points rath
 Town halls rarely become first-tier tourist attractions — they're usually working buildings with no obvious reason for an outsider to walk in. Restoring Durham's and opening it to the public is a small example of a city choosing not to keep centuries of history locked in an archive, but to literally open the door to it.
 
 
+----- 07-miami-amazon-cargo-crash (world) — source: https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport -----
+
+## Русская версия
+
+Пять человек погибли после того, как грузовой [Boeing 767 с логотипом Amazon выкатился за пределы посадочной полосы](https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport) в международном аэропорту Майами. По данным NPR, авиалайнер не смог остановиться на полосе при посадке в воскресенье и врезался в стоявший рядом транспорт. Федеральное управление гражданской авиации США (FAA) уже занимается расследованием причин.
+
+Видео с места происшествия, которое приводит NPR, показывает густой чёрный дым, поднимающийся над местом крушения. The Verge со ссылкой на очевидцев уточняет: на момент публикации масштаб повреждений и тяжесть травм пострадавших ещё не были до конца ясны — сообщалось о нескольких раненых, помимо погибших.
+
+Boeing 767 — рабочая лошадка грузовой авиации: именно на этих бортах Amazon возит посылки между логистическими хабами, а сама компания давно построила собственный воздушный флот под брендом Amazon Air, чтобы не зависеть от сторонних перевозчиков в пиковые дни. Инцидент с бортом, выехавшим за пределы полосы при посадке, а не при взлёте, обычно указывает следствие в сторону нескольких стандартных версий: неполадки с тормозной системой или реверсом тяги, погодные условия на полосе или ошибка экипажа при расчёте посадочной дистанции. Пока ни одна из этих версий официально не подтверждена — FAA работает по горячим следам, и точную причину предстоит установить в ближайшие недели.
+
+Для аэропорта Майами, одного из крупнейших грузовых хабов Северной Америки, происшествие означает как минимум временные ограничения на работу полосы и разбирательства с диспетчерскими службами. Для Amazon — это удар по репутации логистического крыла компании ровно в тот момент, когда сезон предпраздничных поставок обычно требует максимальной надёжности воздушного флота.
+
+### Почему это важно
+
+Авиакатастрофы с грузовыми, а не пассажирскими бортами реже попадают в заголовки, но именно грузовая авиация — тот самый невидимый слой инфраструктуры, который держит на себе современную логистику. Пять погибших и самолёт, выехавший за пределы полосы одного из крупнейших аэропортов США, — повод для FAA заново посмотреть на процедуры посадки грузовых широкофюзеляжных бортов в оживлённых хабах.
+
+## English version
+
+Five people are dead after an Amazon-branded [Boeing 767 cargo plane overran the runway](https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport) at Miami International Airport. NPR reports the aircraft failed to stop on the runway while landing on Sunday and crashed into vehicles parked nearby. The Federal Aviation Administration is now investigating.
+
+Footage cited by NPR shows thick black smoke rising from the crash site. The Verge, citing witnesses, notes that at the time of publication the extent of the damage and the seriousness of the injuries were still unclear, with several people reported hurt in addition to the fatalities.
+
+The Boeing 767 is a workhorse of cargo aviation — it's the model Amazon uses to move packages between logistics hubs, part of the in-house Amazon Air fleet the company built up specifically so it wouldn't have to rely entirely on third-party carriers during peak demand. A plane running off the end of the runway on landing, rather than during takeoff, usually points investigators toward a handful of standard explanations: braking or thrust-reverser malfunctions, runway weather conditions, or a crew miscalculation of landing distance. None of those has been officially confirmed yet — the FAA is still working the scene, and the exact cause will likely take weeks to establish.
+
+For Miami, one of North America's largest cargo hubs, the crash means at least temporary runway restrictions and scrutiny of air traffic control procedures. For Amazon, it's a reputational hit to its logistics arm at exactly the point in the year when peak shipping season demands maximum fleet reliability.
+
+### Why it matters
+
+Cargo-plane crashes rarely make headlines the way passenger incidents do, but freight aviation is the invisible layer of infrastructure holding up modern logistics. Five deaths and a wide-body cargo jet running off the runway at one of the busiest airports in the US give the FAA good reason to take a fresh look at landing procedures for cargo widebodies at high-traffic hubs.
+
+
+----- 08-bepicolombo-mercury-arrival (science) — source: https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/ -----
+
+## Русская версия
+
+Спустя восемь лет после запуска межпланетная станция BepiColombo [выходит на финальный этап сближения с Меркурием](https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/). Это совместный проект Европейского космического агентства (ESA) и японского JAXA, и он станет лишь третьей в истории миссией, добравшейся до самой внутренней планеты Солнечной системы — после американских «Маринер-10» и «Мессенджер». Как формулируют участники проекта, задача — «понять происхождение этой планеты и то, как она стала такой, какая есть».
+
+Восемь лет полёта для дистанции, которая по прямой значительно короче, чем до внешних планет, — это не авария маршрута, а особенность физики полёта к Меркурию. Чтобы выйти на орбиту вокруг планеты, находящейся так глубоко в гравитационном колодце Солнца, аппарату нужно постоянно гасить набираемую скорость, а не разгоняться, как при полёте к Марсу или Юпитеру. BepiColombo делает это с помощью серии гравитационных манёвров у Земли, Венеры и самого Меркурия — каждый пролёт немного меняет траекторию, экономя топливо ценой лишних лет в пути.
+
+Меркурий остаётся одной из наименее изученных планет земной группы именно из-за этой сложности долёта: аппаратов, реально работавших на орбите вокруг него, было всего два. «Мессенджер» NASA дал первую подробную карту поверхности и намекнул на воду в виде льда в постоянно затенённых кратерах на полюсах. BepiColombo несёт два отдельных орбитальных модуля — европейский и японский, — которые разделятся уже после прибытия и займутся отдельными задачами: один сфокусируется на поверхности и внутреннем строении планеты, другой — на её магнитосфере, которая необычна для такой маленькой планеты.
+
+### Почему это важно
+
+Меркурий — планета, которую физически труднее всего достичь: чем ближе к Солнцу, тем дороже энергетически туда попасть и остаться на орбите. Именно поэтому за полвека космической эры там побывало лишь два предшественника BepiColombo, и любые новые данные о составе, магнитном поле и истории планеты закрывают белое пятно, которое накопилось не из-за отсутствия интереса, а из-за законов небесной механики.
+
+## English version
+
+Eight years after launch, the interplanetary probe BepiColombo [is entering its final approach to Mercury](https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/). It's a joint mission by the European Space Agency (ESA) and Japan's JAXA, and it will be only the third mission in history to reach the solar system's innermost planet, after NASA's Mariner 10 and MESSENGER. As the team behind it puts it, the goal is "to learn about the origins of this planet and how it came to be like it is."
+
+Eight years is a long time for a trip that, in a straight line, is far shorter than a journey to the outer planets — but that's not a routing accident, it's a quirk of the physics of getting to Mercury. To settle into orbit around a planet sitting that deep in the Sun's gravity well, a spacecraft has to keep shedding speed rather than gaining it, unlike a trip to Mars or Jupiter. BepiColombo does this through a series of gravity-assist flybys past Earth, Venus, and Mercury itself — each pass nudging the trajectory a little, trading extra years in transit for fuel it doesn't have to carry.
+
+Mercury remains one of the least-studied rocky planets precisely because of that difficulty getting there: only two spacecraft have actually operated in orbit around it. NASA's MESSENGER produced the first detailed surface map and turned up hints of water ice tucked into permanently shadowed craters at the poles. BepiColombo carries two separate orbiters, European and Japanese, that will split apart after arrival to handle different jobs — one focused on the surface and interior structure, the other on Mercury's magnetosphere, which is unusually strong for such a small planet.
+
+### Why it matters
+
+Mercury is the hardest rocky planet to physically reach: the closer to the Sun, the more energy it costs to get there and stay in orbit. That's why only two prior missions have visited it in half a century of spaceflight, and any new data on its composition, magnetic field, and history fills a gap that exists not for lack of interest, but because of the plain mechanics of orbital dynamics.
+
+
+----- 09-dark-matter-earth-signal (science) — source: https://www.sciencedaily.com/releases/2026/09/260904000328.htm -----
+
+## Русская версия
+
+Группа исследователей использовала магнитное поле и атмосферу Земли как детектор тёмной материи размером с целую планету — и [нашла загадочный сигнал, который пока не могут объяснить](https://www.sciencedaily.com/releases/2026/09/260904000328.htm). Метод резко улучшил существующие ограничения на одну из самых лёгких предполагаемых форм тёмной материи — ультралёгкие аксионы, а заодно выявил несколько сигналов, похожих на «тёмные фотоны», которые ещё предстоит проверить.
+
+Сама идея — использовать планету как научный инструмент, а не строить отдельный детектор в лаборатории — здесь ключевая. Земное магнитное поле пронизывает огромный объём пространства, и если аксионоподобные частицы действительно существуют и слабо взаимодействуют с обычным магнитным полем, эффект от них должен накапливаться и становиться заметным именно на таких масштабах, а не в компактной лабораторной установке.
+
+Аксионы — гипотетические частицы, которые физики предложили изначально не для объяснения тёмной материи, а для решения отдельной проблемы в физике сильных взаимодействий; позже оказалось, что при определённой массе они прекрасно подходят на роль частиц тёмной материи. «Тёмные фотоны» — ещё один кандидат, гипотетический аналог обычного фотона, который взаимодействует с видимой материей крайне слабо. Проблема с обоими кандидатами одна и та же: их предсказанное взаимодействие с привычной материей настолько слабое, что для его обнаружения нужны либо чрезвычайно чувствительные лабораторные приборы, либо — как в этом случае — огромный природный «инструмент».
+
+Обнаруженные «интригующие» сигналы дарк-фотонов пока не тянут на открытие: авторы прямо говорят, что эти данные «всё ещё нуждаются» в дальнейшей проверке. Это стандартная и правильная научная осторожность — большая часть подобных аномальных сигналов при более тщательной проверке оказывается статистическим шумом или инструментальным артефактом, а не первым свидетельством существования частицы, которую физики ищут уже несколько десятилетий.
+
+### Почему это важно
+
+Тёмная материя составляет, по современным оценкам, большую часть массы Вселенной, но ни один эксперимент до сих пор не поймал ни одной её частицы напрямую. Метод, который превращает саму Землю в детектор, — это не сенсация с готовым открытием, а способ искать иголку в стоге сена настолько большим стогом, что шансы найти её заметно растут.
+
+## English version
+
+A team of researchers used Earth's magnetic field and atmosphere as a planet-sized dark-matter detector — and [turned up a mysterious signal](https://www.sciencedaily.com/releases/2026/09/260904000328.htm) they can't yet explain. The approach dramatically tightened existing limits on one of the lightest proposed forms of dark matter, ultralight axions, and also picked up several signals resembling "dark photons" that still need to be checked out.
+
+The core idea — using the planet itself as a scientific instrument rather than building a dedicated lab detector — is what makes this work. Earth's magnetic field spans an enormous volume of space, and if axion-like particles exist and interact weakly with ordinary magnetic fields, that effect should accumulate and become detectable at planetary scale in a way it never would inside a compact lab setup.
+
+Axions are hypothetical particles physicists originally proposed to solve an unrelated problem in the physics of the strong nuclear force; it later turned out that, at a certain mass, they'd make excellent dark-matter candidates. Dark photons are a separate candidate — a hypothetical counterpart to the ordinary photon that interacts with visible matter extremely weakly. Both candidates share the same problem: their predicted interaction with normal matter is so faint that spotting it requires either extraordinarily sensitive lab instruments or, as here, an enormous natural one.
+
+The "intriguing" dark-photon signals the team found don't amount to a discovery yet — the researchers say directly that the data "still need" further verification. That's standard, appropriate scientific caution: most anomalous signals like this turn out, on closer inspection, to be statistical noise or an instrumental artifact rather than the first evidence of a particle physicists have been hunting for decades.
+
+### Why it matters
+
+Dark matter is thought to make up most of the mass in the universe, yet no experiment has ever directly captured a single particle of it. A method that turns the planet itself into a detector isn't a ready-made discovery — it's a way of searching for a needle in a haystack by making the haystack so large that the odds of finding it actually go up.
+
+
+----- 10-tyrosine-lifespan-study (science) — source: https://www.sciencedaily.com/releases/2026/09/260904000330.htm -----
+
+## Русская версия
+
+Крупное исследование с участием более 270 000 человек [связало повышенный уровень аминокислоты тирозин в крови с сокращением продолжительности жизни у мужчин](https://www.sciencedaily.com/releases/2026/09/260904000330.htm). Учёные использовали одновременно наблюдательные данные и генетический анализ и пришли к выводу, что повышенный тирозин потенциально может сокращать мужскую продолжительность жизни.
+
+Тирозин — обычная аминокислота, которая содержится в мясе, рыбе, молочных продуктах и яйцах, а также входит в состав многих спортивных и «мозговых» добавок, которые продаются как средство для концентрации внимания и снижения стресса. Она не какое-то экзотическое вещество из области сомнительных БАДов — организм и так производит её сам, используя как строительный блок для гормонов щитовидной железы, дофамина и адреналина.
+
+Ключевая деталь исследования — сочетание двух методов. Наблюдательные данные показывают только корреляцию: люди с более высоким тирозином в среднем живут меньше, но это может объясняться десятком посторонних факторов — от диеты в целом до сопутствующих заболеваний. Генетический анализ, о котором говорят авторы, — вероятно, речь о менделевской рандомизации, методе, который использует врождённые генетические варианты, влияющие на уровень тирозина, как своего рода естественный эксперимент, менее подверженный искажениям от образа жизни. Совпадение результатов по обоим методам — куда более веский аргумент в пользу причинно-следственной связи, чем одна лишь корреляция.
+
+Важная оговорка, которую подчёркивают сами авторы: эффект найден именно у мужчин, а не в целом по выборке — то есть речь не о тирозине как об универсальном яде, а о специфической связи, механизм которой ещё предстоит объяснить. Пока непонятно, работает ли это через гормональную систему, метаболизм дофамина или что-то ещё.
+
+### Почему это важно
+
+Спортивные и «ноотропные» добавки с тирозином продаются как безобидный способ улучшить концентрацию, и в малых разовых дозах для этого нет очевидных противопоказаний. Но исследование на такой большой выборке — сигнал к тому, что хронически повышенный уровень этой аминокислоты в крови заслуживает более пристального изучения, прежде чем индустрия добавок продолжит рекламировать её как безусловно полезную.
+
+## English version
+
+A large study covering more than 270,000 people has [linked elevated blood levels of the amino acid tyrosine to shorter lifespans in men](https://www.sciencedaily.com/releases/2026/09/260904000330.htm). Using both observational data and genetic analysis, the researchers found that elevated tyrosine could potentially reduce male life expectancy.
+
+Tyrosine is an ordinary amino acid found in meat, fish, dairy, and eggs, and it's also a common ingredient in sports and "brain" supplements marketed for focus and stress reduction. It's not some exotic compound from the sketchier end of the supplement aisle — the body already makes it on its own, using it as a building block for thyroid hormones, dopamine, and adrenaline.
+
+The key detail here is the combination of methods. Observational data alone only shows correlation: people with higher tyrosine tend to live shorter lives on average, but that could be explained by a dozen confounding factors, from overall diet to underlying illness. The genetic analysis the authors describe is likely a Mendelian randomization approach, which uses inherited genetic variants that affect tyrosine levels as a kind of natural experiment, one less prone to lifestyle-driven distortion. Both methods pointing the same direction is a considerably stronger argument for causation than correlation alone.
+
+One important caveat the authors flag themselves: the effect shows up specifically in men, not across the sample as a whole — so this isn't tyrosine as some universal poison, but a specific link whose mechanism still needs explaining. It's not yet clear whether it runs through the hormonal system, dopamine metabolism, or something else entirely.
+
+### Why it matters
+
+Tyrosine-containing sports and "nootropic" supplements are marketed as a harmless way to sharpen focus, and there's no obvious red flag for occasional small doses. But a study on a sample this large is a signal that chronically elevated levels of this particular amino acid deserve closer scrutiny before the supplement industry keeps selling it as unambiguously beneficial.
+
+
+----- 11-seattle-times-newsday-openai-lawsuit (ai) — source: https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft -----
+
+## Русская версия
+
+Газеты Seattle Times и Newsday [подали иск против OpenAI и Microsoft](https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft), обвинив компании в нарушении авторских прав. Как пишет The Verge, издания утверждают, что их журналистские материалы использовались в качестве обучающих данных для ИИ-моделей без разрешения, а сами модели порой воспроизводят целые фрагменты текста из их публикаций.
+
+Оба издания — далеко не первые истцы в этом споре: The Verge прямо называет их «последними из плательщиков», присоединившимися к череде судебных исков против OpenAI по поводу авторских прав. Это уже устоявшийся жанр судебных разбирательств: с 2023 года к OpenAI и Microsoft с похожими претензиями обращались The New York Times и ряд других изданий, и линия аргументации у всех примерно одна и та же — модели обучались на текстах без лицензии, а на выходе иногда почти дословно их пересказывают.
+
+Технический аргумент здесь важнее юридической формулировки. Если модель действительно способна воспроизвести значительный фрагмент текста статьи практически дословно, истцам проще доказать, что перед ними не абстрактное «обучение на паттернах языка», а фактическое копирование конкретного охраняемого произведения — то есть куда более классический случай нарушения авторских прав, чем спор о том, является ли само обучение на публичных текстах «добросовестным использованием».
+
+Для Microsoft, которая инвестировала в OpenAI миллиарды долларов и встроила её модели в собственные продукты, каждый такой иск — это не просто судебные издержки OpenAI, а прямой репутационный и финансовый риск для партнёра, который эти модели дистрибутирует и монетизирует дальше.
+
+### Почему это важно
+
+Пока каждое отдельное издание судится поодиночке, но совокупность исков формирует прецедентное поле, которое рано или поздно определит, на каких условиях ИИ-компании вообще могут обучать модели на журналистике без отдельных лицензионных соглашений. Итог этих дел напрямую повлияет на то, придётся ли индустрии массово покупать лицензии на контент — или практика обучения на открытых текстах интернета устоит в текущем виде.
+
+## English version
+
+The Seattle Times and Newsday have [filed a lawsuit against OpenAI and Microsoft](https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft), accusing both companies of copyright infringement. As The Verge reports, the outlets allege their journalism was used as training data for AI models without permission, and that the models sometimes reproduce whole passages of their reporting.
+
+The two papers are far from the first plaintiffs in this fight — The Verge bluntly calls them "the latest plaintiffs" to join a string of copyright lawsuits against OpenAI. It's become a well-established genre of litigation: since 2023, The New York Times and a number of other outlets have brought similar claims against OpenAI and Microsoft, and the argument tends to run the same way each time — the models were trained on unlicensed text and sometimes echo it back almost verbatim.
+
+The technical claim matters more here than the legal phrasing. If a model can genuinely reproduce a substantial chunk of an article near word-for-word, plaintiffs have an easier time arguing this isn't abstract "learning language patterns" but actual copying of a specific protected work — a much more conventional infringement case than a debate over whether training on publicly available text counts as fair use in the first place.
+
+For Microsoft, which has poured billions into OpenAI and built its models into its own products, every one of these suits isn't just OpenAI's legal bill — it's direct reputational and financial exposure for the partner distributing and monetizing those models downstream.
+
+### Why it matters
+
+Each outlet is suing individually for now, but the accumulating pile of lawsuits is building the body of case law that will eventually decide the terms under which AI companies can train on journalism at all without separate licensing deals. How these cases resolve will directly shape whether the industry ends up buying content licenses at scale, or whether training on the open web holds up largely as it works today.
+
+
+----- 12-muppet-show-50-years (culture) — source: https://www.smithsonianmag.com/smithsonian-institution/kermit-the-frog-was-just-trying-to-put-on-a-variety-show-fifty-years-later-the-muppets-are-some-of-the-biggest-stars-in-television-history-180989451/ -----
+
+## Русская версия
+
+Пятьдесят лет назад, 5 сентября 1976 года, в Великобритании вышел первый эпизод «Маппет-шоу» Джима Хенсона — [и с тех пор увлечённость этим эксцентричным актёрским составом не угасла](https://www.smithsonianmag.com/smithsonian-institution/kermit-the-frog-was-just-trying-to-put-on-a-variety-show-fifty-years-later-the-muppets-are-some-of-the-biggest-stars-in-television-history-180989451/), пишет Smithsonian Magazine. Показательная деталь: шоу вышло сначала в Британии, а не в родных для Хенсона США, — телесети по обе стороны океана далеко не сразу разглядели в говорящих куклах-варьете коммерческий потенциал.
+
+Сама затея — Кермит Лягушонок и компания просто пытаются поставить обычный варьете-номер — звучит как максимально приземлённая, почти скромная идея для телешоу. Но именно эта простая рамка — сборный концерт с гостями, номерами и закулисной суетой — оказалась удивительно устойчивой формой: полвека спустя тот же формат легко узнаваем и всё ещё работает, несмотря на то что почти всё остальное на телевидении за это время сменилось несколько раз.
+
+Куклы Хенсона с самого начала были рассчитаны не только на детскую аудиторию — сатира, актёрское самолюбование гостей-знаменитостей и лёгкая ирония по поводу самого жанра варьете были встроены в сценарий изначально. Именно этот двойной адрес — детям смешно от кукол, взрослым от того, как эти куклы иронизируют над жанром, — вероятно, и объясняет, почему шоу пережило смену нескольких телевизионных эпох, не превратившись в ностальгический артефакт для одного поколения.
+
+Пятидесятилетие такого рода в индустрии редко проходит без переиздания архивов, ретроспектив и напоминания молодой аудитории, что персонажи, которых она знает по более поздним фильмам и шоу, стартовали с довольно скромной затеи на другом континенте.
+
+### Почему это важно
+
+Мало какое телешоу способно продержаться полвека, оставаясь при этом узнаваемым и любимым, а не музейным экспонатом. История «Маппет-шоу» — редкий пример формата, который придумали как непритязательное варьете, а он стал частью общего культурного словаря на нескольких континентах и нескольких поколений подряд.
+
+## English version
+
+Fifty years ago, on September 5, 1976, the first episode of Jim Henson's "The Muppet Show" premiered in the United Kingdom — and [enthusiasm for the eclectic ensemble has endured ever since](https://www.smithsonianmag.com/smithsonian-institution/kermit-the-frog-was-just-trying-to-put-on-a-variety-show-fifty-years-later-the-muppets-are-some-of-the-biggest-stars-in-television-history-180989451/), Smithsonian Magazine writes. One telling detail: the show launched in Britain rather than Henson's home country, the US — TV networks on both sides of the Atlantic were slow to see commercial potential in a variety show cast entirely out of puppets.
+
+The premise itself — Kermit the Frog and company just trying to put on an ordinary variety show — sounds about as modest and unassuming as a TV concept gets. But that simple frame, a variety concert with guests, sketches, and backstage chaos, turned out to be a remarkably durable format: fifty years on, it's still instantly recognizable and still works, even though nearly everything else about television has been reinvented several times over in the meantime.
+
+Henson's puppets were never built for a strictly kids-only audience — satire, celebrity-guest self-regard, and a light irony about the variety genre itself were baked into the writing from the start. That dual address — kids laughing at the puppets, adults laughing at how the puppets send up the genre — likely explains why the show has outlasted several distinct TV eras instead of curdling into a nostalgia piece for a single generation.
+
+An anniversary like this rarely passes without archival reissues, retrospectives, and a reminder to younger audiences that characters they know from more recent films and shows started out as a fairly modest idea on the other side of the ocean.
+
+### Why it matters
+
+Few TV shows manage to last half a century while staying beloved and recognizable rather than turning into a museum piece. The Muppet Show's history is a rare example of a format conceived as an unassuming variety act that ended up part of the shared cultural vocabulary across continents and generations.
+
+
 ===== EDITION 4 — 2026-09-06 =====
 
 ## От редакции
