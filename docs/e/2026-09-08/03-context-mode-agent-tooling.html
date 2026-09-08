@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контекст ИИ-агента раздувается — новый инструмент обещает сократить его на 98% - frontier-wire</title>
+<meta name="description" content="The context-mode repo landed at #3 on today&#x27;s GitHub trending list — it sandboxes an agent&#x27;s tool output and claims a 98% cut in what ends up in the context window, across 17 platforms.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-08/03-context-mode-agent-tooling.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "AI agents are drowning in context — a new tool claims a 98% cut", "alternativeHeadline": "Контекст ИИ-агента раздувается — новый инструмент обещает сократить его на 98%", "datePublished": "2026-09-08", "inLanguage": ["ru", "en"], "isBasedOn": "https://github.com/mksglu/context-mode", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-08/03-context-mode-agent-tooling.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-08 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Контекст ИИ-агента раздувается — новый инструмент обещает сократить его на 98%</span><span class="lang-en">AI agents are drowning in context — a new tool claims a 98% cut</span></h1>
+  <p class="dek big"><span class="lang-ru">Репозиторий context-mode занял третье место в сегодняшних трендах GitHub — инструмент «песочит» вывод инструментов агента и утверждает, что режет объём данных в контексте на 98% сразу на 17 платформах.</span><span class="lang-en">The context-mode repo landed at #3 on today&#x27;s GitHub trending list — it sandboxes an agent&#x27;s tool output and claims a 98% cut in what ends up in the context window, across 17 platforms.</span></p>
+  
+  <div class="prose lang-ru"><p>Третье место в сегодняшних трендах GitHub занял <a href="https://github.com/mksglu/context-mode">mksglu/context-mode</a> — новый инструмент для управления контекстным окном ИИ-агентов, набравший 147 звёзд за день. Разработчик описывает его как «песочницу» для вывода инструментов: результат работы каждого вызова инструмента изолируется и обрабатывается отдельно, прежде чем попасть в контекст модели, а не сваливается туда целиком.</p>
+<p>По заявлению автора, это позволяет сократить объём данных, которые агент тащит в контекст, на 98%, а также сохранять память сессии между запусками и — что интереснее — единообразно маршрутизировать это поведение через MCP и хуки сразу на 17 платформах. То есть речь не о разовом трюке под конкретный ИИ-инструмент, а о попытке сделать управление контекстом сквозной прослойкой, работающей поверх разных агентных сред одинаково.</p>
+<p>Проблема, которую решает этот класс инструментов, знакома всем, кто пользовался агентами дольше пары дней: контекстное окно — ресурс конечный и дорогой, а вывод инструментов — команд, поисковых запросов, содержимого файлов — легко его забивает мусором, из-за которого агент теряет нить задачи или начинает работать медленнее и дороже. Отсюда и волна инструментов вроде context-mode: не улучшить саму модель, а отфильтровать то, что до неё вообще доходит.</p>
+<p>Число «98%» стоит воспринимать как маркетинговую цифру автора, а не как независимо подтверждённый бенчмарк — в описании репозитория нет ссылки на методологию замера. 147 звёзд за один день — тоже скорее сигнал любопытства сообщества, чем доказательство, что инструмент реально приживётся в продакшен-агентах. Но сам факт, что именно такой инструмент попал в топ-3 трендов вместе с конвертером документов от Microsoft и видеоинструментом HeyGen, показывает: сегодняшний день на GitHub — это день не новых моделей, а инфраструктуры вокруг них.</p>
+<h3>Почему это важно</h3>
+<p>Управление контекстным окном становится отдельной инженерной дисциплиной внутри разработки агентов: по мере того как агентам поручают всё более длинные и сложные задачи, то, что́ именно остаётся в их «памяти» между шагами, всё сильнее определяет, насколько они вообще способны довести задачу до конца.</p></div>
+  <div class="prose lang-en"><p>Today's #3 spot on GitHub's trending list went to <a href="https://github.com/mksglu/context-mode">mksglu/context-mode</a>, a new tool for managing what ends up in an AI agent's context window, with 147 stars in a day. Its author describes it as a sandbox for tool output: the result of each tool call gets isolated and processed separately before it reaches the model's context, rather than dumping in whole.</p>
+<p>According to the author, that cuts the volume of data an agent drags into its context by 98%, while also persisting session memory across runs and — more notably — routing that behavior consistently through MCP and hooks across 17 platforms. So this isn't a one-off trick for a single AI tool; it's an attempt to make context management a cross-cutting layer that works the same way across different agent environments.</p>
+<p>The problem this class of tool addresses is familiar to anyone who's used an agent for more than a couple of days: the context window is a finite, expensive resource, and tool output — command results, search hits, file contents — fills it with noise fast enough to make an agent lose the thread of a task or just get slower and more expensive to run. Hence the wave of tools like context-mode: not making the model smarter, but filtering what reaches it in the first place.</p>
+<p>The "98%" figure is worth treating as the author's own marketing number rather than an independently verified benchmark — the repo description doesn't link to a measurement methodology. 147 stars in a day is likewise more a sign of community curiosity than proof the tool will stick in production agent setups. Still, the fact that this kind of tool landed in the top three alongside Microsoft's document converter and HeyGen's video tool says something: today on GitHub was a day about the infrastructure around models, not about new models themselves.</p>
+<h3>Why it matters</h3>
+<p>Context-window management is turning into its own engineering discipline within agent development: as agents get handed longer, more complex tasks, exactly what stays in their "memory" between steps increasingly determines whether they can actually finish the job.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://github.com/mksglu/context-mode">https://github.com/mksglu/context-mode</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

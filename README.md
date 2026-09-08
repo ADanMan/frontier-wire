@@ -10,20 +10,11 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №5 / Edition №5 — 2026-09-07** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №6 / Edition №6 — 2026-09-08** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [OpenAI закрывает каталог скиллов для Codex — как раз когда скилл-паки бьют рекорды на GitHub](editions/2026/09-07/01-openai-skills-deprecated.md)
-- **[Наука]** [Учёным сделали «домашнюю лабораторию» для ИИ-агентов — теперь со Slurm и менеджером литературы](editions/2026/09-07/02-open-science-workbench.md)
-- **[Наука]** [Европа наконец запустила свою первую полностью коммерческую орбитальную ракету](editions/2026/09-07/03-isar-aerospace-orbital-rocket.md)
-- **[Мир]** [Экзитполы дают крайне правым уверенную победу на региональных выборах в Германии](editions/2026/09-07/04-germany-afd-exit-polls.md)
-- **[Мир]** [Учёные связали подростковую изоляцию с почти миллионом британской молодёжи «вне системы»](editions/2026/09-07/05-social-isolation-neet-youth.md)
-- **[Культура]** [Ратуша Дарема, которая служит городу с 1350 года, снова открыла двери — с аудиогидами](editions/2026/09-07/06-durham-town-hall.md)
-- **[Мир]** [Грузовой Boeing 767 с логотипом Amazon выкатился за полосу в Майами — погибли пять человек](editions/2026/09-07/07-miami-amazon-cargo-crash.md)
-- **[Наука]** [После восьми лет полёта BepiColombo выходит на финальный подход к Меркурию](editions/2026/09-07/08-bepicolombo-mercury-arrival.md)
-- **[Наука]** [Учёные превратили магнитное поле Земли в детектор тёмной материи размером с планету](editions/2026/09-07/09-dark-matter-earth-signal.md)
-- **[Наука]** [Популярную аминокислоту из спортивных добавок связали с сокращением жизни у мужчин](editions/2026/09-07/10-tyrosine-lifespan-study.md)
-- **[ИИ]** [Seattle Times и Newsday подали в суд на OpenAI и Microsoft за использование своих статей](editions/2026/09-07/11-seattle-times-newsday-openai-lawsuit.md)
-- **[Культура]** [Маппетам — 50 лет: шоу, задуманное как скромный варьете, стало одним из главных телефеноменов](editions/2026/09-07/12-muppet-show-50-years.md)
+- **[Технологии]** [Microsoft выложил инструмент, который превращает офисные файлы в Markdown — и тот мгновенно попал в тренды GitHub](editions/2026/09-08/01-microsoft-markitdown-trending.md)
+- **[ИИ]** [HeyGen выпустил инструмент, который пишет HTML и получает на выходе видео — специально для ИИ-агентов](editions/2026/09-08/02-heygen-hyperframes.md)
+- **[ИИ]** [Контекст ИИ-агента раздувается — новый инструмент обещает сократить его на 98%](editions/2026/09-08/03-context-mode-agent-tooling.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
