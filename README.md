@@ -15,6 +15,9 @@
 - **[Технологии]** [Microsoft выложил инструмент, который превращает офисные файлы в Markdown — и тот мгновенно попал в тренды GitHub](editions/2026/09-08/01-microsoft-markitdown-trending.md)
 - **[ИИ]** [HeyGen выпустил инструмент, который пишет HTML и получает на выходе видео — специально для ИИ-агентов](editions/2026/09-08/02-heygen-hyperframes.md)
 - **[ИИ]** [Контекст ИИ-агента раздувается — новый инструмент обещает сократить его на 98%](editions/2026/09-08/03-context-mode-agent-tooling.md)
+- **[ИИ]** [Исследователи научили ИИ понимать речь и видео вместе — без дообучения моделей](editions/2026/09-08/04-speech-centric-omni-understanding.md)
+- **[ИИ]** [Аватар, который говорит и одновременно двигается: одна модель вместо двух](editions/2026/09-08/05-motion-omni-avatar-dialogue.md)
+- **[Технологии]** [В трендах GitHub — «невидимый» браузер для ИИ-агентов, который умеет обходить Cloudflare](editions/2026/09-08/06-camofox-stealth-browser.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

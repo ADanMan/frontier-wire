@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Аватар, который говорит и одновременно двигается: одна модель вместо двух - frontier-wire</title>
+<meta name="description" content="A new paper called Motion-Omni merges speech generation and full-body motion for a talking avatar into a single model — a job previously split across separate systems.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-08/05-motion-omni-avatar-dialogue.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "An avatar that talks and moves at once — from one model, not two", "alternativeHeadline": "Аватар, который говорит и одновременно двигается: одна модель вместо двух", "datePublished": "2026-09-08", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/papers/2609.04250", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-08/05-motion-omni-avatar-dialogue.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-09-08 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Аватар, который говорит и одновременно двигается: одна модель вместо двух</span><span class="lang-en">An avatar that talks and moves at once — from one model, not two</span></h1>
+  <p class="dek big"><span class="lang-ru">Новая работа Motion-Omni объединяет генерацию речи и движений всего тела говорящего аватара в единую модель — раньше эти задачи решались раздельными системами.</span><span class="lang-en">A new paper called Motion-Omni merges speech generation and full-body motion for a talking avatar into a single model — a job previously split across separate systems.</span></p>
+  
+  <div class="prose lang-ru"><p>Авторы Чэнцянь Ма, Вэй Тао, Хаою Чжан и Ивэнь Го опубликовали работу <a href="https://huggingface.co/papers/2609.04250">Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue</a> — попытку объединить в одной модели две вещи, которые аватар в разговоре должен делать одновременно: решать, что сказать, и решать, как в этот момент двигаться.</p>
+<p>Проблема, которую формулируют авторы, довольно точная: эти две способности исторически живут в разных семействах моделей. Модели диалоговой речи производят звук без движения, а модели co-speech motion — движения, синхронные с речью, — производят жесты и мимику, но не сам разговор. Получить обе способности одновременно и согласованно раньше можно было только склеив две отдельные системы, каждая со своей архитектурой, обучением и — что важнее всего для живого диалога — своим собственным чувством тайминга.</p>
+<p>Motion-Omni предлагает end-to-end подход: одна модель, которая на входе получает диалоговый контекст и производит на выходе одновременно речь и движения всего тела говорящего аватара, а не двух разных потоков, которые потом нужно вручную синхронизировать. Идея в том, что если решение «что сказать» и решение «как двигаться в этот момент» принимаются внутри одной системы, а не двумя независимыми моделями, синхронность жестов и слов достигается естественным образом, а не постфактум-подгонкой.</p>
+<p>Как и в случае с другими сегодняшними исследовательскими публикациями, в доступном на данный момент описании работы нет конкретных цифр качества — сравнения с базовыми co-speech-motion системами или диалоговыми моделями, метрик синхронности жестов с речью. Это значит, что пока рано делать вывод, насколько объединённая модель на практике выигрывает у связки «речевая модель + отдельная модель движений» по естественности и синхронности — статья описывает архитектурную идею, а не итоговый бенчмарк.</p>
+<p>Тем не менее направление понятное: по мере того как аватары и агенты с «телом» — от инструментов создания видео до интерактивных ИИ-собеседников — становятся частью повседневных продуктов, разрыв между «что сказать» и «как это показать» превращается из мелкой инженерной неудобности в реальное узкое место качества.</p>
+<h3>Почему это важно</h3>
+<p>Объединение речи и движения в одной модели убирает целый класс проблем с рассинхроном между тем, что говорит аватар, и тем, как он это показывает, — а это именно то, что делает синтетических собеседников либо убедительными, либо неловкими.</p></div>
+  <div class="prose lang-en"><p>Authors Chengqian Ma, Wei Tao, Haoyu Zhang, and Yiwen Guo published <a href="https://huggingface.co/papers/2609.04250">Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue</a>, an attempt to merge two things a talking avatar has to do at the same time — decide what to say, and decide how to move while saying it — into a single model.</p>
+<p>The problem the authors describe is precise: these two abilities have historically lived in separate model families. Spoken dialogue models produce speech without motion, while co-speech motion models produce gestures and expressions synced to speech but don't generate the conversation itself. Getting both at once, in a coordinated way, has meant stitching together two separate systems — each with its own architecture, its own training, and, crucially for a natural-feeling conversation, its own sense of timing.</p>
+<p>Motion-Omni proposes an end-to-end approach instead: one model takes in a dialogue context and outputs both the speech and the full-body motion of the talking avatar together, rather than two separate streams that need to be manually synced afterward. The premise is that if the decision of what to say and the decision of how to move at that moment come out of the same system rather than two independent models, gesture-speech synchrony comes naturally instead of being patched in after the fact.</p>
+<p>As with the other research paper covered today, the material currently available doesn't include quality numbers — no comparisons against baseline co-speech-motion systems or dialogue models, no synchrony metrics. So it's too early to say how much the unified model actually gains over a "speech model plus separate motion model" pipeline in naturalness or sync; the paper lays out an architectural idea, not a finished benchmark.</p>
+<p>The direction is legible regardless: as avatars and "embodied" agents — from video-generation tools to interactive AI conversational partners — become part of everyday products, the gap between deciding what to say and deciding how to show it stops being a minor engineering inconvenience and becomes a real quality bottleneck.</p>
+<h3>Why it matters</h3>
+<p>Merging speech and motion into one model removes a whole class of sync problems between what an avatar says and how it shows it — and that gap is exactly what makes synthetic conversation partners feel either convincing or uncanny.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/papers/2609.04250">https://huggingface.co/papers/2609.04250</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
