@@ -1,12 +1,13 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 # Open-network digest bridge.
 # The cloud routine's sandbox reaches only raw.githubusercontent.com, so every
 # non-mirror feed in feeds.txt is invisible to it. This script runs on the
 # operator's Mac (open network), builds the full digest and pushes it; the
 # routine then reuses the ready file instead of refetching a narrow one.
-# Installed as a launchd agent: ~/Library/LaunchAgents/com.frontierwire.digest.plist
+# Runs on the operator's Mac (launchd, ~/Library/LaunchAgents/com.frontierwire.digest.plist)
+# and on the Hostkey VPS (systemd timer frontier-wire-digest.timer, clone in /opt/frontier-wire).
 set -e
-REPO="${0:A:h:h}"  # repo = parent of scripts/, wherever this clone lives
+REPO="$(cd "$(dirname "$0")/.." && pwd)"  # repo = parent of scripts/, wherever this clone lives
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
 cd "$REPO"
 git pull --rebase --autostash -q origin main
