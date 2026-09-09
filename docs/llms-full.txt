@@ -71,6 +71,176 @@ Handcrafted rules are convenient but rigid: an engineer decides in advance how a
 Change detection models are literally how disaster responders, urban planners, and climate scientists watch the planet from above; how well they see reality instead of a memorized template depends entirely on what data trained them.
 
 
+----- 03-navier-stokes-ai-proof-controversy (science) — source: https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/ -----
+
+## Русская версия
+
+OpenAI заявила, что её неопубликованная модель нашла решение проблемы существования и гладкости решений уравнений Навье — Стокса — одной из семи Millennium Prize Problems, за решение которых институт Клэя обещает по миллиону долларов. По словам компании, [результат](https://openai.com/index/navier-stokes-solution) включает не просто текстовое доказательство, а формальную запись на языке Lean — то есть машинно проверяемую. Портал phys.org [уточняет](https://phys.org/news/2026-09-openai-ai-agents-math-hardest.html), что во вторник компания рассказала: над задачей, которая «ускользала от математиков на протяжении поколений», во внутренних экспериментах работали 10 000 ИИ-агентов, а весь процесс занял 88 часов.
+
+Уравнения Навье — Стокса описывают течение жидкостей и газов — от прогноза погоды до обтекания крыла самолёта, — но математически до сих пор не было доказано, что их решения всегда остаются гладкими и не «взрываются» за конечное время. Quanta Magazine в [материале](https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/) о результате прямо называет его «масштабным», но добавляет: «результат не обошёлся без споров» — и это мягко сказано, судя по реакции математического сообщества.
+
+Спор — не про саму математику, а про то, чей это результат. Phys.org пишет, что заявление OpenAI «вызвало конфликт с конкурирующими исследователями из-за авторства». Простой инструмент нашёл доказательство, или инструмент лишь довёл до конца ход мысли, который уже витал в воздухе у живых математиков — вопрос открытый. Математик Теренс Тао, чьи слова приводит блог разработчика Саймона Уиллисона, ранее [писал](https://simonwillison.net/2026/Sep/9/terence-tao/) о смежной проблеме: пул хороших, продуктивных открытых задач в математике — ресурс невозобновляемый, и он «вырабатывается» по мере того, как их решают. По его наблюдению, «даже слух о том, что кто-то работает над задачей», уже способен спровоцировать бурную реакцию сообщества — и нынешняя история вокруг Навье — Стокса читается как подтверждение этой мысли.
+
+Ни в одном из источников нет упоминания официального подтверждения от института Клэя — учредителя премии — о том, что результат признан и награда присуждена. Пока это заявление лаборатории, а не подтверждённое сообществом доказательство.
+
+### Почему это важно
+
+Если формальную запись на Lean действительно можно перепроверить машиной, спор смещается с «правильно ли доказательство» на «кому засчитывать открытие» — а это уже вопрос не математики, а того, как наука будет присваивать авторство в эпоху, когда решения предлагают модели, а не только люди.
+
+## English version
+
+OpenAI says an unreleased model of theirs produced a solution to the Navier-Stokes existence and smoothness problem, one of the seven Millennium Prize Problems the Clay Mathematics Institute has offered a $1 million reward for solving. According to the company, the [result](https://openai.com/index/navier-stokes-solution) isn't just a written proof but a formal, machine-checkable writeup in the Lean proof language. Phys.org [reports](https://phys.org/news/2026-09-openai-ai-agents-math-hardest.html) that on Tuesday the company said 10,000 AI agents worked on the problem — one that had "eluded mathematicians for generations" — internally, with the whole process taking 88 hours.
+
+The Navier-Stokes equations describe how fluids and gases flow, from weather forecasting to airflow over a wing, but it had never been proven mathematically that their solutions always stay smooth rather than "blowing up" in finite time. Quanta Magazine's [writeup](https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/) calls the claim "massive" but adds it's "not without controversy" — which undersells how the math community actually reacted.
+
+The dispute isn't really about the math itself, it's about whose achievement this is. Phys.org notes the claim "drew a fight with rival researchers over credit." Whether a tool found a genuinely new proof, or simply finished a line of reasoning that human mathematicians were already circling, is an open question. Mathematician Terence Tao, quoted on developer Simon Willison's blog, had recently [written](https://simonwillison.net/2026/Sep/9/terence-tao/) about a related problem: the pool of good, fruitful open problems in math is a non-renewable resource, and it gets "mined" as they're solved. In his words, "even the rumor of someone working on a problem" can trigger an outsized reaction from the field — and the reaction to this Navier-Stokes claim reads like a case in point.
+
+None of the sources mention an official confirmation from the Clay Institute, the prize's sponsor, that the result has been accepted or the award granted. For now, this is a lab's claim, not a proof the field has signed off on.
+
+### Why it matters
+
+If a Lean formalization really can be machine-verified, the argument shifts from "is the proof correct" to "who gets the credit" — and that's no longer a math question, it's a question of how science assigns authorship once solutions can come from models as well as people.
+
+
+----- 04-smithsonian-bunch-retires (culture) — source: https://www.smithsonianmag.com/smithsonian-institution/secretary-lonnie-bunch-announces-retirement-head-smithsonian-38-years-service-institution-180989460/ -----
+
+## Русская версия
+
+Секретарь Смитсоновского института Лонни Дж. Банч III [объявил](https://www.smithsonianmag.com/smithsonian-institution/secretary-lonnie-bunch-announces-retirement-head-smithsonian-38-years-service-institution-180989460/) об уходе в отставку после 38 лет службы институту. По данным [NPR](https://www.npr.org/2026/09/09/g-s1-142496/up-first-newsletter-iran-us-uk-israel-palestine-lonnie-bunch-smithsonian), он планирует покинуть пост до конца года.
+
+Карьера Банча в институте, как пишет Smithsonian Magazine, началась ещё в 1970-х — задолго до того, как он занял пост секретаря. Но главным пунктом его биографии издание называет не саму должность, а музей, который он фактически создал: Национальный музей истории и культуры афроамериканцев. Именно это, по формулировке Smithsonian Magazine, — «выдающееся наследие» всей его карьеры в институте.
+
+38 лет в одной институции — редкость даже для музейного мира, где карьеры принято мерить десятилетиями. За это время Банч успел не просто дослужиться до высшей должности, но и построить с нуля целый музей, ставший частью того, как Смитсоновский институт — и вместе с ним США — рассказывает собственную историю. Кто станет его преемником, Smithsonian Magazine пока не сообщает.
+
+### Почему это важно
+
+Смитсоновский институт — не просто музейный комплекс, а институция, формирующая официальную версию американской истории; уход человека, который почти четыре десятилетия определял, как эта версия строится, — это смена не одной должности, а того, кто задаёт тон целой институции.
+
+## English version
+
+Smithsonian Secretary Lonnie G. Bunch III has [announced](https://www.smithsonianmag.com/smithsonian-institution/secretary-lonnie-bunch-announces-retirement-head-smithsonian-38-years-service-institution-180989460/) his retirement after 38 years with the institution. According to [NPR](https://www.npr.org/2026/09/09/g-s1-142496/up-first-newsletter-iran-us-uk-israel-palestine-lonnie-bunch-smithsonian), he plans to step down by the end of the year.
+
+Bunch's career at the institution, Smithsonian Magazine notes, began back in the 1970s — long before he became secretary. But the magazine points to something other than the title as the centerpiece of his biography: the museum he essentially built, the National Museum of African American History and Culture. That, in the magazine's own words, is the "remarkable legacy" of his career at the institution.
+
+Thirty-eight years at one institution is rare even in the museum world, where careers tend to be measured in decades already. In that time, Bunch didn't just rise to the top job — he built an entire museum from the ground up, one that's now part of how the Smithsonian, and by extension the US, tells its own history. Smithsonian Magazine hasn't yet said who will succeed him.
+
+### Why it matters
+
+The Smithsonian isn't just a museum complex, it's the institution that shapes the official version of American history; the departure of someone who spent nearly four decades shaping how that version gets told is a change bigger than one job title.
+
+
+----- 05-renoir-museum-heist (world) — source: https://www.smithsonianmag.com/smart-news/thieves-broke-into-a-french-museum-and-made-off-with-renoir-paintings-worth-more-than-25-million-180989462/ -----
+
+## Русская версия
+
+Ранним утром грабители [проникли](https://www.smithsonianmag.com/smart-news/thieves-broke-into-a-french-museum-and-made-off-with-renoir-paintings-worth-more-than-25-million-180989462/) в музей Ренуара на Лазурном Берегу и вынесли четыре картины общей стоимостью более 2,5 миллиона долларов. По данным Smithsonian Magazine, при попытке скрыться воры обронили два из четырёх полотен — то есть с места преступления в итоге уехали лишь с половиной добычи.
+
+Издание пока не приводит подробностей о том, какие именно картины похищены, в каком состоянии оказались брошенные полотна и есть ли подозреваемые — судя по всему, расследование только начинается.
+
+Сам факт, что грабители, судя по всему, впопыхах бросили половину украденного, — деталь скорее курьёзная, чем говорящая о профессионализме преступников: похоже, вынести четыре картины оказалось сложнее, чем спланировать проникновение в музей.
+
+### Почему это важно
+
+Каждая такая кража — это риск, что уникальное полотно навсегда осядет в закрытой частной коллекции; то, что часть добычи брошена при побеге, — редкий случай, когда поспешность воров сработала в пользу музея.
+
+## English version
+
+Early this morning, burglars [broke into](https://www.smithsonianmag.com/smart-news/thieves-broke-into-a-french-museum-and-made-off-with-renoir-paintings-worth-more-than-25-million-180989462/) the Renoir Museum on the French Riviera and made off with four paintings worth more than $2.5 million combined. According to Smithsonian Magazine, the thieves dropped two of the four canvases while fleeing the scene — meaning they ultimately got away with only half their haul.
+
+The magazine hasn't yet detailed which specific works were stolen, what condition the abandoned paintings are in, or whether there are any suspects; the investigation appears to be in its early stages.
+
+The fact that the thieves apparently dropped half their loot in a hurry says less about criminal sophistication than it does about the practical difficulty of the job itself: carrying four paintings out, it turns out, was harder than planning the break-in.
+
+### Why it matters
+
+Every theft like this carries the risk that a one-of-a-kind painting disappears into a closed private collection for good; the getaway going wrong enough to leave two canvases behind is a rare case of the thieves' own haste working in the museum's favor.
+
+
+----- 06-china-gig-ai-trainers (world) — source: https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds -----
+
+## Русская версия
+
+Rest of World [пишет](https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds), что в Китае юристы, архитекторы и инженеры — люди с дипломами и годами практики — берутся за дешёвую подработку: обучают ИИ-модели собственной профессии. Издание описывает это как результат двух факторов сразу: застойной экономики, из-за которой квалифицированным специалистам не хватает основной загрузки, и государственных директив, подталкивающих отрасль к развитию ИИ. В итоге недозагруженные профессионалы соглашаются на подработку, чтобы, по формулировке издания, «заплатить за ипотеку в этом месяце».
+
+Механика такой подработки простая: специалист размечает данные, оценивает ответы модели, объясняет ей логику собственной работы — по сути, передаёт вслух то самое знание, которое годами нарабатывал в профессии. В том же материале Rest of World о китайском ИИ-рынке [заходит и другой ракурс той же истории](https://restofworld.org/2026/ai-training-jobs-expert-replacement/?utm_source=rss&utm_medium=rss&utm_campaign=feeds): часть высококвалифицированных работников соглашается на такую роль, даже понимая, что обучаемые ими системы теоретически способны в будущем заменить их самих на основной работе — просто потому, что платят здесь и сейчас, а не когда-нибудь.
+
+Это не история про низкоквалифицированную разметку данных за копейки, которая давно стала стандартной претензией к индустрии ИИ, — здесь в подработчиках оказываются люди с высшим образованием и профессиональным опытом, которых экономика вынудила монетизировать именно ту экспертизу, которая обесценивается тем же процессом.
+
+### Почему это важно
+
+Когда обучать ИИ идут не студенты-фрилансеры, а практикующие юристы и инженеры, это значит, что модели в буквальном смысле впитывают экспертное знание напрямую от его носителей — а те, в свою очередь, доплачивают себе на жизнь тем, что ускоряют момент, когда эта экспертиза может понадобиться меньше.
+
+## English version
+
+Rest of World [reports](https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) that in China, lawyers, architects, and engineers — people with degrees and years of practice — are taking on cheap gig work: teaching AI models their own profession. The outlet frames it as the result of two forces at once: a stagnant economy leaving skilled professionals short of full-time work, and state directives pushing the industry toward AI development. The result, in the piece's own words, is underemployed professionals doing it "just to pay this month's mortgage."
+
+The mechanics are simple: a professional labels data, scores a model's answers, or explains the reasoning behind their own work out loud — effectively narrating, out loud, the expertise it took them years to build. A related Rest of World piece on the same trend [takes another angle](https://restofworld.org/2026/ai-training-jobs-expert-replacement/?utm_source=rss&utm_medium=rss&utm_campaign=feeds): some highly skilled workers take the job even knowing the systems they're training could eventually replace them at their day job — simply because this pays now, and the other risk is theoretical.
+
+This isn't the familiar story of low-paid, low-skill data labeling that's long been a standard critique of the AI industry. Here the gig workers are degree-holders with professional experience, pushed by the economy into monetizing exactly the expertise that same process is devaluing.
+
+### Why it matters
+
+When the people training AI are practicing lawyers and engineers rather than freelance students, models are absorbing expert knowledge straight from the source — while those same experts are, in effect, paying their own bills by speeding up the moment their expertise is needed less.
+
+
+----- 07-rattlesnake-antivenom (science) — source: https://www.sciencedaily.com/releases/2026/09/260907201605.htm -----
+
+## Русская версия
+
+Исследователи [обнаружили](https://www.sciencedaily.com/releases/2026/09/260907201605.htm), что комбинации токсин-блокирующих белков, естественным образом присутствующих в крови гремучих змей, способны мощно нейтрализовать яд сразу нескольких опасных видов змей. В лабораторных тестах такие смеси белков оказались примерно в 10 раз эффективнее одного из существующих коммерческих антидотов.
+
+Логика находки простая и в то же время контринтуитивная: гремучие змеи каким-то образом устойчивы к собственному яду и к яду близких видов, а значит, в их крови должны быть механизмы защиты от токсинов. Именно эти механизмы — не синтетические разработки, а вещества, которые уже существуют в природе и прошли отбор — исследователи выделили и протестировали против чужого яда напрямую в пробирке.
+
+Нынешние антидоты от змеиных укусов производят по трудоёмкой и недешёвой технологии: животным (чаще всего лошадям) вводят яд, а затем из их крови выделяют антитела. У метода есть известные ограничения — антидот, как правило, эффективен против яда конкретного вида или узкой группы видов, и производство плохо масштабируется. Белки из крови самих гремучих змей, если результат подтвердится в дальнейших испытаниях, потенциально открывают более широкий по охвату и более технологичный путь к антидоту.
+
+Важная оговорка: пока речь о лабораторных тестах, а не о клинических испытаниях на людях — расстояние между «работает в пробирке» и «одобренный препарат» в токсинологии обычно измеряется годами.
+
+### Почему это важно
+
+Нынешние антидоты дороги и часто работают только против яда одного вида — а более мощная и универсальная альтернатива снижает саму зависимость лечения укусов от того, какая именно змея укусила и насколько богата местная больница.
+
+## English version
+
+Researchers have [discovered](https://www.sciencedaily.com/releases/2026/09/260907201605.htm) that combinations of toxin-blocking proteins naturally present in rattlesnake blood can powerfully neutralize venom from several dangerous snake species at once. In lab tests, these protein mixtures were about 10 times more potent than one of the current commercial antivenoms.
+
+The logic behind the discovery is simple and somewhat counterintuitive: rattlesnakes are somehow resistant to their own venom and to venom from related species, which means their blood must contain some defense mechanism against those toxins. Researchers isolated exactly those mechanisms — not synthetic compounds, but substances that already exist in nature and have been shaped by evolution — and tested them directly against foreign venom in vitro.
+
+Current snakebite antivenoms are produced through a slow, expensive process: animals, usually horses, are injected with venom, and antibodies are then harvested from their blood. The method has well-known limits — an antivenom is typically effective only against a specific species or a narrow group of species, and production doesn't scale well. Proteins drawn from rattlesnake blood itself, if the finding holds up in further testing, potentially open a broader, more scalable path to treatment.
+
+An important caveat: this is lab testing, not human clinical trials — in toxinology, the gap between "works in a test tube" and "an approved drug" is typically measured in years.
+
+### Why it matters
+
+Current antivenoms are expensive and often work against only one species' venom — a more potent, broader-spectrum alternative would make snakebite treatment less dependent on knowing exactly which snake bit you and how well-stocked the local hospital happens to be.
+
+
+----- 08-microsoft-patch-tuesday-record (tech) — source: https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/ -----
+
+## Русская версия
+
+Microsoft [выпустила](https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/) рекордный по объёму «патч-вторник»: закрыто 972 уязвимости, 112 из них помечены как критические. Ars Technica описывает это коротко и без обиняков: «специалисты по безопасности штампуют патчи в ожидании волны атак с использованием ИИ».
+
+Ежемесячный «патч-вторник» Microsoft — давняя практика: компания копит исправления и выкатывает их одним пакетом раз в месяц, а не по одному, чтобы администраторам было проще планировать обновление тысяч машин разом. Но объём именно этого выпуска, если верить заголовку материала, — рекордный: почти тысяча уязвимостей за один заход, и больше сотни из них — той категории, которую обычно эксплуатируют быстрее всего после публикации патча, потому что информация об уязвимости сама становится инструкцией для атакующих.
+
+Формулировка Ars Technica про «ожидание атак с использованием ИИ» — не случайная деталь, а часть более широкой картины: инструменты автоматизированного поиска и эксплуатации уязвимостей на основе ИИ снижают порог входа для атакующих и ускоряют промежуток между публикацией патча и появлением рабочего эксплойта. В таких условиях любая задержка с обновлением у конечного пользователя или администратора превращается в окно уязвимости, которое закрывается быстрее, чем раньше.
+
+### Почему это важно
+
+972 уязвимости за один цикл — не просто цифра для заголовка, а прямое указание на то, что администраторам систем предстоит расставлять приоритеты среди 112 критических патчей одновременно; и чем быстрее автоматизация помогает атакующим находить рабочие эксплойты, тем меньше времени остаётся на то, чтобы просто «накатить обновления, когда будет время».
+
+## English version
+
+Microsoft has [released](https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/) its largest Patch Tuesday on record, fixing 972 vulnerabilities, 112 of them flagged as critical. Ars Technica puts the reason bluntly: "security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks."
+
+Microsoft's monthly Patch Tuesday is a long-standing practice: the company batches fixes and ships them once a month rather than one at a time, so administrators can plan updates across thousands of machines at once. But the volume in this release is, per the headline, a record — nearly a thousand vulnerabilities in a single batch, more than a hundred of them in the category that typically gets exploited fastest once a patch is public, since the patch itself effectively tells attackers what to look for.
+
+Ars Technica's framing around "AI-assisted attacks" isn't an incidental detail — it points to a broader shift: AI-based tools for automated vulnerability discovery and exploit generation lower the barrier to entry for attackers and shrink the window between a patch shipping and a working exploit appearing in the wild. In that environment, any delay in applying updates, on the admin side or the end-user side, turns into a gap that closes faster than it used to.
+
+### Why it matters
+
+972 vulnerabilities in one cycle isn't just a striking number, it's a direct signal that system administrators now have to triage 112 critical patches at once; and the faster automation helps attackers turn a patch into a working exploit, the less room there is to just "update whenever there's time."
+
+
 ===== EDITION 6 — 2026-09-08 =====
 
 ## От редакции
