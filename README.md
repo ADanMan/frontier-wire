@@ -10,14 +10,10 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №6 / Edition №6 — 2026-09-08** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №7 / Edition №7 — 2026-09-09** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Технологии]** [Microsoft выложил инструмент, который превращает офисные файлы в Markdown — и тот мгновенно попал в тренды GitHub](editions/2026/09-08/01-microsoft-markitdown-trending.md)
-- **[ИИ]** [HeyGen выпустил инструмент, который пишет HTML и получает на выходе видео — специально для ИИ-агентов](editions/2026/09-08/02-heygen-hyperframes.md)
-- **[ИИ]** [Контекст ИИ-агента раздувается — новый инструмент обещает сократить его на 98%](editions/2026/09-08/03-context-mode-agent-tooling.md)
-- **[ИИ]** [Исследователи научили ИИ понимать речь и видео вместе — без дообучения моделей](editions/2026/09-08/04-speech-centric-omni-understanding.md)
-- **[ИИ]** [Аватар, который говорит и одновременно двигается: одна модель вместо двух](editions/2026/09-08/05-motion-omni-avatar-dialogue.md)
-- **[Технологии]** [В трендах GitHub — «невидимый» браузер для ИИ-агентов, который умеет обходить Cloudflare](editions/2026/09-08/06-camofox-stealth-browser.md)
+- **[ИИ]** [«Один симптом, три рычага»: свежая работа ставит под сомнение модный метод дообучения ИИ](editions/2026/09-09/01-on-policy-self-distillation-critique.md)
+- **[Наука]** [Учёные учат нейросети находить изменения на спутниковых снимках — не хватает самих снимков](editions/2026/09-09/02-remote-sensing-change-synthesis.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

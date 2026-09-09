@@ -2,6 +2,75 @@
 
 
 
+===== EDITION 7 — 2026-09-09 =====
+
+## От редакции
+
+«Wire it, run it, deploy it» — так Hugging Face назвали сегодняшний гайд про сборку AI-пайплайнов в Gradio, и заголовок неплохо описывает сам день: без громких релизов моделей, зато с двумя работами, которые спорят с модными методами вместо того, чтобы рапортовать о рекордах. Одна по косточкам разбирает on-policy self-distillation — популярный способ дообучать языковые модели на их же ответах. Другая — про синтетические спутниковые снимки, на которых нейросети учатся замечать перемены на Земле. День вышел тихим и узкоспециальным, но именно тот случай, когда интереснее читать между строк, чем считать звёзды на GitHub.
+
+## Editorial
+
+"Wire it, run it, deploy it" is what Hugging Face called today's guide to building AI pipelines in Gradio, and the phrase is a fair summary of the day itself: no big model launches, just two papers that argue with trendy methods instead of announcing new records. One takes apart on-policy self-distillation, a popular way to fine-tune language models on their own output. The other is about synthetic satellite imagery for training models to spot change on Earth. It's a quiet, narrow-focus day — the kind where it pays to read between the lines rather than count GitHub stars.
+
+
+----- 01-on-policy-self-distillation-critique (ai) — source: https://huggingface.co/papers/2608.25936 -----
+
+## Русская версия
+
+Свежая статья на arXiv «[One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation](https://huggingface.co/papers/2608.25936)» (Джастин Робер и Рахил Кадер) разбирает метод, который за последний год стал одним из любимых инструментов для дообучения языковых моделей после базового претрейна, — on-policy self-distillation, самодистилляцию «на своих ответах».
+
+Суть метода в двух предложениях, как её формулируют сами авторы: модель генерирует собственные ответы, а модель-учитель оценивает их построчно, точнее — по каждому токену. Получается гибрид: от imitation learning метод берёт плотную, «на каждом шаге», обратную связь, а от reinforcement learning — то, что модель учится на своих же, а не на чужих генерациях (on-policy sampling). На бумаге это звучит как лучшее из двух миров: не нужно, как в классическом RL, ждать разреженного сигнала в конце длинной генерации, и не нужно, как в обычной дистилляции, тащить модель к чужому распределению ответов.
+
+Но у метода есть цена, и именно с неё, судя по всему, начинается критика в статье: оценка каждого токена требует второго прохода — а значит, второй модели, которая должна быть под рукой на каждом шаге обучения. Название работы прямо обещает свести накопившиеся претензии к методу к одному общему «симптому» и предложить три рычага, которыми его можно снять, — но конкретные формулировки этого симптома и рычагов в доступном описании статьи не приведены, так что гадать о деталях раньше времени мы не будем.
+
+Важно здесь именно то, что это критический разбор, а не очередной рапорт о новом рекорде: авторы разбирают устоявшийся, уже широко применяемый метод, а не предлагают с нуля ещё один. Пока post-training языковых моделей превращается в отдельную, быстро растущую дисциплину, а on-policy дистилляция — в один из её стандартных инструментов, такая ревизия полезнее очередного громкого релиза: она помогает понять, где метод ломается, прежде чем на нём выстроят следующий слой инфраструктуры.
+
+### Почему это важно
+
+Индустрия последние два года штампует методы дообучения быстрее, чем успевает их проверять; статья, которая честно называет слабое место популярного подхода, а не рекламирует его, — редкий и полезный жанр.
+
+## English version
+
+A new arXiv paper — "[One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation](https://huggingface.co/papers/2608.25936)," by Justin Robert and Raheel Qader — takes a critical look at a technique that's become one of the go-to tools for post-training language models over the past year: on-policy self-distillation.
+
+The method in two sentences, as the authors themselves frame it: a model generates its own outputs, and a teacher model scores them token by token. That makes it a hybrid — it borrows imitation learning's dense, step-by-step feedback signal, and reinforcement learning's on-policy sampling, meaning the model trains on its own generations rather than someone else's. On paper, that sounds like the best of both worlds: no waiting for a sparse reward at the end of a long generation the way plain RL does, and no dragging the model toward someone else's answer distribution the way ordinary distillation does.
+
+But the method has a cost, and that appears to be where the paper's critique starts: scoring every token requires a second forward pass — which means a second model has to be on hand at every training step. The paper's title promises to trace the accumulated complaints about the method down to one shared "symptom," and to offer three levers for addressing it — but the exact wording of that symptom and those levers isn't in the abstract available to us, so we won't guess at specifics ahead of the full text.
+
+What matters here is the genre: this is a critical review, not another paper announcing a new record. The authors are picking apart an already widely used method rather than proposing yet another one from scratch. With post-training now a fast-growing discipline in its own right, and on-policy distillation one of its standard tools, that kind of audit is more useful than another splashy release — it helps show where the method breaks before another layer of infrastructure gets built on top of it.
+
+### Why it matters
+
+The industry has been churning out fine-tuning methods faster than anyone can properly stress-test them; a paper that honestly names a popular method's weak point instead of promoting it is a rare and useful genre.
+
+
+----- 02-remote-sensing-change-synthesis (science) — source: https://huggingface.co/papers/2608.24263 -----
+
+## Русская версия
+
+Модели, которые сравнивают спутниковые снимки одной и той же территории «до» и «после» и находят на них перемены — новую застройку, вырубку леса, последствия наводнения или пожара, — называют моделями change detection, обнаружения изменений. Их точность, как у любой нейросети, упирается в объём и качество обучающих данных, а с ними у этой задачи давняя проблема: настоящих, размеченных вручную пар снимков «до/после» на конкретную территорию и конкретное событие банально мало, и собрать их дорого.
+
+Отсюда растёт спрос на синтетические данные: вместо того чтобы ждать, пока спутник снова пролетит над тем же участком после реального события, пары снимков генерируют программно. Именно этим занимается новая статья «[Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing](https://huggingface.co/papers/2608.24263)» (Яои Ци, Синсин Вэн, Чао Пан, Юнкан Цуй, Сянюй Хао и соавторы): по словам авторов, синтез данных о переменах — «экономичное решение» для расширения обучающих выборок, но у существующих методов такого синтеза есть слабое место — они, как правило, опираются на заранее прописанные, «ручные» правила того, как должны выглядеть изменения на снимке.
+
+Ручные правила — это удобно, но негибко: программист заранее решает, как рисовать «новый дом» или «сгоревший лес» на синтетическом снимке, и модель, обученная на таких данных, рискует научиться узнавать не реальные изменения, а именно эти заранее заданные шаблоны. Судя по названию статьи, авторы предлагают вместо этого опираться на знания о реальном мире — то есть делать синтетические пары снимков более разнообразными и более похожими на то, как перемены выглядят по-настоящему, а не так, как их представляет себе автор правил. Детали самого метода генерации в доступном описании не раскрыты — краткая аннотация обрывается как раз на переходе к сути подхода.
+
+### Почему это важно
+
+Модели обнаружения изменений — это то, чем спасатели, урбанисты и климатологи в буквальном смысле следят за Землёй сверху; насколько хорошо они видят реальность, а не выученные шаблоны, зависит именно от того, на каких данных их обучили.
+
+## English version
+
+Models that compare "before" and "after" satellite images of the same area and flag what changed — new construction, deforestation, flood or fire damage — are called change detection models. Like any neural network, their accuracy depends on the volume and quality of training data, and that's where the field runs into a long-standing problem: genuine, hand-labeled before/after image pairs for a specific place and a specific event are scarce, and expensive to collect.
+
+That's what drives demand for synthetic data: instead of waiting for a satellite to fly back over the same spot after a real event happens, researchers generate the image pairs programmatically. That's the subject of a new paper, "[Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing](https://huggingface.co/papers/2608.24263)" (Yaoyi Qi, Xingxing Weng, Chao Pang, Yongkang Cui, Xiangyu Hao and co-authors): as the authors put it, change data synthesis is a "cost-effective solution" for expanding training sets, but existing synthesis methods share a weakness — they typically lean on handcrafted rules for what changes are supposed to look like.
+
+Handcrafted rules are convenient but rigid: an engineer decides in advance how a "new building" or a "burned forest" should be rendered in a synthetic image, and a model trained on that data risks learning to recognize those specific, pre-defined templates rather than real-world change. Going by the paper's title, the authors propose grounding the synthesis in real-world knowledge instead — making the synthetic pairs more varied and closer to how change actually looks, rather than how a rule-writer imagined it. The available abstract cuts off right where it would explain the method's actual mechanics, so those details aren't public yet.
+
+### Why it matters
+
+Change detection models are literally how disaster responders, urban planners, and climate scientists watch the planet from above; how well they see reality instead of a memorized template depends entirely on what data trained them.
+
+
 ===== EDITION 6 — 2026-09-08 =====
 
 ## От редакции
