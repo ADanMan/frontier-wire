@@ -241,6 +241,172 @@ Ars Technica's framing around "AI-assisted attacks" isn't an incidental detail �
 972 vulnerabilities in one cycle isn't just a striking number, it's a direct signal that system administrators now have to triage 112 critical patches at once; and the faster automation helps attackers turn a patch into a working exploit, the less room there is to just "update whenever there's time."
 
 
+----- 09-curiosity-5000-martian-days (science) — source: https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/ -----
+
+## Русская версия
+
+Марсоход Curiosity [пересёк](https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/) отметку в 5000 солов — марсианских дней — с момента посадки на Красную планету. Об этом в блоге миссии написал старший научный сотрудник Space Science Institute Уильям Фарранд, отвечающий за период с 4995-го по 5001-й сол.
+
+Один сол чуть длиннее земных суток — около 24 часов 40 минут, — так что 5000 солов — это заметно больше, чем 5000 земных дней работы. По словам Фарранда, этот отрезок миссии примечателен ещё и тем, что Curiosity в буквальном смысле стал рекордсменом среди марсоходов: ровер поднялся выше по склону горы Шарп, чем любой другой аппарат, когда-либо работавший на Марсе.
+
+Curiosity сел на Марс в 2012 году с задачей выяснить, были ли когда-то условия на планете пригодны для жизни микроорганизмов, и с тех пор методично поднимается по слоям горы Шарп, каждый из которых — как страница в геологической летописи планеты. Пять тысяч солов работы — это уже больше десяти земных лет непрерывной эксплуатации техники, изначально рассчитанной на куда более скромный основной срок службы.
+
+Сама заметка в блоге написана в характерном для миссии стиле полевого дневника — с рабочими планами на конкретные дни и текущими наблюдениями, а не громким пресс-релизом, что подчёркивает: для команды Curiosity это будничная, хотя и знаковая веха в счёте, а не финал миссии.
+
+### Почему это важно
+
+Пока часть внимания к космосу утекает в новости о лунных и марсианских планах на будущее, Curiosity уже больше десяти лет методично собирает данные с поверхности Марса — и этот рубеж напоминает, что самые долгоиграющие научные результаты редко случаются в один громкий день.
+
+## English version
+
+NASA's Curiosity rover has [passed](https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/) 5,000 sols — Martian days — since it landed on the Red Planet, according to the mission's blog, written for this stretch by William Farrand, a senior research scientist at the Space Science Institute covering sols 4995 through 5001.
+
+A sol runs a bit longer than an Earth day, about 24 hours and 40 minutes, so 5,000 sols adds up to noticeably more than 5,000 Earth days of work. Farrand notes the milestone comes with another one: Curiosity has now climbed higher up Mount Sharp than any other rover has ever gone on Mars.
+
+Curiosity landed in 2012 to determine whether Mars once had conditions suitable for microbial life, and it has spent the years since methodically climbing through Mount Sharp's rock layers, each one effectively a page in the planet's geological record. Five thousand sols amounts to well over a decade of continuous operation for hardware that was originally built for a much shorter primary mission.
+
+The blog post itself reads like the mission's usual field-diary style — near-term plans and day-to-day observations rather than a splashy announcement — which fits the tone: for the Curiosity team, this is a routine but notable tally mark, not the end of the mission.
+
+### Why it matters
+
+While public attention drifts toward future Moon and Mars plans, Curiosity has quietly kept collecting surface data for more than a decade — a reminder that the most durable scientific results rarely arrive in a single headline moment.
+
+
+----- 10-ig-nobel-prizes-2026 (culture) — source: https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/ -----
+
+## Русская версия
+
+Smithsonian Magazine [опубликовал](https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/) список лауреатов Игнобелевской премии 2026 года — неаффилированной пародии на Нобелевку, которая награждает исследования, «сначала заставляющие смеяться, а потом — думать». Среди победителей этого года — работы про то, как дети реагируют на кражу у них конфет, про инженерные решения для брызгозащищённых писсуаров и про закопанные в землю женские трусы.
+
+Игнобелевская премия существует именно для того, чтобы вытаскивать на свет науку, которая звучит абсурдно на заголовке, но по сути — обычное серьёзное исследование с необычным предметом изучения. Формат приза — это не насмешка над наукой, а способ показать, что удивительные и «смешные» вопросы тоже двигают методологию вперёд: чтобы измерить, скажем, реакцию детей на несправедливость, нужен такой же строгий эксперимент, как и для любой другой психологической работы.
+
+Церемония и подборка лауреатов уже много лет остаются одним из немногих научных событий, которые одинаково интересны и специалистам, и случайному читателю заголовка — именно из-за контраста между несерьёзным названием исследования и вполне серьёзной методологией за ним.
+
+### Почему это важно
+
+Игнобелевка ежегодно напоминает: наука не обязана быть торжественной, чтобы быть настоящей, а любопытство к нелепым на первый взгляд вопросам — часть нормального устройства исследовательского процесса, а не его сбой.
+
+## English version
+
+Smithsonian Magazine [rounded up](https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/) this year's winners of the Ig Nobel Prizes — an unaffiliated spoof of the Nobel Prizes that honors research that "first makes people laugh, and then makes them think." This year's crop of winners includes studies on how children react to having their candy stolen, engineering work on splash-proof urinals, and a study involving underwear buried in the ground.
+
+The Ig Nobels exist precisely to surface science that sounds absurd in a headline but is, underneath, ordinary rigorous research applied to an unusual subject. The prize isn't a mockery of science — it's a way of showing that odd, "funny"-sounding questions still require the same methodological discipline as any other study: measuring how children respond to an unfair loss, for instance, takes as careful an experimental design as any other piece of psychology research.
+
+The ceremony and its list of winners have stayed, for decades, one of the few science events that's equally engaging to specialists and to a reader who just clicked on a funny headline — precisely because of the gap between a study's silly-sounding title and the serious methodology underneath it.
+
+### Why it matters
+
+The Ig Nobels are an annual reminder that science doesn't need to be solemn to be real — curiosity about seemingly ridiculous questions is a normal part of how research works, not a glitch in it.
+
+
+----- 11-brazil-giant-dinosaur (science) — source: https://www.sciencedaily.com/releases/2026/09/260907201603.htm -----
+
+## Русская версия
+
+Палеонтологи [идентифицировали](https://www.sciencedaily.com/releases/2026/09/260907201603.htm) нового гигантского динозавра, найденного под строительной площадкой в Бразилии, — ящер достигал примерно 20 метров в длину и жил около 120 миллионов лет назад. Находка интересна не только размером: у бразильского динозавра обнаружились неожиданные эволюционные связи с динозавром из Испании, что указывает на древние сухопутные соединения между Европой, Африкой и Южной Америкой.
+
+Сам факт находки под стройкой — не редкость для палеонтологии: крупные ископаемые часто обнаруживают именно там, где начинают копать по совсем другим причинам, будь то дорога, фундамент здания или карьер. В данном случае строительные работы случайно вскрыли слои породы, где сохранились остатки одного из самых крупных наземных животных за всю историю Земли.
+
+Родство между южноамериканским и европейским видами — не просто любопытный факт для музейной таблички. Оно встраивается в более широкую картину того, как континенты были связаны в раннем меловом периоде, до того как Атлантический океан разошёлся до нынешней ширины: сухопутные мосты между будущими Южной Америкой, Африкой и Европой позволяли отдельным линиям динозавров расселяться на огромные расстояния.
+
+### Почему это важно
+
+Каждая такая находка — это не просто ещё один экспонат для музея, а точка данных для реконструкции того, как выглядела карта континентов 120 миллионов лет назад и как по ней перемещалась жизнь, — а такие данные редко приходят иначе, чем случайно, из-под чужой лопаты.
+
+## English version
+
+Paleontologists have [identified](https://www.sciencedaily.com/releases/2026/09/260907201603.htm) a new giant dinosaur unearthed beneath a construction site in Brazil, reaching roughly 20 meters in length and dating to about 120 million years ago. The find is notable for more than its size: the Brazilian dinosaur shows an unexpected evolutionary connection to a dinosaur from Spain, pointing to ancient land links between Europe, Africa, and South America.
+
+Finding a fossil this size under a construction project isn't unusual for paleontology — large fossils often surface precisely where digging begins for entirely unrelated reasons, whether a road, a building foundation, or a quarry. In this case, construction work happened to expose rock layers holding the remains of one of the largest land animals in Earth's history.
+
+The kinship between the South American and European species isn't just a curiosity for a museum placard. It fits into a broader picture of how continents were connected during the Early Cretaceous, before the Atlantic Ocean widened to its current span: land bridges between what would become South America, Africa, and Europe allowed particular dinosaur lineages to spread across huge distances.
+
+### Why it matters
+
+Finds like this aren't just another museum specimen — they're data points for reconstructing what the continental map looked like 120 million years ago and how life moved across it, and that kind of data rarely arrives except by accident, from underneath someone else's shovel.
+
+
+----- 12-hurricane-lowell-hawaii (world) — source: https://phys.org/news/2026-09-hurricane-lowell-lashes-hawaii-western.html -----
+
+## Русская версия
+
+Ураган «Лоуэлл» [обрушился](https://phys.org/news/2026-09-hurricane-lowell-lashes-hawaii-western.html) на западные острова Гавайев, принеся разрушительные ветра, сильные ливни и мощные наводнения. Во вторник ураган продолжил движение дальше вглубь Тихого океана, но уже успел обесточить 91% одного из западных островов архипелага.
+
+Цифра в 91% — это практически полное отключение электричества на конкретном острове, а не абстрактная статистика: для местных жителей это означает одновременно потерю связи, невозможность откачивать воду при подтоплениях и риски для тех, кто зависит от электрического медицинского оборудования. Гавайские западные острова и без ураганов регулярно оказываются уязвимее основных, более населённых островов архипелага — инфраструктура там менее плотная, а восстановление после подобных ударов идёт медленнее.
+
+Ураганы такой силы в этом районе Тихого океана не редкость в сезон, но конкретно «Лоуэлл» примечателен масштабом отключений электричества, а не рекордной скоростью ветра или количеством осадков — то есть ударил в первую очередь по инфраструктуре, а не только по природному ландшафту.
+
+### Почему это важно
+
+Массовое обесточивание целого острова — это не просто метеосводка, а прямая проверка на прочность местной энергетической и коммунальной инфраструктуры, от которой зависит, сколько времени жителям придётся провести без света, воды и связи после того, как сам шторм уже ушёл дальше.
+
+## English version
+
+Hurricane Lowell [slammed](https://phys.org/news/2026-09-hurricane-lowell-lashes-hawaii-western.html) into Hawaii's western islands with damaging winds, heavy rainfall, and powerful flooding. The storm pushed further out into the Pacific on Tuesday, but not before knocking out power to 91% of one of the western islands.
+
+That 91% figure means a near-total blackout on that particular island, not just an abstract statistic — for residents, it means lost communications, an inability to pump out floodwater, and real risk for anyone dependent on electrically powered medical equipment. Hawaii's western islands are already more exposed than the archipelago's larger, more populated islands even without a storm: infrastructure there is thinner, and recovery from events like this tends to move more slowly.
+
+Hurricanes of this strength aren't unusual for the region during the season, but what stands out about Lowell specifically is the scale of the power outages rather than record wind speed or rainfall totals — meaning it hit infrastructure hard, not just the landscape.
+
+### Why it matters
+
+Knocking out power to nearly an entire island is more than a weather headline — it's a direct stress test of local energy and utility infrastructure, which determines how long residents go without electricity, water, and communication after the storm itself has already moved on.
+
+
+----- 13-lg-tv-lan-tracking (tech) — source: https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/ -----
+
+## Русская версия
+
+Ars Technica [рассказывает](https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/) о демонстрации, в ходе которой телевизоры LG были замечены за сканированием локальной домашней сети — в частности, в поисках сторонних телефонов и других устройств, подключённых к той же Wi-Fi-сети. По данным издания, телевизор способен отслеживать активность пользователя даже тогда, когда сам не подключён к интернету.
+
+Один из исследователей, чьи слова приводит издание, замечает: «Хранить текст вечно стоит недорого» — фраза указывает на суть проблемы. Речь не о разовом сборе данных, а о накоплении: если устройство регулярно сканирует сеть и логирует, какие ещё гаджеты находятся рядом, со временем из этих логов складывается достаточно подробная картина того, кто, когда и с каким устройством находится дома.
+
+Смарт-телевизоры давно вызывают вопросы у специалистов по приватности — сама бизнес-модель многих производителей построена на данных о просмотре и поведении пользователей, а не только на продаже самого устройства. Но сканирование локальной сети в поисках чужих телефонов — это шаг за пределы того, что обычно ассоциируют со «слежкой» смарт-ТВ за просмотром: это уже про устройства других людей в доме, а не только про самого владельца телевизора.
+
+### Почему это важно
+
+Если бытовая техника способна картографировать всё, что находится в вашей домашней сети, включая устройства гостей и членов семьи, вопрос приватности смарт-ТВ выходит далеко за пределы того, что именно вы смотрите, — и упирается в то, кто ещё физически находится рядом с телевизором.
+
+## English version
+
+Ars Technica [reports](https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/) on a demonstration showing LG televisions scanning the local home network — specifically looking for other phones and devices connected to the same Wi-Fi network. According to the outlet, the TV can track user activity even when the set itself isn't connected to the internet.
+
+One researcher quoted by the outlet puts the core problem bluntly: "It doesn't cost a lot to store text forever." The issue isn't a one-time data grab — it's accumulation. If a device regularly scans the network and logs what other gadgets are nearby, those logs build up over time into a fairly detailed picture of who is home, when, and with which device.
+
+Smart TVs have long drawn scrutiny from privacy researchers — many manufacturers' business models are built around viewing and behavioral data as much as around selling the hardware itself. But scanning the local network for other people's phones goes beyond what's usually meant by smart-TV "tracking": it's no longer just about what the TV's owner watches, it's about the other devices in the household.
+
+### Why it matters
+
+If a piece of home electronics can map everything on your local network, including guests' and family members' devices, smart-TV privacy stops being just a question of what you watch — it becomes a question of who else is physically near the television.
+
+
+----- 14-ancient-greek-water-clock (culture) — source: https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html -----
+
+## Русская версия
+
+Open Culture [рассказывает](https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html) историю клепсидры — «водяного вора», как её называли в Древней Греции, — устройства для измерения времени по скорости истечения воды из сосуда. Корни клепсидры, по данным материала, уходят как минимум в XVI век до нашей эры, а само название отражает главную идею: время утекает так же незаметно, как вода из отверстия в сосуде.
+
+Сегодняшний мир окружён устройствами, которые можно назвать «ворами времени» в куда более буквальном и негативном смысле — уведомлениями и лентами, которые крадут внимание. Клепсидра же была ровно обратным явлением: инструментом, который помогал людям контролировать и структурировать своё время, а не растрачивать его бесконтрольно.
+
+Материал подчёркивает долговечность технологии: относительно простое устройство — сосуд с калиброванным отверстием — оставалось наиболее точным доступным способом измерения времени на протяжении примерно 1800 лет, вплоть до появления механических часов. Это редкий пример технологии, которая не устаревала веками не потому, что не было альтернатив, а потому, что базовый физический принцип — равномерное истечение жидкости — было почти нечем превзойти при тогдашнем уровне инженерии.
+
+### Почему это важно
+
+История клепсидры — хороший повод вспомнить, что «точность» и «прогресс» не обязательно синонимы: простое, но физически надёжное решение может десятками поколений оставаться лучшим доступным инструментом, прежде чем его вытеснит что-то принципиально иное.
+
+## English version
+
+Open Culture [tells the story](https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html) of the clepsydra — the "water thief," as ancient Greeks called it — a device that measured time by how fast water drained from a vessel. According to the piece, the clepsydra's roots go back at least to the 16th century BCE, and its name captures the core idea: time slips away as imperceptibly as water leaking from a hole in a container.
+
+Today's world is full of devices that are "time thieves" in a much more literal and negative sense — notifications and feeds engineered to steal attention. The clepsydra was the opposite of that: a tool that helped people track and structure their time rather than lose it without noticing.
+
+The piece emphasizes just how durable the technology was: a relatively simple device — a vessel with a calibrated opening — remained the most accurate widely available way to measure time for roughly 1,800 years, until mechanical clocks arrived. It's a rare example of a technology that stayed dominant for centuries not for lack of alternatives, but because its underlying physical principle — a steady, measurable flow of liquid — was hard to beat with the engineering available at the time.
+
+### Why it matters
+
+The clepsydra's history is a useful reminder that "accurate" and "advanced" aren't the same thing — a simple but physically reliable solution can remain the best available tool for dozens of generations before something fundamentally different replaces it.
+
+
 ===== EDITION 6 — 2026-09-08 =====
 
 ## От редакции

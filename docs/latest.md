@@ -31,3 +31,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Microsoft just patched a record 972 vulnerabilities in one Patch Tuesday — 112 of them critical / Microsoft закрыла рекордные 972 уязвимости за один патч-вторник — 112 из них критические
 rubric: tech · source: https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/08-microsoft-patch-tuesday-record.md
+
+## NASA's Curiosity rover just logged 5,000 Martian days on Mars — and became a record-setting climber along the way / Марсоход Curiosity отметил 5000 марсианских дней на Марсе — и стал заодно рекордным «альпинистом»
+rubric: science · source: https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/09-curiosity-5000-martian-days.md
+
+## Stealing candy from kids, splash-proof urinals, and buried underwear win the 2026 Ig Nobel Prizes / Конфеты у детей, брызгозащищённые писсуары и закопанные трусы: назвали лауреатов Игнобелевской премии 2026 года
+rubric: culture · source: https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/10-ig-nobel-prizes-2026.md
+
+## A new giant dinosaur turned up beneath a construction site in Brazil — as long as a city block / Под стройплощадкой в Бразилии нашли нового гигантского динозавра ростом с шестиэтажный дом
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260907201603.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/11-brazil-giant-dinosaur.md
+
+## Hurricane Lowell slams Hawaii's western islands, knocking out power to 91% of one island / Ураган «Лоуэлл» обрушился на западные острова Гавайев — без света осталось 91% одного из островов
+rubric: world · source: https://phys.org/news/2026-09-hurricane-lowell-lashes-hawaii-western.html
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/12-hurricane-lowell-hawaii.md
+
+## LG TVs caught scanning home networks for other people's phones and devices / Телевизоры LG уличили в сканировании домашней сети в поисках чужих телефонов и устройств
+rubric: tech · source: https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/13-lg-tv-lan-tracking.md
+
+## The "water thief": how an ancient Greek water clock stayed the most accurate way to measure time for 1,800 years / «Водяной вор»: как древнегреческая клепсидра почти 1800 лет была самым точным способом измерить время
+rubric: culture · source: https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-09/14-ancient-greek-water-clock.md
