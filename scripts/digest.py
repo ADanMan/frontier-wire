@@ -292,12 +292,21 @@ def render(today, papers, feeds, repos) -> str:
     return "\n".join(lines)
 
 
+MIN_DOMAINS = 8  # fewer distinct source hosts than this = sandbox-only draft
+
+
+def _domains(path: Path) -> int:
+    hosts = re.findall(r"https?://([^/\s)]+)", path.read_text(encoding="utf-8"))
+    return len(set(hosts))
+
+
 def main() -> int:
     today = _dt.date.today()
     out_path = DIGESTS_DIR / str(today.year) / f"{today.isoformat()}.md"
-    if out_path.exists():
+    if out_path.exists() and _domains(out_path) >= MIN_DOMAINS:
         print(f"Draft already exists: {out_path}")
         return 0
+    # A narrow draft (sandbox-only mirrors) is replaced by a richer open-network one.
 
     papers = fetch_arxiv()
     feeds = fetch_feeds()

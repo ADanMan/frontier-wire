@@ -6,12 +6,12 @@
 # routine then reuses the ready file instead of refetching a narrow one.
 # Installed as a launchd agent: ~/Library/LaunchAgents/com.frontierwire.digest.plist
 set -e
-REPO="$HOME/Desktop/frontier-wire"
+REPO="${0:A:h:h}"  # repo = parent of scripts/, wherever this clone lives
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
 cd "$REPO"
 git pull --rebase --autostash -q origin main
 python3 scripts/digest.py
-if ! git diff --quiet digests/; then
+if [ -n "$(git status --porcelain digests/)" ]; then  # new files are untracked, git diff misses them
   git add digests/
   git commit -q -m "digest: $(date -u +%Y-%m-%d) (open-network)" \
     --author="Danila Katalshov <56929384+ADanMan@users.noreply.github.com>"
