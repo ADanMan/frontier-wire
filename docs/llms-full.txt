@@ -2,6 +2,214 @@
 
 
 
+===== EDITION 8 — 2026-09-10 =====
+
+## От редакции
+
+iPhone Duo, первый складной iPhone от Apple, наконец стал реальностью — и вышел в один день с GPT-6 Astra, новой рабочей моделью OpenAI: обе премьеры готовились годами и должны были обозначить, кто задаёт тон в индустрии. Пока корпорации спорят за инфоповод, остальной мир продолжает крутиться без спроса на пресс-релизы — от кометы 3I/ATLAS, неожиданно богатой метанолом, до трагедии парома у берегов Филиппин, где погибли и пропали без вести десятки людей. Сегодняшний выпуск — про контраст масштабов: витрины больших компаний и то, что происходит помимо них.
+
+## Editorial
+
+The iPhone Duo, Apple's first foldable phone, finally became real — landing the same day as GPT-6 Astra, OpenAI's new work-focused model; both launches took years to arrive and were clearly meant to set the industry's tone. While two giants fight for the news cycle, the rest of the world keeps turning without asking for headlines: from comet 3I/ATLAS turning out to be unexpectedly rich in methanol, to a ferry fire off the Philippines that left people dead and dozens missing. Today's edition is about that contrast — corporate showcases versus everything that happens around them.
+
+
+----- 01-gpt-6-astra-launch (ai) — source: https://openai.com/index/gpt-6-astra-next-generation-work -----
+
+## Русская версия
+
+OpenAI [представила GPT-6 Astra](https://openai.com/index/gpt-6-astra-next-generation-work) — модель, которую компания называет «самой способной для работы»: усиленный reasoning, поддержка computer use и, по формулировке OpenAI, более уверенные суждения в письме и дизайне. Проблема в том, что сам анонс — это лендинг с заявлениями, а не техническая статья: ни одного бенчмарка, ни одной цифры, только общие фразы про «продвинутое мышление».
+
+Конкретику пришлось добирать из сторонних источников, вышедших в тот же день. Разработчик Саймон Уиллисон [написал](https://simonwillison.net/2026/Sep/9/blender-viewer/), что уже использует Astra вместе с Blender для генерации 3D-моделей, — то есть модель реально доступна и работает с внешними инструментами, а не существует только в презентации. А исследователь Себастьян Рашка тем временем [разобрал](https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and) архитектурную сторону: похоже, что за «усиленным reasoning» стоит не банальное увеличение модели, а looped transformers — рекуррентная глубина, при которой модель прогоняет вычисления по кругу через одни и те же слои, порождая скрытые цепочки рассуждений, не видимые пользователю в обычном выводе.
+
+Разница существенная. «Усиленный reasoning» в маркетинговой формулировке звучит как синоним «мы обучили модель побольше и подольше». Looped transformers — это конкретный архитектурный выбор: вместо того чтобы наращивать число слоёв, модель несколько раз пропускает данные через один и тот же блок, экономя параметры, но требуя больше вычислений на проход. Именно такой выбор объясняет, почему OpenAI не спешит раскрывать детали публично — это конкурентное архитектурное решение, а не просто более крупная версия предыдущей модели.
+
+Работает ли это лучше конкурентов на практике — вопрос открытый: Google выкатил Gemini 3.8 Flash примерно в те же дни, и по независимым тестам пока рано судить, кто вырвался вперёд. Пока что единственные проверяемые данные о Astra — это то, что сторонние разработчики уже подключили её к реальным пайплайнам, а не факты о превосходстве над конкурентами.
+
+### Почему это важно
+
+Компании выпускают модели с ярлыком «самая способная» каждые несколько недель, и разбор реальных архитектурных изменений — единственный способ понять, где на самом деле происходит прогресс, а где просто очередной лендинг с превосходными степенями.
+
+## English version
+
+OpenAI has [launched GPT-6 Astra](https://openai.com/index/gpt-6-astra-next-generation-work), which the company calls its most capable model yet for business: stronger reasoning, computer-use support, and, in OpenAI's own words, sharper judgment in writing and design. The catch is that the announcement itself is a marketing page, not a technical writeup — no benchmarks, no numbers, just phrases like "advanced reasoning."
+
+The actual substance came from outside observers who published the same day. Developer Simon Willison [wrote](https://simonwillison.net/2026/Sep/9/blender-viewer/) that he's already using Astra together with Blender to generate 3D models — meaning the model is genuinely accessible and wired into real tools, not just a slide deck. Meanwhile researcher Sebastian Raschka [broke down](https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and) the architecture side: what OpenAI calls "advanced reasoning" appears to rest on looped transformers — recurrent depth, where the model runs computation through the same layers repeatedly, producing hidden chains of thought invisible in the normal output.
+
+That distinction matters. "Advanced reasoning" as marketing copy could mean almost anything — bigger model, longer training. Looped transformers is a specific architectural choice: instead of stacking more layers, the model passes data through one block multiple times, trading parameter count for extra compute per pass. That choice is a plausible reason OpenAI isn't spelling out details publicly — it's a competitive architectural bet, not just a scaled-up version of the previous model.
+
+Whether it actually outperforms rivals in practice is still open: Google shipped Gemini 3.8 Flash around the same window, and independent testing hasn't settled who's ahead. Right now the only verifiable fact about Astra is that outside developers have already plugged it into real workflows — not any claim of superiority over competitors.
+
+### Why it matters
+
+Companies ship models labeled "most capable yet" every few weeks, and picking apart the actual architectural changes is the only way to tell where progress is real versus where it's just another landing page full of superlatives.
+
+
+----- 02-apple-iphone-duo-foldable (tech) — source: https://arstechnica.com/gadgets/2026/09/apples-long-rumored-foldable-becomes-reality-with-the-2000-iphone-duo/ -----
+
+## Русская версия
+
+После многолетних слухов Apple наконец [представила складной iPhone](https://arstechnica.com/gadgets/2026/09/apples-long-rumored-foldable-becomes-reality-with-the-2000-iphone-duo/) — iPhone Duo стоит $2000, складывается пополам, как паспорт, и разворачивается в экран диагональю 7,6 дюйма, [сообщает Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/9/10/apple-unveils-first-ever-foldable-iphone-duo?traffic_source=rss). NPR называет это «самым радикальным изменением дизайна iPhone почти за 20 лет» — с момента появления оригинального iPhone форм-фактор устройства менялся минимально, и складной корпус — первый по-настоящему новый физический формат.
+
+Есть и вторая новость внутри этой новости: [анонс сделал не Тим Кук, а Джон Тернус](https://www.npr.org/2026/09/09/nx-s1-5961487/apple-duo-foldable-iphone-john-ternus) — новый генеральный директор Apple. Смена первого лица компании обычно сама по себе тянет на отдельную полосу, но Apple предпочла совместить её с презентацией самого ожидаемого продукта последних лет — так дебют нового руководителя проходит на фоне хорошей новости, а не квартального отчёта.
+
+Цена в $2000 — это заметно выше, чем у топовых Pro Max моделей, и ставит iPhone Duo в один сегмент с складными флагманами Samsung и Huawei, которые на рынке уже несколько лет. Главный вопрос не в том, способна ли Apple сделать складной телефон технически — а в том, удастся ли ей, как обычно, зайти в нишу последней и забрать её себе за счёт экосистемы и цены на подписки, а не первенства.
+
+Дата поступления в продажу — «в следующем месяце», конкретики по регионам запуска источники пока не приводят.
+
+### Почему это важно
+
+Складной iPhone — не просто новый гаджет: это первая за два десятилетия смена физической формы главного продукта Apple, и то, что об этом объявляет новый CEO, а не Тим Кук, — сигнал, что компания меняется на нескольких уровнях сразу.
+
+## English version
+
+After years of rumors, Apple has finally [unveiled a foldable iPhone](https://arstechnica.com/gadgets/2026/09/apples-long-rumored-foldable-becomes-reality-with-the-2000-iphone-duo/) — the iPhone Duo, priced at $2,000, folding shut like a passport and opening into a 7.6-inch display, [per Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/9/10/apple-unveils-first-ever-foldable-iphone-duo?traffic_source=rss). NPR calls it "the most radical iPhone design update in nearly 20 years" — since the original iPhone, the device's physical form has barely changed, making the fold-out body the first genuinely new form factor.
+
+There's a second story tucked inside this one: [the announcement was made not by Tim Cook but by John Ternus](https://www.npr.org/2026/09/09/nx-s1-5961487/apple-duo-foldable-iphone-john-ternus), Apple's new CEO. A change at the top of Apple would normally be its own headline, but the company chose to fold it into the launch of its most anticipated product in years — so the new leader's debut lands alongside good news rather than a quarterly earnings call.
+
+The $2,000 price tag sits well above Apple's Pro Max lineup and puts the Duo in the same bracket as Samsung's and Huawei's foldable flagships, which have already been on the market for years. The real question isn't whether Apple can build a foldable phone — it's whether the company can do what it usually does: arrive last in a category and still take it over on the strength of its ecosystem and services pricing rather than being first.
+
+Availability is set for "next month," with no region-specific rollout details given yet.
+
+### Why it matters
+
+A foldable iPhone isn't just a new gadget — it's the first change to Apple's flagship physical form in two decades, and having the new CEO announce it instead of Tim Cook signals the company is shifting on more than one front at once.
+
+
+----- 03-comet-atlas-methanol (science) — source: https://www.sciencedaily.com/releases/2026/09/260909005217.htm -----
+
+## Русская версия
+
+Межзвёздная комета 3I/ATLAS содержит [аномально высокий уровень метанола](https://www.sciencedaily.com/releases/2026/09/260909005217.htm) — настолько высокий, что это говорит о совершенно иных условиях формирования, чем у большинства комет Солнечной системы. Наблюдения радиотелескопа ALMA также показали, что мельчайшие ледяные частицы вокруг кометы выделяют метанол — по сути, ведут себя как миниатюрные источники этого вещества, рассеянные вокруг ядра.
+
+3I/ATLAS — лишь третий подтверждённый межзвёздный объект, замеченный в Солнечной системе (после 'Оumuamua в 2017 году и кометы Борисова в 2019-м), и каждый такой гость — редкая возможность напрямую изучить вещество, сформировавшееся у чужой звезды, а не в нашем собственном протопланетном диске. Высокая концентрация метанола важна именно потому, что это одна из немногих характеристик, которую можно измерить дистанционно и сравнить с типичным составом комет из пояса Койпера или облака Оорта — и по этому параметру 3I/ATLAS явно выбивается из normы.
+
+Само по себе наличие метанола в кометах не новость: это стандартный компонент ледяных ядер. Необычно именно то, насколько его много и в какой форме он высвобождается — через отдельные ледяные гранулы, а не равномерно с поверхности ядра, как обычно моделируют кометную активность. Это может означать, что комета формировалась при более низких температурах или из вещества с иным изотопным составом, чем то, что было в ранней Солнечной системе.
+
+### Почему это важно
+
+Межзвёздные объекты залетают в Солнечную систему настолько редко, что каждое новое наблюдение 3I/ATLAS — это фактически химический анализ вещества другой звёздной системы, доставленный к нам бесплатно и без миссии к экзопланете.
+
+## English version
+
+The interstellar comet 3I/ATLAS contains [exceptionally high levels of methanol](https://www.sciencedaily.com/releases/2026/09/260909005217.htm), a concentration high enough to suggest it formed under conditions quite different from most comets native to our own solar system. Observations from the ALMA radio telescope also showed that tiny icy grains surrounding the comet are releasing methanol on their own — acting like miniature sources of the compound scattered around the nucleus, rather than the gas coming uniformly off the surface.
+
+3I/ATLAS is only the third confirmed interstellar object ever spotted passing through the solar system, after 'Oumuamua in 2017 and comet Borisov in 2019, and each such visitor is a rare chance to directly sample material that formed around another star rather than in our own protoplanetary disk. The methanol reading matters because it's one of the few traits astronomers can measure remotely and compare against the typical composition of Kuiper Belt or Oort Cloud comets — and on that measure, 3I/ATLAS stands out clearly.
+
+Methanol itself is nothing unusual in cometary ice — it's a standard component of comet nuclei. What's unusual is how much of it there is, and how it's being released: through individual icy grains rather than evenly off the nucleus surface, which is how cometary activity is normally modeled. That could mean the comet formed at lower temperatures, or from material with a different isotopic makeup than what built the early solar system.
+
+### Why it matters
+
+Interstellar objects pass through the solar system so rarely that every new observation of 3I/ATLAS amounts to a free chemical analysis of material from another star system, delivered without needing a mission to an exoplanet.
+
+
+----- 04-chandra-xray-objects (science) — source: https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/ -----
+
+## Русская версия
+
+Используя рентгеновскую обсерваторию «Чандра», астрономы [обнаружили новый класс объектов](https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/), которые ведут себя не так, как что-либо, замеченное ранее. Речь о рентгеновских источниках в других галактиках, чьи характеристики не укладываются в существующие категории — ни в известные типы нейтронных звёзд, ни в стандартные модели двойных систем с чёрными дырами.
+
+По словам исследователей, эти объекты могут помочь ответить не на один, а сразу на два давних вопроса астрофизики. NASA пока не раскрывает подробностей о том, что именно это за вопросы — публикация описана как первый анонс находки, а не полный разбор результатов, так что детали физической природы объектов, вероятно, появятся в последующих научных статьях.
+
+Сама по себе находка «объекта, который не укладывается в классификацию» — не редкость в рентгеновской астрономии: инструменты вроде «Чандры» регулярно ловят переходные и аномальные источники, большинство из которых со временем находят объяснение как редкие, но уже известные явления — например, необычные ракурсы известных двойных систем. Но формулировка NASA — «новый класс», а не «необычный представитель известного класса» — предполагает, что в этот раз речь идёт о чём-то более фундаментальном, а не просто о статистическом выбросе.
+
+### Почему это важно
+
+Рентгеновская астрономия последние годы регулярно поставляет объекты, не укладывающиеся в учебники — от быстрых рентгеновских транзиентов до странных двойных систем, — и именно на таких аномалиях чаще всего строятся новые модели эволюции звёзд и чёрных дыр.
+
+## English version
+
+Using the Chandra X-ray Observatory, astronomers have [discovered a new class of objects](https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/) that behave unlike anything seen before. These are X-ray sources in other galaxies whose characteristics don't fit into existing categories — not known types of neutron stars, not standard black-hole binary models.
+
+Researchers say these objects could help answer not one but two long-standing questions in astrophysics. NASA hasn't yet detailed what those two questions are — the release reads as a first announcement of the discovery rather than a full breakdown of the results, so the specifics of the objects' physical nature will likely come in follow-up papers.
+
+Finding an object that "doesn't fit the classification" isn't rare in X-ray astronomy on its own — instruments like Chandra routinely catch transient and anomalous sources, and most eventually get explained as rare but already-known phenomena, like unusual viewing angles on familiar binary systems. But NASA's wording here — "a new class," not "an odd member of a known class" — suggests something more fundamental than a statistical outlier this time.
+
+### Why it matters
+
+X-ray astronomy has been regularly turning up objects that don't fit the textbooks in recent years — from fast X-ray transients to strange binary systems — and it's exactly these anomalies that tend to drive new models of star and black-hole evolution.
+
+
+----- 05-philippines-ferry-fire (world) — source: https://www.dw.com/en/philippines-several-killed-dozens-missing-after-fire-on-ferry/a-79208236?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+У побережья Палавана, популярного туристического района Филиппин, загорелся паром — [по данным DW](https://www.dw.com/en/philippines-several-killed-dozens-missing-after-fire-on-ferry/a-79208236?maca=en-rss-en-all-1573-rdf), в судовом манифесте значилось 134 пассажира и члена экипажа. Есть погибшие, десятки числятся пропавшими без вести. Кадры, опубликованные Береговой охраной Филиппин, показывают судно, полностью охваченное огнём; спасатели выносили тела на берег в мешках.
+
+[Видео Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/9/10/several-dead-dozens-missing-after-ferry-fire-in-philippines-tourist-spot?traffic_source=rss) с места происшествия подтверждает масштаб пожара — паром снят полностью объятым пламенем на воде. Палаван — один из самых посещаемых туристами архипелагов Филиппин, известный своими лагунами и подземными реками, и паромное сообщение здесь — обычный способ передвижения между островами как для туристов, так и для местных жителей, что делает точное число жертв особенно тяжёлым известием для региона, живущего во многом за счёт туризма.
+
+На момент публикации источники не называют причину возгорания и точное число погибших — доступные данные ограничены кадрами очевидцев и подтверждением из манифеста о числе людей на борту.
+
+### Почему это важно
+
+Морские катастрофы у берегов Юго-Восточной Азии редко попадают в мировую повестку надолго, но именно расхождение между «134 человека в манифесте» и «десятки пропавших без вести» — то самое пространство неопределённости, в котором находятся семьи, ожидающие новостей.
+
+## English version
+
+A ferry caught fire off the coast of Palawan, a popular tourist region in the Philippines — [according to DW](https://www.dw.com/en/philippines-several-killed-dozens-missing-after-fire-on-ferry/a-79208236?maca=en-rss-en-all-1573-rdf), the ship's manifest listed 134 passengers and crew. There are confirmed deaths, and dozens remain missing. Footage released by the Philippine Coast Guard shows the vessel fully engulfed in flames, with rescuers bringing bodies ashore in body bags.
+
+[Al Jazeera video](https://www.aljazeera.com/video/newsfeed/2026/9/10/several-dead-dozens-missing-after-ferry-fire-in-philippines-tourist-spot?traffic_source=rss) from the scene confirms the scale of the fire, showing the ferry burning on the water. Palawan is one of the most visited archipelagos in the Philippines, known for its lagoons and underground rivers, and ferry travel there is routine for both tourists and locals moving between islands — which makes the scale of casualties especially hard news for a region that depends heavily on tourism.
+
+As of publication, sources haven't given a cause for the fire or a confirmed death toll — available information is limited to eyewitness footage and the manifest count of people aboard.
+
+### Why it matters
+
+Maritime disasters off Southeast Asia rarely stay in the global news cycle for long, but the gap between "134 people on the manifest" and "dozens missing" is exactly the space of uncertainty families are left waiting in for news.
+
+
+----- 06-china-gig-experts-train-ai (world) — source: https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds -----
+
+## Русская версия
+
+В Китае недозагруженные работой юристы, архитекторы и инженеры [берутся за дешёвую подработку](https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — обучение ИИ-моделей собственному ремеслу, просто чтобы заплатить за ипотеку в этом месяце. По данным Rest of World, это происходит на фоне стагнирующей экономики и государственных директив, подталкивающих компании развивать ИИ-инфраструктуру любой ценой, в том числе за счёт труда специалистов с высшим образованием, которые формально устроены не по найму.
+
+Идея не нова — крупные лаборатории давно нанимают экспертов размечать данные для обучения моделей. Необычен масштаб и, если угодно, ирония ситуации: речь не о студентах-разметчиках без квалификации, а о людях с профильным юридическим или инженерным образованием, которые буквально кодифицируют собственную профессиональную экспертизу в обучающие данные — потенциально ускоряя момент, когда эта экспертиза перестанет быть дефицитной.
+
+В том же материале Rest of World цитирует и обратную позицию: другой текст издания называется «Я отказался обучать ИИ, который мог бы меня заменить» — то есть внутри одной и той же индустрии сосуществуют и те, кто соглашается на подработку из нужды, и те, кто сознательно отказывается участвовать в процессе. Экономическое давление явно перевешивает у многих: авторы описывают ситуацию как выбор между принципами и оплатой счетов конкретно в этом месяце, а не абстрактный спор о будущем труда.
+
+### Почему это важно
+
+Это конкретный, наблюдаемый механизм того, как ИИ учится заменять квалифицированный труд: не абстрактный «искусственный интеллект наступает», а юристы и архитекторы, которые из экономической нужды помогают моделям стать компетентнее именно в их узкой специализации.
+
+## English version
+
+In China, underemployed lawyers, architects, and engineers are [taking on cheap gig work](https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds): teaching AI models their own trades, just to cover this month's mortgage. Rest of World reports this is happening against a backdrop of a stagnant economy and state directives pushing companies to build out AI infrastructure at nearly any cost — including the labor of highly educated specialists working outside formal employment.
+
+The underlying idea isn't new — major labs have long hired experts to label training data. What's unusual here is the scale, and arguably the irony: these aren't unqualified student annotators, but people with real legal or engineering credentials literally encoding their own professional expertise into training data — potentially accelerating the point at which that expertise stops being scarce.
+
+The same Rest of World coverage also carries the opposite position: a companion piece titled "I refused to train the AI that could replace me" shows that within the same industry, some take the gig work out of necessity while others deliberately opt out. For many, economic pressure clearly wins out — the reporting frames it as a choice between principle and paying this month's bills, not an abstract debate about the future of labor.
+
+### Why it matters
+
+This is a concrete, observable mechanism for how AI learns to replace skilled labor — not an abstract "AI is coming for jobs" claim, but lawyers and architects who, out of economic need, are helping models get better at exactly their own specialty.
+
+
+----- 07-ten-thousand-buddhas-monastery (culture) — source: https://www.atlasobscura.com/places/ten-thousand-buddhas-monastery -----
+
+## Русская версия
+
+«Монастырь десяти тысяч Будд» в Гонконге [обманывает названием дважды](https://www.atlasobscura.com/places/ten-thousand-buddhas-monastery). Во-первых, статуй там на самом деле больше 12 000 — то есть заявленное число в названии занижено, а не преувеличено, что довольно необычно для туристической достопримечательности. Во-вторых, это технически не монастырь: монахов, которые бы там постоянно жили, на территории нет.
+
+Место остаётся действующим и посещаемым именно благодаря самому масштабу — тысячи почти идентичных статуй Будды, расставленных вдоль подъёма к комплексу и внутри него, создают эффект, которого не добиться единичной крупной статуей или скромным храмом. Это архитектура количества: впечатление строится не на размере или богатстве отделки одного объекта, а на повторении.
+
+Расхождение между названием и реальностью — типичный для Atlas Obscura сюжет: место, чья слава держится на легенде или ярлыке, который при ближайшем рассмотрении оказывается неточным, но от этого не менее интересным. Название «десять тысяч» тут явно круглое и символическое число, а не подсчёт — и в этом смысле ошибка не в подсчёте статуй, а в том, что кто-то когда-то принял красивое число за буквальный факт.
+
+### Почему это важно
+
+Гонконгский комплекс — хороший повод вспомнить, что многие исторические названия мест — это маркетинг или мифология своего времени, а не документация, и разбираться в разнице между тем и другим — часть работы путешественника, а не только историка.
+
+## English version
+
+Hong Kong's "Ten Thousand Buddhas Monastery" [misleads on two counts at once](https://www.atlasobscura.com/places/ten-thousand-buddhas-monastery). First, there are actually more than 12,000 Buddha statues there — the name undersells the number rather than inflating it, which is an unusual direction for a tourist attraction to get wrong. Second, it's technically not a monastery: no monks live on site.
+
+The place stays a functioning, visited landmark precisely because of that sheer scale — thousands of near-identical Buddha statues line the ascent to the complex and fill it inside, producing an effect no single large statue or modest temple could match. It's an architecture of repetition rather than of size or ornamentation on any one object.
+
+The gap between name and reality is a familiar Atlas Obscura setup: a place whose fame rests on a legend or label that turns out to be inaccurate on closer inspection, without becoming any less interesting for it. "Ten thousand" here was clearly meant as a round, symbolic number rather than an actual count — so the error isn't in counting the statues, it's in someone, long ago, taking a nice-sounding number as a literal fact.
+
+### Why it matters
+
+The Hong Kong complex is a good reminder that plenty of historic place names are marketing or mythology from their era rather than documentation, and telling the two apart is part of a traveler's job, not just a historian's.
+
+
 ===== EDITION 7 — 2026-09-09 =====
 
 ## От редакции
