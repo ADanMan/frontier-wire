@@ -210,6 +210,164 @@ The gap between name and reality is a familiar Atlas Obscura setup: a place whos
 The Hong Kong complex is a good reminder that plenty of historic place names are marketing or mythology from their era rather than documentation, and telling the two apart is part of a traveler's job, not just a historian's.
 
 
+----- 08-norway-zelenskyy-drone (world) — source: https://www.dw.com/en/norway-s-pm-zelenskyy-s-plane-almost-hit-by-drone/a-79207528?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Самолёт президента Украины Владимира Зеленского едва не столкнулся с дроном во время перелёта из Молдовы в Осло — [об этом заявил премьер-министр Норвегии](https://www.dw.com/en/norway-s-pm-zelenskyy-s-plane-almost-hit-by-drone/a-79207528?maca=en-rss-en-all-1573-rdf). Подробностей о том, кому принадлежал дрон и где именно произошло сближение, норвежская сторона не привела. При этом источник на украинской стороне, на который ссылается DW, допускает, что масштаб угрозы мог быть преувеличен.
+
+Расхождение в оценках — не техническая деталь, а часть картины: любое сообщение о риске для борта, на котором летит глава украинского государства, мгновенно становится политическим фактом независимо от того, насколько чётко потом подтверждаются детали. Пока в публичном поле есть только заявление норвежского премьера с одной стороны и сдержанная украинская реакция с другой — без совпадающих по времени независимых подтверждений.
+
+### Почему это важно
+
+Появление беспилотников рядом с самолётами первых лиц — ровно тот тип инцидента, который трудно как подтвердить, так и опровергнуть постфактум, а значит он будет жить в новостях дольше, чем длилось само сближение в воздухе.
+
+## English version
+
+Ukrainian President Volodymyr Zelenskyy's plane nearly collided with a drone while flying from Moldova to Oslo, [according to Norway's prime minister](https://www.dw.com/en/norway-s-pm-zelenskyy-s-plane-almost-hit-by-drone/a-79207528?maca=en-rss-en-all-1573-rdf). Norway hasn't said who operated the drone or exactly where the close call happened. A Ukrainian source cited by DW, meanwhile, suggests the threat may have been overstated.
+
+That gap between accounts isn't a footnote — it's the story. Any report of a risk to the aircraft carrying Ukraine's head of state becomes a political fact the moment it's said aloud, regardless of how the details are later confirmed. Right now the public record consists of one statement from Norway's prime minister and a more cautious response from the Ukrainian side, with no independently corroborated timeline connecting them.
+
+### Why it matters
+
+A drone sighting near a head-of-state's aircraft is exactly the kind of incident that's hard to either confirm or debunk after the fact, which means it will stay in the news cycle longer than the actual close call in the air ever lasted.
+
+
+----- 09-uganda-invictus-games (world) — source: https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles -----
+
+## Русская версия
+
+Уганда выходит из Игр Инвиктус — спортивных состязаний для военных и ветеранов с ранениями, которые основал принц Гарри, герцог Сассекский. [Как сообщает The Guardian](https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles), решение объявил генерал Мухузи Кайнеругаба, военный руководитель страны, постом в X — по его словам, шаг сделан «из уважения к королю Карлу» на фоне раскола вокруг «этой чепухи с Гарри и Меган».
+
+Формулировка важна сама по себе: Уганда не ссылается на логистику, бюджет или спортивные разногласия — она открыто встаёт на одну из сторон семейного и статусного конфликта внутри британской монархии, которым Игры Инвиктус оказались невольно нагружены с самого основания турнира Гарри после его отдаления от королевской семьи.
+
+Для самого турнира, который существует ради ветеранов и раненых военных, а не ради политики вокруг британской короны, подобный демарш — неприятный прецедент: он показывает, что участие в Играх страны теперь готовы использовать как жест лояльности одной из сторон королевского раскола.
+
+### Почему это важно
+
+Когда решение об участии в благотворительном спортивном турнире объясняют верностью монарху, а не спортом или ветеранами, это симптом того, насколько глубоко раскол в британской королевской семье просочился в дела, которые изначально к монархии прямого отношения не имели.
+
+## English version
+
+Uganda is withdrawing from the Invictus Games, the sporting competition for wounded and sick service members founded by Prince Harry, Duke of Sussex. [According to The Guardian](https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles), the decision was announced by Gen. Muhoozi Kainerugaba, the country's military chief, in a post on X — he said the move was made "out of respect for King Charles" amid division over "this Harry-Meghan nonsense."
+
+The wording matters on its own. Uganda isn't citing logistics, budget, or a sporting dispute — it's openly siding in a family and status conflict inside the British monarchy that the Invictus Games have carried, somewhat unwillingly, since Harry founded the tournament after stepping back from royal duties.
+
+For a tournament that exists for veterans and wounded service members rather than royal politics, this kind of move is an unwelcome precedent: it signals that participation can now be treated as a loyalty gesture in a royal family rift, rather than a sporting or humanitarian commitment.
+
+### Why it matters
+
+When a country explains its withdrawal from a charity sports tournament as loyalty to a monarch rather than a decision about sport or veterans, it's a sign of how deeply the British royal family's rift has bled into matters that had nothing to do with the crown in the first place.
+
+
+----- 10-bone-building-switch-osteoporosis (science) — source: https://www.sciencedaily.com/releases/2026/09/260909005305.htm -----
+
+## Русская версия
+
+Исследователи нашли способ включить у мышей своего рода «переключатель» роста костной ткани — [экспериментальное соединение под названием AP503](https://www.sciencedaily.com/releases/2026/09/260909005305.htm) заметно укрепило кости животных, активируя рецептор GPR133. Этот рецептор одновременно усиливает формирование новой костной ткани и замедляет её разрушение — то есть бьёт по остеопорозу с двух сторон, а не одной, как большинство существующих препаратов.
+
+Отдельная деталь, которая делает находку интереснее: то же самое соединение, судя по данным исследования, связано и с укреплением мышц. Для остеопороза это существенно, потому что возрастная потеря костной массы почти всегда идёт в паре с потерей мышечной — падения у пожилых людей происходят именно на стыке слабых мышц и хрупких костей, и препарат, работающий сразу по обоим направлениям, теоретически закрывает сразу две проблемы одним механизмом.
+
+Пока речь идёт об экспериментах на мышах, а не о клинических испытаниях на людях — путь от активного рецептора в лабораторных условиях до одобренного лекарства долгий и с высокой вероятностью отсева. Но сам факт, что нашёлся рецептор, воздействующий на формирование и разрушение кости одновременно, — это редкая находка в области, где большинство препаратов исторически умеют делать только что-то одно.
+
+### Почему это важно
+
+Остеопороз остаётся одной из главных причин переломов и потери самостоятельности у пожилых людей, а препарат, способный одновременно укреплять кости и мышцы через один и тот же механизм, целится в саму физическую уязвимость старения, а не только в один из её симптомов.
+
+## English version
+
+Researchers have found a way to flip what amounts to a bone-growth switch in mice — [an experimental compound called AP503](https://www.sciencedaily.com/releases/2026/09/260909005305.htm) significantly strengthened the animals' bones by activating a receptor called GPR133. That receptor does two things at once: it boosts new bone formation and slows bone loss, attacking osteoporosis from both directions rather than just one, which is how most existing drugs work.
+
+There's a further detail that makes the finding more interesting: the same compound, according to the study, has also been linked to stronger muscles. That matters for osteoporosis specifically, because age-related bone loss almost always travels with muscle loss — falls in older people happen at exactly the intersection of weak muscles and brittle bones, and a drug that works on both fronts through one mechanism would, in principle, address two problems at once.
+
+This is still mouse research, not human clinical trials, and the road from an activated receptor in a lab to an approved drug is long and has a high failure rate. But finding a single receptor that governs both bone formation and bone breakdown is a rare result in a field where most drugs have historically been able to do only one or the other.
+
+### Why it matters
+
+Osteoporosis remains one of the leading causes of fractures and lost independence in older adults, and a drug that could strengthen both bone and muscle through the same mechanism would target the physical vulnerability of aging itself, not just one symptom of it.
+
+
+----- 11-anaemia-babies-brain-size (science) — source: https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds -----
+
+## Русская версия
+
+У детей, рождённых от матерей с анемией во время беременности, мозг в среднем меньше, чем у детей от здоровых матерей — [к такому выводу пришло исследование](https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds), о котором пишет The Guardian. Особенно затронуты ключевые области мозга, связанные с движением, обучением и регуляцией эмоций — то есть не мозг «в целом» уменьшается равномерно, а страдают конкретные зоны, от которых напрямую зависит развитие ребёнка после рождения.
+
+Анемия во время беременности — распространённая и в большинстве случаев излечимая проблема, вызванная чаще всего нехваткой железа: она затрагивает беременных женщин по всему миру, но особенно там, где доступ к дородовому наблюдению и добавкам железа ограничен. Именно поэтому находка звучит не как экзотический медицинский казус, а как аргумент в пользу того, что скрининг и лечение анемии у беременных — это не второстепенная, а прямая инвестиция в развитие мозга следующего поколения.
+
+Авторы предупреждают, что уменьшение именно тех зон мозга, которые отвечают за моторику, обучение и эмоциональную регуляцию, может впоследствии проявляться как когнитивные проблемы — то есть последствия способны сохраняться далеко за пределами младенчества.
+
+### Почему это важно
+
+Анемия при беременности — состояние, которое можно предотвратить и вылечить относительно недорого, а связь с уменьшенным объёмом мозга у новорождённых превращает дородовой контроль уровня железа из формальности в вопрос когнитивного будущего ребёнка.
+
+## English version
+
+Babies born to mothers who were anaemic during pregnancy have smaller brains on average than babies born to mothers who weren't, [according to a study](https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds) reported by The Guardian. The effect is concentrated in specific brain regions tied to movement, learning and emotional regulation — not a uniform shrinkage across the whole brain, but a hit to the exact areas that shape a child's development after birth.
+
+Anaemia during pregnancy is a common and, in most cases, treatable condition, usually caused by iron deficiency. It affects pregnant women worldwide, but disproportionately where access to prenatal care and iron supplementation is limited. That's what makes this finding land less like an exotic medical curiosity and more like an argument that screening and treating anaemia in pregnancy is a direct investment in the next generation's brain development, not a secondary concern.
+
+The researchers warn that the reduction is concentrated in regions governing motor skills, learning and emotional regulation, which means the consequences could show up later as cognitive problems — effects that persist well beyond infancy.
+
+### Why it matters
+
+Anaemia in pregnancy is preventable and relatively cheap to treat, and its link to smaller newborn brain volume turns prenatal iron monitoring from a routine checkbox into a question about a child's cognitive future.
+
+
+----- 12-saint-john-cathedral-belize (culture) — source: https://www.atlasobscura.com/places/saint-john-anglican-cathedral -----
+
+## Русская версия
+
+В 1812 году британская корона решила, что территории, которая тогда была общиной бывших пиратов в Британском Гондурасе (сегодняшнем Белизе), не помешает больше порядка — и одним из инструментов этого порядка стал [англиканский собор Святого Иоанна](https://www.atlasobscura.com/places/saint-john-anglican-cathedral), как рассказывает Atlas Obscura. Его построили руками рабов, из местного красного дерева и красного кирпича, который доставили через Атлантику в качестве балласта на кораблях.
+
+Сама история материалов говорит о колониальной логике больше, чем любая официальная хроника: кирпич, ставший стенами старейшей англиканской церкви в Центральной Америке, изначально существовал только для того, чтобы утяжелить пустые трюмы кораблей, идущих через океан, — а закончил свой путь фундаментом здания, призванного закрепить власть короны над бывшими пиратскими поселениями.
+
+Собор стоит в Белиз-Сити и сегодня, оставаясь одним из немногих материальных следов той эпохи, когда британская колониальная администрация вписывала религиозную инфраструктуру прямо в план усмирения территории, живущей вне закона.
+
+### Почему это важно
+
+Здание, построенное как инструмент контроля над бывшими пиратами, а не просто как место для молитвы, — редкий пример того, как архитектура империи проговаривает свои настоящие цели откровеннее, чем любые официальные документы того времени.
+
+## English version
+
+In 1812, the British Crown decided that the territory that had been a community of former pirates in British Honduras — today's Belize — needed more control. One of the tools for that was [St. John's Anglican Cathedral](https://www.atlasobscura.com/places/saint-john-anglican-cathedral), as Atlas Obscura tells it. It was built by enslaved labor, using local mahogany and red brick that had crossed the Atlantic as ship's ballast.
+
+The story of the materials says more about colonial logic than any official record could: the brick that became the walls of Central America's oldest Anglican church started out as dead weight for empty ship holds crossing the ocean, then ended up as the foundation of a building meant to cement the Crown's authority over former pirate settlements.
+
+The cathedral still stands in Belize City today, one of the few physical traces left of an era when British colonial administrators built religious infrastructure directly into their plan for taming a territory that had lived outside the law.
+
+### Why it matters
+
+A building constructed as a tool for controlling former pirates, not just a place of worship, is a rare case of imperial architecture stating its actual purpose more plainly than any official record of the time ever did.
+
+
+----- 13-sindarov-beats-firouzja-chess-league (culture) — source: https://www.chess.com/news/view/2026-tech-mahindra-global-chess-league-day-5 -----
+
+## Русская версия
+
+Гроссмейстер Джавохир Синдаров одержал вторую победу подряд, на этот раз над гроссмейстером Алирезой Фирузджой, — [сообщает Chess.com](https://www.chess.com/news/view/2026-tech-mahindra-global-chess-league-day-5) с пятого игрового дня Tech Mahindra Global Chess League 2026. Эта победа вывела команду FYERS American Gambits в лидеры турнирной таблицы, тогда как Triveni Continental Kings — команда, за которую в тот день выступал Фирузджа, — опустились на последнее место после второго поражения за день.
+
+Синдаров, один из сильнейших молодых гроссмейстеров Узбекистана, обыграл соперника такого калибра, как Фирузджа, не разово, а два раза подряд — это не случайное везение в одной партии, а серия результатов, которая и определяет турнирную таблицу командного формата вроде Global Chess League, где результат каждого игрока напрямую складывается в очки всей команды.
+
+Резкий контраст между взлётом одной команды и падением другой на дно таблицы в один и тот же игровой день — обычная динамика для формата, где команды играют друг против друга напрямую и где одна серия партий может перевернуть турнирное положение за один вечер.
+
+### Почему это важно
+
+В командных турнирах вроде Global Chess League индивидуальная серия побед одного игрока способна в одночасье переписать турнирную таблицу — это то, что делает командные форматы в шахматах интереснее классических индивидуальных турниров, где результат размазан по десяткам партий.
+
+## English version
+
+Grandmaster Javokhir Sindarov scored his second win in a row, this time over Grandmaster Alireza Firouzja, [Chess.com reports](https://www.chess.com/news/view/2026-tech-mahindra-global-chess-league-day-5) from day five of the 2026 Tech Mahindra Global Chess League. The win took FYERS American Gambits into the tournament lead, while Triveni Continental Kings — the team Firouzja was playing for that day — slumped to the bottom of the standings after their second loss of the day.
+
+Sindarov, one of Uzbekistan's strongest young grandmasters, didn't just beat a player of Firouzja's caliber once — he did it twice in a row. That's not a lucky single game; it's a results streak, and in a team format like the Global Chess League, where every player's result feeds directly into the team's total score, a streak like that is exactly what moves a franchise from mid-table to first place.
+
+The sharp contrast between one team's rise and another's fall to the bottom on the same playing day is typical of a format where teams face off directly and a single run of games can flip the standings in one evening.
+
+### Why it matters
+
+In a team format like the Global Chess League, one player's individual winning streak can rewrite the standings overnight — which is exactly what makes team chess more volatile, and more watchable, than classical individual tournaments where results are spread across dozens of separate games.
+
+
 ===== EDITION 7 — 2026-09-09 =====
 
 ## От редакции
