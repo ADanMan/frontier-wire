@@ -230,6 +230,161 @@ It's still unclear whether this amounts to a temporary pause in the court's work
 A scandal inside the top court of a country where that same body has spent years serving as the final arbiter in its sharpest political disputes is a worrying signal — not just for Brazil, but for how resilient judicial institutions are to conflicts among their own members.
 
 
+----- 08-ozempic-wegovy-asthma-copd (science) — source: https://www.sciencedaily.com/releases/2026/09/260909005155.htm -----
+
+## Русская версия
+
+Семаглутид — действующее вещество препаратов Ozempic и Wegovy, изначально созданных для лечения диабета и снижения веса, — оказался связан ещё и с заметным снижением числа приступов астмы. Как сообщает [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260909005155.htm), в крупном исследовании реальной клинической практики препарат ассоциировался почти с 40% снижением числа обострений астмы у пациентов. У той же группы почти на 20% реже случались обострения хронической обструктивной болезни лёгких (ХОБЛ).
+
+Семаглутид относится к классу препаратов-агонистов GLP-1 — гормона, который организм вырабатывает после еды и который регулирует аппетит и уровень сахара в крови. Именно на этом механизме построены Ozempic (для диабета) и Wegovy (для снижения веса), уже ставшие одними из самых продаваемых лекарств в мире. Связь с дыхательными путями на первый взгляд неочевидна, но у неё есть правдоподобное объяснение: избыточный вес — один из факторов, утяжеляющих течение и астмы, и ХОБЛ, а GLP-1-препараты также обладают противовоспалительным действием, не сводящимся к одному лишь похудению.
+
+Важно понимать формат исследования: это данные реальной клинической практики (real-world study), а не рандомизированное контролируемое испытание, специально спланированное для проверки влияния семаглутида на дыхательные пути. Такие исследования хороши тем, что показывают, что происходит с большими группами настоящих пациентов в обычных условиях, но они не могут окончательно доказать причинно-следственную связь — возможно, часть эффекта объясняется тем, какие именно пациенты обычно получают такие препараты и как за ними наблюдают врачи.
+
+Тем не менее масштаб находки — почти двукратное сокращение по двум разным респираторным диагнозам — делает её достаточно весомой, чтобы запустить прицельные клинические испытания. Если эффект подтвердится, GLP-1-препараты могут получить ещё одно показание к применению, помимо диабета и ожирения, и это станет очередным примером того, как лекарство, разработанное для одной цели, находит куда более широкое применение.
+
+### Почему это важно
+
+Если противовоспалительный эффект семаглутида на дыхательные пути подтвердится в контролируемых испытаниях, миллионы людей с астмой и ХОБЛ — а не только с диабетом или ожирением — получат основание рассматривать GLP-1-препараты как часть терапии.
+
+## English version
+
+Semaglutide — the active ingredient in Ozempic and Wegovy, originally developed for diabetes and weight loss — turns out to be linked to a significant drop in asthma attacks as well. According to [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260909005155.htm), a large real-world study found the drug was associated with nearly 40% fewer asthma attacks among patients. The same group also saw roughly 20% fewer flare-ups of chronic obstructive pulmonary disease (COPD).
+
+Semaglutide belongs to the GLP-1 agonist class — mimicking a hormone the body releases after eating that regulates appetite and blood sugar. That mechanism underlies both Ozempic (for diabetes) and Wegovy (for weight loss), now among the best-selling drugs in the world. A link to the lungs isn't obvious at first glance, but there's a plausible explanation: excess weight worsens both asthma and COPD, and GLP-1 drugs also carry anti-inflammatory effects that go beyond weight loss alone.
+
+The study design matters here: this is real-world data, not a randomized controlled trial specifically designed to test semaglutide's effect on the airways. Studies like this are valuable for showing what happens to large groups of real patients under normal conditions, but they can't definitively prove causation — some of the effect could reflect which patients tend to get prescribed these drugs and how closely their doctors monitor them.
+
+Still, the scale of the finding — roughly a 20-40% reduction across two distinct respiratory conditions — is substantial enough to justify dedicated clinical trials. If the effect holds up, GLP-1 drugs could gain another use case beyond diabetes and obesity, joining a growing list of examples where a drug built for one purpose finds a much broader role.
+
+### Why it matters
+
+If semaglutide's anti-inflammatory effect on the airways holds up in controlled trials, millions of people with asthma and COPD — not just diabetes or obesity — would have a reason to consider GLP-1 drugs as part of their treatment.
+
+
+----- 09-algeria-uae-diplomatic-break (world) — source: https://www.dw.com/en/algeria-cuts-diplomatic-ties-with-uae/a-79222141?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Алжир объявил о разрыве дипломатических отношений с Объединёнными Арабскими Эмиратами и закрытии своего воздушного пространства для эмиратских самолётов. Как сообщает [DW](https://www.dw.com/en/algeria-cuts-diplomatic-ties-with-uae/a-79222141?maca=en-rss-en-all-1573-rdf), Алжир прямо обвиняет Абу-Даби в дестабилизации сразу нескольких стран региона — Ливии, Судана и Мали.
+
+Это резкий и редкий по формату шаг: полный разрыв дипотношений между двумя членами Африканского союза и Лиги арабских государств происходит нечасто и обычно сигнализирует, что накопившиеся противоречия достигли точки, за которой обычные дипломатические каналы уже не работают. Закрытие воздушного пространства — мера, которая бьёт не только по символике, но и по вполне ощутимым вещам: авиасообщению, логистике, деловым связям между странами.
+
+Претензии Алжира касаются трёх разных горячих точек одновременно — Ливии, где идёт затяжной конфликт с внешним вмешательством множества игроков, Судана, где с 2023 года бушует гражданская война с колоссальными жертвами среди мирного населения, и Мали, где в последние годы шла череда военных переворотов и рост влияния внешних военных подрядчиков. ОАЭ уже не раз оказывались в центре обвинений со стороны разных сторон конфликта в Судане в связи с поставками оружия — Абу-Даби эти обвинения неизменно отвергал.
+
+Для Алжира, традиционно проводящего политику неприсоединения и осторожного балансирования между крупными региональными игроками, столь жёсткий публичный разрыв — необычно решительный шаг. Он показывает, что накопившееся раздражение действиями ОАЭ в Северной и Западной Африке перевесило обычную дипломатическую сдержанность Алжира.
+
+### Почему это важно
+
+Разрыв отношений между Алжиром и ОАЭ — ещё один симптом того, как конфликты в Ливии, Судане и Мали превращаются в поле прокси-соперничества между ближневосточными и североафриканскими державами, где ставки для гражданского населения этих стран гораздо выше, чем для самих участников спора.
+
+## English version
+
+Algeria has announced it is severing diplomatic relations with the United Arab Emirates and closing its airspace to Emirati aircraft. According to [DW](https://www.dw.com/en/algeria-cuts-diplomatic-ties-with-uae/a-79222141?maca=en-rss-en-all-1573-rdf), Algiers directly accuses Abu Dhabi of destabilizing several countries in the region — Libya, Sudan and Mali.
+
+This is a sharp and unusual move: a full diplomatic break between two members of the African Union and the Arab League doesn't happen often, and it usually signals that accumulated grievances have crossed a line where normal diplomatic channels no longer function. Closing airspace is a step that hits more than symbolism — it disrupts flights, logistics, and business ties between the two countries.
+
+Algeria's complaints span three distinct conflict zones at once: Libya, mired in a protracted conflict with heavy foreign involvement from multiple actors; Sudan, where a civil war has raged since 2023 with a devastating civilian toll; and Mali, which has seen a string of military coups and growing influence from foreign military contractors in recent years. The UAE has repeatedly faced accusations from various parties in the Sudan conflict over arms supplies — accusations Abu Dhabi has consistently denied.
+
+For Algeria, which has traditionally pursued a non-aligned policy of careful balancing between major regional powers, such a decisive public break is unusual. It suggests that accumulated frustration with the UAE's actions across North and West Africa has outweighed Algeria's normal diplomatic restraint.
+
+### Why it matters
+
+The Algeria-UAE rupture is another symptom of how the conflicts in Libya, Sudan and Mali are turning into a proxy rivalry between Middle Eastern and North African powers — one where the stakes for those countries' civilians are far higher than for the parties doing the sparring.
+
+
+----- 10-europe-venus-mission-solo (science) — source: https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/ -----
+
+## Русская версия
+
+NASA отзывает радарный инструмент, который должно было предоставить для европейской миссии к Венере, и Европейскому космическому агентству (ESA) придётся заканчивать проект без американского партнёра. Как пишет [Ars Technica](https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/), решение — часть более широкой тенденции: администрация Белого дома сворачивает ряд международных партнёрств NASA, и агентству, судя по всему, всё труднее удерживать не только новые, но и уже согласованные совместные проекты.
+
+Радар — не второстепенная деталь, а зачастую центральный инструмент венерианских миссий: из-за плотной, непрозрачной атмосферы планеты именно радар позволяет "увидеть" поверхность Венеры сквозь облака, как это в своё время делал аппарат NASA Magellan. Потеря готового радарного инструмента на середине разработки миссии — серьёзный удар: ESA либо придётся искать замену внутри Европы (что означает деньги и время), либо лететь с урезанным набором приборов, либо искать нового внешнего партнёра.
+
+Судя по всему, Европа рассматривает именно последний вариант — и одним из вероятных направлений называют Китай, чья космическая программа в последние годы стремительно наращивает собственные возможности и всё активнее ищет международное сотрудничество в противовес доминированию NASA. Для ESA это будет непростой политический выбор: сотрудничество с Китаем в космосе для европейских партнёров NASA традиционно было чувствительной темой, но сокращение американского участия оставляет не так много альтернатив.
+
+Ситуация с венерианским радаром — не единичный случай, а часть более широкой картины: администрация США пересматривает международные научные обязательства NASA, и партнёры агентства в Европе и других регионах вынуждены заранее готовиться к тому, что американское участие в совместных проектах больше нельзя считать гарантированным до самого запуска.
+
+### Почему это важно
+
+Отказ NASA от уже согласованных партнёрств меняет расчёт для всех, кто планирует совместные научные миссии с США: надёжность американского участия перестаёт быть данностью, а альтернативные партнёры вроде Китая становятся не гипотетическим, а вполне реальным вариантом для агентств вроде ESA.
+
+## English version
+
+NASA is pulling out a radar instrument it had committed to a European mission to Venus, leaving the European Space Agency (ESA) to finish the project without its American partner. According to [Ars Technica](https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/), the move is part of a broader trend: the White House is scaling back a number of NASA's international partnerships, and the agency appears to be struggling to hold onto not just new collaborations but already-agreed joint projects.
+
+A radar instrument isn't a minor detail — it's often the centerpiece of Venus missions. Because the planet's thick, opaque atmosphere hides the surface from ordinary cameras, radar is what lets scientists "see" Venus's surface through the clouds, the way NASA's Magellan probe once did. Losing a committed radar instrument mid-development is a serious blow: ESA now has to either find a European-built replacement (which means money and time), fly with a reduced instrument set, or find a new outside partner.
+
+Europe appears to be leaning toward the latter option, with China named as one likely direction — its space program has rapidly built up its own capabilities in recent years and is increasingly seeking international collaboration as a counterweight to NASA's dominance. That would be a politically awkward choice for ESA: cooperating with China in space has traditionally been a sensitive subject for NASA's European partners, but the shrinking American role leaves fewer alternatives on the table.
+
+The Venus radar episode isn't an isolated case — it's part of a broader pattern of the US administration revisiting NASA's international science commitments, forcing the agency's partners in Europe and elsewhere to prepare for American participation in joint projects no longer being a given right up until launch.
+
+### Why it matters
+
+NASA backing out of already-agreed partnerships changes the calculus for anyone planning joint science missions with the US: American participation stops being a safe assumption, and alternative partners like China become a real option rather than a hypothetical one for agencies like ESA.
+
+
+----- 11-moaning-caverns-california (culture) — source: https://www.atlasobscura.com/places/moaning-caverns -----
+
+## Русская версия
+
+В предгорьях Сьерра-Невады, рядом с калифорнийским городком Валлесито, скрыта пещера с говорящим названием — Moaning Caverns, "Стонущие пещеры". Как рассказывает [Atlas Obscura](https://www.atlasobscura.com/places/moaning-caverns), это огромная известняковая полость, чей главный зал настолько велик, что внутри него, по оценкам, поместилась бы вся Статуя Свободы.
+
+Название пещера получила из-за характерного низкого гула, который в прошлом издавал воздух, проходивший через её узкие естественные проходы, — эффект, похожий на работу гигантской природной трубы органа. Позже часть входов была расширена для туристов, и характерный "стон" стал слышен реже, но имя за пещерой закрепилось прочно.
+
+Один из самых заметных элементов пещеры — винтовая лестница, спускающаяся в главный зал: спираль ступеней в темноте огромного подземного пространства сама по себе стала визитной карточкой этого места, отдельно от геологической ценности пещеры. Такие карстовые пещеры формируются тысячелетиями, когда слабокислая вода постепенно растворяет известняк, оставляя после себя причудливые полости, натёчные образования и залы, размеры которых на поверхности невозможно даже заподозрить.
+
+Подземные пространства такого масштаба обычно недооценены в массовом сознании: люди куда охотнее едут смотреть на большие вещи над землёй — горы, каньоны, водопады, — чем на то, что скрыто под ногами. Moaning Caverns — пример того, как в паре часов от больших городов Калифорнии можно найти геологическое чудо, о котором большинство местных жителей даже не подозревает.
+
+### Почему это важно
+
+Такие природные объекты — своего рода противовес логике "все интересное давно открыто и закартографировано": даже в густонаселённом штате вроде Калифорнии земля продолжает хранить полости величиной с городской квартал.
+
+## English version
+
+Tucked into the Sierra Nevada foothills near the small California town of Vallecito lies a cave with an evocative name — Moaning Caverns. As [Atlas Obscura](https://www.atlasobscura.com/places/moaning-caverns) tells it, this is an enormous limestone cavity whose main chamber is so vast that, by some estimates, the entire Statue of Liberty could fit inside it.
+
+The cave earned its name from a low, moaning sound once produced by air moving through its narrow natural passages — an effect not unlike a giant natural pipe organ. Some entrances were later widened for tourists, making the "moan" less commonly heard today, but the name stuck.
+
+One of the cave's most striking features is a spiral staircase descending into the main chamber — a coil of steps disappearing into the dark of a vast underground space that has become a landmark in its own right, distinct from the cave's geological significance. Karst caves like this one form over thousands of years as slightly acidic water slowly dissolves limestone, leaving behind strange cavities, mineral formations, and chambers whose scale would be impossible to guess from the surface.
+
+Underground spaces of this size are often underrated in the popular imagination: people are far more inclined to travel to see big things above ground — mountains, canyons, waterfalls — than what's hidden beneath their feet. Moaning Caverns is a reminder that a geological wonder can sit just a couple of hours from major California cities, unknown to most people who live nearby.
+
+### Why it matters
+
+Places like this push back against the idea that everything interesting has already been discovered and mapped: even in a densely populated state like California, the ground still hides cavities the size of a city block.
+
+
+----- 12-fossil-feather-bird-extinction (science) — source: https://www.npr.org/2026/09/10/nx-s1-5963519/best-fossilized-bird-feather-dinosaur-feces-extinction -----
+
+## Русская версия
+
+Палеонтологи нашли исключительно хорошо сохранившееся окаменевшее перо, которое может пролить свет на один из главных вопросов эволюции птиц: почему одни линии птиц пережили массовое вымирание, уничтожившее нептичьих динозавров, а другие — нет. Как рассказывает [NPR](https://www.npr.org/2026/09/10/nx-s1-5963519/best-fossilized-bird-feather-dinosaur-feces-extinction), находка отличается необычно высоким качеством сохранности деталей структуры пера — то, что обычно теряется при фоссилизации.
+
+Массовое вымирание на границе мелового и палеогенового периодов, около 66 миллионов лет назад, часто ассоциируется исключительно с гибелью крупных динозавров, но оно затронуло практически все группы наземных и морских организмов, включая птиц, которые сами являются потомками одной из линий динозавров. Часть птичьих линий вымерла вместе с остальными динозаврами, а часть дала начало всему современному разнообразию птиц — от колибри до страусов. Причины этого расхождения судеб долгое время оставались предметом споров: рассматривались и размер тела, и рацион питания, и способность переживать длительные периоды без солнечного света из-за поднятой в атмосферу пыли и пепла.
+
+Детали строения пера — такие как структура бородок и способ их сцепления — могут указывать на образ жизни птицы: способность к полёту на дальние расстояния, теплоизоляционные свойства оперения, приспособленность к определённым типам питания. Именно поэтому редкая находка с сохранившимися микроскопическими деталями пера ценна не сама по себе, а как источник информации о конкретном виде птиц, живших непосредственно перед катастрофой или сразу после неё.
+
+Подобные находки редки именно потому, что мягкие ткани и тонкие структуры вроде перьев сохраняются в ископаемой летописи гораздо хуже костей: нужны очень специфические условия захоронения, при которых порода буквально "запечатывает" мельчайшие детали прежде, чем они разрушатся.
+
+### Почему это важно
+
+Каждая находка такого качества сужает список гипотез о том, что позволило одним птицам пережить вымирание, погубившее почти всех остальных динозавров, — а значит, приближает ответ на вопрос, почему сегодня в небе летают именно такие птицы, а не какие-то другие.
+
+## English version
+
+Paleontologists have found an exceptionally well-preserved fossilized feather that could shed light on one of the biggest open questions in bird evolution: why some bird lineages survived the mass extinction that wiped out non-avian dinosaurs while others did not. As [NPR](https://www.npr.org/2026/09/10/nx-s1-5963519/best-fossilized-bird-feather-dinosaur-feces-extinction) reports, the find stands out for how unusually well it preserves fine structural detail — the kind of detail typically lost during fossilization.
+
+The mass extinction at the end of the Cretaceous period, roughly 66 million years ago, is often associated purely with the death of large dinosaurs, but it hit nearly every group of land and marine life, including birds, which are themselves descendants of one dinosaur lineage. Some bird lineages died out along with the rest of the dinosaurs, while others gave rise to all of today's bird diversity, from hummingbirds to ostriches. What drove that split in fates has long been debated, with body size, diet, and the ability to survive prolonged darkness from dust and ash thrown into the atmosphere all proposed as factors.
+
+Fine details of feather structure — like how the barbs are arranged and locked together — can hint at a bird's lifestyle: capacity for long-distance flight, insulating properties, and adaptations tied to particular diets. That's why a rare fossil preserving microscopic feather detail matters less as an object in itself and more as a source of information about a specific species living right before or right after the catastrophe.
+
+Finds like this are rare precisely because soft tissues and fine structures like feathers survive far worse in the fossil record than bones do — it takes very specific burial conditions for rock to "seal" such tiny details before they degrade.
+
+### Why it matters
+
+Every fossil of this quality narrows the list of hypotheses for what let some birds survive an extinction that killed off nearly every other dinosaur — bringing science closer to explaining why the birds flying overhead today look the way they do, and not some other way.
+
+
 ===== EDITION 8 — 2026-09-10 =====
 
 ## От редакции

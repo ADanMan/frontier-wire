@@ -19,6 +19,11 @@
 - **[Культура]** [Шноор в Бремене: квартал, будто сошедший со страниц сказки](editions/2026/09-11/05-schnoor-bremen-old-quarter.md)
 - **[Технологии]** [LinkedIn отбилась от исков о слежке за расширениями браузера](editions/2026/09-11/06-linkedin-browsergate-lawsuits.md)
 - **[Мир]** [Верховный суд Бразилии досрочно закрылся на фоне политического хаоса](editions/2026/09-11/07-brazil-supreme-court-chaos.md)
+- **[Наука]** [Оземпик и Вегови неожиданно снижают число приступов астмы](editions/2026/09-11/08-ozempic-wegovy-asthma-copd.md)
+- **[Мир]** [Алжир разорвал дипотношения с ОАЭ и закрыл небо](editions/2026/09-11/09-algeria-uae-diplomatic-break.md)
+- **[Наука]** [NASA вышло из венерианской миссии — Европа полетит одна](editions/2026/09-11/10-europe-venus-mission-solo.md)
+- **[Культура]** [Стонущие пещеры Калифорнии: зал, куда влезла бы Статуя Свободы](editions/2026/09-11/11-moaning-caverns-california.md)
+- **[Наука]** [Окаменевшее перо может объяснить, почему одни птицы пережили вымирание, а другие нет](editions/2026/09-11/12-fossil-feather-bird-extinction.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

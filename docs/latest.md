@@ -27,3 +27,23 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Brazil's Supreme Court shuts down early amid political chaos / Верховный суд Бразилии досрочно закрылся на фоне политического хаоса
 rubric: world · source: https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/07-brazil-supreme-court-chaos.md
+
+## Ozempic and Wegovy turn out to cut asthma attacks too / Оземпик и Вегови неожиданно снижают число приступов астмы
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260909005155.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/08-ozempic-wegovy-asthma-copd.md
+
+## Algeria severs ties with the UAE and shuts its airspace / Алжир разорвал дипотношения с ОАЭ и закрыл небо
+rubric: world · source: https://www.dw.com/en/algeria-cuts-diplomatic-ties-with-uae/a-79222141?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/09-algeria-uae-diplomatic-break.md
+
+## NASA pulled out of a Venus mission, so Europe is going alone / NASA вышло из венерианской миссии — Европа полетит одна
+rubric: science · source: https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/10-europe-venus-mission-solo.md
+
+## California's Moaning Caverns could swallow the Statue of Liberty / Стонущие пещеры Калифорнии: зал, куда влезла бы Статуя Свободы
+rubric: culture · source: https://www.atlasobscura.com/places/moaning-caverns
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/11-moaning-caverns-california.md
+
+## A fossilized feather may explain why some birds survived mass extinction / Окаменевшее перо может объяснить, почему одни птицы пережили вымирание, а другие нет
+rubric: science · source: https://www.npr.org/2026/09/10/nx-s1-5963519/best-fossilized-bird-feather-dinosaur-feces-extinction
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/12-fossil-feather-bird-extinction.md
