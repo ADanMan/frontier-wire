@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №8 / Edition №8 — 2026-09-10** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №9 / Edition №9 — 2026-09-11** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [OpenAI выпустила GPT-6 Astra — и тут же выяснилось, как она устроена](editions/2026/09-10/01-gpt-6-astra-launch.md)
-- **[Технологии]** [Apple наконец показала складной iPhone — и им же дебютирует новый гендиректор](editions/2026/09-10/02-apple-iphone-duo-foldable.md)
-- **[Наука]** [Межзвёздная комета 3I/ATLAS оказалась залита метанолом](editions/2026/09-10/03-comet-atlas-methanol.md)
-- **[Наука]** [Телескоп «Чандра» нашёл рентгеновские объекты, которые не укладываются ни в одну известную категорию](editions/2026/09-10/04-chandra-xray-objects.md)
-- **[Мир]** [У берегов Филиппин сгорел паром со 134 пассажирами и членами экипажа на борту](editions/2026/09-10/05-philippines-ferry-fire.md)
-- **[Мир]** [В Китае юристы и архитекторы подрабатывают, обучая ИИ своей же профессии](editions/2026/09-10/06-china-gig-experts-train-ai.md)
-- **[Культура]** [«Монастырь десяти тысяч Будд» в Гонконге — это не монастырь, и Будд там больше 12 000](editions/2026/09-10/07-ten-thousand-buddhas-monastery.md)
-- **[Мир]** [Дрон едва не столкнулся с самолётом Зеленского на пути в Осло](editions/2026/09-10/08-norway-zelenskyy-drone.md)
-- **[Мир]** [Уганда вышла из Игр Инвиктус «из уважения к королю Карлу»](editions/2026/09-10/09-uganda-invictus-games.md)
-- **[Наука]** [Учёные нашли «переключатель» роста костей, способный побороть остеопороз](editions/2026/09-10/10-bone-building-switch-osteoporosis.md)
-- **[Наука]** [У детей матерей с анемией при рождении мозг оказался меньше](editions/2026/09-10/11-anaemia-babies-brain-size.md)
-- **[Культура]** [Собор в Белизе, который построили, чтобы приструнить бывших пиратов](editions/2026/09-10/12-saint-john-cathedral-belize.md)
-- **[Культура]** [Синдаров обыграл Фирузджу и вывел свою команду в лидеры Global Chess League](editions/2026/09-10/13-sindarov-beats-firouzja-chess-league.md)
+- **[Мир]** [В угандийском королевстве спорят о короне из-за «тайного сына»](editions/2026/09-11/01-uganda-royal-succession-dispute.md)
+- **[Наука]** [Теорему о четырёх красках доказали заново — и без компьютерного «доверься мне»](editions/2026/09-11/02-four-color-theorem-new-proof.md)
+- **[ИИ]** [Учёный ищет новые антибиотики с помощью Codex и ChatGPT](editions/2026/09-11/03-codex-antimicrobial-discovery.md)
+- **[Наука]** [Инопланетную жизнь как будто нашли дважды — учёные в основном не верят](editions/2026/09-11/04-alien-life-scientist-survey.md)
+- **[Культура]** [Шноор в Бремене: квартал, будто сошедший со страниц сказки](editions/2026/09-11/05-schnoor-bremen-old-quarter.md)
+- **[Технологии]** [LinkedIn отбилась от исков о слежке за расширениями браузера](editions/2026/09-11/06-linkedin-browsergate-lawsuits.md)
+- **[Мир]** [Верховный суд Бразилии досрочно закрылся на фоне политического хаоса](editions/2026/09-11/07-brazil-supreme-court-chaos.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

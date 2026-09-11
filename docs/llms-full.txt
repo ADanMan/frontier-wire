@@ -2,6 +2,234 @@
 
 
 
+===== EDITION 9 — 2026-09-11 =====
+
+## От редакции
+
+React Native только что потерял одного из главных сторонников: Shopify объявила, что возвращается к нативным Swift и Kotlin после многих лет ставки на кроссплатформенный фреймворк Meta. Сегодняшний выпуск в том же духе — назад к основам: математики нашли новое доказательство полувековой теоремы о четырёх красках, а в одном из угандийских королевств вспыхнул спор о престолонаследии из-за внезапно объявившегося наследника. Мы собрали то, что действительно стоит прочитать — от строгой науки до курьёзов и большой политики.
+
+## Editorial
+
+React Native just lost one of its biggest believers: Shopify says it's going back to native Swift and Kotlin after years of betting on Meta's cross-platform framework. Today's edition has the same back-to-basics mood — mathematicians found a fresh proof for the decades-old four-color theorem, and a succession fight erupted in a Ugandan kingdom after a secret heir surfaced. We picked what's actually worth reading today, from hard science to royal drama and everything in between.
+
+
+----- 01-uganda-royal-succession-dispute (world) — source: https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute -----
+
+## Русская версия
+
+Одно из традиционных королевств Уганды охвачено спором о престолонаследии после смерти короля Ойо Ньимба Кабамба Игуру Рукиди IV. Как пишет [The Guardian](https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute), семья покойного монарха отвергла кандидатуру, которую предложил комитет по престолонаследию, — им оказался двоюродный брат короля, известный как телеведущий. Поводом для скандала стало появление информации о «тайном сыне» покойного короля, которого родственники считают законным наследником трона.
+
+Формально традиционные королевства в современной Уганде не обладают государственной властью — страна давно является президентской республикой, а институт королей сохранился как культурный и церемониальный. Но это не делает споры о короне менее ожесточёнными: для местных сообществ монарх остаётся символом идентичности, а право определять преемника — источником немалого влияния и статуса для тех, кто в итоге получает регалии.
+
+Именно поэтому подобные истории редко ограничиваются семейным делом. Комитет, назначающий наследника, обычно опирается на формальные критерии — родство, возраст, соответствие традиционным нормам, — но когда среди претендентов внезапно появляется фигура, о существовании которой раньше публично не говорили, вся процедура превращается в проверку легитимности самого механизма выбора. Если семья действительно располагает доказательствами существования незадокументированного наследника, спор может затянуться на месяцы: такие вопросы в традиционных монархиях решаются не голосованием, а через советы старейшин, генеалогические комиссии и, нередко, суды.
+
+Пока подробностей о том, как именно был обнаружен «тайный сын» и какими доказательствами располагает семья, немного — источник ограничивается констатацией конфликта. Но сам факт того, что публичное отвержение решения комитета стало новостью международного уровня, показывает, насколько чувствительна тема престолонаследия даже там, где корона давно лишена реальной власти.
+
+### Почему это важно
+
+Споры о престолонаследии в традиционных африканских королевствах — это не архаичный курьёз, а живой институт, который продолжает формировать локальную политику, культурную идентичность и статусные иерархии там, где формальная государственная власть их не заменяет.
+
+## English version
+
+One of Uganda's traditional kingdoms is engulfed in a succession dispute following the death of King Oyo Nyimba Kabamba Iguru Rukidi IV. According to [The Guardian](https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute), the late king's family has rejected the succession committee's chosen candidate — a cousin who works as a TV presenter — after new information emerged pointing to a previously undisclosed son whom relatives now consider the rightful heir.
+
+Uganda's traditional kingdoms hold no formal state power today; the country has long been a presidential republic, and its royal institutions survive mainly as cultural and ceremonial fixtures. That doesn't make succession fights any less intense. For local communities, the monarch remains a symbol of identity, and the right to name a successor carries real social weight for whoever ends up wearing the regalia.
+
+That's why disputes like this rarely stay a private family matter. Succession committees typically work from formal criteria — bloodline, age, adherence to tradition — but when a previously unacknowledged claimant suddenly surfaces, the whole selection process becomes a test of its own legitimacy. If the family can substantiate the existence of an undocumented heir, the dispute could drag on for months: these questions in traditional monarchies get settled not by vote but through councils of elders, genealogical inquiries, and, not infrequently, courts.
+
+Details of exactly how the "secret son" came to light, and what evidence the family is presenting, remain thin — the available reporting mostly confirms that the conflict exists. But the fact that a public rejection of a succession committee's ruling has become international news shows how sensitive the question of the crown still is, even where it carries no real political power.
+
+### Why it matters
+
+Succession disputes in traditional African kingdoms aren't an archaic curiosity — they're a living institution that keeps shaping local politics, cultural identity, and status hierarchies in places where formal state power doesn't fill that role.
+
+
+----- 02-four-color-theorem-new-proof (science) — source: https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/ -----
+
+## Русская версия
+
+Теорема о четырёх красках — одна из самых известных задач математики: любую карту, разбитую на области, можно раскрасить всего четырьмя цветами так, чтобы соседние области не совпадали по цвету. Как рассказывает [Quanta Magazine](https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/), математики вернулись к этой теореме и получили новое доказательство, которое дало важные дополнительные сведения о природе графов — абстрактных структур из точек и соединяющих их линий, к которым сводится задача о раскраске карт.
+
+Оригинальное доказательство 1976 года было историческим и одновременно спорным: Кеннет Аппель и Вольфганг Хакен свели проблему к тысячам отдельных случаев конфигураций графов и перебрали их с помощью компьютера. Математическое сообщество приняло результат неохотно — не потому что в нём нашли ошибку, а потому что ни один человек физически не мог проверить всю цепочку компьютерных вычислений вручную. Доказательство работало, но не давало интуитивного понимания, почему теорема верна.
+
+Именно этот пробел и пытаются закрыть новые подходы. Новое доказательство, по данным издания, устроено иначе и попутно раскрывает более общие закономерности устройства графов — то есть побочным продуктом становится не просто повторное подтверждение старого результата, а расширение математического инструментария для смежных задач. Это типичная ситуация в теории графов: сама теорема давно не вызывает сомнений, но способ её доказательства — то, ради чего математики продолжают к ней возвращаться.
+
+Стоит быть осторожным с формулировкой «новое доказательство»: в математике таким словом иногда называют не полностью независимое доказательство «с нуля», а альтернативный путь, дающий более прозрачную структуру рассуждения. Именно эта прозрачность и была главной претензией к версии 1970-х — компьютер убедил, но не объяснил.
+
+### Почему это важно
+
+Спор вокруг теоремы о четырёх красках полвека назад стал одним из первых массовых столкновений математики с компьютерными доказательствами; новые способы её доказать — это проверка того, можно ли вернуть в такие результаты человеческую интуицию, а не просто доверие к вычислениям.
+
+## English version
+
+The four-color theorem is one of math's most famous results: any map divided into regions can be colored with just four colors so that no two adjacent regions share a color. According to [Quanta Magazine](https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/), mathematicians have revisited the problem and produced a new proof that also yields fresh insight into the nature of graphs — the abstract structures of points and connecting lines that map-coloring problems reduce to.
+
+The original 1976 proof was historic and controversial in equal measure: Kenneth Appel and Wolfgang Haken reduced the problem to thousands of individual graph configurations and checked them by computer. The mathematical community accepted the result reluctantly — not because anyone found an error, but because no human could physically verify the entire chain of computer calculations by hand. The proof worked, but it offered no intuitive sense of why the theorem was true.
+
+That gap is exactly what newer approaches are trying to close. The new proof, per the report, is built differently and reportedly surfaces more general patterns in how graphs behave — meaning the payoff isn't just reconfirming an old result, it's expanding the toolkit for related problems. That's a familiar pattern in graph theory: nobody doubts the theorem itself anymore, but the method of proving it is what keeps mathematicians coming back.
+
+It's worth being careful with the phrase "new proof": in math it sometimes means an alternative route to a more transparent argument rather than a fully independent proof built from scratch. That transparency was exactly what the 1970s version lacked — the computer convinced everyone, but it didn't explain.
+
+### Why it matters
+
+The fight over the four-color theorem half a century ago was one of math's first mass encounters with computer-assisted proof; new ways of proving it test whether human intuition can be restored to such results, rather than settling for trust in the computation.
+
+
+----- 03-codex-antimicrobial-discovery (ai) — source: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials -----
+
+## Русская версия
+
+Проблема устойчивости бактерий к антибиотикам — одна из тех, где хайп вокруг ИИ реже проверяют делом, чем обсуждают на конференциях. Но у неё есть конкретный практический пример: как рассказывает [OpenAI](https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials), лаборатория исследователя Сезара де ла Фуэнте использует Codex и ChatGPT для поиска антимикробных молекул-кандидатов в геномах живых и вымерших организмов, чтобы бороться с инфекциями, устойчивыми к лекарствам.
+
+Суть подхода в том, что подходящие антимикробные соединения — короткие пептиды с определённой пространственной структурой — теоретически могут встречаться в геномах самых разных существ, включая те, что давно вымерли и известны только по секвенированной ДНК. Перебрать вручную миллионы последовательностей в поисках паттернов, похожих на известные антимикробные пептиды, физически невозможно; здесь и приходит на помощь связка инструментов кодогенерации и языковой модели — не для того, чтобы «изобрести» антибиотик с нуля, а чтобы автоматизировать написание и итерацию поисковых скриптов и гипотез поверх больших геномных баз данных.
+
+Это отличается от привычной картины «ИИ придумал лекарство»: здесь модель не заменяет биолога, а ускоряет самую трудоёмкую часть его работы — написание кода для биоинформатического анализа и быструю проверку идей. Найденные таким образом кандидаты всё равно проходят обычный путь лабораторной проверки: синтез, тесты на активность против конкретных штаммов, оценку токсичности. ИИ здесь — не замена этому процессу, а способ отобрать более узкий и осмысленный список кандидатов для дальнейшей проверки, что реально экономит месяцы работы.
+
+Устойчивость к антибиотикам — это область, где даже скромное ускорение поиска кандидатов может иметь значение: новых классов антибиотиков за последние десятилетия появлялось крайне мало, а фармкомпании неохотно вкладываются в разработку препаратов, которые в идеале должны использоваться редко и только в крайних случаях.
+
+### Почему это важно
+
+Это редкий пример применения ИИ в науке, где выгода понятна и измерима не в шумихе, а в количестве часов, сэкономленных на рутинном анализе, — при этом окончательное слово всё равно остаётся за лабораторным экспериментом.
+
+## English version
+
+Antibiotic resistance is one of those problems where AI hype rarely gets tested against actual practice rather than conference talk. But there's a concrete example here: according to [OpenAI](https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials), researcher César de la Fuente's lab is using Codex and ChatGPT to search living and extinct genomes for antimicrobial molecule candidates to fight drug-resistant infections.
+
+The idea is that promising antimicrobial compounds — short peptides with specific structural properties — can theoretically turn up in the genomes of wildly different organisms, including long-extinct ones known only from sequenced DNA. Manually scanning millions of sequences for patterns resembling known antimicrobial peptides simply isn't feasible; that's where the combination of code-generation tools and a language model comes in — not to "invent" an antibiotic from scratch, but to automate the writing and iteration of search scripts and hypotheses across huge genomic databases.
+
+That's different from the usual "AI invented a drug" narrative: here the model doesn't replace the biologist, it speeds up the most labor-intensive part of the work — writing bioinformatics analysis code and quickly testing ideas. Candidates found this way still go through the normal lab validation pipeline: synthesis, activity testing against specific strains, toxicity screening. AI isn't a substitute for that process — it's a way to narrow down to a shorter, more meaningful shortlist for further testing, which genuinely saves months of work.
+
+Antibiotic resistance is a field where even a modest speedup in candidate discovery matters: genuinely new antibiotic classes have been rare for decades, and drug companies have little financial incentive to develop medicines that, ideally, should be used sparingly and only as a last resort.
+
+### Why it matters
+
+This is a rare example of AI in science where the payoff is measurable in hours saved on routine analysis rather than in hype — and the final word still belongs to the lab bench.
+
+
+----- 04-alien-life-scientist-survey (science) — source: https://www.sciencedaily.com/releases/2026/09/260909005212.htm -----
+
+## Русская версия
+
+В 2025 году случились сразу два громких заявления об обнаружении признаков внеземной жизни — и оба вызвали волну заголовков в духе «мы не одни». Но опрос сотен учёных, о котором пишет [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260909005212.htm), показывает: подавляющее большинство астробиологов эти заявления так и не убедили. Лишь 6,6% опрошенных экспертов сочли, что возможные биологические молекулы на экзопланете K2-18b, скорее всего, действительно указывают на внеземную жизнь. Похожая доля — 15,1% — признала вероятным внеземное происхождение другой заинтересовавшей научное сообщество находки.
+
+Речь идёт о классической проблеме астробиологии: обнаружить химический сигнал, который в принципе может быть произведён жизнью, значительно проще, чем доказать, что он не мог возникнуть никаким небиологическим путём. K2-18b — экзопланета, вокруг которой в последние годы шли споры о присутствии диметилсульфида, соединения, которое на Земле в основном производят живые организмы, но которое в лабораторных условиях удавалось получить и абиотически, при определённых условиях в атмосфере без всякой жизни.
+
+Именно поэтому итоговые цифры опроса — однозначные единицы процентов согласных — не должны удивлять специалистов, даже если удивляют широкую публику, которая чаще видит заголовки в момент публикации открытия, а не спустя месяцы скептического разбора. Наука об экзопланетах устроена так, что первое заявление почти всегда громче, чем последующее опровержение или уточнение: механизм публикаций и научного внимания поощряет сенсационную формулировку на входе и рутинную, малозаметную работу по проверке на выходе.
+
+Само по себе низкое число согласных не означает, что открытий не было или что искать признаки жизни на других планетах бессмысленно — это означает лишь то, что нынешние методы (в первую очередь, спектроскопия атмосфер экзопланет) пока не позволяют делать выводы с достаточной степенью уверенности, а сообщество ведёт себя ровно так, как должно: требует более веских доказательств, прежде чем менять свою позицию.
+
+### Почему это важно
+
+Разрыв между заголовками об «обнаружении жизни» и реальным уровнем доверия учёных — это не признак кризиса науки, а нормальная работа скептицизма, без которого экзобиология быстро превратилась бы в конвейер непроверяемых сенсаций.
+
+## English version
+
+Two separate headline claims about signs of extraterrestrial life surfaced in 2025, each triggering a wave of "we are not alone" coverage. But a survey of hundreds of scientists, reported by [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260909005212.htm), shows the overwhelming majority of astrobiologists remain unconvinced. Only 6.6% of surveyed experts thought possible biological molecules on the exoplanet K2-18b probably represented extraterrestrial life. A similarly small share — 15.1% — considered another closely watched finding likely to have a biological origin.
+
+This is a classic problem in astrobiology: detecting a chemical signal that could in principle be produced by life is far easier than proving it couldn't have arisen through any non-biological process. K2-18b is the exoplanet at the center of recent debate over dimethyl sulfide, a compound that on Earth is mostly produced by living organisms but that lab experiments have also managed to generate abiotically under certain atmospheric conditions, with no life involved.
+
+That's why such low agreement numbers shouldn't surprise specialists, even if they surprise the general public, which usually sees headlines at the moment of discovery rather than months later, after the skeptical follow-up work is done. Exoplanet science is structured so the first claim is almost always louder than the subsequent walk-back or refinement: the incentives of publication and attention reward a sensational framing on the way in and reward quiet, unglamorous verification work on the way out.
+
+A low agreement number by itself doesn't mean there was no discovery, or that searching for signs of life on other planets is pointless — it just means current methods (mainly exoplanet atmosphere spectroscopy) don't yet allow conclusions with sufficient confidence, and the community is behaving exactly as it should: demanding stronger evidence before changing its position.
+
+### Why it matters
+
+The gap between "life found" headlines and scientists' actual confidence isn't a sign of a science in crisis — it's skepticism doing its job, without which exobiology would quickly turn into a pipeline of unverifiable sensations.
+
+
+----- 05-schnoor-bremen-old-quarter (culture) — source: https://www.atlasobscura.com/places/the-schnoor -----
+
+## Русская версия
+
+В Бремене есть квартал, который выглядит так, будто его нарисовали для детской книжки, а потом случайно оставили стоять на месте несколько веков. Шноор — старейшая часть города — описан на [Atlas Obscura](https://www.atlasobscura.com/places/the-schnoor) как клубок узких переулков, застроенных крошечными покосившимися домиками, которые словно наклоняются друг к другу, будто ведут неспешный разговор через улицу. Обычная прогулка здесь превращается в неторопливую охоту за цветными фасадами и спрятанными двориками.
+
+Название района (Schnoor по-нижненемецки означает «шнур» или «верёвка») отсылает к его истории: квартал застраивался ремесленниками и в первую очередь моряками, канатчиками и рыбаками — теми, чей быт был буквально завязан на такелаж и снасти для судов, ходивших по реке Везер. Плотная, почти лабиринтная застройка узкими фасадами вплотную друг к другу типична для средневековых торговых городов: земля внутри городских стен стоила дорого, и дома росли не вширь, а вверх, оставляя между собой едва ли не переулки-щели.
+
+Сегодня подобные исторические кварталы почти всегда балансируют между двумя ролями — живого городского района и туристической декорации. Тесные улицы, которые когда-то были рабочим пространством ремесленников, приспособлены под кафе, мастерские и сувенирные лавки, а сама плотность застройки, изначально продиктованная экономией земли, превратилась в главный визуальный аттракцион для туристов. Это не портит квартал, но стоит держать в голове: атмосфера «нетронутой сказки» — результат столь же тщательного сохранения и реставрации, сколь и подлинной средневековой планировки.
+
+Для тех, кто интересуется европейской городской архитектурой, Шноор — хороший пример того, как чисто утилитарное решение (сэкономить место в дорогом портовом городе) столетия спустя становится эстетической ценностью самой по себе, без всякого умысла со стороны тех, кто изначально строил эти дома.
+
+### Почему это важно
+
+Шноор — напоминание, что многие «сказочные» уголки старой Европы обязаны своим очарованием не архитектурным амбициям, а простой экономике земли внутри городских стен.
+
+## English version
+
+Bremen has a quarter that looks like it was drawn for a children's book and then somehow left standing for centuries. The Schnoor — the city's oldest district — is described by [Atlas Obscura](https://www.atlasobscura.com/places/the-schnoor) as a tangle of narrow lanes lined with tiny, slightly crooked houses that seem to lean toward each other as if mid-conversation across the street. An ordinary walk here turns into a slow-motion hunt for colorful façades and hidden courtyards.
+
+The district's name (Schnoor is Low German for "string" or "cord") points to its history: the quarter was built up by craftsmen, and above all by sailors, ropemakers, and fishermen — people whose livelihoods were literally tied to the rigging and tackle of ships working the river Weser. The dense, almost maze-like layout of narrow façades packed tight against each other is typical of medieval trading towns: land within city walls was expensive, so houses grew up rather than out, leaving barely-there alleys between them.
+
+Historic quarters like this almost always balance two roles today — living neighborhood and tourist backdrop. The tight streets that were once craftsmen's working space now house cafés, workshops, and souvenir shops, and the very density originally dictated by land economics has become the main visual draw for visitors. That doesn't spoil the quarter, but it's worth keeping in mind: the "untouched fairy tale" atmosphere is as much the product of careful preservation and restoration as it is of genuine medieval planning.
+
+For anyone interested in European urban architecture, the Schnoor is a good example of how a purely utilitarian decision — save space in an expensive port town — becomes an aesthetic value in its own right centuries later, with no intent on the part of the people who originally built the houses.
+
+### Why it matters
+
+The Schnoor is a reminder that many "fairy-tale" corners of old Europe owe their charm not to architectural ambition, but to the plain economics of land inside city walls.
+
+
+----- 06-linkedin-browsergate-lawsuits (tech) — source: https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/ -----
+
+## Русская версия
+
+LinkedIn выиграла серию исков, объединённых под названием «BrowserGate» — они касались того, что сервис якобы сканировал установленные у пользователей расширения Chrome. Как пишет [Ars Technica](https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/), судья отклонил иски, посчитав, что истцы не смогли доказать какое-либо реальное нарушение приватности.
+
+Суть претензий сводилась к тому, что сайт LinkedIn при загрузке страницы способен технически определить, какие расширения установлены в браузере посетителя — это давно известная категория веб-техник, основанная на побочных эффектах работы расширений (например, на том, что некоторые расширения внедряют в страницу собственные элементы или файлы, которые можно обнаружить скриптом). Сама по себе такая возможность существует у множества сайтов, а не только у LinkedIn, и относится скорее к дырам в архитектуре браузерных расширений, чем к специфической злонамеренности конкретного сервиса.
+
+Ключевой вопрос в подобных делах — не «происходило ли технически обнаружение расширений», а «причинило ли это измеримый вред пользователю». Американские суды в делах о цифровой приватности регулярно требуют от истцов показать не абстрактный факт сбора данных, а конкретные последствия — финансовый ущерб, украденную информацию, доказанное злоупотребление собранными данными. Если иск строится только на технической возможности слежки, без доказательства того, что данные были использованы во вред, у него мало шансов пройти дальше стадии рассмотрения — что и произошло в этом деле.
+
+Это не первый случай, когда громкое название иска («геймдейт», «-гейт» вообще любимый суффикс юридического маркетинга) расходится с реальной судебной перспективой дела: журналистский или адвокатский ярлык создаёт ощущение скандала, но стандарт доказывания в суде остаётся прежним и требует показать конкретный вред, а не только сам факт технической возможности сбора данных.
+
+### Почему это важно
+
+Дело показывает разрыв между тем, что технически возможно в вебе, и тем, что закон реально признаёт нарушением: обнаружение расширений браузера — распространённая практика, и без доказанного вреда компании продолжат её использовать безнаказанно.
+
+## English version
+
+LinkedIn has won a series of lawsuits bundled under the "BrowserGate" label, which alleged the company was scanning users' installed Chrome extensions. According to [Ars Technica](https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/), a judge tossed the suits, ruling that plaintiffs failed to allege any real privacy violation.
+
+The core claim was that LinkedIn's site could technically detect which extensions a visitor's browser has installed — a well-known category of web technique that relies on side effects of how extensions run (for instance, some extensions inject their own elements or files into a page that a script can then detect). That capability exists on plenty of sites, not just LinkedIn, and is more a gap in browser extension architecture than something specific to one company's ill intent.
+
+The key question in cases like this isn't whether extension detection happened technically — it's whether it caused measurable harm to a user. US courts handling digital privacy cases routinely require plaintiffs to show more than the abstract fact of data collection: they need concrete consequences — financial loss, stolen information, proven misuse of the collected data. A suit built purely on the technical possibility of tracking, without evidence the data was used to cause harm, rarely survives past the initial review stage — which is exactly what happened here.
+
+This isn't the first time a catchy lawsuit label ("-gate" is a favorite suffix of legal marketing) has diverged from the case's actual legal footing: a journalistic or attorney-coined tag creates a sense of scandal, but the courtroom standard of proof stays the same and demands concrete harm, not just the technical possibility of data collection.
+
+### Why it matters
+
+The case highlights the gap between what's technically possible on the web and what the law actually treats as a violation: browser extension detection is common practice, and without proven harm, companies will keep using it without consequence.
+
+
+----- 07-brazil-supreme-court-chaos (world) — source: https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss -----
+
+## Русская версия
+
+Верховный суд Бразилии завершил работу раньше обычного графика на фоне нарастающего внутреннего конфликта. Как сообщает [Al Jazeera](https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss), члены высшего суда обменялись публичными обвинениями после того, как одного из судей заподозрили в причастности к банковскому скандалу.
+
+Верховный суд Бразилии — один из самых влиятельных судебных органов Латинской Америки: именно он в последние годы регулярно оказывался в центре политических бурь страны, от разбирательств вокруг попыток отмены результатов выборов до дел против бывших высокопоставленных чиновников. Институт с такими полномочиями почти неизбежно становится ареной не только юридических, но и политических конфликтов — судьи назначаются президентом и утверждаются сенатом, то есть являются частью политической системы, а не стоят полностью вне её.
+
+Обвинение судьи в связи с банковским скандалом — по имеющимся данным, подробности самого скандала пока раскрыты скупо — способно расколоть коллегию сильнее, чем идеологические разногласия по конкретным делам: финансовые обвинения ставят под вопрос личную репутацию и легитимность судьи как арбитра, а не просто его взгляды на конкретный юридический вопрос. Если обвинения найдут подтверждение, под ударом окажется не только карьера конкретного человека, но и доверие к решениям, которые суд принимал с его участием.
+
+Пока неясно, идёт ли речь о временной приостановке работы суда или о более длительном кризисе управления. Для страны с президентской системой, где Верховный суд регулярно выступает последней инстанцией в спорах между ветвями власти, любой сбой в его работе — даже формальный, вроде досрочного завершения сессии — быстро считывается наблюдателями как индикатор более глубокой политической нестабильности.
+
+### Почему это важно
+
+Скандал внутри высшего суда страны, где именно этот орган годами служил последним арбитром в самых острых политических спорах, — тревожный сигнал не только для Бразилии, но и для того, насколько устойчивы судебные институты к внутренним конфликтам их собственных членов.
+
+## English version
+
+Brazil's Supreme Court ended its session earlier than scheduled amid a mounting internal conflict. According to [Al Jazeera](https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss), members of the high court have publicly traded accusations after one justice was accused of involvement in a bank scandal.
+
+Brazil's Supreme Court is one of the most influential judicial bodies in Latin America — it has repeatedly sat at the center of the country's political storms in recent years, from disputes over attempts to overturn election results to cases against former senior officials. An institution with that kind of authority almost inevitably becomes an arena not just for legal disputes but political ones too: justices are appointed by the president and confirmed by the senate, making them part of the political system rather than fully outside it.
+
+An accusation against a justice tied to a bank scandal — details of the scandal itself remain sparse in available reporting — can split a bench more deeply than ideological disagreement over specific cases: financial allegations call into question a justice's personal reputation and legitimacy as an arbiter, not just their views on a given legal issue. If the allegations are confirmed, it's not only one person's career on the line, but trust in rulings the court made with their participation.
+
+It's still unclear whether this amounts to a temporary pause in the court's work or a longer-running governance crisis. For a presidential system where the Supreme Court routinely serves as the final arbiter in disputes between branches of government, any disruption to its functioning — even something as formal as an early end to a session — is quickly read by observers as a sign of deeper political instability.
+
+### Why it matters
+
+A scandal inside the top court of a country where that same body has spent years serving as the final arbiter in its sharpest political disputes is a worrying signal — not just for Brazil, but for how resilient judicial institutions are to conflicts among their own members.
+
+
 ===== EDITION 8 — 2026-09-10 =====
 
 ## От редакции
