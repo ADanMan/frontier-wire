@@ -10,20 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №9 / Edition №9 — 2026-09-11** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №10 / Edition №10 — 2026-09-12** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [В угандийском королевстве спорят о короне из-за «тайного сына»](editions/2026/09-11/01-uganda-royal-succession-dispute.md)
-- **[Наука]** [Теорему о четырёх красках доказали заново — и без компьютерного «доверься мне»](editions/2026/09-11/02-four-color-theorem-new-proof.md)
-- **[ИИ]** [Учёный ищет новые антибиотики с помощью Codex и ChatGPT](editions/2026/09-11/03-codex-antimicrobial-discovery.md)
-- **[Наука]** [Инопланетную жизнь как будто нашли дважды — учёные в основном не верят](editions/2026/09-11/04-alien-life-scientist-survey.md)
-- **[Культура]** [Шноор в Бремене: квартал, будто сошедший со страниц сказки](editions/2026/09-11/05-schnoor-bremen-old-quarter.md)
-- **[Технологии]** [LinkedIn отбилась от исков о слежке за расширениями браузера](editions/2026/09-11/06-linkedin-browsergate-lawsuits.md)
-- **[Мир]** [Верховный суд Бразилии досрочно закрылся на фоне политического хаоса](editions/2026/09-11/07-brazil-supreme-court-chaos.md)
-- **[Наука]** [Оземпик и Вегови неожиданно снижают число приступов астмы](editions/2026/09-11/08-ozempic-wegovy-asthma-copd.md)
-- **[Мир]** [Алжир разорвал дипотношения с ОАЭ и закрыл небо](editions/2026/09-11/09-algeria-uae-diplomatic-break.md)
-- **[Наука]** [NASA вышло из венерианской миссии — Европа полетит одна](editions/2026/09-11/10-europe-venus-mission-solo.md)
-- **[Культура]** [Стонущие пещеры Калифорнии: зал, куда влезла бы Статуя Свободы](editions/2026/09-11/11-moaning-caverns-california.md)
-- **[Наука]** [Окаменевшее перо может объяснить, почему одни птицы пережили вымирание, а другие нет](editions/2026/09-11/12-fossil-feather-bird-extinction.md)
+- **[Мир]** [ЦРУ рассекретило документы о бен Ладене — четверть века спустя](editions/2026/09-12/01-cia-bin-laden-documents.md)
+- **[Мир]** [На борьбу с КЖПО собрали $15,5 млн — и это только начало](editions/2026/09-12/02-fgm-her-horizon-fund.md)
+- **[Наука]** [DeepMind построила карту эффектов девяти миллиардов мутаций генома человека](editions/2026/09-12/03-alphagenome-atlas.md)
+- **[Наука]** [Почему окаменелые раковины раз в несколько тысячелетий меняют направление спирали](editions/2026/09-12/04-fossil-foraminifera-spirals.md)
+- **[Культура]** [Наследие гитариста Mastodon судится с группой из-за чека на $80 тысяч](editions/2026/09-12/05-brent-hinds-estate-mastodon.md)
+- **[ИИ]** [Отчёт утверждает: агенты OpenAI атаковали RubyGems ещё в мае — и молчали об этом](editions/2026/09-12/06-openai-agents-rubygems.md)
+- **[Технологии]** [Малленвег вернулся в кресло гендиректора Automattic — спустя два дня после отставки](editions/2026/09-12/07-mullenweg-automattic-return.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

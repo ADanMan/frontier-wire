@@ -1,49 +1,29 @@
-# frontier-wire — latest edition №9 (2026-09-11)
+# frontier-wire — latest edition №10 (2026-09-12)
 
-## A "secret son" throws a Ugandan kingdom into a succession crisis / В угандийском королевстве спорят о короне из-за «тайного сына»
-rubric: world · source: https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/01-uganda-royal-succession-dispute.md
+## The CIA declassified bin Laden files — a quarter century later / ЦРУ рассекретило документы о бен Ладене — четверть века спустя
+rubric: world · source: https://www.aljazeera.com/news/2026/9/12/cia-drops-dozens-of-declassified-documents-on-bin-laden-and-al-qaeda?traffic_source=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/01-cia-bin-laden-documents.md
 
-## Mathematicians found a rare new proof for the four-color theorem / Теорему о четырёх красках доказали заново — и без компьютерного «доверься мне»
-rubric: science · source: https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/02-four-color-theorem-new-proof.md
+## A new $15.5m fund takes aim at FGM — with $100m as the real target / На борьбу с КЖПО собрали $15,5 млн — и это только начало
+rubric: world · source: https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/02-fgm-her-horizon-fund.md
 
-## A researcher is hunting new antibiotics with Codex and ChatGPT / Учёный ищет новые антибиотики с помощью Codex и ChatGPT
-rubric: ai · source: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/03-codex-antimicrobial-discovery.md
+## DeepMind mapped the effects of nine billion possible mutations in the human genome / DeepMind построила карту эффектов девяти миллиардов мутаций генома человека
+rubric: science · source: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/03-alphagenome-atlas.md
 
-## Alien life was "found" twice — most scientists still aren't convinced / Инопланетную жизнь как будто нашли дважды — учёные в основном не верят
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260909005212.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/04-alien-life-scientist-survey.md
+## Why fossil shells keep flipping their spiral direction every few millennia / Почему окаменелые раковины раз в несколько тысячелетий меняют направление спирали
+rubric: science · source: https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/04-fossil-foraminifera-spirals.md
 
-## The Schnoor: Bremen's storybook old quarter / Шноор в Бремене: квартал, будто сошедший со страниц сказки
-rubric: culture · source: https://www.atlasobscura.com/places/the-schnoor
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/05-schnoor-bremen-old-quarter.md
+## Mastodon guitarist's estate is suing the band over an $80,000 check / Наследие гитариста Mastodon судится с группой из-за чека на $80 тысяч
+rubric: culture · source: https://pitchfork.com/story/brent-hinds-estate-sues-mastodon/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/05-brent-hinds-estate-mastodon.md
 
-## LinkedIn beats lawsuits over scanning users' browser extensions / LinkedIn отбилась от исков о слежке за расширениями браузера
-rubric: tech · source: https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/06-linkedin-browsergate-lawsuits.md
+## A new report claims OpenAI's agents attacked RubyGems back in May — and it stayed quiet / Отчёт утверждает: агенты OpenAI атаковали RubyGems ещё в мае — и молчали об этом
+rubric: ai · source: https://www.rubyhack.ai/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/06-openai-agents-rubygems.md
 
-## Brazil's Supreme Court shuts down early amid political chaos / Верховный суд Бразилии досрочно закрылся на фоне политического хаоса
-rubric: world · source: https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/07-brazil-supreme-court-chaos.md
-
-## Ozempic and Wegovy turn out to cut asthma attacks too / Оземпик и Вегови неожиданно снижают число приступов астмы
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260909005155.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/08-ozempic-wegovy-asthma-copd.md
-
-## Algeria severs ties with the UAE and shuts its airspace / Алжир разорвал дипотношения с ОАЭ и закрыл небо
-rubric: world · source: https://www.dw.com/en/algeria-cuts-diplomatic-ties-with-uae/a-79222141?maca=en-rss-en-all-1573-rdf
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/09-algeria-uae-diplomatic-break.md
-
-## NASA pulled out of a Venus mission, so Europe is going alone / NASA вышло из венерианской миссии — Европа полетит одна
-rubric: science · source: https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/10-europe-venus-mission-solo.md
-
-## California's Moaning Caverns could swallow the Statue of Liberty / Стонущие пещеры Калифорнии: зал, куда влезла бы Статуя Свободы
-rubric: culture · source: https://www.atlasobscura.com/places/moaning-caverns
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/11-moaning-caverns-california.md
-
-## A fossilized feather may explain why some birds survived mass extinction / Окаменевшее перо может объяснить, почему одни птицы пережили вымирание, а другие нет
-rubric: science · source: https://www.npr.org/2026/09/10/nx-s1-5963519/best-fossilized-bird-feather-dinosaur-feces-extinction
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-11/12-fossil-feather-bird-extinction.md
+## Mullenweg is back as Automattic CEO — two days after being pushed out / Малленвег вернулся в кресло гендиректора Automattic — спустя два дня после отставки
+rubric: tech · source: https://www.theverge.com/tech/994087/matt-mullenweg-automattic-ceo-return
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/07-mullenweg-automattic-return.md
