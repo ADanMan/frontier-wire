@@ -234,6 +234,192 @@ Notably, the source for the return itself isn't a press release — it's a Slack
 When a CEO returns to the job within two days and the company offers no public explanation, that usually means the underlying conflict hasn't been resolved — just paused — and it's too early to draw conclusions about what actually triggered the leave.
 
 
+----- 08-ai-hallucinated-witnesses-lawyer-fined (ai) — source: https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal -----
+
+## Русская версия
+
+Верховный суд Нью-Мексико оштрафовал юриста Стивена Аронса на $5000 и признал его виновным в неуважении к суду — за то, что в апелляции по делу об убийстве оказались вымышленные свидетели и несуществующие показания полиции, [сообщает The Verge со ссылкой на Reuters](https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal). Решение суд вынес в среду.
+
+Речь идёт не о мелкой процессуальной ошибке, а об апелляции по делу об убийстве — там, где цена фактической точности особенно высока, а судьба клиента буквально зависит от того, насколько тщательно юрист проверяет то, что подписывает. Судя по всему, часть материалов апелляции была сгенерирована ИИ-инструментом и содержала галлюцинации: выдуманных свидетелей и фальшивые полицейские показания, которые никогда не существовали.
+
+Это уже не первый подобный случай в судебной практике: истории про юристов, которые сдавали в суд документы с несуществующими прецедентами, придуманными ChatGPT, всплывают регулярно с 2023 года. Но здесь ставки выше обычного — не гражданский иск, а апелляция по убийству, где фальшивые «свидетели» могли повлиять на исход дела клиента.
+
+$5000 штрафа — сумма скорее символическая для профессионала такого уровня, но статус «неуважение к суду» бьёт по репутации сильнее любых денег: это официальная запись о том, что юрист либо не проверил работу ИИ, либо сознательно положился на неё без верификации.
+
+### Почему это важно
+
+Дело показывает, что проблема ИИ-галлюцинаций в юриспруденции не исчезла с ростом качества моделей — она просто переместилась в дела с более высокими ставками, включая апелляции по уголовным делам, где цена ошибки — не штраф, а чужая свобода.
+
+## English version
+
+New Mexico's Supreme Court fined attorney Stephen Aarons $5,000 and held him in contempt of court after AI-fabricated witnesses and fake police testimony turned up in an appeal for his client's murder conviction, [The Verge reports, citing Reuters](https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal). The ruling came in a filing on Wednesday.
+
+This wasn't a minor paperwork slip — it was a murder conviction appeal, exactly the kind of filing where factual accuracy matters most and where a client's fate depends on how carefully a lawyer checks what they sign. Part of the appeal appears to have been produced with AI assistance and included hallucinations: invented witnesses and fabricated police testimony that never existed.
+
+This isn't the first case of its kind — stories about lawyers submitting filings with nonexistent case law dreamed up by ChatGPT have surfaced regularly since 2023. But the stakes here are unusually high: not a civil dispute, but a murder appeal, where fake "witnesses" could have swayed the outcome for the client.
+
+The $5,000 fine is a relatively symbolic sum for a practicing attorney, but the contempt finding does more reputational damage than the money — it's an official record that the lawyer either failed to verify the AI's output or knowingly relied on it without checking.
+
+### Why it matters
+
+The case shows the AI-hallucination problem in law hasn't gone away as models have improved — it has simply migrated into higher-stakes filings, including criminal appeals, where the cost of an error isn't a fine but someone's freedom.
+
+
+----- 09-four-color-theorem-new-proof (science) — source: https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/ -----
+
+## Русская версия
+
+Теорема о четырёх красках — утверждение, что любую карту можно раскрасить всего четырьмя цветами так, чтобы соседние области не совпадали по цвету, — получила новое доказательство, [пишет Quanta Magazine](https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/). Математики пересмотрели знаменитую задачу, которую в 1970-х впервые доказали с помощью компьютера, и это принесло новые выводы о природе графов.
+
+Оригинальная история теоремы сама по себе классика математического скандала. В 1976 году Кеннет Аппель и Вольфганг Хакен доказали её, перебрав на компьютере тысячи конкретных конфигураций карт — и часть математического сообщества десятилетиями относилась к этому доказательству с подозрением именно потому, что ни один человек не мог проверить его целиком вручную. Компьютер стал не просто инструментом, а необходимым участником доказательства — прецедент, который до сих пор обсуждают на факультетах философии математики.
+
+Новое доказательство, о котором пишет Quanta, интересно не тем, что оно опровергает старое (теорема была и остаётся верной), а тем, что предлагает другой путь к тому же результату — и по дороге даёт математикам «важные новые сведения о природе графов», как формулирует издание. В математике повторное доказательство редко бывает просто упражнением: часто именно новый метод вскрывает связи с другими задачами, которые исходное доказательство скрывало за грудой компьютерного перебора.
+
+Для дисциплины, где компьютерные доказательства теперь используют рутинно — от гипотезы Кеплера до отдельных задач теории чисел — переосмысление именно теоремы о четырёх красках выглядит символично: это тот самый случай, с которого спор про «доказательство, которое нельзя прочитать» и начался.
+
+### Почему это важно
+
+Новое доказательство не меняет ответ — он был известен полвека, — но напоминает, что «решённая» задача может ещё генерировать математику, если посмотреть на неё под другим углом, а не просто зачехлить как закрытую.
+
+## English version
+
+The four-color theorem — the statement that any map can be colored with just four colors so that no two neighboring regions share a color — has a new proof, [Quanta Magazine reports](https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/). Mathematicians revisited the famous problem, first proved by computer in the 1970s, and came away with fresh insight into the nature of graphs.
+
+The theorem's original history is already a classic story of mathematical controversy. In 1976, Kenneth Appel and Wolfgang Haken proved it by having a computer exhaustively check thousands of specific map configurations — and for decades, part of the mathematical community treated the proof with suspicion precisely because no human could verify it in full by hand. The computer wasn't just a tool; it became a necessary participant in the proof, a precedent still debated in philosophy-of-mathematics circles today.
+
+The new proof Quanta describes isn't interesting because it overturns the old one — the theorem was and remains true — but because it offers a different route to the same result, one that along the way gives mathematicians "important new insights into the nature of graphs," as the outlet puts it. In mathematics, reproving something rarely is just an exercise: a new method often exposes connections to other problems that the original proof buried under a mountain of computer-checked cases.
+
+For a field where computer-assisted proofs are now routine — from the Kepler conjecture to specific number-theory results — revisiting the four-color theorem specifically feels symbolic: it's the very case that started the "proof you can't actually read" debate in the first place.
+
+### Why it matters
+
+The new proof doesn't change the answer — that's been settled for half a century — but it's a reminder that a "solved" problem can still generate real mathematics if you look at it from a different angle instead of just filing it away as closed.
+
+
+----- 10-cdc-measles-data-reliability (world) — source: https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability -----
+
+## Русская версия
+
+В США продолжается худшая за последние десятилетия вспышка кори, и она растёт — а впереди ещё сезон гриппа, [сообщает NPR](https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability). Тревогу усиливает не только сама эпидемия, но и то, как на неё реагирует федеральный Центр по контролю и профилактике заболеваний (CDC): агентство поставило под сомнение две смерти от кори в Пенсильвании, и это заставило экспертов усомниться в надёжности федеральных данных о здоровье населения в целом.
+
+Логика тревоги простая: если во время растущей вспышки ключевое ведомство начинает оспаривать причины конкретных смертей вместо того, чтобы просто фиксировать и публиковать цифры, у врачей и региональных органов здравоохранения меньше оснований доверять сводкам CDC — а именно на эти сводки опираются решения о том, где усиливать вакцинацию и карантинные меры.
+
+Корь — не абстрактная угроза «прошлого века»: это одна из самых заразных инфекций, известных медицине, и при снижении охвата вакцинацией она возвращается быстрее почти любой другой управляемой болезни. То, что вспышка названа худшей за десятилетия именно сейчас, — сигнал о накопленном разрыве в вакцинации, который годами обсуждали как гипотетический риск.
+
+Сезон гриппа, который вот-вот начнётся, добавляет системе нагрузку в момент, когда доверие к её собственной статистике уже поставлено под вопрос — а именно эта статистика определяет, как быстро реагируют больницы и региональные власти.
+
+### Почему это важно
+
+Спор про две смерти в Пенсильвании — не бюрократическая деталь, а тест на то, можно ли верить федеральным данным о здоровье населения в момент, когда система и так под нагрузкой от растущей вспышки и приближающегося сезона гриппа.
+
+## English version
+
+The United States is in the middle of its worst measles outbreak in decades, and it's still growing — with flu season now approaching, [NPR reports](https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability). What's amplifying the concern isn't just the outbreak itself but how the Centers for Disease Control and Prevention has responded to it: the agency questioned two measles deaths in Pennsylvania, and that has left experts fretting about the reliability of federal health data more broadly.
+
+The worry follows a simple logic: if, in the middle of a growing outbreak, the key federal agency starts disputing the cause of specific deaths instead of simply recording and publishing the numbers, doctors and regional health departments have less reason to trust CDC's overall reporting — and that reporting is exactly what decisions about where to boost vaccination and containment efforts are built on.
+
+Measles isn't some abstract "last-century" threat — it's one of the most contagious diseases known to medicine, and it comes roaring back faster than almost any other vaccine-preventable illness once immunization coverage drops. That the current outbreak is being called the worst in decades right now is a signal of an accumulated vaccination gap that's been discussed as a hypothetical risk for years.
+
+The flu season about to begin adds load to a system at the exact moment trust in its own statistics is already in question — statistics that determine how quickly hospitals and regional authorities can respond.
+
+### Why it matters
+
+The dispute over two deaths in Pennsylvania isn't a bureaucratic footnote — it's a test of whether federal public-health data can be trusted at a moment when the system is already strained by a growing outbreak and an approaching flu season.
+
+
+----- 11-nepal-flood-cascading-hazards (science) — source: https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html -----
+
+## Русская версия
+
+Катастрофическое наводнение в Непале, после которого тысячи людей числятся пропавшими без вести, началось с обвала льда и камней высоко в горах, [пишет phys.org](https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html). По словам экспертов, это предупреждение: планирование защиты от стихийных бедствий должно учитывать цепочки взаимосвязанных опасностей, а не отдельные изолированные события.
+
+Механизм показателен сам по себе: катастрофа началась не с дождя и не с разлива реки напрямую, а с обрушения ледово-каменной массы высоко в горах, которое затем превратилось в разрушительный поток, докатившийся до населённых долин. Это классическая для Гималаев цепная реакция — но, судя по масштабу пропавших без вести, инфраструктура и системы раннего оповещения региона всё ещё рассчитаны на угрозы попроще.
+
+Идея «каскадных опасностей» — не новый термин в науке о рисках, но Непал именно тот случай, когда абстрактная формулировка получает конкретное и трагическое подтверждение: обвал высоко в горах, который сам по себе можно было бы считать локальным геологическим событием, спровоцировал катастрофу вниз по течению, затронувшую совсем другую территорию и совсем других людей.
+
+Для гималайского региона, где тают ледники и растёт число ледниковых озёр, это не разовая история, а модель, которая будет повторяться — если планирование не начнёт закладывать именно цепочки причин, а не единичные сценарии.
+
+### Почему это важно
+
+Наводнение в Непале — иллюстрация того, что защита от климатических и геологических катастроф в горных регионах требует моделей, которые учитывают цепочки событий, а не готовятся к каждой опасности по отдельности.
+
+## English version
+
+The catastrophic flood in Nepal, which has left thousands of people missing, began with a collapse of ice and rock high in the mountains, [phys.org reports](https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html). Experts say it's a warning: disaster planning needs to account for chains of interconnected hazards, not isolated events treated one at a time.
+
+The mechanism itself is telling. The disaster didn't start with rainfall or a river directly overflowing — it started with an ice-and-rock collapse high in the mountains that then turned into a destructive flow reaching populated valleys below. That's a classic cascading-hazard pattern for the Himalayas, but judging by the scale of people still missing, the region's infrastructure and early-warning systems are still built for simpler threats.
+
+The idea of "cascading hazards" isn't a new concept in risk science, but Nepal is exactly the case where the abstract phrase gets a concrete and tragic confirmation: a collapse high in the mountains, which on its own might be treated as a localized geological event, triggered a disaster downstream that hit an entirely different area and an entirely different set of people.
+
+For the Himalayan region, where glaciers are retreating and the number of glacial lakes keeps growing, this isn't a one-off story — it's a pattern that will repeat unless planning starts building in chains of causes instead of preparing for single scenarios.
+
+### Why it matters
+
+Nepal's flood illustrates that protecting mountain regions from climate and geological disasters requires models that account for chains of events, not preparation for each hazard in isolation.
+
+
+----- 12-saudi-pipeline-drone-attack (world) — source: https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss -----
+
+## Русская версия
+
+Саудовская Аравия остановила работу нефтепровода Восток—Запад после атаки дронов, [сообщает Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss). Эр-Рияд утверждает, что атака была совершена с территории Ирака. Повреждения трубопровода подтвердил спутниковый снимок.
+
+Восток—Запад — не рядовая труба: это один из главных маршрутов, по которому саудовская нефть идёт к побережью Красного моря в обход Ормузского пролива, то есть инфраструктура, специально построенная как альтернатива самому уязвимому узкому месту мировых поставок нефти. Атака именно на этот маршрут — не случайный выбор цели, а удар по объекту, который важен ровно потому, что должен был снижать зависимость от Ормуза.
+
+Публикация спутникового снимка — деталь, которая переводит историю из разряда «заявлений сторон» в разряд подтверждённых фактов: повреждение видно независимо от того, чьей версии атаки верить. А вот вопрос об источнике атаки остаётся спорным — Эр-Рияд называет Ирак, но с территории Ирака действуют разные вооружённые группы, и однозначно приписать атаку конкретному актору по одному заявлению нельзя.
+
+Для нефтяного рынка любая остановка крупного экспортного маршрута Саудовской Аравии — сигнал, который отслеживают трейдеры вне зависимости от того, сколько реально нефти физически недополучат покупатели: сама демонстрация уязвимости альтернативных маршрутов имеет цену.
+
+### Почему это важно
+
+Атака на трубопровод, построенный как раз для того, чтобы обходить Ормузский пролив, показывает: у региона не осталось по-настоящему защищённых от атак маршрутов экспорта нефти — уязвимы даже те, что придумали как резервные.
+
+## English version
+
+Saudi Arabia has shut down its East-West oil pipeline following a drone attack, [Al Jazeera reports](https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss). Riyadh says the attack originated in Iraq. Satellite imagery confirmed damage to the pipeline.
+
+The East-West pipeline isn't just any pipe — it's one of the main routes carrying Saudi oil to the Red Sea coast, built specifically as an alternative to the Strait of Hormuz, the single most vulnerable chokepoint in global oil supply. Striking this particular route isn't a random target choice — it's an attack on infrastructure that matters precisely because it was meant to reduce dependence on Hormuz.
+
+The release of satellite imagery is a detail that moves the story from "competing claims" into confirmed fact: the damage is visible regardless of whose account of the attack you believe. What remains contested is the source of the attack — Riyadh names Iraq, but multiple armed groups operate from Iraqi territory, and a single statement isn't enough to definitively attribute the strike to one actor.
+
+For oil markets, any shutdown of a major Saudi export route is a signal traders track regardless of how much oil buyers actually end up losing physically — the demonstration of vulnerability in an alternative route carries its own price.
+
+### Why it matters
+
+An attack on a pipeline built specifically to bypass the Strait of Hormuz shows the region has no truly attack-proof oil export routes left — even the ones designed as backups are vulnerable.
+
+
+----- 13-americas-response-monument (culture) — source: https://www.atlasobscura.com/places/america-responds-monument -----
+
+## Русская версия
+
+В Нью-Йорке стоит статуя, посвящённая бойцам «Зелёных беретов» и другим силам спецназа армии США, которые в первые дни после 11 сентября вступили в бой с талибами в Афганистане, [пишет Atlas Obscura](https://www.atlasobscura.com/places/america-responds-monument). Памятник называется America's Response Monument, и его центральный образ — солдаты верхом на лошадях: часть боевых операций тогда действительно велась в конном строю.
+
+Деталь про лошадей — не художественная метафора, а буквальный факт начала афганской кампании: в горной местности, где не было дорог для техники, спецназ и местные союзники использовали лошадей как единственный способ быстро передвигаться и координировать удары. В 2026 году, когда война ассоциируется с дронами и высокоточным оружием, этот образ выглядит почти анахронизмом — и именно поэтому монумент фиксирует его в бронзе, а не оставляет фактом в архивных сводках.
+
+Открытие такого памятника в Нью-Йорке — городе, который сам стал местом атаки 11 сентября, — превращает скульптуру не просто в военный мемориал, а в часть более широкого нарратива о том, как страна отвечала на события того дня: не абстрактно, а буквально «первые дни, первые бойцы, первые операции».
+
+25-я годовщина терактов, которую отмечали именно на этой неделе, делает историю монумента особенно уместной сейчас — это не архивная находка, а часть текущего разговора о том, как помнят и как рассказывают о начале той войны.
+
+### Почему это важно
+
+Монумент — материальное напоминание о том, что начало одной из самых технологичных войн XXI века выглядело буквально по-средневековому: спецназ на лошадях там, где не могла проехать никакая техника.
+
+## English version
+
+A statue in New York memorializes Green Berets and other US Army Special Forces soldiers who engaged the Taliban in Afghanistan in the early days after September 11th, [Atlas Obscura reports](https://www.atlasobscura.com/places/america-responds-monument). It's called America's Response Monument, and its central image is soldiers on horseback — part of the early combat operations really were conducted on horses.
+
+The horses aren't an artistic flourish — they're a literal fact of how the Afghan campaign began: in mountainous terrain with no roads for vehicles, special forces and local allies used horses as the only way to move quickly and coordinate strikes. In 2026, when war is associated with drones and precision weapons, that image reads as almost anachronistic — which is exactly why the monument fixes it in bronze rather than leaving it as a line in archival reports.
+
+Unveiling such a monument in New York — the city that was itself a target on September 11th — turns the sculpture into more than a military memorial; it becomes part of a wider narrative about how the country responded to that day, not in the abstract but literally: "the first days, the first soldiers, the first operations."
+
+The 25th anniversary of the attacks, marked just this week, makes the monument's story particularly timely right now — not an archival footnote, but part of an ongoing conversation about how the start of that war is remembered and told.
+
+### Why it matters
+
+The monument is a physical reminder that the opening chapter of one of the 21st century's most technology-driven wars looked literally medieval: special forces on horseback, in terrain no vehicle could reach.
+
+
 ===== EDITION 9 — 2026-09-11 =====
 
 ## От редакции

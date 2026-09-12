@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Mullenweg is back as Automattic CEO — two days after being pushed out / Малленвег вернулся в кресло гендиректора Automattic — спустя два дня после отставки
 rubric: tech · source: https://www.theverge.com/tech/994087/matt-mullenweg-automattic-ceo-return
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/07-mullenweg-automattic-return.md
+
+## A lawyer got fined $5,000 over AI-hallucinated witnesses in a murder appeal / Юриста оштрафовали на $5000 за несуществующих свидетелей, придуманных ИИ
+rubric: ai · source: https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/08-ai-hallucinated-witnesses-lawyer-fined.md
+
+## The four-color theorem just got a rare new proof — after half a century / Теорему о четырёх красках впервые за полвека доказали заново — и не так, как раньше
+rubric: science · source: https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/09-four-color-theorem-new-proof.md
+
+## The US is having its worst measles outbreak in decades — and trust in CDC data is slipping / Худшая за десятилетия вспышка кори в США растёт — а доверие к данным CDC падает
+rubric: world · source: https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/10-cdc-measles-data-reliability.md
+
+## Nepal's disaster started with an ice collapse high in the mountains — and that changes how planners should think / Катастрофу в Непале запустил обвал льда высоко в горах — и это меняет подход к планированию
+rubric: science · source: https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/11-nepal-flood-cascading-hazards.md
+
+## Saudi Arabia shut down a critical oil pipeline after a drone attack it says came from Iraq / Саудовская Аравия остановила ключевой нефтепровод после атаки дронов из Ирака
+rubric: world · source: https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/12-saudi-pipeline-drone-attack.md
+
+## A New York statue is a reminder: US special forces rode into Afghanistan on horseback / Статуя в Нью-Йорке напоминает: спецназ США въехал в Афганистан верхом на лошадях
+rubric: culture · source: https://www.atlasobscura.com/places/america-responds-monument
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-12/13-americas-response-monument.md
