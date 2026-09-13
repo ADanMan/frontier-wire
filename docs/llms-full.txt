@@ -226,6 +226,199 @@ OpenAI's post doesn't get into specific technical decisions — given the "part 
 Infrastructure posts like this rarely make headlines next to new model launches, but it's exactly this kind of unglamorous storage engineering that determines whether a billion people have a working ChatGPT tomorrow morning or a global outage.
 
 
+----- 08-iraq-saudi-pipeline-drone-platform (world) — source: https://www.aljazeera.com/news/2026/9/13/iraq-seizes-drone-launching-platform-used-for-targeting-saudi-oil-pipeline?traffic_source=rss -----
+
+## Русская версия
+
+Иракские власти изъяли платформу для запуска беспилотников, с которой был нанесён удар по саудовскому нефтепроводу, [сообщает Al Jazeera](https://www.aljazeera.com/news/2026/9/13/iraq-seizes-drone-launching-platform-used-for-targeting-saudi-oil-pipeline?traffic_source=rss). Саудовские власти отследили место запуска до провинции Майсан на юго-востоке Ирака, у самой иранской границы. [Багдад подтвердил](https://www.dw.com/en/baghdad-confirms-attack-on-saudi-pipeline-came-from-iraq/a-79247086?maca=en-rss-en-all-1573-rdf), что атака действительно пришла с иракской территории.
+
+Саудовская Аравия заявила, что не будет отвечать силой, но потребовала от Ирака «принять необходимые меры» — то есть разобраться с теми, кто стоит за атакой на своей же земле. При этом Багдад и так находится под давлением США, которые настаивают, чтобы иракские власти обуздали проиранские вооружённые группировки, действующие на территории страны.
+
+Ситуация показывает, насколько тонкая грань разделяет Ирак между статусом суверенного государства и территорией, откуда действуют вооружённые формирования, слабо подконтрольные центральному правительству. Изъятие пусковой платформы — это шаг, который Багдад мог сделать быстро и без лишнего шума, чтобы снять напряжение с Эр-Риядом, не вступая в прямую конфронтацию с группировками у себя дома.
+
+То, что Саудовская Аравия предпочла дипломатическое давление, а не ответный удар, тоже показательно: региональные тяжеловесы сейчас скорее заинтересованы в том, чтобы не допустить эскалации, чем в демонстрации силы.
+
+### Почему это важно
+
+Провинция Майсан у иранской границы — не первое и явно не последнее место, откуда могут запускать дроны по инфраструктуре соседей. Пока Ирак реагирует на такие инциденты изъятием техники постфактум, а не предотвращением атак, риск повторения остаётся высоким — а вместе с ним и риск, что в следующий раз саудовская сдержанность закончится.
+
+## English version
+
+Iraqi authorities have seized the drone-launch platform used to strike a Saudi oil pipeline, [Al Jazeera reports](https://www.aljazeera.com/news/2026/9/13/iraq-seizes-drone-launching-platform-used-for-targeting-saudi-oil-pipeline?traffic_source=rss). Saudi authorities traced the launch site to Maysan province in southeastern Iraq, right on the Iranian border. [Baghdad confirmed](https://www.dw.com/en/baghdad-confirms-attack-on-saudi-pipeline-came-from-iraq/a-79247086?maca=en-rss-en-all-1573-rdf) that the attack did originate on Iraqi territory.
+
+Saudi Arabia said it will not retaliate militarily but demanded that Iraq "take the necessary measures" — in other words, deal with whoever is launching attacks from its own soil. Baghdad, meanwhile, is already under pressure from the United States to rein in Iran-backed militias operating inside the country.
+
+The episode captures how thin the line is for Iraq between being a sovereign state and being territory from which armed groups operate largely outside central government control. Seizing the launch platform is something Baghdad could do quickly and quietly to ease tension with Riyadh without picking a direct fight with groups at home.
+
+Saudi Arabia's choice of diplomatic pressure over a military response is telling too: the region's heavyweights currently seem more interested in avoiding escalation than in projecting force.
+
+### Why it matters
+
+Maysan province, sitting right on the Iranian border, is unlikely to be the first or last place from which drones get launched at neighboring infrastructure. As long as Iraq's response is confiscating hardware after the fact rather than preventing the attacks, the risk of a repeat stays high — and so does the risk that next time Saudi restraint runs out.
+
+
+----- 09-aloha-net-frank-kuo-obituary (tech) — source: https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies -----
+
+## Русская версия
+
+Франклин «Фрэнк» Куо, участник разработки ALOHAnet и Fellow IEEE, умер в возрасте 91 года, [сообщает IEEE Spectrum](https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies). Куо помогал создавать ALOHAnet — пионерскую компьютерную систему в Гавайском университете в Маноа, в Гонолулу. Сеть заработала в 1971 году и стала первой в мире публичной демонстрацией беспроводной пакетной передачи данных.
+
+Сама идея ALOHAnet звучит просто: разные компьютеры на разных островах Гавайского архипелага обмениваются данными по радиоканалу, а не по проводам, и если два сигнала «сталкиваются» в эфире, оба узла просто пробуют отправить их заново. Этот принцип произвольного доступа к общему каналу — «ALOHA-протокол» — лёг в основу гораздо более поздних технологий, включая методы разрешения коллизий, которые использовались при разработке проводного Ethernet, а затем и Wi-Fi.
+
+Куо занимался этим не в гигантской корпорации с неограниченным бюджетом, а в университетской лаборатории, которой нужно было решить конкретную практическую задачу — связать острова, где прокладка кабелей была дорогой и медленной. Из локального инженерного решения выросла идея, которая спустя полвека держит на себе значительную часть современного интернета: каждый раз, когда телефон подключается к Wi-Fi, где-то в его основе лежит логика, восходящая к ALOHAnet.
+
+### Почему это важно
+
+История ALOHAnet — хороший повод вспомнить, что фундаментальные сетевые технологии редко рождаются в компаниях, которые потом на них зарабатывают. Университетская команда решала гавайскую логистическую проблему — а получила протокол, без которого сегодня не могли бы существовать ни офисные Wi-Fi-роутеры, ни половина мобильного интернета.
+
+## English version
+
+Franklin "Frank" Kuo, an IEEE Fellow who helped develop ALOHAnet, has died at 91, [IEEE Spectrum reports](https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies). Kuo helped build ALOHAnet, a pioneering computer system at the University of Hawaii at Mānoa in Honolulu. The network went online in 1971 and represented the first public demonstration of a wireless packet network.
+
+The core idea behind ALOHAnet is simple: computers scattered across different Hawaiian islands exchanged data over radio instead of wires, and if two signals collided over the air, both nodes just retransmitted. That random-access approach to a shared channel — the "ALOHA protocol" — became the basis for much later technology, including the collision-handling methods used in wired Ethernet and, eventually, Wi-Fi.
+
+Kuo did this work not inside a giant corporation with an unlimited budget but in a university lab trying to solve a concrete practical problem: connecting islands where laying cable was expensive and slow. A local engineering fix grew into an idea that, half a century later, underpins a huge chunk of the modern internet — every time a phone connects to Wi-Fi, some of the logic underneath traces back to ALOHAnet.
+
+### Why it matters
+
+ALOHAnet's story is a good reminder that foundational networking technology rarely gets invented inside the companies that later profit from it. A university team was solving a Hawaiian logistics problem and ended up with a protocol that today's office Wi-Fi routers and a good chunk of mobile internet couldn't do without.
+
+
+----- 10-alien-terrorist-removal-court-first-case (world) — source: https://www.npr.org/2026/09/12/nx-s1-5967476/alien-removal-court-deportation-afganistan -----
+
+## Русская версия
+
+Суд по удалению иностранных террористов (Alien Terrorist Removal Court) депортировал в Афганистан Назиру Хаджи Заду — легальную постоянную резидентку США, [сообщает NPR](https://www.npr.org/2026/09/12/nx-s1-5967476/alien-removal-court-deportation-afganistan). Она согласилась с формулировкой, что является «иностранной террористкой». Это первое дело в истории данного суда, доведённое до депортации.
+
+Сам по себе Alien Terrorist Removal Court — институт, о котором большинство американцев вряд ли слышали: он существует давно, но до сих пор ни разу не применялся на практике. То, что первое реальное дело появилось именно сейчас и завершилось депортацией человека с легальным статусом резидента, а не нелегального мигранта, — само по себе новость: обычно депортационные механизмы такого рода ассоциируются с людьми без легального статуса, а не с постоянными резидентами.
+
+NPR не раскрывает подробностей о том, какие именно действия инкриминировались Заде и почему дело дошло именно до этого суда, а не до обычных иммиграционных или уголовных процедур. Но сам факт, что редко используемый юридический механизм внезапно «заработал» на конкретном человеке, стоит того, чтобы за этим следить: судебные прецеденты такого рода имеют свойство расширять рамки того, что власти могут делать дальше.
+
+### Почему это важно
+
+Когда закон существует десятилетиями, но никогда не применялся, а потом вдруг применяется — это сигнал: юридическая машина, которая раньше стояла на полке, теперь в деле. Первое дело редко бывает последним, а условия, при которых человек с легальным статусом резидента становится «иностранным террористом» и депортируется, стоит внимательно проговаривать вслух, а не оставлять на волю прецедента.
+
+## English version
+
+The Alien Terrorist Removal Court deported Nazira Haji Zada, a lawful permanent resident of the US, to Afghanistan, [NPR reports](https://www.npr.org/2026/09/12/nx-s1-5967476/alien-removal-court-deportation-afganistan). She conceded to being an "alien terrorist." It marks the first case in the history of this court to actually result in deportation.
+
+The Alien Terrorist Removal Court itself is an institution most Americans have probably never heard of: it has existed for a long time but had never been used in practice until now. That the first real case surfaced now, and ended with the deportation of someone holding legal resident status rather than an undocumented migrant, is itself the story — this kind of removal mechanism is usually associated with people who lack legal status, not permanent residents.
+
+NPR doesn't detail exactly what Zada was accused of or why the case ended up in this particular court rather than standard immigration or criminal proceedings. But the fact that a rarely used legal mechanism suddenly "activated" against one specific person is worth watching: precedents like this tend to expand what authorities can do next.
+
+### Why it matters
+
+When a law sits on the books for decades unused and then suddenly gets applied, that's a signal — a legal mechanism that used to be theoretical is now live. A first case is rarely the last one, and the conditions under which a lawful permanent resident becomes an "alien terrorist" and gets deported deserve to be spelled out clearly, not left to precedent to define after the fact.
+
+
+----- 11-quantum-qubit-sound-waves-coherence (science) — source: https://www.sciencedaily.com/releases/2026/09/260911214245.htm -----
+
+## Русская версия
+
+Физики из Гарварда показали способ защитить квантовую информацию с помощью крошечных звуковых волн, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260911214245.htm). Постоянно окружая кубит на основе дефекта в алмазе механическими колебаниями, исследователи продлили время его когерентности примерно втрое.
+
+Время когерентности — это то, как долго кубит вообще способен удерживать квантовое состояние, прежде чем случайный шум из окружения его разрушит. Это одна из главных практических проблем квантовых вычислений: чем быстрее состояние «разваливается», тем меньше операций успевает выполнить квантовый компьютер, прежде чем результат станет бессмысленным. Трёхкратное увеличение этого времени — не революция, но заметный практический выигрыш для конкретной платформы кубитов.
+
+Идея использовать именно звук, а не электромагнитные поля, интересна тем, что механические колебания — это отдельный физический канал, который можно настраивать независимо от способов считывания и управления кубитом. Если такой подход масштабируется за пределы лабораторного эксперимента, он может стать одним из инструментов в наборе методов защиты кубитов от декогеренции — наряду с охлаждением, экранированием и коррекцией ошибок.
+
+### Почему это важно
+
+Квантовые компьютеры пока проигрывают классическим не из-за нехватки идей для алгоритмов, а из-за того, что кубиты слишком быстро «забывают» своё состояние. Каждый метод, который добавляет кубиту лишние доли секунды устойчивости, — это не громкий прорыв, а один из кирпичей, из которых складывается путь к практически полезным квантовым машинам.
+
+## English version
+
+Harvard physicists have demonstrated a way to protect quantum information using microscopic sound waves, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260911214245.htm). By continuously surrounding a diamond-based qubit with mechanical vibrations, they extended its coherence time by roughly threefold.
+
+Coherence time is how long a qubit can actually hold its quantum state before random environmental noise destroys it. It's one of the central practical problems in quantum computing: the faster a state collapses, the fewer operations a quantum computer can run before the result becomes meaningless. A threefold increase isn't a revolution, but it's a meaningful practical gain for this particular qubit platform.
+
+Using sound rather than electromagnetic fields is interesting because mechanical vibrations are a separate physical channel that can be tuned independently of how the qubit is read out and controlled. If the approach scales beyond a lab experiment, it could become one more tool in the kit for protecting qubits from decoherence, alongside cooling, shielding, and error correction.
+
+### Why it matters
+
+Quantum computers currently lag classical ones not for lack of algorithm ideas but because qubits forget their state too quickly. Every method that buys a qubit extra fractions of a second of stability isn't a headline-grabbing breakthrough on its own — it's one more brick in the path toward practically useful quantum machines.
+
+
+----- 12-coronary-calcium-scan-study (science) — source: https://www.sciencedaily.com/releases/2026/09/260911214254.htm -----
+
+## Русская версия
+
+Десятилетнее исследование с участием более 6000 взрослых показало, что популярные скрининговые тесты на коронарный кальций мало что добавляют к стандартным оценкам риска сердечных заболеваний для большинства людей, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260911214254.htm). Но для пациентов с пограничным или средним риском такие сканирования могут иметь значение: они помогают понять, кто из этой группы реально находится в опасности.
+
+Кальциевый скрининг — тест, который ищет отложения кальция в стенках коронарных артерий, и его часто продают как универсальный «дополнительный» способ узнать о состоянии сердца, даже если стандартные факторы риска — холестерин, давление, возраст, курение — не показывают ничего тревожного. Результаты десятилетнего наблюдения говорят о более скромной картине: для человека с явно низким или явно высоким риском сканирование почти не меняет клиническую тактику, потому что она и так была бы одинаковой.
+
+Ценность теста сосредоточена в узкой, но клинически важной группе — тех, чей риск по стандартным шкалам «непонятный». Именно там дополнительная информация о реальных кальциевых отложениях помогает врачу и пациенту принять более обоснованное решение о лечении, а не действовать вслепую в диапазоне неопределённости.
+
+### Почему это важно
+
+Медицинский скрининг с эффектным изображением («вот ваши артерии») продаётся легче, чем скрининг с оговоркой «поможет не всем». Десятилетние данные — редкая роскошь в кардиологии, и они говорят прямо: тратить ресурсы системы здравоохранения на кальциевые сканирования стоит не поголовно, а именно там, где стандартные оценки риска реально не дают ответа.
+
+## English version
+
+A 10-year study of more than 6,000 adults found that popular coronary calcium scans may add little to standard heart disease risk estimates for many people, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260911214254.htm). But for patients with borderline or intermediate risk, the scans could make a meaningful difference by revealing who is actually at risk within that group.
+
+Calcium scoring looks for calcium deposits in the walls of the coronary arteries, and it's often marketed as a universal "extra" way to check on heart health even when standard risk factors — cholesterol, blood pressure, age, smoking — don't raise flags. The decade of follow-up data paints a more modest picture: for someone with clearly low or clearly high risk, the scan barely changes clinical decisions, because those decisions would have been the same either way.
+
+The test's value concentrates in a narrow but clinically important group — people whose risk under standard scoring is ambiguous. That's exactly where extra information about actual calcium buildup helps a doctor and patient make a better-grounded treatment decision instead of acting blind inside a zone of uncertainty.
+
+### Why it matters
+
+A medical screening test with a dramatic image ("here are your arteries") sells more easily than one that comes with the caveat "helps some people, not everyone." Ten-year data is a rare luxury in cardiology, and it says plainly: health systems should spend on calcium scans not across the board but specifically where standard risk estimates genuinely fail to give an answer.
+
+
+----- 13-wordle-shannon-entropy-strategy (science) — source: https://www.sciencedaily.com/releases/2026/09/260911204910.htm -----
+
+## Русская версия
+
+Исследователи из Бингемтонского университета разработали математическую стратегию, которая решает головоломку Wordle с успехом в 99% случаев, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260911204910.htm). Вместо того чтобы просто угадывать слова с частыми буквами или выбирать самый вероятный ответ, метод использует энтропию Шеннона — меру из теории информации.
+
+Большинство игроков в Wordle интуитивно тянутся к словам вроде «adieu» или «arise» — там много гласных и частых согласных, и кажется логичным начинать именно с них. Но «интуитивно удобное» слово не обязательно самое информативное. Энтропия Шеннона в этом контексте измеряет, сколько в принципе неопределённости снимает конкретная попытка: слово выбирается не по тому, насколько «типичны» его буквы, а по тому, насколько сильно результат подсказки — какие буквы угаданы, какие есть не на своём месте, а каких нет вовсе — сужает пространство оставшихся возможных ответов.
+
+Разница между «угадать частые буквы» и «максимизировать информацию» звучит как тонкость, но именно она превращает игру в отдельную задачу теории информации — ту же самую математику, которая лежит в основе сжатия данных и помехоустойчивого кодирования, только применённую к пятибуквенному слову дня.
+
+### Почему это важно
+
+Это не первая попытка «решить» Wordle математически, но 99% успеха — заметный результат для игры с элементом случайности в выборе слова дня. И это хороший повод вспомнить: за внешне бытовыми головоломками часто прячется настоящая теория информации, а не просто повод для утреннего кофе и разговоров в чате.
+
+## English version
+
+Researchers at Binghamton University have developed a mathematical strategy that solves Wordle with a 99% success rate, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260911204910.htm). Instead of simply guessing words packed with common letters or picking the most likely answer, the method uses Shannon entropy, a measure from information theory.
+
+Most Wordle players instinctively reach for words like "adieu" or "arise" — full of vowels and frequent consonants, which feels like a logical way to start. But the "intuitively convenient" word isn't necessarily the most informative one. Shannon entropy, in this context, measures how much uncertainty a given guess actually removes: a word gets picked not for how "typical" its letters are, but for how sharply the feedback it produces — which letters are right, which are misplaced, which aren't in the word at all — narrows down the remaining space of possible answers.
+
+The difference between "guess common letters" and "maximize information" sounds like a nuance, but it's exactly what turns the game into its own information-theory problem — the same math underlying data compression and error-correcting codes, applied here to a five-letter word of the day.
+
+### Why it matters
+
+This isn't the first attempt to "solve" Wordle mathematically, but a 99% success rate is a notable result for a game that has an element of randomness in which word shows up each day. It's also a good reminder that a seemingly casual daily puzzle can hide genuine information theory, not just an excuse for morning coffee and group-chat bragging.
+
+
+----- 14-protective-magic-homes-history (culture) — source: https://phys.org/news/2026-09-ways-people-magic-homes-history.html -----
+
+## Русская версия
+
+Практически все культуры и эпохи «искрят» магией — это, как пишет [phys.org](https://phys.org/news/2026-09-ways-people-magic-homes-history.html), можно назвать секретным ингредиентом человеческой жизни: магия принимает множество форм и служит множеству функций. Среди самых устойчивых — попытки защитить именно дом: конкретное, обжитое пространство, которое хочется уберечь от беды.
+
+Один из известных примеров — «бутылки ведьм» (witch bottles): сосуды, которые закапывали у порога или замуровывали в стену дома, наполняя их предметами, которые, по поверью, должны были ловить или отражать вредоносную магию, направленную на хозяев. Другой пример — «камни-обереги» (hag stones): камни с естественным сквозным отверстием, которые вешали у входа или над кроватью, веря, что дыра в камне не даёт злым духам и ночным кошмарам подобраться к спящим.
+
+Что объединяет эти практики — не конкретный набор предметов, а сама логика: порог дома воспринимается как уязвимая граница между «своим» безопасным пространством и внешним миром, откуда может прийти опасность, и эту границу пытаются укрепить не только замком, но и символическим действием. Эта логика удивительно живуча: она пережила смену религий, технологий строительства и представлений о том, что вообще может угрожать дому.
+
+### Почему это важно
+
+Разговор о «магии в старых домах» легко свести к суеверному курьёзу, но за ним стоит вполне современный психологический механизм: желание контролировать риск в пространстве, где контроль на самом деле ограничен. Замурованная в стену бутылка или камень с дыркой — это ритуал, который снижает тревогу не хуже некоторых современных практик, просто без опоры на физику или химию.
+
+## English version
+
+Virtually every culture and era fizzes with magic, phys.org notes in [a piece](https://phys.org/news/2026-09-ways-people-magic-homes-history.html) that calls it something like a secret ingredient of human life — magic takes many forms and serves many functions. Among the most persistent uses is protecting the home specifically: a concrete, lived-in space people want to shield from harm.
+
+One well-known example is the witch bottle: a vessel buried near a doorstep or built into a wall, filled with objects believed to trap or deflect harmful magic aimed at the household. Another is the hag stone: a stone with a naturally occurring hole through it, hung by an entrance or over a bed in the belief that the hole kept evil spirits and nightmares away from sleepers.
+
+What unites these practices isn't the specific objects but the underlying logic: a home's threshold is treated as a vulnerable boundary between a safe "inside" and an outside world that could bring danger, and people try to reinforce that boundary with symbolic action as well as a lock. That logic has proven remarkably durable, surviving changes in religion, building technology, and ideas about what actually threatens a home.
+
+### Why it matters
+
+It's easy to file "magic in old houses" away as a superstitious curiosity, but underneath it is a thoroughly modern psychological mechanism: the desire to control risk in a space where control is genuinely limited. A bottle bricked into a wall or a stone with a hole in it is a ritual that eases anxiety about as effectively as some present-day practices — it just doesn't lean on physics or chemistry to do it.
+
+
 ===== EDITION 10 — 2026-09-12 =====
 
 ## От редакции

@@ -19,6 +19,13 @@
 - **[ИИ]** [Альтман назвал IPO OpenAI в 2026 году «плохо продуманным» — но не отказался от него навсегда](editions/2026/09-13/05-altman-openai-ipo-ill-advised.md)
 - **[Культура]** [Bon Iver написал джингл для бара в Миннесоте — про панировочные палочки из фарша](editions/2026/09-13/06-bon-iver-meatloaf-jingle.md)
 - **[Технологии]** [Как OpenAI выдерживает миллиард пользователей ChatGPT и 22 миллиона запросов в секунду](editions/2026/09-13/07-openai-storage-scaling-billion-users.md)
+- **[Мир]** [Ирак изъял площадку, с которой запустили дрон по саудовскому нефтепроводу](editions/2026/09-13/08-iraq-saudi-pipeline-drone-platform.md)
+- **[Технологии]** [Умер один из создателей ALOHAnet — сети, без которой не было бы ни Wi-Fi, ни Ethernet](editions/2026/09-13/09-aloha-net-frank-kuo-obituary.md)
+- **[Мир]** [Впервые в истории США суд по делам «иностранных террористов» депортировал человека](editions/2026/09-13/10-alien-terrorist-removal-court-first-case.md)
+- **[Наука]** [Звуковые волны продлили жизнь квантового кубита втрое](editions/2026/09-13/11-quantum-qubit-sound-waves-coherence.md)
+- **[Наука]** [Десятилетнее исследование: кальциевый скрининг сердца полезен не всем подряд](editions/2026/09-13/12-coronary-calcium-scan-study.md)
+- **[Наука]** [Математики нашли стратегию для Wordle, побеждающую в 99% случаев](editions/2026/09-13/13-wordle-shannon-entropy-strategy.md)
+- **[Культура]** [От бутылок ведьм до «камней-оберегов»: как люди защищали дома магией](editions/2026/09-13/14-protective-magic-homes-history.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
