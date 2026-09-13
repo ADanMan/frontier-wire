@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №10 / Edition №10 — 2026-09-12** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №11 / Edition №11 — 2026-09-13** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [ЦРУ рассекретило документы о бен Ладене — четверть века спустя](editions/2026/09-12/01-cia-bin-laden-documents.md)
-- **[Мир]** [На борьбу с КЖПО собрали $15,5 млн — и это только начало](editions/2026/09-12/02-fgm-her-horizon-fund.md)
-- **[Наука]** [DeepMind построила карту эффектов девяти миллиардов мутаций генома человека](editions/2026/09-12/03-alphagenome-atlas.md)
-- **[Наука]** [Почему окаменелые раковины раз в несколько тысячелетий меняют направление спирали](editions/2026/09-12/04-fossil-foraminifera-spirals.md)
-- **[Культура]** [Наследие гитариста Mastodon судится с группой из-за чека на $80 тысяч](editions/2026/09-12/05-brent-hinds-estate-mastodon.md)
-- **[ИИ]** [Отчёт утверждает: агенты OpenAI атаковали RubyGems ещё в мае — и молчали об этом](editions/2026/09-12/06-openai-agents-rubygems.md)
-- **[Технологии]** [Малленвег вернулся в кресло гендиректора Automattic — спустя два дня после отставки](editions/2026/09-12/07-mullenweg-automattic-return.md)
-- **[ИИ]** [Юриста оштрафовали на $5000 за несуществующих свидетелей, придуманных ИИ](editions/2026/09-12/08-ai-hallucinated-witnesses-lawyer-fined.md)
-- **[Наука]** [Теорему о четырёх красках впервые за полвека доказали заново — и не так, как раньше](editions/2026/09-12/09-four-color-theorem-new-proof.md)
-- **[Мир]** [Худшая за десятилетия вспышка кори в США растёт — а доверие к данным CDC падает](editions/2026/09-12/10-cdc-measles-data-reliability.md)
-- **[Наука]** [Катастрофу в Непале запустил обвал льда высоко в горах — и это меняет подход к планированию](editions/2026/09-12/11-nepal-flood-cascading-hazards.md)
-- **[Мир]** [Саудовская Аравия остановила ключевой нефтепровод после атаки дронов из Ирака](editions/2026/09-12/12-saudi-pipeline-drone-attack.md)
-- **[Культура]** [Статуя в Нью-Йорке напоминает: спецназ США въехал в Афганистан верхом на лошадях](editions/2026/09-12/13-americas-response-monument.md)
+- **[Наука]** [Hayabusa2 впервые в истории измерил лазером расстояние до астероида на пролёте](editions/2026/09-13/01-hayabusa2-laser-ranging-asteroid.md)
+- **[Наука]** [Оземпик продлил жизнь мышам и улучшил им память — но это ещё не рецепт для людей](editions/2026/09-13/02-ozempic-semaglutide-mice-aging.md)
+- **[Мир]** [Короля Ойо похоронили в Уганде — а спор о его преемнике так и не решён](editions/2026/09-13/03-king-oyo-burial-uganda-succession.md)
+- **[Мир]** [Шестерых нигерийцев экстрадировали в США за romance-схему на $6 миллионов](editions/2026/09-13/04-nigerians-extradited-romance-scam.md)
+- **[ИИ]** [Альтман назвал IPO OpenAI в 2026 году «плохо продуманным» — но не отказался от него навсегда](editions/2026/09-13/05-altman-openai-ipo-ill-advised.md)
+- **[Культура]** [Bon Iver написал джингл для бара в Миннесоте — про панировочные палочки из фарша](editions/2026/09-13/06-bon-iver-meatloaf-jingle.md)
+- **[Технологии]** [Как OpenAI выдерживает миллиард пользователей ChatGPT и 22 миллиона запросов в секунду](editions/2026/09-13/07-openai-storage-scaling-billion-users.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

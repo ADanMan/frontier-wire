@@ -2,6 +2,230 @@
 
 
 
+===== EDITION 11 — 2026-09-13 =====
+
+## От редакции
+
+Hayabusa2 в очередной раз напомнил, что японская космическая программа умеет удивлять без громких пресс-релизов: японский зонд впервые в истории провёл лазерный замер дальности во время пролёта астероида. Столь же тихо, но заметно движется остальной мир: в Уганде наконец похоронили короля Ойо на фоне неутихающего спора о престолонаследии, а шестерых нигерийцев экстрадировали в США за romance-мошенничество на $6 миллионов. В науке — мыши, которым семаглутид продлил жизнь и улучшил память, в бизнесе — Сэм Альтман объясняет, почему IPO OpenAI пока «плохая идея», а в инфраструктуре — история о том, как выдержать миллиард пользователей ChatGPT. И немного музыки: Bon Iver написал джингл про панировочные палочки для бара в Миннесоте.
+
+## Editorial
+
+Hayabusa2 quietly reminded everyone that Japan's space program doesn't need a big press release to pull off something new: the probe just completed the first-ever laser-ranging experiment during an asteroid flyby. The rest of the world moved just as quietly but just as visibly — Uganda finally buried King Oyo amid an unresolved succession fight, and six Nigerian nationals were extradited to the US over a $6 million romance-scam operation. In science, mice on semaglutide lived longer and had sharper memories; in business, Sam Altman explains why an OpenAI IPO is still a bad idea; and in infrastructure, there's a story about keeping a billion ChatGPT users online. And a bit of music: Bon Iver wrote a jingle about breaded meatloaf sticks for a bar in Minnesota.
+
+
+----- 01-hayabusa2-laser-ranging-asteroid (science) — source: https://phys.org/news/2026-09-japan-hayabusa2-laser-ranging-asteroid.html -----
+
+## Русская версия
+
+Японский зонд Hayabusa2 в воскресенье, 5 июля, провёл первый в истории космических агентств успешный эксперимент по лазерному дальнометрированию астероида во время пролёта, [сообщает Phys.org](https://phys.org/news/2026-09-japan-hayabusa2-laser-ranging-asteroid.html) со ссылкой на японское космическое агентство JAXA. Целью стал астероид Torifune — аппарат прошёл мимо него на скорости пролётной траектории и при этом сумел зафиксировать расстояние лазерным лучом, а не только оптикой, как обычно делают миссии подобного рода.
+
+Сам факт того, что Hayabusa2 вообще всё ещё летает и ставит рекорды, — часть истории. Основную миссию зонд выполнил ещё несколько лет назад: он долетел до астероида Рюгу, взял с него образцы грунта и в 2020 году сбросил капсулу с этими образцами на Землю. После этого JAXA не стала списывать аппарат, а отправила его в расширенную миссию к другим малым телам Солнечной системы — и вот теперь он занят экспериментами, которые изначально не были частью плана.
+
+Лазерное дальнометрирование во время пролёта — не то же самое, что зависание рядом с объектом: у зонда нет времени зайти на орбиту, скорректировать положение и не спеша откалибровать приборы, всё нужно успеть на скорости. Именно поэтому, судя по формулировке JAXA, это называют первым успешным случаем подобного рода среди космических агентств — раньше такое либо не пытались делать на пролётной скорости, либо не получалось.
+
+Что именно эксперимент даёт науке — насколько точнее лазерный замер оптических методов и как это изменит будущие пролётные миссии — в доступном материале не раскрывается, и здесь стоит воздержаться от домыслов: подтверждённый факт — успешный тест метода на реальном астероиде, а не готовая методика для всех будущих миссий.
+
+### Почему это важно
+
+Каждый удачный «побочный» эксперимент старого зонда снижает стоимость будущих миссий: если лазерное дальнометрирование можно надёжно проводить на скорости пролёта, планировщикам не придётся закладывать в проект дорогое и долгое сближение с объектом ради того же результата.
+
+## English version
+
+On Sunday, July 5, Japan's Hayabusa2 spacecraft carried out what JAXA describes as the first successful laser-ranging experiment during an asteroid flyby by any space agency, [Phys.org reports](https://phys.org/news/2026-09-japan-hayabusa2-laser-ranging-asteroid.html). The target was asteroid Torifune: the probe swept past it at flyby speed and still managed to measure the distance with a laser beam rather than relying only on optical tracking, as flyby missions typically do.
+
+The fact that Hayabusa2 is still flying and setting records at all is part of the story. The probe completed its original mission years ago — it reached asteroid Ryugu, collected surface samples, and dropped a return capsule with that material on Earth back in 2020. Rather than retire the spacecraft afterward, JAXA sent it on an extended mission toward other small Solar System bodies, and it's now racking up experiments that were never part of the original plan.
+
+Laser ranging during a flyby is a different problem from doing it while parked near an object: there's no time to settle into orbit, adjust attitude, and calibrate instruments at leisure — everything has to happen at speed. That's presumably why JAXA is framing this as a first for space agencies rather than a routine measurement: either nobody had tried it at flyby velocity before, or earlier attempts hadn't succeeded.
+
+What exactly the experiment adds scientifically — how much more precise laser ranging is than optical methods, and how it might change the design of future flyby missions — isn't spelled out in what's available, and it's worth not over-reading that gap: the confirmed fact is a successful test of the method on a real asteroid, not a finished technique ready for every future mission.
+
+### Why it matters
+
+Every successful "bonus" experiment an aging probe pulls off lowers the cost of future missions: if laser ranging can be done reliably at flyby speed, mission planners won't need to budget for an expensive, lengthy rendezvous just to get the same measurement.
+
+
+----- 02-ozempic-semaglutide-mice-aging (science) — source: https://www.sciencedaily.com/releases/2026/09/260911214238.htm -----
+
+## Русская версия
+
+Семаглутид — действующее вещество Оземпика и Вегови — помог пожилым здоровым мышам жить дольше, одновременно улучшив им память, работу мышц и контроль сахара в крови, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260911214238.htm). По данным исследования, эффект препарата на несколько биологических признаков старения оказался заметнее, чем у классического ограничения калорий — золотого стандарта в экспериментах по продлению жизни грызунов.
+
+Это важная деталь: калорийное ограничение десятилетиями остаётся самым надёжным способом продлить жизнь мышам в лаборатории, и любой препарат, который его обгоняет хотя бы по части параметров, автоматически становится кандидатом на куда более пристальное изучение. Авторы работы осторожно формулируют вывод — не «семаглутид продлевает жизнь», а «эффекты вещества выходят за рамки того, что даёт ограничение калорий», и это намекает на отдельный от простого похудения биологический механизм, через который работают препараты класса агонистов GLP-1.
+
+Здесь стоит держать в голове масштаб доказательств: речь о здоровых пожилых мышах, а не о людях с диабетом или ожирением, для которых препарат изначально разрабатывался и одобрялся. Перенос результатов с грызунов на людей в геронтологии — одна из самых частых причин, почему многообещающие лабораторные находки годами не превращаются в клинические рекомендации: у мышей и людей разная скорость метаболизма, разная продолжительность жизни и разная чувствительность к дозам.
+
+Тем не менее сам факт, что широко используемый и уже одобренный препарат демонстрирует множественные эффекты против старения — не только вес, но и память, мышцы, метаболизм, — резко упрощает дальнейшие исследования: не нужно с нуля разрабатывать новую молекулу, можно почти сразу переходить к вопросу «а что она делает помимо контроля веса».
+
+### Почему это важно
+
+Если независимые исследования подтвердят, что GLP-1-препараты замедляют старение отдельно от похудения, миллионы людей, уже принимающих Оземпик или Вегови по назначению врача, окажутся невольными участниками крупнейшего в истории эксперимента по продлению жизни человека.
+
+## English version
+
+Semaglutide — the active ingredient in Ozempic and Wegovy — helped older, healthy mice live longer while also improving their memory, muscle function, and blood sugar control, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260911214238.htm). According to the study, the drug's effect on several biological markers of aging went beyond what calorie restriction produces — the long-standing gold standard for extending lifespan in lab rodents.
+
+That detail matters: calorie restriction has for decades been the most reliable way to extend a mouse's life in a lab, so any drug that outperforms it on even some measures immediately becomes a candidate for much closer scrutiny. The researchers are careful in how they frame the result — not "semaglutide extends life" but that the compound's effects go beyond what calorie restriction alone delivers — which points toward a biological mechanism separate from simple weight loss for how GLP-1 drugs work.
+
+It's worth keeping the scope of the evidence in view: this is healthy, older mice, not people with diabetes or obesity, the population the drug was originally developed and approved for. Translating geroscience findings from rodents to humans is one of the most common reasons promising lab results take years, if they ever, to become clinical recommendations — mice and people differ in metabolic rate, lifespan, and dose sensitivity.
+
+Still, the fact that a widely used, already-approved drug shows multiple anti-aging effects — not just on weight, but on memory, muscle, and metabolism — sharply simplifies further research: there's no need to develop a new molecule from scratch, and researchers can move almost straight to asking what else the drug does beyond weight control.
+
+### Why it matters
+
+If independent studies confirm that GLP-1 drugs slow aging separately from weight loss, the millions of people already taking Ozempic or Wegovy on a doctor's prescription would turn out to be unwitting participants in the largest human longevity experiment in history.
+
+
+----- 03-king-oyo-burial-uganda-succession (world) — source: https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda -----
+
+## Русская версия
+
+Короля угандийского королевства Торо Ойо Ньимбу Кабамбу Игуру Рукиди IV похоронили среди гробниц его предков в городе Форт-Портал, [пишет The Guardian](https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda). Церемонию сопровождали королевские гвардейцы, пронёсшие гроб по улицам города, — но похороны прошли на фоне незатихающего скандала вокруг назначения его преемника, Эдварда Рукиди Киджанангомы.
+
+Это не рядовые королевские похороны: Ойо долгие годы носил титул самого молодого монарха в мире, взойдя на трон ещё ребёнком, и его смерть открыла вопрос престолонаследия, который семья короля, судя по предыдущим сообщениям, приняла далеко не единогласно. Комитет, отвечавший за выбор преемника, остановился на кандидатуре двоюродного брата и телеведущего — решение, которое, как ранее сообщалось, родственники покойного короля оспаривали, указывая на другого претендента.
+
+Королевство Торо — одно из нескольких традиционных монархий, сохранившихся в современной Уганде на правах культурных, а не государственных институтов: угандийская конституция признаёт такие королевства, но их власть не имеет юридической силы в масштабах страны. Именно поэтому подобные споры о престолонаследии не превращаются в конституционный кризис, но остаются крайне значимыми внутри самих сообществ, для которых монархия — это живая часть идентичности, а не музейный экспонат.
+
+То, что похороны прошли, не означает, что спор исчерпан: церемония закрывает один этап истории, но не отвечает на вопрос, кто в итоге унаследует трон и как семья короля отреагирует на итоговое решение комитета.
+
+### Почему это важно
+
+Похороны короля Ойо в очередной раз показывают: в Уганде традиционные монархии остаются мощным источником общественного внимания и локальной легитимности — и споры вокруг них способны надолго пережить сами похороны.
+
+## English version
+
+King Oyo Nyimba Kabamba Iguru Rukidi IV of Uganda's Tooro kingdom has been buried among the tombs of his royal forebears in Fort Portal, [The Guardian reports](https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda). Royal guards carried his casket through the streets of the city — but the funeral took place against the backdrop of an unresolved public dispute over the choice of his successor, Edward Rukidi Kijanangoma.
+
+This was no ordinary royal funeral: Oyo held the title of the world's youngest monarch for years after ascending the throne as a child, and his death opened a succession question that, by earlier accounts, his own family did not accept unanimously. The committee tasked with selecting a successor settled on a cousin and television presenter — a decision that relatives of the late king had reportedly contested, pointing to a different claimant.
+
+Tooro is one of several traditional kingdoms that survive in modern Uganda as cultural rather than governmental institutions: the country's constitution recognizes such kingdoms, but their authority carries no legal weight at the national level. That's precisely why succession disputes like this one don't escalate into a constitutional crisis, yet remain intensely significant within the communities themselves, for whom the monarchy is a living part of identity rather than a ceremonial relic.
+
+The fact that the burial has now taken place doesn't mean the dispute is settled: the ceremony closes one chapter of the story, but doesn't answer who ultimately inherits the throne or how the king's family will respond to the committee's final decision.
+
+### Why it matters
+
+King Oyo's funeral is another reminder that Uganda's traditional kingdoms remain a powerful source of public attention and local legitimacy — and that disputes surrounding them can easily outlast the funeral itself.
+
+
+----- 04-nigerians-extradited-romance-scam (world) — source: https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams -----
+
+## Русская версия
+
+Шесть граждан Нигерии, которых власти США связывают с криминальной сетью Black Axe, экстрадировали из ЮАР в Соединённые Штаты по обвинению в мошенничестве, обманом выманившем у американских женщин более $6 млн через фальшивые романтические отношения в интернете, [сообщает The Guardian](https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams). Схема строилась вокруг классического romance scam: жертв убеждали в серьёзности отношений, которые существовали только онлайн, а затем под разными предлогами вытягивали деньги.
+
+Black Axe — не локальная банда одиночек, а давно известная транснациональная преступная организация нигерийского происхождения, которую западные правоохранительные органы годами связывают с финансовым мошенничеством, отмыванием денег и киберпреступностью далеко за пределами Нигерии — в том числе в Южной Африке, откуда и была проведена экстрадиция. Именно трансграничный характер таких сетей превращает расследование romance scam из истории про одну обманутую жертву в дело о международной организованной преступности.
+
+Экстрадиция из третьей страны, а не напрямую из Нигерии, — деталь, которая показывает, насколько распределённой стала подобная преступность: обвиняемые могут годами жить и действовать в одной стране, обманывая жертв в другой, пока сотрудничество правоохранителей нескольких юрисдикций не сведёт эти нити воедино.
+
+Сумма в $6 млн — по меркам romance scam значительная, но не рекордная: подобные схемы годами остаются одним из самых недооценённых видов мошенничества именно потому, что жертвы часто стесняются заявлять о том, что их обманули под видом романтических отношений, и реальный ущерб от таких сетей систематически занижается в статистике.
+
+### Почему это важно
+
+Дело против шести обвиняемых — редкий случай, когда следствие смогло довести romance scam до экстрадиции и суда, а не до тихо закрытого дела: большинство жертв подобных схем никогда не увидят ни своих денег, ни привлечения виновных к ответственности.
+
+## English version
+
+Six Nigerian nationals whom US authorities link to the Black Axe criminal network have been extradited from South Africa to the United States on charges of defrauding American women out of more than $6 million through fake online romantic relationships, [The Guardian reports](https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams). The scheme followed the classic romance-scam pattern: victims were convinced their online-only relationships were genuine, then pressured for money under various pretexts.
+
+Black Axe isn't a small local gang — it's a long-documented transnational criminal organization of Nigerian origin that Western law enforcement has tied for years to financial fraud, money laundering, and cybercrime well beyond Nigeria's borders, including in South Africa, where this extradition originated. That cross-border reach is what turns a romance-scam investigation from a story about one deceived victim into a case about international organized crime.
+
+The fact that the extradition came from a third country rather than directly from Nigeria illustrates how distributed this kind of crime has become: defendants can live and operate in one country for years while defrauding victims in another, until cooperation between multiple law-enforcement jurisdictions finally connects the threads.
+
+At $6 million, the sum is significant by romance-scam standards but not a record — these schemes remain one of the most underreported forms of fraud precisely because victims are often too embarrassed to report being deceived under the guise of a romantic relationship, and the real scale of damage from such networks is systematically undercounted.
+
+### Why it matters
+
+The case against these six defendants is a rare instance where a romance-scam investigation actually led to extradition and prosecution rather than a quietly closed file: most victims of these schemes never see their money again or see anyone held accountable.
+
+
+----- 05-altman-openai-ipo-ill-advised (ai) — source: https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised -----
+
+## Русская версия
+
+Гендиректор OpenAI Сэм Альтман подтвердил в интервью Fortune, что публичного размещения акций компании в 2026 году не будет, назвав саму идею IPO в этом году «плохо продуманной» (ill-advised), [пишет The Verge](https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised). Разговор продлился 45 минут и, помимо темы IPO, коснулся хакерского инцидента вокруг Hugging Face и рекурсивного самоулучшения ИИ.
+
+Формулировка «плохо продуманное» — это не то же самое, что «никогда»: Альтман давно и открыто говорит, что IPO OpenAI рассматривается как вероятный будущий шаг, но именно сейчас, по его логике, компании это не нужно. У OpenAI достаточно капитала и доступа к частным инвесторам, чтобы финансировать дорогостоящее развитие моделей без публичного рынка, — а выход на биржу приносит не только деньги, но и требования к квартальной отчётности, публичность решений и давление акционеров, которые плохо сочетаются с темпом, в котором компания меняет продукты и стратегию.
+
+Упоминание инцидента с Hugging Face в том же интервью — не случайность: разговоры о публичности компании и о безопасности ИИ-инфраструктуры в последние недели идут параллельно, и Альтман явно не пытается их разделять. Тема «рекурсивного самоулучшения» — то есть способности ИИ-систем совершенствовать сами себя без прямого участия человека — тоже поднимается не в вакууме, а на фоне растущего внимания к тому, что делают автономные агенты OpenAI без присмотра.
+
+Стоит отметить: сам факт того, что гендиректор крупнейшей ИИ-компании отдельно объясняет журналистам, почему IPO — это «плохая идея именно сейчас», говорит о том, что вопрос об IPO уже воспринимается как «когда», а не «если» — иначе не было бы смысла так подробно аргументировать отсрочку.
+
+### Почему это важно
+
+Пока лидер рынка ИИ демонстративно отказывается от IPO, ссылаясь на риски поспешности, это задаёт тон всей отрасли — конкурентам сложнее торопиться на биржу, не выглядя менее осторожными, чем компания, которая формально ничего не обязана никому объяснять.
+
+## English version
+
+OpenAI CEO Sam Altman confirmed in an interview with Fortune that there will be no OpenAI IPO in 2026, calling the idea of going public this year "ill-advised," [The Verge reports](https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised). The 45-minute conversation also touched on the Hugging Face hacking incident and recursive self-improvement in AI systems.
+
+"Ill-advised" isn't the same as "never": Altman has long said openly that an IPO is a plausible future step for OpenAI, just not one the company needs right now. OpenAI has enough capital and access to private investors to fund expensive model development without a public listing — and going public brings not just money but quarterly reporting requirements, public scrutiny of decisions, and shareholder pressure that sit awkwardly with the pace at which the company changes products and strategy.
+
+Bringing up the Hugging Face incident in the same interview isn't incidental: conversations about the company's public status and about AI infrastructure security have been running in parallel these past weeks, and Altman clearly isn't trying to keep them separate. The topic of "recursive self-improvement" — AI systems getting better at improving themselves without direct human involvement — also isn't coming up in a vacuum, given rising scrutiny of what OpenAI's autonomous agents have been doing unsupervised.
+
+Worth noting: the very fact that the CEO of the largest AI company is separately explaining to journalists why an IPO is "a bad idea right now" suggests the question is already framed as "when," not "if" — otherwise there would be little reason to argue the delay in such detail.
+
+### Why it matters
+
+While the AI market's leader pointedly turns down an IPO citing the risk of moving too fast, it sets a tone for the whole industry — rivals find it harder to rush toward a listing without looking less cautious than a company that, formally, owes no one an explanation.
+
+
+----- 06-bon-iver-meatloaf-jingle (culture) — source: https://pitchfork.com/story/bon-iver-made-a-jingle-for-a-local-bars-meatloaf-dippers/ -----
+
+## Русская версия
+
+Джастин Вернон, более известный как основатель фолк-проекта Bon Iver, написал и записал джингл в честь meatloaf dippers — панированных палочек из фарша, фирменного блюда бара Howard's в его родном штате Миннесота, [сообщает Pitchfork](https://pitchfork.com/story/bon-iver-made-a-jingle-for-a-local-bars-meatloaf-dippers/). Издание описывает трек как «отлично, пугающе бодрый» — то есть Вернон, судя по всему, подошёл к теме жареного фарша с той же интонационной серьёзностью, с какой обычно поёт про зимнее одиночество и разбитые сердца.
+
+Это не первый случай, когда музыканты уровня Bon Iver делают что-то подчёркнуто локальное и несерьёзное: контраст между статусом артиста, номинировавшегося на «Грэмми» и собиравшего стадионы, и джинглом для регионального бара — часть шутки, но и часть искреннего жеста. Миннесота для Вернона — не просто точка на карте, а место, где он живёт и записывает музыку последние два десятилетия, так что джингл для местного заведения читается скорее как признание в любви к соседям, чем как маркетинговый ход с его стороны.
+
+Howard's Bar, судя по всему, не global-бренд, а локальное заведение — и именно поэтому история цепляет: крупная звезда тратит настоящее студийное время не на рекламный контракт с корпорацией, а на бесплатную (предположительно) поддержку соседской забегаловки. Подробностей о том, будет ли трек официально выпущен как сингл или останется рекламным роликом для местных, в доступном материале нет.
+
+### Почему это важно
+
+Такие истории — небольшое, но показательное напоминание: даже артисты с мировым именем остаются укоренёнными в конкретном месте, и иногда это проявляется не через громкие благотворительные жесты, а через джингл про панировочные палочки для соседнего бара.
+
+## English version
+
+Justin Vernon, best known as the founder of the folk project Bon Iver, wrote and recorded a jingle celebrating meatloaf dippers — breaded ground-meat sticks that are the signature dish at Howard's Bar in his home state of Minnesota, [Pitchfork reports](https://pitchfork.com/story/bon-iver-made-a-jingle-for-a-local-bars-meatloaf-dippers/). The outlet describes the track as "terrifically, terrifyingly jaunty" — suggesting Vernon approached the subject of fried ground beef with roughly the same earnest intensity he usually reserves for winter isolation and heartbreak.
+
+This isn't the first time an artist at Bon Iver's level has done something pointedly local and unserious: the contrast between a Grammy-nominated, stadium-filling musician and a jingle for a regional bar is part of the joke, but also part of a genuine gesture. Minnesota isn't just a point on a map for Vernon — it's where he's lived and recorded music for the past two decades, which makes a jingle for a neighborhood spot read more like a love letter to his community than a marketing move.
+
+Howard's Bar appears to be a local institution rather than a chain, which is part of why the story lands: a major artist is spending actual studio time not on a corporate ad deal but on presumably unpaid support for a neighborhood haunt. What isn't clear from what's available is whether the track will get an official release as a single or stay a local promotional bit.
+
+### Why it matters
+
+Stories like this are a small but telling reminder: even globally known artists stay rooted in a specific place, and sometimes that shows up not through a grand charitable gesture but through a jingle about breaded meatloaf sticks for the bar down the street.
+
+
+----- 07-openai-storage-scaling-billion-users (tech) — source: https://openai.com/index/scaling-storage-one-billion-users-part-one -----
+
+## Русская версия
+
+OpenAI опубликовала инженерный разбор того, как компания довела внутреннюю систему хранения данных под названием Habitat от обычной библиотеки на Python до глобально распределённой платформы, которая сейчас обслуживает более миллиарда пользователей ChatGPT и выдерживает 22 миллиона запросов в секунду, [говорится в блоге компании](https://openai.com/index/scaling-storage-one-billion-users-part-one). Это первая часть серии постов, посвящённой именно инфраструктуре хранения, а не моделям.
+
+Цифра в 22 миллиона запросов в секунду — это не про генерацию текста моделью, а про операции чтения и записи данных: настройки аккаунта, история переписки, метаданные, кеши — всё то, что должно быть готово мгновенно при каждом обращении к продукту, независимо от того, сколько людей одновременно открыли приложение. Именно рост числа пользователей ChatGPT — с миллионов до более чем миллиарда — превратил Habitat из внутреннего инструмента в критическую часть инфраструктуры, отказ которой останавливает продукт целиком.
+
+Путь «от библиотеки к платформе» — узнаваемый паттерн в истории больших технологических компаний: инструмент, написанный для решения локальной задачи одной команды, со временем становится общей зависимостью для десятков систем, и в какой-то момент его приходится переписывать не потому, что он плохо работал, а потому, что нагрузка выросла на порядки быстрее, чем архитектура, рассчитанная на изначальный масштаб.
+
+Пост OpenAI не раскрывает конкретные технические решения — судя по формату «part one», это, скорее, введение в тему перед более подробными постами о конкретных архитектурных решениях. Судить о том, насколько инновационны эти решения, по одному вводному материалу преждевременно.
+
+### Почему это важно
+
+Инфраструктурные посты вроде этого редко попадают в заголовки рядом с анонсами новых моделей, но именно такая «скучная» инженерия хранения данных определяет, будет ли у миллиарда людей рабочий ChatGPT завтра утром или глобальный сбой.
+
+## English version
+
+OpenAI published an engineering write-up describing how the company grew an internal storage system called Habitat from a plain Python library into a globally distributed platform that now serves more than a billion ChatGPT users and handles 22 million requests per second, [according to the company's blog](https://openai.com/index/scaling-storage-one-billion-users-part-one). This is the first installment in a series focused specifically on storage infrastructure rather than models.
+
+The 22-million-requests-per-second figure isn't about the model generating text — it's about data reads and writes: account settings, conversation history, metadata, caches — everything that has to be instantly available on every interaction with the product, regardless of how many people have the app open at once. It's the growth in ChatGPT's user base, from millions to over a billion, that turned Habitat from an internal tool into a critical piece of infrastructure whose failure would stop the entire product.
+
+The "library that grew into a platform" arc is a familiar pattern in the history of large tech companies: a tool built to solve one team's local problem gradually becomes a shared dependency for dozens of systems, and at some point it has to be rebuilt — not because it worked poorly, but because load grew by orders of magnitude faster than an architecture designed for the original scale could handle.
+
+OpenAI's post doesn't get into specific technical decisions — given the "part one" framing, this reads more like an introduction ahead of more detailed posts on the actual architecture. Judging how innovative those decisions are based on a single introductory post would be premature.
+
+### Why it matters
+
+Infrastructure posts like this rarely make headlines next to new model launches, but it's exactly this kind of unglamorous storage engineering that determines whether a billion people have a working ChatGPT tomorrow morning or a global outage.
+
+
 ===== EDITION 10 — 2026-09-12 =====
 
 ## От редакции

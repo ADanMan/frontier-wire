@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как OpenAI выдерживает миллиард пользователей ChatGPT и 22 миллиона запросов в секунду - frontier-wire</title>
+<meta name="description" content="An internal Python library called Habitat grew into a globally distributed platform.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-13/07-openai-storage-scaling-billion-users.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "How OpenAI keeps storage running for a billion ChatGPT users and 22 million requests a second", "alternativeHeadline": "Как OpenAI выдерживает миллиард пользователей ChatGPT и 22 миллиона запросов в секунду", "datePublished": "2026-09-13", "inLanguage": ["ru", "en"], "isBasedOn": "https://openai.com/index/scaling-storage-one-billion-users-part-one", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-13/07-openai-storage-scaling-billion-users.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-09-13 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Как OpenAI выдерживает миллиард пользователей ChatGPT и 22 миллиона запросов в секунду</span><span class="lang-en">How OpenAI keeps storage running for a billion ChatGPT users and 22 million requests a second</span></h1>
+  <p class="dek big"><span class="lang-ru">Внутренняя система Habitat выросла из питоновской библиотеки в глобальную платформу.</span><span class="lang-en">An internal Python library called Habitat grew into a globally distributed platform.</span></p>
+  
+  <div class="prose lang-ru"><p>OpenAI опубликовала инженерный разбор того, как компания довела внутреннюю систему хранения данных под названием Habitat от обычной библиотеки на Python до глобально распределённой платформы, которая сейчас обслуживает более миллиарда пользователей ChatGPT и выдерживает 22 миллиона запросов в секунду, <a href="https://openai.com/index/scaling-storage-one-billion-users-part-one">говорится в блоге компании</a>. Это первая часть серии постов, посвящённой именно инфраструктуре хранения, а не моделям.</p>
+<p>Цифра в 22 миллиона запросов в секунду — это не про генерацию текста моделью, а про операции чтения и записи данных: настройки аккаунта, история переписки, метаданные, кеши — всё то, что должно быть готово мгновенно при каждом обращении к продукту, независимо от того, сколько людей одновременно открыли приложение. Именно рост числа пользователей ChatGPT — с миллионов до более чем миллиарда — превратил Habitat из внутреннего инструмента в критическую часть инфраструктуры, отказ которой останавливает продукт целиком.</p>
+<p>Путь «от библиотеки к платформе» — узнаваемый паттерн в истории больших технологических компаний: инструмент, написанный для решения локальной задачи одной команды, со временем становится общей зависимостью для десятков систем, и в какой-то момент его приходится переписывать не потому, что он плохо работал, а потому, что нагрузка выросла на порядки быстрее, чем архитектура, рассчитанная на изначальный масштаб.</p>
+<p>Пост OpenAI не раскрывает конкретные технические решения — судя по формату «part one», это, скорее, введение в тему перед более подробными постами о конкретных архитектурных решениях. Судить о том, насколько инновационны эти решения, по одному вводному материалу преждевременно.</p>
+<h3>Почему это важно</h3>
+<p>Инфраструктурные посты вроде этого редко попадают в заголовки рядом с анонсами новых моделей, но именно такая «скучная» инженерия хранения данных определяет, будет ли у миллиарда людей рабочий ChatGPT завтра утром или глобальный сбой.</p></div>
+  <div class="prose lang-en"><p>OpenAI published an engineering write-up describing how the company grew an internal storage system called Habitat from a plain Python library into a globally distributed platform that now serves more than a billion ChatGPT users and handles 22 million requests per second, <a href="https://openai.com/index/scaling-storage-one-billion-users-part-one">according to the company's blog</a>. This is the first installment in a series focused specifically on storage infrastructure rather than models.</p>
+<p>The 22-million-requests-per-second figure isn't about the model generating text — it's about data reads and writes: account settings, conversation history, metadata, caches — everything that has to be instantly available on every interaction with the product, regardless of how many people have the app open at once. It's the growth in ChatGPT's user base, from millions to over a billion, that turned Habitat from an internal tool into a critical piece of infrastructure whose failure would stop the entire product.</p>
+<p>The "library that grew into a platform" arc is a familiar pattern in the history of large tech companies: a tool built to solve one team's local problem gradually becomes a shared dependency for dozens of systems, and at some point it has to be rebuilt — not because it worked poorly, but because load grew by orders of magnitude faster than an architecture designed for the original scale could handle.</p>
+<p>OpenAI's post doesn't get into specific technical decisions — given the "part one" framing, this reads more like an introduction ahead of more detailed posts on the actual architecture. Judging how innovative those decisions are based on a single introductory post would be premature.</p>
+<h3>Why it matters</h3>
+<p>Infrastructure posts like this rarely make headlines next to new model launches, but it's exactly this kind of unglamorous storage engineering that determines whether a billion people have a working ChatGPT tomorrow morning or a global outage.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://openai.com/index/scaling-storage-one-billion-users-part-one">https://openai.com/index/scaling-storage-one-billion-users-part-one</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
