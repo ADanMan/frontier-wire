@@ -18,6 +18,12 @@
 - **[Наука]** [У болезни Альцгеймера нашли скрытый слой — в укладке ДНК](editions/2026/09-14/04-alzheimers-genome-3d-layer.md)
 - **[Мир]** [На борьбу с калечащими операциями собрали $15,5 млн из нужных $100 млн](editions/2026/09-14/05-her-horizon-fund-fgm.md)
 - **[Культура]** [Легенды британского панка The Raincoats, X-Ray Spex и The Slits собрались в супергруппу](editions/2026/09-14/06-raincoats-xray-spex-slits-supergroup.md)
+- **[Мир]** [В Турции за выходные задержали 162 человека на рейдах против ЛГБТК+](editions/2026/09-14/07-turkey-lgbtq-raids.md)
+- **[Мир]** [Выборы в Швеции: левый блок вырывается вперёд, крайне правые теряют голоса](editions/2026/09-14/08-sweden-election-left-bloc.md)
+- **[Наука]** [Учёные скрещивают электронный микроскоп с квантовым компьютером](editions/2026/09-14/09-quantum-computer-microscope.md)
+- **[Наука]** [ИИ нашёл в 400 000 постов на Reddit неожиданные побочки Оземпика](editions/2026/09-14/10-ozempic-reddit-side-effects.md)
+- **[Культура]** [Как обычное надгробие в Шропшире стало «могилой Скруджа»](editions/2026/09-14/11-scrooge-gravestone-shropshire.md)
+- **[Культура]** [Lil Durk оправдан по делу о заказном убийстве](editions/2026/09-14/12-lil-durk-acquitted-murder-for-hire.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
