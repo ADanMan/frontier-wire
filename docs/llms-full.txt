@@ -2,6 +2,199 @@
 
 
 
+===== EDITION 12 — 2026-09-14 =====
+
+## От редакции
+
+Unitree сегодня в центре технологического блока: их робот-пёс за $4000 подаёт лапу, но чинить его придётся самому, а параллельно в Вашингтоне Трамп и спикер Джонсон демонстративно отмахнулись от призыва главы Anthropic Дарио Амодеи «притормозить фронтир» ИИ. Опрос физиков показал, что у стандартной космологической модели Вселенной нет большинства сторонников, а учёные нашли ещё один скрытый слой болезни Альцгеймера — в трёхмерной укладке ДНК клеток мозга. Фонд Her Horizon собрал $15,5 млн из требуемых $100 млн на борьбу с калечащими операциями на женских половых органах. А в музыке — неожиданный повод для радости: участницы The Raincoats, X-Ray Spex и The Slits собираются в супергруппу ради одного лондонского фестиваля.
+
+## Editorial
+
+Apple, according to today's rumor mill, is quietly building game controllers for the iPhone — but the real tech story is elsewhere: in Washington, Trump and Speaker Johnson brushed off Anthropic CEO Dario Amodei's call to "pace the frontier" of AI development. A global survey of physicists found that no single cosmological model of the universe commands majority support, while scientists uncovered another hidden layer of Alzheimer's — this time in how DNA folds inside brain cells. The Her Horizon Fund has raised $15.5 million of its $100 million goal to fight female genital mutilation. And in music, an unexpected reunion: members of The Raincoats, X-Ray Spex, and The Slits are forming a supergroup for a London punk festival.
+
+
+----- 01-ai-slowdown-trump-amodei (ai) — source: https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting -----
+
+## Русская версия
+
+Глава Anthropic Дарио Амодеи опубликовал открытое письмо с призывом «притормозить фронтир» — то есть сознательно замедлить темп развития ИИ, пока индустрия не разберётся с рисками. По данным [The Verge](https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting), письмо неожиданно получило поддержку сразу от нескольких людей, которые в других обстоятельствах скорее спорили бы с Anthropic, чем соглашались с ней: Сэм Альтман из OpenAI и Илон Маск публично поддержали идею в X, а глава DeepMind Демис Хассабис высказался осторожнее, но тоже не стал возражать.
+
+Для индустрии, где конкуренты обычно соревнуются в скорости, а не в осторожности, это редкий момент единодушия. Но длился он недолго. В Белом доме идею восприняли скептически: президент Трамп заявил, что тревогу вокруг ИИ раздувают «негативные силы», предсказывающие вещи, которые, по его словам, никогда не случатся. Спикер палаты представителей Майк Джонсон присоединился к этой позиции — оба дали понять, что не считают призыв Амодеи поводом для политических решений.
+
+Забавно, что сама конструкция письма — «давайте темп» вместо «давайте остановимся» — была рассчитана именно на то, чтобы не выглядеть паникёрством и найти общий язык с Вашингтоном. Не сработало: администрация услышала в нём не просьбу об осторожности, а попытку затормозить американское лидерство в гонке с Китаем, и отреагировала соответственно. Показательно и то, что поддержка Амодеи со стороны Альтмана и Маска — людей, чьи компании прямо конкурируют с Anthropic за деньги и таланты, — тоже не была бескорыстной: замедление фронтира одинаково выгодно всем крупным игрокам, если оно применяется ко всем сразу.
+
+Реального механизма, который заставил бы индустрию притормозить, письмо не предлагает — это декларация, а не регуляторная инициатива. Так что дальше всё будет зависеть не от риторики, а от того, решится ли Конгресс хоть на какое-то профильное регулирование в ближайшие месяцы. Пока сигнал из Белого дома простой: пока Вашингтон видит риск отставания сильнее, чем риск самого ИИ.
+
+### Почему это важно
+
+Когда главы крупнейших ИИ-компаний вслух просят их немного притормозить — а политическая власть отвечает «нет», — это редкий и наглядный срез того, кто на самом деле определяет темп технологической гонки: не безопасность, а конкуренция между странами.
+
+## English version
+
+Anthropic CEO Dario Amodei published an open letter calling to "pace the frontier" — a deliberate slowdown of AI development while the industry works through the risks. According to [The Verge](https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting), the letter picked up unexpected support from people who'd normally be sparring with Anthropic rather than agreeing with it: OpenAI's Sam Altman and Elon Musk both publicly backed the idea on X, and DeepMind's Demis Hassabis offered more cautious, but still not dismissive, support.
+
+For an industry that usually competes on speed rather than caution, that's a rare moment of alignment. It didn't last. The White House was unimpressed: President Trump said the anxiety around AI was being stoked by "negative forces" predicting things he says won't happen. House Speaker Mike Johnson echoed the same line — both made clear they don't see Amodei's call as grounds for any policy response.
+
+There's an irony here. The letter's framing — "pace the frontier" rather than "stop the frontier" — was clearly designed to avoid sounding alarmist and to find common ground with Washington. It didn't land that way. The administration read it not as a request for caution but as an attempt to slow down American leadership in the race against China, and responded accordingly. It's also worth noting that Altman's and Musk's support for Amodei wasn't entirely selfless — a slower frontier benefits every major lab equally, as long as it applies to everyone at once, and their companies compete directly with Anthropic for money and talent.
+
+The letter doesn't propose any actual mechanism to force a slowdown — it's a declaration, not a regulatory proposal. What happens next depends less on rhetoric and more on whether Congress moves on any AI-specific legislation in the coming months. For now, the signal from the White House is simple: it sees the risk of falling behind as bigger than the risk of the technology itself.
+
+### Why it matters
+
+When the heads of the biggest AI labs publicly ask to slow down — and the political leadership says no — it's a rare, concrete glimpse of what actually sets the pace of the AI race: not safety concerns, but competition between nations.
+
+
+----- 02-apple-iphone-game-controllers (tech) — source: https://www.theverge.com/tech/994426/apple-iphone-game-controllers -----
+
+## Русская версия
+
+По данным инсайдера Bloomberg Марка Гурмана, на которые ссылается [The Verge](https://www.theverge.com/tech/994426/apple-iphone-game-controllers), Apple разрабатывает два игровых контроллера для iPhone — и, скорее всего, будет продавать их не под своим именем, а под брендом Beats, который компания купила ещё в 2014 году. Слух не новый: разговоры о том, что Apple может выйти на рынок геймпадов, ходят давно, но именно сейчас появилось независимое подтверждение — на прошлой неделе издание MacRumors сообщило, что нашло в системном коде два отдельных упоминания неанонсированных устройств.
+
+Сама по себе идея не выглядит революционной: сторонние контроллеры для iPhone существуют уже несколько лет, с тех пор как Apple добавила в iOS официальную поддержку геймпадов через MFi-программу. Вопрос не «зачем контроллер», а «зачем Apple свой контроллер», если рынок и так закрыт партнёрами вроде Backbone и Razer. Ответ, вероятно, в другом: Beats — это готовый бренд с молодёжной аудиторией и опытом продажи именно аксессуаров, а не техники с чипами Apple внутри. Выпустить геймпад под Beats — это способ протестировать спрос, не привязывая репутацию основного бренда к категории, где Apple раньше не играла всерьёз.
+
+Есть и более прагматичная причина для скепсиса: слухи про экспансию Apple в игровые аксессуары периодически всплывают и глохнут годами, и «два упоминания в коде» — это не то же самое, что готовый продукт на полке. История с Apple Vision Pro и её аксессуарами показывает, что между инсайдом Гурмана и релизом обычно проходит от нескольких месяцев до года, а иногда проект и вовсе отменяется.
+
+### Почему это важно
+
+Если Apple действительно выпустит геймпад под Beats, это будет ещё один шаг к тому, что iPhone окончательно оформляется как игровая платформа — не через собственные консольные амбиции, а через тихую скупку аксессуарного рынка вокруг уже существующих игр.
+
+## English version
+
+According to Bloomberg's Mark Gurman, cited by [The Verge](https://www.theverge.com/tech/994426/apple-iphone-game-controllers), Apple is developing two game controllers for the iPhone — and will likely sell them under the Beats name rather than its own, a brand Apple has owned since 2014. The rumor itself isn't new; talk of Apple entering the controller business has circulated for a while. What's new is independent corroboration: last week, MacRumors reported finding two separate references to unannounced devices in the system code.
+
+The idea itself isn't groundbreaking. Third-party iPhone controllers have existed for years, ever since Apple added official gamepad support to iOS through its MFi program. The real question isn't "why a controller" but "why an Apple-made one," given that companies like Backbone and Razer already serve that market. The likely answer lies in the Beats brand itself — it comes with a built-in younger audience and, crucially, a track record of selling accessories rather than chip-laden hardware. Launching a controller under Beats lets Apple test demand without tying its flagship brand to a category it has never taken seriously before.
+
+There's also a practical reason for skepticism: rumors of Apple expanding into gaming accessories have surfaced and fizzled for years, and "two references in the code" isn't the same as a shipping product. Apple's Vision Pro accessory rollout shows that the gap between a Gurman report and an actual release usually runs from several months to a year — and sometimes the project gets shelved entirely.
+
+### Why it matters
+
+If Apple does ship a Beats-branded controller, it would be another quiet step in the iPhone's transformation into a serious gaming platform — not through Apple's own console ambitions, but by steadily buying into the accessory market around games that already exist.
+
+
+----- 03-physicists-disagree-universe-survey (science) — source: https://www.sciencedaily.com/releases/2026/09/260912220041.htm -----
+
+## Русская версия
+
+Масштабный всемирный опрос физиков показал на удивление мало согласия по поводу того, как устроена Вселенная. Как сообщает [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260912220041.htm), ни один из трёх ключевых вопросов современной физики не набрал поддержки большинства опрошенных: ни стандартная космологическая модель, ни ведущее объяснение тёмной материи, ни какая-либо конкретная теория квантовой гравитации.
+
+Это звучит контринтуитивно, потому что в популярной науке «стандартная модель» и «ведущая теория» обычно преподносятся почти как консенсус — что-то вроде временного факта, который просто ждёт финального экспериментального подтверждения. Опрос показывает другую картину: даже среди профессионалов, которые годами работают именно с этими моделями, нет единого мнения о том, какая из конкурирующих теорий ближе к истине. Это не значит, что физика в кризисе или что все теории одинаково хороши, — это значит, что ярлык «стандартная» описывает скорее самую распространённую рабочую гипотезу, чем доказанный факт.
+
+Для тёмной материи ситуация особенно показательна: у этой загадки десятилетиями существует множество конкурирующих объяснений — от гипотетических частиц до модификации законов гравитации — и ни одно из них так и не стало доминирующим, несмотря на огромные вложенные в поиск ресурсы. То же самое с квантовой гравитацией: попытки объединить квантовую механику с общей теорией относительности идут уже почти сто лет, породили несколько крупных теоретических программ — и ни одна не смогла убедить большинство коллег.
+
+Само по себе отсутствие консенсуса — это не поражение, а нормальное состояние живой науки на переднем крае: там, где эксперимент пока не может однозначно рассудить конкурирующие теории, разногласие честнее фальшивого единства.
+
+### Почему это важно
+
+Опрос — хорошее противоядие от привычки СМИ (и научно-популярных изданий в том числе) описывать передний край физики как почти решённую задачу. На самом деле три главных вопроса о природе Вселенной остаются открытыми даже для тех, кто занимается ими профессионально.
+
+## English version
+
+A large-scale worldwide survey of physicists revealed surprisingly little agreement about how the universe actually works. According to [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260912220041.htm), none of the three biggest open questions in modern physics won majority backing among respondents: not the standard cosmological model, not the leading explanation for dark matter, and not any single theory of quantum gravity.
+
+That's counterintuitive, because popular science usually presents the "standard model" and the "leading theory" as something close to settled fact — a placeholder just waiting for final experimental confirmation. The survey paints a different picture: even among professionals who've spent years working with these exact models, there's no shared view on which of the competing frameworks is closer to correct. That doesn't mean physics is in crisis, or that every theory is equally good — it means the word "standard" describes the most common working hypothesis, not a proven fact.
+
+Dark matter is a particularly telling case: the mystery has had multiple competing explanations for decades, from hypothetical particles to modified gravity, and none of them has become dominant despite enormous resources poured into the search. Quantum gravity tells a similar story — attempts to reconcile quantum mechanics with general relativity have been running for nearly a century, produced several major theoretical programs, and still failed to convince a majority of the field.
+
+The lack of consensus isn't a failure by itself — it's the normal state of science at the edge of what experiments can currently settle. Where evidence can't yet arbitrate between competing theories, honest disagreement beats manufactured unity.
+
+### Why it matters
+
+The survey is a useful corrective to how media — including science outlets — tend to describe the frontier of physics as an almost-solved puzzle. In reality, the three biggest questions about the nature of the universe remain open even to the people who study them for a living.
+
+
+----- 04-alzheimers-genome-3d-layer (science) — source: https://www.sciencedaily.com/releases/2026/09/260912220051.htm -----
+
+## Русская версия
+
+Учёные обнаружили ранее не изученный слой болезни Альцгеймера — не в самих генах, а в том, как ДНК физически уложена внутри клетки. Как пишет [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260912220051.htm), в нескольких типах клеток мозга, поражённых болезнью, нарушается трёхмерная организация ДНК — то, как длинная нить генома складывается и упаковывается внутри ядра клетки. Это, в свою очередь, меняет то, какие гены включаются и выключаются.
+
+Разница между «поломкой в гене» и «поломкой в укладке» принципиальна. Большая часть генетических исследований Альцгеймера последних десятилетий искала конкретные мутации — испорченные буквы в последовательности ДНК. Но геном — это не просто линейный текст, а физический объект: одна и та же последовательность может работать по-разному в зависимости от того, как она свёрнута в трёхмерном пространстве и какие участки при этом физически сближаются друг с другом. Если нарушается именно укладка, то ген может быть абсолютно нормальным по последовательности — и всё равно работать неправильно, потому что регуляторные участки, которые должны его включать или выключать, физически смещены или недоступны.
+
+Это объясняет то, что давно ставило исследователей в тупик: часть случаев Альцгеймера плохо объясняется известными мутациями-виновниками. Если часть проблемы лежит не в тексте генома, а в его пространственной архитектуре, то и стандартные методы поиска, заточенные под последовательность ДНК, эту часть проблемы попросту не видят.
+
+Работа не предлагает готового лечения — это фундаментальное открытие механизма, а не терапия. Но именно такие открытия обычно и определяют, куда пойдут следующие десять лет исследований: если укладка ДНК — реальный фактор болезни, то и мишенями для будущих лекарств могут стать не только гены, но и белки, которые физически поддерживают трёхмерную структуру генома.
+
+### Почему это важно
+
+Открытие добавляет Альцгеймеру ещё один уровень сложности — но именно точность в описании механизма, а не общие слова про «загадочную болезнь», в итоге и приводит к рабочим методам лечения.
+
+## English version
+
+Scientists have identified a previously unexplored layer of Alzheimer's disease — not in the genes themselves, but in how DNA is physically folded inside the cell. According to [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260912220051.htm), several types of brain cells affected by the disease show disrupted 3D organization of DNA — the way the genome's long strand folds and packs itself inside the nucleus. That disruption, in turn, changes which genes get switched on and off.
+
+The distinction between "a broken gene" and "a broken fold" matters. Most Alzheimer's genetics research over recent decades has hunted for specific mutations — corrupted letters in the DNA sequence. But the genome isn't just linear text; it's a physical object, and the same sequence can behave differently depending on how it's folded in three-dimensional space and which regions end up physically close to each other. If the folding itself breaks down, a gene can have a perfectly normal sequence and still malfunction, because the regulatory regions meant to switch it on or off are physically displaced or unreachable.
+
+That helps explain something that has long puzzled researchers: a portion of Alzheimer's cases isn't well explained by the known culprit mutations. If part of the problem lies not in the genome's text but in its spatial architecture, then standard sequence-focused search methods simply can't see that part of the picture.
+
+The study doesn't hand over a treatment — it's a mechanistic discovery, not a therapy. But findings like this are usually what shapes the next decade of research: if DNA folding is a real driver of the disease, future drug targets could include not just genes but the proteins that physically maintain the genome's 3D structure.
+
+### Why it matters
+
+The discovery adds another layer of complexity to Alzheimer's — but precise descriptions of mechanism, not vague talk of a "mysterious disease," are what eventually lead to treatments that actually work.
+
+
+----- 05-her-horizon-fund-fgm (world) — source: https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide -----
+
+## Русская версия
+
+Новый фонд Her Horizon объявил о сборе $15,5 млн (около £11,4 млн) на борьбу с калечащими операциями на женских половых органах (female genital mutilation, FGM) — с конечной целью выйти на $100 млн. Как пишет [The Guardian](https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide), практика затронула больше 230 миллионов женщин и девочек по всему миру, и активисты и лидеры движения против FGM назвали сумму «беспрецедентной» для этой сферы.
+
+Разница между $15,5 млн уже собранных и $100 млн целевых — это не техническая деталь, а честное признание масштаба проблемы. FGM практикуется в десятках стран, часто вне зависимости от закона: во многих юрисдикциях практика формально запрещена, но продолжает существовать как часть локальных традиций, которые государственные институты либо не могут, либо не хотят контролировать напрямую. Именно поэтому фонды вроде Her Horizon делают ставку не на разовые кампании, а на «импульс» — долгосрочное, годами накапливающееся давление через образование, работу с местными сообществами и финансирование низовых организаций, которые уже годами работают в затронутых регионах.
+
+Слово «беспрецедентный» в устах активистов, которые обычно скептически относятся к громким заявлениям о финансировании, стоит воспринимать серьёзно: борьба с FGM исторически недофинансирована по сравнению с другими глобальными проблемами здравоохранения, и именно нехватка постоянного, предсказуемого финансирования годами называлась одной из причин, почему прогресс идёт медленнее, чем мог бы.
+
+При этом $15,5 млн — это меньше седьмой части заявленной цели. Фонд ещё должен доказать, что способен собрать оставшуюся сумму и, что важнее, довести её до конкретных программ на земле, а не оставить в виде красивого пресс-релиза.
+
+### Почему это важно
+
+230 миллионов — это не абстрактная цифра, а количество живых людей, которых затронула практика, всё ещё существующая в XXI веке. Появление фонда с конкретной, измеримой целью — редкий случай, когда за словами о «глобальной проблеме» стоит попытка её реально профинансировать.
+
+## English version
+
+A new fund called Her Horizon has announced it raised $15.5 million (about £11.4 million) to fight female genital mutilation (FGM), with a final target of $100 million. According to [The Guardian](https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide), the practice has affected more than 230 million women and girls worldwide, and activists and leaders in the anti-FGM movement have called the sum "unprecedented" for the field.
+
+The gap between the $15.5 million already raised and the $100 million target isn't a technicality — it's an honest acknowledgment of the problem's scale. FGM is practiced across dozens of countries, often regardless of formal law: in many jurisdictions the practice is technically banned yet persists as part of local traditions that state institutions either can't or won't confront directly. That's why funds like Her Horizon are betting not on a one-off campaign but on sustained "momentum" — years of accumulated pressure through education, work with local communities, and funding for grassroots organizations that have already been operating in affected regions for years.
+
+The word "unprecedented," coming from activists who are normally skeptical of big funding announcements, is worth taking seriously: the fight against FGM has historically been underfunded compared to other global health issues, and the lack of steady, predictable funding has long been cited as a reason progress moves slower than it could.
+
+Still, $15.5 million is less than a seventh of the stated goal. The fund still has to prove it can raise the rest and, more importantly, turn it into concrete programs on the ground rather than leave it as a well-worded press release.
+
+### Why it matters
+
+230 million isn't an abstract number — it's the count of living people affected by a practice that still exists in the 21st century. A fund with a specific, measurable target is a rare case where talk of a "global problem" comes with an actual attempt to fund a fix.
+
+
+----- 06-raincoats-xray-spex-slits-supergroup (culture) — source: https://pitchfork.com/story/the-raincoats-x-ray-spex-and-the-slits-members-form-supergroup/ -----
+
+## Русская версия
+
+Участницы и участники трёх легендарных британских панк-групп конца 1970-х объединились в супергруппу. Как сообщает [Pitchfork](https://pitchfork.com/story/the-raincoats-x-ray-spex-and-the-slits-members-form-supergroup/), Джина Бёрч (The Raincoats), Лора Лоджик (X-Ray Spex), Холли Кук, связанная с наследием The Slits, и Пол Дин выступят вместе на лондонском панк-фестивале в следующем месяце.
+
+Для тех, кто не застал британскую панк-сцену конца семидесятых: The Raincoats, X-Ray Spex и The Slits — это не рядовые группы того времени, а те коллективы, вокруг которых во многом строилась вся история женщин в панке того поколения. Три состава были заметно непохожи друг на друга по звуку и подходу, но объединяло их одно: каждый по-своему ломал шаблон о том, как должна выглядеть и звучать женщина с гитарой (или саксофоном) в 1977–79 годах. Десятилетиями позже эти группы регулярно всплывают в разговорах о влияниях у самых разных исполнителей — от постпанка до riot grrrl.
+
+Формат «супергруппы из ветеранов сцены» для панка — не новость: подобные проекты время от времени собираются ради одного фестиваля или юбилейного концерта, а не ради полноценной новой карьеры. Судя по формулировке Pitchfork, речь идёт именно о разовом выступлении, а не о студийном альбоме или туре — и в этом смысле ожидать от события чего-то большего, чем ностальгического воссоединения, не стоит.
+
+Но даже разовое воссоединение такого состава — редкость: три сцены, которые пересекались географически и по времени, но редко объединялись физически на одной площадке, встретятся здесь буквально.
+
+### Почему это важно
+
+Панк 1977–79 годов обычно рассказывают как мужскую историю про Sex Pistols и The Clash. Совместное выступление участниц групп, которые на самом деле определяли, каким может быть женский голос в панке, — редкий повод вспомнить, что история была шире.
+
+## English version
+
+Members of three legendary late-1970s British punk bands have joined forces as a supergroup. According to [Pitchfork](https://pitchfork.com/story/the-raincoats-x-ray-spex-and-the-slits-members-form-supergroup/), Gina Birch (The Raincoats), Lora Logic (X-Ray Spex), Hollie Cook, tied to The Slits' legacy, and Paul Dean will perform together at a London punk festival next month.
+
+For anyone who missed the British punk scene of the late seventies: The Raincoats, X-Ray Spex, and The Slits weren't just bands of their era — they're the acts much of the story of women in that generation of punk is built around. The three sounded quite different from one another, but shared something: each broke, in its own way, the mold of what a woman with a guitar (or a saxophone) was supposed to sound and look like in 1977-79. Decades later, all three names still come up regularly in conversations about influence, from post-punk to riot grrrl.
+
+A "scene veterans' supergroup" isn't a new format for punk — these projects periodically come together for a single festival slot or anniversary show rather than a full-blown new career. Based on Pitchfork's phrasing, this looks like exactly that: a one-off performance, not a studio album or a tour, so it's worth tempering expectations accordingly.
+
+Even so, a one-off reunion of this specific lineup is rare: three scenes that overlapped in time and geography but rarely shared a stage in person are about to do exactly that.
+
+### Why it matters
+
+The 1977-79 punk era usually gets told as a men's story about the Sex Pistols and The Clash. A joint performance by artists who actually defined what a woman's voice in punk could sound like is a rare reminder that the real story was wider than that.
+
+
 ===== EDITION 11 — 2026-09-13 =====
 
 ## От редакции

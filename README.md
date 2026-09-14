@@ -10,22 +10,14 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №11 / Edition №11 — 2026-09-13** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №12 / Edition №12 — 2026-09-14** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Наука]** [Hayabusa2 впервые в истории измерил лазером расстояние до астероида на пролёте](editions/2026/09-13/01-hayabusa2-laser-ranging-asteroid.md)
-- **[Наука]** [Оземпик продлил жизнь мышам и улучшил им память — но это ещё не рецепт для людей](editions/2026/09-13/02-ozempic-semaglutide-mice-aging.md)
-- **[Мир]** [Короля Ойо похоронили в Уганде — а спор о его преемнике так и не решён](editions/2026/09-13/03-king-oyo-burial-uganda-succession.md)
-- **[Мир]** [Шестерых нигерийцев экстрадировали в США за romance-схему на $6 миллионов](editions/2026/09-13/04-nigerians-extradited-romance-scam.md)
-- **[ИИ]** [Альтман назвал IPO OpenAI в 2026 году «плохо продуманным» — но не отказался от него навсегда](editions/2026/09-13/05-altman-openai-ipo-ill-advised.md)
-- **[Культура]** [Bon Iver написал джингл для бара в Миннесоте — про панировочные палочки из фарша](editions/2026/09-13/06-bon-iver-meatloaf-jingle.md)
-- **[Технологии]** [Как OpenAI выдерживает миллиард пользователей ChatGPT и 22 миллиона запросов в секунду](editions/2026/09-13/07-openai-storage-scaling-billion-users.md)
-- **[Мир]** [Ирак изъял площадку, с которой запустили дрон по саудовскому нефтепроводу](editions/2026/09-13/08-iraq-saudi-pipeline-drone-platform.md)
-- **[Технологии]** [Умер один из создателей ALOHAnet — сети, без которой не было бы ни Wi-Fi, ни Ethernet](editions/2026/09-13/09-aloha-net-frank-kuo-obituary.md)
-- **[Мир]** [Впервые в истории США суд по делам «иностранных террористов» депортировал человека](editions/2026/09-13/10-alien-terrorist-removal-court-first-case.md)
-- **[Наука]** [Звуковые волны продлили жизнь квантового кубита втрое](editions/2026/09-13/11-quantum-qubit-sound-waves-coherence.md)
-- **[Наука]** [Десятилетнее исследование: кальциевый скрининг сердца полезен не всем подряд](editions/2026/09-13/12-coronary-calcium-scan-study.md)
-- **[Наука]** [Математики нашли стратегию для Wordle, побеждающую в 99% случаев](editions/2026/09-13/13-wordle-shannon-entropy-strategy.md)
-- **[Культура]** [От бутылок ведьм до «камней-оберегов»: как люди защищали дома магией](editions/2026/09-13/14-protective-magic-homes-history.md)
+- **[ИИ]** [Anthropic просит притормозить ИИ. Белый дом отвечает — не дождётесь](editions/2026/09-14/01-ai-slowdown-trump-amodei.md)
+- **[Технологии]** [Apple делает геймпады для iPhone — и, похоже, под брендом Beats](editions/2026/09-14/02-apple-iphone-game-controllers.md)
+- **[Наука]** [Большой опрос физиков показал: согласия по устройству Вселенной нет](editions/2026/09-14/03-physicists-disagree-universe-survey.md)
+- **[Наука]** [У болезни Альцгеймера нашли скрытый слой — в укладке ДНК](editions/2026/09-14/04-alzheimers-genome-3d-layer.md)
+- **[Мир]** [На борьбу с калечащими операциями собрали $15,5 млн из нужных $100 млн](editions/2026/09-14/05-her-horizon-fund-fgm.md)
+- **[Культура]** [Легенды британского панка The Raincoats, X-Ray Spex и The Slits собрались в супергруппу](editions/2026/09-14/06-raincoats-xray-spex-slits-supergroup.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
