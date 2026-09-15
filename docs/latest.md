@@ -1,49 +1,29 @@
-# frontier-wire — latest edition №12 (2026-09-14)
+# frontier-wire — latest edition №13 (2026-09-15)
 
-## Anthropic Wants AI to Slow Down. The White House Isn't Interested / Anthropic просит притормозить ИИ. Белый дом отвечает — не дождётесь
-rubric: ai · source: https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/01-ai-slowdown-trump-amodei.md
+## Africa's richest man is taking his refinery public — and could pocket $23bn / Африканский миллиардер выводит нефтезавод на биржу — и может заработать $23 млрд
+rubric: world · source: https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/01-dangote-refinery-ipo.md
 
-## Apple Is Reportedly Making iPhone Game Controllers — Under the Beats Name / Apple делает геймпады для iPhone — и, похоже, под брендом Beats
-rubric: tech · source: https://www.theverge.com/tech/994426/apple-iphone-game-controllers
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/02-apple-iphone-game-controllers.md
+## London's oldest hospital was built on slave-trade money / Старейшая больница Лондона стоит на деньгах работорговцев
+rubric: world · source: https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/02-st-barts-slave-trade-donors.md
 
-## A Massive Survey of Physicists Found No Consensus on How the Universe Works / Большой опрос физиков показал: согласия по устройству Вселенной нет
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260912220041.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/03-physicists-disagree-universe-survey.md
+## Plague was wiping out whole families 5,500 years before the Black Death / Чума убивала целыми семьями за 5500 лет до Чёрной смерти
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260913082203.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/03-ancient-plague-siberia.md
 
-## Alzheimer's Has a Hidden Layer — in How DNA Folds / У болезни Альцгеймера нашли скрытый слой — в укладке ДНК
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260912220051.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/04-alzheimers-genome-3d-layer.md
+## Webb's "little red dots": black holes, or stars built like black holes? / «Красные точки» Уэбба: чёрные дыры или звёзды размером с чёрную дыру?
+rubric: science · source: https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/04-webb-little-red-dots.md
 
-## A New Fund Has Raised $15.5 Million of a $100 Million Goal to End FGM / На борьбу с калечащими операциями собрали $15,5 млн из нужных $100 млн
-rubric: world · source: https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/05-her-horizon-fund-fgm.md
+## Chess is heading to the South Pole — and this time it's not an April Fools' joke / Шахматы доедут до Южного полюса — и это не первоапрельская шутка
+rubric: culture · source: https://www.chess.com/news/view/first-fide-rated-chess-tournament-antarctica-south-pole
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/05-antarctica-chess-tournament.md
 
-## Legends of British Punk From The Raincoats, X-Ray Spex, and The Slits Form a Supergroup / Легенды британского панка The Raincoats, X-Ray Spex и The Slits собрались в супергруппу
-rubric: culture · source: https://pitchfork.com/story/the-raincoats-x-ray-spex-and-the-slits-members-form-supergroup/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/06-raincoats-xray-spex-slits-supergroup.md
+## Macklemore was kicked off Ed Sheeran's tour for pro-Palestine comments / Macklemore сняли с тура Эда Ширана за слова в поддержку Палестины
+rubric: culture · source: https://pitchfork.com/story/macklemore-kicked-off-ed-sheeran-tour-for-pro-palestine-comments/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/06-macklemore-ed-sheeran-tour.md
 
-## Turkey Arrests 162 People in Weekend Raids on LGBTQ+ Venues / В Турции за выходные задержали 162 человека на рейдах против ЛГБТК+
-rubric: world · source: https://www.dw.com/en/turkey-162-arrested-in-lgbtq-raids/a-79251409
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/07-turkey-lgbtq-raids.md
-
-## Sweden's Election Is 'Very Close' — and the Far Right Just Lost Ground / Выборы в Швеции: левый блок вырывается вперёд, крайне правые теряют голоса
-rubric: world · source: https://www.dw.com/en/sweden-election-very-close-as-left-bloc-claims-tight-lead/a-79248599
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/08-sweden-election-left-bloc.md
-
-## Scientists Are Building a Microscope Powered by a Quantum Computer / Учёные скрещивают электронный микроскоп с квантовым компьютером
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260912220038.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/09-quantum-computer-microscope.md
-
-## AI Combed 400,000 Reddit Posts and Found Unexpected Ozempic Side Effects / ИИ нашёл в 400 000 постов на Reddit неожиданные побочки Оземпика
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260912222856.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/10-ozempic-reddit-side-effects.md
-
-## How an Ordinary Gravestone in Shropshire Became "Scrooge's Grave / Как обычное надгробие в Шропшире стало «могилой Скруджа»
-rubric: culture · source: https://www.atlasobscura.com/places/ebenezer-scrooges-gravestone
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/11-scrooge-gravestone-shropshire.md
-
-## Lil Durk Acquitted in Murder-for-Hire Trial / Lil Durk оправдан по делу о заказном убийстве
-rubric: culture · source: https://pitchfork.com/story/lil-durk-acquitted-in-murder-for-hire-plot/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-14/12-lil-durk-acquitted-murder-for-hire.md
+## Timmy," "Ren," and "Jackie" are AI bots that openly admit they're bots / «Тимми», «Рен» и «Джеки» — ИИ-боты, которые сами признаются, что они боты
+rubric: ai · source: https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/07-ai-agents-social-slop.md

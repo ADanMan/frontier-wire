@@ -10,20 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №12 / Edition №12 — 2026-09-14** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №13 / Edition №13 — 2026-09-15** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Anthropic просит притормозить ИИ. Белый дом отвечает — не дождётесь](editions/2026/09-14/01-ai-slowdown-trump-amodei.md)
-- **[Технологии]** [Apple делает геймпады для iPhone — и, похоже, под брендом Beats](editions/2026/09-14/02-apple-iphone-game-controllers.md)
-- **[Наука]** [Большой опрос физиков показал: согласия по устройству Вселенной нет](editions/2026/09-14/03-physicists-disagree-universe-survey.md)
-- **[Наука]** [У болезни Альцгеймера нашли скрытый слой — в укладке ДНК](editions/2026/09-14/04-alzheimers-genome-3d-layer.md)
-- **[Мир]** [На борьбу с калечащими операциями собрали $15,5 млн из нужных $100 млн](editions/2026/09-14/05-her-horizon-fund-fgm.md)
-- **[Культура]** [Легенды британского панка The Raincoats, X-Ray Spex и The Slits собрались в супергруппу](editions/2026/09-14/06-raincoats-xray-spex-slits-supergroup.md)
-- **[Мир]** [В Турции за выходные задержали 162 человека на рейдах против ЛГБТК+](editions/2026/09-14/07-turkey-lgbtq-raids.md)
-- **[Мир]** [Выборы в Швеции: левый блок вырывается вперёд, крайне правые теряют голоса](editions/2026/09-14/08-sweden-election-left-bloc.md)
-- **[Наука]** [Учёные скрещивают электронный микроскоп с квантовым компьютером](editions/2026/09-14/09-quantum-computer-microscope.md)
-- **[Наука]** [ИИ нашёл в 400 000 постов на Reddit неожиданные побочки Оземпика](editions/2026/09-14/10-ozempic-reddit-side-effects.md)
-- **[Культура]** [Как обычное надгробие в Шропшире стало «могилой Скруджа»](editions/2026/09-14/11-scrooge-gravestone-shropshire.md)
-- **[Культура]** [Lil Durk оправдан по делу о заказном убийстве](editions/2026/09-14/12-lil-durk-acquitted-murder-for-hire.md)
+- **[Мир]** [Африканский миллиардер выводит нефтезавод на биржу — и может заработать $23 млрд](editions/2026/09-15/01-dangote-refinery-ipo.md)
+- **[Мир]** [Старейшая больница Лондона стоит на деньгах работорговцев](editions/2026/09-15/02-st-barts-slave-trade-donors.md)
+- **[Наука]** [Чума убивала целыми семьями за 5500 лет до Чёрной смерти](editions/2026/09-15/03-ancient-plague-siberia.md)
+- **[Наука]** [«Красные точки» Уэбба: чёрные дыры или звёзды размером с чёрную дыру?](editions/2026/09-15/04-webb-little-red-dots.md)
+- **[Культура]** [Шахматы доедут до Южного полюса — и это не первоапрельская шутка](editions/2026/09-15/05-antarctica-chess-tournament.md)
+- **[Культура]** [Macklemore сняли с тура Эда Ширана за слова в поддержку Палестины](editions/2026/09-15/06-macklemore-ed-sheeran-tour.md)
+- **[ИИ]** [«Тимми», «Рен» и «Джеки» — ИИ-боты, которые сами признаются, что они боты](editions/2026/09-15/07-ai-agents-social-slop.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

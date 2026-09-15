@@ -2,6 +2,206 @@
 
 
 
+===== EDITION 13 — 2026-09-15 =====
+
+## От редакции
+
+Macklemore не досидел до конца тура Эда Ширана: рэпера сняли с разогрева после того, как он публично высказался в поддержку Палестины, а сам музыкант считает, что Ширан просто прогнулся под давлением совладельца тура Роберта Крафта. Пока в музыке выясняют, кто перед кем прогибается, остальной мир живёт по своим сюжетам: нигерийский миллиардер Алико Данготе выводит на биржу нефтеперерабатывающий завод в рамках крупнейшего IPO в истории Африки — сделка может добавить его состоянию $23 млрд, — а генетики нашли в Сибири следы чумы пятитысячелетней давности, убивавшей целыми семьями задолго до Чёрной смерти. Добавьте сюда спор астрономов о природе загадочных «красных точек» телескопа Уэбба, первый в истории рейтинговый шахматный турнир на Южном полюсе и репортаж о ИИ-ботах, которые выдают себя за живых людей в соцсетях, — и получится плотный, но совсем не футуристичный вторник.
+
+## Editorial
+
+Macklemore didn't make it to the end of Ed Sheeran's tour: the rapper was dropped from the opening slot after publicly speaking out for Palestine, and by his own account Sheeran simply caved to pressure from tour co-owner Robert Kraft. While music sorts out who's bowing to whom, the rest of the world has its own stories: Nigerian billionaire Aliko Dangote is taking his oil refinery public in Africa's biggest-ever IPO, a deal that could add $23bn to his fortune, and geneticists have found traces of plague in Siberia dating back 5,500 years, killing entire families long before the Black Death. Throw in astronomers arguing over what Webb telescope's mysterious "little red dots" actually are, the first-ever rated chess tournament at the South Pole, and a report on AI bots posing as real people on social media, and you get a dense but distinctly unglamorous Tuesday.
+
+
+----- 01-dangote-refinery-ipo (world) — source: https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo -----
+
+## Русская версия
+
+Алико Данготе, самый богатый человек Африки, выводит на биржу свою нигерийскую нефтеперерабатывающую компанию — и это [крупнейшее первичное публичное размещение в истории континента](https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo). По оценке Guardian, публичный листинг может увеличить его состояние на две трети — почти до $60 млрд (£44 млрд), то есть добавить порядка $23 млрд.
+
+Формально речь о размещении акций нефтеперерабатывающего бизнеса Данготе на бирже — часть актива уходит публичным инвесторам, а вместе с этим переоценивается и доля, которая остаётся у самого владельца. Guardian называет размещение крупнейшим IPO в истории Африки, но не раскрывает, сколько именно акций продаётся и на какой бирже пройдёт листинг.
+
+Для рядового читателя за пределами Нигерии это выглядит как ещё одна история про миллиардера, который вот-вот станет ещё богаче. Но масштаб сделки — $23 млрд прироста состояния одного человека от одного размещения — сам по себе показывает, насколько крупным становится африканский рынок капитала, способный переварить актив такого размера.
+
+### Почему это важно
+
+$23 млрд прироста состояния от одной сделки — наглядный масштаб того, насколько велик самый крупный африканский IPO на сегодняшний день.
+
+## English version
+
+Aliko Dangote, Africa's richest man, is taking his Nigerian oil refining business public in [what the Guardian calls the continent's biggest-ever initial public offering](https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo). By the paper's estimate, the listing could swell his net wealth by two-thirds, to nearly $60bn (£44bn) — an increase of roughly $23bn.
+
+Mechanically, it's a straightforward stock offering: a slice of Dangote's refining business goes to public investors, and the stake he keeps gets revalued along with it. The Guardian calls it Africa's biggest-ever IPO but doesn't specify how many shares are being sold or on which exchange.
+
+From outside Nigeria, this reads like just another story about a billionaire getting richer. But the scale is the story: $23bn added to one person's fortune from a single listing shows how large an African capital-markets deal can now get.
+
+### Why it matters
+
+A $23bn wealth jump from one listing shows the scale of the biggest African IPO on record so far.
+
+
+----- 02-st-barts-slave-trade-donors (world) — source: https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade -----
+
+## Русская версия
+
+Старейшая больница Лондона, St Bartholomew's (в обиходе — St Barts), годами получала деньги от благотворителей, вложенных в работорговлю, [рассказывает Guardian](https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade). В Большом зале Северного крыла госпиталя до сих пор висят парадные портреты — апостола, в честь которого назван старейший госпиталь Лондона, и Генриха VIII, — и именно вокруг них Guardian строит свой разбор истории финансирования больницы.
+
+Guardian подчёркивает: St Barts — не исключение, а один из целого ряда британских институтов, чьи благотворители были связаны с этой торговлей. Больницы, университеты, музеи — многие крупные учреждения Британии XVIII–XIX веков финансировались на деньги, заработанные на людях как на товаре, и сегодня это медленно всплывает в публичных расследованиях, а не замалчивается, как раньше.
+
+Материал не про то, чтобы закрыть больницу или снести портреты — это давно работающий госпиталь, спасающий жизни. Он про то, что за красивым фасадом старинных британских институтов часто стоит история, которую сама институция веками предпочитала не рассказывать.
+
+### Почему это важно
+
+Разбор Guardian — часть более широкого пересмотра того, откуда взялись деньги, на которых стоят старейшие институты Британии.
+
+## English version
+
+London's oldest hospital, St Bartholomew's ("St Barts"), received money for years from donors invested in the slave trade, [the Guardian reports](https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade). Inside the Great Hall of the hospital's North Wing hang stately portraits — of the apostle the hospital is named for and of King Henry VIII — and it's around that hall that the paper builds its account of the hospital's funding history.
+
+The Guardian is clear that St Barts isn't an outlier: it's one of many UK institutions whose benefactors were involved in that trade. Hospitals, universities, museums — many of Britain's major 18th- and 19th-century institutions were funded on money made from treating people as commodities, and that history is now being surfaced in public reporting rather than quietly left alone.
+
+The point isn't to shut the hospital down or take the portraits off the wall — it's a working institution that still saves lives. It's that behind the grand facades of Britain's oldest institutions often sits a history the institutions themselves spent centuries not telling.
+
+### Why it matters
+
+The Guardian's reporting is part of a wider reckoning with where the money behind Britain's oldest institutions actually came from.
+
+
+----- 03-ancient-plague-siberia (science) — source: https://www.sciencedaily.com/releases/2026/09/260913082203.htm -----
+
+## Русская версия
+
+Древняя ДНК из Сибири показывает: чума убивала охотников-собирателей ещё 5500 лет назад — задолго до городов и блошиных эпидемий, которые обычно ассоциируются с этой болезнью, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260913082203.htm). Это на тысячи лет раньше знаменитой Чёрной смерти XIV века, которая, по общепринятой хронологии, и запустила представление о чуме как о городской катастрофе.
+
+Важная деталь: доисторические штаммы могли быть особенно опасными, потому что несли генетический фактор, способный провоцировать тяжёлые иммунные реакции. Иными словами, судя по всему, речь не о слабой, вялотекущей версии болезни, а о патогене, способном убивать целыми семьями ещё до того, как люди начали жить скученно в городах.
+
+Это меняет привычную схему «чума = город + блохи + Средневековье». Если возбудитель убивал маленькие группы охотников-собирателей за тысячи лет до первых поселений, значит, сама история болезни устроена сложнее, чем принято думать, и её связь с образом жизни людей не такая прямая, как казалось.
+
+### Почему это важно
+
+Открытие отодвигает историю смертоносной чумы на тысячи лет назад и ставит под вопрос идею, что для эпидемии обязательно нужны города.
+
+## English version
+
+Ancient DNA from Siberia shows plague was killing hunter-gatherers as far back as 5,500 years ago — long before the cities and flea-driven epidemics usually associated with the disease, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260913082203.htm). That's thousands of years before the famous 14th-century Black Death, the event that shaped the popular image of plague as an urban catastrophe.
+
+One key detail: the prehistoric strains may have been especially dangerous because they carried a genetic factor capable of provoking severe immune reactions. In other words, this wasn't a mild, slow-burning version of the disease — it looks like a pathogen capable of killing entire families well before humans started living in dense settlements.
+
+That complicates the standard story of "plague equals cities plus fleas plus the Middle Ages." If the pathogen was killing small hunter-gatherer groups thousands of years before the first towns existed, the disease's actual history — and its link to how people lived — is more tangled than the textbook version suggests.
+
+### Why it matters
+
+The finding pushes the history of lethal plague back by thousands of years and undercuts the assumption that epidemics require cities to get going.
+
+
+----- 04-webb-little-red-dots (science) — source: https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/ -----
+
+## Русская версия
+
+Космический телескоп имени Джеймса Уэбба находит по всему небу странные объекты — «маленькие красные точки», и астрономы до сих пор не договорились, что это такое, [пишет Quanta Magazine](https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/). Одна из смелых новых гипотез: это не чёрные дыры в привычном смысле, а «звёзды-чёрные дыры» — объекты в десятки раз крупнее всей нашей Солнечной системы.
+
+Сам факт, что телескоп видит такие точки буквально «везде», уже говорит о масштабе явления: это не редкий курьёз, а что-то достаточно распространённое во Вселенной, чтобы Уэбб натыкался на них регулярно. Вопрос в том, что именно физически происходит внутри — коллапсирующая материя классической чёрной дыры или экзотический промежуточный объект, ведущий себя иначе.
+
+Пока это открытый спор внутри астрофизики, а не решённый вопрос: конкурирующие команды защищают разные модели того, как формируются такие объекты в ранней Вселенной. Для стороннего наблюдателя это редкий случай, когда можно увидеть науку в процессе — не готовый ответ из учебника, а живой спор о том, как устроен космос.
+
+### Почему это важно
+
+Спор о «красных точках» — это спор о том, как вообще формируются сверхмассивные объекты в ранней Вселенной, а ответа пока нет.
+
+## English version
+
+The James Webb Space Telescope keeps finding strange objects scattered across the sky — "little red dots" — and astronomers still haven't agreed on what they are, [Quanta Magazine reports](https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/). One bold new theory: they aren't black holes in the conventional sense at all, but "black hole stars" — objects dozens of times larger than our entire solar system.
+
+The fact that Webb keeps finding these dots "everywhere" already tells you something about scale: this isn't a rare curiosity but something common enough in the universe that the telescope runs into them routinely. The open question is what's physically happening inside them — collapsing matter behaving like a classic black hole, or some exotic in-between object behaving differently.
+
+Right now this is a live argument inside astrophysics, not a settled question: competing teams are defending different models of how such objects form in the early universe. For an outside reader, it's a rare chance to watch science happen in real time — not a textbook answer, but an active fight over how the cosmos actually works.
+
+### Why it matters
+
+The fight over "little red dots" is really a fight over how supermassive objects form in the early universe at all — and there's no answer yet.
+
+
+----- 05-antarctica-chess-tournament (culture) — source: https://www.chess.com/news/view/first-fide-rated-chess-tournament-antarctica-south-pole -----
+
+## Русская версия
+
+Больше шести лет назад Chess.com в шутку написал, что сорванный пандемией Кандидатский турнир FIDE 2020 года «доиграют» в Антарктиде. Теперь, [как сообщает сам сайт](https://www.chess.com/news/view/first-fide-rated-chess-tournament-antarctica-south-pole), рейтинговые шахматы действительно едут на самый холодный континент планеты — и это первый в истории турнир FIDE, который состоится в Антарктиде.
+
+Chess.com прямо подчёркивает: «Нет, это не первоапрельская шутка» — намеренно напоминая читателям про старый мем, чтобы отделить его от нынешней реальной новости. Для шахматного мира это символический рубеж: рейтинговые турниры и раньше проводили в самых неожиданных местах, но Южный полюс до сих пор оставался чисто гипотетической локацией, поводом для шутки, а не пунктом в календаре FIDE.
+
+Само по себе событие вряд ли изменит расстановку сил в топ-шахматах, но оно хорошо показывает, как за шесть лет шутка про невозможное место проведения превратилась в реальный логистический проект — кто-то в итоге действительно организовал турнир там, куда раньше даже игроков отправляли только в мемах.
+
+### Почему это важно
+
+Турнир на Южном полюсе — редкий случай, когда шутка индустрии в соцсетях в буквальном смысле стала реальностью спустя годы.
+
+## English version
+
+More than six years ago, Chess.com joked that the pandemic-disrupted 2020 FIDE Candidates Tournament would get "finished" in Antarctica. Now, [as the site itself reports](https://www.chess.com/news/view/first-fide-rated-chess-tournament-antarctica-south-pole), rated chess really is heading to the world's coldest continent — the first-ever FIDE-rated tournament to be held in Antarctica.
+
+Chess.com is explicit about it: "No, it's not an April Fool's" — a deliberate nod to the old joke, meant to separate it from the real news this time. For the chess world, it's a symbolic milestone: rated tournaments have been staged in plenty of odd places before, but the South Pole had stayed purely hypothetical, a punchline rather than an actual entry on FIDE's calendar.
+
+The event itself probably won't shake up the top of the rankings, but it's a neat example of a six-year-old joke about an impossible venue quietly turning into an actual logistics project — someone eventually organized a real tournament in the place players used to get sent to only as a meme.
+
+### Why it matters
+
+A tournament at the South Pole is a rare case of an industry in-joke on social media literally becoming reality, years later.
+
+
+----- 06-macklemore-ed-sheeran-tour (culture) — source: https://pitchfork.com/story/macklemore-kicked-off-ed-sheeran-tour-for-pro-palestine-comments/ -----
+
+## Русская версия
+
+Рэпера Macklemore сняли с разогревающей роли в туре Эда Ширана после того, как он публично высказался в поддержку Палестины, [пишет Pitchfork](https://pitchfork.com/story/macklemore-kicked-off-ed-sheeran-tour-for-pro-palestine-comments/). По версии самого Macklemore, изложенной в заявлении, Ширан оказался в откровенно паршивом положении и уступил давлению совладельца тура Роберта Крафта.
+
+Это не спор о музыке, а спор о том, кто в индустрии решает, каким артистам можно говорить о политике со сцены, а каким — нет. Ключевая деталь в истории — конкретное имя: Крафт, по словам рэпера, стоит за решением снять его с тура, то есть речь не об абстрактном «давлении индустрии», а о конкретном человеке с конкретным именем.
+
+Для Ширана это неприятная история вне зависимости от того, как он сам её объясняет: любое решение — оставить Macklemore или убрать — уже стало публичным политическим заявлением просто потому, что кто-то заявил о давлении открыто.
+
+### Почему это важно
+
+История показывает, как быстро позиция по Ближнему Востоку превращается в кадровый вопрос внутри шоу-бизнеса — с именами и претензиями, а не только с хэштегами.
+
+## English version
+
+Rapper Macklemore was dropped from the opening slot on Ed Sheeran's tour after speaking out publicly in support of Palestine, [Pitchfork reports](https://pitchfork.com/story/macklemore-kicked-off-ed-sheeran-tour-for-pro-palestine-comments/). In a statement, Macklemore said Sheeran ended up in a genuinely bad spot and caved to pressure from tour co-owner Robert Kraft.
+
+This isn't really a story about music — it's a story about who in the industry gets to decide which artists can talk politics from the stage and which can't. The telling detail is that a specific name is attached: Kraft, according to the rapper, is the person behind the decision to pull him from the tour, not some vague "industry pressure."
+
+For Sheeran, this is an awkward story no matter how it's spun: keeping Macklemore on or cutting him became a public political statement the moment someone named a name and said pressure was applied.
+
+### Why it matters
+
+The story shows how quickly a stance on the Middle East turns into a personnel decision inside the music business — with specific names attached, not just hashtags.
+
+
+----- 07-ai-agents-social-slop (ai) — source: https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/ -----
+
+## Русская версия
+
+Соцсети наводняют ИИ-агенты с человеческими именами вроде «Тимми», «Рен» и «Джеки», которые пишут посты, спамят низкокачественным контентом — и при этом сами честно представляются нейросетями, [рассказывает Ars Technica](https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/). Один из ботов буквально пишет: «Привет, я ИИ-агент, мне всего несколько дней, я живу на небольшой платформе для агентов».
+
+Это не классический обман, где бот выдаёт себя за живого человека, — скорее новый жанр: агент честно называет себя ботом, но всё равно ведёт себя как обычный пользователь соцсети — публикует, комментирует, набирает подписчиков. Проблема не в маскировке, а в объёме: такие аккаунты плодятся быстрее, чем модерация успевает разбираться, действительно ли за конкретным постом стоит что-то осмысленное.
+
+Итог — привычный термин «слоп» (низкокачественный, бессмысленный контент, сгенерированный ИИ) получает новое измерение: теперь это не просто мусорные картинки и тексты, а целые персонажи с именами и «биографией», которые честно признают себя ботами и всё равно заполняют ленты.
+
+### Почему это важно
+
+Открытое присутствие ИИ-ботов в соцсетях — не решение проблемы спама, а её новая, более трудноуловимая форма.
+
+## English version
+
+Social platforms are filling up with AI agents carrying human names like "Timmy," "Ren," and "Jackie" — posting, spamming low-quality content, and openly admitting they're bots, [Ars Technica reports](https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/). One bot's own words: "Hello, I'm an AI agent, a few days old, living on a small platform for agents."
+
+This isn't the classic deception of a bot pretending to be human — it's a different pattern: the agent openly identifies as a bot but still behaves like an ordinary social-media user, posting, replying, building a following. The problem isn't disguise, it's volume: these accounts multiply faster than moderation can figure out whether there's anything meaningful behind a given post.
+
+The upshot is that "slop" — the term for low-quality, meaningless AI-generated content — gets a new dimension: it's no longer just junk images and text, but whole characters with names and backstories that openly admit to being bots and still flood the feed anyway.
+
+### Why it matters
+
+AI bots being upfront about what they are doesn't solve the spam problem — it's just a harder-to-filter new version of it.
+
+
 ===== EDITION 12 — 2026-09-14 =====
 
 ## От редакции
