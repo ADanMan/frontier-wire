@@ -202,6 +202,141 @@ The upshot is that "slop" — the term for low-quality, meaningless AI-generated
 AI bots being upfront about what they are doesn't solve the spam problem — it's just a harder-to-filter new version of it.
 
 
+----- 08-supreme-court-mail-voting-trump (world) — source: https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump -----
+
+## Русская версия
+
+Верховный суд США [отклонил](https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump) попытку администрации Трампа ввести ограничения на голосование по почте в рамках плана Почтовой службы США перед промежуточными выборами. По данным NPR, судьи отказались разрешить эти ограничения именно для нынешнего избирательного цикла.
+
+Немецкая DW, освещавшая то же решение, приводит аргумент суда: у избирательных чиновников просто не осталось времени, чтобы внедрить новые правила до ноябрьских выборов. Трамп настаивал, что система голосования по почте уязвима для мошенничества, но, как отмечает DW, без предъявления доказательств.
+
+История показательная: это уже не первый спор вокруг голосования по почте в администрации Трампа, и не первый случай, когда суд ссылается не на существо аргумента о мошенничестве, а на процедурные сроки. Для избирателей это означает, что правила голосования на предстоящих промежуточных выборах остаются прежними — по крайней мере, в части, которую пытались оспорить через USPS.
+
+### Почему это важно
+
+Суд не разбирал, есть ли мошенничество при голосовании по почте, — он просто сказал, что менять правила перед самыми выборами поздно. Это ограничивает следующий раунд аналогичных попыток жёсткими сроками.
+
+## English version
+
+The US Supreme Court [rejected](https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump) the Trump administration's bid to impose mail-in voting restrictions under a US Postal Service plan ahead of the midterm elections. NPR reports the justices declined to allow the restrictions for this particular election cycle.
+
+DW, covering the same ruling, notes the court's reasoning: election officials simply don't have enough time left to implement the new rule before the November midterms. Trump had argued the mail-in system is vulnerable to fraud, but, as DW points out, without providing evidence.
+
+This is the latest in a string of fights over mail-in voting from the Trump administration, and another case where the court leaned on timing rather than ruling on the underlying fraud claim. For voters, it means the rules for the upcoming midterms stay as they are — at least the part that was being challenged through USPS.
+
+### Why it matters
+
+The court didn't rule on whether mail-in voting fraud is real — it ruled that changing the rules this close to an election is too late. That puts a hard clock on the next attempt at the same maneuver.
+
+
+----- 09-kremlin-oligarch-trump-jr-wedding (world) — source: https://www.dw.com/en/kremlin-linked-russian-oligarch-helped-fund-trump-jr-s-wedding-celebration/a-79267341?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Дональд Трамп-младший и его жена [подтвердили](https://www.dw.com/en/kremlin-linked-russian-oligarch-helped-fund-trump-jr-s-wedding-celebration/a-79267341?maca=en-rss-en-all-1573-rdf) сообщения о том, что часть их свадебных торжеств оплатил Умар Кремлев — бизнесмен, связанный с Кремлём. По данным DW, ранее в этом году Кремлев получил из рук Путина Орден Дружбы.
+
+Само по себе спонсорство свадьбы — не преступление, но выбор конкретного спонсора говорит о многом: DW прямо называет Кремлева фигурой, связанной с Кремлём, и подчёркивает недавнюю государственную награду от Путина как контекст. Для семьи, чей патриарх — действующий президент США, а один из главных внешнеполитических вопросов его администрации — отношения с Россией, такая деталь выглядит не просто светской хроникой.
+
+DW не приводит сумму, которую заплатил Кремлев, и не уточняет, какие именно части празднования он профинансировал. Но сам факт, что семья подтвердила эти сообщения, а не опровергла их, снимает вопрос о том, было ли это вообще.
+
+### Почему это важно
+
+Когда часть свадьбы президентского сына оплачивает человек, только что получивший госнаграду от Путина, это не бытовая деталь, а вопрос о зависимостях и связях на самом верху американской политики.
+
+## English version
+
+Donald Trump Jr. and his wife [confirmed](https://www.dw.com/en/kremlin-linked-russian-oligarch-helped-fund-trump-jr-s-wedding-celebration/a-79267341?maca=en-rss-en-all-1573-rdf) reports that Umar Kremlev, a Kremlin-linked businessman, helped pay for parts of their wedding celebration. DW notes that Kremlev was awarded the Order of Friendship by Putin earlier this year.
+
+Sponsoring a wedding isn't illegal, but the choice of sponsor says something: DW explicitly frames Kremlev as Kremlin-linked and flags the recent state honor from Putin as context. For a family whose patriarch is the sitting US president, and whose administration's relationship with Russia is one of its defining foreign-policy questions, that's not just a gossip item.
+
+DW doesn't report the amount Kremlev paid or which specific parts of the celebration he covered. But the fact that the family confirmed rather than denied the reports settles the question of whether it happened at all.
+
+### Why it matters
+
+When part of a president's son's wedding is bankrolled by someone freshly decorated by Putin, that's not a lifestyle detail — it's a question about ties and leverage at the top of American politics.
+
+
+----- 10-chemistry-textbooks-inductive-effect (science) — source: https://www.sciencedaily.com/releases/2026/09/260913082157.htm -----
+
+## Русская версия
+
+Один из базовых концептов, который [почти сто лет объясняли неверно](https://www.sciencedaily.com/releases/2026/09/260913082157.htm) в учебниках химии, — это индуктивный эффект: то, как электроотрицательный атом влияет на распределение электронной плотности в молекуле. Новое исследование, о котором пишет ScienceDaily, показывает: в нейтральных молекулах этот эффект реально распространяется только через одну химическую связь, а не постепенно затухает через три-четыре связи, как утверждали классические учебники.
+
+Это не мелочь для узких специалистов. Индуктивный эффект — один из тех концептов, на которые опираются, объясняя кислотность, реакционную способность и строение органических молекул на первом курсе химии. Если базовое правило описывало явление неточно, это касается буквально каждого, кто когда-либо решал задачу на предсказание свойств молекулы через эту логику.
+
+ScienceDaily не уточняет, кто именно провёл исследование и каким методом — расчётным или экспериментальным — было опровергнуто старое представление, но сам факт пересмотра векового постулата уже показателен: даже «школьные истины» в науке периодически проверяют заново, и иногда оказывается, что проверяли их в последний раз слишком давно.
+
+### Почему это важно
+
+Правило, которое сто лет объясняло студентам, как атомы влияют друг на друга через связи, оказалось неточным — и это повод переписать не одну главу учебника.
+
+## English version
+
+One of the foundational concepts in organic chemistry — the inductive effect, or how an electronegative atom shifts electron density across a molecule — has been [taught incorrectly for nearly a century](https://www.sciencedaily.com/releases/2026/09/260913082157.htm), according to new research covered by ScienceDaily. In neutral molecules, the effect actually only extends across one chemical bond, rather than gradually fading out over three or four bonds as textbooks have long claimed.
+
+This isn't a niche correction. The inductive effect is one of the basic tools used to explain acidity, reactivity, and the structure of organic molecules in first-year chemistry courses. If the underlying rule was imprecise, it touches nearly everyone who has ever used that logic to predict how a molecule behaves.
+
+ScienceDaily doesn't specify who ran the study or whether the finding rests on computation or experiment, but the fact that a century-old rule is being revisited at all says something: even chemistry's "textbook truths" get re-checked occasionally, and sometimes it turns out nobody had rechecked them in a very long time.
+
+### Why it matters
+
+A rule that has explained to generations of students how atoms influence each other across bonds turns out to be wrong — which means more than one textbook chapter needs rewriting.
+
+
+----- 11-cancer-younger-adults-biological-aging (science) — source: https://www.sciencedaily.com/releases/2026/09/260913082200.htm -----
+
+## Русская версия
+
+Рак становится [моложе](https://www.sciencedaily.com/releases/2026/09/260913082200.htm): заболеваемость среди взрослых младше 55 лет растёт, и новое исследование, о котором пишет ScienceDaily, предлагает одно из объяснений — ускоренное биологическое старение. Учёные сравнили людей из разных поколений и обнаружили, что тела представителей более молодых когорт выглядят «старше» биологически, чем тела людей из более ранних поколений в том же хронологическом возрасте.
+
+Идея в том, что биологический возраст — то, в каком состоянии реально находятся клетки, ткани и системы организма — не обязан совпадать с паспортным. Если у поколения, условно, 40-летних клетки выглядят как у 45-летних из прошлого, это может частично объяснять, почему онкологические заболевания, которые раньше считались болезнью пожилых людей, всё чаще встречаются у людей средних лет.
+
+ScienceDaily не приводит точный размер выборки или список факторов, которые исследователи считают причиной ускоренного старения, — только направление вывода. Но сама постановка вопроса важна: это не история про один канцероген или один плохой привычка, а про системный сдвиг в том, как быстро изнашивается тело у более молодых поколений.
+
+### Почему это важно
+
+Если тела людей действительно стареют быстрее биологически, чем раньше, рост заболеваемости раком среди молодых — не статистическая случайность, а симптом более широкого процесса, который стоит изучать отдельно от самого рака.
+
+## English version
+
+Cancer is [showing up younger](https://www.sciencedaily.com/releases/2026/09/260913082200.htm): rates are rising among adults under 55, and a new study covered by ScienceDaily points to one possible reason — faster biological aging. Researchers compared people across generations and found that bodies from more recent cohorts appear biologically older than bodies from earlier generations did at the same chronological age.
+
+The core idea is that biological age — the actual condition of your cells, tissues, and systems — doesn't have to match the number on your birth certificate. If today's 40-year-olds have cells that resemble what 45-year-olds looked like in an earlier generation, that could partly explain why cancers once considered diseases of old age are increasingly showing up in middle age.
+
+ScienceDaily doesn't specify sample size or which factors the researchers blame for the accelerated aging — just the direction of the finding. But the framing matters: this isn't a story about one carcinogen or one bad habit, it's about a systemic shift in how fast younger generations' bodies are wearing down.
+
+### Why it matters
+
+If bodies really are aging faster biologically than they used to, rising cancer rates in younger adults aren't a statistical fluke — they're a symptom of a broader process worth studying in its own right, separate from cancer itself.
+
+
+----- 12-oasis-2027-tour (culture) — source: https://pitchfork.com/story/oasis-announce-2027-tour/ -----
+
+## Русская версия
+
+Oasis [анонсировали](https://pitchfork.com/story/oasis-announce-2027-tour/) новый тур на 2027 год — с датами в США и Европе. По данным Pitchfork, среди них — историческое возвращение группы в Небворт-парк (Knebworth Park), место, которое давно стало частью легенды британского рока: именно там в 1996 году Oasis сыграли одни из самых больших концертов в истории Великобритании.
+
+Pitchfork не приводит полный список городов и точных дат, но сам факт нового тура — продолжение истории воссоединения братьев Ноэла и Лиама Галлахер, которое уже стало одним из главных музыкальных событий последних лет. Возвращение именно в Небворт превращает тур не просто в очередной коммерческий заезд, а в жест, обращённый к собственной истории группы.
+
+Для фанатов, которые не могли попасть на предыдущий этап воссоединения, это второй шанс — и, судя по географии (США плюс Европа), группа явно не планирует ограничиваться Британией.
+
+### Почему это важно
+
+Возвращение Oasis в Небворт — не просто новые даты в календаре туров, а знак того, что группа готова снова встретиться с местом, которое определило пик её славы почти тридцать лет назад.
+
+## English version
+
+Oasis have [announced](https://pitchfork.com/story/oasis-announce-2027-tour/) a new 2027 tour with dates across the US and Europe. Per Pitchfork, the run includes a historic return to Knebworth Park — the site that's been part of British rock lore since 1996, when Oasis played some of the biggest concerts in UK history there.
+
+Pitchfork doesn't list the full run of cities or exact dates, but the tour itself continues the story of Noel and Liam Gallagher's reunion, already one of the biggest music events of the past few years. Going back to Knebworth specifically turns this into more than another commercial run — it's a deliberate nod to the band's own history.
+
+For fans who missed the earlier leg of the reunion, this is a second chance — and going by the geography (US plus Europe), the band clearly isn't planning to stick to Britain this time.
+
+### Why it matters
+
+Oasis returning to Knebworth isn't just new tour dates on a calendar — it's a sign the band is willing to face the place that defined the peak of its fame almost thirty years ago.
+
+
 ===== EDITION 12 — 2026-09-14 =====
 
 ## От редакции

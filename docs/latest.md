@@ -27,3 +27,23 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Timmy," "Ren," and "Jackie" are AI bots that openly admit they're bots / «Тимми», «Рен» и «Джеки» — ИИ-боты, которые сами признаются, что они боты
 rubric: ai · source: https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/07-ai-agents-social-slop.md
+
+## The Supreme Court just blocked Trump's push to restrict mail-in voting / Верховный суд США заблокировал попытку Трампа ограничить голосование по почте
+rubric: world · source: https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/08-supreme-court-mail-voting-trump.md
+
+## Trump Jr.'s wedding was partly funded by a businessman Putin decorated with the Order of Friendship / Свадьбу Трампа-младшего оплатил бизнесмен, которого Путин наградил Орденом Дружбы
+rubric: world · source: https://www.dw.com/en/kremlin-linked-russian-oligarch-helped-fund-trump-jr-s-wedding-celebration/a-79267341?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/09-kremlin-oligarch-trump-jr-wedding.md
+
+## Chemistry textbooks got this wrong for almost 100 years / Учебники химии почти сто лет ошибались насчёт того, как атомы влияют друг на друга
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260913082157.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/10-chemistry-textbooks-inductive-effect.md
+
+## Cancer is creeping into younger adults — and faster biological aging may be why / Рак молодеет — и, возможно, дело в том, что тела людей стареют быстрее
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260913082200.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/11-cancer-younger-adults-biological-aging.md
+
+## Oasis are going on tour again in 2027 — and heading back to Knebworth / Oasis едут в новый тур 2027 года — с возвращением в Небворт
+rubric: culture · source: https://pitchfork.com/story/oasis-announce-2027-tour/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/12-oasis-2027-tour.md
