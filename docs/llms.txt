@@ -1,6 +1,6 @@
 # frontier-wire
 
-> An openly automated, bilingual (RU + EN) news wire covering AI, tech, science, world and culture.
+> An openly automated, bilingual (RU + EN) news wire covering AI, tech, science, world, culture and economy.
 > Written twice a day by a scheduled agent from real, cited sources. Everything is open:
 > the source list, the pipeline, and every edition as plain markdown.
 

@@ -29,7 +29,7 @@ Same 2–4 sentences in idiomatic English.
 ```markdown
 ---
 date: 2026-09-03
-rubric: science          # one of: ai | tech | science | world | culture
+rubric: science          # one of: ai | tech | science | world | culture | economy
 title_ru: Русский заголовок
 title_en: English headline
 dek_ru: Одно предложение-подводка.

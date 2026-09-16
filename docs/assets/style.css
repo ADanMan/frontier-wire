@@ -67,9 +67,11 @@ main{max-width:1100px;margin:0 auto;padding:clamp(1.2rem,4vw,3rem)}
 .badge{display:inline-block;font-family:var(--font-d);font-weight:700;font-size:.78rem;
   text-transform:uppercase;letter-spacing:.05em;border:2px solid var(--ink);padding:.05rem .55rem;background:var(--yellow)}
 .rubric-ai .badge{background:var(--pink);color:var(--paper)}
+.rubric-tech .badge{background:var(--ink);color:var(--paper)}
 .rubric-science .badge{background:var(--ink);color:var(--yellow)}
 .rubric-world .badge{background:var(--paper)}
-.rubric-culture .badge{background:var(--pink);color:var(--paper)}
+.rubric-culture .badge{background:var(--yellow);color:var(--ink)}
+.rubric-economy .badge{background:var(--ink);color:var(--pink)}
 
 /* article page */
 .article{max-width:46rem;margin:0 auto}

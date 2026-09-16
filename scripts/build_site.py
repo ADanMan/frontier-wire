@@ -26,6 +26,7 @@ RUBRICS = {
     "science": ("Science", "Наука"),
     "world": ("World", "Мир"),
     "culture": ("Culture", "Культура"),
+    "economy": ("Economy", "Экономика"),
 }
 
 SITE_NAME = "frontier-wire"
@@ -277,7 +278,7 @@ def main() -> int:
     import json as _json
     site_ld = _json.dumps({"@context": "https://schema.org", "@type": "WebSite",
         "name": "frontier-wire", "url": BASE_URL,
-        "description": "An openly automated bilingual (RU+EN) news wire: AI, tech, science, world, culture.",
+        "description": "An openly automated bilingual (RU+EN) news wire: AI, tech, science, world, culture, economy.",
         "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": AUTHOR_URL}}, ensure_ascii=False)
     (DOCS / "index.html").write_text(
         page("frontier-wire - все новости, дважды в день", front, 0, canonical="", jsonld=site_ld), encoding="utf-8")
@@ -320,7 +321,7 @@ def main() -> int:
     (DOCS / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
         f'<title>frontier-wire</title><link>{BASE_URL}</link>'
-        '<description>An openly automated bilingual news wire (RU+EN): AI, tech, science, world, culture.</description>'
+        '<description>An openly automated bilingual news wire (RU+EN): AI, tech, science, world, culture, economy.</description>'
         + "".join(items) + "</channel></rss>", encoding="utf-8")
 
     urls = [BASE_URL, f"{BASE_URL}archive.html", f"{BASE_URL}about.html"] + [
@@ -335,7 +336,7 @@ def main() -> int:
 
     llms = ["# frontier-wire",
         "",
-        "> An openly automated, bilingual (RU + EN) news wire covering AI, tech, science, world and culture.",
+        "> An openly automated, bilingual (RU + EN) news wire covering AI, tech, science, world, culture and economy.",
         "> Written twice a day by a scheduled agent from real, cited sources. Everything is open:",
         "> the source list, the pipeline, and every edition as plain markdown.",
         "",

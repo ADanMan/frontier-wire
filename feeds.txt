@@ -30,6 +30,14 @@ https://www.aljazeera.com/xml/rss/all.xml
 https://rss.dw.com/rdf/rss-en-all             # Deutsche Welle
 https://theconversation.com/global/rss.xml    # planted 2026-09-07: academic-authored world/science analysis, underrepresented angle
 
+# ── economy & business (open-network only) ─────────────────────────
+https://www.theguardian.com/business/economics/rss   # planted 2026-09-16: macro & policy news, economy rubric launch
+https://feeds.npr.org/93559255/rss.xml               # planted 2026-09-16: NPR Planet Money, economics explained
+https://marginalrevolution.com/feed                  # planted 2026-09-16: Tabarrok/Cowen, daily economics commentary
+https://www.noahpinion.blog/feed                     # planted 2026-09-16: Noah Smith, macro & industrial policy essays
+https://ourworldindata.org/atom.xml                  # planted 2026-09-16: data-driven long-run economy & society
+https://www.bankunderground.co.uk/feed/              # planted 2026-09-16: Bank of England staff research blog
+
 # ── science & space (open-network only) ────────────────────────────
 https://www.nature.com/nature.rss
 https://www.sciencedaily.com/rss/all.xml
@@ -57,14 +65,12 @@ https://www.atlasobscura.com/feeds/latest        # странные места �
 https://www.smashingmagazine.com/feed/           # веб-дизайн
 https://www.dezeen.com/feed/                     # архитектура и дизайн
 https://pitchfork.com/feed/feed-news/rss         # музыка
-https://www.seriouseats.com/rss                  # еда, кулинарная наука
 https://www.hakaimagazine.com/feed/              # океаны и побережья
 https://www.bldgblog.com/feed/                   # урбанизм и пространство
 https://www.chess.com/rss/news                   # шахматы
 https://simpleflying.com/feed/                   # авиация
-https://www.gamedeveloper.com/rss.xml            # геймдев
 https://restofworld.org/feed/latest/             # техножизнь вне Запада
-https://worksinprogress.co/feed/                 # прогресс и институции
+https://www.worksinprogress.news/feed            # прогресс и институции (moved 2026-09-16, old host 404)
 https://www.historytoday.com/feed/rss.xml        # история
 https://nautil.us/feed/                          # наука как эссеистика
 https://www.themarginalian.org/feed/             # идеи и книги
@@ -73,6 +79,6 @@ https://africasacountry.com/feed                 # planted 2026-09-07: independe
 # ── culture & ideas (open-network only) ────────────────────────────
 https://aeon.co/feed.rss
 https://www.smithsonianmag.com/rss/latest_articles/
-https://kottke.org/main/index.xml
+https://feeds.kottke.org/main                    # moved 2026-09-16 (old path 404)
 https://longreads.com/feed/
 https://www.openculture.com/feed

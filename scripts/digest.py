@@ -125,7 +125,7 @@ def read_feed_urls() -> list[str]:
 def fetch_one_feed(url: str) -> list[dict]:
     """Parse one RSS or Atom feed; return newest entries as dicts, [] on failure."""
     try:
-        root = ET.fromstring(_get(url))
+        root = ET.fromstring(_get(url).lstrip())  # some feeds (dezeen) lead with whitespace
     except Exception as exc:
         print(f"[feed] skipped {url}: {exc}", file=sys.stderr)
         return []
