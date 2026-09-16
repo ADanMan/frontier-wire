@@ -25,7 +25,7 @@ rubric: science · source: https://www.quantamagazine.org/what-is-maths-mysterio
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/06-langlands-program-explainer.md
 
 ## The US Strategic Petroleum Reserve is a vast piece of underground architecture / Стратегический нефтяной резерв США устроен как гигантская подземная архитектура
-rubric: culture · source: https://www.bldgblog.com/2026/03/contextual-collapse/
+rubric: economy · source: https://www.bldgblog.com/2026/03/contextual-collapse/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/07-strategic-oil-reserve-architecture.md
 
 ## New democracy report puts the US at a historic low / Новый отчёт о состоянии демократии поставил США на исторический минимум

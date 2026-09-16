@@ -1,6 +1,6 @@
 ---
 date: 2026-09-14
-rubric: culture
+rubric: world
 title_ru: Lil Durk оправдан по делу о заказном убийстве
 title_en: Lil Durk Acquitted in Murder-for-Hire Trial
 dek_ru: Обвинение утверждало, что рэпер организовал покушение на Quando Rondo, мстя за убийство King Von.

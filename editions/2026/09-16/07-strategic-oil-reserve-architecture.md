@@ -1,6 +1,6 @@
 ---
 date: 2026-09-16
-rubric: culture
+rubric: economy
 title_ru: Стратегический нефтяной резерв США устроен как гигантская подземная архитектура
 title_en: The US Strategic Petroleum Reserve is a vast piece of underground architecture
 dek_ru: Нефть в нём хранят не в баках, а в искусственных пещерах, вымытых в соляных куполах.
