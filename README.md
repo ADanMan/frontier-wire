@@ -10,20 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №13 / Edition №13 — 2026-09-15** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №14 / Edition №14 — 2026-09-16** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [Африканский миллиардер выводит нефтезавод на биржу — и может заработать $23 млрд](editions/2026/09-15/01-dangote-refinery-ipo.md)
-- **[Мир]** [Старейшая больница Лондона стоит на деньгах работорговцев](editions/2026/09-15/02-st-barts-slave-trade-donors.md)
-- **[Наука]** [Чума убивала целыми семьями за 5500 лет до Чёрной смерти](editions/2026/09-15/03-ancient-plague-siberia.md)
-- **[Наука]** [«Красные точки» Уэбба: чёрные дыры или звёзды размером с чёрную дыру?](editions/2026/09-15/04-webb-little-red-dots.md)
-- **[Культура]** [Шахматы доедут до Южного полюса — и это не первоапрельская шутка](editions/2026/09-15/05-antarctica-chess-tournament.md)
-- **[Культура]** [Macklemore сняли с тура Эда Ширана за слова в поддержку Палестины](editions/2026/09-15/06-macklemore-ed-sheeran-tour.md)
-- **[ИИ]** [«Тимми», «Рен» и «Джеки» — ИИ-боты, которые сами признаются, что они боты](editions/2026/09-15/07-ai-agents-social-slop.md)
-- **[Мир]** [Верховный суд США заблокировал попытку Трампа ограничить голосование по почте](editions/2026/09-15/08-supreme-court-mail-voting-trump.md)
-- **[Мир]** [Свадьбу Трампа-младшего оплатил бизнесмен, которого Путин наградил Орденом Дружбы](editions/2026/09-15/09-kremlin-oligarch-trump-jr-wedding.md)
-- **[Наука]** [Учебники химии почти сто лет ошибались насчёт того, как атомы влияют друг на друга](editions/2026/09-15/10-chemistry-textbooks-inductive-effect.md)
-- **[Наука]** [Рак молодеет — и, возможно, дело в том, что тела людей стареют быстрее](editions/2026/09-15/11-cancer-younger-adults-biological-aging.md)
-- **[Культура]** [Oasis едут в новый тур 2027 года — с возвращением в Небворт](editions/2026/09-15/12-oasis-2027-tour.md)
+- **[Технологии]** [SpaceX объявила дату первого орбитального полёта Starship](editions/2026/09-16/01-spacex-starship-orbital-launch.md)
+- **[Мир]** [Власти ДРК заявили, что вспышка Эболы прошла пик](editions/2026/09-16/02-ebola-drc-outbreak-peaked.md)
+- **[ИИ]** [Лидеры ИИ-индустрии просят регуляций, Трамп называет тревогу «фейками»](editions/2026/09-16/03-ai-regulation-trump-hoaxes.md)
+- **[Наука]** [Извержение вулкана Тонга неожиданно уничтожало метан в атмосфере](editions/2026/09-16/04-tonga-volcano-methane.md)
+- **[Мир]** [В Пенсильвании от осложнения кори умер 18-летний подросток](editions/2026/09-16/05-measles-death-pennsylvania.md)
+- **[Наука]** [Что такое загадочная программа Ленглендса — и почему математики о ней спорят десятилетиями](editions/2026/09-16/06-langlands-program-explainer.md)
+- **[Культура]** [Стратегический нефтяной резерв США устроен как гигантская подземная архитектура](editions/2026/09-16/07-strategic-oil-reserve-architecture.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

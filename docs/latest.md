@@ -1,49 +1,29 @@
-# frontier-wire — latest edition №13 (2026-09-15)
+# frontier-wire — latest edition №14 (2026-09-16)
 
-## Africa's richest man is taking his refinery public — and could pocket $23bn / Африканский миллиардер выводит нефтезавод на биржу — и может заработать $23 млрд
-rubric: world · source: https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/01-dangote-refinery-ipo.md
+## SpaceX sets launch date for Starship's first orbital flight / SpaceX объявила дату первого орбитального полёта Starship
+rubric: tech · source: https://arstechnica.com/space/2026/09/spacex-sets-launch-date-for-first-starship-orbital-flight/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/01-spacex-starship-orbital-launch.md
 
-## London's oldest hospital was built on slave-trade money / Старейшая больница Лондона стоит на деньгах работорговцев
-rubric: world · source: https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/02-st-barts-slave-trade-donors.md
+## DRC authorities say the Ebola outbreak has peaked / Власти ДРК заявили, что вспышка Эболы прошла пик
+rubric: world · source: https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/02-ebola-drc-outbreak-peaked.md
 
-## Plague was wiping out whole families 5,500 years before the Black Death / Чума убивала целыми семьями за 5500 лет до Чёрной смерти
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260913082203.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/03-ancient-plague-siberia.md
+## AI leaders call for regulation, Trump dismisses the alarm as 'hoaxes / Лидеры ИИ-индустрии просят регуляций, Трамп называет тревогу «фейками»
+rubric: ai · source: https://www.dw.com/en/ai-leaders-call-for-regulations-trump-dismisses-hoaxes/a-79284638?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/03-ai-regulation-trump-hoaxes.md
 
-## Webb's "little red dots": black holes, or stars built like black holes? / «Красные точки» Уэбба: чёрные дыры или звёзды размером с чёрную дыру?
-rubric: science · source: https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/04-webb-little-red-dots.md
+## The Tonga eruption may have been quietly destroying atmospheric methane / Извержение вулкана Тонга неожиданно уничтожало метан в атмосфере
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260915095750.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/04-tonga-volcano-methane.md
 
-## Chess is heading to the South Pole — and this time it's not an April Fools' joke / Шахматы доедут до Южного полюса — и это не первоапрельская шутка
-rubric: culture · source: https://www.chess.com/news/view/first-fide-rated-chess-tournament-antarctica-south-pole
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/05-antarctica-chess-tournament.md
+## An 18-year-old died of a measles complication in Pennsylvania / В Пенсильвании от осложнения кори умер 18-летний подросток
+rubric: world · source: https://arstechnica.com/health/2026/09/measles-kills-18-year-old-in-pa-fourth-death-as-state-outbreak-nears-700-cases/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/05-measles-death-pennsylvania.md
 
-## Macklemore was kicked off Ed Sheeran's tour for pro-Palestine comments / Macklemore сняли с тура Эда Ширана за слова в поддержку Палестины
-rubric: culture · source: https://pitchfork.com/story/macklemore-kicked-off-ed-sheeran-tour-for-pro-palestine-comments/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/06-macklemore-ed-sheeran-tour.md
+## What is math's mysterious Langlands Program really about? / Что такое загадочная программа Ленглендса — и почему математики о ней спорят десятилетиями
+rubric: science · source: https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/06-langlands-program-explainer.md
 
-## Timmy," "Ren," and "Jackie" are AI bots that openly admit they're bots / «Тимми», «Рен» и «Джеки» — ИИ-боты, которые сами признаются, что они боты
-rubric: ai · source: https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/07-ai-agents-social-slop.md
-
-## The Supreme Court just blocked Trump's push to restrict mail-in voting / Верховный суд США заблокировал попытку Трампа ограничить голосование по почте
-rubric: world · source: https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/08-supreme-court-mail-voting-trump.md
-
-## Trump Jr.'s wedding was partly funded by a businessman Putin decorated with the Order of Friendship / Свадьбу Трампа-младшего оплатил бизнесмен, которого Путин наградил Орденом Дружбы
-rubric: world · source: https://www.dw.com/en/kremlin-linked-russian-oligarch-helped-fund-trump-jr-s-wedding-celebration/a-79267341?maca=en-rss-en-all-1573-rdf
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/09-kremlin-oligarch-trump-jr-wedding.md
-
-## Chemistry textbooks got this wrong for almost 100 years / Учебники химии почти сто лет ошибались насчёт того, как атомы влияют друг на друга
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260913082157.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/10-chemistry-textbooks-inductive-effect.md
-
-## Cancer is creeping into younger adults — and faster biological aging may be why / Рак молодеет — и, возможно, дело в том, что тела людей стареют быстрее
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260913082200.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/11-cancer-younger-adults-biological-aging.md
-
-## Oasis are going on tour again in 2027 — and heading back to Knebworth / Oasis едут в новый тур 2027 года — с возвращением в Небворт
-rubric: culture · source: https://pitchfork.com/story/oasis-announce-2027-tour/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-15/12-oasis-2027-tour.md
+## The US Strategic Petroleum Reserve is a vast piece of underground architecture / Стратегический нефтяной резерв США устроен как гигантская подземная архитектура
+rubric: culture · source: https://www.bldgblog.com/2026/03/contextual-collapse/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-16/07-strategic-oil-reserve-architecture.md

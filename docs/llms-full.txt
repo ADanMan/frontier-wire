@@ -2,6 +2,206 @@
 
 
 
+===== EDITION 14 — 2026-09-16 =====
+
+## От редакции
+
+SpaceX назначила дату первого орбитального полёта Starship — старт может состояться уже на следующей неделе. Пока в космосе готовятся к пуску, в Демократической Республике Конго вспышка Эболы, судя по всему, прошла пик, а Саудовская Аравия отменила часть поставок нефти в Европу после диверсии на трубопроводе East-West. Крупные игроки ИИ-индустрии зовут регуляторов приниматься за дело, а Трамп называет тревогу «хайпом» — спор идёт открыто и с именами. На десерт — вулкан Тонга, который неожиданно уничтожает метан в атмосфере, и архитектурная история о том, как на самом деле устроено стратегическое нефтяное хранилище США.
+
+## Editorial
+
+SpaceX has set a launch date for Starship's first orbital flight — as early as next week. While rockets get ready, the Ebola outbreak in the Democratic Republic of Congo appears to have peaked, and Saudi Arabia has canceled some oil shipments to Europe after an attack on the East-West pipeline. AI industry leaders are calling for regulation while Trump dismisses the alarm as "hoaxes" — the argument is public and names names. For dessert: the Tonga volcano that's mysteriously eating atmospheric methane, and an architecture piece on how the US Strategic Petroleum Reserve actually works.
+
+
+----- 01-spacex-starship-orbital-launch (tech) — source: https://arstechnica.com/space/2026/09/spacex-sets-launch-date-for-first-starship-orbital-flight/ -----
+
+## Русская версия
+
+SpaceX объявила, что Starship готов к первому по-настоящему орбитальному полёту, и назначила дату старта на следующую неделю, [пишет Ars Technica](https://arstechnica.com/space/2026/09/spacex-sets-launch-date-for-first-starship-orbital-flight/). Если пуск пройдёт штатно, это будет означать, что корабль впервые действительно выйдет на орбиту, а не просто пролетит суборбитальную дугу, как в предыдущих тестах.
+
+Разница между «суборбитальным» и «орбитальным» для Starship — не формальность. Все предыдущие полёты корабля заканчивались контролируемым падением примерно там же, откуда взлетели, специально, чтобы не оставлять на орбите обломки в случае неудачи. Настоящий орбитальный полёт означает, что SpaceX уже достаточно уверена в двигателях, теплозащите и системах управления, чтобы отправить корабль по полноценной траектории вокруг Земли.
+
+Для программы это рубеж не менее важный, чем первый успешный возврат первой ступени: Starship создавался как многоразовая ракета для Луны и Марса, и без надёжного орбитального полёта все планы NASA по лунной программе Artemis, завязанные на этот корабль, остаются на бумаге. Стоит помнить и цену осторожности: каждая задержка старта означает, что конкуренты — от Blue Origin до китайских госпрограмм — получают лишние месяцы.
+
+### Почему это важно
+
+Если пуск получится, это будет первое реальное подтверждение, что Starship способен делать то, для чего его строили, а не только то, что он умеет безопасно взлетать и садиться.
+
+## English version
+
+SpaceX says Starship is ready for its first genuinely orbital flight and has set the launch for next week, [Ars Technica reports](https://arstechnica.com/space/2026/09/spacex-sets-launch-date-for-first-starship-orbital-flight/). If the launch goes as planned, it will be the first time the ship actually reaches orbit rather than following a suborbital arc, as in every previous test.
+
+The distinction between "suborbital" and "orbital" isn't a technicality here. Every prior Starship flight ended with a controlled splashdown roughly where it launched, deliberately, so a failure wouldn't leave debris in orbit. An actual orbital flight means SpaceX is now confident enough in the engines, heat shield, and control systems to send the ship on a full trip around the Earth.
+
+That makes this milestone arguably as important as the first successful booster catch: Starship was built as a reusable vehicle for the Moon and Mars, and without a reliable orbital flight, NASA's Artemis lunar plans that depend on it stay theoretical. The cost of caution is real too — every delay hands competitors, from Blue Origin to China's state programs, extra months.
+
+### Why it matters
+
+A successful launch would be the first real proof that Starship can do what it was built for, not just that it can safely take off and land.
+
+
+----- 02-ebola-drc-outbreak-peaked (world) — source: https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow -----
+
+## Русская версия
+
+Власти Демократической Республики Конго объявили, что вспышка Эболы, охватившая часть страны, прошла свой пик, [сообщает The Guardian](https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow). За время эпидемии умерли почти 3500 человек, но темпы заражения впервые с начала вспышки идут вниз. Эпицентром остаётся регион Бундибугио.
+
+Заявление «пик прошёл» — это не «эпидемия закончилась», а сигнал, что кривая заражений перестала расти и начала снижаться. Для системы здравоохранения это принципиальная разница: значит, изоляция очагов и работа с контактами наконец опережают распространение вируса, а не догоняют его. Но эксперты в материале напоминают: расслабляться рано — нужно довести дело до нулевых случаев в Бундибугио, а не просто до замедления.
+
+Эбола страшна не только смертностью, но и тем, как легко вспышка возвращается там, где систему наблюдения ослабляют раньше времени — так уже бывало в предыдущих эпидемиях в регионе. Почти 3500 смертей — это счёт, который не спишешь на статистику, и именно поэтому официальные лица говорят осторожно: «пик» — хорошая новость, но не финал истории.
+
+### Почему это важно
+
+Замедление вспышки — реальный, измеримый успех, но история Эболы в регионе учит: главная опасность начинается именно тогда, когда все решают, что худшее уже позади.
+
+## English version
+
+Authorities in the Democratic Republic of Congo say the Ebola outbreak that has swept part of the country has reached its peak, [The Guardian reports](https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow). Almost 3,500 people have died in the outbreak, but infection rates are slowing for the first time since it began. Bundibugyo remains the epicenter.
+
+"Peaked" isn't the same as "over" — it means the infection curve has stopped climbing and started coming down. That's a meaningful shift for the health response: it suggests containment and contact tracing are finally outpacing the virus's spread rather than chasing it. But experts quoted in the piece caution against relaxing too soon — the real goal is zero cases in Bundibugyo, not just a slower climb.
+
+Ebola is dangerous not only for its death toll but for how easily outbreaks return once surveillance is scaled back too early, something the region has seen before. Almost 3,500 deaths is not a number officials treat lightly, which is why they're being careful with their language — a peak is real progress, not the end of the story.
+
+### Why it matters
+
+A slowing outbreak is a genuine, measurable win, but the region's history with Ebola shows the real danger often starts the moment everyone assumes the worst is behind them.
+
+
+----- 03-ai-regulation-trump-hoaxes (ai) — source: https://www.dw.com/en/ai-leaders-call-for-regulations-trump-dismisses-hoaxes/a-79284638?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Крупные ИИ-компании работают над созданием органа стандартизации на фоне растущей тревоги по поводу рисков отрасли — при этом президент Трамп называет эти предупреждения «фейками», а раздвоенный Конгресс не может договориться ни о каких мерах, [пишет Deutsche Welle](https://www.dw.com/en/ai-leaders-call-for-regulations-trump-dismisses-hoaxes/a-79284638?maca=en-rss-en-all-1573-rdf).
+
+Ситуация выглядит парадоксально: сами компании, которые больше всех заинтересованы в быстром росте рынка ИИ, публично просят их немного притормозить и зарегулировать — обычно бизнес просит ровно обратного. Это можно читать либо как искреннюю тревогу инженеров и исследователей внутри индустрии, либо как расчётливый ход: добровольные стандарты сейчас выгоднее, чем жёсткий закон, написанный вслепую после какого-нибудь громкого провала.
+
+Позиция Трампа добавляет асимметрии: если исполнительная власть публично считает тревогу преувеличенной, у Конгресса меньше политического стимула вообще что-то принимать. В итоге страна рискует получить не государственное регулирование, а частный стандарт, который компании написали сами для себя — со всеми удобными для них компромиссами.
+
+### Почему это важно
+
+Когда те, кого регулируют, пишут правила сами, а те, кто должен регулировать, называют проблему выдумкой, риск в итоге просто остаётся на месте — просто без присмотра со стороны государства.
+
+## English version
+
+Major AI companies are working to build a standards body amid rising alarm about the industry's risks, while President Trump has dismissed the warnings as "hoaxes" and a divided Congress has failed to act on any measures, [Deutsche Welle reports](https://www.dw.com/en/ai-leaders-call-for-regulations-trump-dismisses-hoaxes/a-79284638?maca=en-rss-en-all-1573-rdf).
+
+The setup is oddly inverted: the companies with the most to gain from AI's rapid growth are the ones publicly asking to be slowed down and regulated — usually business lobbies push the opposite way. That can be read either as genuine unease from engineers and researchers inside the industry, or as a calculated move — voluntary standards now beat a blunt law written in a panic after some future disaster.
+
+Trump's position adds an asymmetry: if the executive branch is publicly treating the alarm as overblown, Congress has even less political incentive to pass anything at all. The likely outcome isn't government oversight, but a private standard the companies wrote for themselves, with whatever compromises suit them.
+
+### Why it matters
+
+When the companies being regulated write their own rules, and the people who'd regulate them call the problem made up, the underlying risk doesn't go away — it just stops having anyone watching it.
+
+
+----- 04-tonga-volcano-methane (science) — source: https://www.sciencedaily.com/releases/2026/09/260915095750.htm -----
+
+## Русская версия
+
+Извержение вулкана Хунга-Тонга, судя по всему, запустило неожиданную химическую реакцию, которая уничтожала часть метана, попавшего в атмосферу, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260915095750.htm). Учёные говорят, что находка удивила их самих и может заставить пересмотреть оценки метанового загрязнения планеты, а заодно подсказать новые способы борьбы с потеплением в ближайшие годы.
+
+Метан — один из самых опасных парниковых газов именно потому, что работает быстро: он греет атмосферу гораздо сильнее углекислого газа в коротком горизонте, хотя и разлагается быстрее. Если гигантское извержение вроде Хунга-Тонга способно запускать процессы, которые сами по себе выводят метан из атмосферы, это открывает не просто любопытный факт о вулканах, а потенциальный природный механизм очистки, который климатологи раньше не учитывали в моделях.
+
+Стоит сразу сказать очевидное: вулканическое извержение — это не решение для климата, а катастрофа с массой других последствий, от пепла до нарушения авиасообщения. Речь не о том, что нужно больше извержений, а о том, что химия атмосферы в момент таких событий устроена сложнее, чем считалось, и в ней могут скрываться процессы, которые стоит понять и, может быть, воспроизвести искусственно.
+
+### Почему это важно
+
+Находка не даёт готового решения климатического кризиса, но показывает, что в атмосфере есть неучтённые механизмы разрушения метана — а значит, и текущие модели потепления могут нуждаться в поправке.
+
+## English version
+
+The Hunga Tonga volcanic eruption appears to have triggered a surprising chemical reaction that destroyed some of the methane released into the atmosphere, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260915095750.htm). Scientists say the discovery caught them off guard and could reshape estimates of methane pollution, while also pointing toward new ways to slow near-term warming.
+
+Methane is one of the most dangerous greenhouse gases precisely because it acts fast: it traps far more heat than carbon dioxide over a short timeframe, even though it breaks down quicker. If a massive eruption like Hunga Tonga's can kick off processes that pull methane out of the atmosphere on their own, that's not just a curious volcanic footnote — it's a potential natural cleanup mechanism that climate models haven't been accounting for.
+
+Worth saying plainly: a volcanic eruption is not a climate fix, it's a disaster with plenty of other consequences, from ash fallout to disrupted air travel. The point isn't that we need more eruptions — it's that atmospheric chemistry during these events is more complicated than assumed, and it may hide processes worth understanding, and perhaps eventually replicating on purpose.
+
+### Why it matters
+
+The finding doesn't hand anyone a climate fix, but it shows there are methane-destroying mechanisms in the atmosphere that current warming models haven't accounted for — which means those models may need adjusting.
+
+
+----- 05-measles-death-pennsylvania (world) — source: https://arstechnica.com/health/2026/09/measles-kills-18-year-old-in-pa-fourth-death-as-state-outbreak-nears-700-cases/ -----
+
+## Русская версия
+
+18-летний житель Пенсильвании умер от острого рассеянного энцефаломиелита — редкого, но известного неврологического осложнения кори, [сообщает Ars Technica](https://arstechnica.com/health/2026/09/measles-kills-18-year-old-in-pa-fourth-death-as-state-outbreak-nears-700-cases/). Это уже четвёртая смерть в штате с начала вспышки, число случаев которой приближается к 700.
+
+Корь давно перестала быть болезнью, о которой врачи вспоминают только в учебниках — именно потому, что охват вакцинацией в некоторых сообществах упал ниже порога коллективного иммунитета. Острый рассеянный энцефаломиелит — это не «обычное» течение кори, а осложнение, при котором иммунная система атакует собственную нервную систему пациента; оно редкое, но именно оно чаще всего убивает подростков и молодых взрослых, а не сама сыпь и температура.
+
+700 случаев в одном штате — это не абстрактная цифра эпидемиологической сводки, а показатель, что вспышка вышла за пределы отдельной вспышки в одной общине и превратилась в устойчивую цепочку передачи. Каждая новая смерть в такой ситуации — не случайность, а статистически ожидаемое следствие того, что вирус продолжает находить невакцинированных людей.
+
+### Почему это важно
+
+Четыре смерти от болезни, которая практически исчезла в стране благодаря вакцине, — это не трагическая случайность, а прямое измерение того, что происходит, когда охват прививками падает ниже безопасного уровня.
+
+## English version
+
+An 18-year-old in Pennsylvania died from acute disseminated encephalomyelitis, a rare but well-documented neurological complication of measles, [Ars Technica reports](https://arstechnica.com/health/2026/09/measles-kills-18-year-old-in-pa-fourth-death-as-state-outbreak-nears-700-cases/). It's the fourth death in the state since the outbreak began, which is now nearing 700 cases.
+
+Measles stopped being a textbook disease specifically because vaccination coverage dropped below the herd-immunity threshold in some communities. Acute disseminated encephalomyelitis isn't the "normal" course of measles — it's a complication where the immune system attacks the patient's own nervous system, and it's rare, but it's what actually kills teenagers and young adults, not the fever and rash themselves.
+
+700 cases in one state isn't an abstract line in an epidemiology report — it signals the outbreak has moved past a single community cluster into a sustained chain of transmission. Each additional death in that situation isn't a fluke; it's the statistically expected outcome of a virus that keeps finding unvaccinated people to infect.
+
+### Why it matters
+
+Four deaths from a disease vaccines had nearly eliminated in the country isn't a tragic coincidence — it's a direct measurement of what happens when vaccination coverage falls below a safe level.
+
+
+----- 06-langlands-program-explainer (science) — source: https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/ -----
+
+## Русская версия
+
+Quanta Magazine разбирает программу Ленглендса — одну из самых обсуждаемых и при этом самых непонятных широкой публике идей современной математики, [объясняет колумнист издания](https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/). Суть в том, что за этим названием скрывается не одна теорема, а целая сеть скрытых соответствий между разными областями математики — теорией чисел, геометрией, теорией представлений, — которые на первый взгляд не должны иметь друг к другу вообще никакого отношения.
+
+Программа Ленглендса работает как своего рода словарь-переводчик: задача, которая выглядит безнадёжно сложной на языке теории чисел, вдруг оказывается решаемой, если перевести её на язык геометрии, и наоборот. Именно поэтому за неё берутся десятилетиями и именно поэтому она так тяжело поддаётся популярному объяснению — речь не о конкретном результате, а о подозрении, что вся математика внутри устроена гораздо более взаимосвязанно, чем кажется по учебникам, разбитым на отдельные предметы.
+
+Материал специально написан так, чтобы дать почувствовать масштаб идеи, не проваливаясь в технические детали, которые требуют профессиональной подготовки: колумнист разбирает одну из таких скрытых связей и показывает, что математики сами до конца не согласны, что именно эта связь означает и куда она в итоге приведёт.
+
+### Почему это важно
+
+Программа Ленглендса — редкий пример математической идеи, которая объединяет далёкие друг от друга области не метафорически, а буквально, и понимание её масштаба помогает увидеть, что математика — это не набор изолированных дисциплин, а одна взаимосвязанная система.
+
+## English version
+
+Quanta Magazine takes on the Langlands Program, one of the most talked-about and least understood-by-outsiders ideas in modern mathematics, [its columnist explains](https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/). The core idea is that this isn't a single theorem — it's a whole network of hidden correspondences linking fields of math that shouldn't, on the surface, have anything to do with each other: number theory, geometry, representation theory.
+
+The Langlands Program works something like a translation dictionary: a problem that looks hopelessly hard phrased in the language of number theory can suddenly become tractable once translated into geometry, and vice versa. That's why mathematicians have spent decades on it, and why it resists easy popular explanation — it isn't about one specific result, but about a suspicion that mathematics as a whole is far more interconnected under the hood than the subject-by-subject way it gets taught.
+
+The piece is written to convey the scale of the idea without requiring professional training in the technical details: the columnist walks through one such hidden connection and shows that mathematicians themselves don't fully agree on what it means or where it ultimately leads.
+
+### Why it matters
+
+The Langlands Program is a rare case of a mathematical idea linking distant fields literally, not just metaphorically, and grasping its scale helps show that math isn't a set of isolated disciplines but one connected system.
+
+
+----- 07-strategic-oil-reserve-architecture (culture) — source: https://www.bldgblog.com/2026/03/contextual-collapse/ -----
+
+## Русская версия
+
+Разбирая статью Financial Times о возможном высвобождении части стратегических запасов нефти США, архитектурный блог BLDGBLOG обращает внимание на деталь, которую обычно пропускают в новостях об энергетике: сам резерв — это не набор гигантских цистерн, а сеть искусственных пещер, [пишет автор блога](https://www.bldgblog.com/2026/03/contextual-collapse/). Нефть закачивают в полости, вымытые водой в толще подземных соляных куполов, — то есть хранилище буквально высечено в земле, а не построено на ней.
+
+Соль в этой конструкции выбрана не случайно: соляные породы практически непроницаемы и самозатягиваются, если в них появляется трещина, что делает такие пещеры одними из самых надёжных естественных контейнеров, какие вообще существуют. По сути, США решили проблему хранения одного из самых стратегически важных ресурсов планеты не сталью и бетоном, а геологией — заставив саму землю быть сосудом.
+
+Это редкий случай, когда энергетическая инфраструктура становится архитектурным объектом в буквальном смысле: у резерва есть форма, объём, уязвимости — вроде той самой скрытой «архитектурной уязвимости», с которой начинается материал, — и своя логика проектирования, просто спрятанная на сотни метров под землёй, вне поля зрения.
+
+### Почему это важно
+
+История напоминает: инфраструктура, от которой зависит целая экономика, часто в буквальном смысле невидима — и то, что не видно, легко недооценить, пока об этом не напишут отдельную статью.
+
+## English version
+
+Unpacking a Financial Times piece on a possible release from the US strategic oil reserve, the architecture blog BLDGBLOG points out a detail energy coverage usually skips: the reserve itself isn't a cluster of giant tanks, [the blog's author writes](https://www.bldgblog.com/2026/03/contextual-collapse/). The oil sits in cavities carved by water inside underground salt domes — the storage facility is quite literally carved out of the earth rather than built on top of it.
+
+The choice of salt isn't incidental: salt formations are nearly impermeable and self-seal if a crack appears, making these caverns some of the most reliable natural containers that exist. In effect, the US solved the problem of storing one of the planet's most strategically important resources not with steel and concrete, but with geology — turning the ground itself into the vessel.
+
+It's a rare case where energy infrastructure becomes architecture in the literal sense: the reserve has a shape, a volume, vulnerabilities — like the very "architectural vulnerability" the piece opens with — and a design logic of its own, just hidden hundreds of meters underground, out of sight.
+
+### Why it matters
+
+The story is a reminder that infrastructure an entire economy depends on is often literally invisible — and what can't be seen is easy to underestimate until someone writes it up.
+
+
 ===== EDITION 13 — 2026-09-15 =====
 
 ## От редакции
