@@ -202,6 +202,168 @@ It's a rare case where energy infrastructure becomes architecture in the literal
 The story is a reminder that infrastructure an entire economy depends on is often literally invisible — and what can't be seen is easy to underestimate until someone writes it up.
 
 
+----- 08-us-democracy-index-lowest (world) — source: https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds -----
+
+## Русская версия
+
+Новый глобальный отчёт о состоянии демократии фиксирует США на самом низком уровне за все 50 лет, что ведутся подобные измерения, [сообщает NPR](https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds). Это не разовый провал на одном показателе, а итог полувекового наблюдения — то есть речь о самой продолжительной серии данных, какая вообще существует по этой теме, и именно на её фоне нынешний результат выглядит нижней точкой.
+
+Сам факт того, что подобные отчёты вообще существуют полвека, — тоже часть истории. Методику не меняли на ходу под текущую повестку, поэтому сравнение "тогда и сейчас" опирается на одну и ту же линейку. Именно это делает нынешнюю оценку не эмоциональным заявлением, а результатом длинного трека.
+
+Для страны, которая долго использовала статус демократического эталона как часть собственной идентичности и внешней политики, такой результат — не техническая деталь для политологов, а сигнал, который трудно списать на разовую аномалию: полвека — это не один электоральный цикл и не одна администрация.
+
+### Почему это важно
+
+Когда индикатор с полувековой историей показывает свой худший результат, это повод смотреть не на конкретную новость дня, а на тренд: разовые события можно списать на случайность, длинные ряды данных — гораздо труднее.
+
+## English version
+
+A new global democracy report finds the United States at its lowest point of democratic performance in the 50 years the measurement has existed, [NPR reports](https://www.npr.org/2026/09/15/nx-s1-5969741/state-of-u-s-democracy-reaches-new-low-report-finds). That's not a one-off dip on a single indicator — it's the bottom of the longest running dataset on the subject, which is exactly what makes the current reading notable.
+
+The fact that this tracking has run continuously for half a century is itself part of the story. The methodology wasn't rewritten to fit any particular moment, so the "then versus now" comparison rests on the same yardstick throughout. That's what turns the finding from a rhetorical claim into the output of a long, consistent series.
+
+For a country that has long treated its democratic standing as part of its own identity and foreign policy, a result like this isn't a footnote for political scientists — it's a signal that's hard to wave off as a one-time anomaly. Fifty years isn't one election cycle or one administration.
+
+### Why it matters
+
+When a fifty-year-old indicator hits its worst reading yet, the thing worth watching isn't the headline of the day but the trend line: single events can be explained away, but long data series are much harder to dismiss.
+
+
+----- 09-saudi-oil-europe-pipeline-blast (world) — source: https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss -----
+
+## Русская версия
+
+Саудовская Аравия отменила часть поставок нефти в Европу после того, как атаки вывели из строя её экспортный трубопровод к Красному морю, [сообщает Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss). Речь о трубопроводе East-West — одном из немногих маршрутов, которые позволяют саудовской нефти обходить Ормузский пролив и идти прямо к Красному морю, а не через Персидский залив.
+
+Именно эта особенность и делает диверсию чувствительной: когда основной маршрут в обход самого узкого места мировой нефтяной логистики выходит из строя, покупателям, которые на него рассчитывали, приходится либо ждать, либо срочно искать нефть в другом месте. Отмена части контрактов с европейскими клиентами — прямое следствие именно этой уязвимости, а не общего снижения добычи.
+
+История с East-West не возникла на пустом месте: трубопровод и раньше становился целью атак в этом регионе, и произошедшее — очередной эпизод в цепочке инцидентов, которая уже затрагивала интересы соседних стран. Но именно сейчас последствия дошли до конкретных контрактов с конкретными покупателями — то есть проблема перестала быть абстрактной геополитикой и стала практическим вопросом для трейдеров и НПЗ в Европе.
+
+### Почему это важно
+
+Один трубопровод, выведенный из строя, показывает, насколько мало на самом деле альтернативных маршрутов существует у нефти Персидского залива, — и как быстро региональная диверсия превращается в реальный дефицит контрактов на другом конце света.
+
+## English version
+
+Saudi Arabia has cancelled some oil deliveries to Europe after attacks knocked out its export pipeline to the Red Sea, [Al Jazeera reports](https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss). The line in question is the East-West pipeline — one of the few routes that let Saudi crude bypass the Strait of Hormuz entirely and reach the Red Sea directly, instead of moving out through the Persian Gulf.
+
+That's exactly what makes the attack consequential. When the main workaround for the world's tightest oil chokepoint goes down, buyers who were counting on it either have to wait or scramble to source crude elsewhere. The cancelled contracts with European customers are a direct result of that specific vulnerability, not a broader production cut.
+
+This isn't the pipeline's first brush with trouble — East-West has been targeted before, and this is the latest episode in a string of incidents that has already touched the interests of neighboring countries. But now the fallout has reached actual contracts with actual buyers, which turns the story from abstract regional geopolitics into a concrete supply problem for traders and refiners in Europe.
+
+### Why it matters
+
+One disabled pipeline shows just how few real alternative routes exist for Gulf oil — and how quickly a regional attack turns into an actual contract shortfall on the other side of the world.
+
+
+----- 10-roman-telescope-fuel-reserve (science) — source: https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/ -----
+
+## Русская версия
+
+Космический телескоп имени Нэнси Грейс Роман несёт на борту достаточно топлива, чтобы проработать 22 года — вдвое больше, чем изначально закладывала NASA, [пишет Ars Technica](https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/). Запас хода космических обсерваторий почти всегда ограничен именно топливом для коррекции орбиты и ориентации, а не износом самой оптики или приборов, поэтому такой резерв — это фактически удвоенный срок науки с одного и того же инструмента.
+
+Ключевая деталь в том, что «Роман» — первая обсерватория NASA, изначально спроектированная с расчётом на дозаправку прямо в космосе. Раньше топливный бак был жёстким потолком: закончилось горючее — миссия заканчивается, сколько бы ни оставалось ресурса у остальной аппаратуры. Возможность дозаправки меняет саму логику планирования: срок жизни телескопа перестаёт зависеть исключительно от того, сколько топлива в него закачали на старте.
+
+Практический эффект — не абстрактный. Больше лет наблюдений с одного и того же прибора означает более длинные ряды данных, которые как раз и нужны для задач вроде поиска экзопланет или изучения тёмной энергии, где статистика накапливается только с течением времени.
+
+### Почему это важно
+
+Дозаправляемая архитектура превращает срок службы телескопа из фиксированного числа, заданного на старте, в переменную, которую можно продлевать, — и это меняет то, как NASA будет планировать подобные миссии в будущем.
+
+## English version
+
+The Nancy Grace Roman Space Telescope is carrying enough fuel to operate for 22 years — double what NASA originally projected, [Ars Technica reports](https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/). A space observatory's working life is almost always capped by propellant for orbit and attitude control, not by wear on the optics or instruments themselves, so this reserve effectively doubles the amount of science one instrument can deliver.
+
+The key detail is that Roman is the first NASA observatory designed from the outset for in-space refueling. Previously, the fuel tank was a hard ceiling: once it ran dry, the mission ended, no matter how much life was left in the rest of the hardware. Refueling capability changes that logic entirely — a telescope's lifespan is no longer strictly tied to how much propellant it launched with.
+
+The practical payoff isn't abstract. More years of observation from the same instrument means longer data runs, which is exactly what's needed for work like exoplanet searches or dark energy studies, where the statistics only get better with time.
+
+### Why it matters
+
+A refuelable design turns a telescope's lifespan from a fixed number set at launch into something that can be extended — and that changes how NASA will plan missions like this one going forward.
+
+
+----- 11-cloggs-cave-ritual-grasses (science) — source: https://www.sciencedaily.com/releases/2026/09/260914102443.htm -----
+
+## Русская версия
+
+В пещере Клоггс на юго-востоке Австралии нашли микроскопические остатки растений, которые рассказывают о ритуальных практиках предков народа ГунайКурнаи (GunaiKurnai) на протяжении тысяч лет, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260914102443.htm). Судя по находкам, следы этих практик охватывают до 25 тысяч лет — то есть пещера использовалась в ритуальных целях практически без разрывов на протяжении огромного отрезка человеческой истории.
+
+Сама методика обнаружения показательна: учёные разглядели не крупные артефакты, а мельчайшие растительные остатки — по сути, пыльцу и частицы тканей трав, сохранившиеся в слоях пещерного грунта. Это позволило реконструировать конкретное действие: люди целенаправленно собирали целые пучки трав, приносили их вглубь тёмной пещеры и сжигали тонкими слоями, снова и снова, оставляя после каждого раза едва заметный след.
+
+Важно, что это не случайный мусор от повседневной жизни у входа в пещеру — сама глубина и темнота места, куда специально несли траву, чтобы там её сжечь, указывают именно на осознанное, повторяющееся действие, а не на бытовой костёр. Слоистость находок — тонкий пласт за тонким пластом — говорит о том, что практика повторялась поколение за поколением, а не была разовым эпизодом.
+
+### Почему это важно
+
+Когда следы одного и того же ритуального жеста находят слой за слоем на протяжении 25 тысяч лет, это редкая возможность увидеть не единичное событие, а непрерывность культурной практики в масштабе, который обычно недоступен археологии.
+
+## English version
+
+Cloggs Cave in southeastern Australia has yielded microscopic plant remains that trace ritual practices carried out by ancestors of the GunaiKurnai people over thousands of years, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260914102443.htm). The traces span as much as 25,000 years — meaning the cave was used for ritual purposes across an enormous stretch of human history, with remarkable continuity.
+
+The method behind the discovery is itself notable: researchers weren't looking at large artifacts but at the tiniest plant remnants — pollen and grass tissue fragments preserved within the cave's sediment layers. That let them reconstruct a specific, deliberate act: people gathered whole bundles of grass, carried them deep into the dark cave, and burned them in thin layers, over and over, each episode leaving behind a barely visible trace.
+
+Crucially, this isn't casual debris from everyday life near a cave entrance. The sheer depth and darkness of the spot where the grass was deliberately carried to be burned points to a conscious, repeated act rather than an ordinary fire. The layering itself — one thin burn layer stacked on the next — shows the practice was repeated across generations, not a single one-off episode.
+
+### Why it matters
+
+Finding the same ritual gesture repeated layer after layer across 25,000 years is a rare chance to see not a single event but the continuity of a cultural practice at a timescale archaeology almost never captures.
+
+
+----- 12-lethal-autonomy-book-review (culture) — source: https://undark.org/2026/09/11/book-review-lethal-autonomy/ -----
+
+## Русская версия
+
+Фрэнк Кендалл, бывший высокопоставленный чиновник Министерства обороны США, выпустил книгу «Lethal Autonomy» о военном будущем, в котором техника и оружие действуют по большей части самостоятельно — включая часть решений о том, наносить ли удар по людям или инфраструктуре, [пишет Undark](https://undark.org/2026/09/11/book-review-lethal-autonomy/). По мнению автора, конфликты будущего разворачиваются не только на земле, но и в космосе.
+
+Ценность книги в том, что её пишет не сторонний наблюдатель, а человек, который изнутри видел, как принимаются оборонные решения на самом верху. Это меняет тональность: речь не о футурологическом упражнении, а о сценарии, который его автор считает реалистичным продолжением уже идущих процессов — того, как военные системы постепенно передают всё больше решений автоматике.
+
+Ключевое слово в названии — «автономия», а не просто «автоматизация». Разница принципиальна: автоматическая система выполняет заданные правила, автономная — сама принимает решения в рамках более широких целей, включая решения о применении силы. Именно этот сдвиг, судя по описанию рецензии, и составляет центральный тезис книги Кендалла.
+
+### Почему это важно
+
+Когда о передаче решения об ударе машинам пишет не публицист, а человек, десятилетиями работавший внутри оборонного ведомства, это стоит воспринимать не как гипотезу, а как взгляд изнутри на то, куда реально движется военное планирование.
+
+## English version
+
+Frank Kendall, a former senior official at the US Department of Defense, has published "Lethal Autonomy," a book envisioning a military future where vehicles and weapons operate largely on their own — including making some of the decisions about whether to strike people or infrastructure, [Undark reports](https://undark.org/2026/09/11/book-review-lethal-autonomy/). In Kendall's view, future conflict extends beyond land and into space as well.
+
+The book's value comes from who's writing it: not an outside observer, but someone who saw firsthand how defense decisions get made at the highest levels. That changes the register — this isn't a futurist thought experiment, but a scenario its author treats as the realistic continuation of a process already underway, in which military systems keep handing more decisions to automation.
+
+The key word in the title is "autonomy," not simply "automation." The distinction matters: an automated system executes preset rules, while an autonomous one makes its own decisions within broader goals — including decisions about the use of force. That shift, based on the review's description, appears to be the central argument of Kendall's book.
+
+### Why it matters
+
+When the case for handing strike decisions to machines comes not from a pundit but from someone who spent decades inside the defense establishment, it's worth treating not as speculation but as an insider's read on where military planning is actually heading.
+
+
+----- 13-ai-inference-revolution (ai) — source: https://spectrum.ieee.org/inference-hardware-revolution -----
+
+## Русская версия
+
+С 2020 года индустрия ИИ была одержима наращиванием моделей при обучении: параметры больших языковых моделей выросли с миллионов до триллионов, [отмечает IEEE Spectrum](https://spectrum.ieee.org/inference-hardware-revolution). Это работало — самая крупная версия GPT-3 от OpenAI, вышедшая в 2020 году, правильно отвечала лишь на 43,9% вопросов в тестовом бенчмарке, и с тех пор точность моделей заметно выросла именно за счёт увеличения масштаба обучения.
+
+Но, по данным издания, сейчас фокус индустрии смещается: вместо того чтобы просто делать модель крупнее на этапе обучения, всё больше внимания уделяется вычислениям, которые модель тратит уже во время самого ответа — то есть тому, что называется инференсом. Это принципиально другой рычаг повышения качества: не «выучить больше заранее», а «подумать дольше и тщательнее в моменте ответа на конкретный вопрос».
+
+Такой сдвиг — не просто смена моды, а следствие того, что наращивание параметров при обучении становится всё дороже, а выигрыш от него — не бесконечен. Перенос части «умственных усилий» на момент вывода превращает вычислительную мощность в новый ресурс, который можно тратить точечно, там, где вопрос действительно сложный, а не равномерно на каждый запрос модели любой сложности.
+
+### Почему это важно
+
+Переход от «обучить модель побольше» к «дать модели подумать подольше в момент ответа» меняет то, где именно в индустрии ИИ теперь тратятся вычислительные мощности — а значит, и то, какое оборудование и инфраструктура станут по-настоящему дефицитными.
+
+## English version
+
+Since about 2020, the AI industry has been focused on making models bigger at training time: large language models ballooned from millions of parameters to trillions, [IEEE Spectrum notes](https://spectrum.ieee.org/inference-hardware-revolution). It worked — the largest version of OpenAI's GPT-3, released in 2020, correctly answered just 43.9 percent of questions on a benchmark, and model accuracy has climbed substantially since, largely through scaling up training.
+
+But the industry's focus is now shifting, according to the outlet: instead of simply making a model bigger during training, more attention is going to the compute a model spends at answer time itself — what's known as inference. That's a fundamentally different lever for improving quality: not "learn more in advance," but "think longer and harder in the moment of answering a specific question."
+
+That shift isn't just a change in fashion — it reflects the fact that scaling up parameters during training keeps getting more expensive, and the gains from doing so aren't limitless. Moving some of the "thinking effort" to inference time turns compute into a resource that can be spent selectively, on questions that are genuinely hard, rather than evenly across every query regardless of difficulty.
+
+### Why it matters
+
+Moving from "train a bigger model" to "let the model think longer when it answers" changes where the AI industry actually spends its compute — and with it, what hardware and infrastructure become the real bottleneck.
+
+
 ===== EDITION 13 — 2026-09-15 =====
 
 ## От редакции
