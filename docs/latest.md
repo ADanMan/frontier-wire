@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## A NASA scientist stumbled on a moon crater that forms "once in a century / Учёный NASA случайно нашёл на Луне кратер, который бывает «раз в сто лет»
 rubric: science · source: https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/07-nasa-moon-crater-discovery.md
+
+## IMF urges Australia to cut spending as another rate hike looms / МВФ призвал Австралию урезать расходы — на фоне угрозы новой ставки
+rubric: economy · source: https://www.theguardian.com/australia-news/2026/sep/17/imf-downgrades-australian-economic-forecast-amid-fears-of-interest-rate-hike
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/08-imf-australia-spending-cuts.md
+
+## A thinktank close to Reform UK is drafting a plan to abolish inheritance tax / Аналитический центр, близкий к Reform UK, готовит план по отмене налога на наследство
+rubric: world · source: https://www.theguardian.com/politics/2026/sep/16/reform-thinktank-tax-cuts-rich-centre-for-a-better-britain
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/09-reform-thinktank-tax-cuts.md
+
+## Scientists are 'truly astonished' by a find that rewrites Earth's origin story / Учёных «по-настоящему поразило» открытие, которое переписывает историю рождения Земли
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260915232132.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/10-earth-origin-inner-solar-system.md
+
+## The Sunrise on the Reaping trailer finally gives Haymitch a backstory / В трейлере «Восхода на затравке» Хеймитчу наконец дали предысторию
+rubric: culture · source: https://arstechnica.com/culture/2026/09/haymitch-gets-a-backstory-in-sunrise-on-the-reaping-trailer/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/11-sunrise-on-the-reaping-trailer.md
+
+## Apple is reportedly building its own AI server on M-series Ultra chips / Apple, по слухам, строит собственный ИИ-сервер на чипах M-серии Ultra
+rubric: tech · source: https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/12-apple-ai-server-m-series.md
+
+## Scientists find an immune 'false alarm' that may drive rapid aging / Учёные нашли «ложную тревогу» иммунитета, которая может ускорять старение
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260915232130.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-17/13-immune-false-alarm-aging.md
