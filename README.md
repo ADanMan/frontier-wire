@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №14 / Edition №14 — 2026-09-16** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №15 / Edition №15 — 2026-09-17** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Технологии]** [SpaceX объявила дату первого орбитального полёта Starship](editions/2026/09-16/01-spacex-starship-orbital-launch.md)
-- **[Мир]** [Власти ДРК заявили, что вспышка Эболы прошла пик](editions/2026/09-16/02-ebola-drc-outbreak-peaked.md)
-- **[ИИ]** [Лидеры ИИ-индустрии просят регуляций, Трамп называет тревогу «фейками»](editions/2026/09-16/03-ai-regulation-trump-hoaxes.md)
-- **[Наука]** [Извержение вулкана Тонга неожиданно уничтожало метан в атмосфере](editions/2026/09-16/04-tonga-volcano-methane.md)
-- **[Мир]** [В Пенсильвании от осложнения кори умер 18-летний подросток](editions/2026/09-16/05-measles-death-pennsylvania.md)
-- **[Наука]** [Что такое загадочная программа Ленглендса — и почему математики о ней спорят десятилетиями](editions/2026/09-16/06-langlands-program-explainer.md)
-- **[Экономика]** [Стратегический нефтяной резерв США устроен как гигантская подземная архитектура](editions/2026/09-16/07-strategic-oil-reserve-architecture.md)
-- **[Мир]** [Новый отчёт о состоянии демократии поставил США на исторический минимум](editions/2026/09-16/08-us-democracy-index-lowest.md)
-- **[Мир]** [Саудовская Аравия отменила часть поставок нефти в Европу после диверсии на трубопроводе](editions/2026/09-16/09-saudi-oil-europe-pipeline-blast.md)
-- **[Наука]** [У телескопа «Роман» топлива хватит на 22 года — вдвое больше, чем рассчитывала NASA](editions/2026/09-16/10-roman-telescope-fuel-reserve.md)
-- **[Наука]** [В австралийской пещере нашли следы ритуалов, которым 25 тысяч лет](editions/2026/09-16/11-cloggs-cave-ritual-grasses.md)
-- **[Культура]** [Экс-чиновник Пентагона написал книгу о войнах, которые будут вести машины](editions/2026/09-16/12-lethal-autonomy-book-review.md)
-- **[ИИ]** [Индустрия ИИ переключается с гонки обучения на гонку вывода](editions/2026/09-16/13-ai-inference-revolution.md)
+- **[Мир]** [«Мы — добыча»: у аэропорта Йоханнесбурга нашли тела восьми женщин](editions/2026/09-17/01-south-africa-femicide-crisis.md)
+- **[Экономика]** [Инфляция в Британии подскочила до 3,1% — виноват бензин](editions/2026/09-17/02-uk-inflation-31-percent.md)
+- **[Наука]** [Окаменелость возрастом 240 миллионов лет меняет хронологию динозавров](editions/2026/09-17/03-fossil-rewrites-dinosaur-timeline.md)
+- **[Мир]** [Палата представителей приняла санкции против России — законопроект назвали в честь Линдси Грэма](editions/2026/09-17/04-russia-sanctions-bill-congress.md)
+- **[Технологии]** [Мы поносили очки дополненной реальности Snap за 2200 долларов](editions/2026/09-17/05-snap-ar-specs-hands-on.md)
+- **[Культура]** [Стриминги схлестнулись за Хэллоуин на фестивале в Торонто](editions/2026/09-17/06-streaming-wars-halloween.md)
+- **[Наука]** [Учёный NASA случайно нашёл на Луне кратер, который бывает «раз в сто лет»](editions/2026/09-17/07-nasa-moon-crater-discovery.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

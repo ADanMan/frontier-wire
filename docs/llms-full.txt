@@ -2,6 +2,206 @@
 
 
 
+===== EDITION 15 — 2026-09-17 =====
+
+## От редакции
+
+Утро начинается с тяжёлого: у аэропорта Йоханнесбурга нашли тела восьми женщин, и это снова разговор о фемициде в Южной Африке. В Британии инфляция подскочила до 3,1% — дорожает бензин, и Даунинг-стрит готовится к «трудным решениям» в бюджете. Конгресс США провёл через обе палаты санкции против России — с тарифами на импортёров российской нефти вроде Китая и Индии. Есть и находки полегче: окаменелость возрастом 240 миллионов лет из Танзании двигает временную шкалу динозавров, лунный орбитальный аппарат NASA случайно заметил кратер, которому «раз в сто лет» бывает, а стриминги схлестнулись за право показать вам Хэллоуин.
+
+## Editorial
+
+The morning opens heavy: eight women's bodies were found near Johannesburg's airport, reviving the conversation about femicide in South Africa. In Britain, inflation jumped to 3.1% on rising fuel prices, and Downing Street is bracing for "difficult decisions" in next month's budget. The US Congress pushed a Russia sanctions bill through both chambers, with tariffs aimed at oil importers like China and India. Lighter fare too: a 240-million-year-old fossil from Tanzania is reshaping the dinosaur timeline, a NASA lunar orbiter stumbled on a crater described as a "once-in-a-century" find, and streaming services are going head-to-head over Halloween.
+
+
+----- 01-south-africa-femicide-crisis (world) — source: https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa -----
+
+## Русская версия
+
+Вокруг международного аэропорта Йоханнесбурга за последнее время нашли тела восьми женщин — пять из них обнаружили буквально за последнюю неделю, [сообщает The Guardian](https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa). Находки вызвали волну страха и гнева: в материале издания это описывают формулой «Мы — добыча».
+
+Речь не о единичном преступлении, а о серии убийств, сконцентрированной в одном районе за короткий срок — именно это отличает нынешний случай от фонового уровня насилия против женщин, который в Южной Африке и так один из самых высоких в мире. Когда тела находят одно за другим у крупного транспортного узла, это читается уже не как трагическая случайность, а как работа кого-то, кто действует систематически и знает, что может оставаться незамеченным.
+
+Для южноафриканского общества это очередной удар по и так шаткому доверию к тому, что государство способно защитить женщин. Фемицид там годами называют национальным позорным клеймом, но громкие всплески вроде этого каждый раз показывают: разговоры о кризисе идут быстрее, чем реальные изменения в расследовании подобных дел.
+
+### Почему это важно
+
+Когда убийства женщин концентрируются в одном месте и в сжатые сроки, это сигнал не про статистику, а про конкретный провал системы безопасности — и именно поэтому такие эпизоды становятся точкой, после которой требуют не сочувствия, а действий.
+
+## English version
+
+Around Johannesburg's international airport, the bodies of eight women have been found, five of them in the past week alone, [The Guardian reports](https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa). The discoveries have set off an outpouring of fear and anger captured in the phrase used in the piece: "We are prey."
+
+This isn't an isolated crime — it's a cluster of killings concentrated in one area over a short span, which is what sets it apart from South Africa's already high baseline rate of violence against women. When bodies keep turning up near a major transport hub, it stops reading as tragic coincidence and starts looking like the work of someone operating systematically, confident they won't be caught.
+
+For South African society, it's another blow to already fragile trust that the state can protect women. Femicide has been called a national disgrace there for years, but spikes like this one keep exposing the same gap: talk about the crisis moves faster than actual progress on investigating these cases.
+
+### Why it matters
+
+When killings of women cluster in one place over a short window, it points to a specific security failure, not a statistical blip — and that's exactly why episodes like this demand action, not just sympathy.
+
+
+----- 02-uk-inflation-31-percent (economy) — source: https://www.theguardian.com/business/live/2026/sep/16/uk-inflation-expected-to-have-risen-in-august-as-cost-of-living-squeeze-tightens-business-live -----
+
+## Русская версия
+
+Инфляция в Великобритании в августе выросла до 3,1% — это пятимесячный максимум, [сообщает The Guardian](https://www.theguardian.com/business/live/2026/sep/16/uk-inflation-expected-to-have-risen-in-august-as-cost-of-living-squeeze-tightens-business-live). Главный виновник — топливо: цены на бензин на заправках подскочили почти на четверть. Одновременно ускорился рост цен производителей — то есть удорожание ещё не полностью дошло до полок магазинов.
+
+На пальцах это значит вот что: инфляция растёт не потому, что люди вдруг стали больше тратить, а потому что дорожает конкретный товар — топливо, — который тянет за собой цены буквально на всё остальное, от доставки до производства. И раз цены производителей тоже ускорились, следующий месяц-два, вероятно, будут не легче: удорожание сырья и логистики ещё должно докатиться до чеков в магазинах.
+
+Отдельная деталь из того же материала — рынок жилья ведёт себя противоречиво: аренда продолжает дорожать быстрее, чем раньше, а вот цены на дома в Лондоне при этом падают. Получается странная картина: снимать жильё в стране становится дороже, а вот купить его — в столице, по крайней мере, — чуть дешевле, чем недавно.
+
+### Почему это важно
+
+Скачок инфляции до пятимесячного максимума на фоне роста цен производителей — сигнал, что Банку Англии будет сложнее оправдать снижение ставки на ближайшем заседании, а домохозяйствам — сложнее почувствовать облегчение в ближайшие месяцы.
+
+## English version
+
+UK inflation rose to 3.1% in August, a five-month high, [The Guardian reports](https://www.theguardian.com/business/live/2026/sep/16/uk-inflation-expected-to-have-risen-in-august-as-cost-of-living-squeeze-tightens-business-live). The main driver is fuel: pump prices for petrol jumped by almost a quarter. Producer prices also accelerated, meaning the cost pressure hasn't fully worked its way through to store shelves yet.
+
+Put simply: this inflation spike isn't about people suddenly spending more, it's about one specific input — fuel — getting more expensive and dragging up costs across the board, from delivery to manufacturing. And since producer prices sped up too, the next month or two probably won't bring much relief: higher input and logistics costs still have to filter through to what shows up on receipts.
+
+One more detail from the same report: the housing market is sending mixed signals. Rents keep accelerating, while house prices in London are actually falling. So renting in the country is getting pricier, while buying — in the capital, at least — has gotten a bit cheaper.
+
+### Why it matters
+
+A jump to a five-month inflation high, paired with faster producer price growth, makes it harder for the Bank of England to justify cutting rates at its next meeting — and harder for households to expect relief anytime soon.
+
+
+----- 03-fossil-rewrites-dinosaur-timeline (science) — source: https://www.sciencedaily.com/releases/2026/09/260915232128.htm -----
+
+## Русская версия
+
+В Танзании описали новый вид возрастом 240 миллионов лет — Dinodontosaurus isiyavamanda, — и он заставляет пересматривать раннюю хронологию динозавров, [пишет ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260915232128.htm). Животное относится к группе, которую до сих пор находили только в Южной Америке, а значит, теперь у палеонтологов есть прямая связка между ископаемыми отложениями двух континентов.
+
+Звучит как узкоспециальная деталь, но на деле это довольно сильный аргумент. Если один и тот же тип животных жил и в нынешней Танзании, и в Южной Америке 240 миллионов лет назад, это не совпадение, а свидетельство того, что эти территории в ту эпоху были связаны — и позволяет точнее сверять возраст отложений на разных континентах, а не гадать по отдельности.
+
+Именно так и работает настоящая палеонтология: не сенсационные «динозавр-гигант», а находка одного скелета, которая заставляет передвинуть колышки на карте эволюции и синхронизировать записи, которые раньше существовали как бы порознь.
+
+### Почему это важно
+
+Одна окаменелость, привязывающая фауну Танзании к южноамериканской, — это не просто новый вид в каталоге, а инструмент, который позволяет точнее датировать раннюю историю динозавров сразу на двух континентах.
+
+## English version
+
+Scientists in Tanzania have described a new 240-million-year-old species, Dinodontosaurus isiyavamanda, and it's forcing a rethink of the early dinosaur timeline, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260915232128.htm). The animal belongs to a group previously known only from South America, giving paleontologists a direct link between fossil deposits on two continents.
+
+That might sound like a narrow technical detail, but it's actually a fairly strong piece of evidence. If the same type of animal lived in what's now Tanzania and in South America 240 million years ago, that's not a coincidence — it suggests the two regions were connected at the time, and it lets researchers cross-check the age of fossil layers on different continents instead of dating each one in isolation.
+
+This is what real paleontology usually looks like: not a sensational "giant dinosaur" headline, but a single skeleton that shifts pins on the evolutionary map and syncs up records that used to sit apart from each other.
+
+### Why it matters
+
+One fossil linking Tanzania's fauna to South America's isn't just a new entry in the catalog — it's a tool for pinning down the early history of dinosaurs more precisely on two continents at once.
+
+
+----- 04-russia-sanctions-bill-congress (world) — source: https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham -----
+
+## Русская версия
+
+Палата представителей США приняла пакет санкций против России, и теперь он отправляется на подпись Трампу, [сообщает NPR](https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham). Законопроект назвали в честь покойного сенатора от Южной Каролины Линдси Грэма. Ключевая механика документа простая и жёсткая: он даёт президенту право вводить пошлины против стран, которые больше всего закупают российскую нефть и газ, — в тексте прямо названы Китай и Индия.
+
+Это не про прямой запрет торговли с Россией, а про давление через третьи страны — тех, кто продолжает покупать российские энергоносители и тем самым финансирует бюджет войны. Логика в том, что санкции против самой России уже во многом исчерпали простые рычаги, а вот угроза пошлин крупнейшим покупателям — новый инструмент, который бьёт по экономическим партнёрам Москвы, а не только по ней самой.
+
+То, что закон прошёл именно как двухпартийная инициатива, названная в честь недавно ушедшего сенатора, — тоже сигнал: в Конгрессе это один из немногих вопросов, где по-прежнему можно набрать голоса без острой партийной драки.
+
+### Почему это важно
+
+Полномочие вводить пошлины против Китая и Индии как крупнейших покупателей российской нефти — это попытка Конгресса дотянуться до экономики войны не напрямую, а через тех, кто её финансирует своим спросом.
+
+## English version
+
+The US House of Representatives has passed a Russia sanctions package, sending it to Trump's desk, [NPR reports](https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham). The bill is named for the late South Carolina Republican Lindsey Graham. Its core mechanism is simple and blunt: it gives the president authority to impose tariffs on countries that are top buyers of Russian oil and natural gas — the text specifically names China and India.
+
+This isn't about banning trade with Russia directly — it's about pressuring third countries that keep buying Russian energy and, in doing so, help fund the war budget. The logic is that sanctions on Russia itself have largely run through the easy levers already, while the threat of tariffs on its biggest customers is a newer tool aimed at Moscow's economic partners rather than Moscow alone.
+
+The fact that the bill passed as a bipartisan measure named for a recently deceased senator is itself telling — it's one of the few issues left in Congress where votes can still be assembled without a bitter partisan fight.
+
+### Why it matters
+
+The authority to tariff China and India as Russia's biggest oil buyers is Congress reaching for the war economy indirectly — by targeting the demand that funds it, rather than Russia alone.
+
+
+----- 05-snap-ar-specs-hands-on (tech) — source: https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses -----
+
+## Русская версия
+
+Журналист The Verge примерил новые очки дополненной реальности Snap — Specs, — которые стоят 2200 долларов, [и рассказал о впечатлениях](https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses). Любимым моментом теста оказалось домино: сидя напротив сотрудника Snap в такой же паре очков, автор мог щепотью пальцев выбрать виртуальную костяшку и перенести её рукой, наблюдая, как она встаёт на место в общем виртуальном пространстве.
+
+Это тот случай, когда демо говорит больше, чем спецификации. Домино — не «убийственное приложение», а просто удобный способ проверить главное: считывают ли очки жесты руки точно и достаточно быстро, чтобы взаимодействие с виртуальным объектом ощущалось естественно, а не как борьба с интерфейсом. Судя по описанию, именно это Snap и удалось — по крайней мере в контролируемой демонстрации.
+
+Другой вопрос — стоят ли эти впечатления 2200 долларов и готовы ли люди вообще носить AR-очки в повседневной жизни, а не только на демо-стенде с сотрудником компании напротив. Пока это скорее заявка на будущее, чем массовый продукт: пинч-жесты и совместное виртуальное пространство — эффектная технология, но цена и вопрос «а зачем мне это в обычный день» остаются открытыми.
+
+### Почему это важно
+
+Snap показывает, что распознавание жестов в AR-очках уже работает достаточно хорошо для естественного взаимодействия — но цена в 2200 долларов ставит вопрос не о технологии, а о том, кто вообще готов её купить.
+
+## English version
+
+A Verge reporter tried on Snap's new augmented reality glasses, called Specs, which cost $2,200, [and shared their impressions](https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses). The favorite part of the demo was dominoes: sitting across from a Snap employee wearing the same pair of glasses, the reporter could pinch to select a virtual domino tile and move it into place with a hand gesture, watching it settle into a shared virtual space.
+
+This is a case where the demo says more than the spec sheet. Dominoes isn't a "killer app" — it's just a convenient way to test the thing that matters most: whether the glasses read hand gestures accurately and quickly enough that interacting with a virtual object feels natural instead of like fighting the interface. Based on the account, Snap pulled that off, at least in a controlled demo.
+
+The bigger question is whether that experience is worth $2,200, and whether people are ready to wear AR glasses in daily life rather than just at a company demo table with an employee sitting across from them. Right now this reads more like a bet on the future than a mass-market product: pinch gestures and a shared virtual space are an impressive technical feat, but the price tag and the "why would I need this on a Tuesday" question remain open.
+
+### Why it matters
+
+Snap is showing that gesture recognition in AR glasses already works well enough for interaction to feel natural — but a $2,200 price tag turns the real question away from the technology and toward who's actually willing to buy it.
+
+
+----- 06-streaming-wars-halloween (culture) — source: https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie -----
+
+## Русская версия
+
+Международный кинофестиваль в Торонто традиционно считается витриной будущего большого кино, но в этом году он неожиданно стал ещё и полем битвы стримингов за Хэллоуин, [пишет The Verge](https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie). Сразу четыре платформы — Peacock, Netflix, Amazon и AMC — показали на фестивале первые кадры своих осенних хоррор-премьер, среди которых «Below Crystal Lake», «Yaga» и новая версия «Carrie».
+
+То, что четыре конкурента одновременно решили застолбить территорию Хэллоуина именно в Торонто, — само по себе показательный ход. TIFF даёт доступ к прессе и первым реакциям задолго до релиза, а хоррор-франшизы вроде «Пятницы, 13-е» (отсюда и «Below Crystal Lake») и «Кэрри» — это надёжный, проверенный десятилетиями спрос: аудитория ежегодно ждёт свежую порцию ужасов к концу октября, и стриминги это знают.
+
+Получается своеобразный сезонный ритуал индустрии: осенью каждая платформа пытается стать тем самым сервисом, который вы включите именно на Хэллоуин. Раньше эту роль играли кинотеатры, теперь — стриминги, и конкуренция за внимание зрителя в этот конкретный вечер года стала настолько предсказуемой, что уже используется как маркетинговый повод показать премьеры all at once.
+
+### Почему это важно
+
+Когда четыре стриминга одновременно выкатывают хоррор-контент на одном фестивале, это не совпадение, а признак того, что «Хэллоуин» превратился в отдельный, предсказуемый и высококонкурентный сезон стриминговых релизов — со своим собственным расписанием и ставками.
+
+## English version
+
+The Toronto International Film Festival is usually a showcase for the future of theatrical film, but this year it doubled as a battleground for streamers competing over Halloween, [The Verge reports](https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie). Four platforms — Peacock, Netflix, Amazon, and AMC — all premiered early looks at their fall horror titles, including "Below Crystal Lake," "Yaga," and a new take on "Carrie."
+
+The fact that four competitors chose to stake their claim on Halloween at the same festival is telling on its own. TIFF gives access to press coverage and early buzz well ahead of release, and horror franchises like "Friday the 13th" (hence "Below Crystal Lake") and "Carrie" represent decades-proven, reliable demand — audiences show up for a fresh dose of scares every October, and streamers know it.
+
+What emerges is a kind of seasonal industry ritual: every fall, each platform tries to become the one service you turn on specifically for Halloween night. Theaters used to own that role; now streamers do, and the competition for viewers' attention on that one particular night of the year has become predictable enough that it's used as a reason to unveil premieres all at once.
+
+### Why it matters
+
+When four streamers roll out horror content at the same festival simultaneously, it's not a coincidence — it's a sign that "Halloween" has become its own predictable, highly competitive streaming release season, with its own calendar and stakes.
+
+
+----- 07-nasa-moon-crater-discovery (science) — source: https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/ -----
+
+## Русская версия
+
+Всё началось с рутинной проверки качества данных, [сообщает NASA](https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/). Роберт Вагнер, учёный, работающий с лунным зондом Lunar Reconnaissance Orbiter (LRO), разглядывал на экране гигантскую карту Луны — и его внимание привлекло необычно крупное яркое пятно, окружённое тёмным гало. Именно это сочетание говорило о том, что поверхностный материал в этом месте был потревожен — то есть перед ним, судя по всему, оказался свежий ударный кратер, из тех, что появляются в среднем раз в сто лет.
+
+Это история именно про то, как на самом деле делаются подобные открытия. Никакой драматичной вспышки в реальном времени — просто человек, который годами смотрит на однотипные снимки, вдруг замечает деталь, выбивающуюся из фона. LRO годами собирает данные для совсем других задач, но именно избыточность архива — то, что можно вернуться и пересмотреть карту глазами, а не только алгоритмом, — и позволяет ловить редкие события вроде свежего удара по поверхности.
+
+Для планетологов такие находки ценны не сами по себе, а как калибровка: зная, как часто на самом деле Луна получает удары такого размера, можно точнее оценивать риски и для будущих лунных миссий, и для понимания истории бомбардировки внутренних планет в целом.
+
+### Почему это важно
+
+Свежий кратер такого масштаба — редкость, которая случается в среднем раз в столетие, и то, что его заметили просто при разглядывании архивных данных, показывает: иногда самые интересные открытия делают не новые инструменты, а внимательный человеческий взгляд на старые снимки.
+
+## English version
+
+It started as a routine data-quality check, [NASA reports](https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/). Robert Wagner, a scientist working with the Lunar Reconnaissance Orbiter (LRO), was scanning a giant map of the Moon on his screen when an unusually large bright spot, circled by a dark halo, caught his eye. That combination suggested the surface material there had been disturbed — meaning he'd likely spotted a fresh impact crater, the kind that forms on average once a century.
+
+This is really a story about how discoveries like this actually happen. There's no dramatic real-time flash — just someone who has spent years looking at similar imagery suddenly noticing a detail that doesn't fit the background pattern. LRO has been collecting data for entirely different purposes for years, but it's the sheer redundancy of that archive — the ability to go back and look at a map with human eyes instead of only an algorithm — that lets rare events like a fresh surface impact get caught at all.
+
+For planetary scientists, finds like this matter less as a standalone curiosity and more as calibration: knowing how often the Moon actually gets hit at this scale helps refine risk assessments for future lunar missions and sharpens the broader picture of how often the inner planets get bombarded.
+
+### Why it matters
+
+A fresh crater of this scale is rare enough to happen roughly once a century, and the fact that it was spotted just by someone looking closely at archival imagery shows that some of the most interesting discoveries still come from careful human attention, not new instruments.
+
+
 ===== EDITION 14 — 2026-09-16 =====
 
 ## От редакции
