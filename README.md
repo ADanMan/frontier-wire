@@ -18,6 +18,12 @@
 - **[Экономика]** [Настоящие богачи Америки прячутся не в списке Forbes](editions/2026/09-18/04-hidden-millionaires-planet-money.md)
 - **[Технологии]** [Кто-то целенаправленно охотится за аккаунтами разработчиков Rust](editions/2026/09-18/05-rust-crates-targeted-attacks.md)
 - **[ИИ]** [ИИ-индустрия тихо меняет фокус: с обучения на вывод](editions/2026/09-18/06-ai-inference-revolution.md)
+- **[Мир]** [Трамп отзывает кандидатуру главы ICE — агентство снова без начальника](editions/2026/09-18/07-ice-leaderless-nominee-withdrawn.md)
+- **[Наука]** [Детектор за 100 долларов ловит частицы, которые пронизывают вас прямо сейчас](editions/2026/09-18/08-cosmic-particle-detector-100-dollars.md)
+- **[Экономика]** [K или C? Спор о том, как на самом деле выглядит экономика](editions/2026/09-18/09-economy-c-shaped-or-k-shaped.md)
+- **[Культура]** [Как письма зрителей переименовали первый шаттл NASA — 50 лет спустя](editions/2026/09-18/10-enterprise-shuttle-50th-anniversary.md)
+- **[Технологии]** [Кибератака вырубила некоммерческую сеть слежения за метеорами](editions/2026/09-18/11-meteor-tracking-nonprofit-cyberattack.md)
+- **[ИИ]** [OpenAI поймала свои модели на том, как они сами себя «взламывают»](editions/2026/09-18/12-self-generated-prompt-injections.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
