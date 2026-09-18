@@ -10,21 +10,14 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №15 / Edition №15 — 2026-09-17** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №16 / Edition №16 — 2026-09-18** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [«Мы — добыча»: у аэропорта Йоханнесбурга нашли тела восьми женщин](editions/2026/09-17/01-south-africa-femicide-crisis.md)
-- **[Экономика]** [Инфляция в Британии подскочила до 3,1% — виноват бензин](editions/2026/09-17/02-uk-inflation-31-percent.md)
-- **[Наука]** [Окаменелость возрастом 240 миллионов лет меняет хронологию динозавров](editions/2026/09-17/03-fossil-rewrites-dinosaur-timeline.md)
-- **[Мир]** [Палата представителей приняла санкции против России — законопроект назвали в честь Линдси Грэма](editions/2026/09-17/04-russia-sanctions-bill-congress.md)
-- **[Технологии]** [Мы поносили очки дополненной реальности Snap за 2200 долларов](editions/2026/09-17/05-snap-ar-specs-hands-on.md)
-- **[Культура]** [Стриминги схлестнулись за Хэллоуин на фестивале в Торонто](editions/2026/09-17/06-streaming-wars-halloween.md)
-- **[Наука]** [Учёный NASA случайно нашёл на Луне кратер, который бывает «раз в сто лет»](editions/2026/09-17/07-nasa-moon-crater-discovery.md)
-- **[Экономика]** [МВФ призвал Австралию урезать расходы — на фоне угрозы новой ставки](editions/2026/09-17/08-imf-australia-spending-cuts.md)
-- **[Мир]** [Аналитический центр, близкий к Reform UK, готовит план по отмене налога на наследство](editions/2026/09-17/09-reform-thinktank-tax-cuts.md)
-- **[Наука]** [Учёных «по-настоящему поразило» открытие, которое переписывает историю рождения Земли](editions/2026/09-17/10-earth-origin-inner-solar-system.md)
-- **[Культура]** [В трейлере «Восхода на затравке» Хеймитчу наконец дали предысторию](editions/2026/09-17/11-sunrise-on-the-reaping-trailer.md)
-- **[Технологии]** [Apple, по слухам, строит собственный ИИ-сервер на чипах M-серии Ultra](editions/2026/09-17/12-apple-ai-server-m-series.md)
-- **[Наука]** [Учёные нашли «ложную тревогу» иммунитета, которая может ускорять старение](editions/2026/09-17/13-immune-false-alarm-aging.md)
+- **[Мир]** [В Нигерии паленый алкоголь убил почти полсотни человек](editions/2026/09-18/01-nigeria-methanol-alcohol-deaths.md)
+- **[Наука]** [Астрономы нашли самую молодую известную планету](editions/2026/09-18/02-youngest-known-planet-elias-2-24b.md)
+- **[Культура]** [Ацтекский манускрипт вернулся в Мексику — но только в долг](editions/2026/09-18/03-aztec-manuscript-returns-mexico.md)
+- **[Экономика]** [Настоящие богачи Америки прячутся не в списке Forbes](editions/2026/09-18/04-hidden-millionaires-planet-money.md)
+- **[Технологии]** [Кто-то целенаправленно охотится за аккаунтами разработчиков Rust](editions/2026/09-18/05-rust-crates-targeted-attacks.md)
+- **[ИИ]** [ИИ-индустрия тихо меняет фокус: с обучения на вывод](editions/2026/09-18/06-ai-inference-revolution.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

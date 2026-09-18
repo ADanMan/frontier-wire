@@ -2,6 +2,175 @@
 
 
 
+===== EDITION 16 — 2026-09-18 =====
+
+## От редакции
+
+Сегодня в номере — сплошные истории про то, что возвращается или уходит не насовсем. Ацтекский манускрипт едет домой в Мексику после двух веков во Франции, но только «на время». Индустрия ИИ незаметно меняет фокус — с обучения гигантских моделей на то, что происходит уже после, когда модель отвечает вам здесь и сейчас. А в Нигерии паленый алкоголь снова напомнил, что регуляторный вакуум убивает людей десятками, причём не первый раз и не в последний.
+
+## Editorial
+
+Today's edition keeps circling one theme: things that come back but not for good. An Aztec manuscript heads home to Mexico after two centuries in France — only on loan. The AI industry is quietly shifting its center of gravity from training giant models to what happens after, when a model actually answers you. And in Nigeria, bootleg alcohol has once again shown how a regulatory vacuum kills people by the dozen — not for the first time, and not for the last.
+
+
+----- 01-nigeria-methanol-alcohol-deaths (world) — source: https://www.theguardian.com/world/2026/sep/18/nigeria-deaths-suspected-methanol-alcohol-brew-drink -----
+
+## Русская версия
+
+В южной Нигерии по меньшей мере 48 человек умерли, а около 100 проходят лечение после того, как выпили местный самогон, в котором подозревают метанол. Об этом [сообщает The Guardian](https://www.theguardian.com/world/2026/sep/18/nigeria-deaths-suspected-methanol-alcohol-brew-drink).
+
+Домашний алкоголь в Нигерии — обычное дело, особенно в сельской местности: он дешевле магазинного и почти никак не регулируется. Именно в этом слабом месте и происходят такие трагедии: если самогонщик по ошибке или ради экономии использует метанол вместо этанола, разница на вкус и запах почти незаметна, а последствия — слепота, поражение почек и смерть — проявляются спустя часы.
+
+Это не первый подобный случай в мире и не первый в Нигерии: массовые отравления метанолом периодически повторяются там, где нелегальное производство алкоголя дешевле и доступнее легального, а контроль качества отсутствует в принципе. Пострадавших в этот раз десятки, но настоящий масштаб проблемы — не в конкретной партии зелья, а в том, что рынок нелегального алкоголя в стране никуда не делся и вряд ли денется, пока для миллионов людей это единственный по карману вариант выпить.
+
+### Почему это важно
+
+Метанольные отравления — это не экзотика и не «нигерийская специфика»: похожие истории случаются в Индии, Иране, странах Восточной Европы — везде, где легальный алкоголь дорог, а нелегальный никто не проверяет. Каждая новая трагедия — это симптом одного и того же провала: государство не смогло сделать безопасный алкоголь доступным, а опасный — невыгодным.
+
+## English version
+
+At least 48 people have died and about 100 more are being treated in southern Nigeria after drinking a locally brewed alcoholic drink suspected of containing methanol, [The Guardian reports](https://www.theguardian.com/world/2026/sep/18/nigeria-deaths-suspected-methanol-alcohol-brew-drink).
+
+Home-brewed alcohol is common in Nigeria, especially in rural areas, where it's cheaper than the commercial stuff and barely regulated. That gap is exactly where tragedies like this one happen: if a brewer swaps in methanol for ethanol — by mistake or to cut costs — the taste and smell barely change, but the consequences do. Blindness, kidney failure and death typically show up hours later, once it's too late to do much about it.
+
+This isn't a one-off, and it isn't unique to Nigeria. Mass methanol poisonings recur wherever illegal alcohol is cheaper and more accessible than the legal kind, and quality control simply doesn't exist. Dozens are affected this time, but the real scale of the problem isn't this one batch — it's that the illegal alcohol market isn't going anywhere, because for millions of people it remains the only drink they can afford.
+
+### Why it matters
+
+Methanol poisonings aren't exotic or uniquely Nigerian — the same story plays out in India, Iran, and parts of Eastern Europe, anywhere legal alcohol is expensive and nobody checks the illegal kind. Each new tragedy is a symptom of the same failure: the state hasn't made safe alcohol affordable, or unsafe alcohol unprofitable.
+
+
+----- 02-youngest-known-planet-elias-2-24b (science) — source: https://www.sciencedaily.com/releases/2026/09/260917003712.htm -----
+
+## Русская версия
+
+Астрономы подтвердили существование планеты размером с Юпитер возрастом менее миллиона лет — по [данным ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260917003712.htm), это делает Elias 2-24 b самой молодой из известных на сегодня планет. По астрономическим меркам миллион лет — это не «молодо», а буквально «только что родилось»: большинству изученных экзопланет — миллиарды лет.
+
+Само по себе открытие такой юной планеты — редкая удача: обычно к моменту, когда планету вообще можно заметить и подтвердить, протопланетный диск вокруг звезды уже рассеялся, а сама планета «остыла» и перестала бросаться в глаза на фоне звезды-хозяина. Elias 2-24 b поймали в момент, когда формирование, судя по всему, ещё идёт или только что завершилось — и это даёт исследователям редкий шанс увидеть газового гиганта «в реальном времени», а не реконструировать его историю задним числом.
+
+Главная интрига в другом: скорость, с которой сформировалась эта планета, не укладывается в ведущие теории того, как вообще собираются газовые гиганты. Стандартные модели — что аккреция ядра, что гравитационная нестабильность диска — рассчитаны на куда более долгие сроки. Если Elias 2-24 b действительно так молода, теориям придётся объяснять, как гигант мог набрать массу настолько быстро.
+
+### Почему это важно
+
+Каждая экзопланета, которая не вписывается в учебник, — это не курьёз, а прямая проверка теорий формирования планетных систем, включая нашу собственную. Понять, как быстро могут рождаться газовые гиганты, — значит лучше понимать, насколько типична или уникальна история Солнечной системы.
+
+## English version
+
+Astronomers have confirmed a Jupiter-size planet less than a million years old, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260917003712.htm) — making Elias 2-24 b the youngest known planet to date. On astronomical timescales, a million years isn't "young," it's practically newborn: most studied exoplanets are billions of years old.
+
+Catching a planet this early is a rare stroke of luck. By the time a planet is usually detectable and confirmed, the protoplanetary disk around its star has already dispersed, and the planet itself has cooled down enough to stop standing out against its host star's glare. Elias 2-24 b was caught while formation appears to still be underway, or to have just wrapped up — giving researchers a rare look at a giant planet essentially being born in real time, rather than reconstructing its history after the fact.
+
+The real intrigue is the speed. How quickly this planet came together doesn't fit comfortably with leading theories of giant-planet formation. Standard models — whether core accretion or disk gravitational instability — are built around much longer timescales. If Elias 2-24 b really is this young, those theories now have to explain how a giant could pack on mass so fast.
+
+### Why it matters
+
+Every exoplanet that breaks the textbook mold is a direct stress test for theories of how planetary systems form, including our own. Understanding how fast giant planets can be born tells us how typical — or how strange — the Solar System's own history really is.
+
+
+----- 03-aztec-manuscript-returns-mexico (culture) — source: https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Ацтекский манускрипт вернулся в Мексику из Франции спустя два века — но не насовсем, а на правах временного займа. Об этом [сообщает Deutsche Welle](https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-all-1573-rdf).
+
+Мексика годами добивалась возвращения этого документа — история, знакомая по десяткам других споров вокруг колониального наследия, растащенного по музеям и частным коллекциям бывших метрополий. Разница в том, что здесь дело всё же сдвинулось: манускрипт физически вернулся на родину. Но статус «на время» — не техническая деталь, а суть конфликта: право собственности так и осталось за французской стороной, и вопрос о том, чей это документ на самом деле, формально не решён.
+
+Такие временные возвраты — обычная дипломатическая компромиссная форма: она позволяет показать жест доброй воли, не отказываясь от юридических прав на артефакт. Для мексиканской стороны это скорее промежуточная победа, чем закрытие вопроса — манускрипт снова можно увидеть дома, но окончательная точка в споре о принадлежности ещё не поставлена.
+
+### Почему это важно
+
+Судьба ацтекского манускрипта — частный случай общемирового разбирательства: кому должны принадлежать артефакты, вывезенные во времена, когда согласия владельцев никто не спрашивал. Формула «вернуть, но не насовсем» становится всё более расхожим компромиссом — и вопрос в том, станет ли она нормой или просто отсрочкой более принципиального разговора.
+
+## English version
+
+An Aztec manuscript has returned to Mexico from France after two centuries — not permanently, but on loan, [Deutsche Welle reports](https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-all-1573-rdf).
+
+Mexico has been pushing for the document's return for years — a story familiar from dozens of other disputes over colonial-era heritage scattered across museums and private collections in former colonial powers. What's different here is that something actually moved: the manuscript is physically back home. But the "on loan" status isn't a technicality — it's the crux of the dispute. Ownership remains with the French side, and the question of who the document truly belongs to hasn't been formally settled.
+
+Temporary returns like this are a familiar diplomatic compromise: they let institutions make a gesture of goodwill without giving up their legal claim to an artifact. For Mexico, this looks more like an interim win than a resolution — the manuscript can be seen at home again, but the underlying ownership dispute is still open.
+
+### Why it matters
+
+The Aztec manuscript's fate is one small case in a much bigger global reckoning: who should own artifacts taken at a time when nobody asked their original owners' consent. "Return it, but not for good" is becoming an increasingly common compromise — the question is whether it becomes the norm, or just a way of postponing the harder conversation.
+
+
+----- 04-hidden-millionaires-planet-money (economy) — source: https://www.npr.org/sections/planet-money/2026/09/14/g-s1-143041/the-powerful-millionaires-hiding-in-plain-sight -----
+
+## Русская версия
+
+Когда речь заходит о богатстве и власти в Америке, воображение сразу рисует список Forbes 400 — миллиардеров с яхтами и стартапами. Но [подкаст Planet Money от NPR](https://www.npr.org/sections/planet-money/2026/09/14/g-s1-143041/the-powerful-millionaires-hiding-in-plain-sight) указывает на другую группу: владельцев автосалонов, юридических фирм, стоматологических клиник и ресторанных сетей — людей, которых обычно вообще не считают «богатыми».
+
+По оценке авторов, собранное вместе состояние этой группы превышает совокупное богатство всего списка Forbes 400. При этом они остаются практически невидимыми: ни громких имён, ни обложек журналов, ни узнаваемости — просто владелец сети автодилерских центров в соседнем штате. Именно эта незаметность и есть их главный актив: пока миллиардеры из заголовков попадают под прицел общественной критики и налоговых дискуссий, эта прослойка местных собственников копит влияние тихо и системно — через локальные ассоциации, лоббирование на уровне штатов, финансирование политиков, которых мало кто знает в масштабе страны.
+
+### Почему это важно
+
+Разговор о неравенстве и концентрации власти обычно крутится вокруг узкого круга миллиардеров-знаменитостей. Но если реальный вес держится у куда более широкого и незаметного класса локальных собственников, то и любая политика — от налоговой реформы до антимонопольного регулирования — целится не в ту цель.
+
+## English version
+
+When people picture wealth and power in America, the Forbes 400 comes to mind — billionaires with yachts and startups. But [NPR's Planet Money](https://www.npr.org/sections/planet-money/2026/09/14/g-s1-143041/the-powerful-millionaires-hiding-in-plain-sight) points to a different group entirely: owners of car dealerships, law firms, dental practices and restaurant chains — people nobody thinks to call "rich."
+
+Collectively, the report finds, this group's wealth exceeds that of the entire Forbes 400 combined. And yet they stay almost invisible: no famous names, no magazine covers, no name recognition — just the guy who owns a chain of car dealerships two states over. That invisibility is itself their biggest asset. While headline billionaires draw public scrutiny and tax debates, this layer of local business owners quietly builds influence through trade associations, state-level lobbying, and funding politicians most of the country has never heard of.
+
+### Why it matters
+
+Conversations about inequality and concentrated power tend to circle a narrow set of celebrity billionaires. If the real weight sits with a much broader, far less visible class of local owners, then policy aimed at the wrong target — tax reform, antitrust, you name it — is aiming at the wrong people.
+
+
+----- 05-rust-crates-targeted-attacks (tech) — source: https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/ -----
+
+## Русская версия
+
+Команда безопасности crates.io выпустила предупреждение о продолжающейся кампании атак на видных участников сообщества rust-lang и владельцев популярных крейтов. Об этом [пишет разработчик Саймон Уиллисон](https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/) со ссылкой на заявление Адама Харви и команды безопасности crates.
+
+По имеющимся данным, атакующие пытаются скомпрометировать устройства и аккаунты конкретных людей — не случайным фишингом по широкой базе, а целенаправленно, выбирая тех, у кого есть доступ на публикацию пакетов в экосистему Rust. Логика такой атаки понятна: захватить учётку мейнтейнера популярного крейта — значит получить возможность протолкнуть вредоносный код напрямую в цепочку поставок тысяч проектов, которые этот крейт используют, часто без какой-либо дополнительной проверки со стороны разработчиков ниже по цепочке.
+
+Похожие кампании против npm и PyPI за последние годы уже показали, насколько эффективна эта тактика: одна скомпрометированная учётка — и вредоносный код автоматически расходится по огромному количеству чужих сборок. Rust с его репутацией «безопасного по умолчанию» языка тут не исключение: crates.io — точно такая же публичная экосистема пакетов с той же фундаментальной уязвимостью — человеческим фактором на стороне мейнтейнеров.
+
+### Почему это важно
+
+Атаки на цепочку поставок опенсорса не про уязвимости в коде — они про то, что достаточно скомпрометировать одного человека с нужным доступом. Чем популярнее экосистема, тем больше в ней целей и тем выше цена одной успешной атаки — а значит, каждому мейнтейнеру популярного пакета стоит относиться к своей учётке как к части инфраструктуры, а не личному аккаунту.
+
+## English version
+
+The crates.io security team has issued a warning about an ongoing campaign targeting prominent members of the rust-lang community and maintainers of popular crates. [Developer Simon Willison flagged the warning](https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/), citing a statement from Adam Harvey and the crates security team.
+
+According to the warning, attackers are attempting to compromise specific people's devices and accounts — not broad, spray-and-pray phishing, but targeted efforts aimed at those with publishing access to the Rust package ecosystem. The logic is straightforward: hijack a popular crate maintainer's account, and you get a direct route to push malicious code into the supply chain of every project that depends on that crate — often with no further review from developers downstream.
+
+Similar campaigns against npm and PyPI have shown how effective this tactic can be: compromise one account, and malicious code propagates automatically into an enormous number of other people's builds. Rust's reputation for being "safe by default" as a language doesn't help here — crates.io is a public package ecosystem just like the others, with the same underlying weak point: the humans who maintain it.
+
+### Why it matters
+
+Open-source supply-chain attacks aren't about bugs in the code — they're about how little it takes to compromise one person with the right access. The more popular an ecosystem gets, the more targets it has and the higher the payoff for a single successful breach — which means every maintainer of a widely used package should treat their account as infrastructure, not a personal login.
+
+
+----- 06-ai-inference-revolution (ai) — source: https://spectrum.ieee.org/inference-hardware-revolution -----
+
+## Русская версия
+
+С 2020 года индустрия ИИ была одержима размером моделей при обучении: языковые модели раздулись с миллионов до триллионов параметров. Подход работал — самая крупная версия GPT-3 от OpenAI, вышедшая в 2020-м, правильно отвечала лишь на 43,9% вопросов в одном из тестов. Но, как [пишет IEEE Spectrum](https://spectrum.ieee.org/inference-hardware-revolution), центр тяжести гонки сместился: теперь решающим становится не то, насколько велика модель при обучении, а то, что происходит потом — во время вывода (inference), когда модель уже отвечает пользователю.
+
+Разница на пальцах такая: обучение — это разовые огромные вычислительные затраты на создание модели, которые оплачивает разработчик. Вывод — это вычисления, которые повторяются миллиарды раз каждый день, каждый раз, когда кто-то отправляет модели запрос. Чем больше людей и продуктов реально пользуются моделями, тем больше суммарных денег и энергии уходит именно на вывод, а не на обучение. В какой-то момент это перевешивает — и именно на это железо, инфраструктуру и архитектурные решения теперь и переориентируется индустрия.
+
+Число 43,9% из статьи — не просто историческая деталь. Это точка отсчёта, показывающая, насколько далеко ушли модели с тех пор, и одновременно — напоминание, что весь этот прогресс на этапе обучения был лишь половиной уравнения. Вторая половина — как дёшево и быстро потом этот прогресс можно доставить до конечного пользователя — долго оставалась в тени и выходит на первый план только сейчас.
+
+### Почему это важно
+
+Если экономика ИИ определяется вычислениями на вывод, а не на обучение, то и конкурентное преимущество смещается: выигрывает не тот, у кого самая большая модель, а тот, кто дешевле и быстрее её обслуживает в масштабе. Это меняет расклад сил — от чипмейкеров до облачных провайдеров — куда сильнее, чем очередной рекорд по числу параметров.
+
+## English version
+
+Since 2020, the AI industry has been obsessed with model size at training time: language models ballooned from millions of parameters to trillions. The approach worked — the largest version of OpenAI's GPT-3, released in 2020, correctly answered just 43.9 percent of questions on one benchmark. But as [IEEE Spectrum reports](https://spectrum.ieee.org/inference-hardware-revolution), the center of gravity has shifted: what matters most now isn't how big a model is during training, but what happens afterward, at inference time, when the model is actually answering a user.
+
+The distinction, in plain terms: training is a one-time, enormous compute cost the developer pays to build the model. Inference is compute that repeats billions of times a day, every single time someone sends the model a query. The more people and products actually use these models, the more total money and energy goes toward inference rather than training. At some point that balance tips — and that's exactly where the industry's hardware, infrastructure and architecture decisions are now being redirected.
+
+The 43.9 percent figure isn't just a historical footnote. It's a baseline that shows how far models have come since — and a reminder that all that training-time progress was only half the equation. The other half — how cheaply and quickly that progress can then be delivered to an actual user — stayed in the background for years and is only now moving to center stage.
+
+### Why it matters
+
+If AI economics are increasingly defined by inference compute rather than training compute, competitive advantage shifts too: the winner isn't whoever has the biggest model, but whoever can serve it cheapest and fastest at scale. That reshuffles the pecking order — from chipmakers to cloud providers — more than any new parameter-count record ever could.
+
+
 ===== EDITION 15 — 2026-09-17 =====
 
 ## От редакции

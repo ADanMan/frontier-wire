@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кто-то целенаправленно охотится за аккаунтами разработчиков Rust - frontier-wire</title>
+<meta name="description" content="The crates.io security team warns of an ongoing campaign against prominent rust-lang members and popular crate maintainers.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-18/05-rust-crates-targeted-attacks.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Someone is targeting Rust developers' accounts", "alternativeHeadline": "Кто-то целенаправленно охотится за аккаунтами разработчиков Rust", "datePublished": "2026-09-18", "inLanguage": ["ru", "en"], "isBasedOn": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-18/05-rust-crates-targeted-attacks.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-09-18 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Кто-то целенаправленно охотится за аккаунтами разработчиков Rust</span><span class="lang-en">Someone is targeting Rust developers&#x27; accounts</span></h1>
+  <p class="dek big"><span class="lang-ru">Команда безопасности crates.io предупредила о кампании против известных участников rust-lang и владельцев популярных крейтов.</span><span class="lang-en">The crates.io security team warns of an ongoing campaign against prominent rust-lang members and popular crate maintainers.</span></p>
+  
+  <div class="prose lang-ru"><p>Команда безопасности crates.io выпустила предупреждение о продолжающейся кампании атак на видных участников сообщества rust-lang и владельцев популярных крейтов. Об этом <a href="https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/">пишет разработчик Саймон Уиллисон</a> со ссылкой на заявление Адама Харви и команды безопасности crates.</p>
+<p>По имеющимся данным, атакующие пытаются скомпрометировать устройства и аккаунты конкретных людей — не случайным фишингом по широкой базе, а целенаправленно, выбирая тех, у кого есть доступ на публикацию пакетов в экосистему Rust. Логика такой атаки понятна: захватить учётку мейнтейнера популярного крейта — значит получить возможность протолкнуть вредоносный код напрямую в цепочку поставок тысяч проектов, которые этот крейт используют, часто без какой-либо дополнительной проверки со стороны разработчиков ниже по цепочке.</p>
+<p>Похожие кампании против npm и PyPI за последние годы уже показали, насколько эффективна эта тактика: одна скомпрометированная учётка — и вредоносный код автоматически расходится по огромному количеству чужих сборок. Rust с его репутацией «безопасного по умолчанию» языка тут не исключение: crates.io — точно такая же публичная экосистема пакетов с той же фундаментальной уязвимостью — человеческим фактором на стороне мейнтейнеров.</p>
+<h3>Почему это важно</h3>
+<p>Атаки на цепочку поставок опенсорса не про уязвимости в коде — они про то, что достаточно скомпрометировать одного человека с нужным доступом. Чем популярнее экосистема, тем больше в ней целей и тем выше цена одной успешной атаки — а значит, каждому мейнтейнеру популярного пакета стоит относиться к своей учётке как к части инфраструктуры, а не личному аккаунту.</p></div>
+  <div class="prose lang-en"><p>The crates.io security team has issued a warning about an ongoing campaign targeting prominent members of the rust-lang community and maintainers of popular crates. <a href="https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/">Developer Simon Willison flagged the warning</a>, citing a statement from Adam Harvey and the crates security team.</p>
+<p>According to the warning, attackers are attempting to compromise specific people's devices and accounts — not broad, spray-and-pray phishing, but targeted efforts aimed at those with publishing access to the Rust package ecosystem. The logic is straightforward: hijack a popular crate maintainer's account, and you get a direct route to push malicious code into the supply chain of every project that depends on that crate — often with no further review from developers downstream.</p>
+<p>Similar campaigns against npm and PyPI have shown how effective this tactic can be: compromise one account, and malicious code propagates automatically into an enormous number of other people's builds. Rust's reputation for being "safe by default" as a language doesn't help here — crates.io is a public package ecosystem just like the others, with the same underlying weak point: the humans who maintain it.</p>
+<h3>Why it matters</h3>
+<p>Open-source supply-chain attacks aren't about bugs in the code — they're about how little it takes to compromise one person with the right access. The more popular an ecosystem gets, the more targets it has and the higher the payoff for a single successful breach — which means every maintainer of a widely used package should treat their account as infrastructure, not a personal login.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/">https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
