@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## North Korea's nuclear tests may have kept shaking the ground for years / Ядерные испытания Северной Кореи, похоже, ещё годами трясли землю
 rubric: science · source: https://phys.org/news/2026-09-north-korea-nuclear-triggered-hundreds.html
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/07-north-korea-nuclear-tests-earthquakes.md
+
+## Court filings show OpenAI and Microsoft knew they were starting a "doom loop" for the web / Документы суда: OpenAI и Microsoft сами знали, что запускают «петлю гибели» для веба
+rubric: ai · source: https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/08-openai-microsoft-doom-loop.md
+
+## Macron says Russian hybrid attacks on Europe are intensifying / Макрон: гибридные атаки России на Европу усиливаются
+rubric: world · source: https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/09-macron-russia-hybrid-attacks.md
+
+## Wheat prices hit a three-year high — and farmers still aren't cashing in / Пшеница подорожала до максимума за три года — а фермеры всё равно не в плюсе
+rubric: economy · source: https://www.theguardian.com/business/2026/sep/18/wheat-farmers-drought-geopolitics
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/10-us-wheat-farmers-drought.md
+
+## Alaska's fattest bears face off in the biggest Fat Bear Week ever / Толстые медведи Аляски выходят на самый массовый турнир Fat Bear Week
+rubric: culture · source: https://www.npr.org/2026/09/18/nx-s1-5973938/fat-bear-week-2026-bracket
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/11-fat-bear-week-2026.md
+
+## Physicists find a way to test whether Einstein's gravity applies to the electron's heavier cousin / Физики нашли способ проверить, действует ли гравитация Эйнштейна на «вторую копию» электрона
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260918024808.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/12-muonium-einstein-gravity-test.md
+
+## British woman kidnapped in Malawi rescued after shootout with her abductors / Похищенную в Малави британку освободили после перестрелки с похитителями
+rubric: world · source: https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-19/13-malawi-kidnapping-rescue.md
