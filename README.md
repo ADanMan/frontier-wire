@@ -10,20 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №16 / Edition №16 — 2026-09-18** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №17 / Edition №17 — 2026-09-19** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [В Нигерии паленый алкоголь убил почти полсотни человек](editions/2026/09-18/01-nigeria-methanol-alcohol-deaths.md)
-- **[Наука]** [Астрономы нашли самую молодую известную планету](editions/2026/09-18/02-youngest-known-planet-elias-2-24b.md)
-- **[Культура]** [Ацтекский манускрипт вернулся в Мексику — но только в долг](editions/2026/09-18/03-aztec-manuscript-returns-mexico.md)
-- **[Экономика]** [Настоящие богачи Америки прячутся не в списке Forbes](editions/2026/09-18/04-hidden-millionaires-planet-money.md)
-- **[Технологии]** [Кто-то целенаправленно охотится за аккаунтами разработчиков Rust](editions/2026/09-18/05-rust-crates-targeted-attacks.md)
-- **[ИИ]** [ИИ-индустрия тихо меняет фокус: с обучения на вывод](editions/2026/09-18/06-ai-inference-revolution.md)
-- **[Мир]** [Трамп отзывает кандидатуру главы ICE — агентство снова без начальника](editions/2026/09-18/07-ice-leaderless-nominee-withdrawn.md)
-- **[Наука]** [Детектор за 100 долларов ловит частицы, которые пронизывают вас прямо сейчас](editions/2026/09-18/08-cosmic-particle-detector-100-dollars.md)
-- **[Экономика]** [K или C? Спор о том, как на самом деле выглядит экономика](editions/2026/09-18/09-economy-c-shaped-or-k-shaped.md)
-- **[Культура]** [Как письма зрителей переименовали первый шаттл NASA — 50 лет спустя](editions/2026/09-18/10-enterprise-shuttle-50th-anniversary.md)
-- **[Технологии]** [Кибератака вырубила некоммерческую сеть слежения за метеорами](editions/2026/09-18/11-meteor-tracking-nonprofit-cyberattack.md)
-- **[ИИ]** [OpenAI поймала свои модели на том, как они сами себя «взламывают»](editions/2026/09-18/12-self-generated-prompt-injections.md)
+- **[ИИ]** [ИИ Google сам взломал три компании — и сам же остановился](editions/2026/09-19/01-gemini-ai-hacks-three-companies.md)
+- **[Технологии]** [Виргиния — «столица дата-центров мира» — решила притормозить их стройку](editions/2026/09-19/02-virginia-ai-data-center-task-force.md)
+- **[Мир]** [США и Дания договорились по Гренландии — но не факт, что об одном и том же](editions/2026/09-19/03-us-denmark-greenland-deal.md)
+- **[Мир]** [Депортированных из США людей избили в отеле-тюрьме в Экваториальной Гвинее](editions/2026/09-19/04-equatorial-guinea-deportees-beaten.md)
+- **[Экономика]** [Япония подняла ставку до максимума за 31 год — инфляцию туда занесло войной в Иране](editions/2026/09-19/05-japan-interest-rate-31-year-high.md)
+- **[Наука]** [Крошечный чип Caltech перенаправляет свет за 74 квадриллионных долей секунды](editions/2026/09-19/06-caltech-light-steering-chip.md)
+- **[Наука]** [Ядерные испытания Северной Кореи, похоже, ещё годами трясли землю](editions/2026/09-19/07-north-korea-nuclear-tests-earthquakes.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
