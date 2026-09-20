@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №17 / Edition №17 — 2026-09-19** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №18 / Edition №18 — 2026-09-20** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [ИИ Google сам взломал три компании — и сам же остановился](editions/2026/09-19/01-gemini-ai-hacks-three-companies.md)
-- **[Технологии]** [Виргиния — «столица дата-центров мира» — решила притормозить их стройку](editions/2026/09-19/02-virginia-ai-data-center-task-force.md)
-- **[Мир]** [США и Дания договорились по Гренландии — но не факт, что об одном и том же](editions/2026/09-19/03-us-denmark-greenland-deal.md)
-- **[Мир]** [Депортированных из США людей избили в отеле-тюрьме в Экваториальной Гвинее](editions/2026/09-19/04-equatorial-guinea-deportees-beaten.md)
-- **[Экономика]** [Япония подняла ставку до максимума за 31 год — инфляцию туда занесло войной в Иране](editions/2026/09-19/05-japan-interest-rate-31-year-high.md)
-- **[Наука]** [Крошечный чип Caltech перенаправляет свет за 74 квадриллионных долей секунды](editions/2026/09-19/06-caltech-light-steering-chip.md)
-- **[Наука]** [Ядерные испытания Северной Кореи, похоже, ещё годами трясли землю](editions/2026/09-19/07-north-korea-nuclear-tests-earthquakes.md)
-- **[ИИ]** [Документы суда: OpenAI и Microsoft сами знали, что запускают «петлю гибели» для веба](editions/2026/09-19/08-openai-microsoft-doom-loop.md)
-- **[Мир]** [Макрон: гибридные атаки России на Европу усиливаются](editions/2026/09-19/09-macron-russia-hybrid-attacks.md)
-- **[Экономика]** [Пшеница подорожала до максимума за три года — а фермеры всё равно не в плюсе](editions/2026/09-19/10-us-wheat-farmers-drought.md)
-- **[Культура]** [Толстые медведи Аляски выходят на самый массовый турнир Fat Bear Week](editions/2026/09-19/11-fat-bear-week-2026.md)
-- **[Наука]** [Физики нашли способ проверить, действует ли гравитация Эйнштейна на «вторую копию» электрона](editions/2026/09-19/12-muonium-einstein-gravity-test.md)
-- **[Мир]** [Похищенную в Малави британку освободили после перестрелки с похитителями](editions/2026/09-19/13-malawi-kidnapping-rescue.md)
+- **[ИИ]** [FAA покупает ИИ-систему за 875 миллионов долларов для разгрузки воздушного движения](editions/2026/09-20/01-faa-ai-air-traffic-tool.md)
+- **[Мир]** [Хуситы заявили об ударе баллистическими ракетами по Эр-Рияду](editions/2026/09-20/02-houthis-riyadh-missiles.md)
+- **[Мир]** [Выжившие рассказали, как задыхались в нигерийской тюремной камере, где погибли 37 человек](editions/2026/09-20/03-nigeria-prison-cell-deaths.md)
+- **[Наука]** [Лето 2026 года стало для Европы рекордным не только по жаре, но и по числу смертей](editions/2026/09-20/04-europe-summer-heat-deaths.md)
+- **[Экономика]** [Розничные продажи в Великобритании неожиданно выросли на фоне жары и мрачных прогнозов](editions/2026/09-20/05-uk-retail-sales-bounce-back.md)
+- **[Наука]** [Учёные назвали новый вид змеи в честь гитариста Guns N' Roses Слэша](editions/2026/09-20/06-snake-named-after-slash.md)
+- **[Культура]** [Чиптюн-группа Anamanaguchi призналась, что у них открыто «слишком много вкладок в браузере»](editions/2026/09-20/07-anamanaguchi-interview.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

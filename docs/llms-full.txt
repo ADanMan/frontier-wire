@@ -2,6 +2,206 @@
 
 
 
+===== EDITION 18 — 2026-09-20 =====
+
+## От редакции
+
+Сегодняшний номер — про попытки удержать контроль там, где его давно нет. FAA заказывает ИИ-систему за 875 миллионов долларов, чтобы разгрузить воздушное движение, а хуситы в это время бьют баллистическими ракетами по Эр-Рияду. В Нигерии тем временем выясняется, что происходило внутри переполненной тюремной камеры, где за одну ночь погибли 37 человек. И на этом фоне — жара: лето 2026 года стало рекордным для Европы не только по градусам, но и по числу смертей.
+
+## Editorial
+
+Today's edition is about the gap between managing risk and actually controlling it. The FAA is buying an $875 million AI system to ease air traffic congestion, while Houthi forces are firing ballistic missiles at Riyadh. In Nigeria, survivors are describing what happened inside an overcrowded prison cell where 37 people died in a single night. And in the background: heat — Europe's summer of 2026 set records not just in degrees, but in deaths.
+
+
+----- 01-faa-ai-air-traffic-tool (ai) — source: https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/ -----
+
+## Русская версия
+
+Федеральное управление гражданской авиации США [заказало ИИ-инструмент за 875 миллионов долларов](https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/), который должен помочь диспетчерам справляться с перегруженным воздушным пространством. Первым полигоном станет Вашингтон — один из самых загруженных и проблемных регионов американского неба, — а уже потом систему планируют развернуть по всей стране.
+
+Формально задача инструмента скромная: не заменять диспетчеров, а подсказывать им, как перераспределять потоки самолётов при перегрузках, задержках и нештатных ситуациях. Но сумма контракта и выбор именно Вашингтона в качестве первой площадки говорят о масштабе проблемы — американская система управления воздушным движением годами работает на устаревшем оборудовании и с нехваткой кадров, и власти явно рассчитывают закрыть часть этого разрыва технологией, а не только новыми людьми.
+
+При этом авиационная диспетчеризация — из тех областей, где цена ошибки ИИ несравнимо выше, чем в большинстве других применений: тут не «подсказка не туда», а самолёты в воздухе. Насколько система на практике снизит риски, а не просто добавит ещё один слой сложности поверх и так перегруженной инфраструктуры, покажут первые месяцы эксплуатации в Вашингтоне.
+
+### Почему это важно
+
+875 миллионов долларов — один из крупнейших публично объявленных контрактов на внедрение ИИ в критическую инфраструктуру США, и то, как поведёт себя система над одним из самых загруженных воздушных пространств страны, станет ориентиром для того, насколько вообще ИИ можно доверять управлению живыми потоками, а не только текстом и код-ревью.
+
+## English version
+
+The US Federal Aviation Administration [has ordered an $875 million AI tool](https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/) meant to help controllers manage congested airspace. The first testing ground will be Washington, DC — one of the busiest and most troubled corners of US airspace — before a planned nationwide rollout.
+
+On paper, the tool's job is modest: not replacing controllers, but helping them redistribute traffic flows during congestion, delays, and irregular operations. But the size of the contract, and the choice of Washington as the first deployment site, signal how deep the problem runs. America's air traffic control system has spent years running on aging equipment with chronic staffing shortages, and officials are clearly betting technology can close part of that gap faster than hiring alone.
+
+Air traffic control is also one of the domains where an AI mistake costs far more than in most other applications — this isn't a bad suggestion in a chat window, it's planes in the air. Whether the system actually reduces risk, rather than adding one more layer of complexity to an already strained system, will become clear only after its first months running over Washington.
+
+### Why it matters
+
+At $875 million, this is one of the largest publicly announced contracts for deploying AI into US critical infrastructure, and how the system performs over one of the country's busiest airspaces will be a real-world test of how much trust AI deserves managing live physical systems, not just text and code review.
+
+
+----- 02-houthis-riyadh-missiles (world) — source: https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss -----
+
+## Русская версия
+
+Йеменские хуситы [заявили, что выпустили баллистические ракеты по столице Саудовской Аравии Эр-Рияду](https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss). По данным BBC, удар по топливному складу в районе аэропорта Эр-Рияда, предположительно нанесённый в субботу, вызвал задержки рейсов. Саудовская Аравия сообщила, что её силы ПВО сбили баллистическую ракету, нацеленную на столицу.
+
+Формально стороны расходятся в оценке результата: Эр-Рияд говорит об успешном перехвате, хуситы — об ударе по цели. Но даже версия с перехватом не отменяет главного: ракеты долетели до воздушного пространства над столицей одной из крупнейших экономик Персидского залива, и это заставило аэропорт справляться с задержками рейсов. Для авиасообщения и логистики региона сам факт долета ракеты значит не меньше, чем то, попала ли она в цель.
+
+Это не первый подобный эпизод — хуситы регулярно заявляют об атаках на саудовскую и другую региональную инфраструктуру в рамках более широкого конфликта, тянущегося с йеменской войны. Но каждый такой удар по столице, а не по приграничным районам, поднимает ставки и напоминает, что несмотря на периодические затишья, конфликт далёк от завершения.
+
+### Почему это важно
+
+Удар — или попытка удара — баллистическими ракетами по столице Саудовской Аравии показывает, что хуситы сохраняют способность бить по стратегическим целям вглубь территории королевства, а не только по границе, и это держит один из ключевых транспортных узлов Персидского залива в состоянии постоянной уязвимости.
+
+## English version
+
+Yemen's Houthi movement [says it fired ballistic missiles at Saudi Arabia's capital, Riyadh](https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss). The BBC reports a strike on a fuel depot near Riyadh's airport, reportedly carried out on Saturday, caused flight delays. Saudi Arabia said its air defenses shot down a ballistic missile aimed at the capital.
+
+The two sides disagree on the outcome: Riyadh says it intercepted the missile, the Houthis say they hit their target. But even the interception version doesn't change the core fact — a missile reached the airspace over the capital of one of the Gulf's largest economies, forcing the airport to absorb flight delays. For regional aviation and logistics, the missile simply arriving matters almost as much as whether it hit anything.
+
+This isn't the first such episode. The Houthis regularly claim strikes on Saudi and other regional infrastructure as part of the wider conflict stretching back to Yemen's civil war. But a strike aimed at the capital itself, rather than border areas, raises the stakes and is a reminder that, despite periodic lulls, the conflict is far from over.
+
+### Why it matters
+
+A strike — or an attempted strike — with ballistic missiles on Saudi Arabia's capital shows the Houthis retain the ability to hit strategic targets deep inside the kingdom, not just along the border, keeping one of the Gulf's key transport hubs in a state of persistent vulnerability.
+
+
+----- 03-nigeria-prison-cell-deaths (world) — source: https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna -----
+
+## Русская версия
+
+Выжившие [рассказали The Guardian](https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna), как задыхались и впадали в панику в переполненной тюремной камере нигерийского города Минна, где на этой неделе погибли 37 человек — предполагаемых нелегальных золотодобытчиков, задержанных полувоенной группой. Среди погибших, по данным издания, были и дети. После случившегося в городе начались протесты, полиция применила слезоточивый газ, чтобы их разогнать.
+
+По рассказам очевидцев, дело было не в единичном сбое, а в самих условиях содержания: слишком много людей в закрытом пространстве без достаточного доступа к воздуху. Это тот тип трагедии, где формальная причина смерти — асфиксия или тепловой удар — на деле является следствием решения набить камеру сверх любой разумной вместимости.
+
+Гибель задержанных за нелегальную добычу золота — причём в значительной части детей — добавляет истории ещё одно измерение: нелегальная добыча полезных ископаемых в Нигерии держится в том числе на детском труде, и жертвами силовых операций против неё регулярно становятся не организаторы, а самые уязвимые участники цепочки.
+
+### Почему это важно
+
+37 смертей в одной камере — это не просто трагический инцидент, а прямое свидетельство того, в каких условиях содержат задержанных в нигерийской пенитенциарной системе, и протесты в Минна показывают, что жители города не готовы считать это рутинным происшествием.
+
+## English version
+
+Survivors [told the Guardian](https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna) about panic and struggling to breathe inside an overcrowded prison cell in the Nigerian city of Minna, where 37 people died this week — suspected illegal goldminers who had been detained by a paramilitary group. Some of the dead, according to the report, were children. Protests broke out in the city afterward, and police fired tear gas to disperse them.
+
+According to the accounts, this wasn't a one-off failure but a product of the detention conditions themselves: too many people packed into an enclosed space without adequate air. It's the kind of tragedy where the formal cause of death — asphyxiation or heat exhaustion — is really a consequence of a decision to cram a cell far beyond any reasonable capacity.
+
+The fact that those who died were detained over illegal gold mining — and that many were reportedly children — adds another layer to the story. Illegal mining in Nigeria runs in part on child labor, and it's usually not the organizers but the most vulnerable participants in that chain who end up as casualties of crackdowns against it.
+
+### Why it matters
+
+Thirty-seven deaths in a single cell isn't just a tragic incident — it's direct evidence of the conditions detainees face in Nigeria's detention system, and the protests in Minna show local residents aren't willing to treat it as routine.
+
+
+----- 04-europe-summer-heat-deaths (science) — source: https://www.dw.com/en/summer-of-2026-broke-records-in-europe-and-caused-deaths/a-79339630?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Лето 2026 года стало [самым жарким за всю историю наблюдений в Европе — и при этом самым смертоносным](https://www.dw.com/en/summer-of-2026-broke-records-in-europe-and-caused-deaths/a-79339630?maca=en-rss-en-all-1573-rdf), сообщает Deutsche Welle. По оценкам, только в Германии из-за жары умерли более 16 000 человек — рекордное число смертей, связанных с высокими температурами.
+
+Важно, что это не абстрактная статистика «жаркого сезона», а конкретные избыточные смерти: люди, которые не пережили бы это лето, будь оно чуть прохладнее. Такие оценки обычно строятся на сравнении фактической смертности с ожидаемой для этого времени года, и разрыв в 16 000 человек в одной стране — это уже масштаб, сопоставимый с последствиями серьёзной эпидемии, только растянутой на несколько месяцев жары.
+
+Из года в год подобные рекорды в Европе бьются с пугающей регулярностью, и каждый раз это преподносится как исключение. Но когда рекорд «самого жаркого лета» почти ежегодно сопровождается рекордом «самого смертоносного лета», разговор о климате перестаёт быть разговором о градусах на термометре и становится разговором о системах здравоохранения, которые пока не успевают адаптироваться к новой норме.
+
+### Почему это важно
+
+16 000 смертей, связанных с жарой, в одной только Германии — это не просто плохая погода, а показатель того, что система здравоохранения и городская инфраструктура Европы пока не готовы к климату, который становится нормой, а не исключением.
+
+## English version
+
+Summer 2026 was [Europe's hottest on record — and its deadliest](https://www.dw.com/en/summer-of-2026-broke-records-in-europe-and-caused-deaths/a-79339630?maca=en-rss-en-all-1573-rdf), Deutsche Welle reports. In Germany alone, an estimated more than 16,000 people died because of the heat — a record number of heat-related deaths.
+
+That's not an abstract "hot season" statistic — it's a count of excess deaths: people who would likely have survived the summer had it been even somewhat cooler. Such estimates are typically built by comparing actual mortality against what would be expected for the season, and a gap of 16,000 people in a single country is already on the scale of a serious epidemic, just spread across months of heat instead of weeks of illness.
+
+Records like this have been falling in Europe with unsettling regularity year after year, each time framed as an exception. But when the record for "hottest summer" is nearly annually paired with a record for "deadliest summer," the climate conversation stops being about degrees on a thermometer and becomes one about healthcare systems that haven't caught up with the new normal.
+
+### Why it matters
+
+16,000 heat-related deaths in Germany alone isn't just bad weather — it's a sign that Europe's healthcare systems and urban infrastructure aren't yet built for a climate that's becoming the norm rather than the exception.
+
+
+----- 05-uk-retail-sales-bounce-back (economy) — source: https://www.theguardian.com/business/2026/sep/18/retail-sales-bounce-back-across-great-britain -----
+
+## Русская версия
+
+Розничные продажи в Великобритании [неожиданно выросли в прошлом месяце на 0,5%](https://www.theguardian.com/business/2026/sep/18/retail-sales-bounce-back-across-great-britain), сообщает The Guardian со ссылкой на последние данные. Рост объясняют покупками спортивных товаров, кондиционеров и вентиляторов во время волн жары — то есть не общим ростом потребительской уверенности, а конкретной погодной причиной.
+
+Это тот случай, когда позитивная цифра требует осторожного прочтения. Формально данные противоречат мрачным прогнозам об экономике — но за ростом стоит не то, что британцы вдруг стали больше тратить на жизнь в целом, а то, что жара заставила их срочно докупать вентиляторы и кондиционеры, которых, судя по всему, объективно не хватало. Это разовый эффект конкретного сезона, а не признак разворота потребительских настроений.
+
+При этом сам факт, что подобные разовые всплески вообще способны двигать общую статистику розницы, кое-что говорит и о состоянии базового спроса: он настолько слаб и предсказуем, что любое отклонение от нормы — хоть аномальная жара — заметно меняет картину.
+
+### Почему это важно
+
+Рост розничных продаж в Британии — хорошая новость на фоне мрачных экономических прогнозов, но её причина (аномальная жара, а не рост доходов или уверенности) означает, что делать по ней выводы о развороте потребительских настроений преждевременно.
+
+## English version
+
+UK retail sales [unexpectedly rose 0.5% last month](https://www.theguardian.com/business/2026/sep/18/retail-sales-bounce-back-across-great-britain), the Guardian reports, citing the latest data. The rise is attributed to purchases of sports items, air conditioning units and fans during heatwaves — a specific weather-driven cause, not a broader lift in consumer confidence.
+
+This is a case where a positive number needs careful reading. On paper, the data contradicts gloomy forecasts about the economy — but the growth doesn't reflect Britons suddenly spending more on life in general. It reflects a heatwave forcing people to urgently buy fans and air conditioners that, apparently, weren't widely owned to begin with. That's a one-off seasonal effect, not a sign of a shift in consumer sentiment.
+
+At the same time, the fact that a one-off weather spike can move the headline retail figure at all says something about the state of underlying demand: it's weak and predictable enough that any deviation from the norm — even an abnormal heatwave — visibly changes the picture.
+
+### Why it matters
+
+The rise in UK retail sales is good news against a backdrop of gloomy economic forecasts, but its cause — an unusual heatwave, not higher incomes or confidence — makes it premature to read it as a turnaround in consumer sentiment.
+
+
+----- 06-snake-named-after-slash (science) — source: https://www.sciencedaily.com/releases/2026/09/260918024816.htm -----
+
+## Русская версия
+
+Учёные [описали новый вид змеи с Новой Гвинеи и назвали его в честь гитариста Guns N' Roses Слэша](https://www.sciencedaily.com/releases/2026/09/260918024816.htm) — Lielaphis slashi, сообщает ScienceDaily. Слэш давно и открыто увлекается рептилиями, и это не первый вид, названный в его честь, но именно этот случай подкреплён строгой научной процедурой: генетическое тестирование и морфологические различия подтвердили, что рыжевато-коричневая землеройная змея — действительно отдельный вид, который раньше никогда формально не описывали.
+
+История здесь не только в забавном имени. Присвоение вида известному человеку — распространённая практика в таксономии: она одновременно привлекает внимание к находке и, иногда, помогает финансировать дальнейшие исследования редких и малоизученных экосистем вроде тропических лесов Новой Гвинеи, где до сих пор описываются виды, никогда прежде не попадавшие в научную литературу.
+
+То, что подобные открытия всё ещё происходят в XXI веке, — сама по себе новость: Новая Гвинея остаётся одним из немногих мест на планете, где биоразнообразие изучено настолько неполно, что новые виды позвоночных находят регулярно, а не раз в десятилетие.
+
+### Почему это важно
+
+Формальное описание нового вида змеи — это не просто курьёз с забавным именем, а напоминание, что даже сегодня науке известна лишь часть видов, населяющих тропические леса Новой Гвинеи.
+
+## English version
+
+Scientists [have described a new snake species from New Guinea and named it after Guns N' Roses guitarist Slash](https://www.sciencedaily.com/releases/2026/09/260918024816.htm) — Lielaphis slashi, ScienceDaily reports. Slash has long and openly loved reptiles, and this isn't the first species named after him, but this one comes backed by rigorous scientific procedure: genetic testing and physical differences confirmed the reddish-brown groundsnake is indeed a distinct species that had never been formally described before.
+
+The story isn't only about a fun name. Naming a species after a well-known person is a common practice in taxonomy — it draws attention to the discovery and, sometimes, helps fund further research into rare and understudied ecosystems like the New Guinea rainforests, where species still turn up that have never before appeared in scientific literature.
+
+The fact that discoveries like this still happen in the 21st century is itself notable: New Guinea remains one of the few places on the planet where biodiversity is understood so incompletely that new vertebrate species are found regularly, not once a decade.
+
+### Why it matters
+
+Formally describing a new snake species isn't just a quirky-name curiosity — it's a reminder that even today, science knows only a fraction of the species living in New Guinea's rainforests.
+
+
+----- 07-anamanaguchi-interview (culture) — source: https://www.theverge.com/entertainment/996855/anamanaguchi-anyway-yeah-i-guess-interview-music -----
+
+## Русская версия
+
+Чиптюн-группа Anamanaguchi [дала интервью The Verge](https://www.theverge.com/entertainment/996855/anamanaguchi-anyway-yeah-i-guess-interview-music), в котором участники — Питер Беркман, Джеймс ДеВито, Люк Сайлас и Ари Уорнаар — рассказали о своей музыке и о том, как устроена их повседневная работа. Группа известна прежде всего чиптюном — музыкой, построенной на звуках старых игровых приставок, — и коллаборацией над саундтреком к игре 2010 года «Скотт Пилигрим против всех: игра».
+
+Один из авторов интервью замечает, что у самой группы, по их же признанию, открыто «слишком много вкладок браузера одновременно» — деталь скорее бытовая, чем музыкальная, но она хорошо передаёт то, как устроено творчество в эпоху постоянного цифрового шума: даже группа, чей звук родом из восьмибитных приставок девяностых, живёт в потоке современных цифровых отвлечений не меньше своих слушателей.
+
+Для группы, сформировавшейся на пересечении игровой культуры и инди-музыки, подобные интервью — способ напомнить, что чиптюн не остался нишевым явлением нулевых: он по-прежнему живёт, развивается и находит новых слушателей через игры, коллаборации и выступления.
+
+### Почему это важно
+
+Интервью Anamanaguchi — небольшой, но живой срез того, как культура, выросшая из ретро-игровых звуков, продолжает существовать и говорить со слушателями на равных со стриминговой поп-музыкой, а не как музейный экспонат.
+
+## English version
+
+Chiptune band Anamanaguchi [spoke to The Verge](https://www.theverge.com/entertainment/996855/anamanaguchi-anyway-yeah-i-guess-interview-music), with members Peter Berkman, James DeVito, Luke Silas and Ary Warnaar discussing their music and how their day-to-day work is structured. The band is best known for chiptune — music built from the sounds of old game consoles — and for their soundtrack collaboration on the 2010 game "Scott Pilgrim vs. the World: The Game."
+
+The interview notes the band itself admits to having "too goddamn many" browser tabs open at once — a mundane detail rather than a musical one, but it captures something about how creative work happens in an era of constant digital noise: even a band whose sound comes from '90s-era consoles lives inside the same stream of modern digital distraction as everyone listening to them.
+
+For a band formed at the intersection of gaming culture and indie music, interviews like this are a reminder that chiptune didn't stay a niche 2000s phenomenon — it's still alive, still evolving, and still finding new listeners through games, collaborations, and live shows.
+
+### Why it matters
+
+The Anamanaguchi interview is a small but telling snapshot of how a culture born from retro game sounds keeps existing and talking to listeners on equal footing with streaming-era pop, rather than as a museum piece.
+
+
 ===== EDITION 17 — 2026-09-19 =====
 
 ## От редакции
