@@ -202,6 +202,195 @@ Retroactive statistical revisions are routine, but the scale here is telling: a 
 If UK productivity grew at nearly twice the previously estimated pace after 2008, then the famous "UK productivity puzzle" was partly an artifact of understated statistics — not purely a real structural lag in the economy.
 
 
+----- 08-nigeria-prison-deaths (world) — source: https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna -----
+
+## Русская версия
+
+В нигерийском городе Минна в тюремной камере погибли 37 человек — по данным выживших, [они задыхались и метались в панике, пока не стало слишком поздно](https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna). Большинство погибших — подозреваемые нелегальные старатели, многие из них были детьми. Их держали под стражей военизированной группы, которая и раньше вела рейды против незаконной добычи золота в регионе.
+
+После того как новость о гибели 37 человек разошлась по городу, в Минне начались протесты: полиция применила слезоточивый газ, чтобы разогнать собравшихся. Люди требуют объяснений — как именно погибли десятки задержанных в одной камере и почему среди них оказалось столько несовершеннолетних.
+
+Сама история звучит буднично и от этого только страшнее: рейд против нелегальных старателей, задержание, переполненная камера — и итог, который для властей должен был быть рутинной операцией, а обернулся массовой гибелью людей. Свидетельства выживших о панике и удушье — это не абстрактная статистика, а конкретные минуты, которые теперь предстоит объяснять тем, кто отвечал за содержание задержанных.
+
+### Почему это важно
+
+Гибель 37 человек, включая детей, в тюремной камере под контролем военизированной структуры — это вопрос не только к конкретному инциденту, но и к тому, как в Нигерии вообще устроено задержание людей, обвиняемых в нелегальной добыче полезных ископаемых, и кто несёт ответственность за условия содержания.
+
+## English version
+
+In the Nigerian city of Minna, 37 people died in a prison cell — survivors say [they gasped for air and panicked before it was too late](https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna). Most of the dead were suspected illegal goldminers, many of them children, held in the custody of a paramilitary group that had previously conducted raids against illegal mining in the region.
+
+Once word of the 37 deaths spread through the city, protests broke out in Minna, and police fired teargas to disperse crowds. People are demanding answers: how dozens of detainees died in a single cell, and why so many of them were minors.
+
+The chain of events sounds almost routine, which is exactly what makes it disturbing: a raid on illegal miners, detentions, an overcrowded cell — and an outcome that should have been a standard custody operation but turned into a mass casualty event. Survivors' accounts of panic and suffocation aren't abstract statistics; they're specific minutes that whoever ran that detention now has to account for.
+
+### Why it matters
+
+The deaths of 37 people, including children, in a cell run by a paramilitary group raise questions that go beyond this single incident — about how Nigeria detains people accused of illegal mining, and who is accountable for the conditions they're held in.
+
+
+----- 09-malawi-kidnapping-rescue (world) — source: https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout -----
+
+## Русская версия
+
+Британку Нусрат Осман, похищенную в Малави прямо у собственного дома на прошлой неделе, [освободила полиция в ходе перестрелки, в которой погибли четверо из её предполагаемых похитителей](https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout). Операция по её освобождению заняла около недели — именно столько времени прошло с момента похищения до штурма.
+
+Детали самого похищения пока скупые: женщину увезли от дома, и всё это время она находилась у похитителей. Развязка оказалась жёсткой — вместо переговоров или выкупа полиция пошла на силовой вариант, и как минимум четверо участников группы, удерживавшей заложницу, были убиты при задержании.
+
+Для британских властей и для самой Осман история заканчивается благополучно, но контекст — похищения иностранцев ради выкупа — остаётся частью повседневной криминальной реальности в некоторых районах Малави и соседних стран. Быстрая и результативная спецоперация — скорее исключение, чем правило для подобных дел.
+
+### Почему это важно
+
+Похищение британской гражданки в Малави и последовавший силовой штурм — напоминание, что риск подобных преступлений против иностранцев в регионе не абстрактный, а полиция готова идти на жёсткие меры для освобождения заложников, даже ценой гибели похитителей.
+
+## English version
+
+Nusrat Osman, a British woman kidnapped in Malawi last week right outside her own home, was freed by police [in a shootout that killed four of her alleged abductors](https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout). The rescue operation took roughly a week from the moment she was taken to the raid that freed her.
+
+Details of the abduction itself remain sparse: she was taken from outside her home and held by her captors the whole time. The ending was violent rather than negotiated — instead of a ransom deal, police opted for a raid, and at least four members of the group holding her were killed during the operation.
+
+For British authorities and for Osman herself, the story ends well, but the underlying context — kidnappings of foreigners for ransom — remains part of everyday criminal risk in parts of Malawi and neighboring countries. A fast, successful rescue operation like this one is the exception rather than the rule.
+
+### Why it matters
+
+The kidnapping of a British national in Malawi and the armed raid that followed is a reminder that this kind of crime against foreigners in the region isn't hypothetical — and that police are willing to use lethal force to free hostages, even at the cost of killing the abductors.
+
+
+----- 10-food-additives-blood-pressure (science) — source: https://www.sciencedaily.com/releases/2026/09/260920031905.htm -----
+
+## Русская версия
+
+Исследователи выявили [восемь широко используемых пищевых консервантов, связанных с повышенным риском гипертонии и сердечно-сосудистых заболеваний](https://www.sciencedaily.com/releases/2026/09/260920031905.htm). Все восемь — обычные добавки, которые массово присутствуют в обработанных продуктах: их не нужно искать в экзотических продуктах, они и так есть в холодильнике почти у каждого.
+
+Главный вывод исследования простой и неприятный: чем больше человек потребляет продуктов с этими консервантами, тем выше у него показатели артериального давления и риск сердечно-сосудистых заболеваний. Это не единичный эффект от случайного перекуса, а статистическая связь при регулярном, «фоновом» потреблении — том самом, которое обычно не воспринимается как что-то рискованное.
+
+Важная оговорка: речь идёт именно о связи, а не о доказанном механизме причинности для каждого из восьми веществ по отдельности — так обычно и работает эпидемиология питания. Но сам список из восьми конкретных, повсеместно распространённых добавок — это уже основание для более пристального внимания к этикеткам, а не абстрактный призыв «есть меньше вредного».
+
+### Почему это важно
+
+Если восемь конкретных и очень распространённых консервантов действительно связаны с гипертонией и сердечными заболеваниями, это касается не узкой группы людей с особой диетой, а практически всех, кто ест обработанные продукты — то есть почти всех.
+
+## English version
+
+Researchers have identified [eight widely used food preservatives linked to higher rates of high blood pressure and cardiovascular disease](https://www.sciencedaily.com/releases/2026/09/260920031905.htm). All eight are ordinary additives found throughout processed foods — nothing exotic, just what's already sitting in most people's fridges and pantries.
+
+The core finding is simple and unwelcome: the more of these preservatives someone consumes, the higher their measured blood pressure and cardiovascular disease risk tend to be. This isn't about one bad snack — it's a statistical association tied to regular, background-level consumption, the kind that normally doesn't register as risky at all.
+
+One caveat matters: this is an association, not proof of a causal mechanism for each of the eight substances individually — that's how nutritional epidemiology typically works. But having a list of eight specific, near-universal additives is already a reason to look more closely at labels, rather than a vague call to "eat less junk."
+
+### Why it matters
+
+If eight specific, extremely common preservatives are genuinely linked to hypertension and heart disease, that's not a niche dietary concern — it applies to nearly anyone who eats processed food, which is to say almost everyone.
+
+
+----- 11-sulfur-food-costs (economy) — source: https://www.npr.org/sections/planet-money/2026/09/18/nx-s1-5974103/what-expensive-sulfur-means-for-your-dinner-table -----
+
+## Русская версия
+
+Подкаст [Planet Money от NPR разбирает неочевидную экономическую цепочку](https://www.npr.org/sections/planet-money/2026/09/18/nx-s1-5974103/what-expensive-sulfur-means-for-your-dinner-table): поставки нефти сокращаются, а вместе с ними — и сера, которая является побочным продуктом нефтепереработки. Меньше нефти перерабатывается — меньше серы попадает на рынок, и её цена растёт.
+
+На первый взгляд это узкоспециализированная новость для химической промышленности. Но сера — сырьё для серной кислоты, которая массово используется в производстве удобрений, а значит рост её стоимости добавляется к издержкам всей цепочки — от поля до прилавка. Именно поэтому авторы подкаста формулируют вопрос напрямую: что подорожание серы значит для вашего обеденного стола.
+
+Такие истории — фирменный жанр Planet Money: взять сырьё, о котором почти никто не думает в повседневной жизни, и показать, как колебания на этом узком рынке через несколько шагов долетают до цены продуктов в магазине. Прямой связи «нефть подешевела/подорожала — еда подешевела/подорожала» тут нет, но и полностью игнорировать этот механизм при оценке будущей продовольственной инфляции не стоит.
+
+### Почему это важно
+
+Цепочка «меньше нефти — меньше серы — дороже удобрения — дороже еда» — хороший пример того, как решения в одном секторе экономики, на первый взгляд никак не связанном с продуктами питания, отражаются на ценах в супермаркете месяцы спустя.
+
+## English version
+
+NPR's [Planet Money traces an unexpected economic chain](https://www.npr.org/sections/planet-money/2026/09/18/nx-s1-5974103/what-expensive-sulfur-means-for-your-dinner-table): oil supplies are falling, and sulfur — a byproduct of oil refining — is falling with them. Less oil refined means less sulfur reaches the market, and its price climbs.
+
+On the surface, that sounds like a niche story for the chemical industry. But sulfur feeds into sulfuric acid, which is used heavily in fertilizer production, so a pricier sulfur market adds cost pressure all the way down the chain, from the field to the checkout counter. That's why the show frames the question directly: what does expensive sulfur mean for your dinner table.
+
+This is a classic Planet Money move: take a raw material nobody thinks about day to day and show how price swings in that narrow market eventually reach grocery prices a few steps later. There's no simple one-to-one link between oil prices and food prices here, but it's not a mechanism worth ignoring when thinking about where food inflation heads next.
+
+### Why it matters
+
+The chain from less oil to less sulfur to pricier fertilizer to pricier food is a good example of how decisions in one corner of the economy that looks unrelated to groceries can still show up on supermarket price tags months later.
+
+
+----- 12-no-dogs-in-space-returns (culture) — source: https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast -----
+
+## Русская версия
+
+Подкаст о музыкальной истории No Dogs in Space [возвращается после паузы длиной больше двух лет](https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast) — ведущие Каролина Идальго и Маркус Паркс готовят четвёртый сезон. Автор материала в The Verge ещё в августе писал о своей любви к шоу и сожалел, что новых эпизодов не выходило уже несколько лет; теперь выясняется, что команда всё это время готовила возвращение, а не закрыла проект.
+
+No Dogs in Space славится тем, что рассказывает не хронику дат и релизов, а живую, дотошную историю музыкальных сцен — со всеми их внутренними конфликтами, случайностями и второстепенными персонажами, которые обычно выпадают из учебников. Новый сезон, судя по анонсу, будет посвящён панку.
+
+Для аудитории, которая два года ждала хоть каких-то новостей о шоу, само объявление о возвращении — уже событие: тихий, нишевый подкаст, который держался не на маркетинге, а на репутации у преданных слушателей, доказал, что может пережить долгую паузу и не потерять доверие фанатов.
+
+### Почему это важно
+
+Возвращение No Dogs in Space после многолетней паузы — небольшой, но показательный пример того, что нишевые независимые шоу могут выживать не благодаря постоянному потоку контента, а благодаря качеству и доверию, накопленному за годы.
+
+## English version
+
+Music history podcast No Dogs in Space is [coming back after a gap of more than two years](https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast), with hosts Carolina Hidalgo and Marcus Parks prepping a fourth season. The Verge writer behind the report had written back in August about loving the show and mourning the lack of new episodes — only to learn the team had been quietly working toward a comeback rather than shutting the project down.
+
+No Dogs in Space is known for treating music history as more than a timeline of release dates: it digs into the internal conflicts, accidents, and minor characters of music scenes that usually get left out of the standard narrative. The new season, per the announcement, is built around punk.
+
+For an audience that had spent two years with no real news about the show, the announcement itself is the event: a quiet, niche podcast that ran on reputation with devoted listeners rather than marketing has proven it can survive a long hiatus without losing its audience's trust.
+
+### Why it matters
+
+No Dogs in Space returning after years away is a small but telling case of a niche independent show surviving not through a steady content pipeline, but through the quality and trust it built up over time.
+
+
+----- 13-google-analyst-infiltrates-hackers (tech) — source: https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/ -----
+
+## Русская версия
+
+Группа Google по анализу киберугроз рассказала, что один из её аналитиков [под прикрытием внедрился в ближний круг известной хакерской группировки TeamPCP](https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/), специализирующейся на атаках на цепочки поставок ПО. Иными словами, у Google был свой человек внутри группы, которую компания же и отслеживала как угрозу.
+
+Атаки на цепочки поставок — один из самых опасных классов киберугроз именно потому, что бьют не по конечной жертве напрямую, а по доверенному поставщику или библиотеке, через которую заражение расползается на десятки и сотни компаний разом. Группировки, которые на этом специализируются, обычно закрыты и осторожны — именно поэтому сам факт успешного внедрения аналитика «изнутри» примечателен: получить такой уровень доступа к операциям подобной группы удаётся нечасто.
+
+Детали того, что именно удалось узнать благодаря этому внедрению и как долго оно продолжалось, компания раскрывает избирательно — обычно такие операции описывают постфактум, когда риск для самого «крота» и текущих расследований уже снят. Но сам прецедент показывает: борьба с хакерскими группами всё чаще выходит за рамки чисто технического анализа кода и логов и включает классические методы агентурной разведки.
+
+### Почему это важно
+
+Если у коммерческой компании вроде Google появляется возможность внедрить своего человека внутрь хакерской группировки, это меняет расклад сил в противостоянии с атаками на цепочки поставок — от пассивного анализа последствий взлома к активному сбору данных изнутри самой группы.
+
+## English version
+
+Google's threat intelligence group says one of its analysts [went undercover and infiltrated the inner circle of TeamPCP](https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/), a notorious hacking group that specializes in supply-chain attacks. In short: Google had someone inside the very group it was tracking as a threat.
+
+Supply-chain attacks are among the most dangerous categories of cyberattack precisely because they don't hit the final target directly — they compromise a trusted vendor or library, and the infection spreads to dozens or hundreds of downstream companies at once. Groups that specialize in this kind of attack tend to be tightly closed and cautious, which is what makes a successful undercover infiltration notable: getting that level of access to a group's actual operations doesn't happen often.
+
+The company is selective about disclosing exactly what the infiltration turned up and how long it lasted — operations like this are typically described after the fact, once the risk to the mole and to ongoing investigations has passed. But the precedent itself matters: fighting hacking groups is increasingly moving beyond pure technical analysis of code and logs, into classic human-intelligence tradecraft.
+
+### Why it matters
+
+When a commercial company like Google can plant someone inside a hacking group, it shifts the balance in the fight against supply-chain attacks — from passively analyzing breaches after the fact to actively gathering intelligence from inside the group itself.
+
+
+----- 14-alphagenome-atlas (ai) — source: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/ -----
+
+## Русская версия
+
+DeepMind представила [AlphaGenome Atlas — предсказательную карту молекулярных эффектов для 9 миллиардов однобуквенных вариантов человеческого генома](https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/). Задача системы — не подтвердить экспериментально, а именно предсказать, что произойдёт на молекулярном уровне, если в конкретном месте ДНК одна «буква» генетического кода заменится на другую.
+
+Масштаб здесь ключевой момент: 9 миллиардов вариантов — это на порядки больше, чем можно было бы протестировать в лаборатории напрямую для каждой позиции генома по отдельности. Модель, обученная на известных закономерностях того, как последовательности ДНК связаны с активностью генов и другими молекулярными процессами, экстраполирует эти закономерности на весь геном сразу, создавая своего рода справочную карту потенциальных эффектов.
+
+Практическая ценность такой карты — не в том, что она заменяет экспериментальную проверку, а в том, что она сужает пространство поиска для исследователей, изучающих генетические варианты, связанные с конкретными заболеваниями. Вместо того чтобы проверять миллионы кандидатов вслепую, можно сначала свериться с предсказанием модели и приоритизировать самые перспективные варианты.
+
+### Почему это важно
+
+Предсказательная карта на 9 миллиардов вариантов ДНК — это инструмент, который может ускорить генетические исследования, но её ценность будет зависеть от того, насколько точны предсказания модели на практике, а не только от впечатляющего масштаба охвата.
+
+## English version
+
+DeepMind has released [AlphaGenome Atlas, a predictive map of the molecular effects of 9 billion single-letter variants across the human genome](https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/). The system's job isn't to experimentally confirm anything — it's to predict what happens at the molecular level if one "letter" of the genetic code is swapped for another at a given position in the DNA.
+
+The scale is the whole point: 9 billion variants is orders of magnitude more than anyone could directly test in a lab position by position. Trained on known patterns linking DNA sequences to gene activity and other molecular processes, the model extrapolates those patterns across the entire genome at once, producing something like a reference map of potential effects.
+
+The practical value of a map like this isn't that it replaces experimental verification — it's that it narrows the search space for researchers studying genetic variants tied to specific diseases. Instead of blindly testing millions of candidates, they can check the model's predictions first and prioritize the most promising ones.
+
+### Why it matters
+
+A predictive map covering 9 billion DNA variants could speed up genetic research, but its real value will depend on how accurate the model's predictions turn out to be in practice, not just on the impressive scale of its coverage.
+
+
 ===== EDITION 18 — 2026-09-20 =====
 
 ## От редакции
