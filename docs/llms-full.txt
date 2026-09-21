@@ -2,6 +2,206 @@
 
 
 
+===== EDITION 19 — 2026-09-21 =====
+
+## От редакции
+
+Понедельник начинается с того, что земля в буквальном и переносном смысле не стоит на месте: в Германии выборы в Берлине и Мекленбурге-Передней Померании качнули коалиционную арифметику, а физики из NIST через десять лет эксперимента так и не смогли сойтись в цифре гравитационной постоянной — вопрос, которому 225 лет. Пока одни считают голоса и колебания гравитации, другие считают доходность облигаций и думают о марсианской луне Фобос — сегодняшняя подборка нарочно разбегается в разные стороны.
+
+## Editorial
+
+Monday opens with the ground refusing to sit still, literally and otherwise: state elections in Berlin and Mecklenburg-Western Pomerania just reshuffled Germany's political math, while NIST physicists spent a decade on an experiment and still can't agree with themselves on the value of the gravitational constant — a 225-year-old argument. Between election counts and gravity measurements, today's edition also drifts toward bond yields and a Martian moon's buried scars — on purpose, since the news never stays in one lane.
+
+
+----- 01-german-state-elections-merz (world) — source: https://www.dw.com/en/german-state-elections-deal-a-blow-to-chancellor-friedrich-merz/a-79348585 -----
+
+## Русская версия
+
+Выборы в земельные парламенты Берлина и Мекленбурга-Передней Померании обернулись [историческим поражением для ХДС канцлера Фридриха Мерца](https://www.dw.com/en/german-state-elections-deal-a-blow-to-chancellor-friedrich-merz/a-79348585), пишет Deutsche Welle. Правая «Альтернатива для Германии» показала значительный рост в обеих землях, но, как отмечает DW в отдельном материале, [возможностей сформировать земельное правительство у партии всё равно нет](https://www.dw.com/en/afd-makes-gains-in-state-elections-but-has-no-government-options/a-79348308) — остальные партии по-прежнему отказываются с ней договариваться.
+
+Для Мерца это не просто локальная неудача. Как передаёт NPR, [канцлер уже пообещал продолжать реформы](https://www.npr.org/2026/09/20/g-s1-144211/germanys-merz-vows-to-press-ahead-with-reforms-after-historic-state-election-defeat) несмотря на поражение, но давление на него, и без того непопулярного главу правительства, только растёт. Формула повторяется от выборов к выборам: АдГ прибавляет голоса, а мейнстримные партии продолжают держать «санитарный кордон», в результате которого рост поддержки не конвертируется во власть — зато конвертируется в постоянную нервозность коалиционной Германии.
+
+Само по себе то, что АдГ второй раз подряд показывает заметный рост и второй раз подряд остаётся без коалиции, — это уже устойчивый паттерн немецкой политики, а не разовый всплеск протестного голосования.
+
+### Почему это важно
+
+ХДС Мерца теряет позиции на земельных выборах уже не первый раз, а стратегия изоляции АдГ у остальных партий держится на честном слове: рост поддержки правых пока не превращается во власть, но политическая цена такого сдерживания для правящей коалиции растёт с каждыми новыми выборами.
+
+## English version
+
+State elections in Berlin and Mecklenburg-Western Pomerania delivered a [historic defeat for Chancellor Friedrich Merz's CDU](https://www.dw.com/en/german-state-elections-deal-a-blow-to-chancellor-friedrich-merz/a-79348585), Deutsche Welle reports. The far-right Alternative for Germany made significant gains in both states, but as DW notes in a separate piece, [the party still has no path to forming a state government](https://www.dw.com/en/afd-makes-gains-in-state-elections-but-has-no-government-options/a-79348308) — the other parties continue to refuse to work with it.
+
+For Merz, this is more than a local setback. NPR reports that [the chancellor has already vowed to press ahead with his reform agenda](https://www.npr.org/2026/09/20/g-s1-144211/germanys-merz-vows-to-press-ahead-with-reforms-after-historic-state-election-defeat) despite the loss, but the pressure on an already unpopular chancellor keeps building. The pattern is repeating itself election after election: the AfD gains ground, mainstream parties keep the firewall intact, and rising support still doesn't translate into power — though it does translate into a permanently jittery coalition government.
+
+The fact that the AfD is posting real gains for a second consecutive round while remaining locked out of governing is, by now, a structural feature of German politics rather than a one-off protest vote.
+
+### Why it matters
+
+Merz's CDU keeps losing ground in state elections, and the other parties' strategy of isolating the AfD rests on nothing but mutual agreement: rising far-right support isn't converting into power yet, but the political cost of maintaining that firewall keeps rising with every new vote.
+
+
+----- 02-nist-gravitational-constant (science) — source: https://www.sciencedaily.com/releases/2026/09/260920032049.htm -----
+
+## Русская версия
+
+Десятилетний эксперимент Национального института стандартов и технологий США (NIST) [дал новое измерение гравитационной постоянной G — и оно неожиданно разошлось с другим ведущим результатом](https://www.sciencedaily.com/releases/2026/09/260920032049.htm), пишет ScienceDaily. Расхождение крошечное, но для одной из самых фундаментальных констант природы даже такая мелочь означает, что 225-летняя головоломка физики так и не закрыта.
+
+Гравитационную постоянную впервые измерил Генри Кавендиш ещё в 1798 году, и с тех пор разные лаборатории мира регулярно получают слегка отличающиеся друг от друга значения — в отличие от других фундаментальных констант, которые со временем сходятся к единой цифре по мере совершенствования приборов. G — редкое исключение: чем точнее измерения, тем упрямее остаётся разброс.
+
+Ключевая деталь эксперимента NIST в том, что он был устроен как «слепой»: результат запечатали и не вскрывали десять лет, пока шла работа, — именно чтобы исключить неосознанное подгонство данных под ожидаемое число. Открытие конверта не решило спор, а лишь подтвердило: гравитация действительно не сходится, и это не ошибка отдельной лаборатории.
+
+### Почему это важно
+
+Гравитационная постоянная — одна из немногих фундаментальных величин природы, которая упрямо не поддаётся согласованию между независимыми измерениями, и новый десятилетний слепой эксперимент NIST лишь подтвердил старую аномалию, а не закрыл её.
+
+## English version
+
+A decade-long experiment at the US National Institute of Standards and Technology (NIST) has [produced a new measurement of the gravitational constant G — and it unexpectedly disagrees with another leading result](https://www.sciencedaily.com/releases/2026/09/260920032049.htm), ScienceDaily reports. The discrepancy is tiny, but for one of nature's most fundamental constants, even a small mismatch means a 225-year-old physics puzzle remains unresolved.
+
+The gravitational constant was first measured by Henry Cavendish back in 1798, and labs around the world have kept getting slightly different values from each other ever since — unlike other fundamental constants, which have converged toward a single agreed number as instruments improved. G is the stubborn exception: the more precisely it's measured, the more the disagreement persists.
+
+The key detail of the NIST experiment is that it was run "blind": the result was sealed and left unopened for ten years while the work continued, specifically to rule out researchers unconsciously nudging the data toward an expected number. Opening the envelope didn't settle the dispute — it just confirmed that the gravity mismatch is real, not a single lab's mistake.
+
+### Why it matters
+
+The gravitational constant is one of the few fundamental quantities in nature that stubbornly refuses to converge across independent measurements, and NIST's new decade-long blind experiment only confirmed the old anomaly instead of resolving it.
+
+
+----- 03-trump-icc-sanctions (world) — source: https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say -----
+
+## Русская версия
+
+Администрация Трампа [готовит новый пакет масштабных санкций против Международного уголовного суда](https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say), сообщает Al Jazeera со ссылкой на источники. В отличие от прежних точечных мер против отдельных прокуроров и судей, новые санкции, по данным источников, нацелены на сам суд как институт: они способны нарушить работу платежей, IT-инфраструктуры и текущих расследований.
+
+Разница принципиальная. Персональные санкции против конкретных чиновников МУС Вашингтон уже вводил раньше — это укладывалось в привычную логику давления на отдельных людей. А вот удар по платёжной и технической инфраструктуре суда как организации — это попытка затруднить работу МУС в целом, а не наказать конкретных людей, принявших конкретные решения.
+
+Для суда, который и так зависит от добровольного сотрудничества государств и не имеет собственной полиции для исполнения ордеров, потеря доступа к базовым платёжным и IT-сервисам — удар не символический, а вполне операционный: без денег и работающих систем расследования буксуют.
+
+### Почему это важно
+
+Новый пакет санкций против МУС, если он будет введён, отличается от прежних персональных мер тем, что бьёт по инфраструктуре суда как организации — то есть способен затормозить его работу в целом, а не просто наказать отдельных чиновников.
+
+## English version
+
+The Trump administration is [preparing a sweeping new package of sanctions against the International Criminal Court](https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say), Al Jazeera reports, citing sources. Unlike previous targeted measures against individual prosecutors and judges, the new sanctions reportedly target the court itself as an institution: they could disrupt payments, IT services, and ongoing investigations.
+
+That's a meaningful shift. Washington has already imposed personal sanctions on specific ICC officials before — a familiar pattern of pressuring individuals. Hitting the court's payment and technical infrastructure as an organization is a different move: an attempt to hamper the ICC's operations broadly, rather than punish specific people for specific decisions.
+
+For a court that already depends on voluntary state cooperation and has no police force of its own to execute arrest warrants, losing access to basic payment and IT services isn't a symbolic blow — it's an operational one. Without money and working systems, investigations stall.
+
+### Why it matters
+
+If the new ICC sanctions package goes through, it differs from earlier personal measures by hitting the court's institutional infrastructure directly — potentially slowing its operations broadly rather than just punishing individual officials.
+
+
+----- 04-phobos-crater-origin (science) — source: https://www.sciencedaily.com/releases/2026/09/260919031040.htm -----
+
+## Русская версия
+
+На марсианской луне Фобос [обнаружен гигантский кратер, под которым может скрываться плотная область сжатого вещества](https://www.sciencedaily.com/releases/2026/09/260919031040.htm) — и она способна ответить на давний вопрос о происхождении самого спутника, пишет ScienceDaily. У планетологов давно есть два конкурирующих объяснения: либо Фобос — это захваченный гравитацией Марса астероид, либо обломки, оставшиеся после древнего удара по самой планете.
+
+Разница между этими сценариями — не мелкая деталь для специалистов, а вопрос о самой природе тела: захваченный астероид и осколки ударного происхождения должны иметь разную внутреннюю структуру и состав. Плотная зона под кратером — это как раз тот тип улики, которая позволяет отличить одно от другого, если её удастся исследовать напрямую.
+
+Проверить гипотезы должна японская миссия MMX (Martian Moons Exploration) — она отправится за образцами грунта Фобоса и сможет получить измерения и физические свидетельства, которых сейчас просто нет ни у одной из версий.
+
+### Почему это важно
+
+Спор о происхождении Фобоса — захваченный астероид или обломки древнего удара по Марсу — остаётся открытым десятилетиями, а новый гигантский кратер даёт первую реальную зацепку, которую сможет проверить японская миссия MMX с образцами грунта.
+
+## English version
+
+A giant crater has been [found on Mars's moon Phobos, and it may hide a dense region of compressed material](https://www.sciencedaily.com/releases/2026/09/260919031040.htm) that could answer a long-standing question about the moon's origin, ScienceDaily reports. Planetary scientists have long had two competing explanations: either Phobos is an asteroid captured by Mars's gravity, or it's debris left over from an ancient impact on the planet itself.
+
+The difference between the two scenarios isn't a minor detail for specialists — it's a question about the body's fundamental nature. A captured asteroid and impact debris should have different internal structure and composition. The dense zone beneath the crater is exactly the kind of evidence that could distinguish between them, if it can be studied directly.
+
+Japan's MMX (Martian Moons Exploration) mission is set to test the hypotheses: it will retrieve samples of Phobos's surface material and could provide the measurements and physical evidence that neither theory currently has.
+
+### Why it matters
+
+The debate over whether Phobos is a captured asteroid or debris from an ancient Mars impact has stayed open for decades, and this newly found giant crater gives the first real lead that Japan's sample-return MMX mission will be able to test.
+
+
+----- 05-british-food-history-myth (culture) — source: https://phys.org/news/2026-09-british-food-complex-multicultural-flavorful.html -----
+
+## Русская версия
+
+Стереотип о пресной британской кухне живёт десятилетиями: желе из угря, переваренные овощи, а ростбиф с пудингом считаются образцом кулинарной скуки на фоне кухонь других стран. Но, [как показывает историческое исследование, британская еда XVIII века была сложной, мультикультурной и по-настоящему острой](https://phys.org/news/2026-09-british-food-complex-multicultural-flavorful.html), пишет phys.org.
+
+Сама живучесть стереотипа интереснее, чем кажется: он держится не потому, что подтверждается источниками, а потому, что стал частью национального самоописания — «скучная еда» превратилась в культурный анекдот о самих британцах, который пересказывают чаще, чем проверяют. Историки, обращаясь к реальным кулинарным книгам и практикам XVIII века, находят совсем другую картину: разнообразие специй, влияние торговых связей империи, кулинарную сложность, которая плохо вяжется с образом варёной капусты как национального блюда.
+
+Расхождение между мифом и источниками — обычная история для национальной кухонной идентичности: то, что страна рассказывает о своей еде, часто говорит больше о её самоиронии, чем о реальном рационе прошлого.
+
+### Почему это важно
+
+Стереотип о пресной британской кухне пережил века не потому, что подтверждён источниками, а потому что стал удобным культурным анекдотом — и новое обращение к реальным кулинарным практикам XVIII века показывает гораздо более сложную и острую картину.
+
+## English version
+
+The stereotype of bland British food has stuck around for decades: jellied eels, overcooked vegetables, roast beef and pudding held up as the epitome of culinary dullness next to other nations' cuisines. But [historical research shows 18th-century British food was complex, multicultural, and genuinely flavorful](https://phys.org/news/2026-09-british-food-complex-multicultural-flavorful.html), phys.org reports.
+
+The stereotype's staying power is more interesting than the stereotype itself: it persists not because sources back it up, but because it became part of national self-description — "boring food" turned into a cultural joke about the British that gets repeated far more often than it gets checked. Historians looking at actual 18th-century cookbooks and food practices find a very different picture: a variety of spices, the imprint of the empire's trade networks, a culinary complexity that doesn't sit well with boiled cabbage as the national dish.
+
+The gap between the myth and the sources is a familiar story for national food identity: what a country says about its own cooking often reveals more about its self-deprecating humor than about what people actually ate.
+
+### Why it matters
+
+The bland-British-food stereotype has survived for centuries not because the sources support it, but because it became a convenient cultural joke — and a fresh look at actual 18th-century cooking practices shows a far more complex, flavorful picture.
+
+
+----- 06-trump-ai-force-czar (ai) — source: https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar -----
+
+## Русская версия
+
+Президент США [написал в Truth Social, что хочет назначить «ИИ-царя», который возглавит новые «силы ИИ»](https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar), сообщает The Verge. Заявление прозвучало на фоне растущих призывов — причём не только от критиков технологии, но и изнутри самой индустрии — притормозить темпы развития ИИ.
+
+Формулировка «силы» (force) здесь работает как военная метафора, и это не случайность: она сигнализирует, что администрация хочет говорить об ИИ не языком регулирования или безопасности, а языком мобилизации и превосходства — примерно так же, как раньше говорили о космической гонке. Реакция на то, что часть индустрии сама просит притормозить, оборачивается не паузой, а новой институцией с ещё более наступательным названием.
+
+Стоит заметить, что пока это пост в соцсети, а не оформленное решение: ни структура «ИИ-сил», ни полномочия «царя», ни бюджет инициативы не описаны. Но сам факт, что призывы к осторожности встречают ответ в виде новой ускоряющей структуры, а не тормозящей, показывает, в какую сторону администрация намерена двигаться.
+
+### Почему это важно
+
+На призывы индустрии притормозить развитие ИИ администрация Трампа отвечает не паузой, а анонсом новой наступательной структуры с военной терминологией — предложение пока не оформлено институционально, но направление явно противоположно осторожности.
+
+## English version
+
+The US president [posted on Truth Social that he wants to appoint an "AI czar" to lead a new "AI force,"](https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar) The Verge reports. The announcement comes amid growing calls — not just from critics of the technology, but from within the industry itself — to slow the pace of AI development.
+
+The word "force" is doing deliberate work here as a military metaphor: it signals the administration wants to talk about AI not in the language of regulation or safety, but in the language of mobilization and dominance — much the way the space race used to be framed. The response to part of the industry asking for a pause isn't a pause at all, but a new institution with an even more offensive-sounding name.
+
+Worth noting: this is still a social media post, not a formal policy. Neither the structure of the "AI force," nor the czar's authority, nor any budget has been laid out. But the fact that calls for caution are being met with an announcement for a new accelerating structure, rather than a braking one, tells you which direction the administration intends to move.
+
+### Why it matters
+
+Facing industry calls to slow AI development down, the Trump administration is responding not with a pause but with an announcement for a new, militarily-framed structure — not yet formalized as policy, but pointing in the opposite direction from caution.
+
+
+----- 07-uk-productivity-revised (economy) — source: https://marginalrevolution.com/marginalrevolution/2026/09/uk-productivity-higher-than-we-had-thought.html -----
+
+## Русская версия
+
+Производительность труда в Великобритании в десятилетие после кризиса 2008 года росла [почти вдвое быстрее, чем считалось раньше](https://marginalrevolution.com/marginalrevolution/2026/09/uk-productivity-higher-than-we-had-thought.html), согласно новым официальным данным, на которые ссылается блог Marginal Revolution. Речь идёт о выработке на час отработанного времени — базовом показателе производительности труда, — и пересмотр делает Британию куда менее выраженным аутсайдером среди развитых экономик, чем её представляли последние полтора десятилетия.
+
+Это важно не только как статистическая поправка. «Британская загадка производительности» — устойчивое отставание страны от других экономик G7 после 2008 года — была одной из главных тем экономических дебатов о причинах слабого роста зарплат и уровня жизни в стране. Если базовые цифры, на которых строилась вся эта загадка, были занижены, то и часть объяснений, предложенных экономистами за эти годы, нуждается в пересмотре — не потому, что они были ошибочными по сути, а потому, что решали не совсем ту задачу, которая была на самом деле.
+
+Официальный пересмотр статистики задним числом — вещь обычная, но масштаб в данном случае показателен: разница почти в два раза — это не техническая поправка, а признание того, что экономика страны выглядела куда более застойной, чем была.
+
+### Почему это важно
+
+Если производительность труда в Британии после 2008 года росла почти вдвое быстрее прежних оценок, то знаменитая «загадка британской производительности» была отчасти артефактом заниженной статистики — а не только реальным структурным отставанием экономики.
+
+## English version
+
+UK labor productivity in the decade after the 2008 financial crisis grew at [almost twice the pace previously estimated](https://marginalrevolution.com/marginalrevolution/2026/09/uk-productivity-higher-than-we-had-thought.html), according to new official figures cited by the Marginal Revolution blog. The measure in question is output per hour worked — the standard yardstick of labor productivity — and the revision makes Britain look far less of an outlier among developed economies than it's been portrayed as for the past decade and a half.
+
+This matters beyond being a statistical footnote. The "UK productivity puzzle" — the country's persistent lag behind other G7 economies since 2008 — has been a central topic in debates over Britain's weak wage growth and stagnant living standards. If the baseline numbers underlying that puzzle were understated, then some of the explanations economists have offered over the years need revisiting too — not because they were wrong in principle, but because they were solving a slightly different problem than the one that actually existed.
+
+Retroactive statistical revisions are routine, but the scale here is telling: a near-doubling isn't a technical tweak, it's an admission that the UK economy looked considerably more stagnant than it actually was.
+
+### Why it matters
+
+If UK productivity grew at nearly twice the previously estimated pace after 2008, then the famous "UK productivity puzzle" was partly an artifact of understated statistics — not purely a real structural lag in the economy.
+
+
 ===== EDITION 18 — 2026-09-20 =====
 
 ## От редакции
