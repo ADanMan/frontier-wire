@@ -29,6 +29,8 @@ https://feeds.npr.org/1001/rss.xml            # NPR top stories
 https://www.aljazeera.com/xml/rss/all.xml
 https://rss.dw.com/rdf/rss-en-all             # Deutsche Welle
 https://theconversation.com/global/rss.xml    # planted 2026-09-07: academic-authored world/science analysis, underrepresented angle
+https://globalvoices.org/feed/                # planted 2026-09-21: citizen-journalism world coverage, under-reported regions, complements wire feeds (unverified in sandbox this run — egress blocked outside raw.githubusercontent.com)
+https://www.pbs.org/newshour/feeds/rss/headlines # planted 2026-09-21: non-paywalled US pubcaster, distinct editorial voice from NPR/BBC/Guardian (unverified in sandbox this run)
 
 # ── economy & business (open-network only) ─────────────────────────
 https://www.theguardian.com/business/economics/rss   # planted 2026-09-16: macro & policy news, economy rubric launch
