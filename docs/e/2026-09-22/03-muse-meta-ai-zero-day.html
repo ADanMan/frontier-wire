@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>У ИИ-ассистента Muse от Meta нашли серьёзную уязвимость нулевого дня - frontier-wire</title>
+<meta name="description" content="A ClickFix-style attack is just one way to fully hijack an agent with sweeping access privileges.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-09-22/03-muse-meta-ai-zero-day.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Meta's AI assistant Muse has a serious zero-day vulnerability", "alternativeHeadline": "У ИИ-ассистента Muse от Meta нашли серьёзную уязвимость нулевого дня", "datePublished": "2026-09-22", "inLanguage": ["ru", "en"], "isBasedOn": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-09-22/03-muse-meta-ai-zero-day.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-09-22 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">У ИИ-ассистента Muse от Meta нашли серьёзную уязвимость нулевого дня</span><span class="lang-en">Meta&#x27;s AI assistant Muse has a serious zero-day vulnerability</span></h1>
+  <p class="dek big"><span class="lang-ru">Атака типа ClickFix — лишь один из способов полностью захватить контроль над агентом с широчайшими правами доступа.</span><span class="lang-en">A ClickFix-style attack is just one way to fully hijack an agent with sweeping access privileges.</span></p>
+  
+  <div class="prose lang-ru"><p>В ИИ-ассистенте Meta под названием Muse обнаружена серьёзная уязвимость нулевого дня. Как <a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">пишет Ars Technica</a>, простая атака по схеме ClickFix — лишь один из способов полностью захватить контроль над агентом, который сама редакция издания характеризует как «чрезвычайно привилегированного».</p>
+<p>ClickFix — это не экзотика, а один из самых распространённых сценариев социальной инженерии последних лет: пользователя убеждают вставить и выполнить вредоносную команду самому, под видом «исправления» ошибки — якобы нужно скопировать текст в командную строку или диалог, чтобы починить проблему с сайтом или приложением. Обычно такая схема работает через невнимательность человека за клавиатурой. Проблема в том, что если жертвой ClickFix становится не пользователь, а ИИ-агент со своими собственными правами доступа к системе, то один и тот же трюк открывает куда более широкие двери.</p>
+<p>Ключевое слово в характеристике Muse — «привилегированный». Ассистенты вроде Muse проектируются так, чтобы выполнять действия от имени пользователя: читать почту, управлять файлами, взаимодействовать с другими приложениями. Именно эта широта полномочий и превращает уязвимость в агенте не просто в баг, а в потенциальный универсальный ключ: захватив контроль над ассистентом, злоумышленник получает доступ ко всему, что доступно самому агенту, а не к одной конкретной программе.</p>
+<p>Формулировка «лишь один из способов» намекает, что ClickFix — не единственный вектор атаки на Muse, обнаруженный исследователями; какие ещё методы применимы, в доступных источниках не детализируется. Но сам факт, что для взлома оказалось достаточно относительно простой и известной схемы социальной инженерии, а не сложной технической эксплуатации, — тревожный сигнал: чем шире права у ИИ-агента, тем ниже должен быть порог требований к его защите от простейших трюков.</p>
+<h3>Почему это важно</h3>
+<p>Индустрия ИИ-ассистентов делает ставку на то, что агенты с широкими правами доступа — это будущее взаимодействия с компьютером. Но чем больше у такого агента полномочий, тем разрушительнее последствия любой, даже элементарной, уязвимости. История с Muse — напоминание, что удобство автоматизации и безопасность здесь идут разными темпами.</p></div>
+  <div class="prose lang-en"><p>Meta's AI assistant Muse has a serious zero-day vulnerability. <a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">Ars Technica reports</a> that a simple ClickFix-style attack is just one way to completely hijack the agent, which the outlet itself describes as "extraordinarily privileged."</p>
+<p>ClickFix isn't exotic — it's one of the most common social-engineering patterns of the past few years. A user is talked into pasting and running a malicious command themselves, under the guise of "fixing" some error, typically by copying text into a command line or dialog box to solve a supposed problem with a site or app. Normally it works by exploiting a human's momentary inattention at the keyboard. The problem is that when the target of a ClickFix attack is an AI agent with its own system access, rather than a person, the same trick opens a far wider door.</p>
+<p>The key word in how Muse is described is "privileged." Assistants like Muse are built to act on the user's behalf — reading email, managing files, interacting with other applications. That breadth of authority is exactly what turns a vulnerability in the agent from a simple bug into something closer to a master key: hijack the assistant, and you gain access to everything the agent itself can reach, not just one isolated program.</p>
+<p>The phrasing "just one way" suggests ClickFix isn't the only attack vector researchers found against Muse — what the others are isn't detailed in what's available. But the fact that a relatively simple, well-known social-engineering trick was enough, rather than some sophisticated technical exploit, is itself the warning: the more privileges an AI agent holds, the lower the bar should be for hardening it against the simplest tricks.</p>
+<h3>Why it matters</h3>
+<p>The AI-assistant industry is betting that agents with broad system access are the future of how people use computers. But the more authority such an agent holds, the more destructive the fallout from even a basic vulnerability. The Muse story is a reminder that the convenience of automation and the discipline of securing it are moving at very different speeds.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
