@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Science without eureka moments: a new book debunks the myth / Наука без озарений: новая книга разрушает миф об «эврике»
 rubric: culture · source: https://undark.org/2026/09/04/book-review-lost-in-curiosity/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/07-lost-in-curiosity-book-review.md
+
+## The UK brings its first-ever charges over the 1994 Rwanda genocide / Британия впервые предъявила обвинения по делу о геноциде в Руанде 1994 года
+rubric: world · source: https://www.bbc.co.uk/news/articles/cr2092216nywo?at_medium=RSS&at_campaign=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/08-uk-rwanda-genocide-charges.md
+
+## Paramount makes concessions to save its $111 billion Warner Bros. Discovery deal / Paramount пошла на уступки, чтобы спасти сделку с Warner Bros. Discovery на $111 млрд
+rubric: economy · source: https://www.npr.org/2026/09/21/nx-s1-5974909/paramount-warner-bros-lawsuit
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/09-paramount-warner-bros-settlement.md
+
+## NASA powers up the Roman Space Telescope's 300-megapixel camera / NASA включило 300-мегапиксельную камеру телескопа «Роман»
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260921081058.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/10-nasa-roman-telescope-camera.md
+
+## A cable severed by construction crews disrupted hundreds of US flights / Перерезанный строителями кабель нарушил работу сотен рейсов по всей Америке
+rubric: tech · source: https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/11-cut-cable-flight-disruption.md
+
+## US withdrawal from aid programs is straining healthcare across Africa, report warns / Уход США из программ помощи бьёт по здравоохранению Африки, предупреждает доклад
+rubric: world · source: https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/12-africa-healthcare-aid-withdrawal.md
+
+## Scientists found a surprisingly simple way to turn plastic waste into gasoline and diesel / Учёные нашли простой способ превращать пластиковый мусор в бензин и дизель
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260920222405.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-22/13-plastic-waste-to-fuel.md
