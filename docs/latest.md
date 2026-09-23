@@ -27,3 +27,23 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Rabbit, maker of the underwhelming R1 gadget, ships an AI agent without the gadget / Rabbit, создатель провального гаджета R1, выпускает ИИ-агента без самого гаджета
 rubric: tech · source: https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-23/07-rabbit-ai-agent-os3.md
+
+## The EU drops sanctions on Russian oligarchs Usmanov and Fridman / ЕС снял санкции с российских олигархов Усманова и Фридмана
+rubric: world · source: https://www.dw.com/en/eu-drops-sanctions-for-russian-oligarchs-usmanov-and-fridman/a-79381048?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-23/08-eu-drops-russian-oligarch-sanctions.md
+
+## The UK borrowed £18.3bn in August, piling pressure on before the budget / Британия заняла £18,3 млрд в августе — рекордная нагрузка перед бюджетом
+rubric: economy · source: https://www.theguardian.com/business/2026/sep/22/uk-government-borrowing-john-healey-budget-bond-markets
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-23/09-uk-august-borrowing.md
+
+## A Yellowstone super-eruption wouldn't come out of nowhere — scientists describe what the warning looks like / Извержение супервулкана Йеллоустоун не станет неожиданностью — учёные описали, как оно будет выглядеть
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260922005655.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-23/10-yellowstone-supervolcano-warning-signs.md
+
+## An amateur with a metal detector found Germany's largest Roman coin hoard / Любитель с металлоискателем нашёл крупнейший клад римских монет в истории Германии
+rubric: culture · source: https://www.dw.com/en/amateur-archeologist-unearths-germany-s-largest-trove-of-roman-coins/a-79379127?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-23/11-germany-roman-coin-hoard.md
+
+## A Saudi startup unveiled an Exobot EV that makes the Cybertruck look normal / Саудовский стартап показал электромобиль Exobot страннее киберпикапа Tesla
+rubric: tech · source: https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-23/12-saudi-exobot-evs.md
