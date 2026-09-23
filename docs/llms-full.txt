@@ -2,6 +2,234 @@
 
 
 
+===== EDITION 21 — 2026-09-23 =====
+
+## От редакции
+
+Технологический мир в среду живёт в ритме гонки вооружений: за два дня подряд вышли Grok 4.7, MiMo v2.6, Claude Opus 5.5 и сразу два GPT-6 — Sol и Luna, — и это заметно больше похоже на ценовую войну, чем на редкие прорывы. Тем временем Guardian публикует крупное расследование о депортационных сделках США с десятками стран, а свежие данные показывают: Евросоюз тратит на китайский импорт втрое больше, чем Китай — на европейский. Разбавляем это наукой о «прыгающих генах» в нашем геноме и книжной рецензией на неожиданную защиту солнечного света.
+
+## Editorial
+
+The AI world spent the past two days in an arms race: Grok 4.7, MiMo v2.6, Claude Opus 5.5, and two GPT-6 models — Sol and Luna — all landed back to back, looking a lot more like a price war than a run of rare breakthroughs. Meanwhile the Guardian has published a major investigation into US deportation deals with dozens of countries, and fresh trade data shows the EU spending three times more on Chinese imports than China spends on European goods. We balance that with science on the "jumping genes" inside our genome and a book review making an unlikely case for sunlight.
+
+
+----- 01-ai-model-price-war (ai) — source: https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/ -----
+
+## Русская версия
+
+За два дня подряд рынок больших языковых моделей получил сразу пять релизов. Как отмечает разработчик и блогер Саймон Уиллисон в [своей заметке](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/), накануне вышли Grok 4.7 и MiMo v2.6 (Flash и Pro), а на следующий день Anthropic выпустила Claude Opus 5.5, и буквально через час после этого OpenAI представила сразу две модели — GPT-6 Sol и GPT-6 Luna.
+
+Сам Уиллисон честно признаёт: чтобы понять, чем эти модели реально отличаются друг от друга, потребуется время — тестировать пять моделей одновременно сложно физически. Но сама плотность релизов говорит сама за себя. OpenAI в [собственном анонсе](https://openai.com/index/introducing-gpt-6-sol-and-luna) описывает Sol и Luna как модели, которые «приносят интеллект уровня фронтира в повседневную работу с разным балансом возможностей и стоимости» — то есть речь не о рывке в качестве, а о линейке под разные бюджеты.
+
+Показательна и вторая деталь: одновременно с новыми моделями OpenAI выкатила обновлённое [кэширование промптов для GPT-6](https://openai.com/index/better-prompt-caching-for-gpt-6) — с более высоким процентом попаданий в кэш, новой диагностикой и явными точками разбивки запроса. Такие вещи запускают не ради красивых бенчмарков, а ради снижения задержки и, главное, стоимости обращения к модели для разработчиков. Это ровно то, что происходит, когда несколько лабораторий конкурируют не за звание «самой умной модели», а за то, кто дешевле и быстрее обслужит один и тот же класс задач.
+
+Пока рано делать выводы о том, какая из пяти моделей окажется лучше в конкретных задачах — независимых тестов на равных условиях ещё не было. Но сам факт, что пять крупных лабораторий выпустили обновления практически одновременно, — уже сигнал: рынок ИИ-моделей вошёл в фазу, где скорость релизов и цена становятся не менее важным оружием, чем сырые возможности.
+
+### Почему это важно
+
+Когда пять моделей выходят за 48 часов, а одна из компаний в тот же день чинит систему кэширования ради экономии, это признак насыщающегося рынка: differentiation по чистому качеству исчерпывается, и конкуренция смещается в сторону цены и удобства использования — то есть в сторону обычного, довольно скучного рынка облачных сервисов.
+
+## English version
+
+The large language model market got five releases in two days. As developer and blogger Simon Willison notes [in his post](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/), Grok 4.7 and MiMo v2.6 (Flash and Pro) landed the day before, and the next day Anthropic shipped Claude Opus 5.5 — followed about an hour later by OpenAI releasing two models at once, GPT-6 Sol and GPT-6 Luna.
+
+Willison is upfront that it will take a while to get a real read on how these models differ — testing five models at once is simply a lot of work. But the sheer density of releases says something on its own. In [its own announcement](https://openai.com/index/introducing-gpt-6-sol-and-luna), OpenAI describes Sol and Luna as models that "bring frontier intelligence to everyday work with different balances of capability and cost" — language that points to a product lineup for different budgets, not a single leap in quality.
+
+A second detail is telling too: alongside the new models, OpenAI also rolled out improved [prompt caching for GPT-6](https://openai.com/index/better-prompt-caching-for-gpt-6), with higher cache hit rates, new diagnostics, and explicit cache breakpoints. Labs don't ship that kind of infrastructure work for flashy benchmarks — they ship it to cut latency and, more importantly, the cost developers pay per call. That's exactly what happens when several labs stop competing purely on "smartest model" and start competing on who serves the same class of task cheaper and faster.
+
+It's too early to say which of the five models actually wins on real tasks — no independent, apples-to-apples benchmarks exist yet. But the fact that five major labs shipped updates within roughly two days is itself a signal: the AI model market has entered a phase where release speed and price are becoming weapons just as important as raw capability.
+
+### Why it matters
+
+When five models ship inside 48 hours, and one of the companies spends that same day patching its caching system to save money, that's a sign of a maturing market: pure quality differentiation is running out, and competition is shifting toward price and convenience — in other words, toward an ordinary, fairly boring cloud-services market.
+
+
+----- 02-trump-deportation-deals (world) — source: https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals -----
+
+## Русская версия
+
+[The Guardian](https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals) опубликовала масштабное расследование о том, как администрация Трампа депортирует людей из США не на родину, а в третьи страны — по тайным договорённостям, заключённым с десятками государств по всему миру. В центре материала — история иранской женщины: после перелёта в шаклях она оказалась в стране в центре Африки, о существовании которой прежде даже не знала.
+
+По данным издания, таких людей — тысячи. Их не возвращают домой, а перенаправляют по сложной сети соглашений, о содержании которых почти ничего не известно публично: это не депортация в привычном смысле «выслали туда, откуда приехал», а фактически передача человека в страну, с которой у него нет никакой связи — ни языковой, ни культурной, ни правовой.
+
+Схема примечательна тем, что она размывает саму идею депортации как возврата человека туда, откуда он приехал. Когда страна назначения выбирается не по признаку гражданства или происхождения, а по тому, какое государство согласилось принять высылаемых в обмен на дипломатические или финансовые уступки, депортация превращается в инструмент внешней политики, а не миграционного контроля.
+
+Это расследование стоит в одном ряду с другими материалами последних недель о судьбе депортированных: ранее Guardian уже сообщал об избиениях и жестоком обращении с депортированными в отеле в Экваториальной Гвинее. Общая картина, которую складывают эти истории, — это не единичные сбои системы, а системный подход, при котором конечная точка маршрута депортированного зависит не от него самого, а от того, какую страну удалось уговорить.
+
+### Почему это важно
+
+Когда депортация перестаёт быть возвратом на родину и становится передачей человека в произвольную третью страну по секретному соглашению, это меняет саму природу процесса: из юридической процедуры она превращается в инструмент, последствия которого — для конкретных людей — государство, инициировавшее депортацию, перестаёт контролировать и, судя по всему, не считает нужным контролировать.
+
+## English version
+
+[The Guardian](https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals) has published a major investigation into how the Trump administration is deporting people from the US not back to their home countries, but to third countries — under secret deals struck with dozens of governments worldwide. At the center of the story is an Iranian woman who, after a flight in shackles, found herself in a country in the middle of Africa she didn't even know existed.
+
+According to the paper, thousands of people have gone through this. They aren't sent home; they're routed through a complex web of agreements whose terms are almost entirely undisclosed to the public — this isn't deportation in the ordinary sense of "sent back to where you came from," but effectively the transfer of a person to a country with which they have no connection at all: no language, no culture, no legal standing.
+
+What makes the arrangement notable is how it erodes the very idea of deportation as a return to one's country of origin. When the destination is chosen not by citizenship or origin but by which government has agreed to take deportees in exchange for diplomatic or financial concessions, deportation turns into a tool of foreign policy rather than migration control.
+
+This investigation sits alongside other recent reporting on deportees' fate: the Guardian previously reported on beatings and mistreatment of deportees held at a hotel in Equatorial Guinea. The picture these stories build together isn't one of isolated system failures — it's a systematic approach where a deportee's final destination has nothing to do with them and everything to do with which country could be persuaded to take them.
+
+### Why it matters
+
+When deportation stops being a return home and becomes the transfer of a person to an arbitrary third country under a secret deal, it changes the nature of the process itself: from a legal procedure into a tool whose consequences for the individuals involved the initiating government appears to neither control nor feel obligated to.
+
+
+----- 03-eu-china-trade-deficit (economy) — source: https://www.theguardian.com/business/2026/sep/22/eu-imports-china-exports-trade-deficit-xi-jinping-donald-trump -----
+
+## Русская версия
+
+Потребители и бизнес в Евросоюзе тратят на китайский импорт втрое больше, чем их китайские коллеги — на товары из ЕС, показывает новое исследование, на которое ссылается [The Guardian](https://www.theguardian.com/business/2026/sep/22/eu-imports-china-exports-trade-deficit-xi-jinping-donald-trump). В июле торговый дефицит блока с Китаем превышал €1 млрд в день — то есть более 30 млрд евро за месяц уходило из Европы в Китай без соразмерного встречного потока.
+
+Публикация исследования не случайна по времени: она вышла за несколько дней до саммита Си Цзиньпина и Дональда Трампа. Дисбаланс такого масштаба — это не статистическая аномалия отдельного месяца, а, судя по формулировке исследования, устойчивая черта торговых отношений блока с Китаем.
+
+Три к одному — это соотношение, которое трудно объяснить одними лишь курсами валют или логистикой. Оно означает, что структура экономик двух блоков принципиально разная: Китай остаётся куда более закрытым рынком для иностранных товаров, чем Евросоюз — для китайских. Для европейских политиков это давно является предметом раздражения, но именно сейчас цифра приобретает дополнительный вес — на фоне переговоров, где Трамп исторически использовал торговые дисбалансы как рычаг давления.
+
+Само по себе исследование не предлагает решения — оно фиксирует масштаб проблемы накануне ключевой дипломатической встречи. Но масштаб этот заметный: если ежедневный темп в €1 млрд сохраняется не только в июле, за год набегает сумма на порядки больше того, что обычно фигурирует в публичных спорах о торговом балансе ЕС и Китая.
+
+### Почему это важно
+
+Торговый дисбаланс в €1 млрд ежедневно — это не абстрактная цифра из отчёта, а реальный поток капитала, покидающий Европу быстрее, чем он возвращается. Публикация этих данных накануне встречи Си и Трампа усиливает переговорные позиции тех, кто настаивает на пересмотре торговых условий ЕС с Китаем.
+
+## English version
+
+Consumers and businesses in the EU are spending three times more on Chinese imports than their Chinese counterparts spend on goods from the bloc, a new study cited by [The Guardian](https://www.theguardian.com/business/2026/sep/22/eu-imports-china-exports-trade-deficit-xi-jinping-donald-trump) shows. In July, the bloc's trade deficit with China ran at more than €1bn a day — over €30bn in a single month flowing out of Europe into China with no comparable return flow.
+
+The timing of the study isn't accidental: it landed just days before the summit between Xi Jinping and Donald Trump. An imbalance of this scale isn't a one-month statistical quirk — by the study's own framing, it's a persistent feature of the bloc's trade relationship with China.
+
+A three-to-one ratio is hard to explain away with exchange rates or logistics alone. It signals that the two economies are structured fundamentally differently: China remains a far more closed market to foreign goods than the EU is to Chinese ones. European policymakers have long found this irritating, but the figure carries extra weight right now, against the backdrop of talks where Trump has historically used trade imbalances as leverage.
+
+The study itself doesn't offer a fix — it documents the scale of the problem ahead of a key diplomatic meeting. And the scale is substantial: if the roughly €1bn daily pace held beyond July, the annual total would run well past what usually comes up in public debates over the EU-China trade balance.
+
+### Why it matters
+
+A €1bn-a-day trade imbalance isn't an abstract line in a report — it's real capital leaving Europe faster than it comes back. Publishing this data just before the Xi-Trump meeting strengthens the hand of those pushing to renegotiate the EU's trade terms with China.
+
+
+----- 04-jumping-genes-evolution (science) — source: https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/ -----
+
+## Русская версия
+
+Около половины человеческого генома состоит из транспозонов — фрагментов ДНК, способных копировать себя и перемещаться в другие участки генома, пишет [Quanta Magazine](https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/). Долгое время их называли «генетическим мусором» или молекулярными паразитами, доставшимися нам от древних вирусных инфекций. Новые данные говорят об обратном: транспозоны — не балласт, а активные участники эволюционного процесса.
+
+Сама механика транспозонов пугающе похожа на вирусную: эти последовательности умеют встраивать собственные копии в новые места генома, буквально «прыгая» по хромосомам. Именно за это сходство их когда-то и списали в разряд угроз — неконтролируемое копирование ДНК действительно может ломать гены и вызывать мутации. Но у эволюции было очень много времени, чтобы приручить этот механизм: вместо того чтобы полностью подавить транспозоны, геном научился использовать их подвижность в собственных интересах.
+
+Quanta Magazine формулирует это без экивоков: транспозоны — «больше, чем паразиты или генетический мусор». Иными словами, речь не о косметическом уточнении старой теории, а о пересмотре самой роли, которую эти элементы играют в геноме, — от пассивного балласта к чему-то, что эволюция, судя по всему, научилась использовать в своих интересах.
+
+Половина генома, состоящая из транспозонов, — цифра, которая сама по себе меняет интуитивное представление о том, что такое «наша» ДНК. Если половина генетического материала исторически имеет вирусоподобное происхождение, граница между «своим» геномом и «чужеродным» генетическим материалом оказывается гораздо более размытой, чем кажется на бытовом уровне.
+
+### Почему это важно
+
+Признание того, что вирусоподобные транспозоны — не мусор, а нечто более сложное и, вероятно, полезное для эволюции, меняет саму рамку, в которой биологи говорят о «мусорной ДНК»: то, что десятилетиями списывали в балласт, оказывается частью работающего механизма.
+
+## English version
+
+Roughly half of the human genome is made up of transposons — DNA snippets capable of copying themselves and moving to other spots in the genome, [Quanta Magazine reports](https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/). For a long time they were dismissed as "genetic junk" or molecular parasites left behind by ancient viral infections. New findings suggest the opposite: transposons aren't dead weight, they're active participants in evolution.
+
+The mechanics of transposons are unsettlingly virus-like: these sequences can insert copies of themselves into new locations across the genome, effectively "jumping" between chromosomes. That resemblance is exactly why they were once filed under threats — uncontrolled DNA copying really can break genes and cause mutations. But evolution has had plenty of time to tame the mechanism: rather than fully suppressing transposons, the genome learned to put their mobility to work.
+
+Quanta Magazine puts it plainly: transposons are "more than parasites or genetic junk." In other words, this isn't a minor footnote to the old theory — it's a rethinking of the role these elements actually play in the genome, from passive ballast to something evolution appears to have learned to put to use.
+
+Half our genome being transposons is a figure that on its own reshapes the intuitive idea of what "our" DNA even is. If half of our genetic material has a virus-like origin historically, the line between "native" genome and "foreign" genetic material turns out to be far blurrier than it seems at a glance.
+
+### Why it matters
+
+Recognizing that virus-like transposons aren't junk but something more complex, and probably useful to evolution, changes the whole frame biologists use for "junk DNA": what got written off as ballast for decades turns out to be part of a working mechanism.
+
+
+----- 05-in-defense-of-sunlight-review (culture) — source: https://undark.org/2026/08/28/book-review-in-defense-of-sunlight/ -----
+
+## Русская версия
+
+Дерматологические рекомендации десятилетиями твердят одно и то же: солнечный свет — канцероген, от которого нужно защищаться кремами, шляпами и тенью. Писатель Роуан Джейкобсен в книге «In Defense of Sunlight» («В защиту солнечного света») оспаривает этот консенсус, утверждая, что солнце помогает коже производить множество соединений, жизненно важных для здоровья, пишет [Undark](https://undark.org/2026/08/28/book-review-in-defense-of-sunlight/) в рецензии на книгу.
+
+Ключевой вопрос, который ставит книга: как наука вообще могла упустить пользу солнечного света, если она годами изучала именно его вред? У Джейкобсена, по данным рецензии, есть на это собственный ответ — и именно вокруг него строится аргументация книги.
+
+Это не первая книга, оспаривающая устоявшуюся медицинскую позицию, и суть подобных споров редко сводится к «наука была неправа». Скорее речь о том, что любая рекомендация типа «избегайте X» упрощает реальность ради удобства применения на практике — и такое упрощение почти неизбежно теряет часть картины. Вопрос, который стоит перед читателем такой книги, не «прав автор или нет», а «какую часть риска мы готовы принять на себя ради каких преимуществ» — а это уже вопрос не биологии, а личного выбора, основанного на понимании обеих сторон.
+
+Рецензия Undark, как это принято в разделе книжных обзоров издания, не пересказывает книгу целиком, а скорее очерчивает её главный тезис и то, почему он заслуживает внимания даже тех, кто не готов сразу отказаться от солнцезащитного крема.
+
+### Почему это важно
+
+Спор о солнечном свете — частный случай куда более общей проблемы: официальные рекомендации по здоровью почти всегда строятся вокруг измеримого и легко доказуемого риска, оставляя менее очевидные, но не менее реальные эффекты за скобками. Книга Джейкобсена интересна не тем, что она права или неправа, а тем, что напоминает: консенсус — это не то же самое, что полная картина.
+
+## English version
+
+Dermatological guidelines have said the same thing for decades: sunlight is a carcinogen, something to be blocked with sunscreen, hats and shade. Writer Rowan Jacobsen challenges that consensus in "In Defense of Sunlight," arguing that the sun helps our skin produce many compounds vital to our health, according to [Undark's review](https://undark.org/2026/08/28/book-review-in-defense-of-sunlight/) of the book.
+
+The central question the book poses: how did science manage to miss sunlight's benefits when it has spent years studying its harms? Jacobsen, per the review, has his own answer to that — and it's the argument the rest of the book builds on.
+
+This isn't the first book to push back against an established medical position, and the point of such arguments rarely boils down to "science was wrong." It's more that any recommendation along the lines of "avoid X" simplifies reality for the sake of practical application — and that simplification almost inevitably loses part of the picture. The question facing a reader of such a book isn't "is the author right or wrong," but "how much risk am I willing to accept for which benefits" — which is a question of personal choice informed by both sides, not one of pure biology.
+
+Undark's review, as is typical of the outlet's book coverage, doesn't retell the whole book — it outlines the central argument and why it's worth taking seriously even for readers who aren't ready to give up sunscreen just yet.
+
+### Why it matters
+
+The sunlight debate is a specific case of a much broader problem: official health guidance is almost always built around measurable, easily provable risk, leaving less obvious but no less real effects out of the picture. Jacobsen's book matters not because it's right or wrong, but because it's a reminder that consensus isn't the same thing as the full picture.
+
+
+----- 06-trump-greenland-security-deal (world) — source: https://www.dw.com/en/trump-signs-tremendous-greenland-security-deal/a-79381148?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Дональд Трамп заключил соглашение о безопасности с Гренландией и Данией на полях сессии Генеральной Ассамблеи ООН, сообщает [DW](https://www.dw.com/en/trump-signs-tremendous-greenland-security-deal/a-79381148?maca=en-rss-en-all-1573-rdf). Сам Трамп охарактеризовал сделку словом «феноменальная» («tremendous»). Соглашение стало логичным продолжением истории, которая тянется уже давно: президент США неоднократно заявлял, что Штатам следовало бы владеть Арктическим островом напрямую.
+
+Само по себе появление формального документа о безопасности — уже сдвиг риторики: от разговоров о покупке или присоединении острова стороны перешли к оформлению военно-политического сотрудничества с Данией и Гренландией. То, что ещё недавно звучало как провокационное заявление о желании владеть чужой территорией, оформилось в подписанный документ — а это принципиально другой статус разговора.
+
+DW не приводит деталей содержания соглашения, ограничиваясь фактом подписания и цитатой Трампа. Но сама траектория — от публичных заявлений о покупке острова к формальному документу о безопасности — показывает, что интерес администрации к Гренландии не ослаб, а лишь сменил форму.
+
+Хватит ли одного соглашения, чтобы закрыть тему, или это лишь очередной эпизод в затянувшемся споре об острове, покажет время.
+
+### Почему это важно
+
+Переход от разговоров о покупке целой территории к подписанному соглашению о безопасности показывает, что даже самые провокационные заявления Трампа об Арктике имеют шанс материализоваться в реальные договорённости — просто в более традиционной, дипломатически приемлемой форме военного партнёрства, а не аннексии.
+
+## English version
+
+Donald Trump signed a security deal with Greenland and Denmark on the sidelines of the UN General Assembly session, [DW reports](https://www.dw.com/en/trump-signs-tremendous-greenland-security-deal/a-79381148?maca=en-rss-en-all-1573-rdf). Trump himself called the agreement "tremendous." The deal is a logical continuation of a story that's been unfolding for a while: the US president has repeatedly said Washington should own the Arctic island outright.
+
+The very existence of a formal security document marks a rhetorical shift: from talk of buying or annexing the island, the two sides have moved to formalizing a military-political partnership with Denmark and Greenland. What recently sounded like a provocative claim to owning someone else's territory has turned into a signed document — and that's a fundamentally different kind of statement.
+
+DW doesn't detail the content of the agreement, sticking to the fact of the signing and Trump's quote. But the trajectory itself — from public statements about buying the island to a formal security document — suggests the administration's interest in Greenland hasn't cooled, it's just changed shape.
+
+Whether one agreement settles the matter, or this is just another chapter in a long-running dispute over the island, remains to be seen.
+
+### Why it matters
+
+The move from talk of buying an entire territory to a signed security agreement shows that even Trump's most provocative statements about the Arctic have a real chance of turning into actual arrangements — just in a more conventional, diplomatically acceptable form of a military partnership rather than annexation.
+
+
+----- 07-rabbit-ai-agent-os3 (tech) — source: https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3 -----
+
+## Русская версия
+
+Rabbit — компания, стоящая за не оправдавшим ожиданий гаджетом R1, — выпускает самостоятельного ИИ-агента, для использования которого больше не нужно собственное «железо» компании, пишет [The Verge](https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3) со ссылкой на более раннюю публикацию Wired. Новый продукт называется OS3 — «агентная операционная система», которая, по описанию стартапа, работает в облаке, но выполняет действия локально на разных платформах, включая Windows и Mac.
+
+Сама формулировка Rabbit — «работает в облаке, но действует локально» — описывает архитектуру, ставшую типичной для нового поколения ИИ-агентов: тяжёлые вычисления и рассуждения происходят на серверах компании, а непосредственные действия — клики, ввод текста, управление приложениями — выполняются на устройстве пользователя. Это позволяет агенту работать с обычными программами так, как если бы за компьютером сидел человек, вместо того чтобы требовать отдельных интеграций с каждым сервисом.
+
+Показательна сама предыстория этого решения. The Verge прямо называет R1 «не оправдавшим ожиданий» — устройство успело закрепить за собой репутацию продукта, который не выполнил обещанного. Решение Rabbit отвязать своего ИИ-агента от собственного устройства и предложить его как программный продукт для существующих компьютеров можно прочитать как признание: ценность оказалась не в физическом гаджете, а в самом программном агенте.
+
+Для рынка ИИ-агентов это ещё один пример более широкой тенденции: параллельно с крупными лабораториями, которые встраивают агентные возможности в свои основные продукты, специализированные стартапы пытаются занять нишу отдельного, кросс-платформенного агента, не привязанного к конкретному чат-боту или операционной системе.
+
+### Почему это важно
+
+История Rabbit — наглядный пример того, как стартап, сделавший ставку на эффектное железо, в итоге возвращается к тому, что действительно оказалось рабочим активом — программному агенту. Это говорит о том, что в текущем цикле ИИ-продуктов ценность концентрируется не в форм-факторе устройства, а в самой способности агента выполнять задачи на существующей технике пользователя.
+
+## English version
+
+Rabbit — the company behind the underwhelming R1 gadget — is shipping a standalone AI agent that no longer requires the company's own hardware, [The Verge reports](https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3), citing an earlier report from Wired. The new product is called OS3, an "agentic operating system" that, per the startup, runs in the cloud but carries out actions locally across platforms, including Windows and Mac.
+
+Rabbit's own phrasing — "runs in the cloud but operates locally" — describes an architecture that has become typical for the current generation of AI agents: the heavy computation and reasoning happen on the company's servers, while the actual actions — clicks, text input, controlling applications — run on the user's own device. That lets the agent work with ordinary software as if a person were sitting at the keyboard, instead of requiring separate integrations with every service.
+
+The backstory here is telling. The Verge itself describes the R1 as "underwhelming" — the device earned a reputation as a product that didn't deliver on its promised functionality. Rabbit's decision to decouple its AI agent from its own hardware and offer it as software for existing computers reads like an admission: the value was never in the physical gadget — it was in the software agent itself.
+
+For the AI agent market, this is another example of a broader trend: alongside major labs building agentic capabilities directly into their flagship products, specialized startups are trying to carve out a niche as a standalone, cross-platform agent that isn't tied to any one chatbot or operating system.
+
+### Why it matters
+
+Rabbit's story is a clear example of a startup that bet on flashy hardware eventually circling back to what actually turned out to be the working asset — the software agent. It suggests that in the current AI product cycle, value concentrates not in a device's form factor but in the agent's ability to get things done on hardware the user already owns.
+
+
 ===== EDITION 20 — 2026-09-22 =====
 
 ## От редакции
