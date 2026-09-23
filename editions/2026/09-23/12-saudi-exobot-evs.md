@@ -1,7 +1,7 @@
 ---
 date: 2026-09-23
 rubric: tech
-title_ru: Саудовский стартап показал электромобиль Exobot страннее киберграка
+title_ru: Саудовский стартап показал электромобиль Exobot страннее киберпикапа Tesla
 title_en: A Saudi startup unveiled an Exobot EV that makes the Cybertruck look normal
 dek_ru: Ceer, саудовский автопроизводитель, работающий с Foxconn, вышел на рынок EV из страны, которая ассоциируется с нефтью, а не автопромом.
 dek_en: Ceer, a Saudi automaker working with Foxconn, is entering the EV market from a country known for oil, not car manufacturing.
