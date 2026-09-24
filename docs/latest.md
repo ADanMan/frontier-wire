@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Thai students turn the theatre stage into their new protest ground / Тайские студенты превратили театральную сцену в новую площадку протеста
 rubric: culture · source: https://globalvoices.org/2026/09/23/thai-student-movement-forms-hope-theatre-making-the-stage-its-new-battleground/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/07-thai-hope-theatre.md
+
+## Harvey Weinstein resentenced to 15 years for sexual assault / Харви Вайнштейна повторно приговорили к 15 годам за сексуальное насилие
+rubric: world · source: https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/08-weinstein-resentenced.md
+
+## An open-source project gives VMs a "real" Nvidia GPU, not an emulated one / Опенсорсный проект дал виртуальным машинам «настоящую» видеокарту Nvidia
+rubric: tech · source: https://github.com/nestrilabs/virtio-nvgpu
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/09-virtio-nvgpu.md
+
+## Three top international bodies just warned, together, about a debt crunch / Три крупнейшие международные организации разом предупредили о риске долгового кризиса
+rubric: economy · source: https://www.theguardian.com/business/2026/sep/23/oecd-global-economy-resilient-iran-war
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/10-oecd-imf-debt-warning.md
+
+## Pskov's medieval religious art is being enlisted to justify the war in Ukraine / Средневековое искусство Пскова стало инструментом пропаганды войны в Украине
+rubric: culture · source: https://globalvoices.org/2026/09/23/pskovs-medieval-religious-art-is-being-appropriated-by-the-russian-state-to-support-the-invasion-of-ukraine/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/11-pskov-religious-art-propaganda.md
+
+## One of America's largest reservoirs just hit a record low / Одно из крупнейших водохранилищ США упало до рекордно низкого уровня
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260922005701.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/12-lake-powell-record-low.md
+
+## Coffee doesn't have to keep you awake to disrupt your sleep / Кофе может портить сон, даже если вы засыпаете нормально
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260922005719.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-24/13-coffee-sleep-quality.md

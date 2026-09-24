@@ -226,6 +226,168 @@ Global Voices frames this as part of a broader trend of recent years: youth move
 When youth protest moves from slogans to a stage performance, that's not a softening of the demands — it's a change of instrument. The "Hope Theatre" story shows activists reaching for forms that a state finds harder to flatly label a political threat, while still carrying the same underlying critique of power.
 
 
+----- 08-weinstein-resentenced (world) — source: https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Бывшего голливудского продюсера Харви Вайнштейна повторно приговорили к 15 годам лишения свободы за сексуальное насилие, [сообщает Deutsche Welle](https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf). Суд признал его виновным в сексуальном насилии над бывшей ассистенткой по производству Мириам Хейли — именно с обвинений против Вайнштейна в 2017 году начался массовый общественный процесс #MeToo.
+
+На этом дело Вайнштейна не закрыто: его ждёт отдельное вынесение приговора по делу об изнасиловании в Калифорнии. То есть речь не о новом эпизоде, а о продолжении многолетнего судебного марафона, в котором первоначальные приговоры по нью-йоркским делам пересматривались, отменялись и назначались заново — и нынешние 15 лет как раз результат такого повторного рассмотрения.
+
+Символическое значение дела выходит далеко за пределы одного приговора. Вайнштейн — фигура, чьё падение в 2017 году стало триггером для волны публичных обвинений против влиятельных мужчин в кино, медиа и бизнесе по всему миру. Каждое новое процессуальное решение по его делу — будь то пересмотр приговора, апелляция или отдельный процесс — неизбежно становится проверкой того, насколько устойчивыми оказались институциональные последствия #MeToo спустя почти десятилетие: способна ли система довести до конца дело даже такого масштаба и веса, как это.
+
+### Почему это важно
+
+15 лет — это не финал истории, а очередная точка в деле, которое стало символом целой эпохи. Пока остаётся нерассмотренным калифорнийское дело об изнасиловании, вопрос о полной юридической ответственности Вайнштейна открыт — а вместе с ним остаётся открытым и вопрос о том, чему на самом деле научили #MeToo судебные и корпоративные системы.
+
+## English version
+
+Former Hollywood producer Harvey Weinstein has been resentenced to 15 years in prison for sexual assault, [Deutsche Welle reports](https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf). A court found him guilty of sexually assaulting former production assistant Miriam Haley — the same case that, back in 2017, set off the #MeToo movement.
+
+The case isn't closed. Weinstein still awaits a separate sentencing in a California rape case. This isn't a new allegation surfacing years later — it's the continuation of a long legal saga in which his original New York convictions were reviewed, partly overturned, and resentenced, with these 15 years the result of that renewed proceeding.
+
+The case's significance reaches well beyond a single sentence. Weinstein's 2017 downfall triggered a wave of public accusations against powerful men across film, media, and business worldwide. Every subsequent procedural step in his case — a resentencing, an appeal, a separate trial — inevitably becomes a test of how durable #MeToo's institutional consequences have actually proven, nearly a decade on: can the system still see a case of this scale through to the end.
+
+### Why it matters
+
+15 years isn't the end of the story — it's another point in a case that became a symbol of an entire era. With the California rape case still unresolved, the question of Weinstein's full legal accountability remains open — and so does the harder question of what #MeToo actually changed inside courts and corporations.
+
+
+----- 09-virtio-nvgpu (tech) — source: https://github.com/nestrilabs/virtio-nvgpu -----
+
+## Русская версия
+
+Компания Nestrilabs опубликовала в открытом доступе проект virtio-nvgpu — способ дать виртуальной машине под KVM практически полноценный доступ к видеокарте Nvidia, [говорится в описании репозитория на GitHub](https://github.com/nestrilabs/virtio-nvgpu). На RTX 3060 время рендеринга кадра в гостевой системе отличается от «голого железа» примерно на 2% — для решений с проброской GPU в виртуалки это близко к пределу возможного.
+
+Технически проект не транслирует графическое API, как делают многие альтернативы, а перехватывает и пересылает между гостем и хостом вызовы ioctl — то есть команды, которые обычно идут напрямую к драйверу ядра Nvidia. Драйвер в гостевой системе сериализует запросы через virtqueue, а компонент на хосте превращает дескрипторы гостя в дескрипторы хоста и занимается трансляцией указателей и файловых дескрипторов. Как формулируют это сами авторы: «гостевая система запускает настоящие пользовательские драйверы Nvidia без изменений — те же библиотеки, тот же Vulkan и NVENC».
+
+Отдельно авторы подчёркивают экономичность подхода по процессору: «гостевая система стоит ровно столько же, сколько стоил бы хост» — то есть накладные расходы на виртуализацию рендеринга практически не заметны. В тесте с четырьмя одновременными гостями, делящими одну карту, время отрисовки кадра (p50) у всех четырёх оказалось почти идентичным — 39,165, 39,164, 39,168 и 39,165 мс, что говорит о честном и предсказуемом распределении ресурсов GPU между виртуалками. Проект распространяется под разными лицензиями по компонентам: гостевой драйвер ядра — GPL-2.0, компонент устройства на хосте — Apache-2.0, общие протокольные описания — BSD-3-Clause или GPL-2.0+.
+
+### Почему это важно
+
+Для облачного гейминга, headless-стриминга и любых сценариев, где виртуалке нужен не эмулированный, а «настоящий» GPU, проброска на уровне ABI драйвера — принципиально другой уровень производительности по сравнению с трансляцией графических API. Открытая реализация с воспроизводимыми цифрами (а не маркетинговым «почти нативно») даёт инфраструктурным командам конкретный ориентир, чего вообще можно добиться от GPU-виртуализации сегодня.
+
+## English version
+
+Nestrilabs has open-sourced virtio-nvgpu, a way to give a KVM guest near-full access to an Nvidia GPU, [according to the project's GitHub repository](https://github.com/nestrilabs/virtio-nvgpu). On an RTX 3060, guest frame times come within about 2% of bare metal — close to the practical ceiling for GPU passthrough into virtual machines.
+
+Technically, the project doesn't translate a graphics API the way many alternatives do. Instead it intercepts and forwards ioctl calls — the commands that normally go straight to Nvidia's kernel driver — between guest and host. The guest kernel driver serializes requests over a virtqueue, while a host-side device component maps the guest's handles to host descriptors and translates pointers and file descriptors. As the authors put it: "the guest runs NVIDIA's real user-mode drivers, unmodified — the same libraries, the same Vulkan and NVENC."
+
+The authors also stress the CPU-side efficiency: "a guest costs what the host costs," meaning virtualization overhead for rendering is effectively negligible. In a test with four simultaneous guests sharing one GPU, p50 frame times across all four came out nearly identical — 39.165, 39.164, 39.168 and 39.165 ms — pointing to fair, predictable resource sharing rather than one guest starving the others. The project ships under a mix of licenses by component: GPL-2.0 for the guest kernel driver, Apache-2.0 for the host device crate, and BSD-3-Clause/GPL-2.0+ for the shared protocol definitions.
+
+### Why it matters
+
+For cloud gaming, headless streaming, and any setup where a VM needs a genuinely real GPU rather than an emulated one, ABI-level driver passthrough is a different performance tier from API translation. An open implementation with reproducible numbers — rather than marketing claims of "near-native" — gives infrastructure teams a concrete benchmark for what GPU virtualization can actually deliver today.
+
+
+----- 10-oecd-imf-debt-warning (economy) — source: https://www.theguardian.com/business/2026/sep/23/oecd-global-economy-resilient-iran-war -----
+
+## Русская версия
+
+Три влиятельные международные организации почти одновременно выпустили предупреждения о рисках роста госдолга и удорожания заимствований в крупных экономиках, [сообщает The Guardian](https://www.theguardian.com/business/2026/sep/23/oecd-global-economy-resilient-iran-war). Парижский Институт международных финансов (IIF) отдельно выделил проблемы США, Франции, Британии и Японии, а ОЭСР и МВФ со своей стороны озвучили похожие опасения на глобальном уровне.
+
+Показательно не столько содержание каждого отдельного предупреждения — о растущих госдолгах говорят регулярно, — сколько их одновременность. Когда три структуры с разной институциональной оптикой (отраслевая ассоциация банкиров в лице IIF, клуб развитых экономик в лице ОЭСР и глобальный кредитор последней инстанции в лице МВФ) выпускают предупреждения практически синхронно, это обычно означает, что рынки уже сами начали закладывать риск в цены — стоимость заимствований растёт быстрее, чем правительства успевают на это отреагировать.
+
+Список стран в предупреждении IIF показателен сам по себе: США, Франция, Британия и Японии — это не периферийные экономики со слабыми институтами, а страны, чей долг годами считался одним из самых надёжных активов в мире. Само появление их в подобном списке — сигнал о том, что дискуссия о «безопасном» суверенном долге смещается даже применительно к крупнейшим экономикам.
+
+### Почему это важно
+
+Когда МВФ, ОЭСР и IIF предупреждают об одном и том же почти в один день, это не рутинная сверка прогнозов, а сигнал того, что рост стоимости заимствований для крупных экономик перестаёт быть теоретическим риском и становится темой, с которой правительствам придётся считаться при вёрстке следующих бюджетов.
+
+## English version
+
+Three influential international bodies have issued warnings about rising government debt and borrowing costs in major economies within days of each other, [the Guardian reports](https://www.theguardian.com/business/2026/sep/23/oecd-global-economy-resilient-iran-war). The Paris-based Institute of International Finance (IIF) singled out the US, France, the UK and Japan, while the OECD and IMF voiced similar concerns at a global level.
+
+What stands out isn't the content of any one warning on its own — warnings about rising public debt are routine — but the fact that three organizations issued them almost simultaneously. When a bankers' trade body (the IIF), a club of developed economies (the OECD) and the world's lender of last resort (the IMF) flag the same risk within the same window, it usually means markets are already pricing that risk in faster than governments can respond to it.
+
+The list of countries in the IIF's warning is telling on its own: the US, France, the UK and Japan aren't peripheral economies with shaky institutions — they're countries whose debt has, for years, been treated as some of the safest assets in the world. Their appearance on a list like this is itself a sign that the conversation around "safe" sovereign debt is shifting even for the largest economies.
+
+### Why it matters
+
+When the IMF, the OECD and the IIF flag the same risk almost on the same day, that's not routine forecast-checking — it's a sign that rising borrowing costs for major economies are moving from a theoretical risk to something governments will have to reckon with in their next budgets.
+
+
+----- 11-pskov-religious-art-propaganda (culture) — source: https://globalvoices.org/2026/09/23/pskovs-medieval-religious-art-is-being-appropriated-by-the-russian-state-to-support-the-invasion-of-ukraine/ -----
+
+## Русская версия
+
+Власти России используют традиционное средневековое религиозное искусство Пскова — некогда независимой городской республики — для оправдания вторжения в Украину, [сообщает Global Voices](https://globalvoices.org/2026/09/23/pskovs-medieval-religious-art-is-being-appropriated-by-the-russian-state-to-support-the-invasion-of-ukraine/). Речь идёт о переприсвоении культурного наследия города, которое веками существовало отдельно от московской государственной традиции, а теперь встраивается в риторику, обслуживающую войну.
+
+Сам выбор Пскова показателен. Псковская республика — один из ярких примеров альтернативной, вечевой формы государственности в средневековой Руси, долгое время сохранявшей политическую и культурную самостоятельность от Москвы. Использование именно этого наследия — не случайных, а исторически «неудобных» для централизованной государственной мифологии символов — говорит о том, насколько широко российская пропаганда готова черпать материал: даже традиции автономии и городской независимости оказываются пересобраны в поддержку прямо противоположного — военной экспансии и имперской риторики.
+
+Это часть более широкого паттерна, который Global Voices фиксирует и в других материалах: культурное и религиозное наследие — иконы, храмовая архитектура, средневековые тексты — становится ресурсом для легитимации современной государственной политики задним числом, через апелляцию к «исторической преемственности» и «духовным скрепам». Проблема в том, что подобное присвоение обычно требует избирательного прочтения истории, вырывающего artefacts и традиции из их изначального контекста.
+
+### Почему это важно
+
+Когда государство обращается к искусству и религиозному наследию для оправдания войны, это редко про само искусство — это про попытку придать спорному политическому решению видимость исторической неизбежности. История Пскова показывает, что для такой цели годится даже наследие, изначально связанное с автономией и сопротивлением централизованной власти — было бы желание его переписать.
+
+## English version
+
+Russian authorities are drawing on the traditional medieval religious art of Pskov — once an independent city-state — to help justify the invasion of Ukraine, [Global Voices reports](https://globalvoices.org/2026/09/23/pskovs-medieval-religious-art-is-being-appropriated-by-the-russian-state-to-support-the-invasion-of-ukraine/). This is a re-appropriation of a heritage that, for centuries, existed apart from Moscow's own state tradition — now folded into rhetoric that serves the war.
+
+The choice of Pskov itself is telling. The Pskov Republic is one of medieval Rus's clearest examples of an alternative, assembly-based form of statehood, one that kept its political and cultural independence from Moscow for a long time. Reaching for precisely this heritage — not a convenient symbol but a historically "inconvenient" one for a centralized state mythology — shows how widely Russian propaganda is willing to source its material: even traditions of autonomy and civic independence end up repurposed to support the exact opposite — military expansion and imperial rhetoric.
+
+It fits a broader pattern Global Voices has documented elsewhere: cultural and religious heritage — icons, church architecture, medieval texts — becoming a resource for retroactively legitimizing current state policy, through appeals to "historical continuity" and "spiritual bonds." The catch is that this kind of appropriation usually demands a selective reading of history, pulling artifacts and traditions out of their original context.
+
+### Why it matters
+
+When a state reaches for art and religious heritage to justify a war, it's rarely about the art itself — it's an attempt to dress up a contested political decision as historical inevitability. Pskov's case shows that even a heritage originally tied to autonomy and resistance to centralized power can be made to fit that purpose, given enough willingness to rewrite it.
+
+
+----- 12-lake-powell-record-low (science) — source: https://www.sciencedaily.com/releases/2026/09/260922005701.htm -----
+
+## Русская версия
+
+Озеро Пауэлл, одно из крупнейших искусственных водохранилищ США, упало до самого низкого уровня за всю историю наблюдений после необычно сухой и тёплой зимы, оставившей бассейн реки Колорадо почти без снега в горах, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260922005701.htm). Одновременно рекордный минимум обновило и озеро Мид — второе по значению водохранилище системы. Речь о реке, снабжающей водой и электроэнергией более 40 миллионов человек.
+
+Синхронное падение сразу двух ключевых водохранилищ — не изолированный эпизод, а симптом системной проблемы всего бассейна: снеговой покров в горах — это, по сути, естественное «водохранилище», которое постепенно тает весь тёплый сезон и подпитывает реку. Тёплая и сухая зима означает, что этого резерва почти не было изначально, и падение уровней озёр стало прямым следствием, а не результатом одномоментной аномалии.
+
+Пауэлл и Мид — не просто озёра для отдыха, это ключевые узлы всей водной и энергетической инфраструктуры американского Юго-Запада: на них завязаны питьевое водоснабжение городов, ирригация сельского хозяйства и гидрогенерация. Рекордно низкие уровни означают не только эстетические изменения береговой линии — это снижение доступного объёма воды и энергии именно тогда, когда спрос на оба ресурса в регионе продолжает расти.
+
+### Почему это важно
+
+Когда два крупнейших водохранилища бассейна Колорадо одновременно обновляют исторические минимумы, речь идёт не о локальной засухе, а о системном стрессе инфраструктуры, от которой зависят десятки миллионов человек — и это давление будет нарастать быстрее, чем успевают меняться правила распределения воды между штатами.
+
+## English version
+
+Lake Powell, one of the largest reservoirs in the United States, has fallen to its lowest level on record after an unusually dry and warm winter left the Colorado River basin with little mountain snow to melt, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260922005701.htm). Lake Mead, the system's other major reservoir, hit a record low at the same time. The river system in question supplies water and power to more than 40 million people.
+
+Two key reservoirs dropping to record lows simultaneously isn't an isolated event — it's a symptom of a system-wide problem across the whole basin. Mountain snowpack effectively functions as a natural reservoir, melting gradually through the warm season to feed the river. A warm, dry winter means that reserve was largely absent from the start, making the drop in reservoir levels a direct consequence rather than a one-off anomaly.
+
+Powell and Mead aren't just recreational lakes — they're core nodes in the water and energy infrastructure of the American Southwest, underpinning municipal drinking water, agricultural irrigation, and hydropower generation. Record-low levels don't just reshape the shoreline; they shrink the available volume of both water and electricity exactly as regional demand for both keeps climbing.
+
+### Why it matters
+
+When the Colorado basin's two largest reservoirs hit record lows at the same time, that's not a local drought story — it's systemic stress on infrastructure tens of millions of people depend on, and that pressure is building faster than the rules for splitting water between states are being rewritten.
+
+
+----- 13-coffee-sleep-quality (science) — source: https://www.sciencedaily.com/releases/2026/09/260922005719.htm -----
+
+## Русская версия
+
+Кофеин может делать сон менее восстановительным, даже если человек засыпает без проблем и проводит в постели все положенные восемь часов, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260922005719.htm) со ссылкой на новое исследование. Записи ЭЭГ показали, что после кофеина у испытуемых становится меньше медленных мозговых волн — именно тех, что связаны с глубоким, по-настоящему восстановительным сном.
+
+Это важное уточнение к привычному представлению о вреде кофе для сна. Обычно разговор сводится к тому, «успеете ли вы заснуть» — если человек засыпает быстро и не просыпается ночью, кофе как будто ни при чём. Но результат исследования говорит о другом: проблема не в том, наступает сон или нет, а в его архитектуре — в том, какую долю занимает именно глубокая фаза, отвечающая за физическое восстановление организма.
+
+Отдельно исследователи отмечают, что индивидуальная чувствительность к кофеину варьируется очень сильно: у одних людей даже чашка кофе, выпитая заметно раньше вечера, ощутимо снижает долю глубокого сна, у других такого эффекта почти не заметно. Это означает, что универсального безопасного «времени отсечки» для кофеина, судя по всему, не существует — оно у каждого своё, и субъективное ощущение «я нормально выспался» само по себе ненадёжный индикатор.
+
+### Почему это важно
+
+Если качество сна страдает даже тогда, когда человек засыпает вовремя и спит достаточно часов, привычный совет «просто не пейте кофе после обеда» перестаёт работать как универсальное правило. ЭЭГ-данные показывают, что оценивать влияние кофеина нужно не по субъективному ощущению бодрости с утра, а по фактической структуре сна — а это гораздо менее очевидная и куда более индивидуальная история.
+
+## English version
+
+Caffeine can make sleep less restorative even when someone falls asleep without trouble and stays in bed for a full eight hours, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260922005719.htm), citing a new study. EEG recordings showed fewer slow brain waves after caffeine intake — the specific signal associated with deep, genuinely restorative sleep.
+
+That's a meaningful correction to the usual framing of caffeine's effect on sleep. The conversation is normally about whether you'll manage to fall asleep at all — if someone drops off quickly and doesn't wake up during the night, coffee seems beside the point. But this finding points somewhere else: the issue isn't whether sleep happens, it's sleep architecture — specifically, how much of it is spent in the deep phase responsible for physical recovery.
+
+The researchers also note that individual sensitivity to caffeine varies dramatically. For some people, even a cup of coffee consumed well before evening measurably cuts into deep sleep; for others, the effect is barely noticeable. That suggests there's no universal safe cutoff time for caffeine — it differs person to person — and that feeling like you "slept fine" is, on its own, an unreliable indicator.
+
+### Why it matters
+
+If sleep quality suffers even when someone falls asleep on time and gets enough hours, the standard advice — "just don't drink coffee after lunch" — stops working as a one-size-fits-all rule. The EEG data suggests caffeine's real impact should be judged by actual sleep structure, not by how alert you feel in the morning — a much less obvious, far more individual story.
+
+
 ===== EDITION 21 — 2026-09-23 =====
 
 ## От редакции
