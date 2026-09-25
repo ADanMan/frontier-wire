@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №22 / Edition №22 — 2026-09-24** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №23 / Edition №23 — 2026-09-25** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Австралия обвинила ИИ-агента OpenAI во взломе портала Medicare](editions/2026/09-24/01-australia-openai-medicare-hack.md)
-- **[Технологии]** [Meta показала VR-очки без шлема и ИИ-гаджет без ремешка](editions/2026/09-24/02-meta-connect-hardware.md)
-- **[Экономика]** [Airtel Money готовит IPO на $9 млрд — крупнейший листинг в Лондоне за много лет](editions/2026/09-24/03-airtel-money-london-ipo.md)
-- **[Наука]** [NASA выбрало инфракрасный телескоп PRIMA первым в новом классе миссий](editions/2026/09-24/04-nasa-prima-telescope.md)
-- **[Мир]** [Одному из высших полицейских чинов ЮАР предъявлены обвинения в изнасиловании и груминге](editions/2026/09-24/05-south-africa-police-officer-charged.md)
-- **[Экономика]** [Германия объявила план по отказу от угля, нефти и газа к 2045 году](editions/2026/09-24/06-germany-fossil-fuel-phaseout.md)
-- **[Культура]** [Тайские студенты превратили театральную сцену в новую площадку протеста](editions/2026/09-24/07-thai-hope-theatre.md)
-- **[Мир]** [Харви Вайнштейна повторно приговорили к 15 годам за сексуальное насилие](editions/2026/09-24/08-weinstein-resentenced.md)
-- **[Технологии]** [Опенсорсный проект дал виртуальным машинам «настоящую» видеокарту Nvidia](editions/2026/09-24/09-virtio-nvgpu.md)
-- **[Экономика]** [Три крупнейшие международные организации разом предупредили о риске долгового кризиса](editions/2026/09-24/10-oecd-imf-debt-warning.md)
-- **[Культура]** [Средневековое искусство Пскова стало инструментом пропаганды войны в Украине](editions/2026/09-24/11-pskov-religious-art-propaganda.md)
-- **[Наука]** [Одно из крупнейших водохранилищ США упало до рекордно низкого уровня](editions/2026/09-24/12-lake-powell-record-low.md)
-- **[Наука]** [Кофе может портить сон, даже если вы засыпаете нормально](editions/2026/09-24/13-coffee-sleep-quality.md)
+- **[Мир]** [Эфиопия снова на грани войны с Тыграем](editions/2026/09-25/01-ethiopia-tigray-offensive.md)
+- **[Экономика]** [У Боливии заканчивается газ — и вместе с ним старая модель роста](editions/2026/09-25/02-bolivia-gas-runs-out.md)
+- **[Наука]** [Под ледяной коркой спутника Урана мог прятаться океан глубиной 160 километров](editions/2026/09-25/03-uranus-moon-ariel-ocean.md)
+- **[Мир]** [Эбола в Конго снова вышла из-под контроля — и теперь не хватает врачей](editions/2026/09-25/04-congo-ebola-out-of-control.md)
+- **[Наука]** [Почему диагнозов СДВГ и аутизма стало больше — датское исследование предлагает ответ](editions/2026/09-25/05-adhd-autism-danish-study.md)
+- **[Культура]** [Эпоха российских президентов ФИДЕ заканчивается — но не без вопросов](editions/2026/09-25/06-fide-chess-presidency-election.md)
+- **[ИИ]** [Google тихо выкатил open source рантайм для ИИ-агентов — и он уже в топ-5 трендов GitHub](editions/2026/09-25/07-google-ax-agentic-runtime.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

@@ -2,6 +2,234 @@
 
 
 
+===== EDITION 23 — 2026-09-25 =====
+
+## От редакции
+
+Пятница подбрасывает контрасты: пока в Эфиопии снова заговорили о гражданской войне, а в Конго ВОЗ признаёт, что вспышка Эболы вышла из-под контроля, боливийцы считают, чем заменить закончившийся газ, а учёные ищут океаны подо льдом спутников Урана. В шахматном мире выбирают нового президента ФИДЕ, а на GitHub взлетает открытый рантайм Google для ИИ-агентов — выпуск №23 старается уместить всё это, не скатываясь в одну тему.
+
+## Editorial
+
+Friday brings contrasts: as Ethiopia edges back toward talk of civil war and the WHO admits Congo's Ebola outbreak has slipped out of control, Bolivians are weighing what replaces gas that's running dry, and scientists go looking for oceans under the ice of Uranus's moons. Chess is picking a new FIDE president, and an open-source AI agent runtime from Google is climbing GitHub's charts — issue №23 tries to hold all of it without tipping into any one beat.
+
+
+----- 01-ethiopia-tigray-offensive (world) — source: https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army -----
+
+## Русская версия
+
+Эфиопия снова балансирует на грани большой войны. Боевики из Тыграя, [пишет The Guardian](https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army), вошли на территорию соседних регионов Афар и Амхара и объявили о создании новой коалиции, цель которой — свергнуть правительство премьер-министра Абия Ахмеда. Это резко усилило опасения, что страна возвращается к гражданской войне — той самой, что уже случилась в 2020–2022 годах и, по данным [DW](https://www.dw.com/en/ethiopia-s-military-says-it-killed-hundreds-of-tplf-rebels/a-79419173?maca=en-rss-en-all-1573-rdf), унесла жизни сотен тысяч мирных жителей.
+
+Эфиопская армия утверждает, что уже убила сотни бойцов Народного фронта освобождения Тыграя (НФОТ) — того самого движения, которое было главной стороной конфликта пять лет назад. Независимого подтверждения этой цифры в сегодняшних сообщениях нет, но сам факт, что военные заявляют о боях такого масштаба, говорит о том, что перемирие 2022 года трещит по швам.
+
+Деталь, которая меняет расклад, — это «новая коалиция». Прошлая война была прежде всего противостоянием центра и Тыграя; если теперь в дело втягиваются Афар и Амхара — хотя бы как территории, через которые проходит наступление, — риск в том, что конфликт снова перестаёт быть локальным. Для страны, уже пережившей один из самых кровопролитных конфликтов последних лет, это не абстрактная угроза, а повторение сценария, который все хотели бы забыть.
+
+Пока рано говорить о полномасштабном возврате к войне: у нас есть заявления обеих сторон, но нет независимой оценки потерь или карты боевых действий. Но скорость, с которой тема снова оказалась в заголовках — материал The Guardian и заявление эфиопской армии, добравшееся до DW, разделяет буквально день, — сама по себе показывает: регион снова близко к точке невозврата.
+
+### Почему это важно
+
+Эфиопия — один из ключевых игроков Африканского Рога и важный партнёр западных доноров в регионе, где и так хватает кризисов — от Судана до Сомали. Новый виток войны в Тыграе означал бы не только гуманитарную катастрофу — прошлая уже унесла сотни тысяч жизней, — но и удар по хрупкой стабильности всего региона.
+
+## English version
+
+Ethiopia is edging back toward the kind of war it spent years trying to leave behind. Fighters from Tigray have pushed into the neighboring regions of Afar and Amhara and announced a new coalition aimed at overthrowing Prime Minister Abiy Ahmed's government, [the Guardian reports](https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army). The move has sharply revived fears of a return to civil war — the same war that tore through the country from 2020 to 2022 and, according to [DW](https://www.dw.com/en/ethiopia-s-military-says-it-killed-hundreds-of-tplf-rebels/a-79419173?maca=en-rss-en-all-1573-rdf), left hundreds of thousands of civilians dead.
+
+Ethiopia's military says it has already killed hundreds of fighters from the Tigray People's Liberation Front (TPLF), the same movement that was the central party to the earlier conflict. There's no independent confirmation of that toll in today's reporting, but the fact that the army is describing fighting on this scale suggests the 2022 ceasefire is coming apart.
+
+The "new coalition" detail is what changes the picture. The last war was mostly a fight between the central government and Tigray; if Afar and Amhara are now drawn in — at minimum as territory the offensive is moving through — the risk is that this stops being a contained, regional flare-up. For a country that has already lived through one of the deadliest conflicts of recent years, that's not an abstract worry but a scenario everyone hoped was over.
+
+It's too early to call this a full relapse into war — what exists so far is competing claims from both sides, not an independent casualty count or a battlefield map. But the speed at which the story resurfaced — the Guardian's report and the army's claim reaching DW within roughly a day of each other — is itself a sign the region is close to a tipping point.
+
+### Why it matters
+
+Ethiopia is one of the key players on the Horn of Africa and an important partner for Western donors in a region already juggling crises from Sudan to Somalia. A fresh war in Tigray wouldn't just be a humanitarian catastrophe — the last one already killed hundreds of thousands — it would also strain the fragile stability of the whole region.
+
+
+----- 02-bolivia-gas-runs-out (economy) — source: https://www.theguardian.com/global-development/2026/sep/24/fossil-gas-runs-out-bolivia-poverty-inflation -----
+
+## Русская версия
+
+Когда-то Боливию называли «энергетическим сердцем Южной Америки» — так пишет [The Guardian в материале](https://www.theguardian.com/global-development/2026/sep/24/fossil-gas-runs-out-bolivia-poverty-inflation) о том, что происходит со страной сейчас, когда это сердце начинает останавливаться. С 2006 по 2014 год газовый бум держал на плаву всю боливийскую экономику: доходы от экспорта ископаемого газа вытащили миллионы людей из бедности. Сейчас этот бум закончился, а вместе с ним — и удобная модель роста, на которую страна опиралась почти десятилетие.
+
+Результат — растущая инфляция, о которой сегодня говорит уже не только оппозиция, а сама экономическая реальность. Газ, который раньше приносил стабильный поток валюты, иссякает, а замены пока нет: одни экономисты предлагают делать ставку на золото и сою как на новые экспортные товары, другие в этом сомневаются. Заголовок материала — прямая цитата из этой дискуссии: «нельзя просто ставить всё на экспорт».
+
+Это не абстрактный спор экономистов. Газовые деньги в Боливии не просто пополняли бюджет — они финансировали социальные программы, которые за десятилетие снизили бедность в стране заметнее, чем почти в любой другой части региона. Когда источник этих денег пересыхает, под вопросом оказывается не только курс боливиано, но и та часть общественного договора, которая держалась на нефтегазовой ренте.
+
+Спор о золоте и сое — это, по сути, спор о том, есть ли у Боливии план Б, или страна просто будет проедать резервы, пока не найдёт новый источник доходов. The Guardian формулирует вопрос жёстко: обречена ли Боливия повторить свою собственную историю — снова оказаться заложницей одного экспортного товара, только теперь другого.
+
+### Почему это важно
+
+История Боливии — учебный пример того, как ресурсный бум может и вытащить страну из бедности, и оставить её без плана, когда бум заканчивается. То, что происходит сейчас в Ла-Пасе, — это вопрос не только для боливийцев: то же самое сырьевое проклятие грозит любой развивающейся экономике, которая построила рост на одном экспортном товаре.
+
+## English version
+
+Bolivia used to be called the "energy heart of South America," [the Guardian writes](https://www.theguardian.com/global-development/2026/sep/24/fossil-gas-runs-out-bolivia-poverty-inflation) in a piece on what happens when that heart starts to fail. From 2006 to 2014, a fossil gas boom carried the entire Bolivian economy: export revenue from natural gas lifted millions of people out of poverty. That boom is now over, and so is the comfortable growth model the country leaned on for nearly a decade.
+
+The result is rising inflation — no longer just an opposition talking point but an economic fact on the ground. Gas, which used to bring in a steady stream of hard currency, is running out, and there's no clear replacement yet: some economists argue Bolivia should pivot to gold and soy as new export earners, others aren't convinced. The piece's own headline is a direct quote from that argument: "you can't just bet everything on exports."
+
+This isn't an abstract debate among economists. Gas money in Bolivia didn't just fill the budget — it funded the social programs that cut poverty more sharply than in almost any other part of the region over the past decade. When the source of that money dries up, what's at stake isn't just the exchange rate but the part of the social contract that was built on oil-and-gas rents.
+
+The fight over gold and soy is really a fight over whether Bolivia has a plan B, or whether the country will just burn through reserves until it stumbles into a new source of income. The Guardian frames the question bluntly: is Bolivia doomed to repeat its own history — hostage again to a single export commodity, just a different one this time.
+
+### Why it matters
+
+Bolivia is a textbook case of how a resource boom can both pull a country out of poverty and leave it without a plan once the boom ends. What's happening in La Paz right now isn't just a Bolivian story — the same resource curse threatens any developing economy that built its growth on a single export commodity.
+
+
+----- 03-uranus-moon-ariel-ocean (science) — source: https://www.sciencedaily.com/releases/2026/09/260923035951.htm -----
+
+## Русская версия
+
+Ариэль, один из спутников Урана, мог когда-то скрывать под растрескавшейся ледяной коркой подповерхностный океан глубиной больше 160 километров (100 миль), [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260923035951.htm). Само по себе это уже впечатляюще — но интереснее то, что похожие свидетельства нашлись и у Миранды, другого спутника Урана. А значит, речь может идти не об одном исключении, а о целой системе спрятанных океанов.
+
+Заголовок материала цитирует реакцию учёных на эту находку: «нам просто нужно вернуться». Фраза читается прямо: если у Ариэля и Миранды действительно был (или есть) жидкий слой под коркой, старых данных для ответа на этот вопрос недостаточно — нужны новые наблюдения именно этой системы.
+
+Растрескавшийся ледяной панцирь — это не просто красивая деталь пейзажа. Трещины такого типа на ледяных спутниках обычно появляются, когда под коркой что-то двигается или расширяется — то есть когда есть жидкий или полужидкий слой, который деформирует поверхность изнутри. Именно по такой логике учёные уже давно подозревают океаны у спутников Юпитера и Сатурна — Европы и Энцелада. Теперь похожий след находят и у куда менее изученных лун Урана.
+
+Если Ариэль и Миранда правда хранили — а возможно, хранят до сих пор — океаны под коркой, система Урана переходит из категории «холодная и скучная дальняя периферия» в категорию мест, где стоит искать потенциально пригодные для жизни условия. Это не доказательство жизни, а всего лишь необходимое условие: жидкая вода, защищённая от космического холода и радиации толщей льда.
+
+### Почему это важно
+
+Уран остаётся одной из наименее изученных планет Солнечной системы. Если несколько его спутников скрывают океаны, это готовый аргумент в пользу того, чтобы отправить туда новую миссию, а не довольствоваться повторным анализом старых данных.
+
+## English version
+
+Ariel, one of Uranus's moons, may once have held a subsurface ocean more than 100 miles deep beneath its fractured icy shell, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260923035951.htm). That alone would be striking, but what makes it more interesting is that similar evidence has now turned up on Miranda, another Uranian moon — suggesting this isn't a one-off but a whole system of hidden oceans.
+
+The piece's headline quotes researchers' reaction to the finding directly: "we just need to go back." The line reads plainly: if Ariel and Miranda really did have — or still have — a liquid layer under the crust, old data alone can't settle the question. It would take fresh observations of the system itself.
+
+A fractured ice shell isn't just a scenic detail. Cracking like this on icy moons usually shows up when something underneath is shifting or expanding — in other words, when there's a liquid or semi-liquid layer deforming the surface from below. That's the same logic that has long made scientists suspect oceans on Jupiter's Europa and Saturn's Enceladus. Now a similar signature is showing up on Uranus's far less studied moons.
+
+If Ariel and Miranda really did hold — or perhaps still hold — oceans under their crusts, the Uranian system moves from "cold, dull, distant periphery" into the category of places worth searching for potentially habitable conditions. That's not evidence of life, just a necessary ingredient for it: liquid water shielded from cosmic cold and radiation by a thick shell of ice.
+
+### Why it matters
+
+Uranus remains one of the least-explored planets in the solar system. If several of its moons are hiding oceans, that's a ready-made argument for a dedicated new mission, rather than settling for another pass through old data.
+
+
+----- 04-congo-ebola-out-of-control (world) — source: https://www.pbs.org/newshour/health/congo-faces-health-worker-shortage-as-ebola-remains-out-of-control-who-says -----
+
+## Русская версия
+
+Девять дней назад власти ДР Конго говорили, что вспышка Эболы прошла пик, а темпы заражения замедляются. Сегодня Всемирная организация здравоохранения называет её самой быстрорастущей вспышкой Эболы в истории — и [PBS передаёт](https://www.pbs.org/newshour/health/congo-faces-health-worker-shortage-as-ebola-remains-out-of-control-who-says), что ситуация вышла из-под контроля. В восточной провинции Северное Киву число случаев выросло на 73% всего за три недели.
+
+Дело не только в числе заражений — не хватает людей, которые могли бы их лечить. По данным ВОЗ, Конго испытывает острый дефицит медработников для лечебных центров, и это ровно тот сценарий, о котором ещё в сентябре предупреждали эксперты: замедление — это не финал истории, а окно, которое легко упустить, если ослабить надзор раньше времени.
+
+Северное Киву — не тот регион, где в сентябре фиксировали замедление: тогда эпицентром называли Бундибугио. Так это новая волна в другой части страны или та же вспышка, дотянувшаяся до нового региона, — сегодняшний материал не уточняет, но сама смена локации показывает, насколько быстро может перемещаться очаг эпидемии в стране с слабой системой здравоохранения.
+
+Формулировка ВОЗ «вышла из-под контроля» — это не риторика, а фактически признание: темпы распространения вируса опережают возможности системы здравоохранения его сдерживать. А нехватка медработников означает, что даже при наличии протоколов лечения и изоляции их просто некому исполнять на местах.
+
+### Почему это важно
+
+Девять дней назад казалось, что худшее позади. Сегодняшняя новость — жёсткое напоминание: в регионе с историей повторяющихся вспышек Эболы «пик прошёл» может смениться «вышло из-под контроля» быстрее, чем система здравоохранения успеет отреагировать.
+
+## English version
+
+Nine days ago, authorities in the Democratic Republic of Congo said the Ebola outbreak had peaked and infection rates were slowing. Today the World Health Organization is calling it history's fastest-growing Ebola outbreak — and [PBS reports](https://www.pbs.org/newshour/health/congo-faces-health-worker-shortage-as-ebola-remains-out-of-control-who-says) it's out of control. In the eastern province of North Kivu, cases have surged 73% in just three weeks.
+
+It's not just the case count. According to the WHO, Congo is running short of health workers to staff treatment centers — exactly the scenario experts warned about back in September: a slowdown isn't the end of the story, it's a window that closes fast if surveillance eases too soon.
+
+North Kivu isn't the region where the slowdown was reported earlier this month — back then, the epicenter was named as Bundibugyo. Whether this is a new wave in a different part of the country or the same outbreak reaching a new region isn't clarified in today's reporting, but the shift in location alone shows how fast an outbreak can move in a country with a strained health system.
+
+The WHO's language — "out of control" — isn't rhetoric, it's effectively an admission: the virus is spreading faster than the health system can contain it. And a shortage of health workers means that even where treatment and isolation protocols exist, there aren't enough people on the ground to carry them out.
+
+### Why it matters
+
+Nine days ago it looked like the worst was over. Today's news is a blunt reminder: in a region with a history of recurring Ebola outbreaks, "peaked" can flip into "out of control" faster than the health system can catch up.
+
+
+----- 05-adhd-autism-danish-study (science) — source: https://www.sciencedaily.com/releases/2026/09/260924020353.htm -----
+
+## Русская версия
+
+Число диагнозов СДВГ и аутизма растёт уже не первый год, и обычный вопрос в этой ситуации — эпидемия это или просто стали лучше выявлять. Крупное датское исследование, [о котором пишет ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260924020353.htm), склоняется ко второму ответу. Дети, которым сегодня ставят диагноз СДВГ или аутизм, по своим характеристикам заметно ближе к среднестатистическим сверстникам, чем дети, которым эти же диагнозы ставили десять лет назад.
+
+Логика вывода такая: если бы рост числа диагнозов был вызван реальным ростом тяжести или распространённости расстройств, новые диагностированные дети должны были бы быть похожи на «типичный» профиль СДВГ или аутизма прошлых лет — то есть заметно отличаться от общей популяции. А происходит обратное: профиль «размывается», диагноз ставят детям с всё более мягкими и разнообразными проявлениями. Это как раз то, что происходит, когда расширяются критерии диагностики и врачи начинают замечать случаи, которые раньше просто проходили мимо системы.
+
+Авторы формулируют осторожно: рост диагнозов «может частично объясняться» более широким выявлением и меняющейся диагностической практикой — не полностью, а частично. Это важная оговорка: исследование не закрывает тему одним выводом, а предлагает один из факторов, который стоит учитывать, когда СМИ или родители реагируют на статистику ростом тревоги.
+
+Для системы здравоохранения и школ у этого вывода есть практическое следствие: если часть роста — это лучшее выявление, а не новая эпидемия, то к диагнозу СДВГ или аутизма у ребёнка стоит подходить не как к сигналу тревоги «что-то пошло не так с целым поколением», а как к результату того, что система наконец замечает детей, которых раньше просто не диагностировали.
+
+### Почему это важно
+
+Разговоры о «взрыве» диагнозов СДВГ и аутизма часто скатываются в панику — от поисков внешней причины до недоверия к самим диагнозам. Датское исследование добавляет спокойный аргумент: часть роста — это не новая проблема, а старая проблема, которую наконец начали видеть.
+
+## English version
+
+ADHD and autism diagnoses have been climbing for years, and the usual question is whether that's a real epidemic or just better detection. A large Danish study, [as ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260924020353.htm), leans toward the latter. Children diagnosed with ADHD or autism today look noticeably more like the general population of their peers than children given the same diagnoses ten years ago.
+
+The logic behind that finding: if the rise in diagnoses reflected a genuine increase in the severity or prevalence of these conditions, newly diagnosed children should still resemble the "classic" ADHD or autism profile of earlier years — clearly distinct from the general population. Instead, the opposite is happening: the profile is blurring, with diagnoses now going to children showing milder and more varied traits. That's exactly what you'd expect when diagnostic criteria widen and clinicians start catching cases that used to slip past the system entirely.
+
+The researchers are careful with their wording: rising diagnosis rates "may partly reflect" broader identification and changing diagnostic practices — partly, not entirely. That caveat matters. The study isn't closing the debate with one conclusion; it's offering one factor worth weighing whenever the headline statistics trigger alarm among parents or in the media.
+
+For health systems and schools, there's a practical takeaway here: if part of the increase is better detection rather than a new epidemic, a child's ADHD or autism diagnosis shouldn't automatically read as a signal that "something's gone wrong with an entire generation" — it may just mean the system is finally noticing kids who would have gone undiagnosed before.
+
+### Why it matters
+
+Conversations about the "explosion" in ADHD and autism diagnoses often slide into panic — chasing an external cause, or distrusting the diagnoses themselves. The Danish study adds a calmer argument: part of the rise isn't a new problem, it's an old one that's finally being seen.
+
+
+----- 06-fide-chess-presidency-election (culture) — source: https://www.dw.com/en/three-way-battle-for-power-in-world-chess-who-will-be-elected-fide-president-in-samarkand/a-79413301?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+В Самарканде решают, кто возглавит Международную шахматную федерацию (ФИДЕ) — и, [как пишет DW](https://www.dw.com/en/three-way-battle-for-power-in-world-chess-who-will-be-elected-fide-president-in-samarkand/a-79413301?maca=en-rss-en-all-1573-rdf), результат этих выборов закрывает целую эпоху: пост президента ФИДЕ впервые за долгое время точно достанется не россиянину. На кресло претендуют три кандидата — два немца и один казахстанец.
+
+Формально это выборы руководителя международной федерации, но DW описывает их как борьбу за власть, в которой на кону — не только шахматная политика. Среди вопросов, которые обсуждаются вокруг гонки: деньги (то есть контроль над бюджетом и коммерческими решениями федерации), влияние Кремля на шахматный мир — даже после ухода российского руководства эта тема, по данным материала, никуда не делась — и ряд вопросов, на которые пока нет ответов.
+
+Сама формулировка «эпоха российских президентов подходит к концу» важна не только для спортивной бюрократии. ФИДЕ — федерация, которая в последние годы оказывалась в центре геополитических споров: от статуса российских и белорусских шахматистов на турнирах до того, кто и как принимает решения о допуске сборных. Смена руководства такого масштаба — это не просто новое лицо на официальных фотографиях, а потенциальная смена курса по всем этим спорным вопросам.
+
+При этом DW не называет ни одного из трёх кандидатов явным фаворитом — материал описывает именно трёхстороннюю борьбу, а не предрешённый исход. Это само по себе интересно: там, где раньше выборы президента ФИДЕ были предсказуемым ритуалом, теперь три реальных претендента конкурируют за пост в условиях, когда старый расклад сил уже не работает.
+
+### Почему это важно
+
+ФИДЕ — не просто спортивная организация: это структура, через которую проходят деньги, статус национальных сборных и политические споры вокруг участия России в международном спорте. Кто бы ни выиграл в Самарканде, новый президент получит федерацию на перепутье — и с вопросами о кремлёвском влиянии, которые, по данным DW, остаются открытыми.
+
+## English version
+
+In Samarkand, the World Chess Federation (FIDE) is choosing its next president — and, [as DW reports](https://www.dw.com/en/three-way-battle-for-power-in-world-chess-who-will-be-elected-fide-president-in-samarkand/a-79413301?maca=en-rss-en-all-1573-rdf), the outcome closes out an entire era: for the first time in a long while, the FIDE presidency is guaranteed to go to someone other than a Russian. Three candidates are in the running — two Germans and one Kazakh.
+
+Formally, this is an election for the head of an international sports federation, but DW frames it as a genuine power struggle, with more than chess politics at stake. Among the issues in play, according to the report: money — meaning control over the federation's budget and commercial decisions — Kremlin influence on the chess world, which the piece says hasn't disappeared even as Russian leadership steps aside, and a set of questions that remain unanswered.
+
+The framing — "the era of Russian presidents is coming to an end" — matters beyond sports administration. FIDE has repeatedly found itself at the center of geopolitical disputes in recent years, from the status of Russian and Belarusian players at tournaments to who gets to decide which national teams are allowed to compete. A leadership change of this scale isn't just a new face in official photos — it's a potential shift in direction on all of those contested issues.
+
+At the same time, DW doesn't name a clear front-runner among the three candidates — the piece describes a genuine three-way contest rather than a foregone conclusion. That in itself is notable: where FIDE presidential elections used to be a predictable formality, three real contenders are now competing for the post at a moment when the old balance of power no longer holds.
+
+### Why it matters
+
+FIDE isn't just a sports body — it's the structure through which money, national-team status, and the political disputes over Russia's place in international sport all flow. Whoever wins in Samarkand inherits a federation at a crossroads, with questions about Kremlin influence that, per DW, remain unresolved.
+
+
+----- 07-google-ax-agentic-runtime (ai) — source: https://github.com/google/ax -----
+
+## Русская версия
+
+Среди сегодняшних трендов GitHub — новый проект от Google под названием ax, который сам себя описывает коротко: открытый рантайм для оркестрации ИИ-агентов. За последний отслеживаемый период число звёзд репозитория выросло с 10 303 до 10 469 — это плюс 166 за один день, и этого хватило, чтобы попасть на четвёртое место в списке самых обсуждаемых проектов на платформе. Написан ax на Go.
+
+«Рантайм для оркестрации агентов» — это не готовый чат-бот и не конечный продукт, а инфраструктурный слой: то, что разработчики используют, чтобы собирать системы из нескольких ИИ-агентов, которые вызывают друг друга, инструменты и внешние сервисы по заданной логике. То, что такой проект выпускает именно Google, а не только стартапы вроде тех, что тоже мелькают сегодня в трендах, — сигнал, что крупные игроки не просто следят за модой на мультиагентные системы, а выкладывают в открытый доступ собственную инфраструктуру для них.
+
+Выбор Go как языка тоже говорит сам за себя: это язык, который обычно выбирают для системного, производительного, конкурентного по нагрузке кода — то есть Google явно целится не в прототипы для исследователей, а в инфраструктуру, которую можно ставить в продакшен.
+
+Место в трендах GitHub само по себе не гарантирует, что проект приживётся: подобные списки взлетают и гаснут регулярно. Но для рынка мультиагентных систем — области, где ещё год-два назад не было устоявшихся стандартов, — выход открытого рантайма от компании такого масштаба, как Google, может стать ориентиром, вокруг которого начнут выстраиваться остальные инструменты.
+
+### Почему это важно
+
+Инфраструктура для ИИ-агентов сейчас переживает тот же этап, что веб-фреймворки лет пятнадцать назад: единого стандарта нет, и каждый крупный игрок пробует застолбить свой. Открытый релиз от Google — это заявка на то, чтобы стать одним из таких стандартов, а не просто ещё одним экспериментом.
+
+## English version
+
+Among today's GitHub trends is a new Google project called ax, which describes itself in one line as an open-source runtime for orchestrating AI agents. Over the tracked period, the repo's star count climbed from 10,303 to 10,469 — a gain of 166 in a single day, enough to land it in fourth place among the platform's most-discussed projects. It's written in Go.
+
+An "agent orchestration runtime" isn't a finished chatbot or a consumer product — it's an infrastructure layer, the kind of thing developers use to build systems made of multiple AI agents that call each other, invoke tools, and coordinate with external services according to defined logic. The fact that this particular project comes from Google, rather than one of the startups also showing up in today's trends, is a signal that large players aren't just watching the multi-agent trend from the sidelines — they're open-sourcing their own infrastructure for it.
+
+The choice of Go as the language says something too: it's a language typically picked for systems-level, performance-sensitive, concurrency-heavy code — meaning Google isn't targeting research prototypes here, it's targeting infrastructure meant to run in production.
+
+A spot on GitHub's trending list doesn't guarantee a project sticks around; lists like this rise and fade constantly. But for the multi-agent tooling space — a field that didn't have settled standards even a year or two ago — an open-source runtime from a company the size of Google could become the reference point other tools start building around.
+
+### Why it matters
+
+AI agent infrastructure is going through the same phase web frameworks went through fifteen years ago: no single standard exists yet, and every major player is trying to stake a claim. An open-source release from Google is a bid to become one of those standards, not just another experiment.
+
+
 ===== EDITION 22 — 2026-09-24 =====
 
 ## От редакции
