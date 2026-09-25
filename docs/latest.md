@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## Google quietly shipped an open-source AI agent runtime — and it's already top 5 on GitHub / Google тихо выкатил open source рантайм для ИИ-агентов — и он уже в топ-5 трендов GitHub
 rubric: ai · source: https://github.com/google/ax
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/07-google-ax-agentic-runtime.md
+
+## US mortgage rates top 7% for the first time in 20 months / Ипотека в США впервые за 20 месяцев перевалила за 7%
+rubric: economy · source: https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/08-us-mortgage-rates-top-7-percent.md
+
+## Italy bans the burqa and caps foreign students in its schools / Италия запрещает бурку и вводит квоты на иностранных школьников
+rubric: world · source: https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools?traffic_source=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/09-italy-burqa-ban-foreign-students.md
+
+## Klopp's first game as Germany coach ends in a draw — and raises questions / Клопп начал работу со сборной Германии с ничьей — и с большими вопросами
+rubric: culture · source: https://www.dw.com/en/jürgen-klopp-starts-germany-job-with-shaky-netherlands-draw/a-79420143?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/10-klopp-germany-netherlands-draw.md
+
+## F-Droid just got its biggest update in a decade / F-Droid получил самое крупное обновление за десять лет
+rubric: tech · source: https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/11-f-droid-decade-update.md
+
+## Time crystals far apart somehow fell into the same rhythm / Удалённые друг от друга «временные кристаллы» неожиданно попали в один ритм
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260923035934.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/12-time-crystals-synchronize.md
+
+## NYC police arrest Susan Sarandon and other celebrities protesting Netanyahu / В Нью-Йорке задержали Сьюзан Сарандон и других знаменитостей на акции против Нетаньяху
+rubric: world · source: https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-25/13-un-netanyahu-protest-arrests.md

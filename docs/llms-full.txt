@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Пятница подбрасывает контрасты: пока в Эфиопии снова заговорили о гражданской войне, а в Конго ВОЗ признаёт, что вспышка Эболы вышла из-под контроля, боливийцы считают, чем заменить закончившийся газ, а учёные ищут океаны подо льдом спутников Урана. В шахматном мире выбирают нового президента ФИДЕ, а на GitHub взлетает открытый рантайм Google для ИИ-агентов — выпуск №23 старается уместить всё это, не скатываясь в одну тему.
+Пятница подбрасывает контрасты: пока в Эфиопии снова заговорили о гражданской войне, а в Конго ВОЗ признаёт, что вспышка Эболы вышла из-под контроля, боливийцы считают, чем заменить закончившийся газ, а учёные ищут океаны подо льдом спутников Урана. В шахматном мире выбирают нового президента ФИДЕ, а на GitHub взлетает открытый рантайм Google для ИИ-агентов — выпуск №23 старается уместить всё это, не скатываясь в одну тему. Во втором заходе добавляем ипотеку выше 7% в США, миграционный пакет Мелони, дебют Клоппа со сборной Германии, обновлённый F-Droid, синхронизирующиеся квантовые «временные кристаллы» и задержания у штаб-квартиры ООН.
 
 ## Editorial
 
-Friday brings contrasts: as Ethiopia edges back toward talk of civil war and the WHO admits Congo's Ebola outbreak has slipped out of control, Bolivians are weighing what replaces gas that's running dry, and scientists go looking for oceans under the ice of Uranus's moons. Chess is picking a new FIDE president, and an open-source AI agent runtime from Google is climbing GitHub's charts — issue №23 tries to hold all of it without tipping into any one beat.
+Friday brings contrasts: as Ethiopia edges back toward talk of civil war and the WHO admits Congo's Ebola outbreak has slipped out of control, Bolivians are weighing what replaces gas that's running dry, and scientists go looking for oceans under the ice of Uranus's moons. Chess is picking a new FIDE president, and an open-source AI agent runtime from Google is climbing GitHub's charts — issue №23 tries to hold all of it without tipping into any one beat. This second run adds US mortgage rates topping 7%, Meloni's migration package, Klopp's debut with the German national team, a rebuilt F-Droid, synchronizing quantum "time crystals," and arrests outside UN headquarters.
 
 
 ----- 01-ethiopia-tigray-offensive (world) — source: https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army -----
@@ -228,6 +228,192 @@ A spot on GitHub's trending list doesn't guarantee a project sticks around; list
 ### Why it matters
 
 AI agent infrastructure is going through the same phase web frameworks went through fifteen years ago: no single standard exists yet, and every major player is trying to stake a claim. An open-source release from Google is a bid to become one of those standards, not just another experiment.
+
+
+----- 08-us-mortgage-rates-top-7-percent (economy) — source: https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market -----
+
+## Русская версия
+
+Средняя ставка по 30-летней ипотеке в США впервые с января 2025 года превысила 7%, [сообщает The Guardian](https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market) со ссылкой на данные федерального ипотечного агентства Freddie Mac. Это значит, что жильё в кредит снова стало ощутимо дороже — и это происходит в рынке, который и без того не оправился от нескольких тяжёлых лет.
+
+Причина роста прямая: Федеральная резервная система подняла ключевую ставку, а ипотечные проценты идут за ней следом. Guardian подчёркивает, что удар приходится на американцев, которые и так живут при высоких ценах и практически неизменных зарплатах — то есть покупка жилья становится менее доступной именно тогда, когда свободных денег у людей меньше всего.
+
+Контекст, который добавляет NPR: с начала войны США против Ирана ставки выросли больше чем на целый процентный пункт. Формально ФРС объясняет свои решения инфляцией и состоянием экономики, но хронология здесь показательна — геополитический шок и рост стоимости заимствований совпали по времени, и для обычного покупателя жилья это значит одно: ежемесячный платёж вырос заметно и быстро.
+
+Семь процентов — это психологически важный порог. При такой ставке ипотечный платёж на типичный дом ощутимо выше, чем при ставке в 5–6%, которая ещё недавно казалась нормой. Для тех, кто уже присматривал жильё, решение откладывается; для тех, кто уже взял кредит по плавающей ставке — новый пересчёт бюджета. Рынок недвижимости в США и так переживает не лучшие годы: предложение ограничено, а число сделок ниже привычного. Ставка выше 7% не разворачивает эту тенденцию, а закрепляет её.
+
+### Почему это важно
+
+Ипотека — это один из немногих экономических показателей, который американцы чувствуют напрямую и сразу, без посредников в виде статистики или заголовков. Рост ставки выше 7% на фоне стагнирующих зарплат означает, что доступность жилья в США продолжает снижаться — а это один из факторов, определяющих политические настроения перед выборами.
+
+## English version
+
+The average 30-year US mortgage rate has topped 7% for the first time since January 2025, [The Guardian reports](https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market), citing data from federal mortgage lender Freddie Mac. Buying a home on credit just got noticeably more expensive — in a market that hadn't recovered from several rough years to begin with.
+
+The direct cause is straightforward: the Federal Reserve raised its benchmark rate, and mortgage rates followed. The Guardian notes the hit lands on Americans already dealing with high prices and largely flat wages — homeownership is getting less affordable precisely when people have the least spare cash to absorb it.
+
+NPR adds useful context: rates have climbed more than a full percentage point since the US war against Iran began. The Fed frames its decisions around inflation and the broader economy, but the timing is telling — a geopolitical shock and a jump in borrowing costs landed together, and for an ordinary homebuyer that means one thing: the monthly payment rose sharply and fast.
+
+Seven percent is a psychologically loaded threshold. At that rate, the payment on a typical home is noticeably higher than at the 5–6% that felt normal not long ago. Buyers who were shopping around are now delaying; those who already took out adjustable-rate loans are recalculating their budgets. The US housing market has already been through a rough stretch — limited supply, fewer sales than usual — and a rate above 7% doesn't reverse that trend, it locks it in.
+
+### Why it matters
+
+Mortgage rates are one of the few economic indicators Americans feel directly and immediately, with no statistics or headlines in between. A rate above 7% alongside stagnant wages means housing affordability in the US keeps eroding — and that's one of the forces shaping political mood ahead of the next election.
+
+
+----- 09-italy-burqa-ban-foreign-students (world) — source: https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools?traffic_source=rss -----
+
+## Русская версия
+
+Правительство Джорджи Мелони ввело запрет на бурку и ограничило долю иностранных детей в итальянских школах, [сообщает Al Jazeera](https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools?traffic_source=rss). Оба решения приняты одним пакетом и укладываются в общую логику курса правящей коалиции на ужесточение миграционной политики.
+
+Al Jazeera описывает Италию как страну переднего края миграции — именно сюда чаще всего прибывают лодки с мигрантами из Северной Африки, и именно здесь тема интеграции годами остаётся одной из самых острых в внутренней политике. Новые ограничения ложатся в этот контекст: запрет на ношение бурки — символический жест в адрес консервативного избирателя, квота на иностранных учеников — попытка снизить нагрузку на школы в регионах с высокой долей мигрантских семей и одновременно показать, что власть держит миграцию под контролем.
+
+Издание прямо связывает решение с приближающимися выборами 2027 года: интеграция мигрантов остаётся горячей темой кампании, и правительство явно рассчитывает закрепить за собой образ силы, способной навести порядок там, где предыдущие кабинеты, по мнению правых избирателей, действовали нерешительно.
+
+Подобные меры — не новость для Европы: похожие запреты на ношение полного покрывала лица уже вводили Франция, Бельгия, Австрия и ряд других стран, аргументируя это секулярностью общественного пространства и вопросами идентификации личности. Италия долго держалась в стороне от этой волны, и то, что Мелони решилась на этот шаг именно сейчас, говорит скорее о политическом расчёте, чем о срочной необходимости.
+
+### Почему это важно
+
+Пакет мер показывает, что миграционная повестка в Италии переходит из разряда «проблема на побережье» в разряд «вопрос повседневной жизни» — школы, одежда, право на публичное присутствие. Для остальной Европы это ещё один сигнал: правые правительства всё активнее конкурируют друг с другом в жёсткости миграционной политики, а не только с оппозицией внутри страны.
+
+## English version
+
+Giorgia Meloni's government has banned the burqa and capped the share of foreign children in Italian schools, [Al Jazeera reports](https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools?traffic_source=rss). Both measures came as a single package and fit the ruling coalition's broader push to tighten migration policy.
+
+Al Jazeera describes Italy as a front-line country for migration — it's where boats from North Africa most often land, and integration has been one of the sharpest domestic issues for years. The new restrictions sit squarely in that context: the burqa ban is a symbolic gesture to conservative voters, while the cap on foreign students is meant both to ease pressure on schools in areas with large migrant populations and to signal that the government has migration under control.
+
+The outlet ties the decision directly to the coming 2027 election, noting integration remains a hot campaign issue — and the government is clearly betting on an image of decisiveness where right-leaning voters see previous cabinets as having dithered.
+
+Measures like this aren't new for Europe: France, Belgium, Austria and several other countries have already banned full-face coverings, citing the secular nature of public space and questions of identification. Italy stayed out of that wave for a long time, so Meloni moving now looks more like political calculation than urgent necessity.
+
+### Why it matters
+
+The package shows migration politics in Italy shifting from a "problem on the coastline" to a matter of everyday life — schools, clothing, the right to a public presence. For the rest of Europe, it's another signal that right-wing governments are increasingly competing with each other on migration toughness, not just with domestic opposition.
+
+
+----- 10-klopp-germany-netherlands-draw (culture) — source: https://www.dw.com/en/jürgen-klopp-starts-germany-job-with-shaky-netherlands-draw/a-79420143?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Юрген Клопп провёл свой первый матч в качестве главного тренера сборной Германии — и не смог победить: поздний гол Нидерландов принёс ничью, [сообщает DW](https://www.dw.com/en/jürgen-klopp-starts-germany-job-with-shaky-netherlands-draw/a-79420143?maca=en-rss-en-all-1573-rdf). Для тренера, который приходит в сборную с репутацией одного из самых успешных клубных специалистов последнего десятилетия, это скромный, но показательный старт.
+
+Бывший главный тренер «Ливерпуля» и «Боруссии» из Дортмунда известен амбициозным, атакующим футболом и умением быстро перестраивать команды под свою философию — «гегенпрессинг», агрессивный отбор сразу после потери мяча, стал его визитной карточкой ещё в Дортмунде. Но DW прямо пишет: игра с Нидерландами показала, что до реализации этих амбиций со сборной Германии ему потребуется больше времени, чем хотелось бы.
+
+Разница между клубным и сборным футболом принципиальна — и именно в ней часто спотыкаются даже самые титулованные тренеры. В клубе у Клоппа были месяцы ежедневных тренировок, чтобы вбить в игроков свою систему; в сборной он видит футболистов считаные дни перед матчами, собранными из разных лиг и разных тактических культур. Ничья с Нидерландами — командой, которая сама переживает не лучший период, — сигнал, что процесс перестройки идёт не так гладко, как можно было надеяться после громкого назначения.
+
+Для немецкого футбола, который последние годы регулярно критикуют за отсутствие яркой идентичности на поле, приход Клоппа воспринимался как обещание вернуть зрелищность и результат одновременно. Первый матч этого обещания пока не подтвердил — но и не опроверг: поздний пропущенный гол — это эпизод, а не приговор.
+
+### Почему это важно
+
+Как поведёт себя одна из сильнейших европейских сборных под руководством харизматичного тренера — вопрос не только спортивный, но и репутационный для всего немецкого футбола после нескольких разочаровывающих турниров подряд. Первый матч Клоппа показывает: перестройка начинается медленнее, чем ждали болельщики, и терпение потребуется всем сторонам.
+
+## English version
+
+Jürgen Klopp coached his first match in charge of the German national team — and couldn't win it: a late Netherlands goal turned it into a draw, [DW reports](https://www.dw.com/en/jürgen-klopp-starts-germany-job-with-shaky-netherlands-draw/a-79420143?maca=en-rss-en-all-1573-rdf). For a coach arriving with a reputation as one of the most successful club managers of the past decade, it's a modest but telling start.
+
+The former Liverpool and Borussia Dortmund boss is known for ambitious, attacking football and a knack for quickly reshaping teams around his philosophy — "gegenpressing," aggressive pressure the instant the ball is lost, became his trademark back in Dortmund. But DW is blunt about it: the game against the Netherlands showed he's going to need more time than he'd like to bring that ambition to the national team.
+
+The gap between club and international football is real, and it's exactly where even decorated coaches tend to stumble. At a club, Klopp had months of daily training to drill his system into players; with a national side, he sees his squad for a handful of days before matches, pulled together from different leagues and different tactical cultures. A draw against a Netherlands side that isn't at its own best right now is a signal that the rebuild isn't going as smoothly as the fanfare around his appointment suggested.
+
+For German football, regularly criticized in recent years for lacking a clear on-field identity, Klopp's arrival was read as a promise to bring back both spectacle and results. The first match hasn't confirmed that promise yet — but it hasn't disproved it either. A late conceded goal is an episode, not a verdict.
+
+### Why it matters
+
+How one of Europe's strongest national teams performs under a charismatic coach is a question that matters beyond sport — it's a reputational one for German football after several disappointing tournaments in a row. Klopp's first match shows the rebuild is starting more slowly than fans expected, and patience will be needed on all sides.
+
+
+----- 11-f-droid-decade-update (tech) — source: https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/ -----
+
+## Русская версия
+
+F-Droid, магазин приложений для Android, состоящий целиком из софта с открытым исходным кодом, пересобрали заново — это самое крупное обновление сервиса за последние десять лет, [сообщает Ars Technica](https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/). Приложение получило новый интерфейс и более плавную установку программ — то, чего пользователям остро не хватало.
+
+F-Droid долгие годы остаётся главной альтернативой Google Play для тех, кто хочет пользоваться Android без привязки к экосистеме Google: каждое приложение в каталоге собирается из открытого кода, а не просто загружается разработчиком в готовом виде, что должно снижать риск скрытой телеметрии и трекеров. Но у этой честности была цена — интерфейс годами выглядел устаревшим, а сам процесс установки нередко работал не так гладко, как в коммерческих магазинах приложений.
+
+Судя по описанию Ars Technica, именно эти болевые точки и закрывает новая версия: приложение переписали «с нуля», что на практике означает не косметический рефреш, а полноценную смену архитектуры интерфейса и внутренней логики. Более гладкая установка — это не просто эстетика, а рабочая деталь: возможность увидеть прогресс, меньше зависаний, меньше причин, по которым обычный пользователь бросает попытку и возвращается к Google Play.
+
+Для сообщества свободного софта такие обновления значат больше, чем кажется со стороны. F-Droid — это не стартап с инвестициями, а проект с ограниченными ресурсами, который годами держится на энтузиастах. Решение вложиться именно в удобство интерфейса, а не в расширение каталога, говорит о смене приоритетов: разработчики признали, что открытость сама по себе больше не аргумент, если пользоваться сервисом неудобно.
+
+### Почему это важно
+
+Открытые магазины приложений вроде F-Droid — один из немногих реалистичных путей для тех, кто хочет пользоваться Android без слежки крупных корпораций. Чем удобнее становится такой сервис, тем шире круг людей, которые реально готовы им пользоваться, а не просто одобрять идею на словах.
+
+## English version
+
+F-Droid, the Android app store made up entirely of open-source software, has been rebuilt from the ground up — its biggest update in a decade, [Ars Technica reports](https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/). The app now has a new interface and smoother app installs, something users had been asking for for years.
+
+F-Droid has long been the main alternative to Google Play for people who want to run Android without tying themselves to Google's ecosystem: every app in the catalog is built from open source rather than simply uploaded pre-packaged by a developer, which is meant to cut the risk of hidden telemetry and trackers. That honesty came at a cost, though — the interface had looked dated for years, and installs often didn't run as smoothly as on commercial app stores.
+
+Going by Ars Technica's description, those are exactly the pain points the new version addresses. Rebuilding the app "from the ground up" isn't a cosmetic refresh — it's a full change to the interface architecture and the underlying logic. Smoother installs aren't just polish, either: it's the practical difference of seeing progress, fewer hangs, fewer reasons for an ordinary user to give up halfway and go back to Google Play.
+
+For the free-software community, an update like this matters more than it might look from outside. F-Droid isn't a funded startup — it's a project with limited resources that has run on volunteers for years. Choosing to invest in interface usability rather than expanding the catalog signals a shift in priorities: openness alone is no longer treated as enough of an argument if the service itself is a pain to use.
+
+### Why it matters
+
+Open app stores like F-Droid are one of the few realistic paths for people who want to run Android without being tracked by big platforms. The more usable a service like this becomes, the wider the circle of people who'll actually use it, rather than just approving of the idea in principle.
+
+
+----- 12-time-crystals-synchronize (science) — source: https://www.sciencedaily.com/releases/2026/09/260923035934.htm -----
+
+## Русская версия
+
+Исследователи показали, что несколько «временных кристаллов» внутри одного полупроводника способны синхронизировать свои колебания — примерно так же, как маятниковые часы на одной стене постепенно начинают тикать в такт друг другу, [сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260923035934.htm). Разница в том, что здесь речь идёт не о механических маятниках, а о квантовых системах, разнесённых на расстояние до 40 микрометров.
+
+Временной кристалл — это система, которая периодически меняет своё состояние сама по себе, без внешнего периодического воздействия, что долгое время казалось невозможным по законам термодинамики: обычно колебания без постоянной подпитки энергией затухают. Такие системы уже создавали в лаборатории, но вопрос, могут ли независимые временные кристаллы «чувствовать» друг друга и подстраиваться под общий ритм, оставался открытым.
+
+Ключевая деталь этой работы — механизм связи. Синхронизация происходит не напрямую, а через спин-поляризованные электроны: частицы с выровненным направлением спина переносят информацию о фазе колебаний от одного кристалла к другому через толщу полупроводника. Это позволяет временным кристаллам, разделённым десятками микрометров — расстоянием огромным по меркам квантовых эффектов, — постепенно выравнивать частоту и фазу своих колебаний.
+
+Сравнение с маятниковыми часами не случайно: похожий эффект синхронизации через слабую механическую связь (через общую стену) наблюдал ещё Христиан Гюйгенс в XVII веке. Здесь тот же принцип — слабая связь между колеблющимися системами приводит к самопроизвольной синхронизации — воспроизводится на совершенно другом, квантовом уровне, где переносчиком связи выступают не колебания стены, а спин электронов.
+
+### Почему это важно
+
+Умение синхронизировать колебания квантовых систем на расстоянии — это не просто красивая физика: подобные механизмы связи в перспективе могут пригодиться для квантовых сенсоров и элементов квантовых вычислений, где важно координировать поведение множества элементов без прямого физического контакта между ними.
+
+## English version
+
+Researchers have shown that several "time crystals" inside a single semiconductor can synchronize their oscillations — much the way pendulum clocks on the same wall gradually start ticking in step with each other, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260923035934.htm). The difference is that these aren't mechanical pendulums but quantum systems separated by up to 40 micrometers.
+
+A time crystal is a system that periodically changes state on its own, without any external periodic driving force — something that long seemed to violate thermodynamics, since oscillations without a constant energy input are supposed to die out. Such systems have already been created in the lab, but whether independent time crystals could "sense" each other and lock into a shared rhythm remained an open question.
+
+The key detail in this work is the coupling mechanism. Synchronization doesn't happen directly — it's carried by spin-polarized electrons, particles with an aligned spin direction that ferry phase information from one time crystal to another through the body of the semiconductor. That lets time crystals separated by tens of micrometers — a huge distance by the standards of quantum effects — gradually align the frequency and phase of their oscillations.
+
+The pendulum-clock comparison isn't accidental: a similar synchronization effect through weak mechanical coupling — via a shared wall — was already observed by Christiaan Huygens back in the 17th century. The same principle, weak coupling between oscillating systems driving spontaneous synchronization, shows up here at a completely different, quantum level, where the coupling is carried by electron spin rather than wall vibrations.
+
+### Why it matters
+
+Being able to synchronize the oscillations of quantum systems at a distance is more than elegant physics: coupling mechanisms like this could eventually feed into quantum sensors and quantum-computing components, where coordinating many elements without direct physical contact between them matters a great deal.
+
+
+----- 13-un-netanyahu-protest-arrests (world) — source: https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss -----
+
+## Русская версия
+
+Полиция Нью-Йорка задержала актрису Сьюзан Сарандон и ещё нескольких знаменитостей на акции протеста против визита премьер-министра Израиля Биньямина Нетаньяху в ООН, [сообщает Al Jazeera](https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss). По данным издания, всего было задержано более 100 человек — демонстранты перекрывали улицы и шли колонной к штаб-квартире ООН, пока Нетаньяху выступал перед мировыми лидерами на Генеральной Ассамблее.
+
+Сама речь Нетаньяху проходила на фоне демаршей внутри зала: часть делегаций покинула заседание во время его выступления. Правозащитные организации, которые Al Jazeera цитирует в связи с этим событием, обвиняют ООН в том, что та предоставляет трибуну человеку, которого они называют «военным преступником» — формулировка отсылает к выданному Международным уголовным судом ордеру на арест Нетаньяху.
+
+Совпадение по времени двух событий — уличных задержаний знаменитостей и демонстративного ухода делегаций из зала — показывает, что несогласие с политикой Нетаньяху звучит сейчас сразу на двух уровнях: институциональном, внутри самой ООН, и уличном, среди рядовых жителей Нью-Йорка и публичных фигур, готовых рисковать задержанием ради заявления позиции.
+
+Участие знаменитостей в подобных акциях — не редкость для Нью-Йорка во время недели Генассамблеи, когда в городе одновременно оказываются десятки мировых лидеров, а вместе с ними — усиленные меры безопасности и предсказуемо большое число протестующих. Но задержание известных лиц вроде Сарандон обычно привлекает к акции куда больше внимания, чем аналогичный протест без узнаваемых участников.
+
+### Почему это важно
+
+Массовые задержания на фоне выступления Нетаньяху в ООН фиксируют, насколько поляризованной остаётся реакция на политику Израиля даже в самом Нью-Йорке — городе, который принимает Генассамблею каждый год. Для организаторов саммита это ещё и практический вызов: обеспечить безопасность мероприятия, не превращая город в зону перманентного протеста.
+
+## English version
+
+New York police arrested actress Susan Sarandon and several other celebrities at a protest against Israeli Prime Minister Benjamin Netanyahu's visit to the United Nations, [Al Jazeera reports](https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss). More than 100 people were arrested in total, according to the outlet, as demonstrators blocked streets and marched toward UN headquarters while Netanyahu addressed world leaders at the General Assembly.
+
+Netanyahu's speech itself unfolded against a backdrop of walkouts inside the chamber, with several delegations leaving the hall during his address. Rights groups cited by Al Jazeera in connection with the event accuse the UN of giving a platform to a man they call a "war criminal" — a reference to the International Criminal Court's arrest warrant against Netanyahu.
+
+The timing of the two events — street arrests of celebrities and the visible walkout of delegations inside — shows that opposition to Netanyahu's policies is registering at two levels at once: institutionally, inside the UN itself, and on the street, among ordinary New Yorkers and public figures willing to risk arrest to make a statement.
+
+Celebrity involvement in protests like this is nothing new for New York during General Assembly week, when dozens of world leaders converge on the city along with heavy security and, predictably, large numbers of protesters. But the arrest of a recognizable figure like Sarandon tends to draw far more attention to an action than an equivalent protest without well-known participants.
+
+### Why it matters
+
+Mass arrests during Netanyahu's UN address underline how polarized reaction to Israeli policy remains even in New York — the city that hosts the General Assembly every year. For summit organizers, it's also a practical challenge: keeping the event secure without turning the city into a zone of permanent protest.
 
 
 ===== EDITION 22 — 2026-09-24 =====
