@@ -27,3 +27,27 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## An Azerbaijani novel translates the body into language — and earns rare praise / Азербайджанский роман «My Dreadful Body» переводит телесность в язык — и получает редкие похвалы
 rubric: culture · source: https://marginalrevolution.com/marginalrevolution/2026/09/my-dreadful-body.html?utm_source=rss&utm_medium=rss&utm_campaign=my-dreadful-body
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/07-dreadful-body-azerbaijan-novel.md
+
+## Army plane crashes into a DR Congo neighbourhood, killing more than a dozen / Военный самолёт рухнул на жилой квартал в Конго — погибли больше десяти человек
+rubric: world · source: https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/08-dr-congo-plane-crash.md
+
+## An Indian billionaire's payments firm plots the biggest London IPO in years / Индийский миллиардер готовит крупнейшее IPO в Лондоне за много лет
+rubric: economy · source: https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/09-airtel-money-london-ipo.md
+
+## CERN starts disconnecting the Large Hadron Collider for 40%-stronger magnets / ЦЕРН начал отключать Большой адронный коллайдер ради магнитов на 40% мощнее
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260925005430.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/10-cern-lhc-upgrade-disconnect.md
+
+## A jury found Facebook liable for deceiving users in the Cambridge Analytica case / Присяжные признали Facebook виновной в обмане пользователей по делу Cambridge Analytica
+rubric: tech · source: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/11-facebook-cambridge-analytica-liable.md
+
+## Who's liable when it's an AI agent, not a human, that hacked you / Кто отвечает, если взломал не человек, а ИИ-агент
+rubric: ai · source: https://www.pbs.org/newshour/science/hacks-by-autonomous-ai-agents-raise-thorny-questions-of-legal-accountability
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/12-ai-agents-hacking-accountability.md
+
+## US Supreme Court blocks Trump-backed Missouri congressional map / Верховный суд США заблокировал округа Миссури, перекроенные в пользу Трампа
+rubric: world · source: https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-26/13-scotus-missouri-map-blocked.md

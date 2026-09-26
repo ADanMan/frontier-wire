@@ -19,6 +19,12 @@
 - **[Наука]** [CRISPR научили бить по раку крови, не задевая здоровые клетки](editions/2026/09-26/05-crispr-blood-cancer-trial.md)
 - **[Экономика]** [Экономист Банка Англии предложила считать риски жилья не средней ценой, а веером сценариев](editions/2026/09-26/06-uk-housing-market-risk-model.md)
 - **[Культура]** [Азербайджанский роман «My Dreadful Body» переводит телесность в язык — и получает редкие похвалы](editions/2026/09-26/07-dreadful-body-azerbaijan-novel.md)
+- **[Мир]** [Военный самолёт рухнул на жилой квартал в Конго — погибли больше десяти человек](editions/2026/09-26/08-dr-congo-plane-crash.md)
+- **[Экономика]** [Индийский миллиардер готовит крупнейшее IPO в Лондоне за много лет](editions/2026/09-26/09-airtel-money-london-ipo.md)
+- **[Наука]** [ЦЕРН начал отключать Большой адронный коллайдер ради магнитов на 40% мощнее](editions/2026/09-26/10-cern-lhc-upgrade-disconnect.md)
+- **[Технологии]** [Присяжные признали Facebook виновной в обмане пользователей по делу Cambridge Analytica](editions/2026/09-26/11-facebook-cambridge-analytica-liable.md)
+- **[ИИ]** [Кто отвечает, если взломал не человек, а ИИ-агент](editions/2026/09-26/12-ai-agents-hacking-accountability.md)
+- **[Мир]** [Верховный суд США заблокировал округа Миссури, перекроенные в пользу Трампа](editions/2026/09-26/13-scotus-missouri-map-blocked.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
