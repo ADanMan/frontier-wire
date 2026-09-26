@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №23 / Edition №23 — 2026-09-25** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №24 / Edition №24 — 2026-09-26** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [Эфиопия снова на грани войны с Тыграем](editions/2026/09-25/01-ethiopia-tigray-offensive.md)
-- **[Экономика]** [У Боливии заканчивается газ — и вместе с ним старая модель роста](editions/2026/09-25/02-bolivia-gas-runs-out.md)
-- **[Наука]** [Под ледяной коркой спутника Урана мог прятаться океан глубиной 160 километров](editions/2026/09-25/03-uranus-moon-ariel-ocean.md)
-- **[Мир]** [Эбола в Конго снова вышла из-под контроля — и теперь не хватает врачей](editions/2026/09-25/04-congo-ebola-out-of-control.md)
-- **[Наука]** [Почему диагнозов СДВГ и аутизма стало больше — датское исследование предлагает ответ](editions/2026/09-25/05-adhd-autism-danish-study.md)
-- **[Культура]** [Эпоха российских президентов ФИДЕ заканчивается — но не без вопросов](editions/2026/09-25/06-fide-chess-presidency-election.md)
-- **[ИИ]** [Google тихо выкатил open source рантайм для ИИ-агентов — и он уже в топ-5 трендов GitHub](editions/2026/09-25/07-google-ax-agentic-runtime.md)
-- **[Экономика]** [Ипотека в США впервые за 20 месяцев перевалила за 7%](editions/2026/09-25/08-us-mortgage-rates-top-7-percent.md)
-- **[Мир]** [Италия запрещает бурку и вводит квоты на иностранных школьников](editions/2026/09-25/09-italy-burqa-ban-foreign-students.md)
-- **[Культура]** [Клопп начал работу со сборной Германии с ничьей — и с большими вопросами](editions/2026/09-25/10-klopp-germany-netherlands-draw.md)
-- **[Технологии]** [F-Droid получил самое крупное обновление за десять лет](editions/2026/09-25/11-f-droid-decade-update.md)
-- **[Наука]** [Удалённые друг от друга «временные кристаллы» неожиданно попали в один ритм](editions/2026/09-25/12-time-crystals-synchronize.md)
-- **[Мир]** [В Нью-Йорке задержали Сьюзан Сарандон и других знаменитостей на акции против Нетаньяху](editions/2026/09-25/13-un-netanyahu-protest-arrests.md)
+- **[ИИ]** [Суд разрешил Трампу «чернить» Anthropic за отказ снимать ограничения с Claude](editions/2026/09-26/01-anthropic-blacklist-court-ruling.md)
+- **[Технологии]** [Франция запретила соцсети детям до 15 — подросткам этого мало](editions/2026/09-26/02-france-social-media-ban-kids.md)
+- **[Мир]** [Глава властей Йемена призвал к всеобщей мобилизации против хуситов](editions/2026/09-26/03-yemen-houthis-mobilization.md)
+- **[Наука]** [Учёные впервые засняли, как тектоническая плита рвётся на куски у берегов Канады](editions/2026/09-26/04-pacific-northwest-subduction-zone.md)
+- **[Наука]** [CRISPR научили бить по раку крови, не задевая здоровые клетки](editions/2026/09-26/05-crispr-blood-cancer-trial.md)
+- **[Экономика]** [Экономист Банка Англии предложила считать риски жилья не средней ценой, а веером сценариев](editions/2026/09-26/06-uk-housing-market-risk-model.md)
+- **[Культура]** [Азербайджанский роман «My Dreadful Body» переводит телесность в язык — и получает редкие похвалы](editions/2026/09-26/07-dreadful-body-azerbaijan-novel.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
