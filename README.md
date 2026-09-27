@@ -10,21 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №24 / Edition №24 — 2026-09-26** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №25 / Edition №25 — 2026-09-27** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Суд разрешил Трампу «чернить» Anthropic за отказ снимать ограничения с Claude](editions/2026/09-26/01-anthropic-blacklist-court-ruling.md)
-- **[Технологии]** [Франция запретила соцсети детям до 15 — подросткам этого мало](editions/2026/09-26/02-france-social-media-ban-kids.md)
-- **[Мир]** [Глава властей Йемена призвал к всеобщей мобилизации против хуситов](editions/2026/09-26/03-yemen-houthis-mobilization.md)
-- **[Наука]** [Учёные впервые засняли, как тектоническая плита рвётся на куски у берегов Канады](editions/2026/09-26/04-pacific-northwest-subduction-zone.md)
-- **[Наука]** [CRISPR научили бить по раку крови, не задевая здоровые клетки](editions/2026/09-26/05-crispr-blood-cancer-trial.md)
-- **[Экономика]** [Экономист Банка Англии предложила считать риски жилья не средней ценой, а веером сценариев](editions/2026/09-26/06-uk-housing-market-risk-model.md)
-- **[Культура]** [Азербайджанский роман «My Dreadful Body» переводит телесность в язык — и получает редкие похвалы](editions/2026/09-26/07-dreadful-body-azerbaijan-novel.md)
-- **[Мир]** [Военный самолёт рухнул на жилой квартал в Конго — погибли больше десяти человек](editions/2026/09-26/08-dr-congo-plane-crash.md)
-- **[Экономика]** [Индийский миллиардер готовит крупнейшее IPO в Лондоне за много лет](editions/2026/09-26/09-airtel-money-london-ipo.md)
-- **[Наука]** [ЦЕРН начал отключать Большой адронный коллайдер ради магнитов на 40% мощнее](editions/2026/09-26/10-cern-lhc-upgrade-disconnect.md)
-- **[Технологии]** [Присяжные признали Facebook виновной в обмане пользователей по делу Cambridge Analytica](editions/2026/09-26/11-facebook-cambridge-analytica-liable.md)
-- **[ИИ]** [Кто отвечает, если взломал не человек, а ИИ-агент](editions/2026/09-26/12-ai-agents-hacking-accountability.md)
-- **[Мир]** [Верховный суд США заблокировал округа Миссури, перекроенные в пользу Трампа](editions/2026/09-26/13-scotus-missouri-map-blocked.md)
+- **[ИИ]** [OpenAI сама остановила обучение своих самых мощных моделей](editions/2026/09-27/01-openai-training-pause.md)
+- **[Технологии]** [Apple должна выплатить $5,7 млрд за вибрацию в своих устройствах](editions/2026/09-27/02-apple-haptic-patent-damages.md)
+- **[Мир]** [Венесуэла выпустила 39 политзаключённых после переговоров с оппозицией](editions/2026/09-27/03-venezuela-political-prisoners-freed.md)
+- **[Наука]** [Гравитация похожа на голограмму. Что это значит для реальности?](editions/2026/09-27/04-gravity-holographic-quanta.md)
+- **[Экономика]** [Война в Иране толкает цены на дизель в Британии к историческому максимуму](editions/2026/09-27/05-uk-diesel-price-rate-pressure.md)
+- **[Культура]** [Человек по имени Decap — это барабаны за спиной у ваших любимых хитов](editions/2026/09-27/06-decap-drummer-hits.md)
+- **[Мир]** [Демократы готовят «масштабный надзор» за администрацией Трампа — вплоть до импичмента](editions/2026/09-27/07-house-democrats-oversight-impeachment.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
