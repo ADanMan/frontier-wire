@@ -1,29 +1,29 @@
-# frontier-wire — latest edition №25 (2026-09-27)
+# frontier-wire — latest edition №26 (2026-09-28)
 
-## OpenAI pauses training of its most capable models / OpenAI сама остановила обучение своих самых мощных моделей
-rubric: ai · source: https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/01-openai-training-pause.md
+## South Africa saw 27 killed in two separate mass shootings in one weekend / В Южной Африке за одни выходные расстреляли 27 человек — в двух разных местах
+rubric: world · source: https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/01-south-africa-mass-shootings.md
 
-## Apple hit with $5.7 billion in damages over haptic patents / Apple должна выплатить $5,7 млрд за вибрацию в своих устройствах
-rubric: tech · source: https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/02-apple-haptic-patent-damages.md
+## Vučić resigns as Serbia's president — but plans to run for prime minister / Вучич уходит с поста президента Сербии — но метит в премьеры
+rubric: world · source: https://www.dw.com/en/serbian-president-aleksandar-vucic-announces-resignation/a-79450358?maca=en-rss-en-all-1573-rdf
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/02-serbia-vucic-resignation.md
 
-## Venezuela frees 39 political prisoners after post-Maduro talks / Венесуэла выпустила 39 политзаключённых после переговоров с оппозицией
-rubric: world · source: https://www.aljazeera.com/news/2026/9/27/venezuela-frees-39-political-prisoners-after-post-maduro-talks?traffic_source=rss
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/03-venezuela-political-prisoners-freed.md
+## Poland is pouring money into defense. Will its economy thank it or pay for it? / Польша заливает деньгами оборонку. Экономике это поможет или навредит?
+rubric: economy · source: https://www.theguardian.com/world/2026/sep/27/poland-military-spending-economic-growth-economy-defence-boom
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/03-poland-defense-boom-economy.md
 
-## Gravity seems holographic. What does that mean for reality? / Гравитация похожа на голограмму. Что это значит для реальности?
-rubric: science · source: https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/04-gravity-holographic-quanta.md
+## A popular joint supplement is linked to faster progression toward dementia / Популярную добавку для суставов связали с более быстрым развитием деменции
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260927033754.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/04-glucosamine-alzheimers-risk.md
 
-## The Iran war is pushing UK diesel prices toward a record high / Война в Иране толкает цены на дизель в Британии к историческому максимуму
-rubric: economy · source: https://www.theguardian.com/business/live/2026/sep/25/uk-consumer-confidence-burnham-bounce-bank-of-england-oil-inflation-stock-markets-bonds-latest-news-updates
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/05-uk-diesel-price-rate-pressure.md
+## Anthropic's CEO is about to have his first one-on-one dinner with Trump / Глава Anthropic впервые сядет ужинать с Трампом один на один
+rubric: ai · source: https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/05-amodei-trump-dinner.md
 
-## Decap is the man behind the drums behind your favorite song / Человек по имени Decap — это барабаны за спиной у ваших любимых хитов
-rubric: culture · source: https://www.theverge.com/report/1000994/decap-drums-that-knock-interview
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/06-decap-drummer-hits.md
+## 2,300 hours in a baseball sim — and it isn't even MLB The Show / 2300 часов в бейсбольном симуляторе — и это не даже не MLB The Show
+rubric: culture · source: https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/06-ootp-baseball-review.md
 
-## House Democrats plan vast oversight of Trump administration — impeachment is an option / Демократы готовят «масштабный надзор» за администрацией Трампа — вплоть до импичмента
-rubric: world · source: https://www.pbs.org/newshour/politics/house-democrats-plan-vast-oversight-of-trump-administration-impeachment-is-an-option
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-27/07-house-democrats-oversight-impeachment.md
+## Two new species of sea spiders discovered off Canada's coast / У берегов Канады нашли два новых вида морских пауков
+rubric: science · source: https://www.npr.org/2026/09/27/nx-s1-5982026/new-sea-spider-species
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-28/07-sea-spiders-new-species.md

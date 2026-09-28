@@ -2,6 +2,234 @@
 
 
 
+===== EDITION 26 — 2026-09-28 =====
+
+## От редакции
+
+Воскресенье принесло сразу две трагедии в Южной Африке и одну громкую отставку в Европе: президент Сербии Александар Вучич объявил, что уходит, но собирается остаться в политике премьер-министром. Польша заливает деньгами оборонку вдоль границы с Беларусью, и это уже видно в цифрах роста экономики. Учёные пишут, что популярная добавка для суставов глюкозамин связана с более быстрым прогрессированием деменции, а у берегов Канады нашли новых морских пауков. Тем временем глава Anthropic Дарио Амодеи садится ужинать с Трампом в Белом доме — и это тоже часть сегодняшней картины дня.
+
+## Editorial
+
+Sunday brought two tragedies in South Africa and one loud resignation in Europe: Serbian President Aleksandar Vučić announced he's stepping down as president, though he plans to stay in politics as prime minister. Poland keeps pouring money into defense along its border with Belarus, and it already shows up in growth numbers. Scientists report that glucosamine, a popular joint supplement, is linked to faster progression toward dementia, while off Canada's coast researchers found new species of sea spiders. Meanwhile Anthropic's Dario Amodei is sitting down to dinner with Trump at the White House — that's part of today's picture too.
+
+
+----- 01-south-africa-mass-shootings (world) — source: https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town -----
+
+## Русская версия
+
+За одни выходные в Южной Африке произошло два массовых расстрела, унёсших жизни как минимум 27 человек. [Как пишет The Guardian](https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town), 17 человек погибли под Йоханнесбургом — там, по подозрению полиции, конфликт вспыхнул на почве нелегальной добычи золота. Ещё 10 человек застрелили на площадке для барбекю недалеко от Кейптауна — уже в совершенно отдельном инциденте.
+
+Оба города входят в число крупнейших в стране, и то, что трагедии произошли почти одновременно, но никак друг с другом не связаны, само по себе говорит о масштабе проблемы. Южная Африка много лет входит в число стран с самым высоким уровнем насильственных преступлений в мире, а нелегальная добыча золота («зама-зама», как называют старателей-нелегалов) регулярно оборачивается вооружёнными столкновениями между конкурирующими бандами за доступ к заброшенным шахтам.
+
+Стрельба на барбекю в районе Кейптауна пока не получила внятного объяснения — полиция расследует мотив отдельно от йоханнесбургского эпизода. Что объединяет оба случая — это скорость, с которой конфликты выливаются в применение огнестрельного оружия, и практически полное отсутствие эффекта у прежних мер по контролю над оборотом оружия в стране.
+
+Для властей это очередной удар по и так натянутой репутации: полиция Южной Африки уже сталкивается с критикой за неспособность справиться с организованной преступностью вокруг нелегальной добычи полезных ископаемых. Пока конкретных задержанных по обоим делам источники не называют.
+
+### Почему это важно
+
+Когда за один уик-энд в двух разных городах одной страны гибнет почти три десятка человек по совершенно не связанным причинам, это не статистическая аномалия — это симптом системной проблемы с насилием и контролем над нелегальными промыслами. Для Южной Африки это означает новый виток дискуссии о безопасности перед выборами и туристическим сезоном.
+
+## English version
+
+South Africa recorded two unrelated mass shootings over a single weekend, killing at least 27 people. [According to The Guardian](https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town), 17 people died near Johannesburg in what police suspect was violence linked to illegal gold mining. Separately, 10 people were shot dead at a barbecue venue near Cape Town, in a fully distinct incident.
+
+Both cities rank among the country's largest, and the fact that two deadly episodes happened almost simultaneously without any connection to each other underscores the scale of the problem. South Africa has long ranked among the countries with the highest rates of violent crime in the world, and illegal gold mining — carried out by unlicensed miners known locally as "zama-zamas" — regularly triggers armed clashes between rival groups fighting over access to abandoned shafts.
+
+The Cape Town barbecue shooting still lacks a clear motive; police are investigating it separately from the Johannesburg case. What links the two is how quickly disputes escalate into gunfire, and how little effect the country's existing gun-control measures seem to be having.
+
+For authorities, it's another blow to an already strained reputation: South African police face ongoing criticism over their inability to contain organized crime tied to illegal mining. No arrests have been publicly confirmed in either case so far.
+
+### Why it matters
+
+Nearly thirty people killed in one weekend, in two cities, for entirely unrelated reasons — that's not a statistical fluke, it's a symptom of a systemic problem with violence and control over illegal mining operations. For South Africa, it reopens the debate over public safety ahead of elections and the tourist season.
+
+
+----- 02-serbia-vucic-resignation (world) — source: https://www.dw.com/en/serbian-president-aleksandar-vucic-announces-resignation/a-79450358?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Александар Вучич объявил об отставке с поста президента Сербии. [По данным Deutsche Welle](https://www.dw.com/en/serbian-president-aleksandar-vucic-announces-resignation/a-79450358?maca=en-rss-en-all-1573-rdf), уходить из политики он не планирует: Вучич намерен баллотироваться в премьер-министры на внеочередных парламентских выборах, которые назначены на следующий месяц.
+
+Формально это смена должности, а не уход с политической сцены — и именно в этом главная интрига. Вучич возглавлял страну почти десятилетие, пройдя путь от премьера до президента, а теперь готов проделать тот же путь в обратном направлении. Для сербской оппозиции, которая последний год организовывала массовые протесты против его власти, такой манёвр наверняка станет поводом заявить, что реальной перемены власти не будет — просто сменится табличка на двери кабинета.
+
+DW не приводит деталей о том, кто будет исполнять обязанности президента до выборов, и не уточняет, состоится ли одновременно президентская гонка. Но сам факт добровольного ухода с поста, который Вучич занимал с 2017 года, — редкое событие в его политической карьере, обычно строившейся на удержании, а не передаче власти.
+
+Снап-выборы в условиях, когда правящая партия контролирует основные медиа и административный ресурс, редко становятся сюрпризом по исходу — но динамика кампании, в которой действующий президент баллотируется на менее заметный формально пост, будет любопытной сама по себе.
+
+### Почему это важно
+
+Если Вучич действительно готов пересесть в кресло премьера, это будет проверкой на прочность всей архитектуры его власти в Сербии — построена ли она вокруг конкретной должности или вокруг конкретного человека. Ответ на этот вопрос станет ясен уже через месяц.
+
+## English version
+
+Aleksandar Vučić has announced he is stepping down as Serbia's president. [According to Deutsche Welle](https://www.dw.com/en/serbian-president-aleksandar-vucic-announces-resignation/a-79450358?maca=en-rss-en-all-1573-rdf), he isn't leaving politics — Vučić intends to run for prime minister in snap parliamentary elections scheduled for next month.
+
+Technically this is a job change rather than an exit from the political stage, and that's exactly where the intrigue lies. Vučić has led the country for nearly a decade, moving from prime minister to president; now he's set to make that trip in reverse. For Serbia's opposition, which spent the past year organizing mass protests against his rule, the move is likely to be read as proof that no real change of power is coming — just a new nameplate on the office door.
+
+DW doesn't specify who will serve as acting president in the meantime, or whether a presidential race will run in parallel. But the fact that Vučić is voluntarily leaving a post he's held since 2017 is unusual for a career that has generally been about consolidating power, not handing it off.
+
+Snap elections rarely produce surprises when the ruling party controls the main media outlets and state apparatus — but a campaign in which the sitting president runs for a formally less prominent office will be worth watching on its own terms.
+
+### Why it matters
+
+If Vučić genuinely moves into the prime minister's chair, it will test whether his grip on power in Serbia is built around an office or around the man himself. That answer should become clear within a month.
+
+
+----- 03-poland-defense-boom-economy (economy) — source: https://www.theguardian.com/world/2026/sep/27/poland-military-spending-economic-growth-economy-defence-boom -----
+
+## Русская версия
+
+The Guardian [открывает новую серию материалов о польской экономике](https://www.theguardian.com/world/2026/sep/27/poland-military-spending-economic-growth-economy-defence-boom) репортажем из деревни Чосьнув под Варшавой, вдоль реки Висла, — там теперь регулярно проезжают замаскированные ракетные установки. Ещё два года назад, отмечает издание, ничего подобного в этих местах не было.
+
+Центральный вопрос серии сформулирован прямо в заголовке: обгоняющий рост военных расходов Польши — это топливо для экономики или, наоборот, риск для неё. Страна действительно резко нарастила оборонные траты на фоне войны у соседней Украины, и оборонная промышленность стала одним из самых быстрорастущих секторов. Но военные расходы — это не то же самое, что инвестиции в производительность: ракеты не повышают эффективность гражданской экономики так, как это делают, например, дороги или заводы.
+
+The Guardian обещает разобрать эту дилемму подробнее в следующих материалах цикла — пока же деревня Чосьнув служит наглядной метафорой того, как быстро военная логика вошла в повседневную жизнь польской провинции. Ещё недавно тихая точка на карте теперь буквально на линии проезда военной техники.
+
+Для соседей Польши по НАТО и Евросоюзу этот эксперимент важен как ориентир: страна одновременно демонстрирует, что можно резко нарастить оборонный потенциал, оставаясь одной из самых быстрорастущих экономик Европы, — и одновременно рискует показать, во что это в итоге обходится бюджету и гражданским отраслям.
+
+### Почему это важно
+
+Польша — один из немногих примеров страны, которая одновременно воюющая-не-воюющая сторона (по соседству с Украиной) и одна из главных историй экономического роста в Евросоюзе. То, продолжится ли этот рост при нынешнем темпе военных трат, — вопрос не только польский, а показательный для всей Восточной Европы.
+
+## English version
+
+The Guardian [opens a new series on Poland's economy](https://www.theguardian.com/world/2026/sep/27/poland-military-spending-economic-growth-economy-defence-boom) with a dispatch from the village of Czosnów, north of Warsaw along the Vistula river, where camouflaged missile launchers now regularly roll through. As recently as two years ago, the paper notes, nothing like that happened there.
+
+The series' central question is right there in the headline: is Poland's runaway defense spending fueling its economy, or putting it at risk? The country has sharply ramped up military spending as war continues next door in Ukraine, and defense manufacturing has become one of its fastest-growing sectors. But military spending isn't the same as investment in productivity — missiles don't boost the efficiency of a civilian economy the way roads or factories do.
+
+The Guardian promises to dig deeper into that tension in future installments; for now, Czosnów serves as a vivid metaphor for how quickly military logic has entered everyday life in provincial Poland. A quiet spot on the map until recently is now literally on a route for military hardware.
+
+For Poland's NATO and EU neighbors, the experiment matters as a benchmark: the country is simultaneously proving that a state can sharply expand its defense capacity while remaining one of Europe's fastest-growing economies — and risking showing exactly what that ends up costing the budget and civilian industries.
+
+### Why it matters
+
+Poland is one of the rare cases of a country that's both adjacent to a live war and one of the EU's headline growth stories. Whether that growth holds up at the current pace of military spending isn't just a Polish question — it's a bellwether for all of Eastern Europe.
+
+
+----- 04-glucosamine-alzheimers-risk (science) — source: https://www.sciencedaily.com/releases/2026/09/260927033754.htm -----
+
+## Русская версия
+
+Крупный анализ медицинских записей показал: у людей, принимавших глюкозамин — одну из самых популярных добавок для суставов, — риск перехода от лёгких когнитивных нарушений к полноценной деменции оказался на 25% выше. [Как сообщает ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260927033754.htm), лабораторные эксперименты дают этому возможное объяснение: глюкозамин, судя по всему, усиливает аномальный процесс «сахарного мечения» белков в мозге, характерный для болезни Альцгеймера.
+
+Важная оговорка: это не рандомизированное клиническое испытание, а анализ данных большого массива медицинских записей — то есть исследование показывает связь, а не доказанную причинно-следственную связь напрямую у людей. Тем не менее сочетание статистики на людях и механизма, подтверждённого в лабораторных условиях, делает находку весомее, чем просто корреляцию без объяснения.
+
+Глюкозамин — одна из самых широко продаваемых безрецептурных добавок в мире, его принимают миллионы людей с болями в суставах, часто годами и без консультации с врачом именно по этому поводу. Если механизм, который описывают авторы работы, подтвердится в более строгих исследованиях, это может стать поводом для пересмотра рекомендаций — особенно для пожилых людей и тех, у кого уже есть лёгкие когнитивные нарушения.
+
+Пока авторы не называют глюкозамин доказанной причиной Альцгеймера — только фактором, ассоциированным с более быстрым прогрессированием у тех, у кого болезнь уже начала развиваться.
+
+### Почему это важно
+
+Добавка, которую принимают «на всякий случай» без рецепта, оказывается потенциально связана с ускорением одного из самых страшных диагнозов в неврологии. Даже если это не окончательный вердикт, а сигнал для дальнейших исследований, миллионам людей, регулярно покупающим глюкозамин, стоит знать об этой находке.
+
+## English version
+
+A large analysis of health records found that people who took glucosamine — one of the most popular joint supplements on the market — had a 25% higher likelihood of progressing from mild cognitive impairment to full-blown dementia. [According to ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260927033754.htm), lab experiments offer a possible mechanism: glucosamine appears to intensify an abnormal sugar-tagging process affecting proteins in the brain, a process associated with Alzheimer's disease.
+
+An important caveat: this isn't a randomized clinical trial but an analysis of a large body of health records — meaning the study shows an association, not proven direct causation in humans. Still, pairing statistical evidence in people with a mechanism confirmed in the lab makes the finding harder to dismiss as mere correlation.
+
+Glucosamine is one of the most widely sold over-the-counter supplements in the world, taken by millions of people for joint pain, often for years and without consulting a doctor specifically about it. If the mechanism the researchers describe holds up under more rigorous study, it could prompt a rethink of recommendations — particularly for older adults and those already showing mild cognitive impairment.
+
+The authors stop short of calling glucosamine a proven cause of Alzheimer's — only a factor associated with faster progression in people where the disease has already begun.
+
+### Why it matters
+
+A supplement millions of people take casually, without a prescription, turns out to be potentially linked to speeding up one of neurology's most feared diagnoses. Even if this isn't a final verdict but a signal for further research, it's worth knowing for anyone who regularly reaches for glucosamine.
+
+
+----- 05-amodei-trump-dinner (ai) — source: https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss -----
+
+## Русская версия
+
+Глава Anthropic Дарио Амодеи проведёт частный ужин с Дональдом Трампом в Белом доме — [по данным Al Jazeera](https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss), это будет первая личная встреча двух мужчин один на один.
+
+Символизм момента трудно не заметить. Anthropic давно выстраивает публичный образ компании, более осторожной в вопросах безопасности ИИ и военного применения своих моделей, чем конкуренты — вплоть до того, что ограничивает возможности использования Claude для некоторых военных задач. Именно на этой почве недавно возник судебный конфликт: суд признал право Пентагона фактически заблокировать Anthropic за отказ включать определённые функции Claude для военного применения — аргумент судей звучал в том смысле, что «слишком ограниченные модели ИИ» способны сорвать военные операции.
+
+Al Jazeera не приводит деталей повестки самого ужина — источник фиксирует лишь сам факт встречи и то, что она станет первой подобной между Амодеи и Трампом. Но контекст говорит сам за себя: за столом окажутся глава компании, борющейся против военного использования своей технологии в суде, и президент, чья администрация это использование отстаивает.
+
+Для индустрии ИИ подобные встречи давно стали частью нормальной жизни — лидеры лабораторий регулярно появляются в Вашингтоне, лоббируя интересы своих компаний. Но конкретно для Anthropic, которая последовательно позиционирует себя как «более осторожную» лабораторию, личный ужин с Трампом на фоне судебного противостояния выглядит особенно контрастно.
+
+### Почему это важно
+
+Встреча показывает, что даже компании, публично выстраивающие образ жёсткого контроля над военным применением ИИ, не могут позволить себе игнорировать прямой диалог с Белым домом — особенно когда на кону судебное решение, способное определить, кто получит доступ к их технологии.
+
+## English version
+
+Anthropic CEO Dario Amodei will have a private dinner with Donald Trump at the White House — [according to Al Jazeera](https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss), it will be the first one-on-one meeting between the two men.
+
+The symbolism is hard to miss. Anthropic has long cultivated a public image as more cautious than its rivals on AI safety and military use of its models — to the point of restricting certain military applications of Claude. That's exactly the terrain where a recent legal fight erupted: a court ruled the Pentagon can effectively blacklist Anthropic for refusing to enable certain Claude features for military use, with judges reasoning that "overly constrained AI models" could cause military operations to fail.
+
+Al Jazeera doesn't detail the dinner's agenda — the report simply confirms the meeting is happening and that it's the first of its kind between Amodei and Trump. But the context speaks for itself: at the table will be the head of a company fighting military use of its own technology in court, and a president whose administration is defending that very use.
+
+Meetings like this have become routine in the AI industry — lab leaders regularly show up in Washington to lobby for their companies' interests. But for Anthropic specifically, a lab that has consistently branded itself as the more cautious one, a private dinner with Trump amid an active legal standoff lands with a particular kind of irony.
+
+### Why it matters
+
+The meeting shows that even companies that publicly present themselves as tightly controlling military use of AI can't afford to skip a direct dialogue with the White House — especially when a court ruling that could decide who gets access to their technology is still hanging in the balance.
+
+
+----- 06-ootp-baseball-review (culture) — source: https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review -----
+
+## Русская версия
+
+Автор The Verge признаётся: если спросить, в какую игру или серию игр он вложил больше всего времени, ответ окажется неожиданным — не шутер и не RPG, а Out of the Park Baseball (OOTP), нишевый бейсбольный симулятор. [По собственному подсчёту через Steam](https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review), на разные версии OOTP ушло примерно 2300 часов.
+
+OOTP — это не аркадный симулятор вроде MLB The Show или Super Mega Baseball, где вы сами бьёте по мячу и ловите его на поле. Это управленческая игра: вы строите команду, следите за фермерской системой, подписываете контракты, увольняете тренеров — то есть занимаетесь всем, чем занимается настоящий генеральный менеджер клуба, только на экране. И именно это, по мнению автора, делает игру особенно ценной в сезон, когда любимая команда играет плохо: реальные «Метс» могут расстраивать, но виртуальный клуб под вашим управлением — только если вы сами примете неудачное решение.
+
+Жанр менеджерских спортивных симуляторов часто остаётся в тени более зрелищных экшен-версий тех же видов спорта, но именно уют и контроль над процессом — а не над отдельным броском или ударом — делают такие игры «cozy»-жанром в терминологии автора: тем, во что приятно погружаться надолго, без стресса от необходимости побеждать здесь и сейчас.
+
+Материал выходит в разгар обычного бейсбольного сезона, когда болельщики реальных команд переживают взлёты и падения турнирной таблицы, — и служит напоминанием, что фанатский азарт можно удовлетворить и без единого реального броска.
+
+### Почему это важно
+
+История о нишевой менеджерской игре — это, по сути, история о том, как видеоигры конкурируют не только за внимание, но и за эмоции, которые раньше давал только реальный спорт. Когда виртуальный клуб под вашим управлением утешает лучше, чем реальная команда, это говорит что-то важное о том, зачем вообще люди играют в спортивные симуляторы.
+
+## English version
+
+A Verge writer admits that if you asked which game or game series has eaten the most of his time, the answer would be surprising — not a shooter, not an RPG, but Out of the Park Baseball (OOTP), a niche baseball management sim. [By his own Steam count](https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review), he's put roughly 2,300 hours into various editions of OOTP.
+
+OOTP isn't an arcade sim like MLB The Show or Super Mega Baseball, where you swing the bat and field the ball yourself. It's a management game: you build a roster, run a farm system, sign contracts, fire coaches — everything an actual general manager does, just on a screen. And that, the author argues, is exactly what makes it valuable during a season when your favorite team is struggling: the real Mets can disappoint you, but your virtual club only fails if you make a bad call yourself.
+
+Sports management sims often live in the shadow of flashier action versions of the same games, but it's precisely the coziness of controlling a whole process — rather than a single pitch or swing — that makes them what the author calls a "cozy" genre: something to sink into for the long haul, without the stress of needing to win right now.
+
+The piece lands in the middle of an ordinary baseball season, as fans of real teams ride the usual highs and lows of the standings — a reminder that the itch for fandom can be scratched without a single real pitch being thrown.
+
+### Why it matters
+
+A story about a niche management game is really a story about how video games compete not just for attention but for the emotions real sport used to have a monopoly on. When a virtual club you run comforts you better than your actual team does, that says something real about why people play sports sims in the first place.
+
+
+----- 07-sea-spiders-new-species (science) — source: https://www.npr.org/2026/09/27/nx-s1-5982026/new-sea-spider-species -----
+
+## Русская версия
+
+Учёные обнаружили два новых вида морских пауков вдоль побережья Канады. [Как сообщает NPR](https://www.npr.org/2026/09/27/nx-s1-5982026/new-sea-spider-species), на сегодняшний день наукой описано уже более 1300 видов этих существ.
+
+Морские пауки (пикногониды) — это не настоящие пауки, а отдельная древняя группа членистоногих, обитающая практически во всех океанах планеты, от мелководья до глубоководных впадин. Несмотря на то что группа изучается уже больше века, новые виды продолжают находить регулярно — что само по себе говорит о том, насколько малоизучены прибрежные и донные экосистемы даже в относительно доступных для науки регионах вроде канадского побережья.
+
+NPR не приводит подробностей о размере, окраске или конкретном месте находки новых видов — источник ограничивается фактом открытия и общим числом описанных на сегодня видов. Тем не менее сама новость вписывается в устойчивую тенденцию: морская биология продолжает пополнять список известных видов даже в хорошо изученных с виду акваториях.
+
+Для систематиков каждый новый вид — это не просто галочка в каталоге, а дополнительная точка данных для понимания того, как разные линии пикногонид распространялись по океанам и адаптировались к разным глубинам и температурам.
+
+### Почему это важно
+
+Тот факт, что у побережья развитой страны с активным научным сообществом продолжают находить неизвестные виды, — хорошее напоминание: океан остаётся куда менее изученным, чем кажется, и разнообразие морской жизни продолжает удивлять даже в местах, которые давно считаются «нанесёнными на карту».
+
+## English version
+
+Scientists have discovered two new species of sea spiders along the coastline of Canada. [According to NPR](https://www.npr.org/2026/09/27/nx-s1-5982026/new-sea-spider-species), more than 1,300 species of these creatures have now been identified by science.
+
+Sea spiders, or pycnogonids, aren't true spiders but a distinct and ancient group of arthropods found in nearly every ocean on the planet, from shallow water to deep-sea trenches. Even though the group has been studied for more than a century, new species keep turning up — a sign of just how little we still know about coastal and seafloor ecosystems, even in regions that are relatively accessible to science, like Canada's coast.
+
+NPR doesn't detail the size, coloring, or exact location of the new finds — the report is limited to the discovery itself and the current total count of described species. Still, the news fits a persistent pattern: marine biology keeps adding to the list of known species even in waters that look well-studied on the surface.
+
+For taxonomists, each new species isn't just a checkmark in a catalog — it's another data point for understanding how different pycnogonid lineages spread across the oceans and adapted to different depths and temperatures.
+
+### Why it matters
+
+The fact that unknown species keep turning up off the coast of a developed country with an active scientific community is a good reminder: the ocean remains far less understood than it looks, and marine biodiversity keeps surprising us even in places long assumed to be "mapped."
+
+
 ===== EDITION 25 — 2026-09-27 =====
 
 ## От редакции

@@ -10,15 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №25 / Edition №25 — 2026-09-27** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №26 / Edition №26 — 2026-09-28** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [OpenAI сама остановила обучение своих самых мощных моделей](editions/2026/09-27/01-openai-training-pause.md)
-- **[Технологии]** [Apple должна выплатить $5,7 млрд за вибрацию в своих устройствах](editions/2026/09-27/02-apple-haptic-patent-damages.md)
-- **[Мир]** [Венесуэла выпустила 39 политзаключённых после переговоров с оппозицией](editions/2026/09-27/03-venezuela-political-prisoners-freed.md)
-- **[Наука]** [Гравитация похожа на голограмму. Что это значит для реальности?](editions/2026/09-27/04-gravity-holographic-quanta.md)
-- **[Экономика]** [Война в Иране толкает цены на дизель в Британии к историческому максимуму](editions/2026/09-27/05-uk-diesel-price-rate-pressure.md)
-- **[Культура]** [Человек по имени Decap — это барабаны за спиной у ваших любимых хитов](editions/2026/09-27/06-decap-drummer-hits.md)
-- **[Мир]** [Демократы готовят «масштабный надзор» за администрацией Трампа — вплоть до импичмента](editions/2026/09-27/07-house-democrats-oversight-impeachment.md)
+- **[Мир]** [В Южной Африке за одни выходные расстреляли 27 человек — в двух разных местах](editions/2026/09-28/01-south-africa-mass-shootings.md)
+- **[Мир]** [Вучич уходит с поста президента Сербии — но метит в премьеры](editions/2026/09-28/02-serbia-vucic-resignation.md)
+- **[Экономика]** [Польша заливает деньгами оборонку. Экономике это поможет или навредит?](editions/2026/09-28/03-poland-defense-boom-economy.md)
+- **[Наука]** [Популярную добавку для суставов связали с более быстрым развитием деменции](editions/2026/09-28/04-glucosamine-alzheimers-risk.md)
+- **[ИИ]** [Глава Anthropic впервые сядет ужинать с Трампом один на один](editions/2026/09-28/05-amodei-trump-dinner.md)
+- **[Культура]** [2300 часов в бейсбольном симуляторе — и это не даже не MLB The Show](editions/2026/09-28/06-ootp-baseball-review.md)
+- **[Наука]** [У берегов Канады нашли два новых вида морских пауков](editions/2026/09-28/07-sea-spiders-new-species.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
