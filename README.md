@@ -10,15 +10,14 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №26 / Edition №26 — 2026-09-28** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №27 / Edition №27 — 2026-09-29** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [В Южной Африке за одни выходные расстреляли 27 человек — в двух разных местах](editions/2026/09-28/01-south-africa-mass-shootings.md)
-- **[Мир]** [Вучич уходит с поста президента Сербии — но метит в премьеры](editions/2026/09-28/02-serbia-vucic-resignation.md)
-- **[Экономика]** [Польша заливает деньгами оборонку. Экономике это поможет или навредит?](editions/2026/09-28/03-poland-defense-boom-economy.md)
-- **[Наука]** [Популярную добавку для суставов связали с более быстрым развитием деменции](editions/2026/09-28/04-glucosamine-alzheimers-risk.md)
-- **[ИИ]** [Глава Anthropic впервые сядет ужинать с Трампом один на один](editions/2026/09-28/05-amodei-trump-dinner.md)
-- **[Культура]** [2300 часов в бейсбольном симуляторе — и это не даже не MLB The Show](editions/2026/09-28/06-ootp-baseball-review.md)
-- **[Наука]** [У берегов Канады нашли два новых вида морских пауков](editions/2026/09-28/07-sea-spiders-new-species.md)
+- **[ИИ]** [OpenAI сама остановила выпуск GPT-6.1 Astra](editions/2026/09-29/01-openai-astra-safety-pause.md)
+- **[Мир]** [В Конго убили политика за призыв беречься от Эболы](editions/2026/09-29/02-drc-politician-ebola-killed.md)
+- **[Мир]** [Венгрия сняла неприкосновенность с действующего премьера](editions/2026/09-29/03-hungary-lifts-magyar-immunity.md)
+- **[Экономика]** [США и Китай снижают пошлины — но не на самое важное](editions/2026/09-29/04-china-us-tariff-cuts.md)
+- **[Наука]** [Математики закрыли гипотезу, которой было 55 лет](editions/2026/09-29/05-juggling-conjecture-solved.md)
+- **[Культура]** [Умер Майти Спэрроу — король калипсо](editions/2026/09-29/06-mighty-sparrow-calypso-king-dies.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
