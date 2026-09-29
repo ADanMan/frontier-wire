@@ -179,6 +179,141 @@ Neither source offers details on the cause of death or the circumstances of his 
 The death of an artist known as the king of an entire musical genre isn't just a cultural loss — it's a reason to remember calypso as a form of public commentary that predates modern satire and social music by decades. Sparrow's legacy is that a tradition which began locally in Trinidad became recognizable worldwide.
 
 
+----- 07-south-africa-mass-shootings (world) — source: https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town -----
+
+## Русская версия
+
+Полиция ЮАР сообщила о гибели не менее 27 человек в двух отдельных перестрелках возле крупнейших городов страны за одни выходные. Об этом пишет [The Guardian](https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town).
+
+Под Йоханнесбургом погибли 17 человек — по данным полиции, это последствия разборки вокруг нелегальной добычи золота, так называемой «территориальной войны» между группировками, контролирующими заброшенные шахты. Отдельно, у места, где собрались люди на барбекю неподалёку от Кейптауна, застрелили ещё 10 человек. Два инцидента никак не связаны между собой ни по мотиву, ни по участникам — просто совпали по времени.
+
+Для страны, где насилие с применением огнестрельного оружия давно остаётся хронической проблемой, такие цифры за один уик-энд — не рядовая сводка, а очередное напоминание о том, что государство не контролирует ни нелегальную добычу полезных ископаемых, ни оборот оружия на бытовом уровне. Йоханнесбургский эпизод показывает, как экономика без работы и надзора превращается в вооружённый бизнес: заброшенные шахты стали ареной для группировок, которые борются за доступ к золоту с оружием в руках, а не через суд. Кейптаунский случай — совсем другая история, ближе к бытовому насилию, которое в ЮАР тоже происходит на пугающе высоком уровне.
+
+### Почему это важно
+
+Когда два несвязанных инцидента за один уик-энд суммарно уносят почти три десятка жизней, это не статистическая аномалия, а слепок системной проблемы — от нелегальной добычи золота до доступности оружия. Для властей ЮАР это очередной повод объяснить, почему прежние обещания навести порядок в старых шахтах и с частным оружием пока не работают.
+
+## English version
+
+South African police say at least 27 people were killed in two unrelated shootings near the country's two biggest cities over a single weekend. [The Guardian](https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town) has the details.
+
+Near Johannesburg, 17 people died in what police describe as a turf war over illegal gold mining — rival groups fighting for control of abandoned mine shafts. Separately, near Cape Town, 10 people were shot dead at a gathering where people had come together for a barbecue. The two incidents share no motive and no participants; they simply happened at the same time.
+
+For a country where gun violence is already a chronic problem, a weekend like this isn't a routine crime-blotter entry — it's a reminder of how little control the state has over both illegal mining and everyday access to firearms. The Johannesburg case shows how an economy without formal jobs or oversight turns into an armed business: abandoned shafts have become a battleground where groups settle access to gold with guns rather than courts. The Cape Town case is a different story altogether, closer to the kind of everyday armed violence that already runs at alarmingly high levels in South Africa.
+
+### Why it matters
+
+Two unconnected incidents killing nearly three dozen people in a single weekend isn't a statistical blip — it's a snapshot of a systemic problem, from illegal gold mining to loose gun access. For South African authorities, it's one more case to explain why past promises to clean up abandoned mines and rein in firearms still aren't holding.
+
+
+----- 08-florida-sues-openai-frontier-ai (ai) — source: https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/ -----
+
+## Русская версия
+
+Власти штата Флорида обратились в суд с требованием приостановить работу OpenAI над передовыми моделями, используя аргумент об экзистенциальном риске для человечества. Об этом сообщает [Ars Technica](https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/): в исковых материалах большие языковые модели названы «величайшей общественной опасностью из когда-либо созданных».
+
+Формулировка юристов Флориды звучит намеренно жёстко: речь не о нарушении конкретного закона о защите данных или потребителей, а о категории «public nuisance» — общественной опасности, угрожающей всем без разбора. По сути, штат просит суд признать, что сама скорость, с которой OpenAI двигает границы возможностей своих моделей, представляет угрозу, достаточную для судебного вмешательства ещё до того, как случится конкретный вред.
+
+Любопытно, что иск появился в тот же день, когда сама OpenAI объявила об отмене релиза новой модели GPT-6.1 Astra — по собственной оценке компании, та не прошла внутренние проверки на безопасность. С одной стороны, это можно преподнести как довод в пользу OpenAI: компания сама тормозит там, где видит риск, значит, внутренний контроль работает. С другой — юристов Флориды это едва ли убедит: если модель может не пройти проверку безопасности, значит, до этого момента она вполне могла её и пройти, а следующая уже не остановится.
+
+### Почему это важно
+
+Иск Флориды — из тех, что редко выигрывают в суде именно так, как сформулированы, но задают тон дискуссии: регуляторы всё активнее пробуют язык «экзистенциального риска» как юридический инструмент, а не только как тему конференций. Одновременная новость об отмене релиза Astra превращает это скорее в спор о том, кто должен решать, где проходит грань безопасности — сама компания или суд.
+
+## English version
+
+Florida's state government has asked a court to halt OpenAI's work on frontier AI models, leaning on the argument that the technology poses an existential risk to humanity. [Ars Technica](https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/) reports the filing describes large language models as "the greatest public nuisance ever created."
+
+The framing is deliberately blunt: this isn't a claim about a specific data-privacy or consumer-protection violation, but a "public nuisance" argument — the idea that the pace at which OpenAI pushes the capability frontier is itself dangerous enough to warrant a court stepping in before any specific harm occurs.
+
+The timing is notable. The filing landed the same day OpenAI itself announced it was scrapping the release of its new GPT-6.1 Astra model, saying by its own account that the model failed internal safety checks. You could read that either way: as evidence OpenAI's internal safeguards work, since the company pulled the plug on itself — or as exactly the kind of near-miss that makes Florida's case for outside oversight, since a model that can fail a safety check could just as easily have passed one that shouldn't have.
+
+### Why it matters
+
+Lawsuits framed around existential risk rarely win on those exact terms, but they shift the conversation: "existential risk" language is increasingly being tested as a legal tool, not just a talking point at AI safety conferences. Paired with OpenAI's own Astra pullback on the same day, the real question becomes who gets to decide where the safety line sits — the lab itself, or a court.
+
+
+----- 09-is-the-universe-infinite (science) — source: https://www.sciencedaily.com/releases/2026/09/260927225041.htm -----
+
+## Русская версия
+
+Измерения древнего света от реликтового излучения — того самого фонового сияния, оставшегося от ранней Вселенной, — показывают, что космос устроен геометрически почти идеально плоско. Об этом пишет [ScienceDaily](https://www.sciencedaily.com/releases/2026/09/260927225041.htm). Казалось бы, отсюда напрашивается вывод: раз пространство плоское, оно должно быть бесконечным. Но это не так.
+
+Дело в разнице между «плоским» и «бесконечным» — понятиями, которые в быту сливаются, а в космологии описывают совершенно разные вещи. Плоскостность говорит о локальной геометрии пространства: параллельные линии в нём не сходятся и не расходятся, как на обычной школьной плоскости, а не на сфере или седле. Но у плоского пространства всё равно может быть конечный объём, если оно топологически замкнуто само на себя — как поверхность бублика, только в большем числе измерений. Дополнительная сложность в том, что вся наша наблюдаемая Вселенная — это лишь маленький участок гораздо большего (и, возможно, искривлённого) космоса, границы которого мы физически не можем увидеть, потому что свет от них ещё не успел до нас дойти.
+
+Получается, что вопрос «бесконечна ли Вселенная» — это не столько вопрос про измерения, сколько вопрос про то, что находится за пределами того, что мы вообще способны измерить. Наука здесь упирается не в отсутствие данных, а в принципиальный горизонт наблюдаемости: даже идеально точный прибор не увидит того, что находится дальше, чем успел долететь свет с момента Большого взрыва.
+
+### Почему это важно
+
+Это редкий случай, когда самый интуитивно понятный вопрос о мире («оно бесконечное или нет?») наука пока не может закрыть в принципе — не из-за нехватки технологий, а из-за устройства самого пространства-времени. Хороший повод развидеть популярный миф о том, что «плоская Вселенная» автоматически означает «бесконечная Вселенная».
+
+## English version
+
+Measurements of the cosmic microwave background — the afterglow of the early universe — show that the cosmos is geometrically about as flat as it gets, [ScienceDaily reports](https://www.sciencedaily.com/releases/2026/09/260927225041.htm). It's tempting to conclude that flat automatically means infinite. It doesn't.
+
+The catch is the gap between "flat" and "infinite" — two words that blur together in everyday speech but describe entirely different things in cosmology. Flatness is about local geometry: parallel lines neither converge nor diverge, the way they would on a sphere or a saddle. But flat space can still have a finite volume if it's topologically closed in on itself — like the surface of a doughnut, just in more dimensions. There's a further wrinkle: the observable universe is only a small patch of a much larger — and possibly curved — cosmos, and we can't physically see past its edge, because light from beyond it simply hasn't had time to reach us yet.
+
+So the question "is the universe infinite" turns out to be less about measurement precision and more about what lies beyond what we're able to measure at all. Science isn't stuck here for lack of data — it's stuck at a genuine observability horizon: even a perfect instrument can't see further than light has traveled since the Big Bang.
+
+### Why it matters
+
+This is a rare case where the most intuitive question you can ask about the universe — is it infinite or not — can't be settled by science even in principle, not because of missing technology but because of how spacetime itself is built. Worth remembering next time "the universe is flat" gets casually translated into "the universe is infinite."
+
+
+----- 10-healey-reindustrialise-britain (economy) — source: https://www.theguardian.com/politics/2026/sep/28/john-healey-fiscal-rules-budget-hope -----
+
+## Русская версия
+
+Канцлер казначейства Великобритании Джон Хили выступил с первой партийной конференц-речью в новой должности, пообещав «реиндустриализировать Британию» и при этом не выходить за рамки фискальных правил. Об этом пишет [The Guardian](https://www.theguardian.com/politics/2026/sep/28/john-healey-fiscal-rules-budget-hope). Бюджет он представит примерно через месяц.
+
+Хили анонсировал пакет мер: реформу системы социальных пособий и новую программу ученичества — как способ поддержать занятость и экономический рост. Риторически это укладывается в привычную для лейбористов формулу «работа и производство вместо раздачи денег». Проблема в другом: как отмечает сама Guardian в отдельном разборе речи, канцлер дал мало ясности, откуда возьмутся средства на реиндустриализацию — обещания звучат оптимистично, а вопрос финансирования остаётся открытым буквально за месяц до того, как это придётся объяснять цифрами в бюджете.
+
+Это классическая ловушка для любого канцлера перед бюджетом: партийная речь должна вдохновлять однопартийцев и избирателей, а не пугать их деталями о повышении налогов или сокращении расходов. Но чем ближе сам бюджет, тем очевиднее разрыв между лозунгом «реиндустриализируем Британию» и реальными источниками денег на это — тем более если параллельно объявлено сохранение фискальных правил, которые как раз и ограничивают пространство для манёвра.
+
+### Почему это важно
+
+Обещания реиндустриализации без ответа на вопрос «за чей счёт» — сигнал не столько экономической программы, сколько политической необходимости выступить с оптимистичной речью на партийной конференции. Настоящая проверка придёт через месяц, когда придётся заполнить эти обещания конкретными цифрами бюджета.
+
+## English version
+
+UK Chancellor John Healey used his first party conference speech in the role to promise he'll "reindustrialise Britain" while sticking to the government's fiscal rules, [The Guardian reports](https://www.theguardian.com/politics/2026/sep/28/john-healey-fiscal-rules-budget-hope). The actual budget is about a month away.
+
+Healey signalled a welfare reform push and a new apprenticeships scheme, framed as measures to support jobs and growth — a familiar Labour formula of "production over handouts." The catch, as the Guardian's own analysis of the speech points out, is that Healey offered little clarity on where the money for reindustrialisation will actually come from. The rhetoric is upbeat; the funding question is still open, with only a month left before it has to show up as real numbers in the budget.
+
+It's a familiar trap for any chancellor ahead of a budget: a conference speech is meant to energise the party faithful, not alarm them with the details of tax rises or spending cuts. But the closer the real budget gets, the harder it is to paper over the gap between "we will reindustrialise Britain" and where the money actually comes from — especially while simultaneously promising to keep the fiscal rules that constrain how much room there is to manoeuvre.
+
+### Why it matters
+
+A reindustrialisation pledge with no answer to "paid for by whom" reads less like an economic programme and more like the political necessity of sounding upbeat at a party conference. The real test comes in a month, when those promises have to be translated into actual budget numbers.
+
+
+----- 11-sotoudeh-havel-prize (world) — source: https://www.dw.com/en/iranian-human-rights-lawyer-nasrin-sotoudeh-wins-the-2026-vaclav-havel-human-rights-prize/a-79462111?maca=en-rss-en-all-1573-rdf -----
+
+## Русская версия
+
+Совет Европы присудил иранской правозащитнице и адвокату Насрин Сотудэ премию имени Вацлава Гавела за 2026 год. Об этом сообщает [DW](https://www.dw.com/en/iranian-human-rights-lawyer-nasrin-sotoudeh-wins-the-2026-vaclav-havel-human-rights-prize/a-79462111?maca=en-rss-en-all-1573-rdf). Формулировка награды — за многолетнюю защиту прав женщин, детей и политических заключённых в Иране.
+
+Премия имени Вацлава Гавела — одна из наиболее известных европейских наград в области прав человека, и то, что в этом году её получает именно адвокат, а не публичный политик или писатель, само по себе показательно: Сотудэ известна не заявлениями, а конкретной юридической работой — представительством конкретных людей в конкретных делах, там, где государственная система защиты прав де-факто не работает.
+
+Для Ирана, где правозащитная деятельность регулярно оборачивается уголовным преследованием самих правозащитников, любое международное признание такого рода — это не только моральная поддержка, но и своего рода щит: чем заметнее имя адвоката на международной арене, тем дороже властям обходится любое давление на неё.
+
+### Почему это важно
+
+Награждение подчёркивает то, что часто теряется в новостях о геополитике вокруг Ирана: внутри страны продолжается системная юридическая борьба за права конкретных людей, которую годами ведут местные адвокаты — с гораздо меньшим медийным вниманием, чем к дипломатии вокруг ядерной программы.
+
+## English version
+
+The Council of Europe has awarded the 2026 Vaclav Havel Human Rights Prize to Iranian lawyer and rights advocate Nasrin Sotoudeh, [DW reports](https://www.dw.com/en/iranian-human-rights-lawyer-nasrin-sotoudeh-wins-the-2026-vaclav-havel-human-rights-prize/a-79462111?maca=en-rss-en-all-1573-rdf). The citation recognises her work defending the rights of women, children and political prisoners in Iran.
+
+The Vaclav Havel prize is one of Europe's best-known human rights awards, and it's notable that this year it goes to a lawyer rather than a public politician or writer: Sotoudeh is known not for statements but for concrete legal work — representing specific people in specific cases, in a system where formal rights protections often don't function in practice.
+
+In Iran, where human rights work regularly leads to prosecution of the rights defenders themselves, international recognition like this functions as more than moral support — it acts as a kind of shield. The more visible a lawyer's name becomes internationally, the higher the cost of any pressure the state puts on her.
+
+### Why it matters
+
+The award highlights something that often gets lost in headlines about Iran's geopolitics: a systemic legal fight for individual rights continues inside the country, carried out by local lawyers with far less media attention than the diplomacy around Iran's nuclear programme gets.
+
+
 ===== EDITION 26 — 2026-09-28 =====
 
 ## От редакции
