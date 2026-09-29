@@ -24,22 +24,18 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 rubric: culture · source: https://globalvoices.org/2026/09/28/bye-bye-birdie-the-calypso-king-of-the-world-dies-at-91/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/06-mighty-sparrow-calypso-king-dies.md
 
-## 27 dead in two unrelated mass shootings in South Africa over one weekend / В ЮАР за один уик-энд застрелили 27 человек — в двух разных местах и по разным причинам
-rubric: world · source: https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/07-south-africa-mass-shootings.md
-
 ## Florida goes to court to halt OpenAI's frontier AI work, calling LLMs a "public nuisance / Флорида судится с OpenAI: языковые модели — «величайшая общественная опасность из когда-либо созданных»
 rubric: ai · source: https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/08-florida-sues-openai-frontier-ai.md
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/07-florida-sues-openai-frontier-ai.md
 
 ## The universe measures out flat — that still doesn't mean it's infinite / Вселенная плоская — но это ещё не значит, что она бесконечная
 rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260927225041.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/09-is-the-universe-infinite.md
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/08-is-the-universe-infinite.md
 
 ## UK's Healey vows to "reindustrialise Britain" — without saying how he'll pay for it / Канцлер Хили обещает «реиндустриализировать Британию» — но не говорит, на какие деньги
 rubric: economy · source: https://www.theguardian.com/politics/2026/sep/28/john-healey-fiscal-rules-budget-hope
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/10-healey-reindustrialise-britain.md
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/09-healey-reindustrialise-britain.md
 
 ## Iranian human rights lawyer Nasrin Sotoudeh wins the Vaclav Havel prize / Иранского адвоката по правам человека Насрин Сотудэ наградили премией имени Вацлава Гавела
 rubric: world · source: https://www.dw.com/en/iranian-human-rights-lawyer-nasrin-sotoudeh-wins-the-2026-vaclav-havel-human-rights-prize/a-79462111?maca=en-rss-en-all-1573-rdf
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/11-sotoudeh-havel-prize.md
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/10-sotoudeh-havel-prize.md

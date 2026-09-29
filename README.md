@@ -18,11 +18,10 @@
 - **[Экономика]** [США и Китай снижают пошлины — но не на самое важное](editions/2026/09-29/04-china-us-tariff-cuts.md)
 - **[Наука]** [Математики закрыли гипотезу, которой было 55 лет](editions/2026/09-29/05-juggling-conjecture-solved.md)
 - **[Культура]** [Умер Майти Спэрроу — король калипсо](editions/2026/09-29/06-mighty-sparrow-calypso-king-dies.md)
-- **[Мир]** [В ЮАР за один уик-энд застрелили 27 человек](editions/2026/09-29/07-south-africa-mass-shootings.md)
-- **[ИИ]** [Флорида судится с OpenAI из-за рисков вымирания человечества](editions/2026/09-29/08-florida-sues-openai-frontier-ai.md)
-- **[Наука]** [Вселенная плоская — но не факт, что бесконечная](editions/2026/09-29/09-is-the-universe-infinite.md)
-- **[Экономика]** [Канцлер Хили обещает реиндустриализировать Британию](editions/2026/09-29/10-healey-reindustrialise-britain.md)
-- **[Мир]** [Иранского адвоката Насрин Сотудэ наградили премией имени Гавела](editions/2026/09-29/11-sotoudeh-havel-prize.md)
+- **[ИИ]** [Флорида судится с OpenAI из-за рисков вымирания человечества](editions/2026/09-29/07-florida-sues-openai-frontier-ai.md)
+- **[Наука]** [Вселенная плоская — но не факт, что бесконечная](editions/2026/09-29/08-is-the-universe-infinite.md)
+- **[Экономика]** [Канцлер Хили обещает реиндустриализировать Британию](editions/2026/09-29/09-healey-reindustrialise-britain.md)
+- **[Мир]** [Иранского адвоката Насрин Сотудэ наградили премией имени Гавела](editions/2026/09-29/10-sotoudeh-havel-prize.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
