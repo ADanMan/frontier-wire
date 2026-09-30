@@ -1,41 +1,29 @@
-# frontier-wire — latest edition №27 (2026-09-29)
+# frontier-wire — latest edition №28 (2026-09-30)
 
-## OpenAI pulled its own model over safety concerns / OpenAI сама остановила выпуск GPT-6.1 Astra
-rubric: ai · source: https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/01-openai-astra-safety-pause.md
+## Morocco gets its first woman prime minister / Марокко впервые в истории возглавила женщина
+rubric: world · source: https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/01-morocco-first-woman-pm.md
 
-## A DRC politician was killed for urging people to protect against Ebola / В Конго убили политика за призыв беречься от Эболы
-rubric: world · source: https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/02-drc-politician-ebola-killed.md
+## Trump tells the US government to stop saying "artificial intelligence / Трамп запретил чиновникам говорить «искусственный интеллект»
+rubric: ai · source: https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/02-trump-superintelligence-order.md
 
-## Hungary strips immunity from its sitting prime minister / Венгрия сняла неприкосновенность с действующего премьера
-rubric: world · source: https://www.aljazeera.com/news/2026/9/29/hungary-lifts-immunity-of-prime-minister-magyar-two-orban-era-ministers
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/03-hungary-lifts-magyar-immunity.md
+## The ice blasting off Enceladus is stranger than scientists realized / Лёд Энцелада странее, чем считали учёные
+rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260929053528.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/03-enceladus-ice-chemistry.md
 
-## The US and China are cutting tariffs — on everything but what matters most / США и Китай снижают пошлины — но не на самое важное
-rubric: economy · source: https://www.theguardian.com/business/2026/sep/28/china-and-us-cut-reciprocal-tariffs
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/04-china-us-tariff-cuts.md
+## The UK is paying more on 10-year debt than at any point since 1999 / Британия платит по 10-летним долгам больше, чем с 1999 года
+rubric: economy · source: https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/04-uk-mortgages-bond-auction.md
 
-## Mathematicians crack a 55-year-old conjecture / Математики закрыли гипотезу, которой было 55 лет
-rubric: science · source: https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/05-juggling-conjecture-solved.md
+## A London stage turns economist John Maynard Keynes into flesh and blood / В лондонском театре экономиста Кейнса сыграли как живого человека
+rubric: culture · source: https://www.theguardian.com/stage/2026/sep/30/the-standard-of-living-review-rory-kinnear-theatre-royal-haymarket-london-james-graham-nicholas-hytner
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/05-standard-of-living-keynes-play.md
 
-## Mighty Sparrow, the King of Calypso, has died / Умер Майти Спэрроу — король калипсо
-rubric: culture · source: https://globalvoices.org/2026/09/28/bye-bye-birdie-the-calypso-king-of-the-world-dies-at-91/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/06-mighty-sparrow-calypso-king-dies.md
+## Dutch police arrest suspected leader of hacking group ShinyHunters / В Нидерландах задержали предполагаемого лидера хакерской группы ShinyHunters
+rubric: tech · source: https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/06-shinyhunters-arrest.md
 
-## Florida goes to court to halt OpenAI's frontier AI work, calling LLMs a "public nuisance / Флорида судится с OpenAI: языковые модели — «величайшая общественная опасность из когда-либо созданных»
-rubric: ai · source: https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/07-florida-sues-openai-frontier-ai.md
-
-## The universe measures out flat — that still doesn't mean it's infinite / Вселенная плоская — но это ещё не значит, что она бесконечная
-rubric: science · source: https://www.sciencedaily.com/releases/2026/09/260927225041.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/08-is-the-universe-infinite.md
-
-## UK's Healey vows to "reindustrialise Britain" — without saying how he'll pay for it / Канцлер Хили обещает «реиндустриализировать Британию» — но не говорит, на какие деньги
-rubric: economy · source: https://www.theguardian.com/politics/2026/sep/28/john-healey-fiscal-rules-budget-hope
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/09-healey-reindustrialise-britain.md
-
-## Iranian human rights lawyer Nasrin Sotoudeh wins the Vaclav Havel prize / Иранского адвоката по правам человека Насрин Сотудэ наградили премией имени Вацлава Гавела
-rubric: world · source: https://www.dw.com/en/iranian-human-rights-lawyer-nasrin-sotoudeh-wins-the-2026-vaclav-havel-human-rights-prize/a-79462111?maca=en-rss-en-all-1573-rdf
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-29/10-sotoudeh-havel-prize.md
+## Cape Town can't agree on what to do about its baboons / Кейптаун не может решить, что делать с бабуинами в городе
+rubric: world · source: https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/09-30/07-cape-town-baboons.md

@@ -2,6 +2,206 @@
 
 
 
+===== EDITION 28 — 2026-09-30 =====
+
+## От редакции
+
+Сегодняшний день — про то, как власть переназывает вещи, а мир вокруг продолжает жить по-своему. Марокко впервые в истории получило женщину-премьера, а Вашингтон тем временем учит чиновников не произносить словосочетание «искусственный интеллект». На этом фоне — Сатурн разбрызгивает лёд с химией, которую никто толком не объяснил, тихие цифры про британскую ипотеку, вечер в театре с Кейнсом в главной роли и, наконец, пойманный хакер.
+
+## Editorial
+
+Today is about power renaming things while the world keeps doing its own thing. Morocco got its first woman prime minister, while Washington is teaching officials to stop saying "artificial intelligence" out loud. Meanwhile Saturn keeps spraying out ice chemistry nobody has fully explained, UK mortgage numbers quietly worsen, a theatre in London puts Keynes centre stage, and police finally catch up with an alleged hacker.
+
+
+----- 01-morocco-first-woman-pm (world) — source: https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722 -----
+
+## Русская версия
+
+Король Марокко Мохаммед VI назначил Фатиму Захру Мансури премьер-министром страны — впервые в её истории этот пост займёт женщина. Назначение стало прямым следствием результатов недавних парламентских выборов: [партия Мансури, правоцентристская, победила на них на прошлой неделе](https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722). До этого она несколько лет была мэром Марракеша — города, который знают, наверное, все, кто хоть раз листал каталог путешествий по Северной Африке.
+
+По марокканской конституции король формально назначает премьера, но обязан выбирать кандидата от партии-победителя парламентских выборов — то есть само по себе назначение не сенсация, а вот то, что победившая партия выдвинула женщину, а король это утвердил, для региона куда заметнее. Мансури предстоит теперь формировать правительство — задача, где реальная политика начинается уже после красивой новости о «первой».
+
+Стоит держать в голове контекст: марокканское общество за последние годы явно двигалось в сторону присутствия женщин в публичной власти — но пост главы правительства в арабском мире по-прежнему редкость для женщин, и то, как Мансури распорядится этим мандатом в первые месяцы, будет куда важнее самого факта назначения.
+
+### Почему это важно
+
+Женщина во главе правительства арабской монархии — редкость, которая обычно значит больше как символ, чем как гарантия перемен в политике. Дальше важно смотреть не на титул, а на то, что реально изменится в кабинете министров.
+
+## English version
+
+Morocco's King Mohammed VI has appointed Fatima Zahra Mansouri as the country's prime minister — the first woman to hold the post in its history. The move follows [her centre-right party's win in last week's parliamentary elections](https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722); before this, Mansouri served as mayor of Marrakesh, one of the country's best-known cities.
+
+Under Morocco's constitution the king formally appoints the prime minister, but is bound to pick from the winning party — so the appointment itself isn't the surprise. What stands out is that the winning party ran a woman at the top and the king confirmed her. Mansouri now has to actually build a government, which is where the real test starts, well past the "first woman" headline.
+
+Worth keeping in mind: Moroccan public life has been visibly shifting toward more women in politics for years, but heading a government is still rare for a woman anywhere in the Arab world. What Mansouri does with the mandate in her first months will matter far more than the appointment itself.
+
+### Why it matters
+
+A woman leading the government of an Arab monarchy is a rare symbol — but a symbol is not a guarantee of policy change. What happens inside the cabinet next is the real story.
+
+
+----- 02-trump-superintelligence-order (ai) — source: https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai -----
+
+## Русская версия
+
+Президент США Дональд Трамп подписал указ, который запрещает исполнительной власти использовать словосочетание «искусственный интеллект» в официальных документах. [Вместо него — термин «Супер Интеллект» (Super Intelligence)](https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai): именно так теперь должны называть технологию правительственные сайты, пресс-релизы и программные бумаги.
+
+Смена вывески — не просто причуда пресс-службы. За последние месяцы вокруг ИИ накопилось слишком много тревожных новостей: от взломов автономными агентами до споров о безопасности моделей. Переименование в «Супер Интеллект» звучит как попытка застолбить более амбициозную, менее пугающую рамку разговора — вместо технологии, которую обвиняют в рисках, публике предлагают технологию, которая вроде бы превосходит человека, и это подаётся скорее как достижение, чем угроза.
+
+Стоит ли ждать, что термин приживётся за пределами правительственных бумаг — вопрос открытый. Индустрия и журналисты вряд ли массово откажутся от привычного «ИИ», но само появление такого указа — симптом того, насколько политизированным стал язык вокруг технологии.
+
+### Почему это важно
+
+Когда государство переименовывает технологию указом, это редко про грамматику — это про то, как государство хочет, чтобы о ней думали. А риски, которые стояли за прежним названием, никуда не делись просто потому, что слова поменялись.
+
+## English version
+
+President Donald Trump has signed an executive order barring the US executive branch from using the term "artificial intelligence" in official communications. [Going forward, the mandated term is "Super Intelligence"](https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai) — that's what government websites, press releases and policy documents are now required to call the technology.
+
+This isn't just a branding quirk. AI has racked up plenty of unflattering headlines lately, from autonomous-agent hacking incidents to safety disputes among labs. Swapping in "Super Intelligence" reads like an attempt to set a more ambitious, less alarming frame for the conversation — instead of a technology people worry about, the public gets a technology that sounds like it's already surpassed us, framed as an achievement rather than a threat.
+
+Whether the term sticks outside government paperwork is another question. Industry and the press are unlikely to drop "AI" en masse, but the fact that a president felt the need to legislate the vocabulary says something about how political the language around this technology has become.
+
+### Why it matters
+
+When a government renames a technology by executive order, it's rarely about grammar — it's about how it wants people to think about it. The risks that came with the old name don't disappear just because the label changed.
+
+
+----- 03-enceladus-ice-chemistry (science) — source: https://www.sciencedaily.com/releases/2026/09/260929053528.htm -----
+
+## Русская версия
+
+Спутник Сатурна Энцелад давно известен тем, что выбрасывает в космос ледяные гейзеры из скрытого под коркой океана. Новое исследование объясняет, почему химический состав этого льда так долго ставил учёных в тупик: [капли воды из океана, судя по всему, сами естественным образом разделяют и концентрируют химические вещества, пока замерзают и раскалываются по пути наружу](https://www.sciencedaily.com/releases/2026/09/260929053528.htm).
+
+Это важно, потому что именно данные зонда Cassini о составе ледяных частиц Энцелада долгое время были источником путаницы — одни выбросы выглядели богаче органикой, другие беднее, и не было понятной причины разброса. Новая модель предполагает, что дело не в самом океане, а в физике замерзания: процесс сортировки происходит в последние секунды перед тем, как капля превращается в ледяную пылинку и улетает в шлейф.
+
+Практический вывод — для будущих миссий. Если понимать, как именно лёд «фильтрует» химию при замерзании, зонды смогут точнее интерпретировать пойманные частицы и, возможно, эффективнее искать следы условий, пригодных для жизни, в подлёдном океане.
+
+### Почему это важно
+
+Энцелад — один из главных кандидатов на существование жизни за пределами Земли в Солнечной системе. Понимание того, как его лёд искажает химическую картину океана, критично для того, чтобы не принять артефакт замерзания за реальный сигнал — или наоборот.
+
+## English version
+
+Saturn's moon Enceladus has long been known for spraying ice geysers from a hidden ocean into space. A new study explains why the chemistry of that ice has puzzled scientists for so long: [ocean droplets appear to naturally separate and concentrate chemicals on their own as they freeze and shatter on the way out](https://www.sciencedaily.com/releases/2026/09/260929053528.htm).
+
+That matters because data from the Cassini probe on the composition of Enceladus's ice grains has long been a source of confusion — some plumes looked richer in organics, others poorer, with no clear reason for the spread. The new model suggests the ocean itself isn't the variable; the physics of freezing is. The sorting happens in the last seconds before a droplet turns into an ice grain and flies off into the plume.
+
+The practical payoff is for future missions. Understanding exactly how ice "filters" chemistry as it freezes should let spacecraft interpret captured particles more accurately — and potentially search more effectively for signs of life-friendly conditions in the ocean below.
+
+### Why it matters
+
+Enceladus is one of the strongest candidates for extraterrestrial life in the solar system. Understanding how its ice distorts the ocean's chemical picture is essential to avoid mistaking a freezing artifact for a real signal — or the other way around.
+
+
+----- 04-uk-mortgages-bond-auction (economy) — source: https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates -----
+
+## Русская версия
+
+Британское правительство заняло деньги на десять лет по самой высокой ставке с 1999 года — таковы результаты последнего аукциона гособлигаций. Одновременно вышли и свежие данные Банка Англии по ипотеке: [число одобренных новых жилищных кредитов упало до самого низкого уровня с конца 2023 года](https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates) — с учётом сезонной корректировки в августе одобрили всего 54 918 новых ипотек.
+
+Две цифры связаны напрямую. Дорогой госдолг задаёт ориентир для всей остальной стоимости заимствований в экономике: когда инвесторы требуют больше доходности за британские облигации, банкам тоже приходится закладывать более высокую премию в ипотечные ставки. В итоге хуже всего приходится обычным покупателям жилья — тем, кто и так балансирует между ценами на недвижимость и стоимостью кредита.
+
+Для британского правительства это неприятное сочетание перед осенним бюджетом: рынок явно закладывает более высокие риски по гособлигациям именно тогда, когда кабинету нужно убеждать инвесторов в устойчивости финансовой политики.
+
+### Почему это важно
+
+Стоимость госдолга — это не абстрактная цифра для трейдеров, а прямой канал, через который дорогие деньги доходят до обычной ипотеки. Когда обе цифры растут одновременно, это сигнал, что давление на карманы домохозяйств будет только усиливаться.
+
+## English version
+
+The UK government borrowed for ten years at the highest rate since 1999 at its latest gilt auction. On the same day, fresh Bank of England data showed [mortgage approvals falling to their lowest level since the end of 2023](https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates) — just 54,918 new home loans were approved in August on a seasonally-adjusted basis.
+
+The two numbers are directly connected. Expensive government debt sets the benchmark for the cost of borrowing across the whole economy: when investors demand higher yields on UK gilts, banks pass a higher premium on to mortgage rates too. The people who feel it most are ordinary home buyers already squeezed between property prices and borrowing costs.
+
+For the government, the timing is awkward. The market is pricing in more risk on UK debt right before the autumn budget, exactly when the chancellor needs to convince investors that fiscal policy is under control.
+
+### Why it matters
+
+The cost of government debt isn't just a number for bond traders — it's the direct channel through which expensive money reaches ordinary mortgages. When both figures move the wrong way at once, it signals more pressure on household budgets ahead.
+
+
+----- 05-standard-of-living-keynes-play (culture) — source: https://www.theguardian.com/stage/2026/sep/30/the-standard-of-living-review-rory-kinnear-theatre-royal-haymarket-london-james-graham-nicholas-hytner -----
+
+## Русская версия
+
+В лондонском Theatre Royal Haymarket идёт новый спектакль «The Standard of Living» — пьеса драматурга Джеймса Грэма о Джоне Мейнарде Кейнсе, поставленная Николасом Хитнером. Главную роль играет Рори Киннир, и, [по описанию рецензии, «изощрённое письмо Грэма оживляет экономическую теорию и связывает её с искусством и человеческим благополучием»](https://www.theguardian.com/stage/2026/sep/30/the-standard-of-living-review-rory-kinnear-theatre-royal-haymarket-london-james-graham-nicholas-hytner) в отточенной, эффектно поставленной истории.
+
+Необычность материала в том, что немногие знают: Кейнс, автор той самой макроэкономики, был не абстрактным кабинетным теоретиком, а активным участником группы «Блумсбери» — кружка писателей и художников начала XX века, куда входили Вирджиния Вулф и её окружение. Спектакль выводит эту связь в центр: экономист здесь не функция из учебника, а живой персонаж со своим кругом друзей, эстетическими взглядами и повседневной жизнью.
+
+Для театра, который часто обвиняют в пренебрежении «сухими» темами вроде экономики, это довольно смелый ход — сделать теорию частью человеческой драмы, а не пояснительной вставкой между сценами.
+
+### Почему это важно
+
+Хорошая постановка про экономиста доказывает то, что экономические идеи — не абстракция, а результат конкретных решений конкретных людей в конкретном культурном контексте. Театр в этом смысле может объяснить теорию лучше учебника.
+
+## English version
+
+The Theatre Royal Haymarket in London is running "The Standard of Living," a new play by James Graham about John Maynard Keynes, directed by Nicholas Hytner and starring Rory Kinnear. Per the review, ["Graham's high-wire writing brings economic theory to life and connects it with art and fulfilment"](https://www.theguardian.com/stage/2026/sep/30/the-standard-of-living-review-rory-kinnear-theatre-royal-haymarket-london-james-graham-nicholas-hytner) in a polished, ravishingly staged production.
+
+What makes the material unusual is a fact few people know: Keynes, the man behind modern macroeconomics, wasn't an abstract armchair theorist — he was an active member of the Bloomsbury Group, the early-20th-century circle of writers and artists that included Virginia Woolf and her set. The play puts that connection front and centre: the economist here isn't a textbook function but a full character with friends, aesthetic tastes and a daily life.
+
+For a stage often accused of steering clear of "dry" subjects like economics, that's a fairly bold move — turning theory into human drama rather than an explanatory aside between scenes.
+
+### Why it matters
+
+A good play about an economist proves that economic ideas aren't abstractions — they come out of specific decisions made by specific people inside a specific cultural moment. Theatre can sometimes explain that better than a textbook.
+
+
+----- 06-shinyhunters-arrest (tech) — source: https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested -----
+
+## Русская версия
+
+Нидерландская полиция сообщила об аресте 24-летнего жителя Амстердама, которого подозревают в руководстве хакерской группой ShinyHunters. По данным голландских властей, [задержанный связан с рядом громких атак — на Ticketmaster, Rockstar Games, а совсем недавно, по утверждению группы, и на ФБР](https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested).
+
+ShinyHunters — одно из тех имён в мире киберпреступности, которое всплывает при почти каждой крупной утечке данных последних лет: группа регулярно заявляет о доступе к базам данных известных компаний и либо продаёт их, либо использует как рычаг для вымогательства. Атака, приписываемая группе на ФБР, если подтвердится в деталях, станет особенно чувствительным эпизодом — не каждый день хакеры замахиваются на федеральное ведомство, отвечающее в том числе за расследование киберпреступлений.
+
+Один арест редко останавливает подобные группы целиком — как правило, за громким именем стоит рассредоточенная сеть участников, а не единственный лидер. Но для правоохранителей символически важно показать, что даже самые заметные хакерские бренды не остаются безнаказанными бесконечно.
+
+### Почему это важно
+
+ShinyHunters годами были почти нарицательным именем для утечек данных. Арест не гарантирует конец группы, но показывает, что международное сотрудничество полиции начинает догонять хакеров, которые долго действовали практически безнаказанно.
+
+## English version
+
+Dutch police say they've arrested a 24-year-old man in Amsterdam suspected of leading the hacking group ShinyHunters. According to Dutch authorities, [the suspect is tied to a string of high-profile breaches — Ticketmaster, Rockstar Games, and, per the group's own claims, more recently the FBI](https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested).
+
+ShinyHunters is one of those names in cybercrime that turns up at nearly every major data breach in recent years: the group regularly claims access to well-known companies' databases and either sells the data or uses it as leverage for extortion. If the claimed breach of the FBI holds up in detail, that's a particularly sensitive episode — it's not every day a hacking crew claims to have gone after the federal agency that investigates cybercrime itself.
+
+A single arrest rarely shuts down a group like this outright — a loud brand name usually sits on top of a loosely connected network rather than one leader. But for law enforcement, it matters symbolically to show that even the most visible hacking brands don't stay untouchable forever.
+
+### Why it matters
+
+ShinyHunters has been almost synonymous with data breaches for years. This arrest doesn't guarantee the group's end, but it signals that international police cooperation is starting to catch up with hackers who operated with near-impunity for a long time.
+
+
+----- 07-cape-town-baboons (world) — source: https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe -----
+
+## Русская версия
+
+Городской совет Кейптауна заявил, что «в ближайшее время» намерен отловить два прайда бабуинов-чакма, которые регулярно проникают в дома и магазины города. [Одна из жительниц описала ситуацию буквально: дом трудно продать, когда он «покрыт фекалиями бабуинов»](https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe) — а таких историй в пригородах, граничащих с природными территориями, накопилось немало.
+
+Планируется, что животных стерилизуют — то есть речь не о жёстком уничтожении популяции, а о контроле над её ростом при удалении конкретных групп из городской черты. Но зоозащитники с этим не согласны в принципе: по их мнению, конфликт человека и бабуинов решается не отловом, а сосуществованием — изменением поведения людей, более надёжными мусорными баками, ограждениями, привычками, которые не провоцируют животных заходить в жилые районы.
+
+Спор в Кейптауне — частный случай куда более широкой проблемы: города по всему миру, построенные впритык к дикой природе, регулярно сталкиваются с животными, которые быстро учатся использовать человеческую инфраструктуру как источник еды. Простого решения, которое устроит и жителей, и зоозащитников, судя по всему, не существует.
+
+### Почему это важно
+
+Это не локальный курьёз, а типичный конфликт городов, растущих в сторону дикой природы: где проходит грань между защитой людей и защитой животных, если оба лагеря по-своему правы.
+
+## English version
+
+Cape Town's city council says it plans to "imminently" round up two troops of chacma baboons that keep breaking into homes and shops around the city. [One resident summed it up bluntly: it's hard to sell a house "covered in baboon faeces"](https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe) — and stories like that have piled up in suburbs bordering the city's wild areas.
+
+The animals are set to be sterilised, so this isn't about culling the population outright — it's about controlling its growth while pulling specific troops out of urban areas. Animal-rights activists disagree with the whole approach: in their view, the human-baboon conflict isn't solved by removal but by coexistence — better-secured bins, fencing, and habits that don't invite animals into residential areas in the first place.
+
+Cape Town's dispute is a local instance of a much broader problem: cities built right up against wildlife keep running into animals that quickly learn to exploit human infrastructure as a food source. There doesn't seem to be a solution here that satisfies both residents and animal-rights groups at once.
+
+### Why it matters
+
+This isn't just a local oddity — it's the standard conflict of cities expanding into wild land: where the line sits between protecting people and protecting animals when both sides have a real case.
+
+
 ===== EDITION 27 — 2026-09-29 =====
 
 ## От редакции

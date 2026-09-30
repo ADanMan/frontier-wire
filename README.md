@@ -10,18 +10,15 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №27 / Edition №27 — 2026-09-29** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №28 / Edition №28 — 2026-09-30** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [OpenAI сама остановила выпуск GPT-6.1 Astra](editions/2026/09-29/01-openai-astra-safety-pause.md)
-- **[Мир]** [В Конго убили политика за призыв беречься от Эболы](editions/2026/09-29/02-drc-politician-ebola-killed.md)
-- **[Мир]** [Венгрия сняла неприкосновенность с действующего премьера](editions/2026/09-29/03-hungary-lifts-magyar-immunity.md)
-- **[Экономика]** [США и Китай снижают пошлины — но не на самое важное](editions/2026/09-29/04-china-us-tariff-cuts.md)
-- **[Наука]** [Математики закрыли гипотезу, которой было 55 лет](editions/2026/09-29/05-juggling-conjecture-solved.md)
-- **[Культура]** [Умер Майти Спэрроу — король калипсо](editions/2026/09-29/06-mighty-sparrow-calypso-king-dies.md)
-- **[ИИ]** [Флорида судится с OpenAI из-за рисков вымирания человечества](editions/2026/09-29/07-florida-sues-openai-frontier-ai.md)
-- **[Наука]** [Вселенная плоская — но не факт, что бесконечная](editions/2026/09-29/08-is-the-universe-infinite.md)
-- **[Экономика]** [Канцлер Хили обещает реиндустриализировать Британию](editions/2026/09-29/09-healey-reindustrialise-britain.md)
-- **[Мир]** [Иранского адвоката Насрин Сотудэ наградили премией имени Гавела](editions/2026/09-29/10-sotoudeh-havel-prize.md)
+- **[Мир]** [Марокко впервые в истории возглавила женщина](editions/2026/09-30/01-morocco-first-woman-pm.md)
+- **[ИИ]** [Трамп запретил чиновникам говорить «искусственный интеллект»](editions/2026/09-30/02-trump-superintelligence-order.md)
+- **[Наука]** [Лёд Энцелада странее, чем считали учёные](editions/2026/09-30/03-enceladus-ice-chemistry.md)
+- **[Экономика]** [Британия платит по 10-летним долгам больше, чем с 1999 года](editions/2026/09-30/04-uk-mortgages-bond-auction.md)
+- **[Культура]** [В лондонском театре экономиста Кейнса сыграли как живого человека](editions/2026/09-30/05-standard-of-living-keynes-play.md)
+- **[Технологии]** [В Нидерландах задержали предполагаемого лидера хакерской группы ShinyHunters](editions/2026/09-30/06-shinyhunters-arrest.md)
+- **[Мир]** [Кейптаун не может решить, что делать с бабуинами в городе](editions/2026/09-30/07-cape-town-baboons.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
