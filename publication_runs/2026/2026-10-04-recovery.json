@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-10-04",
+  "slot": "recovery",
+  "checked_at": "2026-10-04T18:14:40.051419+00:00",
+  "digest_sha256": "136e984c7a62f48ecde4cbab7c100b7c7217871dae5b2c4506e2e807df76806a",
+  "articles": [
+    {
+      "path": "editions/2026/10-04/01-davinci-heat-test.md",
+      "sha256": "894ac9bb5f0e2033ff9550349a13d73bd81f384a9c93b26463aacefe75cfac77",
+      "source": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat"
+    },
+    {
+      "path": "editions/2026/10-04/02-crew-12-science.md",
+      "sha256": "2183bc7dd385ee0c063d7b7d56567f95d7124912bba1bd80fdc13d79670d6a7b",
+      "source": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission"
+    }
+  ]
+}

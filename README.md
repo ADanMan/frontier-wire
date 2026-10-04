@@ -10,15 +10,10 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №28 / Edition №28 — 2026-09-30** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №29 / Edition №29 — 2026-10-04** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Мир]** [Марокко впервые в истории возглавила женщина](editions/2026/09-30/01-morocco-first-woman-pm.md)
-- **[ИИ]** [Трамп запретил чиновникам говорить «искусственный интеллект»](editions/2026/09-30/02-trump-superintelligence-order.md)
-- **[Наука]** [Лёд Энцелада странее, чем считали учёные](editions/2026/09-30/03-enceladus-ice-chemistry.md)
-- **[Экономика]** [Британия платит по 10-летним долгам больше, чем с 1999 года](editions/2026/09-30/04-uk-mortgages-bond-auction.md)
-- **[Культура]** [В лондонском театре экономиста Кейнса сыграли как живого человека](editions/2026/09-30/05-standard-of-living-keynes-play.md)
-- **[Технологии]** [В Нидерландах задержали предполагаемого лидера хакерской группы ShinyHunters](editions/2026/09-30/06-shinyhunters-arrest.md)
-- **[Мир]** [Кейптаун не может решить, что делать с бабуинами в городе](editions/2026/09-30/07-cape-town-baboons.md)
+- **[Наука]** [Репетиция Венеры в печи — зонд DAVINCI выдержал 465 °C](editions/2026/10-04/01-davinci-heat-test.md)
+- **[Наука]** [Научные итоги Crew-12 — что экипаж исследовал на МКС](editions/2026/10-04/02-crew-12-science.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
@@ -28,9 +23,13 @@
 1. `python3 scripts/digest.py` pulls RSS/Atom feeds from [`feeds.txt`](feeds.txt),
    arXiv and trending repos into `digests/<year>/<date>.md`. Every item carries a
    real source URL; nothing is invented downstream.
-2. A scheduled cloud routine reads the digest, writes 5–8 articles into
+2. A scheduled editor reads the digest, verifies the full sources, and writes 5–8 articles into
    `editions/<year>/<mm-dd>/` (format: [`FORMAT.md`](FORMAT.md)), updates this
    README, rebuilds the site (`python3 scripts/build_site.py` → `docs/`), and pushes.
+   The editor follows [`tasks/publishing.md`](tasks/publishing.md); a current-day
+   check and per-slot record prevent duplicate batches. Repository scripts need
+   no Claude installation. The owning assistant configures one editor schedule
+   at 07:00 and 19:00 `Europe/Moscow`.
 3. Once a week the routine runs the **feed-gardener** skill
    ([`.claude/skills/feed-gardener/`](.claude/skills/feed-gardener/SKILL.md)):
    prunes dead feeds and plants new sources in `feeds.txt` — the garden idea

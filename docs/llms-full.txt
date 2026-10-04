@@ -2,6 +2,103 @@
 
 
 
+===== EDITION 29 — 2026-10-04 =====
+
+## От редакции
+
+Frontier Wire возвращается с небольшим выпуском: двумя проверенными историями о том, как космические миссии готовят измерения и проводят эксперименты. Зонд для Венеры выдержал земную репетицию сильного нагрева, а NASA подвело научные итоги работы Crew-12 в орбитальной лаборатории. Продолжаем с актуальных источников.
+
+## Editorial
+
+Frontier Wire returns with a small edition: two verified stories about preparing measurements and running experiments in space. A Venus probe has survived a ground rehearsal of extreme heating, while NASA has reviewed Crew-12's research in the orbital laboratory. We are moving forward with current sources.
+
+
+----- 01-davinci-heat-test (science) — source: https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/ -----
+
+## Русская версия
+
+До Венеры зонд DAVINCI ещё не добрался, но испытание её жарой уже прошёл. В [сообщении NASA от 2 октября](https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/) показана инженерная модель спускаемого аппарата после подготовки к тепловым испытаниям. Размером примерно с мяч для йоги, она должна защищать приборы во время погружения в атмосферу планеты, одновременно допуская внутрь образцы газа для анализа.
+
+Сам тест проходил с 28 августа по 10 сентября. Подробности NASA [опубликовало ещё 24 сентября](https://science.nasa.gov/blogs/davinci/2026/09/24/nasas-davinci-beats-heat-in-preparation-for-blistering-venus-descent/), поэтому свежая фотография не означает, что испытание случилось вчера. Это полезное различие: дата новости и дата инженерного события здесь разные.
+
+Модель отвезли на предприятие Rex Heat Treat в Бедфорде, штат Пенсильвания. Там нашлась печь, способная достаточно быстро воспроизвести нагрев на спуске. В камере с керамической облицовкой температуру подняли до 465 °C примерно за час. Затем процесс повторили ещё пять раз: всего аппарат перенёс шесть тепловых циклов.
+
+Команда следила за макетами научного оборудования с помощью более ста температурных датчиков. По отчёту агентства, модель выдержала все циклы без повреждений. Важен именно график нагрева: приборы должны оставаться работоспособными на протяжении спуска продолжительностью около 55–60 минут. Разовое достижение высокой температуры и выдерживание всего такого пути отвечают на разные инженерные вопросы.
+
+У конструкции есть непростое противоречие. Титановая оболочка должна изолировать чувствительную аппаратуру от внешней среды. Однако исследовать атмосферу через полностью закрытый корпус нельзя: горячие газы будут поступать через специальные входные порты. Поэтому задача команды включает и защиту от тепла, и контролируемый контакт с тем, что зонд собирается измерить.
+
+Научная цель DAVINCI — изучить состав и строение атмосферы, историю Венеры и вопрос, могла ли она когда-то иметь океаны и условия для жизни. Камеры аппарата должны снимать поверхность для построения трёхмерной карты. Данные планируется передавать на основной космический аппарат, находящийся примерно в девяти тысячах километров над зондом.
+
+Успех в печи остаётся проверкой инженерной модели. Он не равен уже выполненной миссии и не подтверждает существование древнего океана. В подробном сообщении NASA говорится, что команда работает над получением разрешения перейти к финальному проектированию и изготовлению. Дату запуска эта публикация не объявляет.
+
+### Почему это важно
+
+Чтобы спор о прошлом Венеры превратился в измерения, аппаратура должна пережить среду, которую измеряет. Шесть повторных прогонов дают конкретное основание для уверенности в теплозащите на выбранном этапе разработки. Следить дальше стоит за завершением конструкции и готовностью миссии, сохраняя различие между проверенной техникой и ещё не полученными научными ответами.
+
+## English version
+
+DAVINCI has not reached Venus, but an engineering model has already faced a rehearsal of the planet's heat. A [NASA image report published on October 2](https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/) shows the descent probe's development unit before its thermal evaluation. Roughly the size of a yoga ball, the vessel must protect instruments during the descent while allowing atmospheric gas samples inside for analysis.
+
+The test campaign ran from August 28 to September 10. NASA [described the results on September 24](https://science.nasa.gov/blogs/davinci/2026/09/24/nasas-davinci-beats-heat-in-preparation-for-blistering-venus-descent/), so the newer photograph does not mean the furnace work happened yesterday. The publication date and the engineering event date are separate pieces of this story.
+
+The team took the model to Rex Heat Treat in Bedford, Pennsylvania. Its furnace could reproduce the rapid heating expected during the descent. Inside a ceramic-lined chamber, the temperature rose to 465 °C over roughly an hour. Engineers then repeated the procedure five more times, bringing the total to six thermal cycles.
+
+More than a hundred temperature sensors monitored hardware standing in for the scientific instruments. According to NASA, the model came through every cycle without damage. Matching the heating schedule matters: the equipment needs protection throughout a descent expected to last about 55–60 minutes. Reaching a high temperature once and surviving the whole heating profile are different engineering tests.
+
+The design has to meet two competing needs. A titanium shell protects delicate equipment from the surrounding environment. Yet a completely sealed vessel could not sample the atmosphere it is meant to study. Special inlet ports will admit hot gases for analysis. The protection system therefore has to provide insulation alongside a controlled route for the material being measured.
+
+DAVINCI's scientific objectives include studying the atmosphere's composition and structure, investigating Venus's history, and assessing whether the planet once had oceans and habitable conditions. Cameras will photograph the surface for a three-dimensional map. A radio system will relay measurements to the main spacecraft flying roughly nine thousand kilometres above the descending probe.
+
+Passing the furnace test is still a result for an engineering model. It is not a completed Venus mission or evidence that ancient oceans existed. In the detailed report, NASA says the team is working toward approval to enter final design and fabrication. That report does not announce a launch date.
+
+### Why it matters
+
+Questions about Venus's past require instruments that can survive the environment they are measuring. Six repeated runs provide a concrete basis for confidence in the thermal design at this stage of development. The next things to watch are the final hardware and mission readiness, while keeping successful engineering tests separate from scientific answers that have yet to arrive.
+
+
+----- 02-crew-12-science (science) — source: https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/ -----
+
+## Русская версия
+
+NASA опубликовало [обзор научной работы Crew-12](https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/) перед завершением миссии на Международной космической станции. В сообщении от 2 октября возвращение запланировано на начало месяца. Это ещё не подтверждение состоявшейся посадки: речь о подготовке экипажа к возвращению и экспериментах, которые он поддерживал на орбите.
+
+В составе экипажа — астронавты NASA Джессика Меир и Джек Хэтэуэй, астронавт ESA Софи Адено и космонавт Роскосмоса Андрей Федяев. Обзор интересен не только фамилиями. Он показывает, чем космическая лаборатория занимается между стартом и возвращением, когда яркая картинка полёта уступает место работе с образцами, приборами и экспериментальными установками.
+
+Один из примеров — выращивание кристаллов препаратов, нацеленных на лечение рака. По объяснению NASA, микрогравитация помогает исследовать структуру кристаллов и свойства лекарственных веществ. Обзор описывает работу с экспериментом; из него нельзя заключить, что экипаж уже создал новое одобренное лекарство. Свойства образцов ещё должны оценивать исследователи.
+
+Другой пример — Cold Atom Lab. Джессика Меир работала с кабелями, доставляющими свет для охлаждения и удержания атомов. В микрогравитации такие атомы можно наблюдать дольше. NASA также сообщает об обновлении установки, увеличивающем число получаемых атомов и объём данных для дальнейшей квантовой науки.
+
+В медицинских экспериментах встречаются довольно неожиданные материалы. Софи Адено работала с деревянным каркасом, который имитирует структуру кости и поддерживает рост костных клеток. Ускоренная потеря костной ткани в микрогравитации позволяет проверить такой подход к регенерации. Отдельные опыты посвящены развитию инженерной хрящевой ткани и размножению стволовых клеток. Это исследовательские направления, а не готовые рекомендации пациентам.
+
+Есть и задачи, непосредственно связанные с будущими дальними полётами. Адено устанавливала металлический 3D-принтер: несколько напечатанных в микрогравитации деталей уже отправили на Землю для сравнения с обычными. Идея состоит в том, чтобы экипажи могли изготавливать нужные части на месте. Сейчас качество таких деталей ещё проверяют.
+
+Ещё один эксперимент изучает производство жидкости для внутривенного введения в микрогравитации. NASA объясняет задачу ограниченным сроком хранения готовых растворов, их весом и объёмом при перевозке. Исследование бактерий, устойчивых к антибиотикам, рассматривает другую сторону автономности: как управлять микробными рисками в замкнутой среде космического корабля.
+
+### Почему это важно
+
+Перечень экспериментов показывает реальную цену слова «лаборатория» в описании МКС. Там проверяют, как ведут себя вещества и живые системы в условиях, которых нет у земного стенда. Следующий содержательный шаг — анализ образцов и результатов после полёта. Потенциальная польза для медицины и производства остаётся целью исследований; обзор завершения миссии сам по себе ещё не доказывает, что все эти технологии готовы к применению.
+
+## English version
+
+NASA has published a [review of Crew-12's research](https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/) as its International Space Station mission draws to a close. The October 2 report schedules the crew's return for early in the month. It does not establish that a landing has already happened: the focus is preparations for the journey home and experiments supported during the orbital stay.
+
+The crew includes NASA astronauts Jessica Meir and Jack Hathaway, ESA astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev. The review is useful beyond that list of names. It describes the work between launch and return, when striking flight footage gives way to handling samples, maintaining instruments, and operating experimental equipment.
+
+One example is growing crystals of compounds intended for cancer treatments. NASA explains that microgravity can help researchers examine crystal structure and pharmaceutical properties. This is a description of experimental work, not a claim that the crew has produced a newly approved medicine. Researchers still need to evaluate what the samples reveal.
+
+Another example comes from the Cold Atom Lab. Meir worked with cables delivering light used to cool and trap atoms. Microgravity allows those atoms to be observed for longer periods. NASA also describes an upgrade that increases the number of atoms produced, providing more data for subsequent quantum research.
+
+Some of the medical experiments use unexpected materials. Adenot worked with a wooden scaffold designed to resemble bone structure and support bone-cell growth. Because bone loss can accelerate in microgravity, the environment offers a way to investigate this approach to regeneration. Other projects examine engineered cartilage and the expansion of stem cells. These are research programmes, not treatment advice for patients.
+
+There are also questions directly relevant to future deep-space journeys. Adenot installed a metal 3D printer, and several small parts printed in microgravity have already returned to Earth for comparison with ground-made pieces. The eventual aim is to let crews manufacture what they need locally. Evaluating the quality of those parts is part of that work, rather than a step that can be skipped.
+
+A further investigation studies making intravenous fluid in microgravity. NASA frames the problem around commercial fluids' limited shelf life and the weight and storage space required to carry them. Work on antibiotic-resistant bacteria addresses another aspect of self-sufficiency: managing microbial risks inside the closed environment of a spacecraft.
+
+### Why it matters
+
+The experiment list gives substance to the station's description as a laboratory. It lets researchers examine materials and living systems under conditions a ground facility cannot offer. The next substantive step is analysing samples and results after the flight. Potential benefits for medicine and manufacturing remain research goals; a mission wrap-up report does not by itself show that every technology is ready for practical use.
+
+
 ===== EDITION 28 — 2026-09-30 =====
 
 ## От редакции
