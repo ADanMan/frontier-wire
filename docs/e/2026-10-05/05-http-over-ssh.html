@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Показать локальный сайт через SSH: два привычных инструмента вместо отдельного клиента - frontier-wire</title>
+<meta name="description" content="Vincent Bernat describes a self-hosted OpenSSH and nginx tunnel; the protocols explain where delivery ends and access control begins.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-05/05-http-over-ssh.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Showing a local site over SSH: two familiar tools instead of another client", "alternativeHeadline": "Показать локальный сайт через SSH: два привычных инструмента вместо отдельного клиента", "datePublished": "2026-10-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-05/05-http-over-ssh.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-10-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Показать локальный сайт через SSH: два привычных инструмента вместо отдельного клиента</span><span class="lang-en">Showing a local site over SSH: two familiar tools instead of another client</span></h1>
+  <p class="dek big"><span class="lang-ru">Венсан Берна описал собственный туннель на OpenSSH и nginx; протоколы поясняют, где заканчивается доставка и начинается контроль доступа.</span><span class="lang-en">Vincent Bernat describes a self-hosted OpenSSH and nginx tunnel; the protocols explain where delivery ends and access control begins.</span></p>
+  
+  <div class="prose lang-ru"><p>Венсан Берна <a href="https://vincent.bernat.ch/en/blog/2026-http-over-ssh">описал 3 октября собственный туннель на OpenSSH и nginx</a>. Он позволяет показать локальный сайт через внешний адрес без отдельного специализированного клиента. Это конкретная реализация на существующих инструментах. Чтобы понять её устройство, полезно отдельно посмотреть, какую роль выполняет каждый компонент.</p>
+<p>Первую часть объясняет <a href="https://man.openbsd.org/ssh">руководство OpenSSH</a>. Удалённое перенаправление создаёт слушающий порт на сервере и передаёт соединения через защищённый канал к назначению на стороне клиента. При выборе номера порта 0 сервер выделяет свободный номер динамически. По умолчанию серверный TCP-порт слушает только loopback-интерфейс, то есть не становится напрямую доступным всему интернету.</p>
+<p>Вторая часть — обычное проксирование. <a href="https://nginx.org/en/docs/http/ngx_http_proxy_module.html">Документация nginx</a> описывает передачу HTTP-запроса другому серверу с заданным протоколом, адресом и портом. В таком сочетании nginx принимает внешний запрос и отправляет его на серверный конец SSH-перенаправления. Ответ возвращается тем же путём. Так разделяются публичная точка входа и транспорт к локальному приложению.</p>
+<p>Однако появление внешнего адреса ещё не отвечает на вопрос, кому разрешено им пользоваться. <a href="https://nginx.org/en/docs/http/ngx_http_secure_link_module.html">Модуль Secure Link</a> проверяет подлинность ссылки и может ограничивать время её действия. Проверка срока позволяет отличить отсутствующее или неверное подтверждение от уже просроченного. Модуль не включён в сборку nginx по умолчанию — это отдельное условие для реализации, которая на него опирается.</p>
+<p>Есть и другой механизм. <a href="https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html">HTTP Basic Authentication в nginx</a> ограничивает доступ проверкой имени пользователя и пароля. Сам протокол, согласно <a href="https://www.rfc-editor.org/rfc/rfc7617">RFC 7617</a>, не защищает эти сведения без внешнего защищённого транспорта, например TLS. Поэтому доставка по SSH на одном участке и защита браузерного соединения решают разные части задачи.</p>
+<p>Берна публикует конфигурацию и вспомогательный скрипт, объединяющие элементы в схему со ссылкой ограниченного срока. Это реализация автора; поведение её компонентов поясняют приведённые первичные документы.</p>
+<p>Практический вывод из разделения ролей — удобство и доступ нужно оценивать независимо. Возможность открыть страницу из браузера проверяет маршрут. Возможность закрыть её после завершения просмотра проверяет другое свойство. Это полезное различие даже для короткой демонстрации: «сайт доступен» и «сайт доступен только нужным людям в нужное время» описывают разные требования.</p>
+<h3>Почему это важно</h3>
+<p>Пример показывает, как знакомые протоколы складываются в небольшой сервис для совместной работы. Привлекательность такого варианта зависит от уже имеющегося сервера и готовности его обслуживать; собственного хостинга недостаточно, чтобы автоматически получить все удобства готового сервиса. Оценивать стоит понятность каждой границы: где принимается запрос, куда он передаётся и чем подтверждается право доступа. Эта схема помогает задавать вопросы к реализации, не заменяя проверку самой конфигурации.</p></div>
+  <div class="prose lang-en"><p>Vincent Bernat <a href="https://vincent.bernat.ch/en/blog/2026-http-over-ssh">described a self-hosted OpenSSH and nginx tunnel on October 3</a>. It makes a local website reachable through an external address without a separate specialist client. This is a particular implementation using established tools. Understanding it means examining the distinct role of each component.</p>
+<p>The first part is documented in the <a href="https://man.openbsd.org/ssh">OpenSSH manual</a>. Remote forwarding creates a listening port on the server and carries connections over the secure channel to a destination reached from the client. Choosing port 0 makes the server allocate an available number dynamically. By default, the server-side TCP listener binds only to loopback, so that port is not directly exposed to the whole internet.</p>
+<p>The second part is ordinary proxying. The <a href="https://nginx.org/en/docs/http/ngx_http_proxy_module.html">nginx documentation</a> describes passing HTTP requests to another server using a specified protocol, address and port. In this arrangement, nginx receives the external request and sends it to the server end of the SSH forward. The response returns along the same route. The public entry point and the transport to the local application have distinct roles.</p>
+<p>An external address does not, however, decide who may use it. The <a href="https://nginx.org/en/docs/http/ngx_http_secure_link_module.html">Secure Link module</a> checks a link's authenticity and can restrict its lifetime. Its expiry check distinguishes missing or invalid confirmation from a link whose validity has ended. The module is not built into nginx by default, which is a separate prerequisite for an implementation that depends on it.</p>
+<p>Another mechanism is <a href="https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html">nginx HTTP Basic Authentication</a>, which checks a username and password to restrict access. As <a href="https://www.rfc-editor.org/rfc/rfc7617">RFC 7617</a> explains, that protocol does not protect those credentials without an external secure transport such as TLS. Securing the SSH segment and protecting the browser's connection therefore address different parts of the path.</p>
+<p>Bernat publishes a configuration and helper script combining these pieces into a scheme with a time-limited link. That is his implementation; the primary documents linked here explain its components' behaviour.</p>
+<p>The practical inference is to assess convenience and access independently. Opening the page from a browser checks the route. Closing access after the review checks another property. Even for a short demonstration, “the site is reachable” and “the right people can reach it for the intended period” are distinct requirements.</p>
+<h3>Why it matters</h3>
+<p>The example shows familiar protocols forming a small collaboration service. Its appeal depends on an existing server and willingness to maintain it; self-hosting does not automatically reproduce every convenience of a managed service. The useful questions concern each boundary: where a request arrives, where it goes next and how access is authorised. Understanding that division helps evaluate a design without substituting for verification of the actual configuration.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://vincent.bernat.ch/en/blog/2026-http-over-ssh">https://vincent.bernat.ch/en/blog/2026-http-over-ssh</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

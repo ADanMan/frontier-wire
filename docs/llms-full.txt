@@ -2,6 +2,228 @@
 
 
 
+===== EDITION 30 — 2026-10-05 =====
+
+## От редакции
+
+Сегодня смотрим, как проверяют границы: расходов в облаке, доступа к локальному сайту и знаний о других мирах. Curiosity взял новый образец, NASA превращает неизвестное о Луне в задачи для измерений, а Webb читает следы столкновений по космической пыли. В каждой истории полезно различать уже полученные данные, инженерные возможности и выводы, которые ещё предстоит проверить.
+
+## Editorial
+
+Today's stories explore limits: cloud spending, access to a local website, and what we know about other worlds. Curiosity has collected another sample, NASA is turning lunar unknowns into measurement targets, and Webb is reading the traces of collisions in cosmic dust. Each story separates observations and engineering capabilities from conclusions still awaiting a test.
+
+
+----- 01-curiosity-basque-lakes (science) — source: https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/ -----
+
+## Русская версия
+
+Марсоход Curiosity успешно пробурил свою 48-ю скальную мишень в кратере Гейла. Она получила неофициальное имя Basque Lakes и находится в районе Cache Creek. Об этом команда сообщила в [дневнике NASA, опубликованном 4 октября](https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/). Но запись относится к земному планированию 25 сентября; фотография места бурения датирована 23 сентября. Дата публикации здесь не означает, что саму скалу пробурили вчера.
+
+Названия помогают ориентироваться в длинном путешествии. Ещё до посадки часть кратера разбили на прямоугольные участки с именами земных городов, связанных с интересной геологией. Отдельные камни и другие цели получают имена внутри темы такого участка. Curiosity давно вышел за пределы первоначальной сетки и теперь исследует новые районы по мере продвижения.
+
+Cache Creek назван в честь местности в Британской Колумбии. В земном районе встречаются океаническая кора, морские осадки, вулканические породы и ледниковые отложения. Есть и озёра с необычной химией, которые могут служить аналогами древних марсианских водоёмов. Это объясняет выбор названия, но само по себе не доказывает, что марсианская скала образовалась точно так же.
+
+Перед бурением команда собрала несколько разных свидетельств. Прибор APXS измерял химический состав при контакте с породой. Камера MAHLI приблизилась примерно на сантиметр, чтобы рассмотреть текстуру. Лазер ChemCam дополнил сведения о составе. Инженеры также проверили устойчивость скалы испытанием с предварительным прижатием инструмента. Решение бурить опиралось на эту совокупность данных.
+
+Следующий вопрос — какие именно минералы находятся внутри. Для образца запланировали рентгенодифракционный анализ CheMin. В записи исследователи ещё ожидают его результатов: сообщение об успешном бурении не содержит готового ответа о происхождении породы. Затем материал собирались передать комплексу SAM для дальнейшего изучения истории образца.
+
+Бурение и анализ ограничивают запас энергии стареющего марсохода. Поэтому в план вошла не только работа с новым отверстием, но и тщательно выбранные соседние наблюдения. Mastcam снимал местность для геологического контекста. ChemCam исследовал состав другой мишени, Peace River, а также отверстие и выброшенный при бурении материал.
+
+Команда дополнительно запланировала дистанционную съёмку скопления блоков у возвышенности Cordillera и продолжила наблюдения за окружающей средой с помощью Navcam и Mastcam. Это напоминает, что образец нельзя понимать отдельно от места, где он был взят: соседние структуры помогают связать небольшое отверстие с более широкой картиной кратера.
+
+### Почему это важно
+
+Ценность новости — в переходе от выбранной точки к материалу, который можно изучать внутри ровера. Состав и сочетание минералов должны помочь восстановить процессы образования и последующего изменения породы. Пока это исследовательская задача, а не объявленное открытие древней жизни или подтверждённого озера. Следить стоит за результатами приборов, сохраняя различие между хорошим образцом и объяснением того, как он возник.
+
+## English version
+
+Curiosity has successfully drilled its 48th rock target in Gale crater. The target, informally named Basque Lakes, lies in the rover's new Cache Creek area. The team describes it in a [NASA diary published on October 4](https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/). The entry, however, gives September 25 as its Earth planning date; its drill-site photograph is dated September 23. Publication yesterday does not mean the drilling happened yesterday.
+
+The names provide a way to navigate a long journey. Before landing, part of Gale crater was divided into rectangular areas named for terrestrial towns associated with notable geology. Individual rocks and other targets receive unofficial names following each area's theme. Curiosity has since travelled beyond that original grid, entering new areas as its exploration continues.
+
+Cache Creek takes its name from a geologically varied part of British Columbia. The Canadian area includes oceanic crust, marine sediments, volcanic rocks and glacial deposits. Some local lakes have unusual chemistry that might offer analogues for ancient Martian waters. That explains the naming choice; it does not establish that the Martian rock formed through exactly the same processes.
+
+Before drilling, the team assembled several kinds of evidence. APXS measured the rock's chemistry through direct contact. The MAHLI camera moved within about one centimetre to inspect its texture, while ChemCam's laser added compositional information. Engineers also tested the rock's stability by pre-loading the drilling tool. The decision to proceed drew on these observations together.
+
+The next question concerns the minerals inside the sample. The plan includes X-ray diffraction analysis with CheMin. In this entry, researchers are still awaiting that result: successful drilling is not yet an explanation of the rock's origin. They also planned to deliver material to the SAM instrument suite for further investigation of the sample's history.
+
+Drilling and the accompanying analyses place demands on an ageing rover's limited power. The team nevertheless fitted other carefully selected observations into the plan. Mastcam photographed surrounding terrain to establish geological context. ChemCam examined a nearby target called Peace River, as well as the drill hole and material left around it.
+
+Additional remote imaging targeted a deposit of jumbled blocks below the nearby Cordillera butte. Navcam and Mastcam also continued environmental and atmospheric monitoring. Those observations give the drilled material a setting: the history of a small sample becomes more useful when researchers can connect it to neighbouring structures and the wider crater landscape.
+
+### Why it matters
+
+The advance is a move from selecting a promising point to collecting material that the rover can analyse internally. Mineral composition should help researchers investigate how the rock formed and changed afterwards. That remains a research question, rather than an announcement of ancient life or a confirmed lake. The useful next development will be instrument results that distinguish a successfully acquired sample from a supported explanation of its origin.
+
+
+----- 02-lunar-data-gaps (tech) — source: https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/ -----
+
+## Русская версия
+
+Космическая программа начинается не только с вопроса, что построить. Нужно ещё решить, каких сведений не хватает, чтобы построенная система работала. В [профиле инженера Ричарда Сползино, опубликованном NASA 4 октября](https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/), показана именно эта работа: оформление неизвестного в конкретные задачи для будущих лунных миссий.
+
+Сползино работает в исследовательском центре Лэнгли над архитектурой миссий и совместимостью систем программы Moon Base. Его интересуют связи между отдельными устройствами. Например, получение кислорода на Луне требует не одной установки, а согласованной цепочки: роверы доставляют материал, оборудование его перерабатывает, а другие системы используют полученный ресурс. Отдельно успешный прибор ещё не гарантирует работу всей цепочки.
+
+Один из рабочих инструментов команды — описание пробела в данных. В нём фиксируют, чего не знают, почему это важно, чем недостаточны уже имеющиеся сведения и какого измеримого результата ждут. Получается задача, с которой может работать партнёр, предлагающий измерение или новое оборудование. Общий интерес к Луне превращается в проверяемый запрос.
+
+В качестве примера NASA приводит свойства лунного грунта. Насколько большую нагрузку он выдерживает? Каково его сопротивление сдвигу? От ответов зависят движение роверов и расчёт основания будущего обитаемого объекта. Это не просто просьба прислать побольше фотографий: нужны параметры, которые можно использовать при инженерном проектировании и выборе конструкций.
+
+По словам Сползино, в прошлом году команда начала примерно с 25 опубликованных пробелов. К концу нынешнего года она рассчитывает довести список до 60. Важно сохранить будущее время: статья описывает цель, а не уже завершённый каталог из шестидесяти пунктов. Число записей также не означает, что соответствующие неизвестные уже устранены.
+
+Один практический пример касается будущей миссии Griffin-1. Когда набор приборов был уже определён, команда помогала расставить приоритеты передачи данных на Землю. Канал связи ограничен; невозможно отправить всю желаемую информацию одновременно. Список потребностей позволяет обсуждать, какие измерения должны пройти через этот канал первыми и что важнее для последующих решений.
+
+Другая сторона работы — оценка предлагаемых приборов, средств отбора образцов и технологических демонстраций. Сползино сопоставляет их с опубликованными потребностями, чтобы помочь руководителям выбрать кандидатов для полёта. По описанию NASA, партнёров также просят показать, какой пробел закрывает их предложение. Это критерий соответствия задаче, а не автоматическая гарантия успеха будущей миссии.
+
+### Почему это важно
+
+В таком подходе неизвестность становится частью проекта, которую можно обсуждать и измерять. Показательный результат — не красивый перечень устройств, а связь между вопросом, необходимыми данными и решением, которое эти данные изменят. Профиль рассказывает о процессе подготовки; он не объявляет новый запуск или готовую лунную базу. Для оценки прогресса полезнее смотреть, какие пробелы действительно закрываются измерениями и как меняется проект после получения ответов.
+
+## English version
+
+A space programme begins with more than deciding what to build. It also needs to identify missing information that could determine whether the hardware works. A [NASA profile of engineer Richard Spolzino, published on October 4](https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/), describes that work: translating unknowns into specific questions for future lunar missions and their partners.
+
+At Langley Research Center, Spolzino works on mission architecture and system interoperability for Moon Base. His focus is the relationship between components. Producing oxygen on the Moon, for example, involves a chain of rovers delivering material, equipment processing it and other systems consuming the resource. A successful device on its own does not establish that the whole chain can function.
+
+The team's working unit is a documented data gap. It records what is unknown, why the answer matters, where existing information falls short and what measurable target would address the need. This gives a partner proposing an instrument or observation something concrete to work towards. A broad interest in lunar exploration becomes a question with a testable answer.
+
+NASA gives lunar soil properties as an example. How much weight can the ground support, and what is its shear strength? Answers affect rover travel and the design of a habitat's foundation. The request is therefore more specific than sending additional pictures: engineers need parameters they can use when calculating structures and selecting equipment.
+
+Spolzino says the team started with roughly 25 published data gaps last year and is on track for 60 by the end of this year. The distinction in tense matters. Sixty is a target described in the profile, not a completed catalogue announced by the story. Nor does publishing a gap mean the corresponding uncertainty has been resolved.
+
+One practical example concerns the upcoming Griffin-1 mission. With its instrument selection already fixed, the team helped prioritise which data should be transmitted to Earth first. Communications capacity cannot carry every desired measurement at once. A list of information needs helps decide what should pass through that constrained link ahead of less urgent material.
+
+The other side of the work is assessing proposed spectrometers, sampling tools and technology demonstrations. Spolzino compares them with published gaps to support decisions about flight candidates. NASA says partners are also asked to show which documented need their proposal addresses. That is a way to evaluate relevance, rather than a guarantee that any future mission will succeed.
+
+### Why it matters
+
+This approach makes uncertainty an explicit part of a project that people can discuss and measure. Its useful output is the connection between a question, the evidence required and the decision that evidence could change. The profile describes preparation, not a newly announced launch or a completed lunar base. Progress is better judged by which gaps actual measurements close and how those answers improve the engineering decisions that follow.
+
+
+----- 03-webb-collision-dust (science) — source: https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/ -----
+
+## Русская версия
+
+Телескоп James Webb помог исследователям изучить следы мощных столкновений в других планетных системах. Следы здесь буквальны: это состав тёплой пыли вокруг звёзд. В [сообщении NASA от 1 октября](https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/) описана работа с необычными дисками обломков, которые могут показывать, как растущие планеты сталкиваются и меняют окружающую среду.
+
+Молодая звезда сначала окружена богатым газом протопланетным диском. Позже остаётся более бедная газом система обломков. Среди таких систем выделяют редкий класс с особенно большим количеством тёплой пыли близко к звезде — примерно там, где в нашей системе обращаются каменистые планеты. По имеющимся наблюдениям, заметные признаки этой стадии встречаются лишь примерно у одного процента молодых звёзд.
+
+Команда под руководством Кейт Су собрала выборку из 21 такого диска. Пять представлены архивными данными телескопа Spitzer; для шестнадцати использованы наблюдения Webb, включая двенадцать новых объектов и повторные наблюдения четырёх ранее изученных Spitzer. Это состав выборки, а не двадцать одно впервые открытое Webb столкновение.
+
+Спектры в среднем инфракрасном диапазоне позволили исследовать минералогический состав пыли. Команда также выделила общие признаки необычных дисков: мелкие частицы, высокую концентрацию тёплой пыли и нерегулярные изменения яркости. Наблюдения дают сведения о веществе и его поведении; размеры сталкивавшихся тел исследователи выводят из интерпретации этих сведений.
+
+Примерно треть изученных дисков богата кремнезёмом. По объяснению NASA, это согласуется с высокоэнергетическими столкновениями тел размером с Марс, при которых значительная доля породы испаряется. Оставшиеся две трети беднее кремнезёмом и могут отражать менее энергичные взаимодействия объектов размером с Луну, например скользящие столкновения. Эти сценарии не следует выдавать за непосредственно снятые события.
+
+Возраст звёзд добавляет ещё одну проверку. Богатые кремнезёмом диски в этой выборке обнаружены только у звёзд моложе 300 миллионов лет. Бедные им системы встречаются в более широком диапазоне возрастов и нередко сильнее меняют яркость. Авторы предполагают, что свежие обломки быстро эволюционируют из-за изменений орбит и последующих ударов.
+
+Результаты позволяют обсуждать похожие этапы в истории Солнечной системы, включая предполагаемое столкновение, из которого возникла Луна. Но аналогия с другими звёздами не является записью того древнего события. В сообщении также отмечена небольшая выборка более старых дисков: для проверки возрастной картины нужны дополнительные наблюдения.
+
+### Почему это важно
+
+Планетные зародыши слишком малы, чтобы просто рассмотреть их во всех подробностях на таких расстояниях. Пыль даёт другой путь: связать измеримый спектр с физикой возможного столкновения. Наиболее интересное продолжение — расширение выборки и проверка того, сохраняется ли связь состава с возрастом и изменениями яркости. Сильная сторона работы — новая совокупность наблюдений, а предел — неизбежная зависимость объяснения от моделей происходивших ударов.
+
+## English version
+
+James Webb has helped researchers investigate traces of powerful collisions in other planetary systems. Those traces are the composition of warm dust surrounding stars. A [NASA report dated October 1](https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/) describes unusual debris disks that can offer clues to how growing planets collide and reshape their surroundings.
+
+A young star initially has a gas-rich protoplanetary disk. Later, its environment can become a relatively gas-poor debris system. A rare subclass contains unusually large amounts of warm dust close to the star, in a region comparable to the rocky planets' orbits in our solar system. Available observations suggest that only about one percent of young stars display detectable signatures of this phase.
+
+The team, led by Kate Su, assembled a sample of 21 extreme debris disks. Five are represented by archival Spitzer data. Webb provided observations of sixteen, including twelve newly observed disks and follow-up observations of four previously studied by Spitzer. Those numbers describe the sample; they do not mean Webb discovered or witnessed twenty-one new collisions.
+
+Mid-infrared spectra let the researchers examine the dust's mineral composition. The team also identified common characteristics: small grains, a high concentration of warm dust and irregular changes in brightness. These are measurements of material and its behaviour. The sizes of bodies that might have collided come from interpreting that evidence rather than directly imaging the impacts.
+
+About one-third of the disks are rich in silica. NASA explains that this is consistent with highly energetic collisions between Mars-sized bodies, vaporising a substantial amount of rock. The other two-thirds are silica-poor and could reflect less energetic interactions, such as grazing collisions between Moon-sized objects. These proposed histories should not be confused with events filmed as they happened.
+
+Stellar ages offer another test. In this sample, silica-rich disks appear only around stars younger than 300 million years. Silica-poor systems cover a wider range of ages and often show stronger brightness variations. The researchers suggest that fresh debris evolves quickly through changing orbits and further impacts, helping account for that variability.
+
+The findings can inform discussion of similar stages in our solar system, including the proposed collision that formed the Moon. Comparisons with other stars are not a recording of that ancient event. The report also highlights the small sample of older disks: additional observations are needed to test whether the age pattern holds.
+
+### Why it matters
+
+Planetary embryos are too small to inspect directly in detail at these distances. Dust provides another route, connecting a measurable spectrum with the physics of possible impacts. The useful next step is a larger sample that tests relationships between composition, age and brightness changes. The study's strength is its expanded observational evidence; its limit is that reconstructing the collisions still depends on physical models rather than direct footage.
+
+
+----- 04-cloud-spending-caps (economy) — source: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/ -----
+
+## Русская версия
+
+Агент может быстро написать полезную программу, но её последующие обращения к платным сервисам оплачиваются отдельно. В [заметке от 3 октября](https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/) разработчик Саймон Уиллисон предлагает сделать жёсткие ограничения расходов обычным поведением таких сервисов. Его тезис прост: уведомление о достигнутом бюджете и прекращение платной работы — разные функции. Это предложение автора, а не объявленное общее правило облачного рынка.
+
+Повод проверить тезис есть в документации поставщиков. В [анонсе нового опыта AWS от 16 сентября](https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/) описан ежемесячный лимит для проекта после перехода на платный план. При достижении суммы проект приостанавливается. У отдельных проектов могут быть собственные ограничения. Сентябрьский анонс здесь служит контекстом к новой дискуссии, а не выдаётся за релиз 5 октября.
+
+[Текущая инструкция AWS](https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html) уточняет границы: новый опыт пока доступен ограниченному числу клиентов; лимит управляется владельцем проекта и требует платного плана. При остановке данные сохраняются, но отсутствие действий в течение 90 дней после паузы ведёт к их удалению. Для возобновления нужно увеличить лимит; некоторые ресурсы придётся запускать вручную. Поэтому остановка расходов не означает бессрочное хранение отключённого проекта.
+
+У Google другой масштаб ограничения. В [описании Spend Caps от 28 июля](https://cloud.google.com/blog/topics/cost-management/new-early-anomalies-and-spend-caps-on-google-cloud-budgets) публичный предварительный режим охватывает конкретный сервис внутри одного проекта на фиксированный месяц. При достижении порога блокируется дальнейшее платное использование этого сервиса. Остальные сервисы вне области лимита не затрагиваются. При этом фиксированные договорные платежи, например за зарезервированную пропускную способность, продолжаются; cap не обнуляет весь счёт.
+
+Сравнение показывает, почему одного слова «бюджет» в интерфейсе недостаточно. Важно знать область действия и последствие достижения порога. Ограничение проекта может остановить несколько связанных частей приложения. Ограничение отдельного сервиса оставляет другую инфраструктуру работающей, но приложение всё равно должно учитывать недоступность нужной операции. Это практический вывод из различий двух описанных механизмов, а не результат испытаний конкретного приложения редакцией.
+
+Для читателя, который оценивает новый инструмент, полезен вопрос о поведении после остановки. Сохраняется ли состояние задачи? Видно ли пользователю, почему она прервана? Как возобновляется работа? Наличие лимита не отвечает автоматически на эти вопросы: платформа управляет расходами, а понятное поведение приложения требует отдельного проектирования. Быстрый старт с помощью агента эту часть работы не отменяет.
+
+### Почему это важно
+
+Обсуждение переносит внимание с скорости создания программы на условия её дальнейшей работы. Хороший контроль расходов должен иметь понятные границы и объяснимое действие при их достижении. Документы AWS и Google показывают реальные варианты, но не универсальную гарантию против любых платежей. Судить о механизме стоит по его области, доступности и правилам восстановления, сохраняя различие между уведомлением, остановкой использования и итоговым счётом.
+
+## English version
+
+An agent can quickly write a useful application, while the application's later calls to paid services are billed separately. In an [October 3 post](https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/), developer Simon Willison argues that hard spending limits should be the default for such services. His distinction is straightforward: a budget notification and an actual stop to billable work are different features. This is his proposal, rather than a new rule adopted across the cloud market.
+
+Providers' documentation offers concrete examples. An [AWS announcement dated September 16](https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/) describes monthly project spending limits after upgrading to a paid plan. Reaching the chosen amount pauses the project. Additional projects can have their own limits. That earlier announcement is context for the current discussion; it is not presented here as a release made on October 5.
+
+[AWS's current instructions](https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html) add qualifications. The new experience is available to a limited number of customers, requires a paid plan and gives project owners control of the limit. Data survives a pause, but is permanently deleted if no action is taken within 90 days. Reactivation requires increasing the limit, and some resources may need manual restarting. Pausing expenditure does not promise indefinite storage.
+
+Google's mechanism has a different scope. Its [July 28 description of Spend Caps](https://cloud.google.com/blog/topics/cost-management/new-early-anomalies-and-spend-caps-on-google-cloud-budgets) says the public preview applies to a particular service in one project for a fixed month. The threshold blocks further billable use of that service, leaving services outside the budget's scope unaffected. Fixed contractual commitments, such as provisioned throughput charges, continue to bill. A cap therefore does not eliminate every component of an invoice.
+
+The comparison shows why the word “budget” alone is insufficient. The scope and the action at the threshold matter. A project limit can interrupt several connected components. A service limit leaves other infrastructure running, but the application still needs to account for its missing operation. That is a practical inference from the two documented designs, rather than a result from testing a particular application for this article.
+
+For someone assessing a new tool, the next questions concern behaviour after the stop. Is the task's state preserved? Can the user understand why it stopped? How does work resume? A spending mechanism does not automatically answer those questions. The platform controls usage, while the application needs its own understandable interruption and recovery behaviour. Building faster with an agent does not remove that design work.
+
+### Why it matters
+
+The discussion shifts attention from creating software quickly to the conditions under which it keeps running. Useful spending controls need clear boundaries and understandable enforcement. AWS and Google document real options, with different availability and recovery rules, rather than a universal guarantee against every charge. Their practical value depends on distinguishing an alert, a usage stop and the final bill.
+
+
+----- 05-http-over-ssh (tech) — source: https://vincent.bernat.ch/en/blog/2026-http-over-ssh -----
+
+## Русская версия
+
+Венсан Берна [описал 3 октября собственный туннель на OpenSSH и nginx](https://vincent.bernat.ch/en/blog/2026-http-over-ssh). Он позволяет показать локальный сайт через внешний адрес без отдельного специализированного клиента. Это конкретная реализация на существующих инструментах. Чтобы понять её устройство, полезно отдельно посмотреть, какую роль выполняет каждый компонент.
+
+Первую часть объясняет [руководство OpenSSH](https://man.openbsd.org/ssh). Удалённое перенаправление создаёт слушающий порт на сервере и передаёт соединения через защищённый канал к назначению на стороне клиента. При выборе номера порта 0 сервер выделяет свободный номер динамически. По умолчанию серверный TCP-порт слушает только loopback-интерфейс, то есть не становится напрямую доступным всему интернету.
+
+Вторая часть — обычное проксирование. [Документация nginx](https://nginx.org/en/docs/http/ngx_http_proxy_module.html) описывает передачу HTTP-запроса другому серверу с заданным протоколом, адресом и портом. В таком сочетании nginx принимает внешний запрос и отправляет его на серверный конец SSH-перенаправления. Ответ возвращается тем же путём. Так разделяются публичная точка входа и транспорт к локальному приложению.
+
+Однако появление внешнего адреса ещё не отвечает на вопрос, кому разрешено им пользоваться. [Модуль Secure Link](https://nginx.org/en/docs/http/ngx_http_secure_link_module.html) проверяет подлинность ссылки и может ограничивать время её действия. Проверка срока позволяет отличить отсутствующее или неверное подтверждение от уже просроченного. Модуль не включён в сборку nginx по умолчанию — это отдельное условие для реализации, которая на него опирается.
+
+Есть и другой механизм. [HTTP Basic Authentication в nginx](https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html) ограничивает доступ проверкой имени пользователя и пароля. Сам протокол, согласно [RFC 7617](https://www.rfc-editor.org/rfc/rfc7617), не защищает эти сведения без внешнего защищённого транспорта, например TLS. Поэтому доставка по SSH на одном участке и защита браузерного соединения решают разные части задачи.
+
+Берна публикует конфигурацию и вспомогательный скрипт, объединяющие элементы в схему со ссылкой ограниченного срока. Это реализация автора; поведение её компонентов поясняют приведённые первичные документы.
+
+Практический вывод из разделения ролей — удобство и доступ нужно оценивать независимо. Возможность открыть страницу из браузера проверяет маршрут. Возможность закрыть её после завершения просмотра проверяет другое свойство. Это полезное различие даже для короткой демонстрации: «сайт доступен» и «сайт доступен только нужным людям в нужное время» описывают разные требования.
+
+### Почему это важно
+
+Пример показывает, как знакомые протоколы складываются в небольшой сервис для совместной работы. Привлекательность такого варианта зависит от уже имеющегося сервера и готовности его обслуживать; собственного хостинга недостаточно, чтобы автоматически получить все удобства готового сервиса. Оценивать стоит понятность каждой границы: где принимается запрос, куда он передаётся и чем подтверждается право доступа. Эта схема помогает задавать вопросы к реализации, не заменяя проверку самой конфигурации.
+
+## English version
+
+Vincent Bernat [described a self-hosted OpenSSH and nginx tunnel on October 3](https://vincent.bernat.ch/en/blog/2026-http-over-ssh). It makes a local website reachable through an external address without a separate specialist client. This is a particular implementation using established tools. Understanding it means examining the distinct role of each component.
+
+The first part is documented in the [OpenSSH manual](https://man.openbsd.org/ssh). Remote forwarding creates a listening port on the server and carries connections over the secure channel to a destination reached from the client. Choosing port 0 makes the server allocate an available number dynamically. By default, the server-side TCP listener binds only to loopback, so that port is not directly exposed to the whole internet.
+
+The second part is ordinary proxying. The [nginx documentation](https://nginx.org/en/docs/http/ngx_http_proxy_module.html) describes passing HTTP requests to another server using a specified protocol, address and port. In this arrangement, nginx receives the external request and sends it to the server end of the SSH forward. The response returns along the same route. The public entry point and the transport to the local application have distinct roles.
+
+An external address does not, however, decide who may use it. The [Secure Link module](https://nginx.org/en/docs/http/ngx_http_secure_link_module.html) checks a link's authenticity and can restrict its lifetime. Its expiry check distinguishes missing or invalid confirmation from a link whose validity has ended. The module is not built into nginx by default, which is a separate prerequisite for an implementation that depends on it.
+
+Another mechanism is [nginx HTTP Basic Authentication](https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html), which checks a username and password to restrict access. As [RFC 7617](https://www.rfc-editor.org/rfc/rfc7617) explains, that protocol does not protect those credentials without an external secure transport such as TLS. Securing the SSH segment and protecting the browser's connection therefore address different parts of the path.
+
+Bernat publishes a configuration and helper script combining these pieces into a scheme with a time-limited link. That is his implementation; the primary documents linked here explain its components' behaviour.
+
+The practical inference is to assess convenience and access independently. Opening the page from a browser checks the route. Closing access after the review checks another property. Even for a short demonstration, “the site is reachable” and “the right people can reach it for the intended period” are distinct requirements.
+
+### Why it matters
+
+The example shows familiar protocols forming a small collaboration service. Its appeal depends on an existing server and willingness to maintain it; self-hosting does not automatically reproduce every convenience of a managed service. The useful questions concern each boundary: where a request arrives, where it goes next and how access is authorised. Understanding that division helps evaluate a design without substituting for verification of the actual configuration.
+
+
 ===== EDITION 29 — 2026-10-04 =====
 
 ## От редакции

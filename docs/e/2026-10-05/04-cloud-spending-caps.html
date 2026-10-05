@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Письмо о перерасходе или остановка: облачные лимиты становятся частью разговора об агентах - frontier-wire</title>
+<meta name="description" content="Simon Willison argues for hard limits by default; AWS and Google already offer mechanisms with different scopes and conditions.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-05/04-cloud-spending-caps.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "An overspending email or a stop: cloud limits join the conversation about agents", "alternativeHeadline": "Письмо о перерасходе или остановка: облачные лимиты становятся частью разговора об агентах", "datePublished": "2026-10-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-05/04-cloud-spending-caps.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Экономика</span><span class="lang-en">Economy</span></span> &middot; 2026-10-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Письмо о перерасходе или остановка: облачные лимиты становятся частью разговора об агентах</span><span class="lang-en">An overspending email or a stop: cloud limits join the conversation about agents</span></h1>
+  <p class="dek big"><span class="lang-ru">Саймон Уиллисон предлагает жёсткие ограничения по умолчанию; у AWS и Google уже есть механизмы с разным охватом и условиями.</span><span class="lang-en">Simon Willison argues for hard limits by default; AWS and Google already offer mechanisms with different scopes and conditions.</span></p>
+  
+  <div class="prose lang-ru"><p>Агент может быстро написать полезную программу, но её последующие обращения к платным сервисам оплачиваются отдельно. В <a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/">заметке от 3 октября</a> разработчик Саймон Уиллисон предлагает сделать жёсткие ограничения расходов обычным поведением таких сервисов. Его тезис прост: уведомление о достигнутом бюджете и прекращение платной работы — разные функции. Это предложение автора, а не объявленное общее правило облачного рынка.</p>
+<p>Повод проверить тезис есть в документации поставщиков. В <a href="https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/">анонсе нового опыта AWS от 16 сентября</a> описан ежемесячный лимит для проекта после перехода на платный план. При достижении суммы проект приостанавливается. У отдельных проектов могут быть собственные ограничения. Сентябрьский анонс здесь служит контекстом к новой дискуссии, а не выдаётся за релиз 5 октября.</p>
+<p><a href="https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html">Текущая инструкция AWS</a> уточняет границы: новый опыт пока доступен ограниченному числу клиентов; лимит управляется владельцем проекта и требует платного плана. При остановке данные сохраняются, но отсутствие действий в течение 90 дней после паузы ведёт к их удалению. Для возобновления нужно увеличить лимит; некоторые ресурсы придётся запускать вручную. Поэтому остановка расходов не означает бессрочное хранение отключённого проекта.</p>
+<p>У Google другой масштаб ограничения. В <a href="https://cloud.google.com/blog/topics/cost-management/new-early-anomalies-and-spend-caps-on-google-cloud-budgets">описании Spend Caps от 28 июля</a> публичный предварительный режим охватывает конкретный сервис внутри одного проекта на фиксированный месяц. При достижении порога блокируется дальнейшее платное использование этого сервиса. Остальные сервисы вне области лимита не затрагиваются. При этом фиксированные договорные платежи, например за зарезервированную пропускную способность, продолжаются; cap не обнуляет весь счёт.</p>
+<p>Сравнение показывает, почему одного слова «бюджет» в интерфейсе недостаточно. Важно знать область действия и последствие достижения порога. Ограничение проекта может остановить несколько связанных частей приложения. Ограничение отдельного сервиса оставляет другую инфраструктуру работающей, но приложение всё равно должно учитывать недоступность нужной операции. Это практический вывод из различий двух описанных механизмов, а не результат испытаний конкретного приложения редакцией.</p>
+<p>Для читателя, который оценивает новый инструмент, полезен вопрос о поведении после остановки. Сохраняется ли состояние задачи? Видно ли пользователю, почему она прервана? Как возобновляется работа? Наличие лимита не отвечает автоматически на эти вопросы: платформа управляет расходами, а понятное поведение приложения требует отдельного проектирования. Быстрый старт с помощью агента эту часть работы не отменяет.</p>
+<h3>Почему это важно</h3>
+<p>Обсуждение переносит внимание с скорости создания программы на условия её дальнейшей работы. Хороший контроль расходов должен иметь понятные границы и объяснимое действие при их достижении. Документы AWS и Google показывают реальные варианты, но не универсальную гарантию против любых платежей. Судить о механизме стоит по его области, доступности и правилам восстановления, сохраняя различие между уведомлением, остановкой использования и итоговым счётом.</p></div>
+  <div class="prose lang-en"><p>An agent can quickly write a useful application, while the application's later calls to paid services are billed separately. In an <a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/">October 3 post</a>, developer Simon Willison argues that hard spending limits should be the default for such services. His distinction is straightforward: a budget notification and an actual stop to billable work are different features. This is his proposal, rather than a new rule adopted across the cloud market.</p>
+<p>Providers' documentation offers concrete examples. An <a href="https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/">AWS announcement dated September 16</a> describes monthly project spending limits after upgrading to a paid plan. Reaching the chosen amount pauses the project. Additional projects can have their own limits. That earlier announcement is context for the current discussion; it is not presented here as a release made on October 5.</p>
+<p><a href="https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html">AWS's current instructions</a> add qualifications. The new experience is available to a limited number of customers, requires a paid plan and gives project owners control of the limit. Data survives a pause, but is permanently deleted if no action is taken within 90 days. Reactivation requires increasing the limit, and some resources may need manual restarting. Pausing expenditure does not promise indefinite storage.</p>
+<p>Google's mechanism has a different scope. Its <a href="https://cloud.google.com/blog/topics/cost-management/new-early-anomalies-and-spend-caps-on-google-cloud-budgets">July 28 description of Spend Caps</a> says the public preview applies to a particular service in one project for a fixed month. The threshold blocks further billable use of that service, leaving services outside the budget's scope unaffected. Fixed contractual commitments, such as provisioned throughput charges, continue to bill. A cap therefore does not eliminate every component of an invoice.</p>
+<p>The comparison shows why the word “budget” alone is insufficient. The scope and the action at the threshold matter. A project limit can interrupt several connected components. A service limit leaves other infrastructure running, but the application still needs to account for its missing operation. That is a practical inference from the two documented designs, rather than a result from testing a particular application for this article.</p>
+<p>For someone assessing a new tool, the next questions concern behaviour after the stop. Is the task's state preserved? Can the user understand why it stopped? How does work resume? A spending mechanism does not automatically answer those questions. The platform controls usage, while the application needs its own understandable interruption and recovery behaviour. Building faster with an agent does not remove that design work.</p>
+<h3>Why it matters</h3>
+<p>The discussion shifts attention from creating software quickly to the conditions under which it keeps running. Useful spending controls need clear boundaries and understandable enforcement. AWS and Google document real options, with different availability and recovery rules, rather than a universal guarantee against every charge. Their practical value depends on distinguishing an alert, a usage stop and the final bill.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/">https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-05",
+  "slot": "morning",
+  "checked_at": "2026-10-05T04:12:12.985969+00:00",
+  "digest_sha256": "6126c2ceb38867b8235c6ccc450cea678a65819a3c654f5f46ed0231c136b468",
+  "articles": [
+    {
+      "path": "editions/2026/10-05/01-curiosity-basque-lakes.md",
+      "sha256": "2229715e4e52d55ee9ed4c15a7587efb4fe75bf2c4828999d6ff368de6d9d86e",
+      "source": "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek"
+    },
+    {
+      "path": "editions/2026/10-05/02-lunar-data-gaps.md",
+      "sha256": "6381dd410d27f34f0e8b9938d830aae42b790f13eee86be4a4318350ccffdb43",
+      "source": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino"
+    },
+    {
+      "path": "editions/2026/10-05/03-webb-collision-dust.md",
+      "sha256": "b0288caca66b31a1a9abc2a9b8181a5c02be9f444f6c322f5f16ed22c89104db",
+      "source": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions"
+    },
+    {
+      "path": "editions/2026/10-05/04-cloud-spending-caps.md",
+      "sha256": "cbac290a66fc2d3516094295e60c2af6bb4004714e41183329a388a728e5f369",
+      "source": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps"
+    },
+    {
+      "path": "editions/2026/10-05/05-http-over-ssh.md",
+      "sha256": "2a0ffae73c87557132f5c7ab13f7d20ddac336c8b09e889f829a6276f93bf931",
+      "source": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh"
+    }
+  ]
+}

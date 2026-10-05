@@ -10,10 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №29 / Edition №29 — 2026-10-04** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №30 / Edition №30 — 2026-10-05** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Наука]** [Репетиция Венеры в печи — зонд DAVINCI выдержал 465 °C](editions/2026/10-04/01-davinci-heat-test.md)
-- **[Наука]** [Научные итоги Crew-12 — что экипаж исследовал на МКС](editions/2026/10-04/02-crew-12-science.md)
+- **[Наука]** [Curiosity пробурил 48-ю скалу — минералы ещё должны рассказать её историю](editions/2026/10-05/01-curiosity-basque-lakes.md)
+- **[Технологии]** [Перед полётом на Луну NASA составляет список того, чего ещё не знает](editions/2026/10-05/02-lunar-data-gaps.md)
+- **[Наука]** [Webb читает историю столкновений по пыли вокруг молодых звёзд](editions/2026/10-05/03-webb-collision-dust.md)
+- **[Экономика]** [Письмо о перерасходе или остановка: облачные лимиты становятся частью разговора об агентах](editions/2026/10-05/04-cloud-spending-caps.md)
+- **[Технологии]** [Показать локальный сайт через SSH: два привычных инструмента вместо отдельного клиента](editions/2026/10-05/05-http-over-ssh.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
