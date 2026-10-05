@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Агент сказал «готово» — ThinkingBox проверяет, что осталось в базе - frontier-wire</title>
+<meta name="description" content="An open benchmark separates valid tool calls from correct outcomes and repeatable execution.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-05/06-thinkingbox-state-checks.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "The agent said done — ThinkingBox checks the database", "alternativeHeadline": "Агент сказал «готово» — ThinkingBox проверяет, что осталось в базе", "datePublished": "2026-10-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/microsoft/thinkingbox", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-05/06-thinkingbox-state-checks.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Агент сказал «готово» — ThinkingBox проверяет, что осталось в базе</span><span class="lang-en">The agent said done — ThinkingBox checks the database</span></h1>
+  <p class="dek big"><span class="lang-ru">Открытый стенд отделяет правильный вызов инструмента от правильного результата и повторяемой работы.</span><span class="lang-en">An open benchmark separates valid tool calls from correct outcomes and repeatable execution.</span></p>
+  
+  <div class="prose lang-ru"><p>В совместном <a href="https://huggingface.co/blog/microsoft/thinkingbox">материале Microsoft и Hugging Face</a>, опубликованном 3 октября, ThinkingBox представлен через простой вопрос: после работы агента нужные записи действительно изменились? Теперь стенд доступен через OpenEnv. Это новый способ пользоваться проектом, а не исследование, впервые появившееся сегодня.</p>
+<p>Разница существенная. Представьте, что помощник отвечает на просьбу изменить бронирование. Убедительная фраза в чате ещё не показывает, какую запись он обновил и не затронул ли соседнюю. В такой задаче полезно проверять сохранённый результат независимо от рассказа исполнителя. Именно эту границу делает видимой подход ThinkingBox.</p>
+<p><a href="https://arxiv.org/html/2608.19741v4">Работа команды Чжочунь Ли</a>, обновлённая 1 октября, описывает 507 синтетических сценариев из пяти деловых областей. Каждый проверяется по конечному состоянию и побочным изменениям. Но у стенда есть важное ограничение: в 477 задачах сам финальный ответ не оценивается; ещё 30 добавляют требования к ответу. Следовательно, успешный результат теста не всегда означает, что пользователь получил точное объяснение. Авторы также не называют выборку репрезентативной для всей корпоративной работы.</p>
+<p>В октябрьском блоге отдельно разведены три показателя: доля удачных попыток, хотя бы один успех за двадцать запусков и буквально двадцать успешных запусков из двадцати. Для читателя таблиц это полезнее одного большого процента. Если демонстрацию можно повторять до удачного дубля, она отвечает на другой вопрос, чем проверка того, что процесс стабильно проходит с первого раза. Эти числа нельзя подменять друг другом.</p>
+<p><a href="https://github.com/microsoft/thinkingbox">README самого фреймворка</a> объясняет устройство изолированных сессий. Прокси запускает и инициализирует инструменты для отдельного разговора, передаёт их схемы агенту, собирает изменения для оценки, затем освобождает окружение. Набор сценариев вынесен в отдельный репозиторий. Поэтому скачать движок и получить полноценное испытание делового процесса — разные этапы; небольшой встроенный пример прежде всего помогает проверить установку.</p>
+<p><a href="https://huggingface.co/docs/openenv/environments/thinkingbox">Документация адаптера OpenEnv</a> уточняет: нынешняя интеграция предназначена для оценки. Канонические результаты используют закреплённый выпуск данных; собственные сценарии не становятся автоматически результатами ThinkingBox-Bench. Серверу нужны внешние компоненты, включая прокси, MCP-сервисы и модельные endpoints. Один запущенный контейнер не подтверждает готовность всей цепочки.</p>
+<h3>Почему это важно</h3>
+<p>Для команды, внедряющей агента, отсюда следует практический вопрос: где независимый критерий завершения вашей задачи? Наш вывод — сначала описать требуемые изменения и допустимые побочные эффекты, затем выбирать показатель надёжности. ThinkingBox даёт воспроизводимый пример такой проверки. Он не выдаёт универсальный сертификат безопасности и не заменяет испытания на собственном процессе, особенно если важны качество общения и поведение пользователей вне заданного сценария.</p></div>
+  <div class="prose lang-en"><p>In a joint <a href="https://huggingface.co/blog/microsoft/thinkingbox">Microsoft and Hugging Face post</a> published on October 3, ThinkingBox is introduced through a practical question: did the agent actually leave the required records behind? The benchmark is now accessible through OpenEnv. That is an extension of how people can use the project, rather than a study first released today.</p>
+<p>Consider an assistant asked to change a booking. A confident completion message does not establish which record changed or whether another record was altered unnecessarily. A useful evaluation would inspect the persistent result independently of the assistant's account. This is the distinction that makes a stateful benchmark interesting: the output being judged includes what the software did.</p>
+<p>The <a href="https://arxiv.org/html/2608.19741v4">paper by Zhuochun Li and colleagues</a>, revised on October 1, describes 507 synthetic workflows across five business domains. Every task checks terminal state and side effects. There is a significant boundary, however: 477 tasks do not grade the final response itself, while 30 add response requirements. A passing result therefore need not imply an accurate explanation to the user. The authors also caution that their task collection does not represent the distribution of all enterprise work.</p>
+<p>The October blog distinguishes average success per attempt, at least one success across twenty attempts, and the literal count of tasks that passed twenty out of twenty times. These measures answer different questions. A demonstration selected after retries can establish that a successful path exists. It cannot, by itself, establish that an unattended process will repeatedly follow that path. Readers should keep those meanings separate when comparing leaderboard columns.</p>
+<p>The <a href="https://github.com/microsoft/thinkingbox">framework README</a> describes the session machinery. A proxy spawns and initializes tools for an isolated conversation, exposes tool schemas, collects effects for judging, and destroys the session afterward. The substantial scenarios and tool packages live in a separate data repository. Downloading the framework and running a meaningful business evaluation are therefore separate steps; its small bundled example mainly checks that an installation is wired together.</p>
+<p>The <a href="https://huggingface.co/docs/openenv/environments/thinkingbox">OpenEnv adapter documentation</a> adds another qualification: the current adapter is designed for evaluation. Canonical coverage uses a pinned benchmark release; custom scenarios do not automatically count as ThinkingBox-Bench results. The API server needs external services, including the session proxy, MCP servers and model endpoints. A running API container does not establish that the entire evaluation environment is ready.</p>
+<h3>Why it matters</h3>
+<p>For an implementation team, the actionable question is where its independent completion criterion lives. Our reading is that teams should specify the required state changes and acceptable side effects before choosing a reliability metric. ThinkingBox offers a reproducible example of that approach. It is not a universal safety certificate or a substitute for testing a team's own workflow, especially when communication quality and users outside the simulator's prescribed behavior matter.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/microsoft/thinkingbox">https://huggingface.co/blog/microsoft/thinkingbox</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

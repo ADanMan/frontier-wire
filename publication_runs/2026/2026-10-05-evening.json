@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-05",
+  "slot": "evening",
+  "checked_at": "2026-10-05T16:19:42.769046+00:00",
+  "digest_sha256": "5a66fabd9a21aceb15e1736e32432ca1f14c94b0a33fbc71c85b7d7ed3029579",
+  "articles": [
+    {
+      "path": "editions/2026/10-05/06-thinkingbox-state-checks.md",
+      "sha256": "ae847e595de59da819baf4146ae26b5f978e7d83a42a3903b35257eec9900395",
+      "source": "https://huggingface.co/blog/microsoft/thinkingbox"
+    },
+    {
+      "path": "editions/2026/10-05/07-chatgpt-visual-ads-test.md",
+      "sha256": "a0ec4757398e6ee0b62fec476a62bb4ef9c8efbc90f2f57e7d71af9d2dab6e43",
+      "source": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+    },
+    {
+      "path": "editions/2026/10-05/08-white-dwarf-planet-candidate.md",
+      "sha256": "1430399aaf064458c77bd14f0c1b7e42c59f522a47c393efac8ca42fcfafdfb6",
+      "source": "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case"
+    },
+    {
+      "path": "editions/2026/10-05/09-astabrief-cited-reports.md",
+      "sha256": "25d267286dbeef33963b11717d0474c397abb8310925d69d83defbbd21cc1d76",
+      "source": "https://huggingface.co/blog/allenai/astabrief"
+    },
+    {
+      "path": "editions/2026/10-05/10-nasa-large-droplet-icing.md",
+      "sha256": "a79722bad1d797dfb40f90b32e85652022c6d4ccddfa37f1e41d55c1e8bad776",
+      "source": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety"
+    }
+  ]
+}

@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Сегодня смотрим, как проверяют границы: расходов в облаке, доступа к локальному сайту и знаний о других мирах. Curiosity взял новый образец, NASA превращает неизвестное о Луне в задачи для измерений, а Webb читает следы столкновений по космической пыли. В каждой истории полезно различать уже полученные данные, инженерные возможности и выводы, которые ещё предстоит проверить.
+Сегодня проверяем границы: расходов в облаке, знаний о других мирах и обещаний цифровых помощников. К утренним историям о Curiosity, Луне, Webb и инженерных инструментах вечером добавились проверка агентов по состоянию базы, научные обзоры AstaBrief и планируемый рекламный тест ChatGPT. NASA точнее измеряет облака для испытаний обледенения, а архив Hubble дал химический след возможной планеты второго поколения. Во всех десяти материалах отделяем полученные измерения от интерпретаций, планов и результатов, которые ещё предстоит проверить.
 
 ## Editorial
 
-Today's stories explore limits: cloud spending, access to a local website, and what we know about other worlds. Curiosity has collected another sample, NASA is turning lunar unknowns into measurement targets, and Webb is reading the traces of collisions in cosmic dust. Each story separates observations and engineering capabilities from conclusions still awaiting a test.
+Today we examine the limits of cloud spending, knowledge of other worlds and digital assistants' promises. The morning's Curiosity, Moon, Webb and engineering stories are joined by database checks for agents, AstaBrief's scientific reports and ChatGPT's planned advertising test. NASA is refining cloud measurements for icing research, while Hubble's archive offers a chemical clue to a possible second-generation planet. Across all ten stories, we distinguish measurements from interpretations, plans and outcomes still awaiting verification.
 
 
 ----- 01-curiosity-basque-lakes (science) — source: https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/ -----
@@ -222,6 +222,189 @@ The practical inference is to assess convenience and access independently. Openi
 ### Why it matters
 
 The example shows familiar protocols forming a small collaboration service. Its appeal depends on an existing server and willingness to maintain it; self-hosting does not automatically reproduce every convenience of a managed service. The useful questions concern each boundary: where a request arrives, where it goes next and how access is authorised. Understanding that division helps evaluate a design without substituting for verification of the actual configuration.
+
+
+----- 06-thinkingbox-state-checks (ai) — source: https://huggingface.co/blog/microsoft/thinkingbox -----
+
+## Русская версия
+
+В совместном [материале Microsoft и Hugging Face](https://huggingface.co/blog/microsoft/thinkingbox), опубликованном 3 октября, ThinkingBox представлен через простой вопрос: после работы агента нужные записи действительно изменились? Теперь стенд доступен через OpenEnv. Это новый способ пользоваться проектом, а не исследование, впервые появившееся сегодня.
+
+Разница существенная. Представьте, что помощник отвечает на просьбу изменить бронирование. Убедительная фраза в чате ещё не показывает, какую запись он обновил и не затронул ли соседнюю. В такой задаче полезно проверять сохранённый результат независимо от рассказа исполнителя. Именно эту границу делает видимой подход ThinkingBox.
+
+[Работа команды Чжочунь Ли](https://arxiv.org/html/2608.19741v4), обновлённая 1 октября, описывает 507 синтетических сценариев из пяти деловых областей. Каждый проверяется по конечному состоянию и побочным изменениям. Но у стенда есть важное ограничение: в 477 задачах сам финальный ответ не оценивается; ещё 30 добавляют требования к ответу. Следовательно, успешный результат теста не всегда означает, что пользователь получил точное объяснение. Авторы также не называют выборку репрезентативной для всей корпоративной работы.
+
+В октябрьском блоге отдельно разведены три показателя: доля удачных попыток, хотя бы один успех за двадцать запусков и буквально двадцать успешных запусков из двадцати. Для читателя таблиц это полезнее одного большого процента. Если демонстрацию можно повторять до удачного дубля, она отвечает на другой вопрос, чем проверка того, что процесс стабильно проходит с первого раза. Эти числа нельзя подменять друг другом.
+
+[README самого фреймворка](https://github.com/microsoft/thinkingbox) объясняет устройство изолированных сессий. Прокси запускает и инициализирует инструменты для отдельного разговора, передаёт их схемы агенту, собирает изменения для оценки, затем освобождает окружение. Набор сценариев вынесен в отдельный репозиторий. Поэтому скачать движок и получить полноценное испытание делового процесса — разные этапы; небольшой встроенный пример прежде всего помогает проверить установку.
+
+[Документация адаптера OpenEnv](https://huggingface.co/docs/openenv/environments/thinkingbox) уточняет: нынешняя интеграция предназначена для оценки. Канонические результаты используют закреплённый выпуск данных; собственные сценарии не становятся автоматически результатами ThinkingBox-Bench. Серверу нужны внешние компоненты, включая прокси, MCP-сервисы и модельные endpoints. Один запущенный контейнер не подтверждает готовность всей цепочки.
+
+### Почему это важно
+
+Для команды, внедряющей агента, отсюда следует практический вопрос: где независимый критерий завершения вашей задачи? Наш вывод — сначала описать требуемые изменения и допустимые побочные эффекты, затем выбирать показатель надёжности. ThinkingBox даёт воспроизводимый пример такой проверки. Он не выдаёт универсальный сертификат безопасности и не заменяет испытания на собственном процессе, особенно если важны качество общения и поведение пользователей вне заданного сценария.
+
+## English version
+
+In a joint [Microsoft and Hugging Face post](https://huggingface.co/blog/microsoft/thinkingbox) published on October 3, ThinkingBox is introduced through a practical question: did the agent actually leave the required records behind? The benchmark is now accessible through OpenEnv. That is an extension of how people can use the project, rather than a study first released today.
+
+Consider an assistant asked to change a booking. A confident completion message does not establish which record changed or whether another record was altered unnecessarily. A useful evaluation would inspect the persistent result independently of the assistant's account. This is the distinction that makes a stateful benchmark interesting: the output being judged includes what the software did.
+
+The [paper by Zhuochun Li and colleagues](https://arxiv.org/html/2608.19741v4), revised on October 1, describes 507 synthetic workflows across five business domains. Every task checks terminal state and side effects. There is a significant boundary, however: 477 tasks do not grade the final response itself, while 30 add response requirements. A passing result therefore need not imply an accurate explanation to the user. The authors also caution that their task collection does not represent the distribution of all enterprise work.
+
+The October blog distinguishes average success per attempt, at least one success across twenty attempts, and the literal count of tasks that passed twenty out of twenty times. These measures answer different questions. A demonstration selected after retries can establish that a successful path exists. It cannot, by itself, establish that an unattended process will repeatedly follow that path. Readers should keep those meanings separate when comparing leaderboard columns.
+
+The [framework README](https://github.com/microsoft/thinkingbox) describes the session machinery. A proxy spawns and initializes tools for an isolated conversation, exposes tool schemas, collects effects for judging, and destroys the session afterward. The substantial scenarios and tool packages live in a separate data repository. Downloading the framework and running a meaningful business evaluation are therefore separate steps; its small bundled example mainly checks that an installation is wired together.
+
+The [OpenEnv adapter documentation](https://huggingface.co/docs/openenv/environments/thinkingbox) adds another qualification: the current adapter is designed for evaluation. Canonical coverage uses a pinned benchmark release; custom scenarios do not automatically count as ThinkingBox-Bench results. The API server needs external services, including the session proxy, MCP servers and model endpoints. A running API container does not establish that the entire evaluation environment is ready.
+
+### Why it matters
+
+For an implementation team, the actionable question is where its independent completion criterion lives. Our reading is that teams should specify the required state changes and acceptable side effects before choosing a reliability metric. ThinkingBox offers a reproducible example of that approach. It is not a universal safety certificate or a substitute for testing a team's own workflow, especially when communication quality and users outside the simulator's prescribed behavior matter.
+
+
+----- 07-chatgpt-visual-ads-test (economy) — source: https://openai.com/index/new-chatgpt-ads-format-and-measurement/ -----
+
+## Русская версия
+
+OpenAI 5 октября [объявила новый визуальный рекламный формат](https://openai.com/index/new-chatgpt-ads-format-and-measurement/). Первоначальный тест должен начаться позднее в этом месяце в США с ограниченной группой рекламодателей, во время генерации изображений в ChatGPT. Компания обещает маркировку и отделение объявления от создаваемой картинки. Это анонс пилота, а не сообщение о запуске для всех пользователей.
+
+Здесь интересно расположение рекламы: человек занят созданием результата, а коммерческое предложение появляется рядом с этим процессом. Наш редакционный вопрос — насколько легко будет визуально отличить оплаченный материал от ответа помощника. До самого испытания оценивать интерфейс и пользовательскую реакцию рано; объявленные принципы остаются обещаниями, которые предстоит проверять по поведению продукта.
+
+В отдельном [пояснении о измерениях](https://ads.openai.com/blog/more-ways-to-measure) OpenAI описывает передачу событий через Pixel и Conversions API: покупки, заявки, установки и регистрации. В отчётах можно выбирать окно атрибуции клика и учитывать однодневное окно после показа без клика. Компания отдельно отмечает, что настройки отчётности не меняют способ оптимизации кампаний. Это важная техническая граница: одна и та же покупка может по-разному выглядеть в отчёте при разных правилах подсчёта.
+
+Для понимания причинного эффекта нужны другие проверки. Компания сообщает о ранней работе с Haus, Measured и WorkMagic над географическими экспериментами. Атрибуция отвечает, каким показам или кликам система приписывает результат. Инкрементальность пытается установить, сколько результата добавила сама реклама. Наш вывод: близость покупки по времени к показу не решает второй вопрос. Покупатель мог уже собираться заказать товар, и без сравнения с контрольными условиями этот вклад нельзя отделить.
+
+Публичные [рекламные правила OpenAI](https://openai.com/policies/ad-policies/), обновлённые 10 сентября, требуют различимости объявления и интерфейса ChatGPT. Проверка охватывает рекламодателя, креатив с целевой страницей и контекст размещения; используются автоматические системы с человеческим надзором. В документе также прямо предусмотрено, что нарушающее правила объявление может пройти проверку, после чего потребуются расследование и реакция. Правило и отсутствие любых ошибок — разные утверждения.
+
+В новом анонсе названы разрабатываемые пилоты оценки подходящего контекста с DoubleVerify и Integral Ad Science. По заявлению OpenAI, партнёры будут проверять контролируемую среду без доступа к приватным разговорам пользователей. Публикация не содержит независимого отчёта о завершённом аудите этих пилотов. Поэтому её следует читать как описание устройства и намерений платформы.
+
+### Почему это важно
+
+У пользователей и рекламодателей разные критерии удачного теста. Первым важно узнавать коммерческий блок и понимать, откуда взялось предложение. Вторым — отличать отчётный успех от доказанного прироста продаж. Эти вопросы стоит проверять отдельно: понятная маркировка не доказывает эффективность, а хорошая метрика кампании не доказывает, что интерфейс оказался понятным. Октябрьский тест сможет дать данные для такого разговора; сегодняшний анонс только задаёт его рамку.
+
+## English version
+
+OpenAI [announced a new visual advertising format](https://openai.com/index/new-chatgpt-ads-format-and-measurement/) on October 5. Its initial test is planned for later this month in the United States with a limited advertiser group, during image generation in ChatGPT. The company says ads will be labeled and kept separate from the image being created. This is a pilot announcement, rather than a release to all users.
+
+The placement is the interesting part: someone is making an output while a commercial suggestion appears alongside the process. Our editorial question is how easily a user will distinguish paid material from the assistant's response. It is too early to assess the interface or audience reaction before the test. The stated principles are commitments to examine against the product's behavior.
+
+In a separate [measurement explanation](https://ads.openai.com/blog/more-ways-to-measure), OpenAI describes event signals through its Pixel and Conversions API, covering purchases, leads, installs and registrations. Advertisers can select a click attribution window and include a one-day window for conversions following an impression without a click. The company explicitly separates these reporting settings from campaign optimization. That matters because different counting rules can change how the same purchase appears in a report.
+
+The company also describes early work with Haus, Measured and WorkMagic on geographic experiments. Attribution asks which impressions or clicks a reporting system credits with an outcome. Incrementality asks how much additional business advertising caused. Our interpretation is that a purchase soon after an impression does not settle the second question. A shopper may already have intended to buy, and that contribution cannot be separated without an appropriate comparison.
+
+OpenAI's public [advertising policies](https://openai.com/policies/ad-policies/), updated on September 10, require ads to be distinguishable from the ChatGPT interface. Review covers the advertiser, creative and landing page, and placement context, using automated systems with human oversight. The document also anticipates that an ad violating policy could get through and require investigation and response. A published rule is consequently a different claim from error-free enforcement.
+
+The new announcement names developing brand suitability pilots with DoubleVerify and Integral Ad Science. OpenAI says partners would evaluate a controlled environment without accessing private user conversations. The announcement does not provide an independent report of a completed audit of those pilots. It should be read as the platform's description of its intended approach, with the future work kept in the future tense.
+
+### Why it matters
+
+Users and advertisers have different tests of success. Users need to recognize a commercial placement and understand why a suggestion appears. Advertisers need to separate credited outcomes from demonstrated additional sales. Those questions deserve separate checks: readable labeling does not prove campaign effectiveness, and a strong campaign metric does not prove that an interface was clear. The October pilot could produce evidence for that discussion; today's announcement establishes its starting conditions.
+
+
+----- 08-white-dwarf-planet-candidate (science) — source: https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/ -----
+
+## Русская версия
+
+В данных Hubble 1999 года оставались примерно сто неопознанных спектральных особенностей белого карлика HS 0209+0832. Как [сообщила NASA 5 октября](https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/), новая сверка с химической базой помогла связать многие из них с ниобием. Команда предполагает, что рядом существует планета, сформированная из вещества, выброшенного умирающей звездой. В сообщении она остаётся кандидатом; иллюстрация художника не является фотографией обнаруженного мира.
+
+Чтобы понять, почему это необычно, полезно вспомнить [описание звёздной эволюции NASA](https://science.nasa.gov/universe/stars/types/). После стадии красного гиганта звезда может потерять наружные слои, оставив компактное ядро — белый карлик. Он постепенно остывает, а окружающая система может содержать обломки и планеты. Обычно такие объекты рассматривают как наследство прежней системы. Здесь проверяется другой порядок событий: новое планетное вещество собирается уже после выброса звёздной оболочки.
+
+В [статье Джейми Уильямса и коллег в Nature Astronomy](https://www.nature.com/articles/s41550-026-02983-7), также опубликованной 5 октября, описано обогащение веществом с элементами тяжелее железа и недостатком привычных породообразующих составляющих. В фотометрии TESS найден период около 4,4 суток. Авторы рассматривают объяснения сигнала через меняющуюся видимость нагретой стороны гигантской планеты либо хвост испаряющегося газа. Это интерпретации наблюдений, а не прямое измерение поверхности кандидата.
+
+Техническая основа здесь — [спектроскопия](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-spectroscopy/). Прибор разделяет свет по длинам волн; элементы оставляют характерные следы поглощения и излучения. На графике видны провалы и пики, по которым можно исследовать состав, температуру и движение вещества. Hubble работает в ультрафиолетовой, видимой и части ближней инфракрасной области. Поэтому «увидеть ниобий» означает распознать набор линий в свете системы, а не рассмотреть отдельный кусок металла.
+
+Для нас особенно интересна последовательность аргументов. Сначала есть сохранённые измерения, затем улучшенная расшифровка линий, после этого — физический сценарий происхождения вещества. Эти уровни стоит держать раздельно. Само наличие химической подписи ещё не рассказывает всю историю формирования объекта; сценарий должен согласоваться и с остальными данными. Архивные наблюдения оказываются полезными именно потому, что к ним можно вернуться с новыми вопросами и средствами анализа.
+
+### Почему это важно
+
+Если объяснение подтвердится, привычная схема «звезда родилась, вокруг появились планеты» получит интересное дополнение. Но сегодня разумный результат скромнее: появился конкретный кандидат и набор признаков, по которым можно искать похожие системы. Это делает гипотезу проверяемой. Мы бы следили за дальнейшими наблюдениями и сравнением объектов, а не превращали слово «возможная» в «доказанная». Один необычный случай открывает исследовательскую программу; он ещё не показывает, насколько распространён такой способ рождения миров.
+
+## English version
+
+Hubble observations taken in 1999 left roughly a hundred unidentified spectral features in the white dwarf HS 0209+0832. As [NASA reported on October 5](https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/), comparison with an updated chemical database has linked many of them to niobium. The team proposes a planet formed from material expelled by the dying star. The object remains a candidate, and the artist's illustration is not an image of a detected planetary surface.
+
+NASA's [guide to stellar types](https://science.nasa.gov/universe/stars/types/) supplies the background. After a red giant sheds its outer layers, its compact core can remain as a white dwarf. That remnant gradually cools, while debris and planets can surround it. Such objects are often understood as remnants of an earlier planetary system. Here the proposed sequence adds a later stage: planetary material assembled after the star expelled its envelope.
+
+The [Nature Astronomy paper by Jamie Williams and colleagues](https://www.nature.com/articles/s41550-026-02983-7), also published on October 5, reports material enriched in elements heavier than iron and depleted in familiar rock-forming constituents. TESS photometry shows a period of about 4.4 days. The authors consider changing visibility of an irradiated giant planet's dayside or a tail of escaping gas as explanations of the signal. These are interpretations of observations, rather than a direct measurement of the candidate's surface.
+
+The relevant technique is [spectroscopy](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-spectroscopy/). An instrument separates incoming light by wavelength; elements produce characteristic absorption and emission signatures. Peaks and dips in the resulting graph can reveal composition, temperature and motion. Hubble covers ultraviolet, visible and part of the near-infrared spectrum. Detecting niobium therefore means identifying its pattern in light from the system, rather than resolving a separate piece of metal.
+
+The sequence of evidence is particularly interesting. There are preserved measurements, an improved identification of spectral lines, and then a physical explanation for where the material originated. Those levels should remain distinct. A chemical signature alone does not establish every step of an object's formation history; the proposed scenario must also fit the other observations. An archive is valuable precisely because researchers can return to the same measurements with different questions and better analytical tools.
+
+### Why it matters
+
+If the explanation holds up, the familiar sequence of a young star acquiring planets would gain an intriguing later chapter. Today's defensible result is narrower: researchers have a specific candidate and observable signatures that can guide searches for similar systems. That makes the idea testable. We would watch follow-up observations and comparisons rather than silently upgrade possible to confirmed. One unusual case can launch a research program without telling us how common this route to planet formation is, or establishing that every white dwarf with surrounding debris has a newly formed world.
+
+
+----- 09-astabrief-cited-reports (ai) — source: https://huggingface.co/blog/allenai/astabrief -----
+
+## Русская версия
+
+Ai2 2 октября [описал открытый выпуск AstaBrief](https://huggingface.co/blog/allenai/astabrief): модель на восемь миллиардов параметров превращает вопрос и извлечённые фрагменты научной литературы в обзор со ссылками. Она используется в Fast mode платформы Asta. По измерениям команды, весь быстрый процесс в среднем занимал 51,1 секунды против 178,5 секунды для Thinking mode. Это примерно трёхкратное ускорение конкретного процесса, а не обещание такой же скорости на любом компьютере.
+
+[Карточка модели](https://huggingface.co/allenai/AstaBrief_8B) уточняет её происхождение от Qwen3-8B и обучение через примеры и предпочтения между ответами. Веса имеют лицензию Apache 2.0. Для применения важен формат входа: разработчики рекомендуют структуру запроса, использованную при обучении, и предупреждают, что другой способ взаимодействия может ухудшать поведение. Иначе говоря, перед нами специализированный компонент обзора, которому нужно передать найденные материалы, а не автоматическое обещание полноценного исследователя.
+
+В [описании набора для обучения на примерах](https://huggingface.co/datasets/allenai/AstaBrief_SFT_Mix) указаны вопросы пользователей, согласившихся на передачу данных, собранные до июня 2025 года. Команда сообщает о фильтрации и отборе обзоров по плотности ссылок: после этого осталось около 39,5 тысячи примеров. Это помогает понять, что именно показывали модели во время обучения. Однако наличие ссылки и доказательность утверждения не тождественны; сам порог фильтра не является независимой проверкой научной истинности каждого предложения.
+
+[Набор предпочтений](https://huggingface.co/datasets/allenai/AstaBrief_DPO_Mix) содержит примерно 6,6 тысячи пар результатов. Для каждого вопроса сопоставлялись два обзора, а примеры сохранялись при согласии двух моделей-судей. Здесь важна отдельная деталь для тех, кто захочет повторить обучение: лицензия данных CC BY-NC 4.0 отличается от лицензии весов. Карточка также оговаривает условия поставщиков моделей, чьи синтетические ответы входят в набор. «Открыто скачать» не означает одинаковые условия для всех частей выпуска.
+
+По октябрьскому блогу, значительная часть разработки и оценок относится к 2025 году; полный эксперимент не повторяли против нынешних ведущих моделей. Поэтому сравнение показывает результат конкретной инженерной работы, а не сегодняшнего универсального рейтинга. Это полезная оговорка: систему обзора следует оценивать на вопросах, корпусе и требованиях своей исследовательской группы.
+
+### Почему это важно
+
+Для нас главное в таком выпуске — возможность разбирать цепочку: какие фрагменты подали, как обучали писать обзор и насколько легко проверить выводы. Мы бы отдельно смотрели на скорость, соответствие вопросу и поддержку каждого существенного утверждения источником. Самостоятельный запуск весов даёт больше контроля над компонентом генерации, но оставляет работу по поиску литературы и проверке результата. Особенно важно замечать, когда аккуратно оформленный текст превращает узкое наблюдение в широкий вывод: красивая ссылка не устраняет этот риск.
+
+## English version
+
+Ai2 [described its open AstaBrief release](https://huggingface.co/blog/allenai/astabrief) on October 2: an eight-billion-parameter model turns a question and retrieved scientific excerpts into a cited report. It powers Asta's Fast mode. In the team's measurements, the complete fast pipeline averaged 51.1 seconds against 178.5 seconds for Thinking mode. That is roughly a threefold improvement for the measured pipeline, rather than a promise of the same speed on every machine.
+
+The [model card](https://huggingface.co/allenai/AstaBrief_8B) identifies its Qwen3-8B base and training through examples and preferences between answers. The weights carry an Apache 2.0 license. Input structure matters: the developers recommend the format used in training and warn that a different interaction format may degrade behavior. This is a specialized report-writing component that expects retrieved material, rather than an automatic promise of a complete research assistant.
+
+The [supervised training dataset card](https://huggingface.co/datasets/allenai/AstaBrief_SFT_Mix) describes questions collected through June 2025 from users who opted into data sharing. The team reports filtering queries and selecting generated reports by citation density, leaving approximately 39,500 examples. That reveals something concrete about the behavior demonstrated during training. A citation's presence is nevertheless a different property from a claim's evidentiary support; a density threshold is not independent verification of the scientific truth of every sentence.
+
+The [preference dataset](https://huggingface.co/datasets/allenai/AstaBrief_DPO_Mix) contains approximately 6,600 report pairs. Two candidate reports were compared for each question, and examples were retained when two model judges agreed. For anyone considering reproduction, another distinction matters: the data's CC BY-NC 4.0 license differs from the weights' license. The card also notes the terms of the providers whose synthetic outputs appear in the data. Download availability does not mean identical usage conditions across the release's components.
+
+The October blog says much of the development and evaluation took place in 2025 and that the complete evaluation has not been repeated against today's frontier models. The comparison therefore documents a particular engineering result, rather than a universal current ranking. A research group would still need to evaluate the system against its own questions, literature collection and reporting requirements.
+
+### Why it matters
+
+The useful part of this release is the opportunity to inspect the chain: which excerpts go in, how report-writing behavior was trained, and how easily the resulting conclusions can be checked. We would assess latency, relevance and support for each substantial claim separately. Running weights locally provides more control over the generation component while leaving literature retrieval and output review as necessary work. In particular, a polished report can broaden a narrow observation into a general conclusion. A well-formatted citation does not remove that risk, and an evaluation should look beyond whether references are merely present.
+
+
+----- 10-nasa-large-droplet-icing (tech) — source: https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/ -----
+
+## Русская версия
+
+NASA 5 октября [рассказала об испытаниях](https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/), посвящённых крупным переохлаждённым каплям. Жидкая вода в холодном облаке может замерзать при попадании на самолёт; большие капли способны достигать участков за обычной защитой от льда. В трубе центра Glenn новые зонды измеряют капли крупнее 45 микрометров, а другой прибор дополняет меньшую часть спектра. Анализ продолжается. Фотографии относятся к июньским тестам — дата публикации не означает, что эксперимент провели сегодня.
+
+Смысл новости легко потерять за словом «зонд». Прежде чем проверять расчёт поведения крыла в облаке, нужно знать, какое облако вы создали в лаборатории. Наш вывод: ошибка в описании испытательной среды может затруднить понимание расхождения между расчётом и измерением. Именно поэтому настройка и сверка приборов — содержательная часть инженерной работы, хотя она выглядит менее эффектно, чем показ готового самолёта.
+
+[Описание Icing Research Tunnel](https://www.nasa.gov/centers-and-facilities/glenn/icing-research-tunnel/) объясняет возможности установки. Она работает с 1944 года, воспроизводит обледенение крыльев, хвостового оперения и воздухозаборников. В справочных характеристиках перечислены скорости от 50 до 325 узлов и температуры до минус 35 градусов Цельсия. Рабочая секция позволяет испытывать крупные модели и многие полноразмерные компоненты. Здесь изучают физику льда, проверяют прогнозы и разрабатывают защитные системы; это управляемая среда, где условия можно задавать и сравнивать.
+
+Почему точность формы льда имеет значение, показывает более ранняя [работа Бретта Борнхофта и коллег 2023 года](https://arxiv.org/abs/2309.13203). Она описывает моделирование пяти отсканированных ледовых форм из этой трубы и сопоставление аэродинамических нагрузок с экспериментом. Авторы различают крупные неровности глазурного льда и мелкую шероховатость изморози; во втором случае расчёту потребовалось дополнительное разрешение. Это исторический пример проверки моделей, а не опубликованный результат нынешней кампании с новыми зондами.
+
+Сопоставление этих источников помогает разделить задачи. Справочник описывает стенд. Работа 2023 года показывает один способ сверки аэродинамических расчётов. Сегодняшнее сообщение касается измерения капель и будущего анализа собранных данных. Их нельзя сложить в утверждение, что все условия обледенения уже рассчитаны или что появилась новая сертифицированная система защиты.
+
+### Почему это важно
+
+Авиационная инженерия требует проверяемой связи между условиями испытания, измерениями и расчётом. Для нас полезный следующий результат этой работы — данные, позволяющие судить, где инструменты предсказывают поведение достаточно хорошо, а где требуют доработки. Пока NASA сообщает о продвижении измерительной части. Это скромный, но конкретный шаг: лучше описать редкий опасный режим, прежде чем объявлять его полностью решённым. Для пассажира публикация не является инструкцией по выбору рейса или оценкой безопасности отдельного самолёта.
+
+## English version
+
+NASA [reported on large-droplet icing tests](https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/) on October 5. Liquid water in a cold cloud can freeze on contact with an aircraft; large drops may reach areas behind conventional ice protection. In Glenn's icing tunnel, new probes measure drops above 45 micrometers, complemented by an instrument for smaller ones. Analysis continues. The photographs document June tests, so the publication date should not be mistaken for the experiment date.
+
+The importance can disappear behind the word probe. Before checking a calculation of how a wing behaves in a cloud, researchers need to know which cloud they created in the laboratory. Our interpretation is that uncertainty about the test environment can make disagreement between calculation and measurement harder to diagnose. Calibration and instrument comparison are therefore substantive engineering work, even if they are less photogenic than a finished aircraft.
+
+NASA's [Icing Research Tunnel description](https://www.nasa.gov/centers-and-facilities/glenn/icing-research-tunnel/) explains the facility. Operating since 1944, it reproduces icing on wings, tails and engine inlets. Its published specifications list speeds from 50 to 325 knots and temperatures down to minus 35 degrees Celsius. The test section accommodates large models and many full-sized components. The facility supports icing physics, prediction validation and protection development: a controlled setting in which conditions can be set and compared.
+
+An earlier [2023 study by Brett Bornhoft and colleagues](https://arxiv.org/abs/2309.13203) illustrates why the shape of ice matters. It describes simulations of five laser-scanned ice shapes from the tunnel and comparisons of aerodynamic loads with experiments. The authors distinguish large, uneven glaze-ice features from finer rime roughness; resolving the latter required additional computational resolution. That is historical context for model validation, rather than a result of the current campaign with the new droplet probes.
+
+Read together, these sources separate several tasks. A facility description establishes what the test environment is for. The 2023 work illustrates one comparison between aerodynamic calculations and measurements. Today's announcement concerns droplet instrumentation and continuing analysis of collected data. Combining them does not establish that every icing condition has been modeled successfully or that a new protection system has been certified.
+
+### Why it matters
+
+Aviation engineering depends on a checkable relationship between test conditions, measurements and predictions. The next useful outcome would be data showing where tools predict behavior well enough and where they need improvement. For now, NASA reports progress on the measurement side. That is a modest but concrete step toward describing a rare hazardous regime before declaring it solved. For passengers, the announcement is neither guidance for choosing a flight nor a safety assessment of any individual aircraft.
 
 
 ===== EDITION 29 — 2026-10-04 =====

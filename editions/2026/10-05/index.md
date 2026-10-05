@@ -5,8 +5,8 @@ edition: 30
 
 ## От редакции
 
-Сегодня смотрим, как проверяют границы: расходов в облаке, доступа к локальному сайту и знаний о других мирах. Curiosity взял новый образец, NASA превращает неизвестное о Луне в задачи для измерений, а Webb читает следы столкновений по космической пыли. В каждой истории полезно различать уже полученные данные, инженерные возможности и выводы, которые ещё предстоит проверить.
+Сегодня проверяем границы: расходов в облаке, знаний о других мирах и обещаний цифровых помощников. К утренним историям о Curiosity, Луне, Webb и инженерных инструментах вечером добавились проверка агентов по состоянию базы, научные обзоры AstaBrief и планируемый рекламный тест ChatGPT. NASA точнее измеряет облака для испытаний обледенения, а архив Hubble дал химический след возможной планеты второго поколения. Во всех десяти материалах отделяем полученные измерения от интерпретаций, планов и результатов, которые ещё предстоит проверить.
 
 ## Editorial
 
-Today's stories explore limits: cloud spending, access to a local website, and what we know about other worlds. Curiosity has collected another sample, NASA is turning lunar unknowns into measurement targets, and Webb is reading the traces of collisions in cosmic dust. Each story separates observations and engineering capabilities from conclusions still awaiting a test.
+Today we examine the limits of cloud spending, knowledge of other worlds and digital assistants' promises. The morning's Curiosity, Moon, Webb and engineering stories are joined by database checks for agents, AstaBrief's scientific reports and ChatGPT's planned advertising test. NASA is refining cloud measurements for icing research, while Hubble's archive offers a chemical clue to a possible second-generation planet. Across all ten stories, we distinguish measurements from interpretations, plans and outcomes still awaiting verification.
