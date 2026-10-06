@@ -10,18 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №30 / Edition №30 — 2026-10-05** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №31 / Edition №31 — 2026-10-06** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Наука]** [Curiosity пробурил 48-ю скалу — минералы ещё должны рассказать её историю](editions/2026/10-05/01-curiosity-basque-lakes.md)
-- **[Технологии]** [Перед полётом на Луну NASA составляет список того, чего ещё не знает](editions/2026/10-05/02-lunar-data-gaps.md)
-- **[Наука]** [Webb читает историю столкновений по пыли вокруг молодых звёзд](editions/2026/10-05/03-webb-collision-dust.md)
-- **[Экономика]** [Письмо о перерасходе или остановка: облачные лимиты становятся частью разговора об агентах](editions/2026/10-05/04-cloud-spending-caps.md)
-- **[Технологии]** [Показать локальный сайт через SSH: два привычных инструмента вместо отдельного клиента](editions/2026/10-05/05-http-over-ssh.md)
-- **[ИИ]** [Агент сказал «готово» — ThinkingBox проверяет, что осталось в базе](editions/2026/10-05/06-thinkingbox-state-checks.md)
-- **[Экономика]** [OpenAI готовит тест визуальной рекламы при генерации изображений](editions/2026/10-05/07-chatgpt-visual-ads-test.md)
-- **[Наука]** [Ниобий в старых данных Hubble указывает на возможную планету второго поколения](editions/2026/10-05/08-white-dwarf-planet-candidate.md)
-- **[ИИ]** [AstaBrief открывает небольшую модель для научных обзоров со ссылками](editions/2026/10-05/09-astabrief-cited-reports.md)
-- **[Технологии]** [NASA учится точнее измерять облака, которые обледеняют самолёты](editions/2026/10-05/10-nasa-large-droplet-icing.md)
+- **[ИИ]** [OpenAI вводит маркировку текста — детектор пока для исследователей](editions/2026/10-06/01-openai-text-watermarks.md)
+- **[ИИ]** [Перенести блок-схему на слайд и сохранить её логику](editions/2026/10-06/02-editable-flowchart-relayout.md)
+- **[Наука]** [Светлые камни за кратером Езеро могут рассказать о глубинах Марса](editions/2026/10-06/03-perseverance-light-rocks.md)
+- **[Культура]** [Samon превращает узор на песке в проверяемую головоломку](editions/2026/10-06/04-samon-raking-puzzle.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

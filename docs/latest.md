@@ -1,41 +1,17 @@
-# frontier-wire — latest edition №30 (2026-10-05)
+# frontier-wire — latest edition №31 (2026-10-06)
 
-## Curiosity drills its 48th rock target — the minerals still have a story to tell / Curiosity пробурил 48-ю скалу — минералы ещё должны рассказать её историю
-rubric: science · source: https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/01-curiosity-basque-lakes.md
+## OpenAI starts text watermarking, with detector access limited to researchers / OpenAI вводит маркировку текста — детектор пока для исследователей
+rubric: ai · source: https://openai.com/index/eu-text-provenance
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-06/01-openai-text-watermarks.md
 
-## Before returning to the Moon, NASA is listing what it still does not know / Перед полётом на Луну NASA составляет список того, чего ещё не знает
-rubric: tech · source: https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/02-lunar-data-gaps.md
+## Moving a flowchart onto a slide without losing its logic / Перенести блок-схему на слайд и сохранить её логику
+rubric: ai · source: http://arxiv.org/abs/2610.06852v1
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-06/02-editable-flowchart-relayout.md
 
-## Webb reads the history of collisions in dust around young stars / Webb читает историю столкновений по пыли вокруг молодых звёзд
-rubric: science · source: https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/03-webb-collision-dust.md
+## Pale rocks beyond Jezero may offer clues to the depths of Mars / Светлые камни за кратером Езеро могут рассказать о глубинах Марса
+rubric: science · source: https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-06/03-perseverance-light-rocks.md
 
-## An overspending email or a stop: cloud limits join the conversation about agents / Письмо о перерасходе или остановка: облачные лимиты становятся частью разговора об агентах
-rubric: economy · source: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/04-cloud-spending-caps.md
-
-## Showing a local site over SSH: two familiar tools instead of another client / Показать локальный сайт через SSH: два привычных инструмента вместо отдельного клиента
-rubric: tech · source: https://vincent.bernat.ch/en/blog/2026-http-over-ssh
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/05-http-over-ssh.md
-
-## The agent said done — ThinkingBox checks the database / Агент сказал «готово» — ThinkingBox проверяет, что осталось в базе
-rubric: ai · source: https://huggingface.co/blog/microsoft/thinkingbox
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/06-thinkingbox-state-checks.md
-
-## OpenAI plans a visual ad test during image generation / OpenAI готовит тест визуальной рекламы при генерации изображений
-rubric: economy · source: https://openai.com/index/new-chatgpt-ads-format-and-measurement/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/07-chatgpt-visual-ads-test.md
-
-## Niobium in Hubble's archive points to a possible second-generation planet / Ниобий в старых данных Hubble указывает на возможную планету второго поколения
-rubric: science · source: https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/08-white-dwarf-planet-candidate.md
-
-## AstaBrief opens a small model for cited scientific reports / AstaBrief открывает небольшую модель для научных обзоров со ссылками
-rubric: ai · source: https://huggingface.co/blog/allenai/astabrief
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/09-astabrief-cited-reports.md
-
-## NASA refines measurements of clouds that can ice aircraft / NASA учится точнее измерять облака, которые обледеняют самолёты
-rubric: tech · source: https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-05/10-nasa-large-droplet-icing.md
+## Samon turns patterns in sand into a puzzle with checkable answers / Samon превращает узор на песке в проверяемую головоломку
+rubric: culture · source: https://gwern.net/doc/design/2026-10-03-gwern-samon.html
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-06/04-samon-raking-puzzle.md

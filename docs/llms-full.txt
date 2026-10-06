@@ -2,6 +2,157 @@
 
 
 
+===== EDITION 31 — 2026-10-06 =====
+
+## От редакции
+
+Сегодня смотрим, как проверять следы: участие модели в тексте, связь между блоками схемы, происхождение марсианских камней и маршрут в песчаном саду. В четырёх историях есть доступные первоисточники, а заявления отделены от редакторских выводов. Маркировка OpenAI внедряется поэтапно, перенос схем остаётся исследовательской задачей, Perseverance проверяет геологическую гипотезу, а Samon ещё развивается как прототип.
+
+## Editorial
+
+Today we examine how to check traces: a model's contribution to text, connections in a diagram, the origin of Martian rocks and a route through a sand garden. Four stories use accessible primary sources and distinguish reported claims from our editorial reading. OpenAI's watermark rollout is phased, diagram relayout remains a research task, Perseverance is testing a geological hypothesis, and Samon is still an evolving prototype.
+
+
+----- 01-openai-text-watermarks (ai) — source: https://openai.com/index/eu-text-provenance -----
+
+## Русская версия
+
+OpenAI 5 октября [объявила](https://openai.com/index/eu-text-provenance) о поэтапном внедрении textGrain: добровольной маркировке текстовых ответов отдельных моделей API по всему миру и предстоящем внедрении в ChatGPT и Codex в ЕС. В API функция выключена по умолчанию. Заявки на детектор принимают от исследователей и экспертных организаций; общедоступного текстового проверяющего сервиса на старте нет. В одном тесте замена четверти слов синонимами снизила обнаружение с примерно 92% до 17%. Это оценка компании, привязанная к условиям эксперимента.
+
+Как выглядит метка? В [справке OpenAI](https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content) описан статистический рисунок выбора слов и частей слов. Он не добавляет невидимые символы, пробелы или необычную пунктуацию. Сигнал происхождения также не удостоверяет правдивость, законность использования или личность автора. Наличие и отсутствие метки следует толковать с учётом поддерживаемого продукта и преобразований текста. Проверка изображений и аудио — отдельная возможность, которую нельзя автоматически считать проверкой прозы.
+
+[Технический отчёт](https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf) поясняет компромисс между силой сигнала и случайностью генерации. Метод связывает выбор токенов с псевдослучайностью секретного ключа, задавая бюджет потери энтропии. Вычисления проводят над блоками словаря, сохраняя относительные вероятности внутри блока. Для обнаружения нужны текст и ключ; бюджет, использованный при генерации, знать не требуется. Это описание механизма и его математических предпосылок, а не независимая проверка любого документа.
+
+Еврокомиссия в [описании кодекса прозрачности](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) разделяет обязанности поставщиков по машинной маркировке и обязанности применяющих систему по раскрытию определённых видов контента. Технические решения должны учитывать ограничения форматов и достижимый уровень надёжности. Поэтому новость о выбранном компанией способе маркировки сама по себе не отвечает на все вопросы об обязанностях конкретной редакции или организации.
+
+Наш редакционный вывод: стоит разделять происхождение, достоверность и ответственность. Представьте черновик, который человек перестроил, проверил и сократил. Статистический тест ищет технический след; редактор отвечает за утверждения и публикацию. Эти вопросы пересекаются, но требуют разной проверки. Для рабочего процесса полезно хранить исходный черновик, сведения о применённом инструменте и историю значимых правок. Тогда спор об участии помощника опирается на документы, а не на один индикатор, вырванный из контекста.
+
+### Почему это важно
+
+Появляется ещё один способ говорить о происхождении текста, однако его результат нужно сопровождать условиями проверки. Для читателя практический вопрос остаётся прежним: чем подтверждается конкретное утверждение? Для редакции добавляется второй: достаточно ли прозрачно описан процесс подготовки материала, чтобы человек мог понять роль инструментов и роль людей?
+
+## English version
+
+On October 5, OpenAI [announced](https://openai.com/index/eu-text-provenance) a phased introduction of textGrain: optional watermarking for selected API models worldwide, followed by eligible ChatGPT and Codex text outputs in the EU over the coming weeks. The API setting remains off by default. Detector applications initially target researchers and expert organizations, rather than a public text-checking service. In one company evaluation, replacing a quarter of the words with synonyms reduced detection from roughly 92% to 17%. Those figures describe a particular experiment, not every document.
+
+The [help article](https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content) describes a statistical pattern in word and token choices. The watermark does not insert invisible characters, spaces or unusual punctuation. Provenance signals also do not establish accuracy, lawful use or the creator's identity. Results need interpretation alongside product coverage and subsequent transformations. Image and audio verification is a separate capability; its availability should not be mistaken for general access to a prose detector.
+
+The [technical report](https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf) explains the tradeoff between signal strength and generation randomness. The method couples token choices to keyed randomness, using an entropy-loss budget. Vocabulary blocks reduce the computation while preserving relative probabilities within each block. Detection requires the text and key, without knowing the generation budget. This describes the mechanism and the assumptions behind its mathematics; it is not independent authentication of an arbitrary document.
+
+The European Commission's [transparency code overview](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) distinguishes providers' machine-readable marking responsibilities from deployers' disclosure responsibilities for certain content. Technical solutions must account for format limitations and feasible reliability. A company's implementation announcement therefore cannot settle every compliance question for a particular publisher or organization. The announcement gives readers a product decision to examine, rather than a complete rulebook for their own situation.
+
+Our editorial reading is that origin, accuracy and responsibility deserve separate questions. Imagine a draft that a person reorganizes, checks and shortens. A statistical detector looks for a technical trace; the editor takes responsibility for the claims and publication. Those inquiries overlap but call for different evidence. Keeping the original draft, a record of the tool used and a history of meaningful revisions would make a dispute about assistance easier to examine. One isolated indicator provides much less context.
+
+### Why it matters
+
+Text provenance now has another proposed signal, whose interpretation needs the conditions of the check. Readers should still ask what supports a particular assertion. Publishers have an additional practical question: whether their account of the writing process lets a person understand the contribution of tools and the judgment of humans. A watermark can inform that conversation; the surrounding documentation gives it meaning.
+
+
+----- 02-editable-flowchart-relayout (ai) — source: http://arxiv.org/abs/2610.06852v1 -----
+
+## Русская версия
+
+Блок-схема хорошо смотрится в статье, но в вертикальном постере подписи становятся крошечными, а стрелки путаются. [Препринт от 5 октября](http://arxiv.org/abs/2610.06852v1) One Figure, Every Canvas рассматривает перенос существующей схемы между форматами как отдельную задачу. Авторы признают зависимость от закрытой модели, дополнительные затраты и отсутствие гарантированной сходимости. Итеративная проверка помогает, но не обещает идеальный результат. Это исследовательская система, которую редакции ещё предстоит оценить на собственных материалах.
+
+На [странице проекта](https://onefigureeverycanvas.vercel.app/) показан конвейер Parse, Style и Layout: восстановление структуры, оформление и перестановка элементов. На каждом этапе агент работает с критиком, сочетающим визуальное суждение с детерминированными проверками. Выход — редактируемый XML draw.io. В подборке из 100 схем и пяти форматов авторы сообщают 68,6% Content Fidelity против 11,2–41,4% у сравниваемых методов. Это оценка их бенчмарка, не универсальный процент правильности для любых схем.
+
+В [репозитории реализации](https://github.com/ChenCXxx/OneFigure-EveryCanvas) предусмотрены промежуточные XML, изображения и результаты критиков по итерациям. Итог сохраняется и картинкой, и самостоятельной XML-схемой. Для запуска нужны окружение Python, API-ключи и настольный интерфейс draw.io для командного рендеринга. SAM3 требуется, если заранее не заданы ограничивающие рамки объектов. Следовательно, открытый код здесь означает доступ к реализации; весь вычислительный стек не становится автономным приложением от одного скачивания.
+
+Почему формат результата существенен? [Документация draw.io](https://www.drawio.com/docs/manual/advanced/diagram-source-edit/) объясняет, что XML описывает фигуры, соединители, стили и метаданные. Его можно открыть через Extras → Edit Diagram, поправить и применить обратно; некорректный XML вызывает ошибку. Это даёт пользователю способ исследовать и исправлять элементы отдельно. По нашему прочтению, такая возможность превращает результат генерации в рабочий документ, а не только в изображение для просмотра.
+
+Представьте схему с развилкой «прошёл проверку» и «нужна доработка». При переносе на узкий экран важно, куда ведёт каждая ветка. Изменение её направления меняет объяснение процесса, даже если буквы читаются прекрасно. Поэтому мы бы проверяли сначала соответствие соединений исходнику, затем все подписи и только потом расположение и стиль. Это предлагаемая процедура редакторского приёма, а не дополнительный результат эксперимента. Сохранение исходного рисунка рядом с новой версией облегчает такую проверку и позволяет обсуждать конкретное расхождение.
+
+### Почему это важно
+
+Исследование ставит полезный вопрос: что должно пережить смену формата? Для объясняющей схемы ответ включает отношения между объектами. Редактируемый результат помогает исправлять найденную ошибку без повторной генерации всего изображения. Но финальное согласование остаётся содержательной работой: нужно понять, что схема утверждает, и сверить это с исходным объяснением.
+
+## English version
+
+A flowchart may fit a paper perfectly and become unreadable on a portrait poster. Shrinking it leaves tiny labels; rearranging it risks confusing the arrows. The October 5 [One Figure, Every Canvas preprint](http://arxiv.org/abs/2610.06852v1) treats adapting an existing diagram to a new canvas as a distinct task. Its authors acknowledge closed-model dependence, extra costs and no guaranteed convergence. Iterative checks help without promising perfection. This is a research system to assess on real editorial material.
+
+The [project page](https://onefigureeverycanvas.vercel.app/) presents Parse, Style and Layout stages, covering structural reconstruction, appearance and arrangement. Each agent has a critic combining visual judgment with deterministic checks. Outputs remain editable draw.io XML. Across 100 flowcharts and five target ratios, the authors report 68.6% Content Fidelity, compared with 11.2–41.4% for their baselines. That is an assessment on their benchmark, rather than a universal accuracy figure for all diagrams or future installations.
+
+The [implementation repository](https://github.com/ChenCXxx/OneFigure-EveryCanvas) retains intermediate XML, rendered images and critic results for individual iterations. The final result includes both an image and a self-contained XML diagram. Setup requires a Python environment, API keys and the draw.io desktop command-line renderer. SAM3 is needed when bounding boxes have not already been provided. Available source code therefore provides access to the implementation; downloading it does not turn the entire computational stack into a standalone application.
+
+The output format deserves attention. [draw.io's documentation](https://www.drawio.com/docs/manual/advanced/diagram-source-edit/) explains that XML describes shapes, connectors, styles and metadata. Users can inspect it through Extras → Edit Diagram, make changes and apply them; invalid XML produces an error. Individual elements can therefore be examined and repaired. Our reading is that this turns a generated result into a working document, with an explicit route for correction, rather than only a picture to look at.
+
+Consider a diagram with branches for “passed the check” and “needs revision.” On a narrow screen, the destination of each branch matters more than an attractive arrangement. Reversing one connection changes the explanation even when the lettering looks excellent. We would check connections against the original first, then labels, and finally placement and style. That is a proposed editorial acceptance procedure, not an additional experimental finding. Keeping the original beside the adaptation makes it easier to identify and discuss a specific discrepancy.
+
+### Why it matters
+
+The research asks a useful question: what must survive a change of format? For an explanatory diagram, the relationships between objects are part of the answer. Editable output makes a discovered error easier to repair without generating the whole picture again. Final approval still requires understanding what the diagram says and checking it against the explanation it is meant to convey.
+
+
+----- 03-perseverance-light-rocks (science) — source: https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/ -----
+
+## Русская версия
+
+За западным краем кратера Езеро Perseverance встретил поле светлых камней. Для планеты, где преобладают тёмные базальтовые породы, такое скопление привлекло внимание научной команды. В [заметке NASA, опубликованной 5 октября](https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/), описано исследование района Lac de Charmes. Важно различать даты: авторский текст помечен 29 сентября, обзорная фотография сделана 30 августа, а снимок работы у обнажения Idubi — 27 сентября. Сегодняшняя публикация рассказывает о более ранних наблюдениях, а не о вчерашнем выезде ровера.
+
+По предварительным данным состава и текстуры многие глыбы относятся к габбро — магматической породе с минералами, богатыми железом и магнием. Такие породы обычно образуются при медленном остывании и кристаллизации магмы глубоко в коре. Отсюда вопрос команды: каким образом материал оказался на поверхности? Ровер не спустился в недра, но камни на поверхности потенциально могут сохранять информацию о процессах, происходивших в глубине.
+
+Чтобы проверить возможную связь между разбросанными глыбами и местной породой, команда исследует участок предполагаемого коренного обнажения между ними и рыхлым грунтом. Первые изображения показывают угловатые светлые и тёмные обломки: сочетание, характерное для брекчии. Одна из проверяемых версий состоит в том, что светлые глыбы высвободились при разрушении этой брекчии. На данный момент NASA описывает возможность, которую предстоит подтвердить, а не готовую реконструкцию истории участка.
+
+Следующий уровень объяснения касается самого дробления и переноса камня. Брекчии часто связаны с бурными процессами; ранее слои таких пород за пределами Езеро связывали с ударами астероидов на раннем Марсе. Команда допускает, что похожие события, возможно включая образование самого Езеро, могли поднять глубинные блоки. Каким именно было событие и действительно ли оно объясняет это поле, из заметки пока установить нельзя.
+
+В [справочнике инструментов Perseverance](https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/) NASA описывает PIXL: рентгеновский спектрометр для определения элементов на малом масштабе и камеру для изучения текстур. Это поясняет, зачем сопоставлять состав с изображениями, но не доказывает, что именно этот прибор уже дал все перечисленные результаты. В свежей заметке не приведён окончательный набор измерений по каждому камню.
+
+### Почему это важно
+
+Перед нами геологическая задача с несколькими уровнями уверенности: видимые обломки, предварительная классификация и гипотеза их переноса. Наш вывод: ценность новости в возможности связать поверхностную находку с историей коры, сохраняя эти уровни раздельно. Светлый цвет сам по себе не раскрывает происхождение породы; убедительным станет объяснение, которое одновременно согласуется с составом, текстурой и положением камней.
+
+## English version
+
+Beyond Jezero crater's western rim, Perseverance has encountered a field of pale rocks. The concentration attracted the science team's attention on a planet dominated by dark basaltic material. A [NASA update published October 5](https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/) describes the investigation at Lac de Charmes. Its dates need care: the author's account is dated September 29, the overview image was taken August 30, and the picture of work at the Idubi outcrop was captured September 27. The publication reports earlier observations, rather than a drive completed yesterday.
+
+Preliminary composition and texture data suggest that many boulders are gabbro, an igneous rock dominated by minerals rich in iron and magnesium. Such rocks typically form through slow cooling and crystallization of magma deep within the crust. That raises the team's central question: how did this material reach the surface? The rover has not descended underground, but surface rocks could potentially retain information about processes that happened at depth.
+
+To investigate a possible link between the scattered boulders and local rock, Perseverance has been examining what may be exposed bedrock between the blocks and loose regolith. Initial images show angular light and dark fragments, suggesting breccia. One possibility is that the pale boulders weathered out of this material. NASA presents that as a hypothesis under investigation, rather than a completed reconstruction of the area's history. The relationship between the loose rocks and the outcrop is itself part of the question.
+
+A further question concerns the original breaking and transport of the rock. Breccias often arise through violent processes. Earlier breccia layers outside Jezero have been attributed to asteroid impacts on ancient Mars. The team considers whether similar events, potentially including the impact that made Jezero, could have excavated these deep blocks. The update does not yet establish which event was responsible, or demonstrate that an impact explains this particular field.
+
+NASA's [Perseverance instrument reference](https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/) describes PIXL as an X-ray spectrometer for identifying elements at fine scales, accompanied by a camera for close-up textures. That helps explain why composition and imagery belong together. It does not establish that this instrument supplied every finding in the new account. The update does not provide a final measurement inventory for each rock, and readers should avoid assigning observations to instruments without evidence.
+
+### Why it matters
+
+This is a geological investigation with distinct confidence levels: visible fragments, preliminary classification and an explanation for transport. Our reading is that the opportunity lies in connecting a surface discovery to crustal history while keeping those levels separate. Pale color alone cannot reveal a rock's origin. A convincing explanation will need to fit its composition, texture and position together.
+
+
+----- 04-samon-raking-puzzle (culture) — source: https://gwern.net/doc/design/2026-10-03-gwern-samon.html -----
+
+## Русская версия
+
+Монах входит в песчаный сад и должен выйти, сгребая собственные следы: одним непрерывным маршрутом посетить каждую свободную клетку ровно один раз. Из этого правила выросла [Samon — дизайнерский документ и браузерный прототип](https://gwern.net/doc/design/2026-10-03-gwern-samon.html), опубликованные на сайте Gwern. Страница развивает набросок 2023 года; нынешняя версия датирована интервалом до 5 октября 2026 года и помечена как работа в процессе. Поэтому речь идёт о доступном прототипе, а не о завершённом коммерческом релизе.
+
+На первый взгляд достаточно заполнить поле змейкой. Автор проверил это интуитивное ощущение решателем: у пустого сада 7×7 с входом в углу получилось 1 510 446 допустимых маршрутов. Случайные камни тоже не обеспечивали хорошую головоломку автоматически: часто они делали сад либо невозможным, либо слишком свободным. Здесь математическая проверка помогает отличить правило, которое звучит занятно, от ограничения, которое действительно заставляет думать.
+
+Решение — считать повороты. Минимум, называемый par, определяется решателем; прохождение с этим числом поворотов получает печать. Для того же пустого поля 7×7 минимум равен 12, и его достигают 66 маршрутов. Другой вариант — широкие грабли, запрещающие разворот на открытом песке без опоры на камень или стену. Такие правила делают физический образ сада частью задачи. При этом автор прямо предупреждает: малое число поворотов не гарантирует красивый рисунок в любом расположении препятствий.
+
+Особенно интересны подсказки. Они оценивают уже начатый маршрут игрока: можно ли ещё достичь par, можно ли хотя бы закончить сад или следует отступить. Если поиск не успел доказать ответ, система должна сообщить неопределённость. Подсказанный результат отмечается серой, а самостоятельный оптимальный — красной печатью. Прогресс и готовый маршрут можно переносить ссылкой; принятие чужого прогресса требует отдельного действия, а просмотр чужого решения не записывает его как ваше достижение.
+
+Прототип содержит 148 садов, ежедневный сад и свободный режим для рисования граблями. После прохождения появляется классическое японское стихотворение с источником оригинала. Предусмотрены клавиатурное управление и учёт настройки уменьшенного движения; полноценную невизуальную доступность автор ещё предлагает проверять со специалистами. Документ, собственный код и дизайн опубликованы под CC0. Это даёт возможность изучать реализацию и развивать идеи, но не означает, что все предусмотренные производственным планом проверки уже завершены.
+
+### Почему это важно
+
+Наш вывод из этого проекта: понятная эстетическая цель может стать измеримой задачей без непрозрачного судьи. Игрок видит повороты и способен объяснить, где потратил лишний. Однако доказанный минимум и удовольствие от игры — разные проверки. Автор оставляет в плане реальные испытания на телефонах и наблюдение за игроками, чтобы выяснить, учатся ли они правилу, а не просто копируют показанный маршрут.
+
+## English version
+
+A monk enters a sand garden and must rake his footprints away on the way out, visiting every free cell exactly once along an unbroken route. That rule becomes [Samon, a design document and playable browser prototype](https://gwern.net/doc/design/2026-10-03-gwern-samon.html) published on Gwern's website. The page develops a 2023 sketch; its current date range extends to October 5, 2026, and its status remains work in progress. This is an available prototype, rather than a finished commercial release.
+
+Simply filling the board with a winding path sounds easy. The author tested that intuition with a solver: an empty 7×7 garden with a corner gate has 1,510,446 valid routes. Random stones did not automatically create satisfying puzzles. They often made gardens either impossible or excessively open. Mathematical checking helps distinguish a rule that sounds engaging from a constraint that actually demands thought. The design account gives readers both the proposed experience and the measurements used to examine it.
+
+One solution is to count turns. A solver establishes the minimum, called par, and completing a garden at that score earns a seal. For the same empty 7×7 board, par is 12 turns, achieved by 66 routes. Another rule uses a wide rake: no U-turn on open sand without bracing against a stone or wall. Physical imagery becomes part of the puzzle. The author nevertheless warns that fewer turns do not guarantee an attractive pattern under every arrangement of obstacles.
+
+The hints are particularly interesting. They examine the player's existing route: can it still reach par, can it at least finish, or should the player step back? If a search cannot establish an answer within its budget, it should acknowledge uncertainty. Helped optimal solutions receive a grey seal; unaided ones receive vermilion. Routes and progress can travel in links. Accepting another player's progress requires an explicit action, while viewing a shared solution does not record it as your own achievement.
+
+The prototype includes 148 gardens, a daily garden and an unrestricted raking practice area. Completing a garden reveals a classical Japanese poem with a source for the original. Keyboard controls and reduced-motion preferences are supported; the author still proposes testing fully nonvisual accessibility with relevant users. The document, original code and design are released under CC0. That allows others to study the implementation and develop the ideas, without implying that every check in the production plan has been completed.
+
+### Why it matters
+
+Our reading is that a legible aesthetic objective can become a measurable challenge without an opaque judge. Players can count the turns and explain where an unnecessary one occurred. A proven optimum and an enjoyable experience still require different kinds of evidence. The production plan retains testing on real phones and observation of players, to establish whether they learn the rule rather than merely copying a demonstrated path.
+
+
 ===== EDITION 30 — 2026-10-05 =====
 
 ## От редакции

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samon превращает узор на песке в проверяемую головоломку - frontier-wire</title>
+<meta name="description" content="The browser prototype offers 148 gardens, an explicit turn score and hints about the player’s own route.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-06/04-samon-raking-puzzle.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Samon turns patterns in sand into a puzzle with checkable answers", "alternativeHeadline": "Samon превращает узор на песке в проверяемую головоломку", "datePublished": "2026-10-06", "inLanguage": ["ru", "en"], "isBasedOn": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-06/04-samon-raking-puzzle.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Культура</span><span class="lang-en">Culture</span></span> &middot; 2026-10-06 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Samon превращает узор на песке в проверяемую головоломку</span><span class="lang-en">Samon turns patterns in sand into a puzzle with checkable answers</span></h1>
+  <p class="dek big"><span class="lang-ru">У браузерного прототипа есть 148 садов, строгий счёт поворотов и подсказки о маршруте самого игрока.</span><span class="lang-en">The browser prototype offers 148 gardens, an explicit turn score and hints about the player’s own route.</span></p>
+
+  <div class="prose lang-ru"><p>Монах входит в песчаный сад и должен выйти, сгребая собственные следы: одним непрерывным маршрутом посетить каждую свободную клетку ровно один раз. Из этого правила выросла <a href="https://gwern.net/doc/design/2026-10-03-gwern-samon.html">Samon — дизайнерский документ и браузерный прототип</a>, опубликованные на сайте Gwern. Страница развивает набросок 2023 года; нынешняя версия датирована интервалом до 5 октября 2026 года и помечена как работа в процессе. Поэтому речь идёт о доступном прототипе, а не о завершённом коммерческом релизе.</p>
+<p>На первый взгляд достаточно заполнить поле змейкой. Автор проверил это интуитивное ощущение решателем: у пустого сада 7×7 с входом в углу получилось 1 510 446 допустимых маршрутов. Случайные камни тоже не обеспечивали хорошую головоломку автоматически: часто они делали сад либо невозможным, либо слишком свободным. Здесь математическая проверка помогает отличить правило, которое звучит занятно, от ограничения, которое действительно заставляет думать.</p>
+<p>Решение — считать повороты. Минимум, называемый par, определяется решателем; прохождение с этим числом поворотов получает печать. Для того же пустого поля 7×7 минимум равен 12, и его достигают 66 маршрутов. Другой вариант — широкие грабли, запрещающие разворот на открытом песке без опоры на камень или стену. Такие правила делают физический образ сада частью задачи. При этом автор прямо предупреждает: малое число поворотов не гарантирует красивый рисунок в любом расположении препятствий.</p>
+<p>Особенно интересны подсказки. Они оценивают уже начатый маршрут игрока: можно ли ещё достичь par, можно ли хотя бы закончить сад или следует отступить. Если поиск не успел доказать ответ, система должна сообщить неопределённость. Подсказанный результат отмечается серой, а самостоятельный оптимальный — красной печатью. Прогресс и готовый маршрут можно переносить ссылкой; принятие чужого прогресса требует отдельного действия, а просмотр чужого решения не записывает его как ваше достижение.</p>
+<p>Прототип содержит 148 садов, ежедневный сад и свободный режим для рисования граблями. После прохождения появляется классическое японское стихотворение с источником оригинала. Предусмотрены клавиатурное управление и учёт настройки уменьшенного движения; полноценную невизуальную доступность автор ещё предлагает проверять со специалистами. Документ, собственный код и дизайн опубликованы под CC0. Это даёт возможность изучать реализацию и развивать идеи, но не означает, что все предусмотренные производственным планом проверки уже завершены.</p>
+<h3>Почему это важно</h3>
+<p>Наш вывод из этого проекта: понятная эстетическая цель может стать измеримой задачей без непрозрачного судьи. Игрок видит повороты и способен объяснить, где потратил лишний. Однако доказанный минимум и удовольствие от игры — разные проверки. Автор оставляет в плане реальные испытания на телефонах и наблюдение за игроками, чтобы выяснить, учатся ли они правилу, а не просто копируют показанный маршрут.</p></div>
+  <div class="prose lang-en"><p>A monk enters a sand garden and must rake his footprints away on the way out, visiting every free cell exactly once along an unbroken route. That rule becomes <a href="https://gwern.net/doc/design/2026-10-03-gwern-samon.html">Samon, a design document and playable browser prototype</a> published on Gwern's website. The page develops a 2023 sketch; its current date range extends to October 5, 2026, and its status remains work in progress. This is an available prototype, rather than a finished commercial release.</p>
+<p>Simply filling the board with a winding path sounds easy. The author tested that intuition with a solver: an empty 7×7 garden with a corner gate has 1,510,446 valid routes. Random stones did not automatically create satisfying puzzles. They often made gardens either impossible or excessively open. Mathematical checking helps distinguish a rule that sounds engaging from a constraint that actually demands thought. The design account gives readers both the proposed experience and the measurements used to examine it.</p>
+<p>One solution is to count turns. A solver establishes the minimum, called par, and completing a garden at that score earns a seal. For the same empty 7×7 board, par is 12 turns, achieved by 66 routes. Another rule uses a wide rake: no U-turn on open sand without bracing against a stone or wall. Physical imagery becomes part of the puzzle. The author nevertheless warns that fewer turns do not guarantee an attractive pattern under every arrangement of obstacles.</p>
+<p>The hints are particularly interesting. They examine the player's existing route: can it still reach par, can it at least finish, or should the player step back? If a search cannot establish an answer within its budget, it should acknowledge uncertainty. Helped optimal solutions receive a grey seal; unaided ones receive vermilion. Routes and progress can travel in links. Accepting another player's progress requires an explicit action, while viewing a shared solution does not record it as your own achievement.</p>
+<p>The prototype includes 148 gardens, a daily garden and an unrestricted raking practice area. Completing a garden reveals a classical Japanese poem with a source for the original. Keyboard controls and reduced-motion preferences are supported; the author still proposes testing fully nonvisual accessibility with relevant users. The document, original code and design are released under CC0. That allows others to study the implementation and develop the ideas, without implying that every check in the production plan has been completed.</p>
+<h3>Why it matters</h3>
+<p>Our reading is that a legible aesthetic objective can become a measurable challenge without an opaque judge. Players can count the turns and explain where an unnecessary one occurred. A proven optimum and an enjoyable experience still require different kinds of evidence. The production plan retains testing on real phones and observation of players, to establish whether they learn the rule rather than merely copying a demonstrated path.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://gwern.net/doc/design/2026-10-03-gwern-samon.html">https://gwern.net/doc/design/2026-10-03-gwern-samon.html</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

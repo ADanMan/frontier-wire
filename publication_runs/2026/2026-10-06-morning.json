@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-06",
+  "slot": "morning",
+  "checked_at": "2026-10-06T04:11:21.178247+00:00",
+  "digest_sha256": "1cfba56d4c5c303e3fe8a95446e27abed8ca1d6a8c2a03cbbad6af48385081a5",
+  "articles": [
+    {
+      "path": "editions/2026/10-06/01-openai-text-watermarks.md",
+      "sha256": "9f0bd83f872ec077f8f388e2374c6670affb7f768953ad9c068e73f546d943d8",
+      "source": "https://openai.com/index/eu-text-provenance"
+    },
+    {
+      "path": "editions/2026/10-06/02-editable-flowchart-relayout.md",
+      "sha256": "bd74ecd17e890bddd549daf5d239b4e0625a6fed6ca460e73c6a2b00c525ed7a",
+      "source": "https://arxiv.org/abs/2610.06852v1"
+    },
+    {
+      "path": "editions/2026/10-06/03-perseverance-light-rocks.md",
+      "sha256": "807d33dfd827ddff440747808316d3f3bd5280dcfaab019d7fc8e2d8b21c9715",
+      "source": "https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars"
+    },
+    {
+      "path": "editions/2026/10-06/04-samon-raking-puzzle.md",
+      "sha256": "84cb5fd6bd10fb94f7fe21c3f87fc9c09124a830afab09e9cde3c6b8d189b032",
+      "source": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html"
+    }
+  ]
+}
