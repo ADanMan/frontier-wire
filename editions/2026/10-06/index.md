@@ -5,8 +5,8 @@ edition: 31
 
 ## От редакции
 
-Сегодня смотрим, как проверять следы: участие модели в тексте, связь между блоками схемы, происхождение марсианских камней и маршрут в песчаном саду. В четырёх историях есть доступные первоисточники, а заявления отделены от редакторских выводов. Маркировка OpenAI внедряется поэтапно, перенос схем остаётся исследовательской задачей, Perseverance проверяет геологическую гипотезу, а Samon ещё развивается как прототип.
+Сегодня проверяем следы: участие модели в тексте, логику схемы, историю камней и маршрут в песчаном саду. Вечером к четырём утренним историям добавились локальный поиск EmbeddingGemma 2, звёздные струи Webb, воды залива Руперт и панорама далёких ярдангов Curiosity. В восьми материалах отделяем наблюдения от интерпретаций, настройки от рекламных обещаний и планы от выполненных этапов.
 
 ## Editorial
 
-Today we examine how to check traces: a model's contribution to text, connections in a diagram, the origin of Martian rocks and a route through a sand garden. Four stories use accessible primary sources and distinguish reported claims from our editorial reading. OpenAI's watermark rollout is phased, diagram relayout remains a research task, Perseverance is testing a geological hypothesis, and Samon is still an evolving prototype.
+Today we examine traces: a model's contribution to text, diagram logic, the history of rocks and a route through a sand garden. Four evening stories join the morning batch: EmbeddingGemma 2's local search, Webb's stellar jets, Rupert Bay's waters and Curiosity's distant yardang panorama. Across eight stories, we distinguish observations from interpretations, configuration choices from promotional claims, and plans from completed milestones.

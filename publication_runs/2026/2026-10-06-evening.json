@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-06",
+  "slot": "evening",
+  "checked_at": "2026-10-06T16:12:16.023895+00:00",
+  "digest_sha256": "5d494cfe2ddb2390c166c2fa8d4ec0a80914aabc014d67539493c9c490a74353",
+  "articles": [
+    {
+      "path": "editions/2026/10-06/05-embeddinggemma-multimodal-search.md",
+      "sha256": "0fe3986ed0c216295eb07e5457481f8b48ccda6f0e629deb34e3505c8444e265",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2"
+    },
+    {
+      "path": "editions/2026/10-06/06-webb-ngc7129-stellar-jets.md",
+      "sha256": "0b39ddfda5cd7a08608bf620a01b7273670b0fa39fd909b1db2d368946a4dd85",
+      "source": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets"
+    },
+    {
+      "path": "editions/2026/10-06/07-rupert-bay-brown-waters.md",
+      "sha256": "3049627aca1179dbeec077da9a1e47d8e755fe43f23292ec57b8f90ebea5dfab",
+      "source": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay"
+    },
+    {
+      "path": "editions/2026/10-06/08-curiosity-yardang-panorama.md",
+      "sha256": "c3ebc148ae0596ea6d979e6d0984e5a32907475d4609bf020a1a94b37cff0ae0",
+      "source": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn"
+    }
+  ]
+}

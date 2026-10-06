@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Сегодня смотрим, как проверять следы: участие модели в тексте, связь между блоками схемы, происхождение марсианских камней и маршрут в песчаном саду. В четырёх историях есть доступные первоисточники, а заявления отделены от редакторских выводов. Маркировка OpenAI внедряется поэтапно, перенос схем остаётся исследовательской задачей, Perseverance проверяет геологическую гипотезу, а Samon ещё развивается как прототип.
+Сегодня проверяем следы: участие модели в тексте, логику схемы, историю камней и маршрут в песчаном саду. Вечером к четырём утренним историям добавились локальный поиск EmbeddingGemma 2, звёздные струи Webb, воды залива Руперт и панорама далёких ярдангов Curiosity. В восьми материалах отделяем наблюдения от интерпретаций, настройки от рекламных обещаний и планы от выполненных этапов.
 
 ## Editorial
 
-Today we examine how to check traces: a model's contribution to text, connections in a diagram, the origin of Martian rocks and a route through a sand garden. Four stories use accessible primary sources and distinguish reported claims from our editorial reading. OpenAI's watermark rollout is phased, diagram relayout remains a research task, Perseverance is testing a geological hypothesis, and Samon is still an evolving prototype.
+Today we examine traces: a model's contribution to text, diagram logic, the history of rocks and a route through a sand garden. Four evening stories join the morning batch: EmbeddingGemma 2's local search, Webb's stellar jets, Rupert Bay's waters and Curiosity's distant yardang panorama. Across eight stories, we distinguish observations from interpretations, configuration choices from promotional claims, and plans from completed milestones.
 
 
 ----- 01-openai-text-watermarks (ai) — source: https://openai.com/index/eu-text-provenance -----
@@ -151,6 +151,146 @@ The prototype includes 148 gardens, a daily garden and an unrestricted raking pr
 ### Why it matters
 
 Our reading is that a legible aesthetic objective can become a measurable challenge without an opaque judge. Players can count the turns and explain where an unnecessary one occurred. A proven optimum and an enjoyable experience still require different kinds of evidence. The production plan retains testing on real phones and observation of players, to establish whether they learn the rule rather than merely copying a demonstrated path.
+
+
+----- 05-embeddinggemma-multimodal-search (ai) — source: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ -----
+
+## Русская версия
+
+Google 6 октября [представила EmbeddingGemma 2](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) — открытую модель для поиска по тексту, коду, изображениям, видео и аудио в общем пространстве представлений. Полная конфигурация содержит 740 миллионов параметров и распространяется под Apache 2.0. Компания ориентирует её на устройства пользователей. Это модель эмбеддингов: она превращает входные материалы в векторы для сопоставления, а не пишет ответы сама. В анонсе заявлены возможности локального поиска; считать любой готовый продукт полностью автономным только по этому описанию было бы преждевременно.
+
+[Карточка модели](https://huggingface.co/google/embeddinggemma-2) показывает цену сжатия: в её таблице показатель MMEB Overall снижается с 59,01 при 768 измерениях до 45,65 при 128. Это результаты авторской оценки, а не измерения нашей редакции. Карточка также предупреждает о неодинаковом качестве для разных языков, зависимости от обучающих данных и сложности неоднозначных формулировок. Режим float16 не рекомендован из-за диапазона активаций; указаны bfloat16 или float32. Поэтому одной цифры размера недостаточно для выбора рабочего режима.
+
+В [руководстве разработчика](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/) описана модульная загрузка: текстовый режим использует 270 миллионов параметров, а зрительный и звуковой кодировщики подключаются по необходимости. Векторы можно сокращать, но после обрезки их нужно нормализовать, а запросы и документы сравнивать в одинаковой размерности. Все виды входа делят окно из 8 192 токенов. Максимум для одного типа данных нельзя одновременно обещать каждому типу в смешанном запросе.
+
+Практический смысл, по нашему прочтению, — возможность построить единый способ поиска для разнородной коллекции. Представьте архив проекта: описание задачи, снимок стенда и запись обсуждения. Пользователь мог бы сформулировать вопрос словами, а приложение предложить подходящие материалы разных типов. Здесь важно, что сходство — только этап отбора. Найденная запись может содержать устаревшее решение, а похожая фотография — другой прибор. Приложению всё равно понадобятся названия, даты, понятные ссылки на оригиналы и проверка того, почему результат попал в выдачу.
+
+Мы бы оценивали такую систему на собственной небольшой подборке запросов, где известны нужные документы и трудные похожие примеры. Отдельно стоит сравнить полный и сокращённый индекс: сколько места удалось сэкономить и какие материалы перестали находиться. Это предлагаемая проверка для внедрения, а не заявление о проведённом нами бенчмарке. Рекламное «для устройства» становится полезным инженерным свойством только вместе с выбранной конфигурацией и конкретной нагрузкой.
+
+### Почему это важно
+
+Модель расширяет набор материалов, доступных одному поисковому механизму, и даёт разработчику несколько способов управлять затратами. Но хороший поиск определяется тем, что человек действительно нашёл нужное. Проверка выдачи и сохранение контекста оригинала остаются столь же существенными, как компактность модели.
+
+## English version
+
+Google [introduced EmbeddingGemma 2 on October 6](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/), an open model mapping text, code, images, video and audio into a shared representation space. Its full configuration has 740 million parameters and an Apache 2.0 license. The company targets consumer devices. This is an embedding model: it produces vectors for comparison, rather than writing answers itself. The announcement describes local search capabilities; it does not establish that every application using the model will run entirely offline.
+
+The [model card](https://huggingface.co/google/embeddinggemma-2) makes the compression tradeoff visible. Its MMEB Overall score falls from 59.01 at 768 dimensions to 45.65 at 128. These are the authors' evaluations, not our measurements. The card also identifies uneven language performance, training-data dependence and difficulty with ambiguous wording. It advises against float16 because of activation range, recommending bfloat16 or float32 instead. Model size alone therefore cannot determine a suitable operating configuration.
+
+The [developer guide](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/) describes modular loading: the text configuration has 270 million parameters, with vision and audio encoders added as needed. Vectors can be shortened, but require normalization after truncation; queries and documents must share a dimension. All input types share an 8,192-token window. Single-modality maxima should not be promised simultaneously for every component of a mixed input. These choices affect the actual system a developer assembles, beyond the headline parameter count.
+
+Our reading is that the opportunity lies in creating one search method for a mixed collection. Imagine a project archive containing a task description, a photograph of a test bench and an audio recording of a discussion. A written question could lead an application to offer relevant materials in several formats. Similarity would still be a selection step. A recording might contain an obsolete decision, and a similar photograph might show a different instrument. Names, dates, clear links to originals and an explanation of the result remain valuable parts of the interface.
+
+We would assess such a system on a small set of real queries with known relevant documents and deliberately confusing alternatives. Comparing full and shortened indexes would then show both storage savings and the materials no longer retrieved. This is a proposed adoption check, not a benchmark we claim to have performed. The promise of device-friendly operation becomes a useful engineering property only alongside a chosen configuration and a concrete workload.
+
+### Why it matters
+
+The model broadens the types of material one search mechanism can handle and offers several ways to control resource use. Successful retrieval is still measured by whether a person finds what they need. Checking the results and preserving the original material's context matter alongside compact weights.
+
+
+----- 06-webb-ngc7129-stellar-jets (science) — source: https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/ -----
+
+## Русская версия
+
+Звёздное облако выглядит спокойным только издалека. На [новом изображении NGC 7129, опубликованном NASA 6 октября](https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/), молодые звёзды освещают газ, выдувают полости и выбрасывают потоки вещества. Область находится примерно в 3 300 световых годах от Земли. Инфракрасная чувствительность Webb позволяет увидеть множество объектов, которые прежде скрывала пыль. Это новая публикация изображения звёздной колыбели, отдельная от вчерашнего сообщения о пыли после столкновений планет.
+
+В центре выделяется LkH(alpha) 234: звезда на стадии до главной последовательности с массой около пяти–восьми солнечных. По объяснению NASA, такие звёзды уже в основном собрали вещество и сжимаются под действием гравитации, повышая температуру. Большой лучистый рисунок вокруг центрального объекта — дифракционный эффект изображения. Не следует читать его как геометрию потоков звёздного вещества: это разные элементы одного снимка, имеющие разное происхождение.
+
+Слева расположена полость шириной около 3,5 светового года. В опубликованной цветовой схеме она выглядит золотистой и показывает горячий атомарный водород. Истечение вещества на более раннем этапе жизни центральной звезды прорезало плотное молекулярное облако; потоки и свет возбуждают газ, заставляя его светиться. Часть материала удаляется, другая сжимается, создавая условия для формирования новых звёзд. Поэтому один и тот же процесс может одновременно разрушать прежнюю структуру облака и создавать условия для следующего поколения объектов.
+
+Звёзды внутри полости тоже воздействуют на окружение. Их ветры образуют меньшие полости и дугообразные ударные структуры. У верхней границы золотистой области горячая среда встречается с более холодным плотным газом; NASA объясняет этот рубеж как область фотодиссоциации, где молекулы водорода распадаются на атомы. Цвет здесь помогает различать представленные компоненты. Он не является обещанием того, что человеческий глаз увидел бы ту же палитру при наблюдении без приборов.
+
+Справа, в красной области, скрываются более молодые протозвёзды. Они ещё накапливают массу и выбрасывают перегретое вещество. Взаимодействие потоков с окружающим газом создаёт ударные структуры, а несколько истечений накладываются друг на друга с нашей точки зрения. Опубликованное сравнение с прежним снимком Spitzer показывает, насколько подробнее Webb различает нити газа и пыли. Исследователи намерены использовать данные для дальнейшего изучения воздействия молодых объектов на облако; статья не сообщает о завершении всей этой работы.
+
+### Почему это важно
+
+Наш вывод: снимок ценен тем, что связывает разные стадии рождения звёзд с наблюдаемой средой вокруг них. Вместо одного «красивого облака» можно обсуждать полости, границы и потоки отдельно. При этом визуальное объяснение должно сохранять различие между данными, выбранными цветами и физической интерпретацией.
+
+## English version
+
+A stellar cloud looks peaceful only from a distance. In a [new NGC 7129 image published by NASA on October 6](https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/), young stars illuminate gas, excavate cavities and send material into their surroundings. The region lies roughly 3,300 light-years from Earth. Webb's infrared sensitivity reveals numerous objects previously hidden by dust. This is a new stellar-nursery image, separate from yesterday's account of dust associated with planet-shattering collisions.
+
+The prominent central object is LkH(alpha) 234, a pre-main-sequence star with around five to eight times the Sun's mass. NASA explains that stars at this stage have largely finished gathering matter and are contracting under gravity, raising their temperature. The central star's conspicuous radiating pattern is a diffraction feature of the image. It should not be read as the geometry of stellar outflows: those are different elements of the scene with different origins.
+
+To the left is a cavity about 3.5 light-years across. Its golden appearance in the published color scheme represents hot atomic hydrogen. Outflows from an earlier phase of the central star's life carved into the dense molecular cloud; those flows and the star's light energize gas, making it glow. Some material is expelled, while other material is compressed, creating conditions for further star formation. The same process can therefore remove an existing cloud structure while helping establish conditions for a subsequent generation of objects.
+
+Stars within the cavity also affect their surroundings. Their winds create smaller cavities and curved bow shocks. At the top of the golden region, the hot environment presses against colder, denser gas. NASA describes this boundary as a photodissociation region, where hydrogen molecules break into atoms. Color helps distinguish the components represented in the image. It is not a promise that an unaided human observer would see precisely the same palette.
+
+The red region on the right contains younger protostars. They are still accumulating mass and ejecting superheated matter. Interaction between their flows and surrounding gas produces shocks, with multiple outflows overlapping from our viewpoint. NASA's comparison with an earlier Spitzer view shows how much more detail Webb resolves in gas and dust filaments. Researchers plan to use the data to investigate the young objects' influence further; the announcement does not say that this entire program of analysis has been completed.
+
+### Why it matters
+
+Our reading is that the image connects different stages of star formation to observable structures in the environment. Instead of discussing one attractive cloud, readers can examine cavities, boundaries and flows separately. A visual explanation still needs to distinguish observations, the selected colors and the physical interpretation of what the telescope reveals.
+
+
+----- 07-rupert-bay-brown-waters (science) — source: https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/ -----
+
+## Русская версия
+
+Коричневая вода на спутниковом снимке не всегда рассказывает одну и ту же историю. [Изображение дня NASA за 6 октября](https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/) показывает, как речные воды входят в заливы Ханна и Руперт — южные окончания залива Джеймс в Канаде. Снимок сделал прибор OLI спутника Landsat 9 ещё 27 сентября. Новость здесь — сегодняшняя публикация и объяснение наблюдения, а не утверждение, что спутник заснял эти потоки несколько часов назад.
+
+Реки проходят через северные леса и заболоченные территории Квебека и Онтарио. Вода по пути получает окрашенное растворённое органическое вещество, которое поглощает свет в синей и ультрафиолетовой областях спектра. В него входят вещества, возникающие из разлагающихся листьев, корней, коры и почв, в том числе производные таннинов и лигнинов. NASA сравнивает этот механизм с окрашиванием воды чаем. Это объяснение цвета, а не результат анализа безопасности питьевой воды.
+
+На снимке воды рек Мус, Ноттауэй и Харрикана пересекают широкие приливные отмели и смешиваются с более тёмной синей водой залива Джеймс. Но часть светло-коричневых шлейфов имеет другое происхождение: мелкие частицы осадка находятся во взвеси. Приливы и речные течения перемешивают ил, поднимая его со дна. Таким образом, растворённые вещества и физически взвешенные частицы могут оказаться рядом в одной фотографии, хотя это разные компоненты среды.
+
+Для появления отмелей важна и форма побережья. Южная часть залива неглубока и имеет пологое дно. Послеледниковое поднятие медленно увеличивает высоту территории, а реки постоянно приносят мелкий ил и другой осадок. Эти процессы помогают наращивать отмели. Снимок фиксирует их состояние в определённый день; сам по себе он не измеряет скорость каждого процесса и не доказывает резкого изменения побережья по сравнению с прошлым годом.
+
+На суше заметны зелёные ветвящиеся узоры. NASA осторожно связывает их с различиями влажности и растительности: вдоль русел рост более густой и лесистый, а на окружающих плохо дренируемых торфяниках деревьев меньше. Здесь слово «вероятно» существенно, потому что объяснение рисунка не равнозначно полевому обследованию каждого участка. В материале есть и исторический рассказ о бобрах и местных народах, но экологическое объяснение коричневой воды не приписывает её цвет непосредственно животным.
+
+### Почему это важно
+
+Наш редакционный вывод: даже привычный цвет требует нескольких вопросов. Что растворено в воде, что переносится частицами, что связано с освещением и где проходит граница смешения? Такой способ чтения снимка полезнее быстрого вывода «это загрязнение». Для заключения о качестве воды понадобились бы отдельные измерения; представленное изображение показывает природные процессы и их видимые следы.
+
+## English version
+
+Brown water in a satellite image does not necessarily tell a single story. [NASA's October 6 Image of the Day](https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/) shows river water entering Hannah and Rupert bays, the southernmost extensions of Canada's James Bay. Landsat 9's OLI instrument captured the scene on September 27. The news is today's publication and explanation of the observation, rather than a claim that these flows were photographed only hours ago.
+
+The rivers pass through northern forests and wetlands in Quebec and Ontario. Along the way, water picks up colored dissolved organic matter that absorbs blue and ultraviolet light. This includes substances derived from decomposing leaves, roots, bark and soils, including tannins and lignins. NASA compares the coloring mechanism to tea staining water. That explains an optical appearance; it is not an assessment of whether the water is safe to drink or suitable for a particular use.
+
+In the image, water from the Moose, Nottaway and Harricanaw rivers crosses broad mudflats and mingles with darker blue water in James Bay. Some lighter brown plumes have a different explanation: fine sediment particles are suspended in the water. Tides and river currents stir up mud from the bottom. Dissolved substances and physically suspended particles can therefore appear together in one photograph even though they are different components of the environment. Similar shades need not mean an identical process.
+
+The shape of the coast also matters. Southern James Bay is shallow with gently sloping bathymetry. Postglacial rebound is slowly lifting the landscape, while rivers continually deliver fine mud and other sediment. Those processes help build the flats. The image records their state on a particular day; by itself, it does not measure the speed of every process or establish an abrupt change in the coast compared with the preceding year. That would require additional evidence across time.
+
+Green branching patterns are also visible onshore. NASA cautiously relates them to differences in moisture and vegetation: denser, more forested growth occurs along channels, while surrounding poorly drained peatlands have fewer trees. The qualification matters, because an explanation of a visible pattern is not equivalent to surveying every patch on the ground. The article also discusses beavers and regional history, but its ecological account does not attribute the water's color directly to the animals.
+
+### Why it matters
+
+Our editorial reading is that even a familiar color invites several questions. What is dissolved, what travels as particles, what depends on illumination, and where does mixing occur? Reading the scene that way is more informative than immediately labeling it pollution. Conclusions about water quality would require separate measurements; this image illustrates natural processes and their visible traces.
+
+
+----- 08-curiosity-yardang-panorama (science) — source: https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/ -----
+
+## Русская версия
+
+Синеватый передний план и освещённые утренним солнцем скалы вдали — так выглядит [панорама Curiosity, опубликованная NASA 6 октября](https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/). Но дату съёмки важно назвать отдельно: Mastcam сделала шесть составляющих изображений 11 августа, на 4 982-й марсианский день миссии, примерно в 8:30 местного времени. Их соединили уже после передачи на Землю. Речь о новой публикации материала, а не о рассвете, который ровер увидел сегодня.
+
+В отличие от большинства изображений Mastcam, для этой панорамы не применили привычный баланс белого. NASA описывает это как художественный выбор, сохраняющий вид раннего утра. Поэтому цветовая атмосфера снимка — часть истории его обработки. Она не позволяет сама по себе заключить, что породы изменили химический состав или что необычная синева означает новый тип материала. Читателю полезно рассматривать изображение вместе с пояснением того, как оно было подготовлено.
+
+На горизонте видны ярданги — вытянутые формы рельефа, выточенные ветром. Их слой протягивается примерно на 16 километров по северо-западной части горы Шарп. Curiosity поднимается по этой горе с 2014 года и недавно достиг километра набранной высоты над дном кратера. Публикация связывает новый вид с будущим изучением слоя, но не говорит, что ровер уже добрался до этих скал или применил к ним приборы роботизированной руки.
+
+История горы читается по слоям: они сохраняют разные периоды прошлого Марса. Исследование прежних участков помогало узнавать об озёрах и потоках воды; затем вода высохла, оставив солёные минералы. Когда новый материал перестал оседать, ветер мог удалить часть отложений и сформировать ярданги. Это общий сценарий, а происхождение конкретного необычного слоя остаётся вопросом. Команда отмечает его отличающийся цвет и наклон; одна из идей — осевший пепел древних вулканических извержений.
+
+Сейчас Curiosity находится во втором году пятой продлённой миссии, начавшейся с изучения сетчатых гряд. Большую часть следующего года или около того команда планирует двигаться через слои, обогащённые сульфатами и карбонатами. Достичь основания ярдангов учёные надеются в 2027 году. Это ожидание, которое зависит от дальнейшего движения и работы миссии, а не уже выполненный этап. Новость отличается от вчерашнего сообщения о бурении Basque Lakes: здесь предмет — новая панорама и дальняя геологическая цель.
+
+### Почему это важно
+
+Наш вывод: хороший снимок может одновременно показывать результат и задавать следующий вопрос. Здесь результат — подробно опубликованный вид далёких скал; вопрос — происхождение слоя. Сохранение дат, особенностей обработки и будущего времени помогает оценить, что уже известно, а что ещё потребует близкого обследования.
+
+## English version
+
+A bluish foreground and distant cliffs lit by morning sunlight define a [Curiosity panorama published by NASA on October 6](https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/). The capture date needs separate attention: Mastcam took its six component images on August 11, the mission's 4,982nd Martian day, at around 8:30 local time. They were stitched together after transmission to Earth. This is a newly published scene, rather than a sunrise the rover witnessed today.
+
+Unlike most Mastcam images, the panorama was processed without the usual white balancing. NASA describes that as an artistic choice preserving the early-morning appearance. The scene's color atmosphere is therefore part of its processing history. It cannot alone establish a change in rock chemistry or turn the striking blue hues into evidence of a new material. Readers benefit from considering the image alongside an explanation of how it was prepared, rather than assigning scientific meaning to every visual impression.
+
+The distant formations are yardangs, wind-carved landforms. Their layer extends roughly 16 kilometers across northwestern Mount Sharp. Curiosity has been ascending the mountain since 2014 and recently reached one kilometer of elevation gain above the crater floor. The announcement connects the new view with future investigation of the layer. It does not say that the rover has already reached the cliffs or applied its robotic-arm instruments directly to these formations. Seeing a target clearly and examining it at close range remain different milestones.
+
+Mount Sharp's layers preserve different periods of Martian history. Earlier investigations helped reveal ancient lakes and streams; the water eventually dried, leaving salty minerals. After new material stopped accumulating, wind may have stripped away some deposits to produce yardangs. That is a general scenario, while the unusual layer's origin remains unresolved. The team notes its different color and tilted layers. One possibility is ash deposited by ancient volcanic eruptions, presented as an idea rather than a confirmed explanation.
+
+Curiosity is now in the second year of its fifth extended mission, which began with exploration of boxwork ridges. The team plans to spend much of the next year or so traveling through sulfate- and carbonate-enriched layers. Scientists hope to reach the yardangs' base sometime in 2027. This is an expectation dependent on further travel and mission operations, not a completed stage. The story differs from yesterday's Basque Lakes drilling account: its subject is a newly published panorama and a distant geological objective.
+
+### Why it matters
+
+Our reading is that a good image can show a result while posing the next question. Here the result is a detailed published view of distant cliffs; the question is the layer's origin. Keeping capture dates, processing choices and future plans explicit helps readers judge what is known and what will require examination at close range.
 
 
 ===== EDITION 30 — 2026-10-05 =====

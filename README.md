@@ -16,6 +16,10 @@
 - **[ИИ]** [Перенести блок-схему на слайд и сохранить её логику](editions/2026/10-06/02-editable-flowchart-relayout.md)
 - **[Наука]** [Светлые камни за кратером Езеро могут рассказать о глубинах Марса](editions/2026/10-06/03-perseverance-light-rocks.md)
 - **[Культура]** [Samon превращает узор на песке в проверяемую головоломку](editions/2026/10-06/04-samon-raking-puzzle.md)
+- **[ИИ]** [EmbeddingGemma 2 объединяет текст, звук и видео для локального поиска](editions/2026/10-06/05-embeddinggemma-multimodal-search.md)
+- **[Наука]** [Webb показал, как молодые звёзды меняют своё облако](editions/2026/10-06/06-webb-ngc7129-stellar-jets.md)
+- **[Наука]** [Коричневая вода залива Руперт хранит два разных следа](editions/2026/10-06/07-rupert-bay-brown-waters.md)
+- **[Наука]** [Curiosity показал далёкие ярданги — до их основания ещё предстоит доехать](editions/2026/10-06/08-curiosity-yardang-panorama.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
