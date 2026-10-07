@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liquid AI выпускает компактные модели для решений без длинного ответа - frontier-wire</title>
+<meta name="description" content="Open weights for d1-3B and experimental d1-omni-600M come with distinct modes and limits.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-07/07-liquid-d1-edge-decisions.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Liquid AI releases compact models for decisions without long answers", "alternativeHeadline": "Liquid AI выпускает компактные модели для решений без длинного ответа", "datePublished": "2026-10-07", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/LiquidAI/open-d1", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-07/07-liquid-d1-edge-decisions.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-07 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Liquid AI выпускает компактные модели для решений без длинного ответа</span><span class="lang-en">Liquid AI releases compact models for decisions without long answers</span></h1>
+  <p class="dek big"><span class="lang-ru">Открытые веса d1-3B и экспериментальной d1-omni-600M сопровождаются разными режимами и ограничениями.</span><span class="lang-en">Open weights for d1-3B and experimental d1-omni-600M come with distinct modes and limits.</span></p>
+
+  <div class="prose lang-ru"><p>Liquid AI 7 октября <a href="https://huggingface.co/blog/LiquidAI/open-d1">объявила выпуск d1-3B и d1-omni-600M</a> с открытыми весами. Это модели для структурированных решений: они не сочиняют последовательность выходных токенов, а отвечают за один проход. d1-3B принимает текст и изображения; экспериментальная omni-версия работает с текстом и изображениями либо аудио. Компания не приводит замеры скорости для меньшей модели, подчёркивая раннюю исследовательскую стадию. Следовательно, компактность и быстродействие двух выпусков нельзя автоматически считать одинаково подтверждёнными. Заявленные результаты принадлежат авторам; наша редакция эти модели не запускала и собственных оценок качества не имеет.</p>
+<p><a href="https://huggingface.co/LiquidAI/d1-3b">Карточка d1-3B</a> показывает зависимость скорости от нагрузки. Для Apple M5 Pro один вопрос указан как 30 миллисекунд, а состояние длиной около 3,4 тысячи токенов — 640 миллисекунд. Измеряются прогретые вызовы. В описании GPU-режима отдельно отмечено, что первая новая форма входа может требовать выбора ядра или компиляции. Поэтому короткое время отдельного вопроса нельзя переносить на любой запрос, запуск приложения целиком или первое обращение к модели. Важно сохранить рядом число, устройство, вид входа и режим измерения.</p>
+<p>У <a href="https://huggingface.co/LiquidAI/d1-omni-600M">d1-omni-600M</a> свои ограничения. Карточка уточняет 587 миллионов параметров, аудиофрагменты до 30 секунд и обучение аудиозадач на запросах англоязычного говорящего к помощнику. Изображения и аудио не передаются одновременно в одном запросе. Для выбора режима это полезнее общего слова «мультимодальная»: оно не обещает произвольное сочетание всех данных. Поддержка нескольких типов входа, качество на каждом типе и удобство интеграции остаются отдельными свойствами. Особенно не стоит читать пример успешного ответа как доказательство универсальной работы на незнакомом языке или другой записи.</p>
+<p>Наше прочтение: такие модели интересны там, где заранее понятен набор допустимых решений. Представьте распределение технических обращений по нескольким командам. Система должна выбрать категорию, а не написать убедительный абзац о выборе. Это наш пример применения, а не готовое внедрение из релиза. Проверять его мы бы начали с реальных формулировок и сложных пограничных случаев, включая обращения, которые не подходят ни одной категории. Отдельно измерили бы первый и повторные вызовы. Цена ошибочного распределения тоже входит в оценку полезности, даже если сам ответ получен очень быстро.</p>
+<h3>Почему это важно</h3>
+<p>Релиз расширяет выбор инструментов для коротких решений рядом с генеративными моделями. Наш вывод — сравнивать их по конкретной задаче и условиям выполнения. Нулевое число выходных токенов описывает способ получения ответа; оно не отменяет вычисления, проверку качества или ограничения входа. Именно это различие помогает обсуждать компактную модель без обещаний универсальной замены чат-ассистента.</p></div>
+  <div class="prose lang-en"><p>Liquid AI <a href="https://huggingface.co/blog/LiquidAI/open-d1">announced open-weight d1-3B and d1-omni-600M on October 7</a>. These models make structured decisions in a single forward pass instead of composing a sequence of output tokens. d1-3B accepts text and images; the experimental omni version uses text with images or audio. The company reports no speed measurements for the smaller model, emphasizing its early research status. Compact size and latency therefore cannot be treated as equally established properties of both releases. Reported evaluations belong to the authors; we have not run these models or produced independent quality measurements.</p>
+<p>The <a href="https://huggingface.co/LiquidAI/d1-3b">d1-3B model card</a> demonstrates the relationship between latency and workload. On an Apple M5 Pro, it lists 30 milliseconds for one question and 640 milliseconds for a state of roughly 3,400 tokens. These are warm calls. Its GPU description separately notes that a first new input shape can incur kernel selection or compilation. A short single-question time consequently cannot be generalized to every input, total application startup or the first model invocation. The number belongs alongside its device, input type and measurement conditions, rather than in isolation.</p>
+<p>The <a href="https://huggingface.co/LiquidAI/d1-omni-600M">d1-omni-600M card</a> sets different boundaries. It specifies 587 million parameters, audio clips limited to 30 seconds and audio training tasks involving an English speaker's requests to an assistant. Images and audio cannot appear together in one request. That is more useful for selecting a mode than the broad word multimodal: it does not promise arbitrary combinations of all data types. Input support, quality on each modality and ease of integration remain separate properties. A successful example should especially not be read as evidence of universal performance on another language or recording style.</p>
+<p>Our reading is that such models are interesting where the allowable decision set is known in advance. Imagine routing technical requests among a few teams. The system needs to choose a category rather than write a persuasive paragraph about its choice. This is our application example, not an existing deployment from the release. We would begin evaluating it with real wording and difficult boundary cases, including requests that fit none of the categories. Cold and repeated calls would receive separate measurements. The cost of a wrong routing decision also belongs in the assessment, even when the answer itself arrives quickly.</p>
+<h3>Why it matters</h3>
+<p>The release expands the selection of short-decision tools alongside generative models. Our conclusion is to compare them on a specific task under specified operating conditions. Zero output tokens describes how an answer is obtained; it does not eliminate computation, quality checks or input limits. Keeping that distinction visible allows compact models to be discussed without promising a universal replacement for conversational assistants.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/LiquidAI/open-d1">https://huggingface.co/blog/LiquidAI/open-d1</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

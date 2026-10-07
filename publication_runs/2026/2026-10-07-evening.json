@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-07",
+  "slot": "evening",
+  "checked_at": "2026-10-07T17:54:00.566064+00:00",
+  "digest_sha256": "2e9d3f86f487752f2e326a4226514810427ddd85b49185539769d71eff83c976",
+  "articles": [
+    {
+      "path": "editions/2026/10-07/05-synthid-public-detector.md",
+      "sha256": "27273965a9ae60934eceb26955510fcfa46860ffebc2132264de71604718da5c",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content"
+    },
+    {
+      "path": "editions/2026/10-07/06-playground-prompt-games.md",
+      "sha256": "7c95095358409d3a5d2977c0ca34370a8c351ff4a568faac78282388ec9867ce",
+      "source": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform"
+    },
+    {
+      "path": "editions/2026/10-07/07-liquid-d1-edge-decisions.md",
+      "sha256": "e5a7119c1777f1fa28cd4a798b2089f80e7a02604e25ed4a8794345efc2f83ad",
+      "source": "https://huggingface.co/blog/LiquidAI/open-d1"
+    },
+    {
+      "path": "editions/2026/10-07/08-artemis-ii-data-release.md",
+      "sha256": "938a57918d900136c0b18e14853ab95633a30de2b189d258194d7d26d703aa2d",
+      "source": "https://science.nasa.gov/feature/artemis-ii-preliminary-lunar-science-report"
+    },
+    {
+      "path": "editions/2026/10-07/09-dhl-ai-trade-growth.md",
+      "sha256": "ffecccc2a022973ac701a187ab0c1021a1c1531da9a511607b6507db1c8be35b",
+      "source": "https://group.dhl.com/en/media-relations/press-releases/2026/tech-beats-tariffs-global-trade-growth-accelerates-and-globalization-sets-new-record.html"
+    }
+  ]
+}

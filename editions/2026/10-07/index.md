@@ -5,8 +5,8 @@ edition: 32
 
 ## От редакции
 
-Сегодня смотрим на переход от красивого результата к проверяемой работе: массовый инструмент ИИ, длинный ряд арктического льда и безопасное возвращение к лунному модулю. Четвёртая история — объявленный уход Cygnus XL с МКС 9 октября, который ещё предстоит подтвердить отдельным сообщением. В четырёх материалах сохраняем даты измерений, условия экспериментов и будущее время планов.
+Сегодня смотрим на переход от красивого результата к проверяемой работе: массовый инструмент ИИ, длинный ряд арктического льда, лунный заряд и план ухода Cygnus XL. Вечером добавились публичный SynthID Detector, игры Playground, компактные модели Liquid AI, наблюдения Artemis II и отчёт о материальной стороне ИИ-бума. В девяти материалах сохраняем даты наблюдений, границы доступности продуктов и различие между результатом и прогнозом.
 
 ## Editorial
 
-Today we examine the move from an impressive result to verifiable work: an AI batch tool, the long Arctic sea ice record and a safe return to a lunar lander. Our fourth story covers Cygnus XL's announced October 9 departure, still awaiting a separate report of completion. Across four stories, we keep measurement dates, experimental conditions and future plans explicit.
+Today we examine the move from impressive results to verifiable work: an AI batch tool, Arctic sea ice, lunar charge and the Cygnus XL departure plan. Five evening stories add public SynthID Detector access, Playground games, compact Liquid AI models, Artemis II observations and the physical side of the AI boom in a trade report. Across nine stories, we keep observation dates, product availability and the distinction between outcomes and forecasts explicit.

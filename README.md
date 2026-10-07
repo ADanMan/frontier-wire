@@ -16,6 +16,11 @@
 - **[Наука]** [Арктический минимум льда: десятое место не означает восстановление](editions/2026/10-07/02-arctic-ice-minimum-context.md)
 - **[Технологии]** [Перед возвращением к лунному модулю нужно решить проблему заряда](editions/2026/10-07/03-lunar-static-discharge.md)
 - **[Наука]** [Cygnus XL готовят к уходу с МКС 9 октября](editions/2026/10-07/04-cygnus-xl-departure-plan.md)
+- **[ИИ]** [SynthID Detector открывают всем — он ищет конкретную маркировку](editions/2026/10-07/05-synthid-public-detector.md)
+- **[Культура]** [Playground предлагает создать игру разговором — пока это эксперимент](editions/2026/10-07/06-playground-prompt-games.md)
+- **[ИИ]** [Liquid AI выпускает компактные модели для решений без длинного ответа](editions/2026/10-07/07-liquid-d1-edge-decisions.md)
+- **[Наука]** [NASA открыла наблюдения Artemis II — со снимками, голосом и пометками](editions/2026/10-07/08-artemis-ii-data-release.md)
+- **[Экономика]** [Новый отчёт DHL связывает рост торговли с инфраструктурой ИИ](editions/2026/10-07/09-dhl-ai-trade-growth.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
