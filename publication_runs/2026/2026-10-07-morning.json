@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-07",
+  "slot": "morning",
+  "checked_at": "2026-10-07T09:35:08.229745+00:00",
+  "digest_sha256": "4f73be91b06299138008fda0b5272c694323c350d37f0da685921d6d23ffcd08",
+  "articles": [
+    {
+      "path": "editions/2026/10-07/01-bottled-agent-artifacts.md",
+      "sha256": "90bf851e16a119dabefc19017d0ba835257980749d8c619a2c67e780aff7db77",
+      "source": "https://arxiv.org/abs/2610.08775v1"
+    },
+    {
+      "path": "editions/2026/10-07/02-arctic-ice-minimum-context.md",
+      "sha256": "b65eaace484238ebcd84a9b196d81a7d675ebf00dc3556e1f28e92c5f6a573dc",
+      "source": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum"
+    },
+    {
+      "path": "editions/2026/10-07/03-lunar-static-discharge.md",
+      "sha256": "cf0bca299cd2bb785b53452ac7ff1559ce809e3500289e73b111dd64c8895ae7",
+      "source": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge"
+    },
+    {
+      "path": "editions/2026/10-07/04-cygnus-xl-departure-plan.md",
+      "sha256": "afb32bc6dfab161918e5909dd1763fe061ad320c1499b75535fb58973dc847e4",
+      "source": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure"
+    }
+  ]
+}

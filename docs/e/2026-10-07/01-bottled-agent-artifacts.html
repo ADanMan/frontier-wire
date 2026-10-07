@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Сильный ответ ИИ ещё не означает хороший массовый инструмент - frontier-wire</title>
+<meta name="description" content="Bottled tests whether an agent can turn its capabilities into a cheap reusable solution.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-07/01-bottled-agent-artifacts.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "A strong AI answer does not guarantee a good batch tool", "alternativeHeadline": "Сильный ответ ИИ ещё не означает хороший массовый инструмент", "datePublished": "2026-10-07", "inLanguage": ["ru", "en"], "isBasedOn": "http://arxiv.org/abs/2610.08775v1", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-07/01-bottled-agent-artifacts.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-07 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Сильный ответ ИИ ещё не означает хороший массовый инструмент</span><span class="lang-en">A strong AI answer does not guarantee a good batch tool</span></h1>
+  <p class="dek big"><span class="lang-ru">Bottled проверяет, сможет ли агент превратить свои знания в дешёвое повторяемое решение.</span><span class="lang-en">Bottled tests whether an agent can turn its capabilities into a cheap reusable solution.</span></p>
+
+  <div class="prose lang-ru"><p>В <a href="http://arxiv.org/abs/2610.08775v1">препринте Agent in a Bottle от 6 октября</a> исследователи предлагают проверять отдельное умение ИИ: собрать экономное решение для повторяющейся задачи. Агент получает весь массив входных данных без правильных ответов, ограниченные ресурсы и должен выдать результат для каждого случая. В эксперименте 48 из 60 запусков оказались ниже доверительного интервала качества соответствующей модели, отвечающей на примеры напрямую. Это авторский результат ограниченного бенчмарка, а не оценка всех существующих агентов и не проверка нашей редакции.</p>
+<p><a href="https://github.com/aktsonthalia/bottled">Открытый репозиторий Bottled</a> содержит отдельные сценарии агентного решения, прямого вызова модели и обучения небольшой модели на ответах учителя. Есть конфигурации задач, подготовка данных и учёт затрат. README пока отмечает две части как будущие дополнения: проверку загрязнения данных и оценку Jev. Поэтому опубликованный код помогает рассмотреть устройство эксперимента, но ещё не означает, что весь описанный в статье анализ можно воспроизвести одной готовой командой. Сам факт открытия репозитория полезно отделять от полноты воспроизведения.</p>
+<p>Наше прочтение этой постановки: у удачного ответа и у рабочего инструмента разные критерии успеха. Представьте каталог, в котором нужно выделять материал товара. Несколько правильных примеров показывают, что модель понимает запрос. Для обработки целой коллекции дополнительно нужны устойчивый формат, сохранение результатов и понятное поведение на описаниях без нужного свойства. Это иллюстрация задачи, а не свидетельство о конкретном магазине или готовом коммерческом внедрении Bottled. Коллекция может содержать и простые случаи, и редкие формулировки; средний красивый ответ эту разницу скрывает.</p>
+<p>Для собственной проверки мы бы сначала подготовили отдельную контрольную выборку, которую разработчик решения не использует при подборе правил. Затем сравнили бы прямые ответы модели и итоговый инструмент на одинаковых входах. Отдельно отметили бы пропуски, неподходящий формат и случаи, где правильный ответ отсутствует в исходном тексте. В таком сравнении важна цена завершённой обработки, включая создание решения, а не только цена одного последующего вызова. Здесь описан предлагаемый порядок проверки; мы его не выполняли и результатов не заявляем.</p>
+<h3>Почему это важно</h3>
+<p>Исследование добавляет полезный вопрос к выбору ИИ: что остаётся после его работы и насколько надёжно это можно повторить? Для массовой задачи пригодность определяется проверенным результатом на всей нагрузке. Наш вывод — обсуждать качество ответа, полноту обработки и стоимость как отдельные свойства. Тогда экономия не маскирует потерянные строки, а успех на нескольких примерах не превращается в обещание готовой автоматизации.</p></div>
+  <div class="prose lang-en"><p>The <a href="http://arxiv.org/abs/2610.08775v1">October 6 preprint Agent in a Bottle</a> proposes testing a distinct AI capability: constructing an economical solution for a repetitive workload. An agent receives the complete unlabeled input collection, limited resources and a requirement to return a result for every instance. In the authors' experiment, 48 of 60 runs fell below the confidence interval of the corresponding model answering examples directly. This is a reported result from a limited benchmark, rather than a verdict on every existing agent or an experiment performed by this publication.</p>
+<p>The <a href="https://github.com/aktsonthalia/bottled">open Bottled repository</a> includes separate workflows for agent solutions, direct model calls and training a small model on teacher answers. It provides task configurations, data preparation and cost accounting. Its README still lists contamination judging and Jev evaluation as forthcoming additions. The code therefore helps readers inspect the experimental machinery, but its availability does not establish that every analysis described in the paper can already be reproduced with a single complete command. Openness and completeness are separate properties worth checking.</p>
+<p>Our reading of the setup is that a successful answer and a working tool need different acceptance criteria. Imagine a catalog in which the task is to extract each product's material. A few correct examples demonstrate understanding of the question. Processing the entire collection also requires consistent formatting, saved outputs and appropriate handling of descriptions that never mention a material. This is an illustrative workload, rather than evidence about a particular store or an existing commercial Bottled deployment. Easy instances and unusual wording can coexist within the collection; a polished sample answer conceals that distribution.</p>
+<p>For an independent assessment, we would first prepare a held-out reference set that the solution's builder cannot use to tune its rules. We would then compare direct model answers and the final tool on identical inputs. Missing outputs, invalid formats and cases where the requested information is absent would receive separate attention. The relevant cost is completed processing, including construction of the solution, rather than just one subsequent invocation. This is a proposed evaluation procedure. We have not run it and claim no results from it, savings included.</p>
+<h3>Why it matters</h3>
+<p>The research adds a useful question to AI selection: what remains after the agent has worked, and how reliably can it be reused? Suitability for a batch task depends on verified results across the workload. Our conclusion is to discuss answer quality, completion and cost separately. That prevents cheap execution from concealing missing rows, or success on a handful of examples from becoming an unsupported promise of ready-made automation.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="http://arxiv.org/abs/2610.08775v1">http://arxiv.org/abs/2610.08775v1</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

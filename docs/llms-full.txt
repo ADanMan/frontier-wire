@@ -2,6 +2,141 @@
 
 
 
+===== EDITION 32 — 2026-10-07 =====
+
+## От редакции
+
+Сегодня смотрим на переход от красивого результата к проверяемой работе: массовый инструмент ИИ, длинный ряд арктического льда и безопасное возвращение к лунному модулю. Четвёртая история — объявленный уход Cygnus XL с МКС 9 октября, который ещё предстоит подтвердить отдельным сообщением. В четырёх материалах сохраняем даты измерений, условия экспериментов и будущее время планов.
+
+## Editorial
+
+Today we examine the move from an impressive result to verifiable work: an AI batch tool, the long Arctic sea ice record and a safe return to a lunar lander. Our fourth story covers Cygnus XL's announced October 9 departure, still awaiting a separate report of completion. Across four stories, we keep measurement dates, experimental conditions and future plans explicit.
+
+
+----- 01-bottled-agent-artifacts (ai) — source: http://arxiv.org/abs/2610.08775v1 -----
+
+## Русская версия
+
+В [препринте Agent in a Bottle от 6 октября](http://arxiv.org/abs/2610.08775v1) исследователи предлагают проверять отдельное умение ИИ: собрать экономное решение для повторяющейся задачи. Агент получает весь массив входных данных без правильных ответов, ограниченные ресурсы и должен выдать результат для каждого случая. В эксперименте 48 из 60 запусков оказались ниже доверительного интервала качества соответствующей модели, отвечающей на примеры напрямую. Это авторский результат ограниченного бенчмарка, а не оценка всех существующих агентов и не проверка нашей редакции.
+
+[Открытый репозиторий Bottled](https://github.com/aktsonthalia/bottled) содержит отдельные сценарии агентного решения, прямого вызова модели и обучения небольшой модели на ответах учителя. Есть конфигурации задач, подготовка данных и учёт затрат. README пока отмечает две части как будущие дополнения: проверку загрязнения данных и оценку Jev. Поэтому опубликованный код помогает рассмотреть устройство эксперимента, но ещё не означает, что весь описанный в статье анализ можно воспроизвести одной готовой командой. Сам факт открытия репозитория полезно отделять от полноты воспроизведения.
+
+Наше прочтение этой постановки: у удачного ответа и у рабочего инструмента разные критерии успеха. Представьте каталог, в котором нужно выделять материал товара. Несколько правильных примеров показывают, что модель понимает запрос. Для обработки целой коллекции дополнительно нужны устойчивый формат, сохранение результатов и понятное поведение на описаниях без нужного свойства. Это иллюстрация задачи, а не свидетельство о конкретном магазине или готовом коммерческом внедрении Bottled. Коллекция может содержать и простые случаи, и редкие формулировки; средний красивый ответ эту разницу скрывает.
+
+Для собственной проверки мы бы сначала подготовили отдельную контрольную выборку, которую разработчик решения не использует при подборе правил. Затем сравнили бы прямые ответы модели и итоговый инструмент на одинаковых входах. Отдельно отметили бы пропуски, неподходящий формат и случаи, где правильный ответ отсутствует в исходном тексте. В таком сравнении важна цена завершённой обработки, включая создание решения, а не только цена одного последующего вызова. Здесь описан предлагаемый порядок проверки; мы его не выполняли и результатов не заявляем.
+
+### Почему это важно
+
+Исследование добавляет полезный вопрос к выбору ИИ: что остаётся после его работы и насколько надёжно это можно повторить? Для массовой задачи пригодность определяется проверенным результатом на всей нагрузке. Наш вывод — обсуждать качество ответа, полноту обработки и стоимость как отдельные свойства. Тогда экономия не маскирует потерянные строки, а успех на нескольких примерах не превращается в обещание готовой автоматизации.
+
+## English version
+
+The [October 6 preprint Agent in a Bottle](http://arxiv.org/abs/2610.08775v1) proposes testing a distinct AI capability: constructing an economical solution for a repetitive workload. An agent receives the complete unlabeled input collection, limited resources and a requirement to return a result for every instance. In the authors' experiment, 48 of 60 runs fell below the confidence interval of the corresponding model answering examples directly. This is a reported result from a limited benchmark, rather than a verdict on every existing agent or an experiment performed by this publication.
+
+The [open Bottled repository](https://github.com/aktsonthalia/bottled) includes separate workflows for agent solutions, direct model calls and training a small model on teacher answers. It provides task configurations, data preparation and cost accounting. Its README still lists contamination judging and Jev evaluation as forthcoming additions. The code therefore helps readers inspect the experimental machinery, but its availability does not establish that every analysis described in the paper can already be reproduced with a single complete command. Openness and completeness are separate properties worth checking.
+
+Our reading of the setup is that a successful answer and a working tool need different acceptance criteria. Imagine a catalog in which the task is to extract each product's material. A few correct examples demonstrate understanding of the question. Processing the entire collection also requires consistent formatting, saved outputs and appropriate handling of descriptions that never mention a material. This is an illustrative workload, rather than evidence about a particular store or an existing commercial Bottled deployment. Easy instances and unusual wording can coexist within the collection; a polished sample answer conceals that distribution.
+
+For an independent assessment, we would first prepare a held-out reference set that the solution's builder cannot use to tune its rules. We would then compare direct model answers and the final tool on identical inputs. Missing outputs, invalid formats and cases where the requested information is absent would receive separate attention. The relevant cost is completed processing, including construction of the solution, rather than just one subsequent invocation. This is a proposed evaluation procedure. We have not run it and claim no results from it, savings included.
+
+### Why it matters
+
+The research adds a useful question to AI selection: what remains after the agent has worked, and how reliably can it be reused? Suitability for a batch task depends on verified results across the workload. Our conclusion is to discuss answer quality, completion and cost separately. That prevents cheap execution from concealing missing rows, or success on a handful of examples from becoming an unsupported promise of ready-made automation.
+
+
+----- 02-arctic-ice-minimum-context (science) — source: https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/ -----
+
+## Русская версия
+
+[NASA Earth Observatory 7 октября опубликовала](https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/) обновлённый обзор арктического морского льда. Сезонный минимум 12 сентября составил около 4,6 миллиона квадратных километров и разделил десятое место среди самых низких значений спутникового ряда. Новость здесь — октябрьская визуализация и объяснение длинного ряда; само измерение относится к сентябрю. Карты сопоставляют летние минимумы и зимние максимумы. Это помогает смотреть на сезонный цикл, а не принимать одну выразительную картинку за описание всего года.
+
+В [предварительном анализе NSIDC от 23 сентября](https://nsidc.org/sea-ice-today/analyses/arctic-sea-ice-minimum-ties-tenth-lowest-0) указано важное правило рейтинга: значения с разницей до 40 тысяч квадратных километров считают совпадающими. Документ предупреждал, что поздние ветры или таяние ещё могли изменить минимум. По его оценке, показатель был на 1,62 миллиона квадратных километров ниже среднего минимума 1981–2010 годов. Эти числа относятся к конкретной метрике и периоду сравнения. Десятая позиция в таблице сама по себе не сообщает, насколько год приблизился к прежнему состоянию Арктики.
+
+В опубликованном NASA объяснении наблюдения получают и технический контекст. Спутники используют пассивные микроволновые датчики: ледяная поверхность и открытая вода различаются по излучению, а облака не закрывают такой обзор, как обычную фотографию. Поэтому карта — результат измерительного метода, а не просто снимок в ясный день. Для читателя это существенное различие: цветная граница выглядит наглядно, но за ней стоят правила обработки и сопоставления наблюдений. Их стоит учитывать прежде, чем сравнивать отдельные изображения из разных лет.
+
+Наш вывод из сочетания карты и таблицы: полезнее задавать несколько вопросов одновременно. Какое место занимает сезон среди остальных? С каким базовым периодом его сравнивают? Когда подготовлен анализ и был ли он предварительным? Один и тот же год может выглядеть менее экстремальным в рейтинге и всё же заметно отличаться от прежнего среднего. Здесь нет противоречия: меняется вопрос, на который отвечает показатель. Мы не выводим из этой публикации точную дату будущей Арктики без льда и не пересчитываем самостоятельно спутниковые данные.
+
+### Почему это важно
+
+Новая визуализация делает длинную историю наблюдений удобнее для внимательного чтения. Смысл нашей проверки — сохранить рядом дату измерения, дату публикации и основу сравнения. Тогда отсутствие нового абсолютного рекорда не превращается в заявление о восстановлении, а предварительная сентябрьская оценка не выдаётся за измерение, сделанное сегодня. Для понимания сезонных изменений это полезнее самого номера места в рейтинге.
+
+## English version
+
+[NASA Earth Observatory published an updated Arctic sea ice feature on October 7](https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/). The September 12 seasonal minimum was approximately 4.6 million square kilometers, tying for tenth lowest in the satellite record. The new development is the October visualization and explanation of the long record; the measurement itself belongs to September. Maps pair summer minima with winter maxima. They invite readers to consider the seasonal cycle rather than treat one striking image as a description of the entire year.
+
+The [September 23 preliminary NSIDC analysis](https://nsidc.org/sea-ice-today/analyses/arctic-sea-ice-minimum-ties-tenth-lowest-0) explains an important ranking rule: extents within 40,000 square kilometers count as tied. It warned that late winds or melting could still alter the minimum. Its estimate placed the extent 1.62 million square kilometers below the 1981–2010 average minimum. Those figures concern a specific metric and reference period. A tenth-place position alone cannot tell readers how close the Arctic has come to its earlier condition, or whether the apparent difference between neighboring entries is meaningful.
+
+NASA's explanation also supplies measurement context. Satellites use passive microwave sensors: ice and open water emit different amounts of microwave energy, and clouds do not obstruct these observations as they would an ordinary photograph. The map is consequently an output of a measurement method, rather than merely a clear-weather picture. That distinction matters when reading it. A colored boundary looks straightforward, but processing and comparison rules sit behind the image. They deserve attention before individual maps from different years are placed side by side and given a sweeping interpretation.
+
+Our reading of the map and table is that several questions belong together. Where does this season rank among others? Which reference period supplies the comparison? When was the analysis prepared, and was it preliminary? A year can appear less extreme in the ranking while still differing substantially from an earlier average. There is no contradiction: each measure answers a different question. We derive no precise date for a future ice-free Arctic from this publication, and we have not independently recalculated the satellite observations or claimed a new measurement.
+
+### Why it matters
+
+The new visualization makes a long observational history easier to examine. Our purpose in checking it is to keep the measurement date, publication date and comparison baseline together. An absence of a new absolute record then cannot become a claim of recovery, and a preliminary September estimate cannot be mistaken for a measurement taken today. For understanding seasonal change, that context is more useful than a position in a league table alone.
+
+
+----- 03-lunar-static-discharge (tech) — source: https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/ -----
+
+## Русская версия
+
+[NASA 6 октября рассказала о Lunar Grounding Challenge](https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/) — конкурсе концепций защиты астронавта от электростатического разряда при возвращении к аппарату. Ходьба и окружающая плазма могут заряжать скафандр; в тени условия особенно сложны. Контакт с модулем другого потенциала создаёт риск искры. Конкурс открылся 5 октября, приём решений указан до 15 января 2027 года, общий призовой фонд — до 150 тысяч долларов. Речь о поиске решения для будущих операций, а не о сообщении об уже произошедшей аварии.
+
+[Техническая страница конкурса](https://work.crowdplat.com/challenge/lunar-grounding-challenge) добавляет конкретный масштаб задачи. В расчётном сценарии отрицательно заряженный астронавт имеет потенциал минус 100 киловольт или более по модулю, посадочный аппарат — около плюс 100 вольт. Предельная масса решения должна быть менее 20 килограммов, худшее время разряда — 30 секунд. На первом этапе физический прототип не требуется; до пяти финалистов смогут перейти к уточнению концепций. Это условия конкурсной постановки, а не измерения на действующей лунной экспедиции или подтверждённые характеристики готового устройства.
+
+Наше прочтение этой новости: в слове «заземление» легко спрятать главный вопрос — с чем именно и каким образом сравнивается потенциал. Для будущей процедуры важно управляемое взаимодействие человека в скафандре и аппарата. Объявление описывает требуемый результат и среду, но не выбирает универсальную схему реализации. Поэтому из него нельзя выводить, что достаточно добавить обычный земной провод или повторить бытовой приём борьбы со статикой. Мы не предлагаем здесь конструкцию системы безопасности: её оценка требует отдельной инженерной работы и проверки конкретных условий.
+
+Для читателя, следящего за лунными технологиями, интересен сам уровень детализации. Внимание направлено на переход между двумя этапами работы: астронавт завершает выход и снова взаимодействует с аппаратом. В нашем понимании это напоминает, что отдельная подсистема должна вписываться в последовательность действий. Полезные вопросы к будущим результатам конкурса — как они объясняют ограничения, что проверено расчётом и что ещё предстоит испытать. Наличие конкурса не равно выбранной конструкции, а выбранная концепция не равна установленному оборудованию. Эти стадии имеют разную степень подтверждения.
+
+### Почему это важно
+
+Новость показывает конкретный нерешённый инженерный вопрос рядом с крупными планами освоения Луны. Требования делают его обсуждаемым без обещания готового результата. Наш вывод — следить за переходом от концепции к проверке, сохраняя различие между условиями задачи и испытанной системой. Именно на этом переходе выяснится, может ли предложенный способ работать как часть реальной процедуры возвращения к модулю.
+
+## English version
+
+[NASA described the Lunar Grounding Challenge on October 6](https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/), seeking concepts to protect astronauts from electrostatic discharge when returning to a lander. Walking and ambient plasma can charge a spacesuit, with shadows creating particularly difficult conditions. Contact with a lander at a different potential can produce a spark. The challenge opened October 5, lists a January 15, 2027 submission deadline and offers up to $150,000 in total prizes. This concerns a problem for future operations, rather than an announcement of an accident that has already occurred.
+
+The [challenge's technical page](https://work.crowdplat.com/challenge/lunar-grounding-challenge) adds a concrete scale to the scenario. Its design case considers a negatively charged astronaut at minus 100 kilovolts or greater magnitude and a lander around plus 100 volts. The proposed solution must weigh less than 20 kilograms; the worst-case discharge duration is 30 seconds. Phase one requires no physical prototype, and up to five finalists may advance to concept refinement. These are conditions of the challenge, rather than measurements from an operating lunar expedition or established specifications of a finished device.
+
+Our reading is that the familiar word grounding can conceal the central question: which potentials are being compared, and how will they be equalized? The future procedure requires controlled interaction between a suited person and a vehicle. The announcement defines an intended outcome and environment without selecting a universal implementation. Readers therefore cannot infer that adding an ordinary terrestrial wire, or copying a household static-control trick, would meet the requirement. We propose no safety-system design here. Assessing one would require separate engineering work and verification under the relevant conditions.
+
+For readers following lunar technology, the noteworthy feature is this level of specificity. The focus falls on a transition between operations: an astronaut finishes an excursion and interacts with the vehicle again. In our interpretation, that highlights how a subsystem must fit a sequence of actions. Useful questions for eventual challenge results include how constraints are addressed, what calculations establish and what still needs testing. An open competition is not a selected design; a selected concept is not installed equipment. Those stages carry different levels of evidence and should be described accordingly.
+
+### Why it matters
+
+The announcement exposes one concrete unresolved engineering question alongside large lunar ambitions. Defined requirements make it discussable without promising a finished outcome. Our conclusion is to follow the movement from concept to verification while keeping design assumptions distinct from a tested system. That transition will establish whether a proposed approach can function as part of an actual return-to-lander procedure, rather than merely appear convincing in a competition submission.
+
+
+----- 04-cygnus-xl-departure-plan (science) — source: https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/ -----
+
+## Русская версия
+
+[NASA 6 октября объявила план ухода Cygnus XL с МКС](https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/). Освобождение корабля CRS-24 намечено на пятницу, 9 октября, в 12:45 EDT; трансляция должна начаться за четверть часа до этого. По опубликованному плану, контролёры на Земле используют Canadarm2, а астронавт Люк Делани будет наблюдать за операцией со станции. На момент подготовки этого выпуска речь идёт о предстоящем событии. Сообщение устанавливает расписание и распределение ролей, но не подтверждает выполненное отсоединение и не гарантирует отсутствие изменений в плане.
+
+Дальнейший этап тоже описан как план: 11 октября грузовик должен быть сведён с орбиты для разрушительного входа в атмосферу. NASA не планирует трансляцию этого этапа. Внутри находятся предметы для утилизации и другой ненужный груз. В заявлении напомнили, что корабль доставил более 11 тысяч фунтов припасов, экспериментов и оборудования; запуск состоялся 11 апреля. Эти сведения объясняют последовательность миссии: сначала доставка, затем использование корабля у станции и, наконец, завершение полёта. Они не означают, что последний этап уже пройден.
+
+[Страница миссии CRS-24](https://www.nasa.gov/mission/nasas-northrop-grumman-crs-24/) относит её к коммерческому снабжению и указывает партнёров Northrop Grumman и SpaceX. В ней отдельно представлены научные материалы, покрытие событий и журнал станции. Для читателя это полезное разделение источников: общая страница помогает понять назначение полёта, а датированное заявление — конкретное новое расписание. Если впоследствии время изменится, старый анонс останется свидетельством прежнего плана. Его не следует молча читать как актуальную запись о том, что происходило в реальности.
+
+Наше прочтение новости — напоминание о менее заметной половине снабжения. Внимание обычно легче привлечь стартом и прибытием, но заявленный уход тоже имеет отдельный порядок и участников. Мы не приписываем станции дополнительные функции или последствия, о которых первоисточник не сообщает. Чтобы проверить результат позднее, логично искать датированное сообщение именно об освобождении корабля. Отдельное подтверждение понадобится и для сведения с орбиты. Один выполненный шаг не служит доказательством второго, даже если оба заранее вошли в общий план полёта.
+
+### Почему это важно
+
+Публикация даёт понятную последовательность ближайших событий и место, где NASA обещает показывать первую операцию. Наш вывод: в репортаже о полёте будущее время так же существенно, как дата и название аппарата. Оно сохраняет границу между подготовкой и результатом. Утренний выпуск фиксирует проверенное расписание из объявления 6 октября; сведения о выполнении должны появиться с собственными источниками и временем.
+
+## English version
+
+[NASA announced the planned Cygnus XL departure from the International Space Station on October 6](https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/). Release of the CRS-24 spacecraft is scheduled for Friday, October 9, at 12:45 p.m. EDT, with coverage beginning fifteen minutes earlier. Under the published plan, ground controllers will operate Canadarm2 while astronaut Luke Delaney monitors the operation aboard the station. At this edition's preparation time, it remains a future event. The announcement establishes a schedule and roles; it does not confirm a completed release or guarantee that the plan will remain unchanged.
+
+The next stage is also a plan: the cargo ship is due to deorbit October 11 for a destructive atmospheric reentry. NASA does not plan to cover that stage. The spacecraft contains disposal items and other unneeded cargo. The advisory recalls that it delivered more than 11,000 pounds of supplies, experiments and equipment after launching April 11. Those details explain the mission's sequence: delivery, time attached to the station and eventual completion of the flight. They cannot establish that its final stage has already happened, however predictable the sequence may appear from the announcement.
+
+The [CRS-24 mission page](https://www.nasa.gov/mission/nasas-northrop-grumman-crs-24/) classifies the flight as commercial resupply and identifies Northrop Grumman and SpaceX as partners. It separates scientific material, event coverage and the station blog. That is a useful distinction between sources: the general page describes the flight's purpose, while a dated advisory supplies a specific new schedule. If timing subsequently changes, the original announcement remains evidence of an earlier plan. Readers should not silently reinterpret it as an up-to-date record of what actually occurred during the operation.
+
+Our reading is a reminder of the less conspicuous half of resupply. Launch and arrival more readily attract attention, but the announced departure also has its own procedure and participants. We attribute no additional station functions or consequences that the primary material does not describe. To check the outcome later, the appropriate next step would be a dated report specifically confirming spacecraft release. Deorbit would require its own confirmation. Completion of one step does not prove another, even when both appeared beforehand in the same mission plan and seemed straightforward to follow.
+
+### Why it matters
+
+The advisory provides a clear sequence of forthcoming events and points readers toward NASA's coverage of the first operation. Our conclusion is that future tense matters in flight reporting as much as a date or spacecraft name. It preserves the boundary between preparation and outcome. This morning edition records the verified schedule in the October 6 announcement; reports of completion should arrive with their own sources and timestamps.
+
+
 ===== EDITION 31 — 2026-10-06 =====
 
 ## От редакции
