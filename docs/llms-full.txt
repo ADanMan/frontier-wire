@@ -2,6 +2,192 @@
 
 
 
+===== EDITION 33 — 2026-10-08 =====
+
+## От редакции
+
+Утро про инженерную работу за красивыми обещаниями: малая модель Haiku, предзаказы компьютеров для локального ИИ и тестовый поиск Windows с действиями. В научном плане Dragon ещё только готовят к запуску, а материал MIT о Маргарет Гамильтон напоминает, почему надёжность программ начинается с проектирования. В пяти историях отделяем доступный продукт от будущего этапа и рекламный показатель от проверенного результата.
+
+## Editorial
+
+This morning looks at the engineering behind appealing promises: a new small Haiku model, preorders for local-AI computers and a Windows Search preview with actions. Dragon's science flight is still ahead, while MIT's account of Margaret Hamilton recalls why software reliability begins with design. Across five stories, we distinguish available products from future milestones and advertised figures from measured outcomes.
+
+
+----- 01-haiku-55-volume-work (ai) — source: https://www.anthropic.com/claude-haiku-5-5 -----
+
+## Русская версия
+
+Anthropic [представила Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) 7 октября. Компания адресует модель большим потокам относительно коротких задач: сводкам, классификации, сжатию контекста и вспомогательной работе внутри более крупных агентных систем. Это важный поворот в разговоре об ИИ: полезность определяется не только самым впечатляющим ответом, но и тем, сколько одинаковых операций можно выполнить с приемлемой скоростью и стоимостью.
+
+В объявлении есть две ценовые ступени. Для промптов до 100 тысяч токенов включительно миллион входных токенов стоит 0,10 доллара, выходных — 0,50. Выше этого порога указаны 0,50 и 2,50 доллара соответственно. Это тарифы Claude Platform из анонса, а не цена подписки на чат. Поэтому фраза «новый Haiku дешевле» требует уточнения: длинный контекст попадает в другой режим расчёта, а длина ответа тоже влияет на счёт.
+
+У модели впервые в линейке Haiku появилась регулируемая интенсивность вычислений, effort. Пользователь может выбирать компромисс между расходами и способностью решать сложную задачу. Здесь нет универсальной настройки, автоматически выгодной для любого потока. Если система обрабатывает тысячи однотипных запросов, разумный предмет сравнения — качество именно этих операций при выбранном effort, включая повторные попытки и проверку результата. Это редакционный вывод о способе оценки, не обещание производителя.
+
+Anthropic также показывает улучшения относительно Haiku 4.5 в собственных тестах. Но сама компания оставляет Sonnet 5.5 и Opus 5.5 более подходящими вариантами для сложной агентной работы с кодом. Получается понятное разделение труда: меньшая модель может разбирать отдельные фрагменты, пока большая ведёт задачу целиком. Само слово «агент» не делает все поручения одинаковыми по сложности; классификация письма и исправление многошаговой сборки требуют разных проверок.
+
+Модель уже доступна через Claude Platform и облачные платформы, перечисленные в анонсе, включая AWS, Google Cloud и Microsoft Azure. Идентификатор API — `claude-haiku-5-5`. Сопутствующее снижение цены чтения кэша Sonnet объявлено действующим с 7 октября. Ежемесячные API-кредиты для подписчиков Max и Team обещаны к развёртыванию в течение недели: это отдельная программа, которую нельзя считать уже начисленной каждому аккаунту.
+
+### Почему это важно
+
+Дешёвая малая модель расширяет набор задач, которые вообще имеет смысл автоматизировать. Но цена токена ещё не показывает цену готового результата. Для читателя, сравнивающего системы, полезнее увидеть пример своего рабочего потока: сколько запросов потребовалось, какие ответы пришлось переделать и что проверил человек. Именно такая оценка превращает новую тарифную таблицу в понятный инструмент выбора, а не в ещё один рекорд рекламного слайда.
+
+## English version
+
+Anthropic [introduced Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) on October 7. The company positions the small model for high-volume work such as summaries, classification, context compaction and supporting tasks within larger agent systems. The interesting shift is toward routine operations. A model can be useful because it handles a repeated job economically, even when it is not the strongest choice for the most demanding assignment.
+
+The announcement separates pricing by prompt length. For prompts up to and including 100,000 tokens, a million input tokens costs $0.10 and a million output tokens costs $0.50. Above that threshold, the listed rates are $0.50 and $2.50. These are Claude Platform rates in the launch announcement, rather than a chat subscription price. A comparison therefore needs to account for both the prompt bracket and the volume of generated text.
+
+Haiku now also has an adjustable effort setting. It lets users trade computational spending against capability, instead of assuming one setting is right for every workload. Our reading is that repeated tasks should be evaluated at the setting actually intended for production. The relevant question is whether the model completes that particular operation reliably, including retries and verification. A lower rate on the price sheet alone does not answer it.
+
+Anthropic reports improvements over Haiku 4.5 in its evaluations, while explicitly retaining Sonnet 5.5 and Opus 5.5 as better choices for complex agentic coding. That distinction suggests a division of labor: a small model can handle a bounded piece of work while a larger one coordinates the whole assignment. It also prevents the label “agent” from hiding the difference between sorting a document and resolving a difficult software problem. Those jobs need different evidence of success.
+
+Availability is described as immediate across the Claude Platform and the cloud platforms named in the announcement, including AWS, Google Cloud and Microsoft Azure. The API identifier is `claude-haiku-5-5`. The accompanying cut in Sonnet cache-read pricing is effective from October 7. Monthly API credits for Max and Team subscribers are a separate rollout promised during the week; the announcement does not establish that every eligible account has already received them.
+
+### Why it matters
+
+A cheaper small model can make previously uneconomic workflows worth trying. The useful unit of comparison, however, is a completed and checked task. For a reader assessing an AI system, a representative workflow can reveal how many calls it required, how often an answer needed revision and where a person still reviewed the output. That turns a launch into an operational question rather than a contest between headline prices. Haiku's new pricing and effort controls provide more choices, but choosing well still depends on the work being done.
+
+
+----- 02-surface-local-ai-preorders (tech) — source: https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/ -----
+
+## Русская версия
+
+Microsoft [открыла предзаказы двух новых Surface](https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/) 7 октября: ноутбука Laptop Ultra и настольного RTX Spark Dev Box. Оба построены вокруг NVIDIA RTX Spark. Главный смысл анонса — перенести больше работы с моделями на сам компьютер, оставив облако для задач, которым оно действительно нужно. Это заявленное направление устройств, а не доказательство, что любая облачная нагрузка уже помещается в ноутбук.
+
+Для Laptop Ultra объявлены графика Blackwell RTX, процессор Grace и до 128 ГБ общей памяти. Важное уточнение спрятано в примечании производителя: память динамически делят CPU и GPU, а доступный графике объём меньше общего и зависит от конфигурации и нагрузки. Поэтому надпись «128 ГБ» не равна отдельному гарантированному запасу видеопамяти. Если вы читаете характеристики ради конкретной модели, это различие важнее эффектного числа на обложке.
+
+Microsoft заявляет возможность локального запуска моделей более чем со 120 миллиардами параметров. Однако объявленный предел в один петафлоп относится к теоретическим вычислениям FP4 с использованием разреженности. Он не сообщает, сколько слов в секунду выдаст выбранная модель, сколько места займёт её контекст или как долго компьютер удержит темп под нагрузкой. Эти вопросы требуют измерений конкретного программного стека; в анонсе нет универсального ответа для всех моделей.
+
+Ноутбук получил 15-дюймовый сенсорный экран и набор разъёмов, включающий HDMI, USB-A и считыватель SD-карт. При этом сенсорность не означает работу со стилусом: Microsoft прямо указывает отсутствие поддержки Surface Pen и аналогичных перьев. Это хороший пример того, как привычное название семейства устройств может создать лишнее ожидание. Для художника или человека, делающего рукописные пометки, такое ограничение практически существеннее обещанной мощности ИИ.
+
+Стартовая рекомендованная цена Laptop Ultra — 2599 долларов, начало доступности назначено на 16 октября. Dev Box предлагается за 5999 долларов через Microsoft.com в США; отгрузки обещаны в ноябре. Это разные сроки и география. Октябрьский предзаказ не является сообщением о состоявшейся доставке, а цена в долларах из пресс-релиза не подтверждает местный ценник для любого рынка.
+
+### Почему это важно
+
+Анонс делает выбор между локальными вычислениями и облаком более предметным: появляются отдельные мобильный и настольный варианты с большим общим пулом памяти. Следующий содержательный этап — реальные тесты после начала поставок. В них стоит смотреть на конкретную модель, режим вычислений, скорость и устойчивость работы одновременно с обычными приложениями. До этого характеристики полезно читать вместе с примечаниями: они задают границы обещания и помогают отличить возможный сценарий от уже измеренного результата.
+
+## English version
+
+Microsoft [opened preorders for two new Surface devices](https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/) on October 7: Surface Laptop Ultra and the desktop Surface RTX Spark Dev Box. Both use NVIDIA RTX Spark. The announcement emphasizes doing more AI work on the machine itself, with the cloud available for workloads that need it. That is the product direction being proposed, rather than evidence that every cloud workload can now move into a laptop.
+
+Laptop Ultra combines Blackwell RTX graphics, a Grace CPU and up to 128 GB of unified memory. Microsoft's footnote matters: the CPU and GPU dynamically share that memory, and the amount addressable by the GPU is smaller than the system total and depends on configuration and workload. The headline capacity should therefore not be read as a guaranteed, separate graphics-memory allocation. For someone trying to run a particular model, that distinction is more useful than the large number alone.
+
+Microsoft advertises local support for models exceeding 120 billion parameters. Its figure of up to one petaflop, however, is theoretical FP4 performance using sparsity. It is not a measurement of how many words a selected model generates each second, how much memory its context consumes or how the system performs under sustained use. Those outcomes depend on the model and software stack. The announcement supplies no universal throughput result that settles all of those questions.
+
+The laptop also has a 15-inch touchscreen and ports including HDMI, USB-A and an SD card reader. A touchscreen does not imply pen support: Microsoft explicitly excludes Surface Pen and similar accessories. That detail is a reminder that familiar product branding can create expectations the actual device does not meet. For drawing or handwritten annotation, it may be more consequential than an advertised AI-compute peak.
+
+Laptop Ultra starts at a listed MSRP of $2,599, with availability beginning October 16. The Dev Box is listed at $5,999 through Microsoft.com in the United States, with shipments scheduled for November. Those are different dates and markets. A preorder announcement does not mean deliveries have occurred, and the dollar figures are not confirmation of retail prices in every country.
+
+### Why it matters
+
+The launch gives the local-versus-cloud discussion more concrete hardware options, including both a mobile system and a desktop with a large shared memory pool. The next useful evidence will be workload tests after shipping begins. Those should identify the model, computation format, sustained speed and behavior alongside ordinary applications. Until then, reading the specifications together with their footnotes helps separate a possible use case from a measured outcome. That is the difference between understanding a new platform and simply repeating its largest advertised number.
+
+
+----- 03-windows-search-preview-actions (tech) — source: https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/ -----
+
+## Русская версия
+
+Microsoft [начала развёртывание нового Windows Search](https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/) 7 октября. Пока это предварительная версия для участников Windows Insider в Experimental, с английским языком на первом этапе. Изменение затрагивает поиск на панели задач. Поэтому сообщение стоит читать как начало испытания привычного интерфейса, а не как обновление, уже одинаково доступное всем владельцам Windows и на любом языке.
+
+Новая версия построена на WinUI 3. Компания сообщает, что ранние испытания показали улучшения скорости и расхода памяти, но в публикации не приводит сопоставимых численных результатов. Здесь важно сохранить масштаб утверждения: есть заявленное направление оптимизации, а не опубликованная таблица независимых измерений. Для повседневного поиска заметность улучшения будет определяться реальным компьютером, его содержимым и тем, какие запросы человек обычно вводит.
+
+Интерфейс собирает результаты в один список вместо прежнего сочетания списка слева и крупной области просмотра справа. Microsoft объясняет решение наблюдением, что почти все клики приходились на левую часть. Также заявлены улучшения сопоставления опечаток и синонимов. Смысл такой перестройки достаточно приземлённый: когда ищешь конкретный файл, лишняя панель может занимать место, не помогая выбрать правильную строку. Но удобство нового списка ещё предстоит оценить участникам испытания.
+
+Отдельное новшество — действия прямо из поиска. В примерах Microsoft можно переключить тёмную тему или Bluetooth, уменьшить яркость, отключить звук и управлять окнами. Поиск становится коротким маршрутом к знакомым настройкам. Это не равнозначно универсальному агенту, который выполнит любое сформулированное поручение: в объявлении описан ограниченный набор повседневных операций, постепенно расширяемый по результатам обратной связи.
+
+Сроки дополнительных возможностей различаются. Встроенные предпросмотры файлов, более подробные сведения и богатые веб-ответы компания относит к более позднему этапу этого года. Действия с подключённым через Phone Link телефоном названы будущими. Перенос нового поиска в меню «Пуск» намечен на следующий год; в начальном preview поиск из «Пуска» остаётся прежним. Один рекламный экран с демонстрацией функций поэтому не доказывает их одновременную доступность в текущей сборке.
+
+### Почему это важно
+
+Поиск — место, где небольшая экономия шагов повторяется много раз за день. Microsoft пытается совместить более спокойную выдачу с возможностью сразу изменить настройку. Для читателя главный вывод пока в границах запуска: английский Experimental и панель задач, а дальше — несколько отдельных этапов. Обратная связь должна показать, действительно ли новый список помогает находить нужное и насколько точно интерфейс понимает запрос. Успех такого изменения будет виден в обычных коротких действиях, а не только в эффектной демонстрации возможностей будущей версии.
+
+## English version
+
+Microsoft [began rolling out a new Windows Search experience](https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/) on October 7. It is initially an English-language preview for Windows Insiders in the Experimental channel, covering search from the taskbar. The announcement should therefore be read as the start of a test, rather than a change already available to every Windows user in every language.
+
+The new experience uses WinUI 3. Microsoft says early testing found improvements in speed and memory use, but the post does not publish numerical results that readers could compare. The claim is a direction of improvement, not an independently measured performance table. How noticeable it feels in daily use will depend on a person's computer, its contents and the queries they actually enter.
+
+Results now appear in one list rather than a list on the left alongside a large preview area on the right. Microsoft attributes that decision to data showing that nearly all clicks in the current interface came from the left-hand results. It also describes better matching for typos and synonyms. The practical idea is straightforward: when someone wants a particular file, a large panel may consume space without making the correct result easier to choose. Preview users will help establish whether the redesigned list solves that problem.
+
+Inline actions are a separate addition. Microsoft's examples include changing the theme or Bluetooth setting, dimming the display, muting audio and arranging windows. Search becomes a shorter route to familiar controls. That is a bounded collection of everyday operations, rather than evidence of an all-purpose agent capable of carrying out any request. The company says it will expand the foundation over time, using feedback about how search understands intent.
+
+The roadmap contains several different stages. Inline file previews, richer file details and web answers are planned for later this year. Actions involving a Phone Link-connected handset are described as coming soon. Bringing the new experience into the Start menu is work for next year; Start-menu searches retain the existing interface in the initial preview. A demonstration showing several capabilities should not be mistaken for proof that they all ship together in the current build.
+
+### Why it matters
+
+Search is a place where saving a few steps can matter repeatedly throughout a day. Microsoft is combining a quieter results view with direct access to simple actions. The immediate scope is still narrow: English, Experimental and the taskbar, followed by separate future stages. User feedback needs to establish whether results are easier to recognize and whether commands are understood reliably. The success of a change like this will be apparent in small, ordinary interactions, not just in a polished demonstration of what a later version might do.
+
+
+----- 04-dragon-crs35-science-plan (science) — source: https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/ -----
+
+## Русская версия
+
+NASA [объявила план следующего грузового рейса SpaceX](https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/) 7 октября. Старт CRS-35 намечен на 13 октября в 6:33 утра по восточному времени США — 13:33 по Москве. Falcon 9 должна отправить Dragon с площадки 40 на мысе Канаверал к Международной космической станции. На момент этой публикации речь идёт о целевом времени будущего запуска; успешный старт ещё не состоялся.
+
+В корабле должно быть более 6300 фунтов припасов и оборудования. Среди груза — последняя пара разворачиваемых солнечных батарей IROSA для дополнительного оснащения энергосистемы станции. В [обзоре миссии](https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/) NASA связывает их установку с поддержкой критических операций, включая безопасное управляемое сведение МКС с орбиты. Доставка оборудования, его последующая установка и достижение эксплуатационного результата — отдельные этапы; объявление рейса не означает завершения всей программы.
+
+Научная часть объединяет несколько разных вопросов о микрогравитации. LambdaVision-1 проверяет изготовление искусственных сетчаток послойным способом, а Stellar Spheroids — развитие и работу трёхмерных моделей сердечной ткани. Это исследования производства и моделей, а не сообщение о готовом лечении пациентов. NASA описывает возможную пользу для будущих применений; её ещё нужно будет связать с результатами экспериментов и дальнейшей проверкой на Земле.
+
+Есть и материаловедческая задача: ELF-Unconventional Glass 2 изучает образование стекла из нетрадиционных компонентов. Учёные собираются наблюдать расплав в космосе, затем исследовать твёрдые образцы после возвращения. Таким образом, смысл рейса не заканчивается доставкой к лаборатории. Возврат образцов позволяет продолжить работу средствами наземного анализа и сопоставить то, что происходило в микрогравитации, с характеристиками полученного материала.
+
+Автоматическая стыковка Dragon с обращённым к космосу портом модуля Harmony запланирована примерно на 11 утра 15 октября по восточному времени США, или 18:00 по Москве. NASA предупреждает, что времена могут измениться по оперативным причинам. Корабль предполагается оставить у станции до середины ноября, затем вернуть научный груз и оборудование приводнением у Калифорнии. В обзор входит и возвращение заменённого узла Canadarm2 для анализа на Земле.
+
+### Почему это важно
+
+Грузовой рейс — одновременно транспорт, снабжение и связующее звено между орбитальным экспериментом и наземной лабораторией. В этом плане хорошо видна вся цепочка: привезти питание и исследовательское оборудование, выполнить работу, вернуть образцы или неисправную деталь для изучения. Следить стоит за фактическими этапами запуска, стыковки и возвращения, а научные перспективы оценивать после появления данных. Такой порядок помогает понять ценность миссии без преждевременного превращения экспериментальной идеи в уже достигнутое открытие.
+
+## English version
+
+NASA [announced the plan for SpaceX's next cargo flight](https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/) on October 7. CRS-35 targets October 13 at 6:33 a.m. EDT, or 13:33 in Moscow. A Falcon 9 is to launch Dragon from Space Launch Complex 40 at Cape Canaveral toward the International Space Station. As of this edition, that is a target for a future flight, not a report that liftoff has already succeeded.
+
+The spacecraft is expected to carry more than 6,300 pounds of supplies and equipment. Its cargo includes the final pair of International Space Station Roll-Out Solar Arrays, or IROSAs, for augmenting station power. NASA's [mission overview](https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/) connects those arrays with support for critical operations, including safe, controlled deorbit. Delivery, installation and operational use are distinct milestones. Announcing a cargo flight does not mean the entire power-system work has been completed.
+
+The science payload asks several different questions about microgravity. LambdaVision-1 examines layer-by-layer manufacturing of artificial retinas, while Stellar Spheroids investigates the growth and function of three-dimensional heart-tissue models. These are manufacturing and research experiments, rather than announcements of established treatments for patients. NASA describes potential future benefits; those possibilities still need experimental findings and further assessment on the ground.
+
+A materials investigation, ELF-Unconventional Glass 2, studies glass formation using nontraditional components. Researchers plan to observe molten behavior in space and analyze solid samples after they return to Earth. That makes the return leg an essential part of the scientific workflow. The orbital experiment can be connected with ground-based analysis of the resulting material, instead of treating arrival at the station as the final scientific outcome.
+
+Dragon's autonomous docking at Harmony's space-facing port is planned for around 11 a.m. EDT on October 15, or 18:00 Moscow time. NASA explicitly says timings may change with real-time operations. The spacecraft is scheduled to remain until mid-November and then return research cargo and hardware in a splashdown off California. The overview also includes bringing a replaced Canadarm2 joint back for analysis on Earth.
+
+### Why it matters
+
+A cargo mission links transportation, station support and the movement of evidence between an orbital laboratory and researchers on the ground. This plan makes the sequence visible: deliver power equipment and investigations, carry out the work, and return samples or a failed component for examination. The useful checkpoints are actual launch, docking and return, followed by the scientific data. Keeping those stages distinct makes the mission easier to understand without prematurely turning a promising experiment into an accomplished discovery or an available medical application.
+
+
+----- 05-margaret-hamilton-engineering-legacy (culture) — source: https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007 -----
+
+## Русская версия
+
+MIT [сообщил о смерти Маргарет Гамильтон](https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007) в публикации от 7 октября. Она умерла 30 сентября в возрасте 90 лет. Разница дат здесь существенна: это свежий университетский материал о событии предыдущей недели, а не утверждение, что смерть произошла сегодня. Гамильтон известна прежде всего руководством разработкой бортового программного обеспечения Apollo в Instrumentation Lab Массачусетского технологического института.
+
+В массовой памяти её работа часто сводится к фотографии рядом с высокой стопкой распечаток. Некролог напоминает о коллективном масштабе проекта: над программами Apollo работали более 400 человек. Поэтому изображение стоит читать как свидетельство инженерного труда команды и её руководителя, а не как доказательство, что один человек самостоятельно написал весь код полётов к Луне. Это уточнение не уменьшает вклад Гамильтон; оно делает понятнее характер её ответственности.
+
+MIT выделяет умение проектировать поведение системы при ошибках. В рассказе об Apollo 11 бортовой компьютер перед посадкой столкнулся с перегрузкой, но программное обеспечение, созданное командой, позволяло отдавать приоритет критически важным задачам. Здесь значимо само устройство решения: система должна продолжать нужную работу, даже когда условия отличаются от спокойного штатного сценария. Надёжность становится частью архитектуры, а не надеждой на отсутствие неожиданностей.
+
+Другая линия её карьеры — признание программирования инженерной дисциплиной. По университетскому материалу, Гамильтон работала в MIT с 1959 года до середины 1970-х, начиная с программ для метеорологии. Позже она занялась предпринимательством; Higher Order Software появилась в 1976 году. В центре её дальнейшей работы оставались предотвращение ошибок и проектирование сложных систем. Эти темы соединяют раннюю вычислительную практику с более зрелым представлением о том, как создаётся надёжное программное обеспечение.
+
+В 2016 году её вклад был отмечен Президентской медалью Свободы. Но для понимания наследия список наград менее содержателен, чем способ описывать саму работу. В некрологе разработка включает проектирование, проверку, взаимодействие людей и подготовку к сбоям. Эта перспектива полезна и сегодня, когда внимание часто достаётся скорости написания кода. Быстро получить программу и убедиться, что она ведёт себя правильно в сложных условиях, — разные достижения.
+
+### Почему это важно
+
+История Гамильтон возвращает в разговор о технологиях вопрос ответственности за результат. Код Apollo был частью системы, где ошибка могла изменить исход миссии, и требовал совместной инженерной работы. Её наследие интересно не только как образ выдающегося человека прошлого, но и как напоминание о том, что качество программы определяется её поведением. В эпоху новых инструментов создания кода эта мысль остаётся простой и проверяемой: важно, как система справляется с реальной задачей и неожиданными условиями, а не только как эффектно выглядит процесс её написания.
+
+## English version
+
+MIT [reported Margaret Hamilton's death](https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007) in an obituary published on October 7. She died on September 30, aged 90. That distinction matters: this is a newly published institutional account of an event the previous week, not a claim that she died today. Hamilton is best known for leading the development of Apollo's onboard flight software at MIT's Instrumentation Lab.
+
+Her work is often remembered through a photograph beside a tall stack of printed software listings. MIT's account restores the collective scale of the project: more than 400 people worked on Apollo software. The image is therefore better understood as a record of a team's engineering effort and its leadership, rather than evidence that one person independently wrote every line used to reach the Moon. That clarification makes Hamilton's responsibility more understandable without diminishing her contribution.
+
+The obituary highlights designing software to handle errors. In its account of Apollo 11, the onboard computer encountered an overload before landing, while software developed by the team could give priority to mission-critical tasks. The important idea is architectural: a system should preserve the work that matters when conditions depart from a quiet, expected sequence. Reliability is something designed into behavior, rather than a hope that nothing unexpected will happen.
+
+Hamilton also worked to establish programming as an engineering discipline. MIT describes a career there from 1959 into the mid-1970s, beginning with software for meteorology. She later moved into entrepreneurship, creating Higher Order Software in 1976. Error prevention and the design of complex systems remained central to her later work. Those themes connect early computing practice with a more mature understanding of what it takes to build dependable software.
+
+Her achievements were recognized with the Presidential Medal of Freedom in 2016. Yet the approach to work is more informative than a list of honors. The obituary presents software development as design, testing, collaboration and preparation for failure. That remains a useful perspective when public attention often focuses on how quickly code can be produced. Obtaining a program rapidly and establishing that it behaves correctly under difficult conditions are separate accomplishments.
+
+### Why it matters
+
+Hamilton's history brings responsibility for outcomes back into a technology story. Apollo software belonged to a system in which errors could change a mission, and it required coordinated engineering rather than a solitary feat. Her legacy is relevant beyond admiration for a historical pioneer. It is a reminder that the quality of software lies in its behavior. As new tools change how code is created, the enduring question is how a system handles the real assignment and unexpected circumstances, not simply how impressive the process of producing it appears.
+
+
 ===== EDITION 32 — 2026-10-07 =====
 
 ## От редакции

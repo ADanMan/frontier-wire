@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haiku 5.5 делает ставку на массовые задачи и разную цену длинного контекста - frontier-wire</title>
+<meta name="description" content="Anthropic has released a new small model, with economics that depend on prompt length and the work being completed.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-08/01-haiku-55-volume-work.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Haiku 5.5 targets high-volume work with separate long-prompt pricing", "alternativeHeadline": "Haiku 5.5 делает ставку на массовые задачи и разную цену длинного контекста", "datePublished": "2026-10-08", "inLanguage": ["ru", "en"], "isBasedOn": "https://www.anthropic.com/claude-haiku-5-5", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-08/01-haiku-55-volume-work.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-08 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Haiku 5.5 делает ставку на массовые задачи и разную цену длинного контекста</span><span class="lang-en">Haiku 5.5 targets high-volume work with separate long-prompt pricing</span></h1>
+  <p class="dek big"><span class="lang-ru">Anthropic выпустила новую малую модель, но дешёвый запрос и дешёвая завершённая задача остаются разными вещами.</span><span class="lang-en">Anthropic has released a new small model, with economics that depend on prompt length and the work being completed.</span></p>
+
+  <div class="prose lang-ru"><p>Anthropic <a href="https://www.anthropic.com/claude-haiku-5-5">представила Claude Haiku 5.5</a> 7 октября. Компания адресует модель большим потокам относительно коротких задач: сводкам, классификации, сжатию контекста и вспомогательной работе внутри более крупных агентных систем. Это важный поворот в разговоре об ИИ: полезность определяется не только самым впечатляющим ответом, но и тем, сколько одинаковых операций можно выполнить с приемлемой скоростью и стоимостью.</p>
+<p>В объявлении есть две ценовые ступени. Для промптов до 100 тысяч токенов включительно миллион входных токенов стоит 0,10 доллара, выходных — 0,50. Выше этого порога указаны 0,50 и 2,50 доллара соответственно. Это тарифы Claude Platform из анонса, а не цена подписки на чат. Поэтому фраза «новый Haiku дешевле» требует уточнения: длинный контекст попадает в другой режим расчёта, а длина ответа тоже влияет на счёт.</p>
+<p>У модели впервые в линейке Haiku появилась регулируемая интенсивность вычислений, effort. Пользователь может выбирать компромисс между расходами и способностью решать сложную задачу. Здесь нет универсальной настройки, автоматически выгодной для любого потока. Если система обрабатывает тысячи однотипных запросов, разумный предмет сравнения — качество именно этих операций при выбранном effort, включая повторные попытки и проверку результата. Это редакционный вывод о способе оценки, не обещание производителя.</p>
+<p>Anthropic также показывает улучшения относительно Haiku 4.5 в собственных тестах. Но сама компания оставляет Sonnet 5.5 и Opus 5.5 более подходящими вариантами для сложной агентной работы с кодом. Получается понятное разделение труда: меньшая модель может разбирать отдельные фрагменты, пока большая ведёт задачу целиком. Само слово «агент» не делает все поручения одинаковыми по сложности; классификация письма и исправление многошаговой сборки требуют разных проверок.</p>
+<p>Модель уже доступна через Claude Platform и облачные платформы, перечисленные в анонсе, включая AWS, Google Cloud и Microsoft Azure. Идентификатор API — <code>claude-haiku-5-5</code>. Сопутствующее снижение цены чтения кэша Sonnet объявлено действующим с 7 октября. Ежемесячные API-кредиты для подписчиков Max и Team обещаны к развёртыванию в течение недели: это отдельная программа, которую нельзя считать уже начисленной каждому аккаунту.</p>
+<h3>Почему это важно</h3>
+<p>Дешёвая малая модель расширяет набор задач, которые вообще имеет смысл автоматизировать. Но цена токена ещё не показывает цену готового результата. Для читателя, сравнивающего системы, полезнее увидеть пример своего рабочего потока: сколько запросов потребовалось, какие ответы пришлось переделать и что проверил человек. Именно такая оценка превращает новую тарифную таблицу в понятный инструмент выбора, а не в ещё один рекорд рекламного слайда.</p></div>
+  <div class="prose lang-en"><p>Anthropic <a href="https://www.anthropic.com/claude-haiku-5-5">introduced Claude Haiku 5.5</a> on October 7. The company positions the small model for high-volume work such as summaries, classification, context compaction and supporting tasks within larger agent systems. The interesting shift is toward routine operations. A model can be useful because it handles a repeated job economically, even when it is not the strongest choice for the most demanding assignment.</p>
+<p>The announcement separates pricing by prompt length. For prompts up to and including 100,000 tokens, a million input tokens costs $0.10 and a million output tokens costs $0.50. Above that threshold, the listed rates are $0.50 and $2.50. These are Claude Platform rates in the launch announcement, rather than a chat subscription price. A comparison therefore needs to account for both the prompt bracket and the volume of generated text.</p>
+<p>Haiku now also has an adjustable effort setting. It lets users trade computational spending against capability, instead of assuming one setting is right for every workload. Our reading is that repeated tasks should be evaluated at the setting actually intended for production. The relevant question is whether the model completes that particular operation reliably, including retries and verification. A lower rate on the price sheet alone does not answer it.</p>
+<p>Anthropic reports improvements over Haiku 4.5 in its evaluations, while explicitly retaining Sonnet 5.5 and Opus 5.5 as better choices for complex agentic coding. That distinction suggests a division of labor: a small model can handle a bounded piece of work while a larger one coordinates the whole assignment. It also prevents the label “agent” from hiding the difference between sorting a document and resolving a difficult software problem. Those jobs need different evidence of success.</p>
+<p>Availability is described as immediate across the Claude Platform and the cloud platforms named in the announcement, including AWS, Google Cloud and Microsoft Azure. The API identifier is <code>claude-haiku-5-5</code>. The accompanying cut in Sonnet cache-read pricing is effective from October 7. Monthly API credits for Max and Team subscribers are a separate rollout promised during the week; the announcement does not establish that every eligible account has already received them.</p>
+<h3>Why it matters</h3>
+<p>A cheaper small model can make previously uneconomic workflows worth trying. The useful unit of comparison, however, is a completed and checked task. For a reader assessing an AI system, a representative workflow can reveal how many calls it required, how often an answer needed revision and where a person still reviewed the output. That turns a launch into an operational question rather than a contest between headline prices. Haiku's new pricing and effort controls provide more choices, but choosing well still depends on the work being done.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://www.anthropic.com/claude-haiku-5-5">https://www.anthropic.com/claude-haiku-5-5</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

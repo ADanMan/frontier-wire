@@ -10,17 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №32 / Edition №32 — 2026-10-07** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №33 / Edition №33 — 2026-10-08** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Сильный ответ ИИ ещё не означает хороший массовый инструмент](editions/2026/10-07/01-bottled-agent-artifacts.md)
-- **[Наука]** [Арктический минимум льда: десятое место не означает восстановление](editions/2026/10-07/02-arctic-ice-minimum-context.md)
-- **[Технологии]** [Перед возвращением к лунному модулю нужно решить проблему заряда](editions/2026/10-07/03-lunar-static-discharge.md)
-- **[Наука]** [Cygnus XL готовят к уходу с МКС 9 октября](editions/2026/10-07/04-cygnus-xl-departure-plan.md)
-- **[ИИ]** [SynthID Detector открывают всем — он ищет конкретную маркировку](editions/2026/10-07/05-synthid-public-detector.md)
-- **[Культура]** [Playground предлагает создать игру разговором — пока это эксперимент](editions/2026/10-07/06-playground-prompt-games.md)
-- **[ИИ]** [Liquid AI выпускает компактные модели для решений без длинного ответа](editions/2026/10-07/07-liquid-d1-edge-decisions.md)
-- **[Наука]** [NASA открыла наблюдения Artemis II — со снимками, голосом и пометками](editions/2026/10-07/08-artemis-ii-data-release.md)
-- **[Экономика]** [Новый отчёт DHL связывает рост торговли с инфраструктурой ИИ](editions/2026/10-07/09-dhl-ai-trade-growth.md)
+- **[ИИ]** [Haiku 5.5 делает ставку на массовые задачи и разную цену длинного контекста](editions/2026/10-08/01-haiku-55-volume-work.md)
+- **[Технологии]** [Новые Surface обещают крупные локальные модели — пока открыты предзаказы](editions/2026/10-08/02-surface-local-ai-preorders.md)
+- **[Технологии]** [Windows Search учится выполнять действия — сначала в английском preview](editions/2026/10-08/03-windows-search-preview-actions.md)
+- **[Наука]** [Dragon готовят к старту 13 октября с научным грузом и солнечными батареями](editions/2026/10-08/04-dragon-crs35-science-plan.md)
+- **[Культура]** [MIT сообщил о смерти Маргарет Гамильтон — её наследие в надёжности программ](editions/2026/10-08/05-margaret-hamilton-engineering-legacy.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
