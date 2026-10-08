@@ -17,6 +17,11 @@
 - **[Технологии]** [Windows Search учится выполнять действия — сначала в английском preview](editions/2026/10-08/03-windows-search-preview-actions.md)
 - **[Наука]** [Dragon готовят к старту 13 октября с научным грузом и солнечными батареями](editions/2026/10-08/04-dragon-crs35-science-plan.md)
 - **[Культура]** [MIT сообщил о смерти Маргарет Гамильтон — её наследие в надёжности программ](editions/2026/10-08/05-margaret-hamilton-engineering-legacy.md)
+- **[ИИ]** [Google представила Gemini agent как рабочую систему с памятью и контролем затрат](editions/2026/10-08/06-gemini-enterprise-agent.md)
+- **[Технологии]** [Для LISA готовят последний испытательный телескоп перед лётным оборудованием](editions/2026/10-08/07-lisa-test-telescope.md)
+- **[Наука]** [Solar Orbiter связал магнитный изгиб солнечного ветра с его источником у Солнца](editions/2026/10-08/08-solar-orbiter-switchback.md)
+- **[Культура]** [Нобель по литературе получила Энн Карсон, соединяющая античность и новые формы](editions/2026/10-08/09-anne-carson-nobel.md)
+- **[Наука]** [Crew-12 приводнился у Калифорнии после 237 дней на МКС](editions/2026/10-08/10-crew12-splashdown.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

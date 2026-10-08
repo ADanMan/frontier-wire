@@ -5,8 +5,8 @@ edition: 33
 
 ## От редакции
 
-Утро про инженерную работу за красивыми обещаниями: малая модель Haiku, предзаказы компьютеров для локального ИИ и тестовый поиск Windows с действиями. В научном плане Dragon ещё только готовят к запуску, а материал MIT о Маргарет Гамильтон напоминает, почему надёжность программ начинается с проектирования. В пяти историях отделяем доступный продукт от будущего этапа и рекламный показатель от проверенного результата.
+Утром мы разбирали малую Haiku, компьютеры для локального ИИ, поиск Windows, подготовку грузового Dragon и инженерное наследие Маргарет Гамильтон. Вечером к ним добавились рабочая система Gemini agent, новый этап оптики LISA, исследование магнитного изгиба солнечного ветра и Нобель Энн Карсон. Crew-12 уже приводнился у Калифорнии, тогда как грузовой рейс и запуск LISA ещё впереди. В десяти историях дня проверяем, что уже произошло, что остаётся обещанием и на каких данных основан вывод.
 
 ## Editorial
 
-This morning looks at the engineering behind appealing promises: a new small Haiku model, preorders for local-AI computers and a Windows Search preview with actions. Dragon's science flight is still ahead, while MIT's account of Margaret Hamilton recalls why software reliability begins with design. Across five stories, we distinguish available products from future milestones and advertised figures from measured outcomes.
+This morning covered the small Haiku model, local-AI computers, Windows Search, preparations for a cargo Dragon flight and Margaret Hamilton's engineering legacy. The evening adds Gemini agent, a new stage of LISA optics, research on a solar-wind magnetic switchback and Anne Carson's literature Nobel. Crew-12 has splashed down off California, while the cargo flight and LISA launch remain ahead. Across ten stories, we examine what has happened, what is still a promise and what evidence supports each conclusion.

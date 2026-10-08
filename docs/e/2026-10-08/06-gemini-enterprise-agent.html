@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google представила Gemini agent как рабочую систему с памятью и контролем затрат - frontier-wire</title>
+<meta name="description" content="The Gemini at Work announcement connects models, enterprise tools and execution, with claims to assess against real workflows.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-08/06-gemini-enterprise-agent.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Google introduces Gemini agent as a work system with memory and spending controls", "alternativeHeadline": "Google представила Gemini agent как рабочую систему с памятью и контролем затрат", "datePublished": "2026-10-08", "inLanguage": ["ru", "en"], "isBasedOn": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-08/06-gemini-enterprise-agent.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-08 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Google представила Gemini agent как рабочую систему с памятью и контролем затрат</span><span class="lang-en">Google introduces Gemini agent as a work system with memory and spending controls</span></h1>
+  <p class="dek big"><span class="lang-ru">Анонс Gemini at Work соединяет модели, корпоративные инструменты и исполнение задач, но обещания продукта ещё требуют проверки в конкретном процессе.</span><span class="lang-en">The Gemini at Work announcement connects models, enterprise tools and execution, with claims to assess against real workflows.</span></p>
+
+  <div class="prose lang-ru"><p>Google Cloud <a href="https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026">представила Gemini agent</a> 8 октября на Gemini at Work. Компания описывает его как единую рабочую систему: она должна отвечать на вопросы, создавать материалы, писать и запускать код, а также выполнять поручения через подключённые инструменты. Новость здесь — связка этих возможностей вокруг постоянного рабочего контекста. Это продуктовый анонс Google, а не независимый результат испытаний универсального помощника.</p>
+<p>Важное различие в архитектуре: агент и модель под ним — разные сущности. По заявлению Google, система может выбирать модели семейства Gemini и Claude от Anthropic, а поддержку других моделей компания относит к будущему. Смена модели при таком подходе не должна требовать переноса рабочего контекста заново. Для читателя это означает, что название Gemini в объявлении обозначает больше, чем один алгоритм генерации ответов: речь идёт об организации работы вокруг моделей.</p>
+<p>Компания выделяет инструменты, повторяемые навыки и память. Инструменты связывают агента с бизнес-системами; навыки описывают способы выполнения задач; память удерживает контекст между взаимодействиями. Также заявлено облачное исполнение продолжительных поручений после закрытия ноутбука. Все эти свойства описаны производителем как возможности продукта. Они не означают, что агент автоматически имеет право читать любой документ организации: в том же анонсе доступ привязан к идентичности и разрешениям.</p>
+<p>Для командного агента Google описывает собственную учётную запись, рабочее присутствие и доступ только к переданному контексту. Действия должны попадать в журнал и относиться к агенту, а не к человеку. Выполнение кода заявлено внутри Agent Sandbox, а сетевые взаимодействия — через Agent Gateway с политиками организации. Это полезное разделение ответственности в описании системы; само перечисление механизмов ещё не заменяет проверку того, как они настроены и действуют в рабочей среде.</p>
+<p>Отдельный практический элемент — предел расходов на проект. В Cloud Billing Console можно задать лимит; Google пишет, что при его достижении работа агента приостанавливается, а возобновление выбирает пользователь. В анонсе также перечислены отраслевые варианты: финансовый и юридический находятся в preview, другие названы будущими. Поэтому весь список возможностей нельзя считать единым, одинаково доступным каждому клиенту набором без уточнения статуса.</p>
+<h3>Почему это важно</h3>
+<p>Разговор о корпоративном ИИ сдвигается от отдельного ответа к завершённой работе с данными, инструментами и учётом затрат. Содержательная проверка такого продукта — показать конкретный результат, использованные источники и границы доступа. Для компании важны и качество, и возможность понять, кто выполнил действие и сколько оно стоило. Сегодняшний анонс задаёт эту рамку, но обещание универсальности стоит оценивать на обычных рабочих задачах, а не только на демонстрациях со сцены.</p></div>
+  <div class="prose lang-en"><p>Google Cloud <a href="https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026">introduced Gemini agent</a> at Gemini at Work on October 8. The company describes a unified work system that answers questions, creates content, writes and runs code, and carries out assignments through connected tools. The news is how these capabilities are organized around persistent business context. This is Google's product announcement, rather than an independent evaluation establishing that one assistant can reliably handle every kind of work.</p>
+<p>One architectural distinction is especially useful: the agent and its underlying model are separate choices. Google says the system can orchestrate its Gemini models and Anthropic's Claude models, with other model support described as future work. In that design, changing a model need not mean rebuilding the work context. The Gemini name here consequently refers to more than an answer-generating model; it also covers the surrounding organization of tools and tasks.</p>
+<p>The company separates tools, reusable skills and memory. Tools connect the agent to business systems, skills describe ways to complete work, and memory carries context between interactions. Cloud execution is also described as allowing long assignments to continue after a laptop closes. These are capabilities claimed by the manufacturer. They do not imply unrestricted access to every organizational document: the same announcement ties access to identities and permissions.</p>
+<p>For a coworker agent, Google describes a separate account, a continuing team presence and access limited to shared context. Actions are to be recorded in an audit trail and attributed to the agent rather than a person. Code execution is described as occurring inside Agent Sandbox, with network traffic passing through Agent Gateway under organizational policies. Those mechanisms make the proposed responsibility model clearer, but naming them is not a substitute for checking their configuration and behavior in a particular environment.</p>
+<p>A concrete cost feature is a spending cap per project in the Cloud Billing Console. Google says reaching the cap pauses the agent, with the user able to choose whether work resumes. The announcement also assigns different statuses to industry specializations: Financial Services and Legal are in preview, while others are described as coming soon. The complete feature list should therefore not be read as one package already available on identical terms to every customer.</p>
+<h3>Why it matters</h3>
+<p>Enterprise AI is increasingly presented as completed work across data and applications, rather than an isolated chat answer. A useful evaluation should show the result, the evidence it used and the access boundary within which it operated. Organizations also need to understand which identity performed an action and what the work cost. Today's announcement addresses that broader system, but the claim of universality still needs to be assessed against ordinary workflows. A polished demonstration can explain the idea; repeated, checked outcomes establish whether it is useful.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026">https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

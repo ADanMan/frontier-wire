@@ -19,3 +19,23 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## MIT reports Margaret Hamilton's death, recalling her software-engineering legacy / MIT сообщил о смерти Маргарет Гамильтон — её наследие в надёжности программ
 rubric: culture · source: https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-08/05-margaret-hamilton-engineering-legacy.md
+
+## Google introduces Gemini agent as a work system with memory and spending controls / Google представила Gemini agent как рабочую систему с памятью и контролем затрат
+rubric: ai · source: https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-08/06-gemini-enterprise-agent.md
+
+## LISA moves toward flight hardware with a final test telescope / Для LISA готовят последний испытательный телескоп перед лётным оборудованием
+rubric: tech · source: https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-08/07-lisa-test-telescope.md
+
+## Solar Orbiter traces a solar-wind magnetic switchback to its source / Solar Orbiter связал магнитный изгиб солнечного ветра с его источником у Солнца
+rubric: science · source: https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-08/08-solar-orbiter-switchback.md
+
+## Anne Carson wins the literature Nobel for work across classical and contemporary forms / Нобель по литературе получила Энн Карсон, соединяющая античность и новые формы
+rubric: culture · source: https://www.svenskaakademien.se/press/nobelpriset-i-litteratur-2026
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-08/09-anne-carson-nobel.md
+
+## Crew-12 splashes down off California after 237 days on the ISS / Crew-12 приводнился у Калифорнии после 237 дней на МКС
+rubric: science · source: https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-08/10-crew12-splashdown.md

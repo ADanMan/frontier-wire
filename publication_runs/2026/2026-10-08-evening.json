@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-08",
+  "slot": "evening",
+  "checked_at": "2026-10-08T16:21:04.478440+00:00",
+  "digest_sha256": "f181ae83aa8c58e80017d3b6b6e56c21e45d157d0e1ae262764339fd93dbb561",
+  "articles": [
+    {
+      "path": "editions/2026/10-08/06-gemini-enterprise-agent.md",
+      "sha256": "d9d90a2b72d0f1cb60d175047bbedb5b24e74d18b87b2a0bed69ce788dbde6d9",
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+    },
+    {
+      "path": "editions/2026/10-08/07-lisa-test-telescope.md",
+      "sha256": "7aa02d780622ab3723d63c75037b35add09c2b76ed8c1e2f6cd7bba51240f812",
+      "source": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope"
+    },
+    {
+      "path": "editions/2026/10-08/08-solar-orbiter-switchback.md",
+      "sha256": "cd67144f9ddc8c16f439e3c3c526c89fbbcecf007947491ef977a7529c7c1b5f",
+      "source": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+    },
+    {
+      "path": "editions/2026/10-08/09-anne-carson-nobel.md",
+      "sha256": "20617528ccec17c3f2de083f000c65135110f528eaaeecb62818b4bf3f4bfb1d",
+      "source": "https://www.svenskaakademien.se/press/nobelpriset-i-litteratur-2026"
+    },
+    {
+      "path": "editions/2026/10-08/10-crew12-splashdown.md",
+      "sha256": "f21c61403248556103095f877b921a241e1bed733d940457ca32ecee9b75a7af",
+      "source": "https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt"
+    }
+  ]
+}

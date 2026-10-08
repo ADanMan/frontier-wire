@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Утро про инженерную работу за красивыми обещаниями: малая модель Haiku, предзаказы компьютеров для локального ИИ и тестовый поиск Windows с действиями. В научном плане Dragon ещё только готовят к запуску, а материал MIT о Маргарет Гамильтон напоминает, почему надёжность программ начинается с проектирования. В пяти историях отделяем доступный продукт от будущего этапа и рекламный показатель от проверенного результата.
+Утром мы разбирали малую Haiku, компьютеры для локального ИИ, поиск Windows, подготовку грузового Dragon и инженерное наследие Маргарет Гамильтон. Вечером к ним добавились рабочая система Gemini agent, новый этап оптики LISA, исследование магнитного изгиба солнечного ветра и Нобель Энн Карсон. Crew-12 уже приводнился у Калифорнии, тогда как грузовой рейс и запуск LISA ещё впереди. В десяти историях дня проверяем, что уже произошло, что остаётся обещанием и на каких данных основан вывод.
 
 ## Editorial
 
-This morning looks at the engineering behind appealing promises: a new small Haiku model, preorders for local-AI computers and a Windows Search preview with actions. Dragon's science flight is still ahead, while MIT's account of Margaret Hamilton recalls why software reliability begins with design. Across five stories, we distinguish available products from future milestones and advertised figures from measured outcomes.
+This morning covered the small Haiku model, local-AI computers, Windows Search, preparations for a cargo Dragon flight and Margaret Hamilton's engineering legacy. The evening adds Gemini agent, a new stage of LISA optics, research on a solar-wind magnetic switchback and Anne Carson's literature Nobel. Crew-12 has splashed down off California, while the cargo flight and LISA launch remain ahead. Across ten stories, we examine what has happened, what is still a promise and what evidence supports each conclusion.
 
 
 ----- 01-haiku-55-volume-work (ai) — source: https://www.anthropic.com/claude-haiku-5-5 -----
@@ -186,6 +186,181 @@ Her achievements were recognized with the Presidential Medal of Freedom in 2016.
 ### Why it matters
 
 Hamilton's history brings responsibility for outcomes back into a technology story. Apollo software belonged to a system in which errors could change a mission, and it required coordinated engineering rather than a solitary feat. Her legacy is relevant beyond admiration for a historical pioneer. It is a reminder that the quality of software lies in its behavior. As new tools change how code is created, the enduring question is how a system handles the real assignment and unexpected circumstances, not simply how impressive the process of producing it appears.
+
+
+----- 06-gemini-enterprise-agent (ai) — source: https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026 -----
+
+## Русская версия
+
+Google Cloud [представила Gemini agent](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026) 8 октября на Gemini at Work. Компания описывает его как единую рабочую систему: она должна отвечать на вопросы, создавать материалы, писать и запускать код, а также выполнять поручения через подключённые инструменты. Новость здесь — связка этих возможностей вокруг постоянного рабочего контекста. Это продуктовый анонс Google, а не независимый результат испытаний универсального помощника.
+
+Важное различие в архитектуре: агент и модель под ним — разные сущности. По заявлению Google, система может выбирать модели семейства Gemini и Claude от Anthropic, а поддержку других моделей компания относит к будущему. Смена модели при таком подходе не должна требовать переноса рабочего контекста заново. Для читателя это означает, что название Gemini в объявлении обозначает больше, чем один алгоритм генерации ответов: речь идёт об организации работы вокруг моделей.
+
+Компания выделяет инструменты, повторяемые навыки и память. Инструменты связывают агента с бизнес-системами; навыки описывают способы выполнения задач; память удерживает контекст между взаимодействиями. Также заявлено облачное исполнение продолжительных поручений после закрытия ноутбука. Все эти свойства описаны производителем как возможности продукта. Они не означают, что агент автоматически имеет право читать любой документ организации: в том же анонсе доступ привязан к идентичности и разрешениям.
+
+Для командного агента Google описывает собственную учётную запись, рабочее присутствие и доступ только к переданному контексту. Действия должны попадать в журнал и относиться к агенту, а не к человеку. Выполнение кода заявлено внутри Agent Sandbox, а сетевые взаимодействия — через Agent Gateway с политиками организации. Это полезное разделение ответственности в описании системы; само перечисление механизмов ещё не заменяет проверку того, как они настроены и действуют в рабочей среде.
+
+Отдельный практический элемент — предел расходов на проект. В Cloud Billing Console можно задать лимит; Google пишет, что при его достижении работа агента приостанавливается, а возобновление выбирает пользователь. В анонсе также перечислены отраслевые варианты: финансовый и юридический находятся в preview, другие названы будущими. Поэтому весь список возможностей нельзя считать единым, одинаково доступным каждому клиенту набором без уточнения статуса.
+
+### Почему это важно
+
+Разговор о корпоративном ИИ сдвигается от отдельного ответа к завершённой работе с данными, инструментами и учётом затрат. Содержательная проверка такого продукта — показать конкретный результат, использованные источники и границы доступа. Для компании важны и качество, и возможность понять, кто выполнил действие и сколько оно стоило. Сегодняшний анонс задаёт эту рамку, но обещание универсальности стоит оценивать на обычных рабочих задачах, а не только на демонстрациях со сцены.
+
+## English version
+
+Google Cloud [introduced Gemini agent](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026) at Gemini at Work on October 8. The company describes a unified work system that answers questions, creates content, writes and runs code, and carries out assignments through connected tools. The news is how these capabilities are organized around persistent business context. This is Google's product announcement, rather than an independent evaluation establishing that one assistant can reliably handle every kind of work.
+
+One architectural distinction is especially useful: the agent and its underlying model are separate choices. Google says the system can orchestrate its Gemini models and Anthropic's Claude models, with other model support described as future work. In that design, changing a model need not mean rebuilding the work context. The Gemini name here consequently refers to more than an answer-generating model; it also covers the surrounding organization of tools and tasks.
+
+The company separates tools, reusable skills and memory. Tools connect the agent to business systems, skills describe ways to complete work, and memory carries context between interactions. Cloud execution is also described as allowing long assignments to continue after a laptop closes. These are capabilities claimed by the manufacturer. They do not imply unrestricted access to every organizational document: the same announcement ties access to identities and permissions.
+
+For a coworker agent, Google describes a separate account, a continuing team presence and access limited to shared context. Actions are to be recorded in an audit trail and attributed to the agent rather than a person. Code execution is described as occurring inside Agent Sandbox, with network traffic passing through Agent Gateway under organizational policies. Those mechanisms make the proposed responsibility model clearer, but naming them is not a substitute for checking their configuration and behavior in a particular environment.
+
+A concrete cost feature is a spending cap per project in the Cloud Billing Console. Google says reaching the cap pauses the agent, with the user able to choose whether work resumes. The announcement also assigns different statuses to industry specializations: Financial Services and Legal are in preview, while others are described as coming soon. The complete feature list should therefore not be read as one package already available on identical terms to every customer.
+
+### Why it matters
+
+Enterprise AI is increasingly presented as completed work across data and applications, rather than an isolated chat answer. A useful evaluation should show the result, the evidence it used and the access boundary within which it operated. Organizations also need to understand which identity performed an action and what the work cost. Today's announcement addresses that broader system, but the claim of universality still needs to be assessed against ordinary workflows. A polished demonstration can explain the idea; repeated, checked outcomes establish whether it is useful.
+
+
+----- 07-lisa-test-telescope (tech) — source: https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/ -----
+
+## Русская версия
+
+NASA [объявила следующий этап разработки телескопа для LISA](https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/) 8 октября. L3Harris Technologies должна спроектировать, собрать и интегрировать Engineering Test Unit — испытательное устройство перед переходом к лётному оборудованию. Это новость о подготовке будущей обсерватории. Она не означает ни запуска миссии, ни начала новых наблюдений гравитационных волн из космоса: LISA по-прежнему планируют отправить в середине 2030-х годов.
+
+Проект возглавляет ESA, а NASA участвует как партнёр. Обсерватория должна состоять из трёх аппаратов, образующих треугольник со стороной около 2,5 миллиона километров. На каждом предусмотрены два телескопа для передачи и приёма инфракрасных лазерных сигналов между соседями. Их задача отличается от знакомой фотографии далёкой галактики: измерять чрезвычайно малые изменения взаимных расстояний, по которым можно обнаружить проходящую гравитационную волну.
+
+Для такой оптики важна устойчивость формы. Телескопы делают из стеклокерамики Zerodur, которая мало меняется при перепадах температуры. Значение материала понятно из самой задачи измерения: изменения прибора нельзя бездумно принять за изменения расстояния между аппаратами. Это инженерная причина, по которой будущая научная миссия требует долгой проверки деталей ещё на Земле, даже когда принцип измерения уже описан и понятен.
+
+Нынешний этап опирается на прототип, доставленный NASA в 2024 году. По сообщению агентства, его тщательно испытали, а накопленные результаты используют в следующем устройстве. В июне этого года команда также передала металлическую структурную модель. Новый телескоп назван последним предлётным оптическим устройством и первой оптической поставкой ESA в этой последовательности. Прототип, структурная модель и будущая лётная версия выполняют разные проверочные роли; смешивать их в один уже готовый аппарат было бы ошибкой.
+
+Научная цель LISA — низкочастотные гравитационные волны, недоступные нынешним наземным установкам. Среди ожидаемых источников NASA называет слияния массивных чёрных дыр и компактные двойные системы. Это будущие исследовательские возможности, а не результаты сегодняшнего испытательного этапа. Кроме телескопов, американский вклад включает лазерную систему, средства управления зарядом пробных масс и работу с анализом данных; обсерватория зависит от согласованной работы всей этой цепочки.
+
+### Почему это важно
+
+Крупное открытие начинается задолго до первого научного сигнала. В случае LISA оптическая точность и стабильность должны пережить переход от проекта к проверенным деталям, затем к лётным аппаратам. Октябрьская новость показывает конкретное продвижение в этой цепочке, а не переносит будущий научный успех в настоящее. Для читателя содержательный ориентир — какая стадия испытаний завершена и что проверит следующая. Именно так можно следить за долгой космической программой без ощущения, что каждый новый прототип уже равен работающей обсерватории.
+
+## English version
+
+NASA [announced the next telescope-development stage for LISA](https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/) on October 8. L3Harris Technologies will design, assemble and integrate an Engineering Test Unit before the project moves to flight hardware. This is progress in preparing a future observatory. It is neither a launch nor the start of new gravitational-wave observations from space: LISA remains planned for the mid-2030s.
+
+ESA leads the mission, with NASA as a partner. Three spacecraft are to form a triangle with sides of about 2.5 million kilometers. Each will carry two telescopes that send and receive infrared laser signals between neighboring spacecraft. Their purpose differs from taking a conventional image of a distant galaxy. The optical system will measure minute changes in relative distance that can reveal a passing gravitational wave.
+
+Maintaining the telescope's shape is essential for that measurement. The instruments use Zerodur, a glass-ceramic material resistant to dimensional changes across temperature variations. The engineering rationale follows directly from the experiment: changes in the instrument should not be confused with changes in the separation of the spacecraft. A clear measurement concept therefore still requires extensive hardware verification on Earth before it can become a dependable space observatory.
+
+The new stage builds on a prototype delivered to NASA in 2024. The agency says that prototype underwent rigorous testing, with the lessons carried into the new telescope. A metal structural model was also delivered in June this year. NASA describes the next unit as its final preflight optical telescope and its first optical telescope delivery to ESA. A prototype, a structural model and eventual flight hardware have different verification roles; combining them into one supposedly finished instrument would obscure the project's actual progress.
+
+LISA's scientific target is low-frequency gravitational radiation beyond the reach of current ground-based facilities. NASA lists mergers of massive black holes and compact binary systems among the sources it expects the mission to study. Those are future capabilities, not findings produced by today's engineering step. NASA's contribution also includes the laser system, charge management for the proof masses and data-analysis work. The measurement depends on the whole chain operating together, rather than the telescope alone.
+
+### Why it matters
+
+Major discoveries begin long before the first scientific signal arrives. For LISA, optical precision and stability must survive the transition from a design to tested components and then to flight instruments. The October announcement identifies a specific step in that sequence without treating future scientific success as an accomplished fact. A useful way to follow a long space program is to ask what the current hardware establishes and what the next stage will test. That makes engineering milestones informative without confusing each new test unit with a functioning observatory.
+
+
+----- 08-solar-orbiter-switchback (science) — source: https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks -----
+
+## Русская версия
+
+Исследователи проследили происхождение крупного изгиба магнитного поля в солнечном ветре, через который прошёл Solar Orbiter. ESA [сообщила о результате](https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks) 8 октября; научная статья вышла сегодня в Nature Astronomy. При этом сами измерения относятся ко 2 марта 2022 года, как указано в [работе команды](https://www.nature.com/articles/s41550-026-02928-0). Новое здесь — восстановленная связь между частицами вдали от звезды и их источником, а не сегодняшнее прохождение аппарата через солнечный ветер.
+
+Солнечный ветер — поток заряженных частиц, уносящий магнитное поле наружу. В этом поле бывают резкие изгибы, называемые switchbacks: силовая линия словно складывается обратно. Откуда берётся такая форма, обсуждают давно. Одно объяснение связывает её появление с перестройкой поля рядом с Солнцем, другое — с волнами и турбулентностью в движущейся плазме. Исследование предлагает распределить роли этих процессов по этапам, вместо того чтобы объявлять один из них ненужным.
+
+Прибор Solar Wind Analyser измерил состав плазмы внутри изгиба, когда аппарат находился примерно на половине расстояния от Солнца до Земли. Особое значение имели заряженные ионы кислорода и углерода. Их сочетание, по интерпретации исследователей, указывает на горячие замкнутые магнитные петли в солнечной атмосфере. Частицы здесь работают как след происхождения: состав сохраняет сведения об условиях, в которых плазма находилась прежде. Это позволяет дополнить измерение формы поля информацией о его истории.
+
+Чтобы соединить удалённое измерение с поверхностью звезды, команда сопоставила данные аппарата, изображения солнечного диска и модели магнитного поля. Использовались и наблюдения NASA Solar Dynamics Observatory. Результат поддерживает механизм обменного пересоединения: открытая линия, уходящая в пространство, взаимодействует с замкнутой петлёй, поле перестраивается и прежде удерживаемая плазма получает путь наружу. Вывод опирается на сочетание наблюдений и моделирования, а не на непосредственную съёмку каждой части этого процесса.
+
+При этом авторы видят признаки последующего воздействия волн и турбулентности. По их объяснению, после выхода изгиба от Солнца эти процессы влияют на его движение. Такой сценарий объединяет две идеи для изученного случая. Из одного подробного разбора нельзя сделать вывод, что происхождение каждого магнитного изгиба теперь установлено: для этого понадобятся другие наблюдения и сравнения. Но состав частиц даёт исследователям способ проверять происхождение конкретных структур, а не только сопоставлять их внешнюю форму.
+
+### Почему это важно
+
+Солнечный ветер связывает нашу планету с её звездой, а понимание его разгона и магнитной структуры важно для исследований космической погоды. Сегодняшняя работа улучшает физическую картину этих процессов. Она не является предупреждением о близкой буре и не обещает готового прогноза для Земли. Её практическая ценность для науки — возможность читать историю плазмы по измерениям вдали от места её рождения и проверять, какие процессы действуют на разных участках пути.
+
+## English version
+
+Researchers have traced the origin of a large magnetic bend in the solar wind that Solar Orbiter passed through. ESA [reported the finding](https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks) on October 8, alongside its publication in Nature Astronomy. The measurements themselves date to March 2, 2022, as specified in the [team's paper](https://www.nature.com/articles/s41550-026-02928-0). Today's development is the reconstructed connection between particles far from the star and their solar source, rather than a new encounter by the spacecraft this morning.
+
+The solar wind carries charged particles and magnetic fields outward. Its field can develop sharp folds known as switchbacks, where a field line appears to turn back on itself. Their origin has been debated: one explanation emphasizes magnetic restructuring near the Sun, while another involves waves and turbulence in moving plasma. The new study assigns these mechanisms roles at different stages, rather than requiring one explanation to eliminate the other.
+
+Solar Orbiter's Solar Wind Analyser sampled the plasma inside the bend when the spacecraft was roughly halfway between the Sun and Earth. Charged oxygen and carbon ions were particularly informative. The researchers interpret their combination as a signature of hot, closed magnetic loops in the solar atmosphere. Particle composition provides evidence about earlier conditions, adding a history to the measurement of a structure's shape. That is useful because a distant observation alone does not reveal every process that occurred nearer the Sun.
+
+The team combined those measurements with solar-disc images and magnetic-field modeling, including observations from NASA's Solar Dynamics Observatory. Their reconstruction supports interchange reconnection: an open magnetic line extending into space interacts with a closed loop, the field changes its connections, and plasma previously trapped in the loop can escape. This is an inference drawn from observations and models, rather than direct footage showing every part of the process from start to finish.
+
+The authors also identify signs of waves and turbulence acting later in the switchback's journey. In their account, those processes help govern its motion after it leaves the Sun. The result reconciles the two ideas for the event examined. It does not establish the origin of every magnetic fold in the solar wind; that broader claim would require additional observations and comparisons. What it offers is a way to test particular structures using particle composition, rather than relying only on how the magnetic field looks.
+
+### Why it matters
+
+The solar wind connects Earth to its star, and understanding its acceleration and magnetic structure matters for space-weather research. This study improves the physical explanation of those processes. It is neither a warning about an imminent storm nor a ready-made forecast for Earth. Its scientific value is more specific: measurements far from the source can retain evidence of the plasma's earlier history, helping researchers distinguish what happens near the Sun from what happens during the outward journey.
+
+
+----- 09-anne-carson-nobel (culture) — source: https://www.svenskaakademien.se/press/nobelpriset-i-litteratur-2026 -----
+
+## Русская версия
+
+Шведская академия [объявила Энн Карсон лауреатом Нобелевской премии по литературе 2026 года](https://www.svenskaakademien.se/press/nobelpriset-i-litteratur-2026) 8 октября. Канадскую писательницу отметили за смелое обращение с классической традицией и создание современных литературных форм. Это объявление решения о премии. Чтобы понять выбор, полезнее посмотреть на устройство её работ, чем свести всё к одной привычной категории: поэт, переводчик или автор романов.
+
+В официальной [биобиблиографии академии](https://sa-admin-live.lb.se/assets/659b8728-c9d5-41b3-99dc-c5e0e279cee8) Карсон представлена как автор, для которого исследование древних языков и поэтическая работа идут рядом. Она родилась в Торонто в 1950 году, защитила диссертацию по классическим языкам в 1981-м и совмещала письмо с преподаванием и переводом. Этот академический опыт важен для чтения её книг: древние тексты в них становятся материалом для нового произведения, а не только объектом аккуратного комментария.
+
+Один из примеров — Autobiography of Red, роман в стихах 1998 года. Академия описывает, как Карсон использует античные фрагменты о Герионе и переносит персонажа в современную историю взросления. Миф здесь меняет точку зрения и литературную форму. Другой пример — If Not, Winter, перевод фрагментов Сапфо, опубликованный в 2002 году. Эти работы показывают разные способы взаимодействия с древностью: переработку сюжетного материала и перевод, который сам становится существенной частью авторского труда.
+
+Размывание жанров заметно уже в Eros the Bittersweet, эссе 1986 года. Академия связывает его с дальнейшим исследованием языка, желания и расстояния между людьми. Здесь важен сам способ соединять голоса и времена: литературное наследие не лежит отдельно от сегодняшнего опыта. В официальном обзоре Карсон сопоставляет древних и современных авторов, а возникающий между ними разговор помогает строить произведения, которые трудно описать как только исследование или только лирику.
+
+Эксперимент касается и физического устройства книги. Nox, вышедшая в 2010 году, соединяет текст, письма и изображения в форме складывающейся гармошки внутри коробки. Float, опубликованная в 2016-м, состоит из 22 небольших книжек, которые можно читать в выбранном порядке. Биобиблиография также отмечает Wrong Norma 2024 года и сотрудничество Карсон с художниками, хореографами, оперными и театральными постановщиками. Так литературная форма включает последовательность чтения, визуальный материал и возможность исполнения, а не только написанные предложения.
+
+### Почему это важно
+
+Выбор академии обращает внимание на литературу, которая обновляет традицию через изменение способов чтения и письма. Из этих примеров не следует, что античность нужна только как источник сюжетов: у Карсон она связана с языком, переводом и устройством произведения. Сегодняшнее решение даёт повод различать эти стороны её работы. Официальная биобиблиография помогает сориентироваться в книгах и датах, но не заменяет чтения самих текстов и собственного впечатления от них.
+
+## English version
+
+The Swedish Academy [named Anne Carson the 2026 Nobel laureate in literature](https://www.svenskaakademien.se/press/nobelpriset-i-litteratur-2026) on October 8. Its announcement recognizes the Canadian writer's inventive engagement with the classical tradition and her creation of contemporary literary forms. This is the award decision. Understanding the choice involves looking at how her works are constructed, rather than fitting her neatly into one familiar category such as poet, translator or novelist.
+
+The Academy's official [biobibliographical account](https://sa-admin-live.lb.se/assets/659b8728-c9d5-41b3-99dc-c5e0e279cee8) presents classical scholarship and poetry as closely connected in Carson's career. Born in Toronto in 1950, she completed a doctorate in classical languages in 1981 and combined writing with teaching and translation. That background matters to the books: ancient texts become material for new works, not simply documents receiving a careful scholarly explanation. Scholarship and invention operate alongside one another.
+
+Autobiography of Red, published in 1998, is one example. The Academy describes this novel in verse as reworking ancient fragments about Geryon into a contemporary coming-of-age story. The myth changes both viewpoint and literary form. If Not, Winter, Carson's translation of Sappho's fragments, appeared in 2002. The two books illustrate different engagements with antiquity: transformation of a narrative source and translation as a substantial part of the author's own literary practice.
+
+The crossing of genres is already visible in Eros the Bittersweet, her 1986 essay. The Academy connects it to her continuing exploration of language, desire and the distance between people. The important element is how different voices and periods are brought together. Literary inheritance does not sit apart from present experience. In the official account, Carson places ancient and modern writers in conversation, creating works that cannot comfortably be described as scholarship alone or lyric poetry alone.
+
+Her experiments also involve the physical form of a book. Nox, published in 2010, combines writing, letters and images in an accordion-like object housed in a box. Float, from 2016, consists of 22 small booklets that can be read in an order chosen by the reader. The biobibliography also discusses Wrong Norma, published in 2024, and Carson's collaborations with visual artists, choreographers, and opera and theatre directors. Literary form here includes reading sequence, visual material and performance, as well as written sentences.
+
+### Why it matters
+
+The award draws attention to literature that renews inherited traditions by changing how writing and reading work. These examples suggest that antiquity, in Carson's practice, is more than a store of reusable plots: it involves language, translation and the construction of a work itself. Today's decision offers a reason to distinguish those parts of her career. The official biography helps establish titles, dates and the Academy's interpretation, but it cannot replace reading the works and forming a response to them.
+
+
+----- 10-crew12-splashdown (science) — source: https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/ -----
+
+## Русская версия
+
+Корабль SpaceX Dragon с экипажем Crew-12 [приводнился у побережья Лос-Анджелеса](https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/) 8 октября в 11:34 по восточному летнему времени США — 18:34 по Москве. NASA опубликовала подтверждение спустя две минуты. Это состоявшееся возвращение, а не очередной план посадки: четыре участника завершили 237 дней пребывания на Международной космической станции. Для вечернего выпуска важен именно переход от ожидаемого события к подтверждённому результату.
+
+На борту находились Джессика Меир и Джек Хэтэуэй из NASA, астронавт ESA Софи Адено и космонавт Роскосмоса Андрей Федяев. Для Хэтэуэя и Адено это был первый полёт в космос, для Федяева — второй. Агентство также сообщает, что экипаж совершил четыре выхода в открытый космос за почти восемь месяцев миссии. Это общий итог работы группы; из такого сообщения не следует, что каждый из четырёх человек участвовал в каждом выходе.
+
+В момент первого подтверждения спасательные команды ещё работали вокруг капсулы. По описанию NASA, два быстроходных катера должны закрепить Dragon и убедиться, что дальнейшая операция безопасна. Затем основной корабль подходит для подъёма капсулы на палубу с людьми внутри. Выход экипажа из корабля предусмотрен после подъёма. Важная последовательность: приводнение подтверждено, а завершение всех последующих действий в этом сообщении ещё не объявлено.
+
+Такое различие помогает читать оперативные новости без скачка через несколько этапов сразу. Попадание капсулы в воду, её закрепление, подъём и выход людей — отдельные действия. По первой записи NASA нельзя утверждать, что участники уже покинули Dragon, прошли обследование или отправились домой. Эти подробности требуют следующего сообщения. Вечерняя заметка фиксирует подтверждённый этап и оставляет за пределами фактов то, чего первоисточник пока не сообщил.
+
+Возвращение Crew-12 также стоит отличать от грузового полёта Dragon, о подготовке которого мы рассказали утром. Один рейс завершает пребывание людей на станции; другой должен доставить материалы и оборудование для её дальнейшей работы. NASA в сообщении о приводнении связывает последующее обсуждение возвращения с будущим запуском грузовой миссии. Из этой связи не следует, что снабжение уже состоялось или что все научные результаты завершённого пребывания опубликованы: посадка и научный анализ имеют разные сроки.
+
+### Почему это важно
+
+Многомесячная работа на орбите включает не только запуск и пребывание на станции, но и возвращение экипажа. Сегодня подтверждён его ключевой этап. Для читателя полезно одновременно удерживать два масштаба: 237 дней миссии и короткую последовательность действий после приводнения. Первый показывает длительность работы, второй — что именно уже известно в оперативной новости. Проверка этой границы позволяет сообщить результат вовремя, не превращая ожидаемое продолжение спасательной операции в якобы завершённый факт.
+
+## English version
+
+SpaceX Dragon carrying Crew-12 [splashed down off the coast of Los Angeles](https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/) on October 8 at 11:34 a.m. Eastern Daylight Time, or 6:34 p.m. in Moscow. NASA published its confirmation two minutes later. This is an accomplished return rather than another landing plan: the four crew members completed 237 days at the International Space Station. For the evening edition, the new development is the shift from an expected event to a confirmed outcome.
+
+The spacecraft carried NASA astronauts Jessica Meir and Jack Hathaway, ESA astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev. It was Hathaway's and Adenot's first spaceflight and Fedyaev's second. NASA also reports four spacewalks by the crew during its nearly eight-month mission. That is a collective mission total; the statement does not establish that every individual took part in each of those excursions.
+
+Recovery teams were still working around the capsule when NASA issued its first confirmation. The agency describes two fast boats securing Dragon and establishing that the next stage can proceed safely. The main recovery ship then moves into position to lift the capsule onto its deck with the astronauts inside. Crew exit follows the lift. The sequence matters: splashdown was confirmed, while completion of all the subsequent recovery steps was not yet announced in that report.
+
+Keeping those stages separate makes an operational update more precise. Reaching the water, securing the capsule, lifting it and having people leave it are distinct actions. The initial NASA post does not establish that the crew had already exited Dragon, completed medical checks or departed for home. Those details require a later report. This article records the confirmed milestone while leaving anticipated recovery developments outside the account of completed events.
+
+Crew-12's return is also separate from the upcoming Dragon cargo flight discussed in this morning's edition. One ends the crew's stay on the station; the other is intended to deliver materials and equipment for continuing work. NASA's splashdown update connects the subsequent discussion of the return with the next cargo launch. That connection does not mean resupply has already occurred or that all scientific results from the completed stay have been published. Landing and the analysis of research operate on different timelines.
+
+### Why it matters
+
+A long orbital mission includes launch, work aboard the station and the journey back. Today confirms a central milestone in that return. Readers can usefully keep two timescales in view: the 237-day mission and the short sequence of recovery operations after splashdown. One describes the duration of the work; the other establishes what an immediate news report actually confirms. Checking that boundary allows the outcome to be reported promptly without presenting the expected continuation of recovery as an event already completed.
 
 
 ===== EDITION 32 — 2026-10-07 =====
