@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-09",
+  "slot": "morning",
+  "checked_at": "2026-10-09T04:12:44.372118+00:00",
+  "digest_sha256": "b73caf6ff0a33594f8ff83fd1c3e11b3c4c14180373b97c55af6e17fed32d9d2",
+  "articles": [
+    {
+      "path": "editions/2026/10-09/01-falcon-arabic-asr.md",
+      "sha256": "4339880c30403905cca5d33f271230b52f53fbef08319c820cbce661b58b88a5",
+      "source": "https://huggingface.co/blog/tiiuae/falcon-asr"
+    },
+    {
+      "path": "editions/2026/10-09/02-sspicy-orbital-inspection.md",
+      "sha256": "c5a54ccbf5a99ffe00db53c9eb6d8c90110e818aa2e961063f2af1da73627d59",
+      "source": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies"
+    },
+    {
+      "path": "editions/2026/10-09/03-metr-time-horizon-statistics.md",
+      "sha256": "c6985dceb216aa16deef379e511ffd57818c7d915a2fb558683af4ba97057b90",
+      "source": "https://arxiv.org/html/2610.12466v1"
+    },
+    {
+      "path": "editions/2026/10-09/04-ml-intern-training-cases.md",
+      "sha256": "71b76396818525d9452287e77f1c45613ca3c824ddbd3be846f5687482a3ab74",
+      "source": "https://huggingface.co/blog/building-with-ml-intern"
+    },
+    {
+      "path": "editions/2026/10-09/05-trading-card-odds.md",
+      "sha256": "12e488719c3786785193bc653ccebf6c34f2f5226562dc22bc1f7e361dd0d1e6",
+      "source": "https://phys.org/news/2026-10-card-odds-rare-cards.html"
+    }
+  ]
+}

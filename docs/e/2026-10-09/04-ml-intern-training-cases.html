@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hugging Face показала обучение небольших моделей через ML Intern с проверками и бюджетом - frontier-wire</title>
+<meta name="description" content="A six-project account includes baselines, short trial runs and compute charges, rather than a universal price list.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-09/04-ml-intern-training-cases.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Hugging Face reports small-model training with ML Intern, checks and budgets", "alternativeHeadline": "Hugging Face показала обучение небольших моделей через ML Intern с проверками и бюджетом", "datePublished": "2026-10-09", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/building-with-ml-intern", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-09/04-ml-intern-training-cases.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-09 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Hugging Face показала обучение небольших моделей через ML Intern с проверками и бюджетом</span><span class="lang-en">Hugging Face reports small-model training with ML Intern, checks and budgets</span></h1>
+  <p class="dek big"><span class="lang-ru">В авторском разборе шести проектов есть базовые оценки, короткие пробные запуски и вычислительные расходы, но нет универсального прайс-листа.</span><span class="lang-en">A six-project account includes baselines, short trial runs and compute charges, rather than a universal price list.</span></p>
+
+  <div class="prose lang-ru"><p>Hugging Face <a href="https://huggingface.co/blog/building-with-ml-intern">опубликовала разбор шести проектов с ML Intern</a> 8 октября. Авторы описывают обучение и адаптацию моделей через режим в HuggingChat: пользователь формулирует задачу, агент планирует работу, запрашивает бюджет, пробует небольшой запуск, затем обучает, оценивает и публикует результат. Новость здесь — подробный отчёт о конкретных опытах. Он не доказывает, что любое обучение теперь можно свести к одному сообщению или выполнить за одинаковую сумму.</p>
+<p>Самая полезная часть разбора — устройство задания. Авторы предлагают заранее назвать набор данных, исходную модель, ожидаемый результат и известные проверенные сведения. Две проверки особенно важны: измерить качество исходной модели до обучения и выполнить короткий пробный запуск перед большим. В одном из сценариев проверяется, что сохранённые веса действительно изменились. Это отделяет запуск программы без явной ошибки от обучения, результат которого можно содержательно сравнить с исходной точкой.</p>
+<p>Один из проектов — компактная модель для переписывания запросов к генератору изображений. По отчёту, она имеет 0,8 миллиарда параметров вместо девятимиллиардного учителя и предлагается также в GGUF для CPU. В работе использовали ответы учителя для подготовки примеров, затем фильтрацию и обучение меньших моделей. Авторы называют около 16 долларов вычислительных расходов за весь этот проект. Это стоимость перечисленных заданий на CPU и GPU, а не универсальная цена создания любого помощника или гарантия одинакового качества на чужих запросах.</p>
+<p>Другой сценарий — адаптация генератора изображений под персонажа. Команда сравнивала одинаковые запросы на промежуточных сохранениях обучения. По описанию, нужный образ появился раньше, чем нежелательные стилистические изменения стали заметны в несвязанных запросах. Это пример того, зачем выбирать контрольную точку по проверке результата, а не просто брать последнюю. Увеличение числа шагов может менять поведение модели и за пределами желаемой новой способности; в отчёте это показано как наблюдение конкретного опыта.</p>
+<p>Разбор также включает изменение ракурса, редактирование по нарисованному контуру и сокращение числа шагов генератора. Авторы сообщают о неудачных заданиях из-за зависимостей или путей и о повторных запусках. В таблице суммарно указано примерно 103 доллара вычислительных расходов по шести проектам. Человеческая подготовка заданий, выбор данных и проверка результата описаны отдельно, поэтому эту сумму нельзя выдавать за полную цену работы. Наличие опубликованной модели тоже не заменяет оценку её пригодности для следующей задачи.</p>
+<h3>Почему это важно</h3>
+<p>Агентное обучение становится убедительнее, когда рядом с моделью есть исходная оценка, пробный запуск, сравнение сохранений и понятная граница расходов. Отчёт показывает такой процесс на небольших примерах, а не обещает универсальную автоматизацию. Практический вывод — автоматизировать выполнение можно, сохраняя проверку цели и результата. Для оценки дальнейших проектов важны те же вопросы: что стало лучше, на каких примерах это видно и какие затраты действительно посчитаны.</p></div>
+  <div class="prose lang-en"><p>Hugging Face <a href="https://huggingface.co/blog/building-with-ml-intern">published an account of six projects using ML Intern</a> on October 8. The authors describe model training and adaptation through a HuggingChat mode: the user specifies a task, the agent plans the work, requests a budget, runs a small trial, then trains, evaluates and publishes a result. The development is a detailed report of particular experiments. It does not establish that every training job can be reduced to one message or completed for the same amount.</p>
+<p>The most useful part is how assignments are framed. The authors recommend naming the dataset, base model, expected deliverables and facts already checked. Two tests are central: evaluate the base model before training, and run a short trial before a larger job. One scenario checks that saved weights have actually changed. That distinguishes a program finishing without an obvious error from training whose result can meaningfully be compared with its starting point.</p>
+<p>One project produces a compact prompt rewriter for image generation. The reported student has 0.8 billion parameters, compared with a nine-billion-parameter teacher, and is also offered in GGUF form for CPU use. The process used teacher-generated examples, filtering and smaller-model training. The authors put total compute charges for this project at about $16. That describes the listed CPU and GPU jobs, rather than a universal price for creating an assistant or a guarantee of equivalent quality on someone else's requests.</p>
+<p>Another project adapts an image generator to a character. The team compares the same prompts across training checkpoints. In the account, the desired character appears before unwanted stylistic changes become apparent in unrelated prompts. This illustrates why a checkpoint should be chosen by inspecting outputs, rather than automatically selecting the last one. Additional training can change behavior outside the intended new ability; the report presents that as an observation from this particular experiment.</p>
+<p>The other examples include changing viewing angles, editing from a drawn outline and reducing an image generator's step count. The authors also describe failed jobs caused by dependencies or paths, followed by resubmissions. Their table totals approximately $103 in compute charges across the six projects. Human preparation of assignments, dataset choices and result checks is discussed separately, so that figure should not be presented as the complete cost of the work. Publishing a model likewise does not establish that it is suitable for the next task.</p>
+<h3>Why it matters</h3>
+<p>Agent-assisted training is easier to assess when a model comes with a baseline, a trial run, checkpoint comparisons and an explicit spending boundary. The report illustrates that process through small examples, rather than promising universal automation. Execution can be automated while the purpose and outcome remain subject to checks. Future projects should answer the same questions: what improved, which examples demonstrate it, and which costs were actually counted?</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/building-with-ml-intern">https://huggingface.co/blog/building-with-ml-intern</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

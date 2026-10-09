@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Falcon ASR делает ставку на арабские диалекты и отметки времени для каждого слова - frontier-wire</title>
+<meta name="description" content="TII reports Arabic and English evaluation results, with comparisons tied to specific datasets and a dated leaderboard snapshot.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-09/01-falcon-arabic-asr.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Falcon ASR targets Arabic dialects with word-level timestamps", "alternativeHeadline": "Falcon ASR делает ставку на арабские диалекты и отметки времени для каждого слова", "datePublished": "2026-10-09", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/tiiuae/falcon-asr", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-09/01-falcon-arabic-asr.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-09 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Falcon ASR делает ставку на арабские диалекты и отметки времени для каждого слова</span><span class="lang-en">Falcon ASR targets Arabic dialects with word-level timestamps</span></h1>
+  <p class="dek big"><span class="lang-ru">TII опубликовал результаты модели на арабских и английских тестах; сравнения относятся к выбранным наборам и датам.</span><span class="lang-en">TII reports Arabic and English evaluation results, with comparisons tied to specific datasets and a dated leaderboard snapshot.</span></p>
+
+  <div class="prose lang-ru"><p>Technology Innovation Institute <a href="https://huggingface.co/blog/tiiuae/falcon-asr">представил Falcon ASR</a> — модель распознавания речи с 1,6 миллиарда параметров и особым вниманием к эмиратскому диалекту арабского языка. Полный анонс опубликован 7 октября. Модель также поддерживает английский, французский, испанский и португальский. Это система для получения текста из записи, а не переводчик: авторы прямо указывают, что результат остаётся на языке исходной речи. Для всех пяти языков используются одни веса, без отдельного флага языка.</p>
+<p>Причина выделить диалект вполне практическая. По объяснению разработчиков, успешная расшифровка формальной новости ещё не означает хорошего результата на обычном разговоре или телефонной записи. Различаются произношение, словарь и условия звука. TII сообщает об обучении на эмиратском диалекте, литературном арабском, других арабских и заливных диалектах и английском. Авторы также включали шум, музыку, наложение голосов, реверберацию и эффекты телефонной связи, чтобы расширить набор условий записи.</p>
+<p>Главный публичный показатель в анонсе — средняя доля ошибок в словах, WER, на шести арабских тестовых наборах. TII сообщает 20,92% против 23,17% у лучшего опубликованного результата в использованном снимке таблицы, проверенном 30 сентября. Разница составляет 2,25 процентного пункта. Важны и единица сравнения, и дата: это не утверждение о превосходстве над всеми системами на любой записи. Наборы в среднем имеют одинаковый вес, а результаты относятся к указанному протоколу.</p>
+<p>Дополнительно команда приводит внутренний тест эмиратской и заливной речи: 22,73% WER и 10,19% ошибок в символах. По её данным, Falcon ASR показал лучшие значения среди сравнивавшихся систем. Это отдельная оценка на отложенных записях с проверенными людьми расшифровками; её нельзя незаметно объединять с публичной таблицей. Для английского разработчики указывают средний WER 5,74% по семи открытым тестам. Числа описывают свои наборы, а не вероятность правильного распознавания конкретной вашей фразы.</p>
+<p>Есть и полезная функция вне соревнования метрик: отметки времени на уровне отдельных слов. Они связывают расшифровку с местом в аудио, поэтому текст можно сверять с записью. Авторы предлагают демонстрацию на Hugging Face, тогда как API и отдельные приложения описывают как будущие планы. Доступность демо не следует принимать за состоявшийся запуск всех способов интеграции. В этой заметке результаты атрибутированы разработчикам; самостоятельного сравнения систем редакция не проводила.</p>
+<h3>Почему это важно</h3>
+<p>Качество распознавания речи зависит от того, какие голоса и условия представляют испытания. Внимание к диалекту делает этот вопрос заметным, а временные отметки помогают проверять итог. Содержательный следующий шаг для оценки продукта — сравнить расшифровки на подходящих записях и понять типы ошибок. Средняя метрика полезна как ориентир, когда рядом сохранены её набор данных, протокол и границы интерпретации.</p></div>
+  <div class="prose lang-en"><p>The Technology Innovation Institute <a href="https://huggingface.co/blog/tiiuae/falcon-asr">introduced Falcon ASR</a>, a 1.6-billion-parameter speech-recognition model with a particular focus on Emirati Arabic. The full announcement was published on October 7. The model also supports English, French, Spanish and Portuguese. Its output is a transcript rather than a translation: the developers specify that it remains in the language spoken. All five languages use the same model weights, without requiring a separate language flag.</p>
+<p>The focus on dialect addresses a practical problem. As the developers explain, a system that transcribes a formal broadcast well may still struggle with an everyday conversation or a phone recording. Vocabulary, pronunciation and recording conditions differ. TII reports training on Emirati, Modern Standard Arabic, other Arabic and Gulf dialects, and English. The training also included noise, music, overlapping speech, reverberation and telephony effects to expose the system to a wider range of audio conditions.</p>
+<p>The headline public result is the average word error rate, or WER, across six Arabic test sets. TII reports 20.92%, compared with 23.17% for the best published result in the leaderboard snapshot it checked on September 30. That is a difference of 2.25 percentage points. Both the comparison unit and the date matter: this is not a claim of superiority over every system on every recording. The test sets receive equal weight in the average, and the figures refer to a specified evaluation protocol.</p>
+<p>The team separately reports an internal evaluation of Emirati and Gulf speech, with 22.73% WER and a 10.19% character error rate. According to TII, Falcon ASR achieved the lowest values among the systems compared. This assessment uses held-out recordings and human-validated transcripts; it should not be silently merged with the public leaderboard. For English, the developers report a mean WER of 5.74% across seven public tests. Those figures describe their datasets, rather than the probability that any particular sentence will be transcribed correctly.</p>
+<p>One useful feature sits outside the leaderboard contest: word-level timestamps connect the transcript to positions in the audio, making it easier to check the text against the recording. The announcement offers a Hugging Face demonstration, while API access and native applications remain planned. Availability of the demonstration should not be read as a completed launch of every integration method. This article attributes evaluation results to the developers; the newsroom has not run an independent comparison.</p>
+<h3>Why it matters</h3>
+<p>Speech-recognition quality depends on which speakers and conditions a test represents. The emphasis on dialect makes that question visible, while timestamps help users inspect the output. A meaningful evaluation should compare transcripts on appropriate recordings and examine the errors they contain. An average score becomes more informative when its dataset, protocol and interpretation limits remain attached.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/tiiuae/falcon-asr">https://huggingface.co/blog/tiiuae/falcon-asr</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

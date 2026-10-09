@@ -2,6 +2,192 @@
 
 
 
+===== EDITION 34 — 2026-10-09 =====
+
+## От редакции
+
+Утро про измерения, которые помогают проверить красивое обещание. Falcon ASR показывает результаты на определённых речевых наборах, ML Intern — обучение с исходной оценкой и бюджетом, а статистики разбирают, что означают человеческие часы на графике возможностей ИИ. В космосе SSPICY готовится к будущим инспекциям; в коллекционных карточках исследователи проверяют, раскрыты ли шансы на редкий экземпляр. В пяти историях сохраняем границы теста, даты событий и различие между планом и результатом.
+
+## Editorial
+
+This morning is about measurements that help test an attractive promise. Falcon ASR reports results on specified speech datasets, ML Intern describes training with baselines and budgets, and statisticians examine what human hours mean on an AI-capability chart. In space, SSPICY prepares for future inspections; in collectible cards, researchers check whether rare-card odds are disclosed. Across five stories, we keep evaluation boundaries, event dates and the distinction between plans and outcomes explicit.
+
+
+----- 01-falcon-arabic-asr (ai) — source: https://huggingface.co/blog/tiiuae/falcon-asr -----
+
+## Русская версия
+
+Technology Innovation Institute [представил Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr) — модель распознавания речи с 1,6 миллиарда параметров и особым вниманием к эмиратскому диалекту арабского языка. Полный анонс опубликован 7 октября. Модель также поддерживает английский, французский, испанский и португальский. Это система для получения текста из записи, а не переводчик: авторы прямо указывают, что результат остаётся на языке исходной речи. Для всех пяти языков используются одни веса, без отдельного флага языка.
+
+Причина выделить диалект вполне практическая. По объяснению разработчиков, успешная расшифровка формальной новости ещё не означает хорошего результата на обычном разговоре или телефонной записи. Различаются произношение, словарь и условия звука. TII сообщает об обучении на эмиратском диалекте, литературном арабском, других арабских и заливных диалектах и английском. Авторы также включали шум, музыку, наложение голосов, реверберацию и эффекты телефонной связи, чтобы расширить набор условий записи.
+
+Главный публичный показатель в анонсе — средняя доля ошибок в словах, WER, на шести арабских тестовых наборах. TII сообщает 20,92% против 23,17% у лучшего опубликованного результата в использованном снимке таблицы, проверенном 30 сентября. Разница составляет 2,25 процентного пункта. Важны и единица сравнения, и дата: это не утверждение о превосходстве над всеми системами на любой записи. Наборы в среднем имеют одинаковый вес, а результаты относятся к указанному протоколу.
+
+Дополнительно команда приводит внутренний тест эмиратской и заливной речи: 22,73% WER и 10,19% ошибок в символах. По её данным, Falcon ASR показал лучшие значения среди сравнивавшихся систем. Это отдельная оценка на отложенных записях с проверенными людьми расшифровками; её нельзя незаметно объединять с публичной таблицей. Для английского разработчики указывают средний WER 5,74% по семи открытым тестам. Числа описывают свои наборы, а не вероятность правильного распознавания конкретной вашей фразы.
+
+Есть и полезная функция вне соревнования метрик: отметки времени на уровне отдельных слов. Они связывают расшифровку с местом в аудио, поэтому текст можно сверять с записью. Авторы предлагают демонстрацию на Hugging Face, тогда как API и отдельные приложения описывают как будущие планы. Доступность демо не следует принимать за состоявшийся запуск всех способов интеграции. В этой заметке результаты атрибутированы разработчикам; самостоятельного сравнения систем редакция не проводила.
+
+### Почему это важно
+
+Качество распознавания речи зависит от того, какие голоса и условия представляют испытания. Внимание к диалекту делает этот вопрос заметным, а временные отметки помогают проверять итог. Содержательный следующий шаг для оценки продукта — сравнить расшифровки на подходящих записях и понять типы ошибок. Средняя метрика полезна как ориентир, когда рядом сохранены её набор данных, протокол и границы интерпретации.
+
+## English version
+
+The Technology Innovation Institute [introduced Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr), a 1.6-billion-parameter speech-recognition model with a particular focus on Emirati Arabic. The full announcement was published on October 7. The model also supports English, French, Spanish and Portuguese. Its output is a transcript rather than a translation: the developers specify that it remains in the language spoken. All five languages use the same model weights, without requiring a separate language flag.
+
+The focus on dialect addresses a practical problem. As the developers explain, a system that transcribes a formal broadcast well may still struggle with an everyday conversation or a phone recording. Vocabulary, pronunciation and recording conditions differ. TII reports training on Emirati, Modern Standard Arabic, other Arabic and Gulf dialects, and English. The training also included noise, music, overlapping speech, reverberation and telephony effects to expose the system to a wider range of audio conditions.
+
+The headline public result is the average word error rate, or WER, across six Arabic test sets. TII reports 20.92%, compared with 23.17% for the best published result in the leaderboard snapshot it checked on September 30. That is a difference of 2.25 percentage points. Both the comparison unit and the date matter: this is not a claim of superiority over every system on every recording. The test sets receive equal weight in the average, and the figures refer to a specified evaluation protocol.
+
+The team separately reports an internal evaluation of Emirati and Gulf speech, with 22.73% WER and a 10.19% character error rate. According to TII, Falcon ASR achieved the lowest values among the systems compared. This assessment uses held-out recordings and human-validated transcripts; it should not be silently merged with the public leaderboard. For English, the developers report a mean WER of 5.74% across seven public tests. Those figures describe their datasets, rather than the probability that any particular sentence will be transcribed correctly.
+
+One useful feature sits outside the leaderboard contest: word-level timestamps connect the transcript to positions in the audio, making it easier to check the text against the recording. The announcement offers a Hugging Face demonstration, while API access and native applications remain planned. Availability of the demonstration should not be read as a completed launch of every integration method. This article attributes evaluation results to the developers; the newsroom has not run an independent comparison.
+
+### Why it matters
+
+Speech-recognition quality depends on which speakers and conditions a test represents. The emphasis on dialect makes that question visible, while timestamps help users inspect the output. A meaningful evaluation should compare transcripts on appropriate recordings and examine the errors they contain. An average score becomes more informative when its dataset, protocol and interpretation limits remain attached.
+
+
+----- 02-sspicy-orbital-inspection (tech) — source: https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/ -----
+
+## Русская версия
+
+NASA [описало программу испытаний SSPICY](https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/) в публикации от 8 октября. Аппарат Otter, созданный Starfish Space, должен приблизиться к неработающим космическим объектам и осмотреть их. Сам запуск состоялся 1 октября с базы Ванденберг в Калифорнии. Начало сближений агентство относит к первым месяцам 2027 года. Поэтому новость — подробности предстоящей демонстрации, а не сообщение об уже обследованных спутниках или убранном с орбиты мусоре.
+
+SSPICY расшифровывается как Small Spacecraft Propulsion and Inspection Capability. План предусматривает осмотр до четырёх объектов американского происхождения на низкой околоземной орбите: это могут быть спутники или корпуса ракет. Otter должен подходить на расстояния порядка нескольких сотен ярдов. NASA описывает автономное наведение и управление с минимальным участием наземных операторов. Компьютерное зрение и датчики должны обеспечивать решения по навигации во время подхода, а не только показывать картинку людям на Земле.
+
+При осмотре аппарат будет собирать сведения о скорости вращения цели, её ориентации и состоянии поверхности. Это конкретные характеристики объекта, а не неопределённая проверка того, «всё ли хорошо». Вращение и положение имеют значение для понимания поведения тела на орбите. При этом публикация не обещает, что полученные данные сразу позволят починить любой спутник. Демонстрация проверяет возможности наблюдения и сближения, на которые будущим обслуживающим миссиям ещё предстоит опираться.
+
+Между целями Otter будет перемещаться с электрической двигательной установкой. Отдельная шарнирная роботизированная штанга должна испытать изменение направления тяги для точного маневрирования между орбитами. NASA подчёркивает совместную проверку технологий в составе одной системы. Смысл такого этапа понятен: работоспособность датчика, программы и двигателя по отдельности ещё не описывает, как они действуют вместе при переходе к следующему объекту. Здесь проверяется именно их сочетание в миссии.
+
+Есть существенная граница программы: Otter не должен касаться целей или стыковаться с ними. Ремонт и безопасное сведение объектов в атмосферу названы возможными направлениями будущих работ, а не действиями нынешнего полёта. Starfish Space разработала и эксплуатирует аппарат Otter 24C; NASA финансирует и управляет технологической демонстрацией через программу малых аппаратов и распределённых систем. Из этой модели сотрудничества не следует, что испытания уже завершены или что эксплуатационная услуга ремонта открыта заказчикам.
+
+### Почему это важно
+
+Неиспользуемые спутники и ракетные корпуса могут сталкиваться или разрушаться, добавляя обломки в среду, где работают другие аппараты. Инспекция помогает получить сведения о таких объектах перед более сложными операциями. SSPICY интересна как проверка связки автономной навигации, датчиков и двигателей. Для оценки результата важно дождаться заявленных сближений и данных об их выполнении: состоявшийся запуск — начало испытаний, а не замена доказательству их успеха.
+
+## English version
+
+NASA [outlined the SSPICY demonstration](https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/) in an October 8 publication. Otter, built by Starfish Space, is intended to approach and inspect inactive objects in space. The spacecraft launched on October 1 from Vandenberg Space Force Base in California, but NASA places the beginning of target approaches in early 2027. The news is the inspection plan, rather than a report that satellites have already been examined or debris removed.
+
+SSPICY stands for Small Spacecraft Propulsion and Inspection Capability. The mission plans to inspect up to four inoperable objects of U.S. origin in low Earth orbit, including satellites or rocket bodies. Otter is intended to approach within hundreds of yards. NASA describes autonomous guidance and control with minimal ground input. Computer vision and sensors are to support real-time navigation decisions during an approach, rather than simply transmit pictures for operators to interpret on Earth.
+
+The inspection will gather information about each target's spin rate, orientation and surface condition. These are specific physical characteristics, rather than an undefined assessment of whether an object is working properly. Rotation and attitude help describe how the target behaves. The announcement does not promise that such measurements will immediately enable repairs to every satellite. It describes an observation and approach capability on which future servicing missions could build.
+
+An electric propulsion system will move Otter between targets. An articulating robotic boom will test directing the spacecraft's thrusters for precise maneuvering between orbits. NASA emphasizes that the technologies will be tested together as an integrated system. This distinction matters: a sensor, a control program and an engine working individually do not fully establish how their combination behaves during a mission. The demonstration is intended to examine that combined operation.
+
+A clear boundary remains: Otter will neither touch nor dock with the objects it inspects. Repair and safe removal into Earth's atmosphere are described as possible future applications, rather than operations this flight will perform. Starfish Space developed and operates the Otter 24C spacecraft, while NASA funds and manages the technology demonstration through its small-spacecraft and distributed-systems program. That arrangement does not imply completed trials or an operational repair service already available to customers.
+
+### Why it matters
+
+Inactive satellites and rocket bodies can collide or fragment, adding debris to the environment used by working spacecraft. Inspection can provide information before more demanding operations are attempted. SSPICY is useful to follow as a test of autonomous navigation, sensing and propulsion together. Assessing the outcome requires the planned approaches and evidence of their execution. A completed launch begins that process; it does not establish that all the intended technologies have succeeded.
+
+
+----- 03-metr-time-horizon-statistics (ai) — source: https://arxiv.org/html/2610.12466v1 -----
+
+## Русская версия
+
+Дрю Нгуен и Уильям Фитиан из Калифорнийского университета в Беркли [опубликовали статистический разбор горизонтов ИИ](https://arxiv.org/html/2610.12466v1). Первая версия препринта датирована 8 октября. Авторы повторно анализируют данные METR по 228 программным задачам и 26 системам, предлагая более гибкие способы оценки. Их вопрос касается измерительной шкалы: насколько время, нужное человеку, помогает описывать сложность задания для ИИ. Это исследование методики, а не объявление нового рекорда конкретной модели.
+
+Горизонт с вероятностью успеха 50% имеет довольно точный смысл. Это длительность человеческой работы над задачами, которые ИИ выполняет примерно в половине попыток. Число не равно времени, которое агент способен непрерывно работать без ошибок, и не гарантирует половину любого произвольного проекта. Оно получается из выбранных заданий и статистической модели. Поэтому красивый график в минутах или часах остаётся оценкой, а не прямым показанием секундомера автономности.
+
+Авторы ослабляют предположение о линейной связи сложности для ИИ с логарифмом человеческого времени. Для этого они используют гибкую кривую и методы теории ответов на задания, позволяющие учитывать различия между задачами и их семействами. В полученной зависимости заметен почти плоский участок между примерно двумя и тридцатью минутами. По их интерпретации, увеличение человеческого времени в этой области не сопровождается таким же ростом трудности для ИИ, как на других участках шкалы.
+
+Понятный пример из работы: переход горизонта от трёх к тридцати минутам не равноценен переходу от тридцати минут к пяти часам. В обоих случаях множитель равен десяти, но найденная связь времени со сложностью различается. Это не означает, что развитие систем исчезло из данных. Авторы прямо отделяют пересмотр оценок и их интерпретации от отрицания наблюдаемого роста. Критика направлена на то, какой смысл читатель приписывает расстояниям на графике.
+
+Новые оценки команда проверяет по прогнозам успеха на отложенных семействах задач, используя перекрёстную проверку и несколько способов статистического оценивания. По результатам авторов, предложенные подходы улучшают точечные оценки по использованным метрикам. Они также предлагают смотреть на графики преобразования времени в сложность и условной вероятности успеха. При этом исследование остаётся препринтом и разбором определённого набора программных задач; перенос вывода на всю экономику, робототехнику или любые профессии требует отдельной проверки.
+
+### Почему это важно
+
+Человеческие часы делают достижения ИИ понятными, но понятная единица ещё не делает шкалу одинаковой на всех участках. Работа предлагает сохранить полезный показатель и добавить диагностику, показывающую его ограничения. Для читателя это повод спрашивать, какие задачи стоят за цифрой, как оценена их трудность и проверяется ли прогноз успеха. Так можно обсуждать прогресс содержательно, не превращая один статистический график в обещание надёжно выполненного проекта.
+
+## English version
+
+Drew Nguyen and William Fithian of UC Berkeley [published a statistical analysis of AI time horizons](https://arxiv.org/html/2610.12466v1), with its first preprint version dated October 8. They reanalyze METR data covering 228 software tasks and 26 AI systems, proposing more flexible estimation methods. Their question concerns the measurement scale: how well does the time a human needs describe difficulty for an AI? This is methodological research, rather than the announcement of a new record for a particular model.
+
+A 50% time horizon has a specific meaning. It is the human completion time of tasks that an AI succeeds at with roughly even odds. It does not measure how long an agent can continuously operate without mistakes, nor guarantee success on half of an arbitrary project. The number is estimated from selected tasks and a statistical specification. A chart expressed in minutes or hours therefore remains an estimate, rather than a direct stopwatch reading of autonomy.
+
+The authors relax the assumption that AI task difficulty depends linearly on the logarithm of human time. They use flexible curves and item-response methods that account for differences between tasks and task families. The resulting relationship has a nearly flat region between approximately two and thirty minutes. Their interpretation is that greater human completion time within this region does not imply the same increase in AI difficulty seen elsewhere on the scale.
+
+The paper illustrates the point with two tenfold changes: moving from three to thirty minutes, and moving from thirty minutes to five hours. The multiplier is identical, but the estimated relationship between time and difficulty differs. That does not mean progress has disappeared from the data. The authors explicitly distinguish revised estimates and interpretation from a rejection of the observed growth. Their critique addresses what readers infer from distances between points on the chart.
+
+The team evaluates its estimates against success predictions on held-out task families, using cross-validation and multiple statistical scoring measures. According to the authors, the proposed approaches improve point estimates across the evaluation metrics used. They also recommend time-to-difficulty conversion plots and conditional success trajectories alongside the headline horizons. The study remains a preprint and an analysis of a particular software-task collection. Applying its conclusions to the entire economy, robotics or arbitrary occupations would require separate validation.
+
+### Why it matters
+
+Human hours make AI performance easier to communicate, but an understandable unit does not ensure that the scale behaves uniformly. This work proposes retaining a useful measure while adding diagnostics that reveal its limitations. Readers can ask which tasks support the number, how their difficulty is estimated and whether success predictions hold up. That supports a more informative discussion of progress without turning a statistical chart into a promise that a real project will be completed reliably.
+
+
+----- 04-ml-intern-training-cases (ai) — source: https://huggingface.co/blog/building-with-ml-intern -----
+
+## Русская версия
+
+Hugging Face [опубликовала разбор шести проектов с ML Intern](https://huggingface.co/blog/building-with-ml-intern) 8 октября. Авторы описывают обучение и адаптацию моделей через режим в HuggingChat: пользователь формулирует задачу, агент планирует работу, запрашивает бюджет, пробует небольшой запуск, затем обучает, оценивает и публикует результат. Новость здесь — подробный отчёт о конкретных опытах. Он не доказывает, что любое обучение теперь можно свести к одному сообщению или выполнить за одинаковую сумму.
+
+Самая полезная часть разбора — устройство задания. Авторы предлагают заранее назвать набор данных, исходную модель, ожидаемый результат и известные проверенные сведения. Две проверки особенно важны: измерить качество исходной модели до обучения и выполнить короткий пробный запуск перед большим. В одном из сценариев проверяется, что сохранённые веса действительно изменились. Это отделяет запуск программы без явной ошибки от обучения, результат которого можно содержательно сравнить с исходной точкой.
+
+Один из проектов — компактная модель для переписывания запросов к генератору изображений. По отчёту, она имеет 0,8 миллиарда параметров вместо девятимиллиардного учителя и предлагается также в GGUF для CPU. В работе использовали ответы учителя для подготовки примеров, затем фильтрацию и обучение меньших моделей. Авторы называют около 16 долларов вычислительных расходов за весь этот проект. Это стоимость перечисленных заданий на CPU и GPU, а не универсальная цена создания любого помощника или гарантия одинакового качества на чужих запросах.
+
+Другой сценарий — адаптация генератора изображений под персонажа. Команда сравнивала одинаковые запросы на промежуточных сохранениях обучения. По описанию, нужный образ появился раньше, чем нежелательные стилистические изменения стали заметны в несвязанных запросах. Это пример того, зачем выбирать контрольную точку по проверке результата, а не просто брать последнюю. Увеличение числа шагов может менять поведение модели и за пределами желаемой новой способности; в отчёте это показано как наблюдение конкретного опыта.
+
+Разбор также включает изменение ракурса, редактирование по нарисованному контуру и сокращение числа шагов генератора. Авторы сообщают о неудачных заданиях из-за зависимостей или путей и о повторных запусках. В таблице суммарно указано примерно 103 доллара вычислительных расходов по шести проектам. Человеческая подготовка заданий, выбор данных и проверка результата описаны отдельно, поэтому эту сумму нельзя выдавать за полную цену работы. Наличие опубликованной модели тоже не заменяет оценку её пригодности для следующей задачи.
+
+### Почему это важно
+
+Агентное обучение становится убедительнее, когда рядом с моделью есть исходная оценка, пробный запуск, сравнение сохранений и понятная граница расходов. Отчёт показывает такой процесс на небольших примерах, а не обещает универсальную автоматизацию. Практический вывод — автоматизировать выполнение можно, сохраняя проверку цели и результата. Для оценки дальнейших проектов важны те же вопросы: что стало лучше, на каких примерах это видно и какие затраты действительно посчитаны.
+
+## English version
+
+Hugging Face [published an account of six projects using ML Intern](https://huggingface.co/blog/building-with-ml-intern) on October 8. The authors describe model training and adaptation through a HuggingChat mode: the user specifies a task, the agent plans the work, requests a budget, runs a small trial, then trains, evaluates and publishes a result. The development is a detailed report of particular experiments. It does not establish that every training job can be reduced to one message or completed for the same amount.
+
+The most useful part is how assignments are framed. The authors recommend naming the dataset, base model, expected deliverables and facts already checked. Two tests are central: evaluate the base model before training, and run a short trial before a larger job. One scenario checks that saved weights have actually changed. That distinguishes a program finishing without an obvious error from training whose result can meaningfully be compared with its starting point.
+
+One project produces a compact prompt rewriter for image generation. The reported student has 0.8 billion parameters, compared with a nine-billion-parameter teacher, and is also offered in GGUF form for CPU use. The process used teacher-generated examples, filtering and smaller-model training. The authors put total compute charges for this project at about $16. That describes the listed CPU and GPU jobs, rather than a universal price for creating an assistant or a guarantee of equivalent quality on someone else's requests.
+
+Another project adapts an image generator to a character. The team compares the same prompts across training checkpoints. In the account, the desired character appears before unwanted stylistic changes become apparent in unrelated prompts. This illustrates why a checkpoint should be chosen by inspecting outputs, rather than automatically selecting the last one. Additional training can change behavior outside the intended new ability; the report presents that as an observation from this particular experiment.
+
+The other examples include changing viewing angles, editing from a drawn outline and reducing an image generator's step count. The authors also describe failed jobs caused by dependencies or paths, followed by resubmissions. Their table totals approximately $103 in compute charges across the six projects. Human preparation of assignments, dataset choices and result checks is discussed separately, so that figure should not be presented as the complete cost of the work. Publishing a model likewise does not establish that it is suitable for the next task.
+
+### Why it matters
+
+Agent-assisted training is easier to assess when a model comes with a baseline, a trial run, checkpoint comparisons and an explicit spending boundary. The report illustrates that process through small examples, rather than promising universal automation. Execution can be automated while the purpose and outcome remain subject to checks. Future projects should answer the same questions: what improved, which examples demonstrate it, and which costs were actually counted?
+
+
+----- 05-trading-card-odds (economy) — source: https://phys.org/news/2026-10-card-odds-rare-cards.html -----
+
+## Русская версия
+
+Исследователи проверили, насколько упаковки коллекционных и игровых карт сообщают покупателю вероятности получения редких экземпляров. В [авторском изложении результатов](https://phys.org/news/2026-10-card-odds-rare-cards.html), опубликованном 8 октября на Phys.org, Леон Сяо сообщает о выборке из 50 наборов в Гонконге. Лишь 20% содержали какие-либо сведения о вероятностях. Ни один не раскрывал процентный шанс получения каждой отдельной карты. Работа опубликована в Journal of Behavioral Addictions; ключевой предмет этого результата — прозрачность информации при покупке.
+
+Разница между покупкой конкретной карты и закрытой упаковки принципиальна. В первом случае известен приобретаемый предмет, во втором желаемый экземпляр может не попасться. Само существование редких карт не сообщает вероятность их получения. Яркий пример возможного содержимого и количественная оценка шанса — разные виды информации. Исследование рассматривает именно вторую: что покупатель может узнать о вероятностях из раскрытых сведений, а не насколько эффектно выглядит коллекция.
+
+При этом показатель 20% не означает, что эти наборы давали полную картину. Авторы разделяют наличие хотя бы каких-то вероятностей и раскрытие шанса для каждой карты. Частичная информация может помогать ориентироваться, но не обязательно отвечает на вопрос о конкретном желанном экземпляре. Это различие позволяет точнее читать результат: отсутствие полного раскрытия найдено во всей выборке, тогда как отсутствие любых сведений — в её большей части. Смешивать эти два показателя было бы ошибкой.
+
+Границы исследования тоже важны. Пятьдесят упаковок, проверенных в Гонконге, не представляют автоматически все наборы всех стран и всех лет. Из проверки информации нельзя вывести, что редкие карты никогда не кладут внутрь или что указанная вероятность обязательно неверна. Для исследования состава понадобились бы другие данные. Опубликованный результат говорит о возможности узнать шансы до покупки; он не является обвинением каждого производителя в подмене содержимого или доказательством нечестности отдельного набора.
+
+Автор связывает тему с более широкой дискуссией о случайных покупках, включая цифровые контейнеры с игровыми предметами. Для физических карт вопрос остаётся похожим: человек платит за результат, который заранее не известен полностью. В статье обсуждаются дорогие коллекционные наборы и новые способы их продажи, но эти наблюдения не превращают локальную проверку упаковок в глобальную статистику рынка. Юридические выводы различаются по странам; в этой заметке не устанавливается правовой статус конкретного продукта и не даётся оценка отдельной компании.
+
+### Почему это важно
+
+Прозрачность вероятностей помогает отделить возможный приз от информации о том, насколько он вероятен. Исследование предлагает измеримый способ обсуждать этот вопрос: проверить, какие сведения действительно доступны на упаковке. Для дальнейшей работы полезны более широкие выборки и сравнение полноты раскрытия. Уже нынешний результат показывает, почему надпись о редкости, фотография ценной карты и численный шанс её получения не должны восприниматься как взаимозаменяемые ответы покупателю.
+
+## English version
+
+Researchers examined how trading and collectible card packs disclose the chances of obtaining rare cards. In an [author-written account of the findings](https://phys.org/news/2026-10-card-odds-rare-cards.html), published on Phys.org on October 8, Leon Xiao describes a sample of 50 packs checked in Hong Kong. Only 20% provided any probability information, and none disclosed the percentage chance of obtaining every individual card. The research appeared in the Journal of Behavioral Addictions. Its central finding concerns information available at purchase.
+
+Buying a specific card differs from buying a sealed random pack. In the first case, the item is known; in the second, the desired card may not appear. The existence of rare cards does not itself state the probability of receiving one. A striking example of possible contents and a numerical estimate of the chance are different kinds of information. The study examines the latter: what disclosed information allows a buyer to know about probabilities, rather than how appealing a collection looks.
+
+The 20% figure does not mean those packs offered a complete picture. The authors distinguish disclosing some probabilities from providing odds for each card. Partial information can help orient a buyer without necessarily answering the question about one particular desired item. The distinction makes the result more precise: incomplete disclosure was found throughout the sample, while the absence of any probability information applied to most of it. Conflating those measures would misstate the findings.
+
+The scope matters too. Fifty packs checked in Hong Kong do not automatically represent every product in every country and year. A disclosure check cannot establish that rare cards are never included or that a stated probability is necessarily incorrect. Examining actual contents would require different evidence. The published result concerns knowing the odds before purchase; it is not an accusation that every manufacturer substitutes contents or proof that a particular pack is unfair.
+
+The author connects the question with the broader discussion of randomized purchases, including digital loot boxes. Physical cards raise a similar information issue: a customer pays for an outcome that is not fully known beforehand. The account discusses expensive collector packs and changing sales methods, but these observations do not turn a local packaging study into global market statistics. Legal interpretations also vary by jurisdiction. This article does not determine the legal status of a specific product or assess a particular company.
+
+### Why it matters
+
+Probability disclosure helps separate a possible prize from information about how likely it is. The study offers a measurable way to examine that question: check which details are actually supplied with a pack. Broader samples and comparisons of disclosure completeness would strengthen future work. The present finding illustrates why a rarity label, an image of a valuable card and numerical odds should not be treated as interchangeable answers for a buyer.
+
+
 ===== EDITION 33 — 2026-10-08 =====
 
 ## От редакции

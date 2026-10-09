@@ -10,18 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №33 / Edition №33 — 2026-10-08** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №34 / Edition №34 — 2026-10-09** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Haiku 5.5 делает ставку на массовые задачи и разную цену длинного контекста](editions/2026/10-08/01-haiku-55-volume-work.md)
-- **[Технологии]** [Новые Surface обещают крупные локальные модели — пока открыты предзаказы](editions/2026/10-08/02-surface-local-ai-preorders.md)
-- **[Технологии]** [Windows Search учится выполнять действия — сначала в английском preview](editions/2026/10-08/03-windows-search-preview-actions.md)
-- **[Наука]** [Dragon готовят к старту 13 октября с научным грузом и солнечными батареями](editions/2026/10-08/04-dragon-crs35-science-plan.md)
-- **[Культура]** [MIT сообщил о смерти Маргарет Гамильтон — её наследие в надёжности программ](editions/2026/10-08/05-margaret-hamilton-engineering-legacy.md)
-- **[ИИ]** [Google представила Gemini agent как рабочую систему с памятью и контролем затрат](editions/2026/10-08/06-gemini-enterprise-agent.md)
-- **[Технологии]** [Для LISA готовят последний испытательный телескоп перед лётным оборудованием](editions/2026/10-08/07-lisa-test-telescope.md)
-- **[Наука]** [Solar Orbiter связал магнитный изгиб солнечного ветра с его источником у Солнца](editions/2026/10-08/08-solar-orbiter-switchback.md)
-- **[Культура]** [Нобель по литературе получила Энн Карсон, соединяющая античность и новые формы](editions/2026/10-08/09-anne-carson-nobel.md)
-- **[Наука]** [Crew-12 приводнился у Калифорнии после 237 дней на МКС](editions/2026/10-08/10-crew12-splashdown.md)
+- **[ИИ]** [Falcon ASR делает ставку на арабские диалекты и отметки времени для каждого слова](editions/2026/10-09/01-falcon-arabic-asr.md)
+- **[Технологии]** [SSPICY готовится осмотреть неработающие объекты на орбите без стыковки](editions/2026/10-09/02-sspicy-orbital-inspection.md)
+- **[ИИ]** [Статистики предлагают читать горизонты ИИ вместе с графиками сложности задач](editions/2026/10-09/03-metr-time-horizon-statistics.md)
+- **[ИИ]** [Hugging Face показала обучение небольших моделей через ML Intern с проверками и бюджетом](editions/2026/10-09/04-ml-intern-training-cases.md)
+- **[Экономика]** [Исследование 50 карточных наборов обнаружило нехватку сведений о шансах на редкие карты](editions/2026/10-09/05-trading-card-odds.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
