@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-10",
+  "slot": "morning",
+  "checked_at": "2026-10-10T10:09:23.361191+00:00",
+  "digest_sha256": "7638053d5eda7b08abe5ac9c421e0b4f184a46e1e6fb25f354a2ecf24dcd8f81",
+  "articles": [
+    {
+      "path": "editions/2026/10-10/01-deno-cloudflare-transition.md",
+      "sha256": "ba6b04e0058796ff6d551f2c18eddc51bae4b874ed69b434dc19e6e79a61d409",
+      "source": "https://deno.com/blog/cloudflare"
+    },
+    {
+      "path": "editions/2026/10-10/02-ai2-gpu-time-budgets.md",
+      "sha256": "33b330aa5136d01ad98b5a6694104a24edfb2c02c5ef90d58fdd8c2de9a3d412",
+      "source": "https://huggingface.co/blog/allenai/impactful-scheduling"
+    },
+    {
+      "path": "editions/2026/10-10/03-krepe-heat-shield-tests.md",
+      "sha256": "bff9d48855c6c6bbe15438653caaab0f3ca24fa246d57a69949dea0f0ebcabba",
+      "source": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies"
+    },
+    {
+      "path": "editions/2026/10-10/04-commercial-stations-proposals.md",
+      "sha256": "25de8b63e3e1e0178626923b5ca3b32c8e2e33b4474f146fd465039be0f261db",
+      "source": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations"
+    },
+    {
+      "path": "editions/2026/10-10/05-living-planet-index-2026.md",
+      "sha256": "743bab1e3c957290c1ef8289cb909ac20f7ffffb312fb505cae20d3d0683f795",
+      "source": "https://ourworldindata.org/2026-lpi-update"
+    }
+  ]
+}

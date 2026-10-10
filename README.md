@@ -10,13 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №34 / Edition №34 — 2026-10-09** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №35 / Edition №35 — 2026-10-10** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[ИИ]** [Falcon ASR делает ставку на арабские диалекты и отметки времени для каждого слова](editions/2026/10-09/01-falcon-arabic-asr.md)
-- **[Технологии]** [SSPICY готовится осмотреть неработающие объекты на орбите без стыковки](editions/2026/10-09/02-sspicy-orbital-inspection.md)
-- **[ИИ]** [Статистики предлагают читать горизонты ИИ вместе с графиками сложности задач](editions/2026/10-09/03-metr-time-horizon-statistics.md)
-- **[ИИ]** [Hugging Face показала обучение небольших моделей через ML Intern с проверками и бюджетом](editions/2026/10-09/04-ml-intern-training-cases.md)
-- **[Экономика]** [Исследование 50 карточных наборов обнаружило нехватку сведений о шансах на редкие карты](editions/2026/10-09/05-trading-card-odds.md)
+- **[Технологии]** [Deno присоединяется к Cloudflare и объявляет сроки поддержки своих продуктов](editions/2026/10-10/01-deno-cloudflare-transition.md)
+- **[ИИ]** [Ai2 распределяет GPU по бюджетам времени и сообщает о сокращении очередей](editions/2026/10-10/02-ai2-gpu-time-budgets.md)
+- **[Наука]** [NASA использует уходящий грузовой корабль для испытаний двенадцати теплозащитных капсул](editions/2026/10-10/03-krepe-heat-shield-tests.md)
+- **[Экономика]** [NASA открыла приём предложений по коммерческим станциям на низкой орбите](editions/2026/10-10/04-commercial-stations-proposals.md)
+- **[Наука]** [Living Planet Index снова показывает спад 73% — важно понимать, что именно он измеряет](editions/2026/10-10/05-living-planet-index-2026.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deno присоединяется к Cloudflare и объявляет сроки поддержки своих продуктов - frontier-wire</title>
+<meta name="description" content="The team sets a year of runtime updates and six more months for Deploy, while directing future work toward Workers and Durable Objects.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-10/01-deno-cloudflare-transition.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Deno joins Cloudflare and sets transition timelines for its products", "alternativeHeadline": "Deno присоединяется к Cloudflare и объявляет сроки поддержки своих продуктов", "datePublished": "2026-10-10", "inLanguage": ["ru", "en"], "isBasedOn": "https://deno.com/blog/cloudflare", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-10/01-deno-cloudflare-transition.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-10-10 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Deno присоединяется к Cloudflare и объявляет сроки поддержки своих продуктов</span><span class="lang-en">Deno joins Cloudflare and sets transition timelines for its products</span></h1>
+  <p class="dek big"><span class="lang-ru">Команда оставляет год обновлений runtime и шесть месяцев работы Deploy; будущую платформу связывает с Workers и Durable Objects.</span><span class="lang-en">The team sets a year of runtime updates and six more months for Deploy, while directing future work toward Workers and Durable Objects.</span></p>
+
+  <div class="prose lang-ru"><p>Команда Deno <a href="https://deno.com/blog/cloudflare">объявила о присоединении к Cloudflare</a> 9 октября. Runtime получит ещё год ежемесячных исправлений и обновлений безопасности, затем команда прекратит его разработку, сохранив открытый код. Deno Deploy продолжит работу шесть месяцев; платным клиентам обещана помощь с переходом на Workers. Это разные сроки для разных продуктов. Открытость кода и продолжение работы управляемого сервиса также следует рассматривать отдельно: одно само по себе не гарантирует другое.</p>
+<p>Практический вопрос для команды, использующей Deno, — определить, от какой части системы зависит её приложение. Код, исполняемый в runtime, и приложение, размещённое в Deploy, могут иметь разные планы дальнейшей работы. Срок поддержки не сообщает автоматически объём переноса конкретного проекта. Для этого нужны сведения о его зависимостях, хранении данных, развёртывании и проверках. Это редакционный вывод из объявленного перехода, а не утверждение, что любой проект обязательно придётся полностью переписать.</p>
+<p>В <a href="https://blog.cloudflare.com/deno-joins-cloudflare/">совместном объяснении Cloudflare</a> будущая работа связана с объединением celld и workerd для самостоятельного размещения Workers и Durable Objects. Авторы описывают Durable Object как отдельно адресуемый объект с состоянием и базой SQLite. Одновременно они признают ограничение нынешнего самостоятельного workerd: поддержка этих объектов работает в одной инстанции. Распределённый вариант и более удобная эксплуатация на собственной инфраструктуре обозначены целью дальнейшей работы. Это направление проекта, а не готовый результат всей интеграции.</p>
+<p>Различие между опубликованным кодом и полноценно работающей распределённой системой существенно. Возможность прочитать или запустить компонент ещё не отвечает на вопросы размещения состояния, восстановления после сбоя и сопровождения нескольких узлов. Здесь объявление интересно как попытка сделать сам способ построения приложения частью решения. Проверять такую идею стоит по доступным реализациям и поведению под нагрузкой, а не только по тому, сколько инфраструктурных деталей обещает скрыть новый интерфейс.</p>
+<p>Для читателя важно и разделение фактов во времени. Присоединение команды объявлено сейчас; прекращение отдельных направлений и дальнейшая интеграция описаны как следующие этапы. Эти новости нельзя сокращать до утверждения, что все приложения Deno уже перестали работать. Из открытого кода также нельзя вывести гарантированное появление новой команды сопровождения. Такой переход меняет основание для планирования, но не сообщает заранее судьбу каждого проекта, который использует технологию.</p>
+<h3>Почему это важно</h3>
+<p>Разработчики выбирают не только язык или удобный API, но и модель сопровождения программы и сервиса. Объявленные сроки помогают отдельно оценить поддержку runtime, размещение приложения и будущую архитектуру. Полезный результат такого разбора — понятный список зависимостей и проверяемый путь продолжения работы. Новость даёт основания для этой оценки; решение по конкретному приложению требует знания самого приложения, а не общего вывода о победе или поражении одного подхода к JavaScript.</p></div>
+  <div class="prose lang-en"><p>The Deno team <a href="https://deno.com/blog/cloudflare">announced that it is joining Cloudflare</a> on October 9. Its runtime will receive monthly fixes and security updates for another year, after which the team's development will end while the code stays open. Deno Deploy will operate for six more months, with migration help promised to paying customers moving to Workers. These are separate product timelines. Open code and a managed service continuing to operate are also distinct matters: one does not automatically guarantee the other.</p>
+<p>For a team using Deno, a practical question is which part of the system its application depends on. Code executed by the runtime and an application hosted on Deploy may require different continuation plans. A support window does not itself establish how much migration a particular project needs. That assessment requires its dependencies, data storage, deployment and tests. This is an editorial implication of the transition, rather than a claim that every project must be rewritten completely.</p>
+<p>The <a href="https://blog.cloudflare.com/deno-joins-cloudflare/">joint Cloudflare explanation</a> describes future work combining celld and workerd to support self-hosted Workers and Durable Objects. The authors describe a Durable Object as an individually addressable, stateful unit with a SQLite database. They also acknowledge a current self-hosted workerd limitation: its Durable Objects support is single-instance. Distributed operation and easier management on users' own infrastructure are objectives of the work ahead, rather than established outcomes of the entire integration.</p>
+<p>Published source code and a fully operational distributed system are different achievements. Being able to inspect or start a component does not settle questions about placing state, recovering from failures and maintaining multiple nodes. The announcement is interesting as an effort to make the programming model itself part of that solution. The idea can be assessed through available implementations and behavior under load, rather than only through the number of infrastructure details a proposed interface promises to hide.</p>
+<p>The timeline also needs careful reading. The team transition is announced now; the ending of particular activities and further integration are subsequent stages. That should not be condensed into a statement that every Deno application has already stopped working. Open code likewise does not establish that a replacement maintenance team will appear. The announcement changes the basis for planning, without determining the future of each project built with the technology.</p>
+<h3>Why it matters</h3>
+<p>Developers choose a maintenance arrangement as well as a language or convenient API. The stated timelines allow runtime support, application hosting and future architecture to be considered separately. A useful assessment produces a clear dependency inventory and a continuation path that can be tested. The announcement provides a reason to make that assessment; decisions about a particular application still require understanding the application itself, rather than declaring one JavaScript approach a universal winner or loser.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://deno.com/blog/cloudflare">https://deno.com/blog/cloudflare</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
