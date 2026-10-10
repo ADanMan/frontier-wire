@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BrickBench проверяет, умеет ли ИИ спроектировать LEGO, а не просто показать красивую сборку - frontier-wire</title>
+<meta name="description" content="An October 8 preprint treats physical validity, prompt alignment and design quality as separate tests.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-10/07-brickbench-design-checks.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "BrickBench separates buildable LEGO designs from attractive images", "alternativeHeadline": "BrickBench проверяет, умеет ли ИИ спроектировать LEGO, а не просто показать красивую сборку", "datePublished": "2026-10-10", "inLanguage": ["ru", "en"], "isBasedOn": "https://arxiv.org/html/2610.12452v1", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-10/07-brickbench-design-checks.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-10 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">BrickBench проверяет, умеет ли ИИ спроектировать LEGO, а не просто показать красивую сборку</span><span class="lang-en">BrickBench separates buildable LEGO designs from attractive images</span></h1>
+  <p class="dek big"><span class="lang-ru">Препринт от 8 октября сравнивает физическую допустимость, соответствие заданию и качество дизайна — это разные проверки.</span><span class="lang-en">An October 8 preprint treats physical validity, prompt alignment and design quality as separate tests.</span></p>
+
+  <div class="prose lang-ru"><p>В <a href="https://arxiv.org/html/2610.12452v1">препринте BrickBench, поданном 8 октября</a>, исследователи предложили проверять кодирующих ИИ-агентов на проектировании LEGO. Важная оговорка касается слова «собираемый»: симулятор не моделирует прочность соединений. Проект, который проходит его проверку, ещё не получает гарантии, что настоящая конструкция не провиснет или не развалится.</p>
+<p>На <a href="https://www.brickben.ch/">странице проекта авторов</a> описаны 300 заданий и три режима. В Model разрешено до 400 деталей, в Set — от 400 до 4000, а Alt-Build ограничивает выбор содержимым определённого набора. Среда BrickAgent даёт средства размещать детали, смотреть результат и проверять ошибки. Отдельно оцениваются допустимость конструкции, соответствие описанию и относительное качество дизайна. Это не один универсальный балл, заменяющий все остальные.</p>
+<p>Авторы статьи также сообщают о сравнении с человеческими моделями: участники определили человеческий вариант в 323 из 360 оценок. Пары подбирали по количеству деталей, но не по одинаковому заданию. Это ограничивает вывод: исследование не является соревнованием человека и агента, которым выдали одну и ту же инструкцию. Мы не превращаем результат такого теста в оценку всей человеческой или машинной креативности.</p>
+<p>Редакционный интерес здесь — возможность сделать провал конкретным. Представьте, что вы просите спроектировать небольшой мост. Один вариант хорошо выглядит на картинке, но детали пересекаются. Другой физически допустим, однако изображает не мост. Третий выполняет формальные условия, но выглядит скучно. Это разные причины не принять работу, и исправления для них тоже потребуются разные. Один красивый рендер не позволяет понять, с каким вариантом вы имеете дело.</p>
+<p>Такой мысленный пример показывает пользу раздельных проверок. Если агент видит локальную ошибку соединения, можно обсуждать исправление соединения. Если не выполнен пункт задания, нужен возврат к требованиям. Если всё проверяемое выполнено, остаётся дизайнерский выбор: пропорции, выразительность и уместность. Требовать от одного показателя ответа на все эти вопросы — значит заранее потерять часть информации.</p>
+<p>Но и набор проверок стоит оценивать критически. Проверяющая программа видит только заложенные в неё условия. Добавление ещё одного теста может изменить понятие успеха, даже если сама модель останется прежней. Для читателя таблицы результатов это повод спросить не только о месте агента, но и о том, какие ошибки вообще могли попасть в оценку.</p>
+<h3>Почему это важно</h3>
+<p>BrickBench даёт понятный повод обсуждать качество работы ИИ через готовый результат и условия его проверки. Наш вывод: перед сравнением баллов сформулируйте, что вы хотите получить и что признаете ошибкой. Проект из деталей хорошо показывает, почему соответствие инструкции, отсутствие обнаруженных дефектов и удачный дизайн нельзя автоматически считать синонимами.</p></div>
+  <div class="prose lang-en"><p>The <a href="https://arxiv.org/html/2610.12452v1">BrickBench preprint submitted on October 8</a> evaluates coding agents on LEGO design. An important qualification concerns the word buildable: the simulator does not model connection strength. Passing its checks therefore provides no guarantee that a real assembly will avoid sagging or falling apart.</p>
+<p>The authors' <a href="https://www.brickben.ch/">project page</a> describes 300 prompts and three settings. Model permits up to 400 parts; Set requires 400–4000; Alt-Build restricts agents to the inventory of a particular retail set. BrickAgent supplies tools to place parts, inspect the assembly and check failures. Physical validity, agreement with the description and relative design quality receive separate assessments. No single score makes the others redundant.</p>
+<p>The paper also reports a comparison with human designs: raters identified the human version in 323 of 360 judgments. Pairs were matched by part count rather than by an identical assignment. This limits the interpretation: it was not a contest in which a person and an agent received the same instructions. We would not turn this result into a measurement of all human or machine creativity.</p>
+<p>Our editorial interest is the opportunity to make failure specific. Imagine asking for a small bridge. One output looks convincing in an image but contains intersecting pieces. Another meets physical constraints but depicts something other than a bridge. A third satisfies the formal requirements yet makes an uninspired design. These are different reasons to reject an output, requiring different fixes. An attractive rendering alone cannot tell you which case you have.</p>
+<p>This hypothetical example illustrates why separate checks are useful. A reported connection error invites a connection repair. An unmet requirement calls for revisiting the brief. Once the verifiable conditions are satisfied, questions of proportion, expression and suitability remain. Asking one metric to settle every question discards information before the comparison begins.</p>
+<p>The checks themselves deserve scrutiny too. A validator can see only the conditions built into it. Adding a test can change what counts as success without changing the underlying model. When reading a results table, it is therefore worth asking which defects could enter the evaluation, as well as where an agent ranks. That question is especially useful when a score is presented as an all-purpose measure of capability.</p>
+<h3>Why it matters</h3>
+<p>BrickBench offers an accessible way to discuss AI output through the finished object and the conditions used to inspect it. Our takeaway is to define the desired result and the failures that would make it unacceptable before comparing scores. A design made of parts makes clear why following instructions, having no detected defects and producing a compelling design should never automatically be treated as the same achievement.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://arxiv.org/html/2610.12452v1">https://arxiv.org/html/2610.12452v1</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-10",
+  "slot": "evening",
+  "checked_at": "2026-10-10T16:13:31.875540+00:00",
+  "digest_sha256": "be9d80270a187dbf16fb66a8f3615e684f40e8899ceeffd9e2a5c33b2d40ac4f",
+  "articles": [
+    {
+      "path": "editions/2026/10-10/06-pillay-peace-prize.md",
+      "sha256": "92b27d0e073749b69dfbcd1c7877c742987019d188bb79be52124f824c2782b9",
+      "source": "https://www.nobelprize.org/prizes/peace/2026/press-release"
+    },
+    {
+      "path": "editions/2026/10-10/07-brickbench-design-checks.md",
+      "sha256": "8081e8c75132fe8b47bd0d126143bac77563a28643f9faee3e2c0ec4420aea36",
+      "source": "https://arxiv.org/html/2610.12452v1"
+    },
+    {
+      "path": "editions/2026/10-10/08-chaps-property-indicator.md",
+      "sha256": "aae29f0861b53d6b188b24427ca831849e3681c09b20d4e93a3874de9a425a8a",
+      "source": "https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes"
+    },
+    {
+      "path": "editions/2026/10-10/09-voice-coding-reviewed.md",
+      "sha256": "18c412b5155446e29d1f086d8f70efdc02d013b90dd869f4a81f74c3178c7a1a",
+      "source": "https://simonwillison.net/2026/Oct/9/built-using-my-voice"
+    },
+    {
+      "path": "editions/2026/10-10/10-asana-browser-cache-study.md",
+      "sha256": "e988cee9644d37f0d96efbef566c661b17e065f388ba551ae8f4a4597fd349cf",
+      "source": "https://asana.com/inside-asana/cut-browsers-agent-cost"
+    }
+  ]
+}

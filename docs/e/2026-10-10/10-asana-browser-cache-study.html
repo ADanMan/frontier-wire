@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asana связала экономию браузерного агента со стабильностью истории — число 76× требует контекста - frontier-wire</title>
+<meta name="description" content="A single-task study separates model changes, caching policy, token costs and the completeness of the final answer.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-10/10-asana-browser-cache-study.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Asana links browser-agent savings to stable history, with qualifications around its 76× claim", "alternativeHeadline": "Asana связала экономию браузерного агента со стабильностью истории — число 76× требует контекста", "datePublished": "2026-10-10", "inLanguage": ["ru", "en"], "isBasedOn": "https://asana.com/inside-asana/cut-browsers-agent-cost", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-10/10-asana-browser-cache-study.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-10 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Asana связала экономию браузерного агента со стабильностью истории — число 76× требует контекста</span><span class="lang-en">Asana links browser-agent savings to stable history, with qualifications around its 76× claim</span></h1>
+  <p class="dek big"><span class="lang-ru">Исследование одной задачи различает смену модели, настройку кэша, цену токенов и полноту конечного ответа.</span><span class="lang-en">A single-task study separates model changes, caching policy, token costs and the completeness of the final answer.</span></p>
+
+  <div class="prose lang-ru"><p>Asana 8 октября <a href="https://asana.com/inside-asana/cut-browsers-agent-cost">опубликовала разбор оптимизации браузерного агента</a>. Компания меняла работу с историей и кэшем: увеличила допустимый объём текста и стала удалять старые скриншоты группами, а не на каждом шаге. Так более длинные участки запроса оставались неизменными. Это отчёт разработчика о собственной системе, не независимый сравнительный тест всех агентов.</p>
+<p><a href="https://openai.com/index/asana-browser-agent">Кейс OpenAI от 9 октября</a> выносит в заголовок снижение расчётной стоимости в 76 раз и ускорение примерно в пять раз. Сравнение относится к исходной настройке на анонимизированной Model B и оптимизированной на GPT-6.1 Sol. По тому же кейсу, настройка самой Model B дала снижение стоимости в 29 раз. Значит, большой множитель нельзя целиком приписать ни замене модели, ни одному переключателю кэширования.</p>
+<p>В <a href="https://assets.asana.biz/asset/fb86cc8e-6611-4404-b7c6-172692a724bb/How-Asana-used-Codex-to-optimize-browser-agent-costs-and-runtime.pdf">техническом отчёте</a> описаны 144 основных прогона задачи сбора сведений о 32 книгах. На каждую комбинацию приходилось обычно три прогона. Межмодельное сравнение автор называет описательным из-за различий протокола; стоимость вычислена по токенам, без серверов и песочниц. Есть и оговорка о качестве: увидеть нужные сведения не равно выдать запрошенную таблицу. Sol давал правильную общую сумму, но вместо полной таблицы возвращал краткое резюме.</p>
+<p>Наш редакционный вывод: интереснее рекламного множителя здесь устройство сравнения. Если одновременно меняются программа, модель и настройки, итоговое число отвечает на вопрос о двух готовых конфигурациях. Для понимания причины нужны промежуточные сравнения. Иначе команда может повторить заметную часть изменений и не получить ожидаемого эффекта, потому что важной окажется другая часть.</p>
+<p>Это удобно объяснить мысленным примером. Пусть обработка задания включает много повторений одинакового материала. Уменьшение цены одного повторения и уменьшение числа повторений дают разные виды экономии. Если сохранить оба эффекта в одном итоговом показателе, станет труднее решить, какое изменение проверять следующим. Поэтому полезно отдельно смотреть на цену шага, число шагов и завершение задачи.</p>
+<p>Так же стоит определить успех до оптимизации. Правильная сумма, полный набор строк и соблюдение требуемого формата — три возможных условия, которые нельзя автоматически заменить друг другом. Дешёвый ответ можно сравнивать с дорогим только после явного решения, какие условия обязательны. Иначе низкая цена рискует описывать менее полный результат.</p>
+<h3>Почему это важно</h3>
+<p>Отчёт предлагает проверяемую инженерную гипотезу о повторном использовании истории, а не гарантию многократной экономии для любого продукта. Практический вывод — измерять стоимость рядом с полнотой результата и указывать базу сравнения. Показатель на тестовой задаче не становится суммой экономии всей компании и не отменяет проверки на другом процессе.</p></div>
+  <div class="prose lang-en"><p>Asana <a href="https://asana.com/inside-asana/cut-browsers-agent-cost">published an analysis of browser-agent optimization</a> on October 8. It changed history and caching policies, allowing more text and removing older screenshots in batches rather than at every step. Longer portions of successive requests consequently remained unchanged. This is a developer's report about its own system, not an independent comparison of every browser agent.</p>
+<p>An <a href="https://openai.com/index/asana-browser-agent">OpenAI case study dated October 9</a> highlights 76-fold lower estimated costs and roughly fivefold faster runs. That comparison crosses from the original configuration on an anonymized Model B to an optimized configuration on GPT-6.1 Sol. The same case study says optimizing Model B itself reduced costs 29-fold. The larger multiplier therefore cannot be attributed entirely to changing the model or to one caching switch.</p>
+<p>The <a href="https://assets.asana.biz/asset/fb86cc8e-6611-4404-b7c6-172692a724bb/How-Asana-used-Codex-to-optimize-browser-agent-costs-and-runtime.pdf">technical report</a> describes 144 main runs collecting information about 32 books, generally three runs per condition. Its author calls cross-model comparisons descriptive because protocols differ. Token-based costs exclude servers and sandboxes. Quality has a qualification too: encountering the required facts is not identical to delivering the requested table. Sol returned correct price totals but a short summary instead of the full table.</p>
+<p>Our editorial interest is the comparison's structure, rather than the promotional multiplier. When code, models and settings change together, the final number compares two complete configurations. Understanding causes requires intermediate comparisons. Otherwise, a team might repeat the most visible change without obtaining the expected effect, because another change contributed substantially to the result.</p>
+<p>A hypothetical example makes the distinction easier to see. Suppose completing a task involves repeatedly processing the same material. Lowering the price of each repetition and reducing the number of repetitions produce different forms of savings. Combining both into one headline obscures which intervention deserves the next experiment. It is more informative to inspect the price per step, the number of steps and whether the task was completed as intended.</p>
+<p>Success should also be defined before optimization. A correct total, a complete set of rows and compliance with the requested format can be three separate conditions. They cannot automatically stand in for one another. Comparing an inexpensive answer with an expensive one requires deciding which conditions are mandatory. Otherwise, the apparent bargain may represent a less complete output.</p>
+<h3>Why it matters</h3>
+<p>The report offers a testable engineering hypothesis about reusing history, rather than a guarantee of large savings for any product. The useful lesson is to measure cost alongside output completeness and state the comparison baseline. A result on a development task is not a measure of company-wide savings, and it does not remove the need to check another workflow.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://asana.com/inside-asana/cut-browsers-agent-cost">https://asana.com/inside-asana/cut-browsers-agent-cost</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

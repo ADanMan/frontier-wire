@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Сегодня смотрим, что стоит за продолжением работы сложных систем: Deno объявляет переход к Cloudflare, Ai2 распределяет GPU-время, а NASA ищет планы коммерческих орбитальных станций. Отдельно разбираем испытания теплозащиты на уходящем грузовом корабле и смысл громкого числа 73% в Living Planet Index. В пяти историях различаем поддержку и открытый код, занятость и пользу вычислений, испытание и готовый результат, индекс и число животных.
+Сегодня смотрим, что стоит за продолжением работы сложных систем: Deno объявляет переход к Cloudflare, Ai2 распределяет GPU-время, а NASA ищет планы коммерческих орбитальных станций. Отдельно разбираем испытания теплозащиты на уходящем грузовом корабле и смысл громкого числа 73% в Living Planet Index. В пяти утренних историях различаем поддержку и открытый код, занятость и пользу вычислений, испытание и готовый результат, индекс и число животных. Вечером добавляем Нобель мира Нави Пиллэй, проверку LEGO-дизайна, индикатор сделок CHAPS и два опыта работы с кодирующими агентами — с вниманием к тому, что именно доказывает каждый источник.
 
 ## Editorial
 
-Today we examine how complex systems keep working: Deno announces its transition to Cloudflare, Ai2 reallocates GPU time, and NASA seeks commercial orbital-station plans. We also look at heat-shield experiments aboard a departing cargo spacecraft and the meaning of the Living Planet Index's 73% headline. Across five stories, we distinguish support from open code, occupancy from useful computation, testing from completed results, and an index from a count of animals.
+Today we examine how complex systems keep working: Deno announces its transition to Cloudflare, Ai2 reallocates GPU time, and NASA seeks commercial orbital-station plans. We also look at heat-shield experiments aboard a departing cargo spacecraft and the meaning of the Living Planet Index's 73% headline. Across the five morning stories, we distinguish support from open code, occupancy from useful computation, testing from completed results, and an index from a count of animals. The evening adds Navi Pillay’s peace prize, LEGO-design evaluation, a CHAPS property-activity indicator and two coding-agent workflows, with close attention to what each source establishes.
 
 
 ----- 01-deno-cloudflare-transition (tech) — source: https://deno.com/blog/cloudflare -----
@@ -186,6 +186,201 @@ The review highlights improved coverage of Africa. The number of included popula
 ### Why it matters
 
 An aggregate index helps identify a serious change, while selecting responses requires knowing which populations are falling and where. Growing or stable groups do not cancel the problems facing declining ones. They make investigation of causes and targeted responses more useful than assuming every animal group has the same trajectory. This update is a reason to read the measure carefully: observation period, sample coverage and averaging method belong beside the headline number if conservation discussions are to remain grounded in evidence.
+
+
+----- 06-pillay-peace-prize (world) — source: https://www.nobelprize.org/prizes/peace/2026/press-release/ -----
+
+## Русская версия
+
+Норвежский нобелевский комитет 9 октября [объявил лауреатом премии мира 2026 года Нави Пиллэй](https://www.nobelprize.org/prizes/peace/2026/press-release/). Он связывает выбор с её работой в пользу мира и международного права. В заявлении комитет защищает идею разрешения конфликтов через правовые институты и подчёркивает давление на них. Это объяснение выбора самого комитета, а не независимая оценка всех дел, в которых участвовала лауреат.
+
+Пиллэй — юрист из Южной Африки. В [официальной биографической справке](https://www.nobelprize.org/prizes/peace/2026/pillay/facts/) отмечены защита противников апартеида, работа в международном трибунале по Руанде и Международном уголовном суде. В 2008–2014 годах она занимала пост верховного комиссара ООН по правам человека. Та же справка уточняет её нынешнюю роль: судья ad hoc Международного суда ООН по делу Мьянмы. Такая оговорка точнее общего заголовка «судья международного суда» и помогает не смешивать разные учреждения.
+
+В [опубликованном интервью после объявления](https://www.nobelprize.org/prizes/peace/2026/pillay/interview/) Пиллэй рассказала, что узнала о решении на конференции в Нюрнберге, в зале 600. Она восприняла награду также как признание институтов и людей, с которыми работала. В разговоре будущая церемония в Осло названа на 10 декабря; это ещё предстоящее событие.
+
+Редакционный смысл решения мы видим в том, как здесь определена работа ради мира. Подписание соглашения даёт очевидный новостной момент: есть документ, участники и дата. Юридическая работа устроена менее зрелищно. Её результат приходится оценивать через конкретные процедуры, доказательства, полномочия и возможность добиться исполнения. Поэтому премия человеку из этой сферы предлагает смотреть на миротворчество шире переговорного стола, но сама не доказывает эффективность каждого института.
+
+Для читателя полезно разделить три вопроса. Кто получил награду — установленный факт. Почему комитет выбрал этого человека — позиция комитета, которую можно обсуждать. Что изменится в текущих конфликтах — отдельный вопрос, на который объявление премии ответа не даёт. Если соединить их в одну фразу, символическое признание легко превратится в обещание политического результата, которого в источнике нет.
+
+Эта разница особенно важна при чтении биографии. Должность объясняет, какую работу человек выполнял; она не заменяет содержание решения по конкретному делу. Разбирать такие решения следует по соответствующим документам. В этом материале мы сообщаем о награде и её обосновании, не выносим вердиктов по текущим спорам.
+
+### Почему это важно
+
+Премия делает заметной работу, чей результат редко помещается в короткий заголовок. Практический вывод для новостного чтения — проверять, чьи полномочия, слова и решения обсуждаются. Признание заслуг юриста, позиция награждающего комитета и судебное установление факта остаются разными вещами, даже когда все они появляются в одной новости.
+
+## English version
+
+The Norwegian Nobel Committee [announced Navi Pillay as the 2026 peace laureate](https://www.nobelprize.org/prizes/peace/2026/press-release/) on October 9. Its explanation connects her work to peace and international law, defending legal institutions as a means of resolving conflict and describing pressure on them. That is the committee's stated reasoning, rather than an independent assessment of every case in which the laureate has participated.
+
+Pillay is a South African jurist. The [official biographical page](https://www.nobelprize.org/prizes/peace/2026/pillay/facts/) describes her defense of anti-apartheid activists and her work at the Rwanda tribunal and International Criminal Court. She was the UN High Commissioner for Human Rights from 2008 to 2014. The biography identifies her current judicial role more precisely: an ad hoc judge at the International Court of Justice in the Myanmar case. That qualification helps readers avoid merging different institutions into an interchangeable international court.
+
+In an [interview published after the announcement](https://www.nobelprize.org/prizes/peace/2026/pillay/interview/), Pillay said she learned of the award at a conference in Nuremberg's Courtroom 600. She also understood it as recognition of the institutions and people with whom she had worked. The conversation identifies December 10 as the date of the future Oslo ceremony. That event has not yet taken place.
+
+Our editorial reading concerns the kind of peace work being recognized. A signed agreement provides a readily identifiable news moment: a document, participants and a date. Legal work is less easily condensed into a scene. Assessing its effects requires examining procedures, evidence, authority and the prospect of enforcement. Recognizing a jurist invites a broader account of peacebuilding than negotiations alone, while proving nothing automatically about the effectiveness of each institution.
+
+Three questions are worth keeping separate. Who received the award is a verifiable fact. Why this person was selected is the committee's position, which can be examined and debated. What will change in present conflicts is another question, and the prize announcement does not answer it. Combining all three can turn symbolic recognition into a promise of political results that the source never makes.
+
+The same care helps when reading a biography. An office explains someone's responsibilities; it cannot substitute for the contents of a particular judgment. Those judgments should be examined through their own documents. Here, the news is the award and its stated rationale, rather than a verdict on ongoing disputes.
+
+### Why it matters
+
+The award draws attention to work whose effects rarely fit a short headline. The practical reading lesson is to identify whose authority, words and decisions are being discussed. Recognition of a jurist's career, an awarding committee's argument and a court's establishment of a fact remain distinct, even when a single news story brings them together.
+
+
+----- 07-brickbench-design-checks (ai) — source: https://arxiv.org/html/2610.12452v1 -----
+
+## Русская версия
+
+В [препринте BrickBench, поданном 8 октября](https://arxiv.org/html/2610.12452v1), исследователи предложили проверять кодирующих ИИ-агентов на проектировании LEGO. Важная оговорка касается слова «собираемый»: симулятор не моделирует прочность соединений. Проект, который проходит его проверку, ещё не получает гарантии, что настоящая конструкция не провиснет или не развалится.
+
+На [странице проекта авторов](https://www.brickben.ch/) описаны 300 заданий и три режима. В Model разрешено до 400 деталей, в Set — от 400 до 4000, а Alt-Build ограничивает выбор содержимым определённого набора. Среда BrickAgent даёт средства размещать детали, смотреть результат и проверять ошибки. Отдельно оцениваются допустимость конструкции, соответствие описанию и относительное качество дизайна. Это не один универсальный балл, заменяющий все остальные.
+
+Авторы статьи также сообщают о сравнении с человеческими моделями: участники определили человеческий вариант в 323 из 360 оценок. Пары подбирали по количеству деталей, но не по одинаковому заданию. Это ограничивает вывод: исследование не является соревнованием человека и агента, которым выдали одну и ту же инструкцию. Мы не превращаем результат такого теста в оценку всей человеческой или машинной креативности.
+
+Редакционный интерес здесь — возможность сделать провал конкретным. Представьте, что вы просите спроектировать небольшой мост. Один вариант хорошо выглядит на картинке, но детали пересекаются. Другой физически допустим, однако изображает не мост. Третий выполняет формальные условия, но выглядит скучно. Это разные причины не принять работу, и исправления для них тоже потребуются разные. Один красивый рендер не позволяет понять, с каким вариантом вы имеете дело.
+
+Такой мысленный пример показывает пользу раздельных проверок. Если агент видит локальную ошибку соединения, можно обсуждать исправление соединения. Если не выполнен пункт задания, нужен возврат к требованиям. Если всё проверяемое выполнено, остаётся дизайнерский выбор: пропорции, выразительность и уместность. Требовать от одного показателя ответа на все эти вопросы — значит заранее потерять часть информации.
+
+Но и набор проверок стоит оценивать критически. Проверяющая программа видит только заложенные в неё условия. Добавление ещё одного теста может изменить понятие успеха, даже если сама модель останется прежней. Для читателя таблицы результатов это повод спросить не только о месте агента, но и о том, какие ошибки вообще могли попасть в оценку.
+
+### Почему это важно
+
+BrickBench даёт понятный повод обсуждать качество работы ИИ через готовый результат и условия его проверки. Наш вывод: перед сравнением баллов сформулируйте, что вы хотите получить и что признаете ошибкой. Проект из деталей хорошо показывает, почему соответствие инструкции, отсутствие обнаруженных дефектов и удачный дизайн нельзя автоматически считать синонимами.
+
+## English version
+
+The [BrickBench preprint submitted on October 8](https://arxiv.org/html/2610.12452v1) evaluates coding agents on LEGO design. An important qualification concerns the word buildable: the simulator does not model connection strength. Passing its checks therefore provides no guarantee that a real assembly will avoid sagging or falling apart.
+
+The authors' [project page](https://www.brickben.ch/) describes 300 prompts and three settings. Model permits up to 400 parts; Set requires 400–4000; Alt-Build restricts agents to the inventory of a particular retail set. BrickAgent supplies tools to place parts, inspect the assembly and check failures. Physical validity, agreement with the description and relative design quality receive separate assessments. No single score makes the others redundant.
+
+The paper also reports a comparison with human designs: raters identified the human version in 323 of 360 judgments. Pairs were matched by part count rather than by an identical assignment. This limits the interpretation: it was not a contest in which a person and an agent received the same instructions. We would not turn this result into a measurement of all human or machine creativity.
+
+Our editorial interest is the opportunity to make failure specific. Imagine asking for a small bridge. One output looks convincing in an image but contains intersecting pieces. Another meets physical constraints but depicts something other than a bridge. A third satisfies the formal requirements yet makes an uninspired design. These are different reasons to reject an output, requiring different fixes. An attractive rendering alone cannot tell you which case you have.
+
+This hypothetical example illustrates why separate checks are useful. A reported connection error invites a connection repair. An unmet requirement calls for revisiting the brief. Once the verifiable conditions are satisfied, questions of proportion, expression and suitability remain. Asking one metric to settle every question discards information before the comparison begins.
+
+The checks themselves deserve scrutiny too. A validator can see only the conditions built into it. Adding a test can change what counts as success without changing the underlying model. When reading a results table, it is therefore worth asking which defects could enter the evaluation, as well as where an agent ranks. That question is especially useful when a score is presented as an all-purpose measure of capability.
+
+### Why it matters
+
+BrickBench offers an accessible way to discuss AI output through the finished object and the conditions used to inspect it. Our takeaway is to define the desired result and the failures that would make it unacceptable before comparing scores. A design made of parts makes clear why following instructions, having no detected defects and producing a compelling design should never automatically be treated as the same achievement.
+
+
+----- 08-chaps-property-indicator (economy) — source: https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes/ -----
+
+## Русская версия
+
+Симран Мехта и Валентина Маккиати из Банка Англии 8 октября [описали индикатор сделок с недвижимостью на основе CHAPS](https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes/). Они используют код назначения платежа PCOM и сообщают о корреляции 0,96 с месячной статистикой жилых сделок HMRC. Данные видны вскоре после расчёта платежа. Это авторский анализ сотрудников, а не заявление органа денежно-кредитной политики. Авторы отдельно предупреждают: охват платёжного ряда отличается, и подробностей об объектах недостаточно для обычного индекса цен.
+
+Редакционный разбор: главное преимущество такого сигнала — возможность раньше задать вопрос о происходящем. Если вам нужно понять, изменилось ли число завершений сделок, задержка наблюдения имеет значение сама по себе. Однако быстрое получение показателя ещё не означает, что вы получили полное описание рынка. Важно заранее определить событие, которое считается наблюдением: перечисление денег, оформление документа или переход права. Если определение меняется, сравнение теряет ясность.
+
+Особенно легко переоценить корреляцию. Два ряда могут синхронно расти и падать, сохраняя разные уровни. Простой мысленный пример: один счётчик показывает десять событий, другой — двенадцать; в следующем периоде оба удваиваются. Направление движения совпадает, но количества не стали одинаковыми. Поэтому высокую корреляцию нельзя переводить в фразу «учтена каждая сделка». Для этого нужна отдельная проверка соответствия событий, а не сходство графиков.
+
+Другой вопрос — что означает средняя сумма. Представьте два месяца с неизменными ценами на каждый отдельный объект. Если во втором продали больше дорогих объектов, среднее по состоявшимся продажам вырастет. Это изменение состава наблюдений, а не обязательно удорожание сопоставимого жилья. Из одного среднего невозможно выбрать между этими объяснениями. Пример условный; он не описывает установленное движение британских цен в октябре.
+
+Такой показатель разумнее читать в паре с его определением. Число событий отвечает на вопрос об активности; сумма — на вопрос о деньгах, проходящих через наблюдаемый канал. А вопрос о стоимости одинакового жилья во времени требует ещё одного способа сравнения. Даже если все линии нарисованы на одном экране, они не начинают измерять одну вещь.
+
+Для новостного чтения это также повод осторожнее относиться к ежедневным колебаниям. Видимый поворот стоит сначала описать как изменение наблюдаемого потока. Вывод о состоянии всего рынка требует проверки охвата и сопоставимости, а объяснение причины — дополнительных свидетельств. Скорость не избавляет от этих шагов, она только позволяет начать их раньше.
+
+### Почему это важно
+
+Платёжный индикатор может сократить промежуток между событием и вопросом аналитика. Наш вывод — ценить эту оперативность, сохраняя точность названий. Быстрый счётчик завершений сделок полезен именно как счётчик; превращение его в готовый ответ о росте цен, доступности жилья или будущем рынка потребовало бы другой доказательной базы.
+
+## English version
+
+Bank of England staff Simran Mehta and Valentina Macchiati [described a CHAPS-based property-activity indicator](https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes/) on October 8. They use the PCOM payment-purpose code and report a 0.96 correlation with monthly HMRC residential transaction statistics. The payments become observable soon after settlement. This is the authors' staff analysis, not a monetary-policy committee statement. They separately caution that coverage differs and the payment data lack the property detail needed for a conventional house-price index.
+
+Our editorial analysis focuses on the value of asking questions earlier. If you want to know whether completions have changed, the delay between an event and its observation matters in its own right. Yet receiving a number quickly does not mean receiving a complete description of a market. The observed event needs an explicit definition: a payment, a document or a transfer of ownership. A comparison becomes ambiguous if that definition changes along the way.
+
+Correlation is particularly easy to overread. Two series can rise and fall together while retaining different levels. In a simple hypothetical example, one counter records ten events and another twelve; both then double. Their direction agrees, but their counts have not become identical. A high correlation cannot be translated into the claim that every transaction was captured. Matching individual events would require a separate check, beyond the resemblance between charts.
+
+An average payment raises another question. Imagine two months in which each individual property's price remains unchanged. If the second month contains more expensive properties, the average of completed sales rises. That can reflect a change in the mix rather than an increase in the price of comparable housing. The average alone cannot choose between those explanations. This is a hypothetical illustration, not a claim about an established movement in British prices this October.
+
+The indicator should therefore be read alongside its definition. An event count addresses activity. The associated value addresses money moving through the observed channel. Following the cost of comparable housing over time requires another comparison. Placing these lines on the same dashboard cannot make them measure the same thing.
+
+For news readers, this also suggests care with daily movements. A visible turning point can first be described as a change in the observed flow. A conclusion about the entire market requires checking coverage and comparability; an explanation of the cause requires additional evidence. Faster data let that work begin earlier, without eliminating any of those steps.
+
+### Why it matters
+
+A payments indicator can shorten the interval between an event and an analyst's question. Our takeaway is to value that speed while naming the measurement precisely. A fast completion counter is useful as a completion counter. Turning it into a ready answer about prices, affordability or the market's future would require a different evidential foundation.
+
+
+----- 09-voice-coding-reviewed (tech) — source: https://simonwillison.net/2026/Oct/9/built-using-my-voice/ -----
+
+## Русская версия
+
+Саймон Уиллисон 9 октября [описал разработку новой страницы рассылок голосом](https://simonwillison.net/2026/Oct/9/built-using-my-voice/). По его рассказу, примерно полчаса разговора с Codex во время приготовления ужина дали почти готовую функцию Django. Затем ещё примерно полчаса работы текстом ушли на доведение результата. Это опыт автора с конкретной задачей, не замер производительности на группе разработчиков.
+
+В [публичном PR №719](https://github.com/simonw/simonwillisonblog/pull/719), объединённом 9 октября, виден отдельный этап ревью. Уиллисон отметил, что вызов Git из подпроцесса неудобен для его развёртывания на Heroku, и решил заменить механизм импорта обращением к API. Комментарии и последующие изменения подтверждают, что разговор не был последним этапом работы. Доступ к закрытым данным автора мы не проверяли и не переносили; для этой новости достаточно публичного рассказа и обсуждения кода.
+
+Редакционный вывод из примера касается интерфейса, а не обещания писать любой продукт между делом. Голос позволяет быстро описать желаемое поведение. Но работа всё равно нуждается в критериях завершения. Если требование звучит как «показывай этот материал здесь, а там не показывай», полезно получить видимый результат и проверить оба места. Иначе плавный разговор создаст ощущение понятности, которое ещё не подтверждено приложением.
+
+Воображаемый пример помогает увидеть границу: попросите добавить поле к форме. Рассказать, зачем поле нужно, можно устно. Проверка пустого значения, сохранения данных и старых записей требует увидеть поведение системы. Ни один способ ввода сам по себе не отвечает на эти вопросы. Голос, клавиатура и просмотр результата могут выполнять разные части одной работы, без необходимости объявлять один из них победителем.
+
+Поэтому демонстрацию стоит разбирать по этапам: постановка задачи, получение изменений, просмотр и решение о выпуске. В каждом этапе можно спросить, что пользователь уже знает и чего ещё не проверил. Длинный устный сеанс сам по себе не показывает, что полученный код соответствует условиям реального развёртывания; для этого нужен отдельный источник подтверждения.
+
+Для оценки подобных историй также важно различать удобство и экономию. Удобный способ освободить руки может оказаться полезным, даже если общая работа не стала быстрее. А сравнение времени требует одинаковых задач и понятной исходной линии. В этом случае разумнее говорить о показанном способе взаимодействия, чем вычислять прирост, которого автор не измерял.
+
+### Почему это важно
+
+Рассказ показывает практическое сочетание разговора с проверкой конкретных изменений. Наш вывод — оценивать новую форму общения по тому, насколько она помогает поставить задачу и увидеть результат. Готовность к выпуску определяется выполненными требованиями; эффектный способ дать поручение не должен подменять эту проверку.
+
+## English version
+
+Simon Willison [described building a newsletter page by voice](https://simonwillison.net/2026/Oct/9/built-using-my-voice/) on October 9. In his account, roughly half an hour talking to Codex while cooking produced a nearly complete Django feature. About another half-hour of text-based work followed. This is one author's experience with a particular task, rather than a productivity measurement across a group of developers.
+
+The [public pull request, number 719](https://github.com/simonw/simonwillisonblog/pull/719), merged on October 9, shows a distinct review stage. Willison observed that invoking Git through a subprocess was unsuitable for his Heroku deployment and chose an API-based import instead. The comments and subsequent changes support a narrower point: the conversation was not the final stage of the work. We did not inspect or transfer his private data; the public account and code discussion suffice for this story.
+
+Our editorial takeaway concerns the interface, rather than a promise to build any product while doing something else. Voice can communicate desired behavior quickly. The work still needs completion criteria. When a requirement amounts to showing content in one place but excluding it elsewhere, it helps to inspect the result in both places. Otherwise, a fluent conversation can produce a feeling of clarity that the application has not yet confirmed.
+
+Consider a hypothetical request to add a form field. Explaining its purpose may work well aloud. Checking an empty value, saved data and existing records requires observing the system's behavior. No input method answers those questions by itself. Speech, typing and visual inspection can serve different parts of one workflow, without a need to declare a single winner.
+
+That suggests reading demonstrations stage by stage: defining the task, obtaining changes, inspecting them and deciding whether to ship. At each point, ask what the user already knows and what remains unchecked. A long voice session cannot by itself demonstrate that the code meets the conditions of its eventual deployment. That requires another kind of evidence.
+
+Convenience and savings also deserve separate treatment. A useful way to free your hands may have value even if the entire task is no faster. Establishing a speed improvement would require comparable assignments and a defined baseline. Here it is more accurate to discuss a demonstrated interaction pattern than to calculate a gain the author did not measure.
+
+### Why it matters
+
+The account shows conversation combined with inspection of concrete changes. Our takeaway is to judge a new interface by how well it helps specify the task and examine the result. Readiness to ship depends on fulfilled requirements. An impressive way of giving instructions should not substitute for checking whether those instructions were actually met.
+
+
+----- 10-asana-browser-cache-study (ai) — source: https://asana.com/inside-asana/cut-browsers-agent-cost -----
+
+## Русская версия
+
+Asana 8 октября [опубликовала разбор оптимизации браузерного агента](https://asana.com/inside-asana/cut-browsers-agent-cost). Компания меняла работу с историей и кэшем: увеличила допустимый объём текста и стала удалять старые скриншоты группами, а не на каждом шаге. Так более длинные участки запроса оставались неизменными. Это отчёт разработчика о собственной системе, не независимый сравнительный тест всех агентов.
+
+[Кейс OpenAI от 9 октября](https://openai.com/index/asana-browser-agent) выносит в заголовок снижение расчётной стоимости в 76 раз и ускорение примерно в пять раз. Сравнение относится к исходной настройке на анонимизированной Model B и оптимизированной на GPT-6.1 Sol. По тому же кейсу, настройка самой Model B дала снижение стоимости в 29 раз. Значит, большой множитель нельзя целиком приписать ни замене модели, ни одному переключателю кэширования.
+
+В [техническом отчёте](https://assets.asana.biz/asset/fb86cc8e-6611-4404-b7c6-172692a724bb/How-Asana-used-Codex-to-optimize-browser-agent-costs-and-runtime.pdf) описаны 144 основных прогона задачи сбора сведений о 32 книгах. На каждую комбинацию приходилось обычно три прогона. Межмодельное сравнение автор называет описательным из-за различий протокола; стоимость вычислена по токенам, без серверов и песочниц. Есть и оговорка о качестве: увидеть нужные сведения не равно выдать запрошенную таблицу. Sol давал правильную общую сумму, но вместо полной таблицы возвращал краткое резюме.
+
+Наш редакционный вывод: интереснее рекламного множителя здесь устройство сравнения. Если одновременно меняются программа, модель и настройки, итоговое число отвечает на вопрос о двух готовых конфигурациях. Для понимания причины нужны промежуточные сравнения. Иначе команда может повторить заметную часть изменений и не получить ожидаемого эффекта, потому что важной окажется другая часть.
+
+Это удобно объяснить мысленным примером. Пусть обработка задания включает много повторений одинакового материала. Уменьшение цены одного повторения и уменьшение числа повторений дают разные виды экономии. Если сохранить оба эффекта в одном итоговом показателе, станет труднее решить, какое изменение проверять следующим. Поэтому полезно отдельно смотреть на цену шага, число шагов и завершение задачи.
+
+Так же стоит определить успех до оптимизации. Правильная сумма, полный набор строк и соблюдение требуемого формата — три возможных условия, которые нельзя автоматически заменить друг другом. Дешёвый ответ можно сравнивать с дорогим только после явного решения, какие условия обязательны. Иначе низкая цена рискует описывать менее полный результат.
+
+### Почему это важно
+
+Отчёт предлагает проверяемую инженерную гипотезу о повторном использовании истории, а не гарантию многократной экономии для любого продукта. Практический вывод — измерять стоимость рядом с полнотой результата и указывать базу сравнения. Показатель на тестовой задаче не становится суммой экономии всей компании и не отменяет проверки на другом процессе.
+
+## English version
+
+Asana [published an analysis of browser-agent optimization](https://asana.com/inside-asana/cut-browsers-agent-cost) on October 8. It changed history and caching policies, allowing more text and removing older screenshots in batches rather than at every step. Longer portions of successive requests consequently remained unchanged. This is a developer's report about its own system, not an independent comparison of every browser agent.
+
+An [OpenAI case study dated October 9](https://openai.com/index/asana-browser-agent) highlights 76-fold lower estimated costs and roughly fivefold faster runs. That comparison crosses from the original configuration on an anonymized Model B to an optimized configuration on GPT-6.1 Sol. The same case study says optimizing Model B itself reduced costs 29-fold. The larger multiplier therefore cannot be attributed entirely to changing the model or to one caching switch.
+
+The [technical report](https://assets.asana.biz/asset/fb86cc8e-6611-4404-b7c6-172692a724bb/How-Asana-used-Codex-to-optimize-browser-agent-costs-and-runtime.pdf) describes 144 main runs collecting information about 32 books, generally three runs per condition. Its author calls cross-model comparisons descriptive because protocols differ. Token-based costs exclude servers and sandboxes. Quality has a qualification too: encountering the required facts is not identical to delivering the requested table. Sol returned correct price totals but a short summary instead of the full table.
+
+Our editorial interest is the comparison's structure, rather than the promotional multiplier. When code, models and settings change together, the final number compares two complete configurations. Understanding causes requires intermediate comparisons. Otherwise, a team might repeat the most visible change without obtaining the expected effect, because another change contributed substantially to the result.
+
+A hypothetical example makes the distinction easier to see. Suppose completing a task involves repeatedly processing the same material. Lowering the price of each repetition and reducing the number of repetitions produce different forms of savings. Combining both into one headline obscures which intervention deserves the next experiment. It is more informative to inspect the price per step, the number of steps and whether the task was completed as intended.
+
+Success should also be defined before optimization. A correct total, a complete set of rows and compliance with the requested format can be three separate conditions. They cannot automatically stand in for one another. Comparing an inexpensive answer with an expensive one requires deciding which conditions are mandatory. Otherwise, the apparent bargain may represent a less complete output.
+
+### Why it matters
+
+The report offers a testable engineering hypothesis about reusing history, rather than a guarantee of large savings for any product. The useful lesson is to measure cost alongside output completeness and state the comparison baseline. A result on a development task is not a measure of company-wide savings, and it does not remove the need to check another workflow.
 
 
 ===== EDITION 34 — 2026-10-09 =====
