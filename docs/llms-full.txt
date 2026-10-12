@@ -2,6 +2,212 @@
 
 
 
+===== EDITION 36 — 2026-10-12 =====
+
+## От редакции
+
+Сегодня соединяем две темы: как восстановить путь к результату и как проверить его границы. Исследователи ведут ИИ по ссылкам Wikipedia, задают белковые структуры словами и читают историю клеток по наследуемым меткам. В технологиях смотрим на прекращение разработки Boundary CE и появление стабильного Python 3.15 в сборках GitHub Actions — каждую новость читаем вместе с тем, что она подтверждает для конкретного пользователя.
+
+## Editorial
+
+Today brings two connected questions: how to reconstruct a path to a result and how to check its limits. Researchers navigate Wikipedia links with AI, describe protein structures in words and read cellular histories from inherited marks. In technology, we examine the end of Boundary CE development and stable Python 3.15 builds for GitHub Actions, keeping each announcement's implications for a particular user in view.
+
+
+----- 01-wikipedia-game-navigation (ai) — source: https://arxiv.org/html/2610.13948v1 -----
+
+## Русская версия
+
+В [препринте от 9 октября](https://arxiv.org/html/2610.13948v1) исследователи Института Алана Тьюринга использовали Wikipedia Game для проверки навигации языковых моделей. Нужно перейти от начальной статьи к заданной, выбирая доступные ссылки. По отчёту авторов, лучшие из испытанных моделей приблизились к человеческой доле успехов в английской Wikipedia, но делали больше переходов. Это результат конкретного набора экспериментов, не рейтинг всех современных моделей.
+
+Авторы [опубликовали код](https://github.com/alan-turing-institute/ARC-Wiki-Game) для подготовки графов Wikipedia и OpenAlex, запуска агентов и анализа результатов. В такой постановке можно проверить маршрут по локальному набору данных. Ответ в виде правдоподобного объяснения не заменяет достижение целевой вершины: выбранные переходы должны существовать в подготовленном графе.
+
+Важная оговорка к человеческому сравнению: участвовали девять игроков, сообщившие о 109 попытках. Им давали десять минут; модельный успех ограничивали ста переходами. Условия не являются одинаковыми. Поэтому из сопоставимой доли успехов нельзя вывести равенство скорости, вычислительной цены или способности искать информацию вообще. Испытания также охватывали определённые модели, включая GPT-4o и более ранние открытые семейства, а не весь актуальный рынок.
+
+Редакционный интерес — в различии между похожестью и полезностью следующего шага. Представьте мысленный маршрут от статьи о музыкальном инструменте к статье о редком материале. Ссылка, название которой больше всего похоже на конечную цель, может увести в тупик. Более общая страница иногда окажется мостом. Но это нужно проверить по доступным переходам; красивое рассуждение само не создаст нужной связи.
+
+Такую игру удобно читать как ограниченную модель поиска. Вы знаете конечную цель и видите лишь ближайшие возможности. Это помогает обсуждать качество выбора шага отдельно от способности пересказать прочитанный текст. При этом решение задачи не доказывает, что агент умеет оценивать достоверность содержания страницы. Добраться до документа и убедиться в истинности его утверждений — разные проверки.
+
+Для оценки рабочего инструмента мы бы сначала зафиксировали условия: какие документы доступны, что считается целью, какие действия разрешены и как измеряется затрата ресурса. Затем отдельно считали бы завершённые задания, длину маршрута и обращения к модели. Если оставить только процент побед, различия между быстрым путём и долгим блужданием потеряются.
+
+### Почему это важно
+
+Работа предлагает наблюдаемый результат для проверки поиска: маршрут, который можно воспроизвести. Практический вывод — выбирать критерий под свою задачу и сравнивать системы при понятных ограничениях. Совпадение одного показателя полезно, но не превращает небольшой эксперимент в доказательство универсального равенства человека и ИИ.
+
+## English version
+
+An [October 9 preprint](https://arxiv.org/html/2610.13948v1) from Alan Turing Institute researchers uses the Wikipedia Game to evaluate language-model navigation. Players must reach a target article by selecting available links. The authors report that the best tested models approached human success rates on English Wikipedia, while taking more steps. This is a finding from a particular set of experiments, rather than a ranking of every current model.
+
+The authors also [released code](https://github.com/alan-turing-institute/ARC-Wiki-Game) for preparing Wikipedia and OpenAlex graphs, running agents and analyzing results. This setup makes a route checkable against a local dataset. A plausible explanation cannot substitute for reaching the target node: the chosen transitions have to exist in the prepared graph.
+
+The human comparison needs qualification. Nine players self-reported 109 attempts, with a ten-minute allowance; model success was bounded by one hundred transitions. These are different constraints. Comparable success rates therefore cannot establish equal speed, computational cost or general information-retrieval ability. The experiments also cover a defined selection, including GPT-4o and earlier open model families, rather than the entire present market.
+
+Our editorial interest concerns the difference between a similar-looking next step and a useful one. Imagine a hypothetical route from an article about a musical instrument to an article about a rare material. The link whose title most closely resembles the destination could lead into a dead end. A broader page might provide a bridge. That possibility must be checked against available transitions; an elegant explanation cannot create a missing connection.
+
+The game is useful as a constrained model of search. The destination is known, but only nearby choices are visible. This lets researchers discuss the quality of the next move separately from the ability to summarize text. Completing the route does not establish that an agent can judge a page's reliability. Reaching a document and verifying the truth of its contents require separate evaluations.
+
+For a working tool, we would first specify which documents are available, what counts as the destination, which actions are allowed and how resource use is measured. We would then track completion, route length and model requests separately. A win percentage alone loses the distinction between a direct path and a long series of detours. The comparison becomes more informative when that distinction stays visible rather than being compressed into one headline.
+
+### Why it matters
+
+The study offers an observable search result: a route that can be reproduced. The practical lesson is to choose criteria for the actual task and compare systems under explicit constraints. Agreement on one measure is useful, but it cannot turn a small experiment into evidence of universal equivalence between humans and AI.
+
+
+----- 02-prompteina-text-protein-design (ai) — source: https://arxiv.org/html/2610.13917v1 -----
+
+## Русская версия
+
+В [препринте, поданном 9 октября](https://arxiv.org/html/2610.13917v1), команда из Вашингтонского университета, Ai2 и других организаций представила Prompteina — модель, которая генерирует белковые структуры по текстовому описанию. Авторы сообщают также о лабораторной проверке кандидатов для связывания с GM2A: из 89 измеренных конструкций девять были классифицированы как связывающиеся. Число относится к этому эксперименту, а не к гарантии успеха любого запроса.
+
+В [репозитории проекта](https://github.com/jleechung/prompteina) перечислены поддерживаемые виды описаний: форма, элементы вторичной структуры, свойства поверхности и интерфейса взаимодействия. Есть код и ссылки на веса и данные. Интерфейс связывает научное задание с генерацией конкретной структуры; наличие текстового поля само по себе не означает, что система выполнит произвольное пожелание или подтвердит функцию полученного белка.
+
+Поэтому результаты удобно разделить на ступени. Описание задаёт желаемые свойства. Сгенерированная структура показывает, какой вариант предложила модель. Расчётная оценка помогает выбрать кандидатов. Измерение связывания добавляет экспериментальное свидетельство о конкретном взаимодействии. Эти ступени отвечают на разные вопросы, и переход от одной к следующей требует отдельной проверки.
+
+Редакционный вывод здесь касается качества постановки задачи. Формулировка «сделай подходящий белок» оставляет слишком много неявных условий. Уточнение формы и предполагаемого взаимодействия делает результат более предметным для обсуждения. Но даже подробное описание остаётся заданием, а не наблюдением. Вы можете сравнить полученную конструкцию с требованиями; её реальное поведение выясняется другим способом.
+
+Мысленный пример: два кандидата одинаково хорошо соответствуют описанию по расчётной метрике, но в измерении ведут себя по-разному. В таком случае более удобный интерфейс не устраняет расхождение. Он помогает организовать поиск вариантов, тогда как решение о пригодности должно опираться на нужный эксперимент. Этот пример иллюстрирует логику оценки, не добавляет новых результатов к отчёту авторов.
+
+В статье мы также не переводим связывание в обещание лечения. Наличие взаимодействия с мишенью не сообщает само по себе, полезно ли оно в организме, насколько избирательно и при каких условиях безопасно. Работа о проектировании и проверке кандидатов даёт основания обсуждать этот этап исследования. Она не представляет завершённый медицинский продукт для человека.
+
+### Почему это важно
+
+Текстовый интерфейс может сделать научные требования удобнее для передачи генеративной модели. Ценность работы стоит оценивать вместе с тем, что реально проверено после генерации. Практический вывод для чтения таких новостей — держать рядом описание задачи, расчётный результат и экспериментальное свидетельство, не заменяя один вид доказательства другим.
+
+## English version
+
+In a [preprint submitted on October 9](https://arxiv.org/html/2610.13917v1), researchers from the University of Washington, Ai2 and other organizations introduce Prompteina, a model that generates protein structures from natural-language descriptions. They also report laboratory testing of GM2A-binding candidates: nine of 89 assayed designs were classified as binders. That count belongs to this experiment, rather than guaranteeing success for any prompt.
+
+The [project repository](https://github.com/jleechung/prompteina) lists supported descriptions of shape, secondary structure, surface properties and interaction interfaces. It includes code and links to weights and data. The interface connects a scientific specification with generation of a concrete structure. A text box alone does not establish that arbitrary requests will be fulfilled or that the resulting protein's intended function has been confirmed.
+
+It helps to separate the result into stages. The description specifies desired properties. A generated structure shows the model's proposed candidate. Computational scoring helps select designs. A binding assay adds experimental evidence about a particular interaction. These stages answer different questions, and moving from one to the next calls for a distinct check.
+
+Our editorial takeaway concerns the quality of a design brief. A request to make a suitable protein leaves many conditions implicit. Specifying a shape and intended interaction makes the output more concrete to discuss. Yet even a detailed description remains a request, rather than an observation. The candidate can be compared with the specification; its behavior is established by another form of evidence.
+
+Consider a hypothetical pair of candidates that score equally well against a description but behave differently in an assay. An easier interface would not remove that discrepancy. It would help organize the search, while a decision about suitability would still depend on the relevant experiment. This example illustrates evaluation logic without adding new findings to the authors' report.
+
+We also would not translate binding into a treatment promise. An interaction with a target does not by itself reveal whether it is useful in an organism, selective or safe under the required conditions. Work on designing and testing candidates supports discussion of that research stage. It does not present a completed medical product for people, and the distinction should remain visible even when the design interface sounds as simple as an everyday instruction.
+
+### Why it matters
+
+Natural-language input can make scientific requirements easier to communicate to a generative model. The value of the work should be assessed alongside what was actually checked after generation. The practical reading lesson is to keep the brief, computational output and experimental evidence together, without letting one kind of proof stand in for another.
+
+
+----- 03-dna-typewriter-embryo-lineages (science) — source: https://newsroom.uw.edu/news-releases/dna-typewriter-records-cells-history-in-early-mouse-embryo -----
+
+## Русская версия
+
+UW Medicine 8 октября [сообщил о восстановлении родословной клеток мышиного эмбриона с помощью DNA Typewriter](https://newsroom.uw.edu/news-releases/dna-typewriter-records-cells-history-in-early-mouse-embryo). Запись охватывала 13,5 дня развития. Команда начала со ста оплодотворённых яйцеклеток, получила десять эмбрионов для изучения и сосредоточила полный анализ на одном, с наиболее богатой записью. Новость относится к исследованию мыши; это не готовый способ отслеживать развитие человека.
+
+[Материал, предоставленный университетом и опубликованный Phys.org 11 октября](https://phys.org/news/2026-10-dna-typewriter-cells-history-mouse.html), описывает сам принцип. Изменённая генетическая «лента» накапливает упорядоченные метки; потомки наследуют их, а общие записи помогают распознать общего предка. Такой результат читают после накопления меток. Он не является непрерывной видеосъёмкой каждого деления и не обещает безошибочный полный журнал всех клеток.
+
+Редакционный интерес здесь — в различии между состоянием и историей. Если вы видите две клетки в конце наблюдения, сходство их свойств ещё не отвечает на вопрос, происходят ли они от одного недавнего предка. Запись наследуемых событий добавляет другой тип информации. Но чтобы ей воспользоваться, нужно понимать, что именно могло попасть в запись и какие части истории остались ненаблюдаемыми.
+
+Представьте условное семейное дерево, восстановленное по документам. Общий фрагмент записей помогает соединить ветви, однако отсутствие документа не обязательно означает отсутствие события. Эту аналогию полезно держать ограниченной: клетки не ведут человеческие архивы, а метки требуют биологического и вычислительного прочтения. Она лишь объясняет, почему порядок и наследование сведений могут быть важны для восстановления прошлого.
+
+Отдельный вопрос — масштаб подтверждения. Один подробно разобранный эмбрион способен показать, что метод даёт содержательный результат. Для оценки того, насколько одинаково он работает в других эмбрионах, потребуется соответствующее сравнение. Поэтому большое число исследованных клеток внутри одного организма не следует автоматически считать большим числом независимых повторов опыта.
+
+То же различие нужно сохранить между наблюдаемой родословной и объяснением клеточной судьбы. Происхождение может помочь сформулировать вопрос о дальнейшем развитии. Но семейная связь сама по себе не доказывает, почему клетка приняла определённые свойства. Для причинного объяснения нужны данные, отвечающие именно на этот вопрос, а не только более подробная схема родства.
+
+### Почему это важно
+
+Такие записи добавляют истории к наблюдаемому состоянию клеток. Практический вывод — оценивать научный инструмент по тому, какую новую информацию он даёт и на какой выборке она проверена. Интересный результат одного эмбриона может стать шагом к более широкому исследованию, сохраняя разницу между показанной возможностью и универсально подтверждённым методом.
+
+## English version
+
+UW Medicine [reported reconstructing cell ancestry in a mouse embryo with DNA Typewriter](https://newsroom.uw.edu/news-releases/dna-typewriter-records-cells-history-in-early-mouse-embryo) on October 8. The recording covered 13.5 days of development. Starting with one hundred fertilized eggs, the team obtained ten embryos for examination and focused its full analysis on one with the richest record. This is mouse research, rather than a ready method for monitoring human development.
+
+A [university-supplied account published by Phys.org on October 11](https://phys.org/news/2026-10-dna-typewriter-cells-history-mouse.html) describes the principle. An engineered DNA tape accumulates ordered marks; descendants inherit them, and shared records help identify a common ancestor. The accumulated information is read afterward. It is not continuous video of every division, and it should not be presented as a flawless complete log of every cell.
+
+Our editorial interest concerns the difference between state and history. Seeing two cells at the end of an observation does not tell you, from similar properties alone, whether they share a recent ancestor. Recording inherited events adds another type of information. Making use of it still requires knowing what could enter the record and which parts of the past remain unobserved.
+
+Imagine a hypothetical family tree reconstructed from documents. Shared records can connect branches, while a missing document does not necessarily imply a missing event. The analogy should remain limited: cells are not maintaining human archives, and their marks require biological and computational interpretation. It simply illustrates why the order and inheritance of information can help reconstruct the past.
+
+The scale of validation is a separate question. One deeply analyzed embryo can demonstrate that a method produces informative results. Assessing how consistently it works in other embryos requires the corresponding comparison. A large number of examined cells within one organism therefore should not automatically be counted as a large number of independent experimental repetitions.
+
+The distinction between ancestry and an explanation of cell fate also matters. Knowing a lineage can help formulate a question about subsequent development. The relationship alone does not establish why a cell acquired particular properties. A causal account needs evidence designed for that question, rather than only a more detailed map of relationships. Separating those questions makes the result useful without assigning it explanatory powers that have not been demonstrated.
+
+### Why it matters
+
+These recordings add historical information to an observed cellular state. The practical lesson is to assess a scientific tool by the new information it supplies and the sample on which it was checked. An informative result from one embryo can support broader research while preserving the distinction between a demonstrated possibility and a universally validated method.
+
+
+----- 04-boundary-ce-archived (tech) — source: https://github.com/hashicorp/boundary -----
+
+## Русская версия
+
+В [репозитории HashiCorp Boundary](https://github.com/hashicorp/boundary) теперь указано, что Community Edition больше не развивается активно, а новые исправления и обновления безопасности не планируются. Код и прежние бинарные файлы остаются доступны. Будущую разработку компания связывает с HCP Boundary и Boundary Enterprise. README называет дату архивирования 8 октября, тогда как баннер GitHub — 9 октября; состояние архива подтверждено при проверке 12 октября.
+
+По [документации GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories), архивирование переводит репозиторий и его рабочие разделы в режим чтения. Это характеристика площадки разработки. Она сама по себе не выключает уже запущенную программу и не сообщает о доступности каждой коммерческой версии продукта. Для этих вопросов нужны сведения о соответствующей поставке, а не только отметка у исходного кода.
+
+Редакционный вывод из новости касается зависимости от будущего сопровождения. У работающей системы есть текущая версия, а есть ожидание, что обнаруженные позже ошибки кто-то исправит. Прекращение планов обновления меняет именно вторую часть. При этом по одному сообщению об архиве нельзя заявлять ни о немедленной неисправности всех установок, ни об их гарантированной безопасности на неопределённый срок.
+
+Для команды полезно сначала понять, какую редакцию и версию она использует, а затем отделить свои ожидания от обещаний поставщика. Если речь шла о получении будущих патчей CE, нынешнее сообщение меняет это ожидание. Если обсуждается иной вариант продукта, необходимо сверить его собственные условия. Смешивание названий редакций создаёт лишнюю неопределённость там, где источник довольно конкретен.
+
+Мысленный пример: сервис продолжает выполнять вчерашние операции, но план следующего обновления исчезает. Эти два наблюдения вполне совместимы. Первое описывает работоспособность сегодня, второе — путь исправлений завтра. Решение о дальнейшем использовании потребует оценки именно этой разницы, с учётом роли сервиса и доступных вариантов сопровождения. Сам архив не выбирает такое решение за пользователя.
+
+Существующий код также не равен существующей команде поддержки. Теоретическая возможность продолжить разработку другой командой требует людей, компетенций и собственных проверок. Она не появляется автоматически от того, что файлы можно прочитать. Поэтому возможное продолжение стоит обсуждать как отдельный проект, а не как гарантированную замену прежнего сопровождения.
+
+### Почему это важно
+
+Новость даёт конкретную границу планов для Boundary CE. Практический вывод — проверять поддержку на уровне используемой редакции и версии, а не общего названия продукта. Сегодняшняя работоспособность и будущие исправления отвечают на разные вопросы; план эксплуатации должен учитывать оба, не опираясь на неподтверждённые обещания.
+
+## English version
+
+The [HashiCorp Boundary repository](https://github.com/hashicorp/boundary) now says Community Edition is no longer under active development and that further fixes and security updates are not planned. Existing code and binaries remain available. The company directs future development toward HCP Boundary and Boundary Enterprise. Its README names October 8 as the archiving date, while GitHub's banner names October 9; the archived state was confirmed when checked on October 12.
+
+According to [GitHub's documentation](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories), archiving makes the repository and its working sections read-only. This describes a development venue. It does not by itself switch off running software or establish the availability of every commercial edition. Those questions require information about the relevant offering, beyond the label attached to a source repository.
+
+Our editorial takeaway concerns dependence on future maintenance. A working system has a current version and an expectation that someone will fix subsequently discovered problems. Ending update plans changes the second part. One archive notice cannot establish either immediate failure across all installations or indefinite safety for them.
+
+A team would benefit from identifying its actual edition and version, then separating its expectations from the supplier's stated commitments. If it expected future CE patches, the current notice changes that expectation. If it uses another offering, that offering's own terms need to be checked. Merging edition names creates unnecessary ambiguity where the source is fairly specific about its scope.
+
+Consider a hypothetical service that continues yesterday's operations while its next-update plan disappears. Those observations are compatible. One describes operation today; the other describes the route to fixes tomorrow. A decision about continued use would need to assess the difference, taking account of the service's role and available maintenance options. The archive itself does not make that decision for the user.
+
+Available source also should not be confused with an available support team. Continuing development under another team requires people, skills and its own checks. That capability does not arise automatically because the files can be read. A possible continuation should therefore be discussed as a separate project, rather than a guaranteed substitute for the previous maintenance arrangement.
+
+### Why it matters
+
+The notice establishes a concrete boundary around plans for Boundary CE. The useful lesson is to check support for the edition and version actually in use, rather than for a product name in general. Present operation and future fixes answer different questions. An operating plan needs to address both without relying on unsupported promises about what will happen next.
+
+
+----- 05-python315-actions-builds (tech) — source: https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24 -----
+
+## Русская версия
+
+В [официальном репозитории actions/python-versions](https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24) 10 октября обновили manifest: Python 3.15.0 отмечен как стабильный релиз и снабжён ссылками на готовые сборки для перечисленных платформ. Это конкретное изменение инфраструктуры установки. В manifest есть варианты Windows, macOS и Linux; выбор сборки связан с платформой и архитектурой runner. Оно позволяет обсуждать проверку проектов на новой версии без предположения, что каждое приложение уже совместимо с ней.
+
+Сам [стабильный релиз Python 3.15.0](https://www.python.org/downloads/release/python-3150/) датирован 9 октября. В его описании среди изменений названы UTF-8 по умолчанию и явные ленивые импорты. Это сведения о языке и интерпретаторе. Коммит Actions решает соседнюю задачу: предоставляет определённые сборки для среды автоматических запусков, а не выпускает Python заново.
+
+В [документации setup-python](https://github.com/actions/setup-python) объясняется, что action сначала ищет подходящий интерпретатор в локальном кэше инструментов, а затем может загрузить сборку из GitHub Releases. Версию можно задать явно через входной параметр. При отсутствии явного выбора результат зависит от доступной конфигурации среды; поэтому наличие строки в manifest и фактически использованный интерпретатор — разные вещи, которые стоит сверить.
+
+Редакционный интерес новости — в возможности превратить вопрос о совместимости в наблюдаемый результат. Если проект работает на прежней версии, успешный запуск говорит именно об этой комбинации. Проверка на другой версии добавит свидетельство о другой комбинации. Она не отменяет старый результат и не заменяет решение о том, какие версии проект поддерживает.
+
+Представьте условный проект с двумя проверками: импортом пакета и выполнением основного сценария. Новый интерпретатор может пройти первую и встретить проблему во второй. Если команда смотрит только на факт установки, она ещё не проверила ни одну из них. Этот пример не сообщает о дефекте Python 3.15; он объясняет различие между доступностью инструмента и работой конкретной программы.
+
+Полезно также сохранять ясность сравнения. Когда вместе с интерпретатором меняются зависимости, образ runner и настройки, один итоговый сбой не указывает автоматически на причину. Для разбора нужны сведения о фактическом окружении и воспроизводимый сценарий. Успешный запуск тоже следует описывать в этих границах, не превращая его в гарантию для любой установки.
+
+### Почему это важно
+
+Готовые сборки дают практический повод проверить новый интерпретатор в привычной автоматической среде. Вывод для команды — фиксировать, что именно запущено, и оценивать результат своих сценариев. Доступность стабильной версии снижает барьер для такого сравнения, но решение о поддержке остаётся связано с полученными доказательствами, а не с одним названием релиза.
+
+## English version
+
+The [official actions/python-versions repository](https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24) updated its manifest on October 10. Python 3.15.0 is marked stable, with links to installable builds for the listed platforms. This is a concrete change to installation infrastructure. It makes testing projects on the new version practical without implying that every application is already compatible.
+
+The [stable Python 3.15.0 release](https://www.python.org/downloads/release/python-3150/) itself is dated October 9. Its description lists UTF-8 by default and explicit lazy imports among the changes. Those concern the language and interpreter. The Actions commit addresses a neighboring requirement: providing particular builds for automated execution environments, rather than releasing Python again.
+
+The [setup-python documentation](https://github.com/actions/setup-python) explains that the action first looks for a suitable interpreter in the local tool cache and can then download a build from GitHub Releases. An input can specify the version explicitly. Without explicit selection, the result depends on the available environment configuration. A manifest entry and the interpreter actually used are consequently separate facts worth checking.
+
+Our editorial interest lies in turning a compatibility question into an observable result. A successful run on an existing version provides evidence about that combination. Running on another version adds evidence about another combination. It does not invalidate the earlier result or decide which versions a project should support.
+
+Imagine a hypothetical project with two checks: importing the package and executing its main workflow. A new interpreter might pass the first and encounter a problem in the second. Looking only at whether installation succeeded checks neither. This example does not report a Python 3.15 defect; it illustrates the difference between an available tool and the behavior of a particular application.
+
+Comparisons also need a clear scope. When dependencies, runner images and settings change alongside the interpreter, a failed run does not automatically identify its cause. Diagnosis needs the actual environment and a reproducible scenario. Success should be described within the same boundaries, without being promoted into a guarantee for every installation. Keeping the combination explicit helps another reader understand what has been demonstrated and what remains untested.
+
+### Why it matters
+
+Installable builds provide a practical opportunity to check a new interpreter in a familiar automated environment. The useful lesson is to record what actually ran and assess the project's own workflows. Availability of a stable version lowers the barrier to that comparison, while support decisions remain tied to the resulting evidence rather than the release name alone.
+
+
 ===== EDITION 35 — 2026-10-10 =====
 
 ## От редакции

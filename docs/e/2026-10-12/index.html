@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-wire - выпуск №36 - 2026-10-12</title>
+<meta name="description" content="frontier-wire - an openly automated bilingual news wire.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<div class="edition-head">
+  <p class="kicker"><span class="lang-ru">Выпуск №36</span><span class="lang-en">Edition №36</span> &middot; 2026-10-12</p>
+  <div class="editorial">
+    <div class="lang-ru"><p>Сегодня соединяем две темы: как восстановить путь к результату и как проверить его границы. Исследователи ведут ИИ по ссылкам Wikipedia, задают белковые структуры словами и читают историю клеток по наследуемым меткам. В технологиях смотрим на прекращение разработки Boundary CE и появление стабильного Python 3.15 в сборках GitHub Actions — каждую новость читаем вместе с тем, что она подтверждает для конкретного пользователя.</p></div>
+    <div class="lang-en"><p>Today brings two connected questions: how to reconstruct a path to a result and how to check its limits. Researchers navigate Wikipedia links with AI, describe protein structures in words and read cellular histories from inherited marks. In technology, we examine the end of Boundary CE development and stable Python 3.15 builds for GitHub Actions, keeping each announcement's implications for a particular user in view.</p></div>
+  </div>
+</div>
+<div class="grid"><article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="01-wikipedia-game-navigation.html">
+    <span class="lang-ru">Исследователи проверили навигацию ИИ по Wikipedia: добраться до цели и выбрать короткий путь — разные результаты</span>
+    <span class="lang-en">A Wikipedia navigation study separates reaching the target from finding a short route</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">В препринте от 9 октября сравнили языковые модели, эмбеддинги и человеческие попытки с разными ограничениями.</span><span class="lang-en">An October 9 preprint compares language models, embeddings and human attempts under different constraints.</span></p>
+</article>
+<article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="02-prompteina-text-protein-design.html">
+    <span class="lang-ru">Prompteina принимает текстовое описание белка; авторы отдельно проверили связывание с GM2A</span>
+    <span class="lang-en">Prompteina accepts protein-design descriptions, with a separate GM2A binding test</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Препринт соединяет управление структурой через текст и лабораторную проверку ограниченной выборки кандидатов.</span><span class="lang-en">The preprint combines text-based structural control with laboratory testing of a limited candidate sample.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="03-dna-typewriter-embryo-lineages.html">
+    <span class="lang-ru">DNA Typewriter помог восстановить родословную клеток одного мышиного эмбриона</span>
+    <span class="lang-en">DNA Typewriter helps reconstruct cell ancestry in one mouse embryo</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">В сообщении UW Medicine описана запись наследуемых меток за 13,5 дня развития и ограничения выборки.</span><span class="lang-en">UW Medicine describes inherited recordings over 13.5 days of development and important sample limitations.</span></p>
+</article>
+<article class="card rubric-tech">
+
+  <span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span>
+  <h3><a href="04-boundary-ce-archived.html">
+    <span class="lang-ru">HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции</span>
+    <span class="lang-en">HashiCorp archives Boundary CE and plans no further updates for that edition</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Код и прежние бинарные файлы остаются доступны; компания направляет развитие в HCP Boundary и Enterprise.</span><span class="lang-en">Existing code and binaries remain available while development shifts to HCP Boundary and Enterprise.</span></p>
+</article>
+<article class="card rubric-tech">
+
+  <span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span>
+  <h3><a href="05-python315-actions-builds.html">
+    <span class="lang-ru">Стабильный Python 3.15 появился в manifest сборок GitHub Actions</span>
+    <span class="lang-en">Stable Python 3.15 joins the GitHub Actions build manifest</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Коммит от 10 октября добавляет готовые сборки; совместимость приложения по-прежнему нужно подтверждать его проверками.</span><span class="lang-en">An October 10 commit adds installable builds; application compatibility still depends on its own checks.</span></p>
+</article></div>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

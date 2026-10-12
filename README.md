@@ -10,18 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №35 / Edition №35 — 2026-10-10** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №36 / Edition №36 — 2026-10-12** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
 
-- **[Технологии]** [Deno присоединяется к Cloudflare и объявляет сроки поддержки своих продуктов](editions/2026/10-10/01-deno-cloudflare-transition.md)
-- **[ИИ]** [Ai2 распределяет GPU по бюджетам времени и сообщает о сокращении очередей](editions/2026/10-10/02-ai2-gpu-time-budgets.md)
-- **[Наука]** [NASA использует уходящий грузовой корабль для испытаний двенадцати теплозащитных капсул](editions/2026/10-10/03-krepe-heat-shield-tests.md)
-- **[Экономика]** [NASA открыла приём предложений по коммерческим станциям на низкой орбите](editions/2026/10-10/04-commercial-stations-proposals.md)
-- **[Наука]** [Living Planet Index снова показывает спад 73% — важно понимать, что именно он измеряет](editions/2026/10-10/05-living-planet-index-2026.md)
-- **[Мир]** [Нобелевскую премию мира получила Нави Пиллэй — за укрепление международного права](editions/2026/10-10/06-pillay-peace-prize.md)
-- **[ИИ]** [BrickBench проверяет, умеет ли ИИ спроектировать LEGO, а не просто показать красивую сборку](editions/2026/10-10/07-brickbench-design-checks.md)
-- **[Экономика]** [Коды платежей CHAPS дают быстрый индикатор сделок с недвижимостью — но не индекс цен](editions/2026/10-10/08-chaps-property-indicator.md)
-- **[Технологии]** [Голос помог написать функцию блога, но выпуск потребовал ревью и работы с клавиатурой](editions/2026/10-10/09-voice-coding-reviewed.md)
-- **[ИИ]** [Asana связала экономию браузерного агента со стабильностью истории — число 76× требует контекста](editions/2026/10-10/10-asana-browser-cache-study.md)
+- **[ИИ]** [Исследователи проверили навигацию ИИ по Wikipedia: добраться до цели и выбрать короткий путь — разные результаты](editions/2026/10-12/01-wikipedia-game-navigation.md)
+- **[ИИ]** [Prompteina принимает текстовое описание белка; авторы отдельно проверили связывание с GM2A](editions/2026/10-12/02-prompteina-text-protein-design.md)
+- **[Наука]** [DNA Typewriter помог восстановить родословную клеток одного мышиного эмбриона](editions/2026/10-12/03-dna-typewriter-embryo-lineages.md)
+- **[Технологии]** [HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции](editions/2026/10-12/04-boundary-ce-archived.md)
+- **[Технологии]** [Стабильный Python 3.15 появился в manifest сборок GitHub Actions](editions/2026/10-12/05-python315-actions-builds.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

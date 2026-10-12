@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции - frontier-wire</title>
+<meta name="description" content="Existing code and binaries remain available while development shifts to HCP Boundary and Enterprise.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-12/04-boundary-ce-archived.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "HashiCorp archives Boundary CE and plans no further updates for that edition", "alternativeHeadline": "HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции", "datePublished": "2026-10-12", "inLanguage": ["ru", "en"], "isBasedOn": "https://github.com/hashicorp/boundary", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-12/04-boundary-ce-archived.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-10-12 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции</span><span class="lang-en">HashiCorp archives Boundary CE and plans no further updates for that edition</span></h1>
+  <p class="dek big"><span class="lang-ru">Код и прежние бинарные файлы остаются доступны; компания направляет развитие в HCP Boundary и Enterprise.</span><span class="lang-en">Existing code and binaries remain available while development shifts to HCP Boundary and Enterprise.</span></p>
+
+  <div class="prose lang-ru"><p>В <a href="https://github.com/hashicorp/boundary">репозитории HashiCorp Boundary</a> теперь указано, что Community Edition больше не развивается активно, а новые исправления и обновления безопасности не планируются. Код и прежние бинарные файлы остаются доступны. Будущую разработку компания связывает с HCP Boundary и Boundary Enterprise. README называет дату архивирования 8 октября, тогда как баннер GitHub — 9 октября; состояние архива подтверждено при проверке 12 октября.</p>
+<p>По <a href="https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories">документации GitHub</a>, архивирование переводит репозиторий и его рабочие разделы в режим чтения. Это характеристика площадки разработки. Она сама по себе не выключает уже запущенную программу и не сообщает о доступности каждой коммерческой версии продукта. Для этих вопросов нужны сведения о соответствующей поставке, а не только отметка у исходного кода.</p>
+<p>Редакционный вывод из новости касается зависимости от будущего сопровождения. У работающей системы есть текущая версия, а есть ожидание, что обнаруженные позже ошибки кто-то исправит. Прекращение планов обновления меняет именно вторую часть. При этом по одному сообщению об архиве нельзя заявлять ни о немедленной неисправности всех установок, ни об их гарантированной безопасности на неопределённый срок.</p>
+<p>Для команды полезно сначала понять, какую редакцию и версию она использует, а затем отделить свои ожидания от обещаний поставщика. Если речь шла о получении будущих патчей CE, нынешнее сообщение меняет это ожидание. Если обсуждается иной вариант продукта, необходимо сверить его собственные условия. Смешивание названий редакций создаёт лишнюю неопределённость там, где источник довольно конкретен.</p>
+<p>Мысленный пример: сервис продолжает выполнять вчерашние операции, но план следующего обновления исчезает. Эти два наблюдения вполне совместимы. Первое описывает работоспособность сегодня, второе — путь исправлений завтра. Решение о дальнейшем использовании потребует оценки именно этой разницы, с учётом роли сервиса и доступных вариантов сопровождения. Сам архив не выбирает такое решение за пользователя.</p>
+<p>Существующий код также не равен существующей команде поддержки. Теоретическая возможность продолжить разработку другой командой требует людей, компетенций и собственных проверок. Она не появляется автоматически от того, что файлы можно прочитать. Поэтому возможное продолжение стоит обсуждать как отдельный проект, а не как гарантированную замену прежнего сопровождения.</p>
+<h3>Почему это важно</h3>
+<p>Новость даёт конкретную границу планов для Boundary CE. Практический вывод — проверять поддержку на уровне используемой редакции и версии, а не общего названия продукта. Сегодняшняя работоспособность и будущие исправления отвечают на разные вопросы; план эксплуатации должен учитывать оба, не опираясь на неподтверждённые обещания.</p></div>
+  <div class="prose lang-en"><p>The <a href="https://github.com/hashicorp/boundary">HashiCorp Boundary repository</a> now says Community Edition is no longer under active development and that further fixes and security updates are not planned. Existing code and binaries remain available. The company directs future development toward HCP Boundary and Boundary Enterprise. Its README names October 8 as the archiving date, while GitHub's banner names October 9; the archived state was confirmed when checked on October 12.</p>
+<p>According to <a href="https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories">GitHub's documentation</a>, archiving makes the repository and its working sections read-only. This describes a development venue. It does not by itself switch off running software or establish the availability of every commercial edition. Those questions require information about the relevant offering, beyond the label attached to a source repository.</p>
+<p>Our editorial takeaway concerns dependence on future maintenance. A working system has a current version and an expectation that someone will fix subsequently discovered problems. Ending update plans changes the second part. One archive notice cannot establish either immediate failure across all installations or indefinite safety for them.</p>
+<p>A team would benefit from identifying its actual edition and version, then separating its expectations from the supplier's stated commitments. If it expected future CE patches, the current notice changes that expectation. If it uses another offering, that offering's own terms need to be checked. Merging edition names creates unnecessary ambiguity where the source is fairly specific about its scope.</p>
+<p>Consider a hypothetical service that continues yesterday's operations while its next-update plan disappears. Those observations are compatible. One describes operation today; the other describes the route to fixes tomorrow. A decision about continued use would need to assess the difference, taking account of the service's role and available maintenance options. The archive itself does not make that decision for the user.</p>
+<p>Available source also should not be confused with an available support team. Continuing development under another team requires people, skills and its own checks. That capability does not arise automatically because the files can be read. A possible continuation should therefore be discussed as a separate project, rather than a guaranteed substitute for the previous maintenance arrangement.</p>
+<h3>Why it matters</h3>
+<p>The notice establishes a concrete boundary around plans for Boundary CE. The useful lesson is to check support for the edition and version actually in use, rather than for a product name in general. Present operation and future fixes answer different questions. An operating plan needs to address both without relying on unsupported promises about what will happen next.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://github.com/hashicorp/boundary">https://github.com/hashicorp/boundary</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

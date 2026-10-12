@@ -1,41 +1,21 @@
-# frontier-wire — latest edition №35 (2026-10-10)
+# frontier-wire — latest edition №36 (2026-10-12)
 
-## Deno joins Cloudflare and sets transition timelines for its products / Deno присоединяется к Cloudflare и объявляет сроки поддержки своих продуктов
-rubric: tech · source: https://deno.com/blog/cloudflare
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/01-deno-cloudflare-transition.md
+## A Wikipedia navigation study separates reaching the target from finding a short route / Исследователи проверили навигацию ИИ по Wikipedia: добраться до цели и выбрать короткий путь — разные результаты
+rubric: ai · source: https://arxiv.org/html/2610.13948v1
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/01-wikipedia-game-navigation.md
 
-## Ai2 allocates GPU time through budgets and reports shorter queues / Ai2 распределяет GPU по бюджетам времени и сообщает о сокращении очередей
-rubric: ai · source: https://huggingface.co/blog/allenai/impactful-scheduling
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/02-ai2-gpu-time-budgets.md
+## Prompteina accepts protein-design descriptions, with a separate GM2A binding test / Prompteina принимает текстовое описание белка; авторы отдельно проверили связывание с GM2A
+rubric: ai · source: https://arxiv.org/html/2610.13917v1
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/02-prompteina-text-protein-design.md
 
-## NASA uses a departing cargo spacecraft to test twelve heat-shield capsules / NASA использует уходящий грузовой корабль для испытаний двенадцати теплозащитных капсул
-rubric: science · source: https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/03-krepe-heat-shield-tests.md
+## DNA Typewriter helps reconstruct cell ancestry in one mouse embryo / DNA Typewriter помог восстановить родословную клеток одного мышиного эмбриона
+rubric: science · source: https://newsroom.uw.edu/news-releases/dna-typewriter-records-cells-history-in-early-mouse-embryo
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/03-dna-typewriter-embryo-lineages.md
 
-## NASA opens proposals for commercial low-Earth-orbit stations / NASA открыла приём предложений по коммерческим станциям на низкой орбите
-rubric: economy · source: https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/04-commercial-stations-proposals.md
+## HashiCorp archives Boundary CE and plans no further updates for that edition / HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции
+rubric: tech · source: https://github.com/hashicorp/boundary
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/04-boundary-ce-archived.md
 
-## Living Planet Index again reports a 73% decline: what the measure actually means / Living Planet Index снова показывает спад 73% — важно понимать, что именно он измеряет
-rubric: science · source: https://ourworldindata.org/2026-lpi-update
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/05-living-planet-index-2026.md
-
-## Navi Pillay wins the peace prize for advancing international law / Нобелевскую премию мира получила Нави Пиллэй — за укрепление международного права
-rubric: world · source: https://www.nobelprize.org/prizes/peace/2026/press-release/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/06-pillay-peace-prize.md
-
-## BrickBench separates buildable LEGO designs from attractive images / BrickBench проверяет, умеет ли ИИ спроектировать LEGO, а не просто показать красивую сборку
-rubric: ai · source: https://arxiv.org/html/2610.12452v1
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/07-brickbench-design-checks.md
-
-## CHAPS payment codes offer a faster property-activity indicator, not a house-price index / Коды платежей CHAPS дают быстрый индикатор сделок с недвижимостью — но не индекс цен
-rubric: economy · source: https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/08-chaps-property-indicator.md
-
-## Voice helped build a blog feature; shipping still involved review and typing / Голос помог написать функцию блога, но выпуск потребовал ревью и работы с клавиатурой
-rubric: tech · source: https://simonwillison.net/2026/Oct/9/built-using-my-voice/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/09-voice-coding-reviewed.md
-
-## Asana links browser-agent savings to stable history, with qualifications around its 76× claim / Asana связала экономию браузерного агента со стабильностью истории — число 76× требует контекста
-rubric: ai · source: https://asana.com/inside-asana/cut-browsers-agent-cost
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-10/10-asana-browser-cache-study.md
+## Stable Python 3.15 joins the GitHub Actions build manifest / Стабильный Python 3.15 появился в manifest сборок GitHub Actions
+rubric: tech · source: https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/05-python315-actions-builds.md
