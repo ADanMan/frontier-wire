@@ -10,13 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №36 / Edition №36 — 2026-10-12** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/)
+**Выпуск №37 / Edition №37 — 2026-10-15** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-15/)
 
-- **[ИИ]** [Исследователи проверили навигацию ИИ по Wikipedia: добраться до цели и выбрать короткий путь — разные результаты](editions/2026/10-12/01-wikipedia-game-navigation.md)
-- **[ИИ]** [Prompteina принимает текстовое описание белка; авторы отдельно проверили связывание с GM2A](editions/2026/10-12/02-prompteina-text-protein-design.md)
-- **[Наука]** [DNA Typewriter помог восстановить родословную клеток одного мышиного эмбриона](editions/2026/10-12/03-dna-typewriter-embryo-lineages.md)
-- **[Технологии]** [HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции](editions/2026/10-12/04-boundary-ce-archived.md)
-- **[Технологии]** [Стабильный Python 3.15 появился в manifest сборок GitHub Actions](editions/2026/10-12/05-python315-actions-builds.md)
+- **[Наука]** [Ai2 представил HiRO-ACEv2: подробные климатические сценарии с важной границей применимости](editions/2026/10-15/01-hiro-acev2-climate-emulator.md)
+- **[Наука]** [Chandra связала космический «скрипичный ключ» со столкновением скоплений галактик](editions/2026/10-15/02-chandra-treble-clef-cluster.md)
+- **[ИИ]** [Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов](editions/2026/10-15/03-liquid-local-agent-model.md)
+- **[Технологии]** [TypeSafe представила Jev 1.14 и экспериментальные ответы о положении объектов на изображении](editions/2026/10-15/04-jev-preview-image-boxes.md)
+- **[Технологии]** [Anthropic рассказала о Scion: серверном контроле версий для потока изменений от агентов](editions/2026/10-15/05-anthropic-scion-source-control.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

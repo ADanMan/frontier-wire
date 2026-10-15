@@ -1,21 +1,21 @@
-# frontier-wire — latest edition №36 (2026-10-12)
+# frontier-wire — latest edition №37 (2026-10-15)
 
-## A Wikipedia navigation study separates reaching the target from finding a short route / Исследователи проверили навигацию ИИ по Wikipedia: добраться до цели и выбрать короткий путь — разные результаты
-rubric: ai · source: https://arxiv.org/html/2610.13948v1
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/01-wikipedia-game-navigation.md
+## Ai2 introduces HiRO-ACEv2 for detailed climate simulations, with a clear boundary / Ai2 представил HiRO-ACEv2: подробные климатические сценарии с важной границей применимости
+rubric: science · source: https://huggingface.co/blog/allenai/hiro-acev2
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/01-hiro-acev2-climate-emulator.md
 
-## Prompteina accepts protein-design descriptions, with a separate GM2A binding test / Prompteina принимает текстовое описание белка; авторы отдельно проверили связывание с GM2A
-rubric: ai · source: https://arxiv.org/html/2610.13917v1
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/02-prompteina-text-protein-design.md
+## Chandra links the cosmic Treble Clef to a galaxy-cluster collision / Chandra связала космический «скрипичный ключ» со столкновением скоплений галактик
+rubric: science · source: https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/02-chandra-treble-clef-cluster.md
 
-## DNA Typewriter helps reconstruct cell ancestry in one mouse embryo / DNA Typewriter помог восстановить родословную клеток одного мышиного эмбриона
-rubric: science · source: https://newsroom.uw.edu/news-releases/dna-typewriter-records-cells-history-in-early-mouse-embryo
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/03-dna-typewriter-embryo-lineages.md
+## Liquid AI releases LFM2.5-24B-A2B for on-device agents / Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов
+rubric: ai · source: https://www.liquid.ai/blog/lfm2-5-24b-a2b
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/03-liquid-local-agent-model.md
 
-## HashiCorp archives Boundary CE and plans no further updates for that edition / HashiCorp архивировала Boundary CE и не планирует новые обновления этой редакции
-rubric: tech · source: https://github.com/hashicorp/boundary
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/04-boundary-ce-archived.md
+## TypeSafe introduces Jev 1.14 and experimental image-location answers / TypeSafe представила Jev 1.14 и экспериментальные ответы о положении объектов на изображении
+rubric: tech · source: https://typesafe.ai/blog/jev-1-14
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/04-jev-preview-image-boxes.md
 
-## Stable Python 3.15 joins the GitHub Actions build manifest / Стабильный Python 3.15 появился в manifest сборок GitHub Actions
-rubric: tech · source: https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-12/05-python315-actions-builds.md
+## Anthropic details Scion, server-based version control for agent-scale changes / Anthropic рассказала о Scion: серверном контроле версий для потока изменений от агентов
+rubric: tech · source: https://www.anthropic.com/engineering/redesigning-source-control
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/05-anthropic-scion-source-control.md

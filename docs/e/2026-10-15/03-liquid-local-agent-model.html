@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов - frontier-wire</title>
+<meta name="description" content="The company reports fast generation, but its measurements do not replace testing an entire workflow.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-15/03-liquid-local-agent-model.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Liquid AI releases LFM2.5-24B-A2B for on-device agents", "alternativeHeadline": "Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов", "datePublished": "2026-10-15", "inLanguage": ["ru", "en"], "isBasedOn": "https://www.liquid.ai/blog/lfm2-5-24b-a2b", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-15/03-liquid-local-agent-model.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-15 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов</span><span class="lang-en">Liquid AI releases LFM2.5-24B-A2B for on-device agents</span></h1>
+  <p class="dek big"><span class="lang-ru">Компания показывает высокую скорость генерации, но её измерения не заменяют проверку полного рабочего сценария.</span><span class="lang-en">The company reports fast generation, but its measurements do not replace testing an entire workflow.</span></p>
+
+  <div class="prose lang-ru"><p>Liquid AI в <a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">анонсе от 13 октября</a> представила LFM2.5-24B-A2B — модель с открытыми весами для локальных агентов. Компания сообщает о 24 миллиардах параметров, из которых при обработке токена активируется лишь часть, и показывает собственные измерения скорости. В таблице испытаний есть как преимущества на отдельных задачах работы с инструментами, так и отставание на других тестах. Единого доказательства превосходства над всеми соседними моделями анонс не даёт.</p>
+<p>В <a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B">карточке модели</a> перечислены разные варианты поставки, включая GGUF и MLX, и контекст до 131 072 токенов. Там же указаны 2,45 миллиарда активных параметров: обозначение A2B в названии не следует принимать за точную характеристику памяти. Карточка описывает текстовую модель с поддержкой вызова инструментов; доступность весов не означает наличия готового помощника с подключёнными сервисами.</p>
+<p>Для читателя здесь важнее не спор о самом большом числе в таблице, а различие между скоростью шага и временем выполнения задачи. Агент может быстро предложить следующий вызов и затем долго ждать внешнюю систему. Может написать короткий ответ после ошибочного поиска. Может сделать несколько лишних попыток. Измерение генерации само по себе не говорит, какой из этих сценариев получится у конкретного пользователя.</p>
+<p>Поэтому полезный сравнительный эксперимент выглядел бы иначе: одинаковая задача, одинаковые инструменты, одинаковое ограничение времени и заранее определённый правильный результат. Следовало бы учитывать все попытки, а не только удачный прогон. Это редакционный критерий для чтения таких анонсов, а не заявление о проведённом нами независимом тестировании новинки.</p>
+<p>Отдельного внимания требует слово «локальный». Оно отвечает на вопрос о месте вычисления модели. Но если построенный вокруг неё агент отправляет запрос к внешнему поиску или другой службе, нужно отдельно выяснять, что именно передаётся туда. Эти свойства не противоречат друг другу: локальное вычисление и сетевые инструменты могут сосуществовать. Просто обещание приватности нельзя вывести из одного лишь места хранения весов.</p>
+<p>Разумно также разделять возможность разместить модель и удобство её повседневного использования. Для первого достаточно подходящего формата и ресурсов. Для второго нужны понятная обработка ошибок, контроль длительности и проверка результата. Ни один размер модели не отменяет этих вопросов; зато небольшая стоимость отдельного шага может сделать эксперименты с ними доступнее.</p>
+<h3>Почему это важно</h3>
+<p>Релиз расширяет выбор основы для помощников на собственном оборудовании. Практический вывод стоит делать по завершённым задачам: насколько устойчив результат, сколько времени он занял и какие данные покидали устройство. Именно это превращает быстрые токены в полезный инструмент.</p></div>
+  <div class="prose lang-en"><p>Liquid AI's <a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">October 13 announcement</a> introduces LFM2.5-24B-A2B, an open-weight model aimed at on-device agents. The company reports 24 billion total parameters, with only a subset activated for each token, and publishes its own speed measurements. Its evaluation table contains both advantages on some tool-use tasks and weaker results elsewhere. It does not establish universal superiority over competing models.</p>
+<p>The <a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B">model card</a> lists deployment formats including GGUF and MLX, alongside a context window of 131,072 tokens. It specifies 2.45 billion active parameters: the A2B label should not be mistaken for a precise memory requirement. This is a text model with tool-calling support, rather than a complete assistant with services already connected.</p>
+<p>For a potential user, the important distinction is between the speed of one step and the time needed to finish a task. An agent might propose a tool call quickly and then wait for an external service. It might produce a short answer after a mistaken search, or make several unnecessary attempts. Generation speed alone cannot tell you which experience a particular workflow will deliver.</p>
+<p>A useful comparison would hold the task, available tools, time limit and definition of success constant. It would count unsuccessful attempts as well as the most attractive run. That is an editorial criterion for interpreting announcements like this, rather than a claim that we independently tested the new model. Without such a comparison, a throughput number answers a narrower question than the user is likely to be asking.</p>
+<p>The word “local” also needs a specific interpretation. It identifies where the model computation takes place. If an agent built around that model sends a query to search or another remote service, the information transmitted there needs separate examination. Local inference and network tools can coexist perfectly well; a privacy guarantee simply cannot be inferred from the location of the model weights alone.</p>
+<p>It is helpful to distinguish being able to fit a model onto a device from finding it comfortable to use every day. The former requires a suitable format and enough resources. The latter requires clear error handling, time limits and a way to check the result. Model size does not remove those questions, although cheaper individual steps could make experimentation more accessible.</p>
+<h3>Why it matters</h3>
+<p>The release adds another foundation for assistants running on users' own hardware. The practical judgment should concern completed work: whether the result is reliable, how long it took, and which information left the device. Those are the properties that turn rapid token generation into a useful tool.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">https://www.liquid.ai/blog/lfm2-5-24b-a2b</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
