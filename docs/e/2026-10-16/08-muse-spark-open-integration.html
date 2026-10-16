@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muse Spark Open получил руководство по запуску мультимодальной модели с открытыми весами - frontier-wire</title>
+<meta name="description" content="Hugging Face details deployment options; active parameters do not represent the whole model’s memory footprint.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-16/08-muse-spark-open-integration.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Muse Spark Open gets a deployment guide for its open-weight multimodal model", "alternativeHeadline": "Muse Spark Open получил руководство по запуску мультимодальной модели с открытыми весами", "datePublished": "2026-10-16", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/meta-muse-spark-open", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-16/08-muse-spark-open-integration.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-16 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Muse Spark Open получил руководство по запуску мультимодальной модели с открытыми весами</span><span class="lang-en">Muse Spark Open gets a deployment guide for its open-weight multimodal model</span></h1>
+  <p class="dek big"><span class="lang-ru">Hugging Face описала разные способы запуска; активные параметры не равны полному объёму модели в памяти.</span><span class="lang-en">Hugging Face details deployment options; active parameters do not represent the whole model’s memory footprint.</span></p>
+
+  <div class="prose lang-ru"><p>Hugging Face в <a href="https://huggingface.co/blog/meta-muse-spark-open">руководстве от 15 октября</a> представила способы работы с Muse Spark Open от Meta. Модель принимает текст, изображения, аудио и видео, а выдаёт текст. Авторы описывают примерно 816 миллиардов параметров всего и около 42 миллиардов активных на токен. Это модель с открытыми весами, а не обещание, что её полный вариант помещается на обычное пользовательское устройство.</p>
+<p>Различие между двумя числами связано с архитектурой смеси экспертов. На каждом шаге используется лишь выбранная часть экспертных блоков, однако остальные веса не перестают существовать. Поэтому активный объём описывает одну сторону вычисления, а общий размер остаётся существенным для размещения. В руководстве отдельно обсуждаются форматы BF16 и NVFP4 и способы распределённого запуска.</p>
+<p>Ещё одно важное различие касается мультимодальности. Возможность принять звук или видеозапись не означает, что модель генерирует речь или видео. В описанной конфигурации выход остаётся текстовым. Для читателя это помогает точнее сформулировать задачу: попросить объяснить запись, распознать содержание экрана или использовать наблюдение при работе с кодом — не то же самое, что создать новый медиаролик.</p>
+<p>Длинный контекст также стоит читать как ресурс, а не готовую оценку качества. Заявленная ёмкость до миллиона токенов показывает, сколько материала допускает интерфейс модели. Она сама по себе не говорит, насколько надёжно система найдёт нужную деталь в каждом наборе входных данных. Удержать материал в доступном окне и правильно использовать его — разные свойства.</p>
+<p>Представим задачу по разбору ошибки интерфейса, где есть описание, несколько снимков и короткая запись действий. Это редакционный пример, а не наш эксперимент с новинкой. Общая мультимодальная модель позволяет поставить вопрос ко всем этим материалам вместе. Но итог всё равно нужно сопоставить с наблюдаемым сбоем: объяснение, которое звучит уверенно, ещё не подтверждает, что причина найдена.</p>
+<p>Поэтому при сравнении способов запуска полезно удерживать одинаковыми не только модель, но и состав задания, допустимую точность и критерий успеха. Изменение формата весов может менять требования к оборудованию; оценку результата при этом нельзя молча считать прежней. Руководство даёт отправную точку для такого эксперимента, а не заменяет его универсальным рейтингом.</p>
+<h3>Почему это важно</h3>
+<p>Открытые веса и готовые интеграции расширяют возможности исследовать крупную мультимодальную модель. Практическая ценность определяется тем, получается ли правильно завершить нужную задачу при доступных ресурсах. Для этого важно отдельно оценивать память, вычисления, входные модальности и качество текстового результата.</p></div>
+  <div class="prose lang-en"><p>Hugging Face's <a href="https://huggingface.co/blog/meta-muse-spark-open">October 15 guide</a> presents ways to work with Meta's Muse Spark Open. The model accepts text, images, audio and video, and produces text. The authors describe roughly 816 billion total parameters and around 42 billion active per token. Open weights should not be confused with a promise that the full model fits on an ordinary personal device.</p>
+<p>The distinction between those numbers comes from its mixture-of-experts architecture. A selected portion of the expert blocks is used at each step, but the remaining weights do not cease to exist. Active size describes one aspect of computation, while total size remains relevant to deployment. The guide separately discusses BF16 and NVFP4 formats and distributed execution options.</p>
+<p>Multimodality requires another distinction. Accepting a recording does not mean generating speech or video. In the described configuration, the output remains text. That helps define the task more precisely: explaining a recording, interpreting a screenshot or using an observation while working on code differs from producing a new media clip.</p>
+<p>Long context should likewise be read as capacity rather than a ready-made quality score. An advertised window of up to a million tokens describes how much material the interface can accommodate. It does not establish that the system reliably retrieves the relevant detail in every collection of inputs. Keeping information available and using it correctly are separate properties.</p>
+<p>Imagine investigating an interface problem from a description, several screenshots and a short recording of the user's actions. This is an editorial example, not our experiment with the release. A common multimodal model lets the question be posed against those materials together. Its explanation still needs comparison with the observed failure: confidence alone does not establish that the cause has been identified.</p>
+<p>Comparing deployment options therefore benefits from holding the task, acceptable accuracy and definition of success constant, rather than looking only at the model name. A different weight format may change hardware requirements; output quality should not silently be assumed unchanged. The guide supplies a starting point for that experiment, rather than replacing it with a universal ranking.</p>
+<p>A useful assessment would also separate successful completion from an attractive demonstration. Repeated attempts and failures belong to the workload too. Otherwise, a comparison could reward a setup for producing one convincing answer while missing how often it needs another try.</p>
+<h3>Why it matters</h3>
+<p>Open weights and integrations broaden the opportunity to investigate a large multimodal model. Practical value depends on completing a relevant task correctly within available resources. Memory, computation, input modalities and the quality of the textual result should each be assessed on their own terms.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/meta-muse-spark-open">https://huggingface.co/blog/meta-muse-spark-open</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

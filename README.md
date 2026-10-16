@@ -17,6 +17,11 @@
 - **[ИИ]** [FLUX.3 Image Klein появился в Diffusers с управлением расположением частей изображения](editions/2026/10-16/03-flux3-layout-generation.md)
 - **[ИИ]** [NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков](editions/2026/10-16/04-indic-pretraining-corpus-announcement.md)
 - **[ИИ]** [IBM представила Granite Switch 4.1: речь, диалог и классификация в одной сборке](editions/2026/10-16/05-granite-switch-modular-models.md)
+- **[Наука]** [NASA показало Эль-Ниньо через температуру, высоту и цвет океана](editions/2026/10-16/06-el-nino-satellite-observations.md)
+- **[Экономика]** [Стенограммы MPC помогли исследователям сопоставить объяснения и голоса по ставке](editions/2026/10-16/07-mpc-historical-transcript-analysis.md)
+- **[ИИ]** [Muse Spark Open получил руководство по запуску мультимодальной модели с открытыми весами](editions/2026/10-16/08-muse-spark-open-integration.md)
+- **[ИИ]** [OpenAI предложила академическим лабораториям США план доступа к GPT-Rosalind](editions/2026/10-16/09-rosalind-academic-plan.md)
+- **[Культура]** [Valve начала бета-тест наборов достижений Steam с отдельным прогрессом для DLC](editions/2026/10-16/10-steam-achievement-sets-beta.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

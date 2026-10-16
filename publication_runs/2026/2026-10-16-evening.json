@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-16",
+  "slot": "evening",
+  "checked_at": "2026-10-16T16:03:43.332189+00:00",
+  "digest_sha256": "6dd8d103743849b87984c36d1c60fb73c24fbbfee097fead346018d694f94ee5",
+  "articles": [
+    {
+      "path": "editions/2026/10-16/06-el-nino-satellite-observations.md",
+      "sha256": "f90bb8363e4b4e421f36140850d257305777fea325857612aaf0c40cfd00c117",
+      "source": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino"
+    },
+    {
+      "path": "editions/2026/10-16/07-mpc-historical-transcript-analysis.md",
+      "sha256": "8c66e1efc7de2845d56ccfd9b873ccf7b55e9a7abe8ca302af289dbc7ec8880f",
+      "source": "https://bankunderground.co.uk/2026/10/15/narratives-under-the-microscope-what-mpc-transcripts-can-tell-us-about-policy-thinking"
+    },
+    {
+      "path": "editions/2026/10-16/08-muse-spark-open-integration.md",
+      "sha256": "107137db15578c32002ad906081110171378efe1043cc18aa1d10da83c08b793",
+      "source": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
+      "path": "editions/2026/10-16/09-rosalind-academic-plan.md",
+      "sha256": "5737742eb10426732c6ff3afc385bba70ef77d240ece3246bd203f22c9a75c9e",
+      "source": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+    },
+    {
+      "path": "editions/2026/10-16/10-steam-achievement-sets-beta.md",
+      "sha256": "ee08c399146de87b6013fc1ee48b15c421ec3851374ce413acfd15cd2cb1451d",
+      "source": "https://store.steampowered.com/news/app/593110/view/710037059469839141"
+    }
+  ]
+}

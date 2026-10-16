@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Утро соединяет подготовку космического полёта и способы извлекать пользу из больших массивов данных. NASA рассказывает о приборах MMX, исследователи Банка Англии читают объяснения бизнеса, а NVIDIA описывает будущий многоязычный корпус. В инструментах ИИ смотрим на управление композицией FLUX.3 и модульную сборку Granite Switch — с вниманием к тому, что уже доступно и что ещё предстоит проверить.
+Утро соединяет подготовку космического полёта и способы извлекать пользу из больших массивов данных. NASA рассказывает о приборах MMX, исследователи Банка Англии читают объяснения бизнеса, а NVIDIA описывает будущий многоязычный корпус. В инструментах ИИ смотрим на управление композицией FLUX.3 и модульную сборку Granite Switch — с вниманием к тому, что уже доступно и что ещё предстоит проверить. Вечер добавляет спутниковые наблюдения Эль-Ниньо, исследование стенограмм MPC, Muse Spark Open, академический доступ к GPT-Rosalind и бета-тест достижений Steam.
 
 ## Editorial
 
-This morning connects preparations for spaceflight with ways to make large collections of data useful. NASA details MMX instruments, Bank of England researchers examine business narratives, and NVIDIA describes a forthcoming multilingual corpus. In AI tools, we look at FLUX.3 layout control and Granite Switch's modular composition, keeping delivered capabilities separate from work still to be tested.
+This morning connects preparations for spaceflight with ways to make large collections of data useful. NASA details MMX instruments, Bank of England researchers examine business narratives, and NVIDIA describes a forthcoming multilingual corpus. In AI tools, we look at FLUX.3 layout control and Granite Switch's modular composition, keeping delivered capabilities separate from work still to be tested. The evening adds El Niño observations, research on MPC transcripts, Muse Spark Open, academic access to GPT-Rosalind and Steam’s achievement-set beta.
 
 
 ----- 01-mmx-nasa-launch-preparations (science) — source: https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/ -----
@@ -214,6 +214,211 @@ The arrangement is therefore interesting as a deployment choice, not just as a m
 ### Why it matters
 
 Granite Switch shows how several capabilities can be composed around one foundation. Its value depends on reducing repeated work while preserving quality at each stage. The practical measure is the cost of a correctly completed task, including failures and retries, rather than the appeal of an isolated speed comparison.
+
+
+----- 06-el-nino-satellite-observations (science) — source: https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/ -----
+
+## Русская версия
+
+NASA в [материале от 15 октября](https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/) соединило три способа наблюдать нынешнее Эль-Ниньо: аномалии температуры поверхности, высоты моря и цвета воды. Карты сопоставляют одинаковые месяцы 2025 и 2026 годов. Это взгляд на развитие явления через разные измерения, а не три варианта одной фотографии.
+
+В объяснении NASA также прослеживается перенос тепла через Тихий океан волнами Кельвина и связанное с ним изменение ветров. За слоями стоят разные инструменты. Альтиметрия Sentinel-6 помогает следить за высотой поверхности океана; температурный ряд использует также буи и судовые датчики. PACE наблюдает спектральные изменения цвета. В этой истории важно не смешивать сами измеряемые величины: высокий участок океана, тёплая вода и более синий оттенок — связанные, но не тождественные признаки.
+
+NASA объясняет изменение цвета ослаблением подъёма богатой питательными веществами глубинной воды. Это влияет на фитопланктон, и в экваториальной области становится меньше зелёных оттенков. Для PACE это первое Эль-Ниньо после запуска в 2024 году. Такое наблюдение добавляет к температурной картине биологическое измерение, но само по себе не является подсчётом всех морских организмов.
+
+Читателю полезно различать уровень наблюдения и уровень вывода. Спутник измеряет сигнал, из которого строится продукт данных. Затем исследователь сопоставляет его с физическим или биологическим объяснением. Цветная карта удобна для понимания, однако её палитра и название показателя являются частью смысла. Без них легко принять один вид отклонения за совсем другой.
+
+Есть и вопрос масштаба. Из большой карты Тихого океана нельзя напрямую получить погоду в конкретном городе в выбранный день. Для такого вывода понадобились бы дополнительные данные и отдельная прогностическая задача. Это не уменьшает пользу наблюдений: они позволяют видеть систему, внутри которой развиваются региональные последствия. Просто карта состояния и прогноз для отдельного места отвечают на разные вопросы.
+
+Например, визуально похожие красные области на двух картах могут обозначать разные единицы измерения. Разумно сначала прочитать легенду, затем уточнить период сравнения и лишь после этого оценивать величину изменения. Такая последовательность помогает обсуждать не впечатление от яркой картинки, а конкретное наблюдение. Сопоставление одинаковых месяцев особенно важно, когда читатель пытается понять развитие явления во времени.
+
+### Почему это важно
+
+Новая подборка NASA показывает, зачем океан наблюдают сразу несколькими способами. Температура, высота и цвет дают взаимодополняющие свидетельства. Практический смысл — в более содержательном понимании происходящего, при сохранении границы между измерением, его интерпретацией и отдельным прогнозом последствий.
+
+## English version
+
+NASA's [October 15 account](https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/) brings together three ways of observing the current El Niño: sea-surface temperature anomalies, sea-level anomalies and ocean colour. Its maps compare the same months in 2025 and 2026. They track different properties of a developing phenomenon, rather than providing three versions of a single photograph.
+
+NASA also traces heat moving across the Pacific through Kelvin waves and the associated changes in winds. Different instruments sit behind the layers. Sentinel-6 altimetry tracks ocean-surface height, while the temperature record also draws on buoys and ship sensors. PACE observes spectral changes in colour. The quantities should remain distinct: elevated water, warmer water and a bluer appearance are related signals, rather than interchangeable measurements.
+
+NASA connects the colour changes with reduced upwelling of nutrient-rich deep water. This affects phytoplankton, with green hues declining along the equatorial Pacific. It is the first El Niño observed since PACE launched in 2024. The observation adds a biological dimension to the temperature picture, without constituting a count of all marine organisms.
+
+A useful distinction separates observation from inference. A satellite measures a signal, which is processed into a data product. Researchers then relate that product to a physical or biological explanation. A coloured map can make the result easier to understand, but its palette and the name of the variable are part of its meaning. Without them, one kind of departure from normal can easily be mistaken for another.
+
+Scale matters too. A large Pacific map cannot directly supply the weather in a particular city on a particular day. That would require additional evidence and a separate forecasting task. This does not reduce the value of observation: it helps reveal the larger system within which regional consequences develop. A map of conditions and a local forecast simply address different questions.
+
+For example, visually similar red areas on two maps might represent quantities measured in entirely different units. Reading the legend, identifying the comparison period and then considering the magnitude is a sensible order. It keeps the discussion focused on a specific observation rather than the emotional impact of an intense colour. Matching months also matters when trying to understand how the phenomenon developed through time.
+
+The same discipline helps when reading accompanying explanations. A plausible connection between ocean conditions and wider effects should not be treated as proof that every individual event has the same cause. The useful starting point is what each product actually measures.
+
+### Why it matters
+
+NASA's new collection illustrates why several observing methods are needed. Temperature, height and colour supply complementary evidence. Their value lies in a richer picture of changing conditions, while preserving the distinction between measurement, interpretation and a separate forecast of consequences.
+
+
+----- 07-mpc-historical-transcript-analysis (economy) — source: https://bankunderground.co.uk/2026/10/15/narratives-under-the-microscope-what-mpc-transcripts-can-tell-us-about-policy-thinking/ -----
+
+## Русская версия
+
+В [исследовательской публикации от 15 октября](https://bankunderground.co.uk/2026/10/15/narratives-under-the-microscope-what-mpc-transcripts-can-tell-us-about-policy-thinking/) сотрудники Банка Англии рассмотрели, как словесные объяснения членов MPC соотносятся с голосованием по ставке. Они изучают исторические стенограммы 2015–2017 годов. Это отдельная работа о рассуждениях участников комитета, а не утренний анализ рассказов компаний о ценах и не новое заявление о денежной политике.
+
+Для численных оценок используется gpt-5-mini: каждая переменная извлекается отдельным запросом и ограничена целым числом от минус пяти до плюс пяти. Материал включает 258 высказываний из 29 заседаний. Языковая модель извлекает оценки инфляции относительно цели и роста относительно потенциала, а затем авторы связывают эти показатели с голосами. Стенограммы выходят с большой задержкой. Поэтому свежая дата публикации исследования не превращает рассматриваемые обсуждения в информацию о сегодняшних намерениях комитета.
+
+Основной результат авторов — различие между повышением и снижением ставки в изученной выборке. С голосами за повышение связаны обе текстовые оценки; с голосами за снижение — прежде всего оценки роста. Такая статистическая связь описывает исторические данные. Она не устанавливает неизменное правило поведения будущего состава комитета и не даёт готового сигнала о ближайшем заседании.
+
+Почему одних итогов голосования недостаточно для этого вопроса? Два участника могут выбрать одинаковое действие по разным причинам. Один больше опасается инфляции, другой иначе оценивает устойчивость роста. Сам итог фиксирует выбор, но теряет часть аргументации. Работа со стенограммой пытается восстановить именно эту разницу, не подменяя ею записанное решение.
+
+При этом извлечённая моделью шкала остаётся исследовательским инструментом. Она зависит от того, что в тексте названо беспокойством о росте или инфляции и как сформулирован запрос. Превращение сложного высказывания в число облегчает сравнение, однако не сохраняет автоматически все оттенки уверенности, условности и несогласия. Для оценки метода важна возможность вернуться к исходному фрагменту.
+
+Можно представить высказывание, в котором участник описывает риск, но затем объясняет, почему пока не считает действие необходимым. Если классификация потеряет вторую часть, результат станет звучать определённее оригинала. Это редакционный пример ограничения текстового измерения, а не обнаруженная нами ошибка конкретного исследования. Он показывает, зачем числовому показателю нужна проверяемая связь со словами.
+
+### Почему это важно
+
+Исторические стенограммы позволяют изучать не только решения, но и их аргументацию. Языковая модель помогает систематизировать этот материал. Выводы полезны в границах периода и метода; превращать их в прогноз ставки или инвестиционную рекомендацию означало бы отвечать на вопрос, который эта работа не проверяла.
+
+## English version
+
+In an [October 15 research post](https://bankunderground.co.uk/2026/10/15/narratives-under-the-microscope-what-mpc-transcripts-can-tell-us-about-policy-thinking/), Bank of England staff examine how MPC members' explanations relate to interest-rate votes. Their evidence comes from historical transcripts covering 2015–2017. This is a separate study of policymakers' reasoning, rather than the company-pricing research covered this morning or a new policy statement.
+
+The numerical measures use gpt-5-mini, with a separate request for each variable and an integer response constrained between minus five and plus five. The material comprises 258 statements from 29 meetings. A language model extracts assessments of inflation relative to target and growth relative to potential, which the researchers then relate to votes. The transcripts are published with a substantial delay. A fresh publication date therefore does not make the underlying discussions evidence of the current committee's intentions.
+
+The authors report an asymmetry between increases and cuts in the studied sample. Both text measures are associated with votes for higher rates, while growth assessments chiefly explain votes for cuts. That statistical relationship concerns historical observations. It does not establish a permanent rule for future committee members or a ready-made signal about the next meeting.
+
+Why are voting totals insufficient for this question? Two members might choose the same action for different reasons. One could be more concerned about inflation, while another has a different view of growth resilience. The recorded outcome captures the choice but loses part of the argument. Transcript analysis tries to recover that distinction without replacing the decision itself.
+
+The model-derived scale remains a research instrument. Its meaning depends on how concerns about inflation and growth are defined and how the extraction request is phrased. Turning a complicated statement into a number makes comparison easier, but does not automatically preserve every qualification, conditional expectation or expression of uncertainty. Being able to return to the original passage matters when assessing the method.
+
+Imagine a statement that describes a risk and then explains why action is not yet warranted. If classification dropped the second half, its result would sound more definite than the original. This is an editorial example of a text-measurement limitation, rather than an error we have identified in this particular study. It explains why a numerical indicator needs a traceable connection to the words behind it.
+
+Another useful boundary separates recovering stated reasoning from discovering every influence on a decision. The former is a tractable archival question; the latter would require evidence beyond the transcript. Keeping that distinction explicit makes the result easier to interpret.
+
+### Why it matters
+
+Historical transcripts make it possible to study arguments as well as decisions, with language models helping organize the material. The conclusions are useful within their period and method. Turning them into a rate forecast or investment recommendation would answer a question the study did not test.
+
+
+----- 08-muse-spark-open-integration (ai) — source: https://huggingface.co/blog/meta-muse-spark-open -----
+
+## Русская версия
+
+Hugging Face в [руководстве от 15 октября](https://huggingface.co/blog/meta-muse-spark-open) представила способы работы с Muse Spark Open от Meta. Модель принимает текст, изображения, аудио и видео, а выдаёт текст. Авторы описывают примерно 816 миллиардов параметров всего и около 42 миллиардов активных на токен. Это модель с открытыми весами, а не обещание, что её полный вариант помещается на обычное пользовательское устройство.
+
+Различие между двумя числами связано с архитектурой смеси экспертов. На каждом шаге используется лишь выбранная часть экспертных блоков, однако остальные веса не перестают существовать. Поэтому активный объём описывает одну сторону вычисления, а общий размер остаётся существенным для размещения. В руководстве отдельно обсуждаются форматы BF16 и NVFP4 и способы распределённого запуска.
+
+Ещё одно важное различие касается мультимодальности. Возможность принять звук или видеозапись не означает, что модель генерирует речь или видео. В описанной конфигурации выход остаётся текстовым. Для читателя это помогает точнее сформулировать задачу: попросить объяснить запись, распознать содержание экрана или использовать наблюдение при работе с кодом — не то же самое, что создать новый медиаролик.
+
+Длинный контекст также стоит читать как ресурс, а не готовую оценку качества. Заявленная ёмкость до миллиона токенов показывает, сколько материала допускает интерфейс модели. Она сама по себе не говорит, насколько надёжно система найдёт нужную деталь в каждом наборе входных данных. Удержать материал в доступном окне и правильно использовать его — разные свойства.
+
+Представим задачу по разбору ошибки интерфейса, где есть описание, несколько снимков и короткая запись действий. Это редакционный пример, а не наш эксперимент с новинкой. Общая мультимодальная модель позволяет поставить вопрос ко всем этим материалам вместе. Но итог всё равно нужно сопоставить с наблюдаемым сбоем: объяснение, которое звучит уверенно, ещё не подтверждает, что причина найдена.
+
+Поэтому при сравнении способов запуска полезно удерживать одинаковыми не только модель, но и состав задания, допустимую точность и критерий успеха. Изменение формата весов может менять требования к оборудованию; оценку результата при этом нельзя молча считать прежней. Руководство даёт отправную точку для такого эксперимента, а не заменяет его универсальным рейтингом.
+
+### Почему это важно
+
+Открытые веса и готовые интеграции расширяют возможности исследовать крупную мультимодальную модель. Практическая ценность определяется тем, получается ли правильно завершить нужную задачу при доступных ресурсах. Для этого важно отдельно оценивать память, вычисления, входные модальности и качество текстового результата.
+
+## English version
+
+Hugging Face's [October 15 guide](https://huggingface.co/blog/meta-muse-spark-open) presents ways to work with Meta's Muse Spark Open. The model accepts text, images, audio and video, and produces text. The authors describe roughly 816 billion total parameters and around 42 billion active per token. Open weights should not be confused with a promise that the full model fits on an ordinary personal device.
+
+The distinction between those numbers comes from its mixture-of-experts architecture. A selected portion of the expert blocks is used at each step, but the remaining weights do not cease to exist. Active size describes one aspect of computation, while total size remains relevant to deployment. The guide separately discusses BF16 and NVFP4 formats and distributed execution options.
+
+Multimodality requires another distinction. Accepting a recording does not mean generating speech or video. In the described configuration, the output remains text. That helps define the task more precisely: explaining a recording, interpreting a screenshot or using an observation while working on code differs from producing a new media clip.
+
+Long context should likewise be read as capacity rather than a ready-made quality score. An advertised window of up to a million tokens describes how much material the interface can accommodate. It does not establish that the system reliably retrieves the relevant detail in every collection of inputs. Keeping information available and using it correctly are separate properties.
+
+Imagine investigating an interface problem from a description, several screenshots and a short recording of the user's actions. This is an editorial example, not our experiment with the release. A common multimodal model lets the question be posed against those materials together. Its explanation still needs comparison with the observed failure: confidence alone does not establish that the cause has been identified.
+
+Comparing deployment options therefore benefits from holding the task, acceptable accuracy and definition of success constant, rather than looking only at the model name. A different weight format may change hardware requirements; output quality should not silently be assumed unchanged. The guide supplies a starting point for that experiment, rather than replacing it with a universal ranking.
+
+A useful assessment would also separate successful completion from an attractive demonstration. Repeated attempts and failures belong to the workload too. Otherwise, a comparison could reward a setup for producing one convincing answer while missing how often it needs another try.
+
+### Why it matters
+
+Open weights and integrations broaden the opportunity to investigate a large multimodal model. Practical value depends on completing a relevant task correctly within available resources. Memory, computation, input modalities and the quality of the textual result should each be assessed on their own terms.
+
+
+----- 09-rosalind-academic-plan (ai) — source: https://openai.com/index/introducing-the-rosalind-academic-plan -----
+
+## Русская версия
+
+OpenAI в [анонсе от 15 октября](https://openai.com/index/introducing-the-rosalind-academic-plan) представила Rosalind Academic Plan для лабораторий университетов США. Подходящим участникам предлагается до 30 мест Business Standard без платы на срок до 12 месяцев. Доступ к специализированной модели GPT-Rosalind предоставляется после отдельного одобрения. API сейчас не включён в программу.
+
+В анонсе также сказано, что исследовательские данные программы по умолчанию не используются для обучения моделей компании. Это новость об условиях доступа к исследовательскому инструменту, а не об открытом выпуске модели для всех. В анонсе различаются лаборатории с существующим университетским Enterprise-соглашением и организации без него: для них предусмотрены разные пути обращения. Поэтому число бесплатных мест нельзя отделять от критериев участия, срока и процесса рассмотрения.
+
+Компания описывает GPT-Rosalind и связанный рабочий инструментарий как поддержку исследований в науках о жизни. Приведённые примеры использования принадлежат участникам программы и самой компании. Они показывают направления применения, но не являются независимым сравнением эффективности всех лабораторий. Из программы доступа также нельзя вывести, что предложенный моделью научный результат уже подтверждён экспериментом.
+
+Для понимания подобных инициатив полезно разделить стоимость входа и стоимость завершённого исследования. Если часть программного доступа оплачена, это убирает конкретную статью расходов. Однако проверка гипотезы, организация данных и работа специалистов остаются частями проекта. Бесплатное место в продукте не равно бесплатному научному открытию; это разные уровни оценки.
+
+Представим лабораторию, которая сравнивает два способа поиска нужных публикаций. Это редакционный пример, не заявленный нами результат GPT-Rosalind. Для оценки помощи понадобилось бы заранее определить, какие источники считаются релевантными, сколько пропусков допустимо и как проверяются ссылки. Само наличие доступа не отвечает ни на один из этих вопросов, зато делает такой эксперимент возможным для одобренных участников.
+
+То же относится к воспроизводимости. Если ответ инструмента помогает сформулировать исследовательское предположение, нужно сохранить основания и условия его получения. Затем предположение оценивается подходящим для задачи способом. Удобная организация работы и достоверность вывода могут быть связаны, но одно не следует из другого автоматически. Особенно важно не превращать отзыв о скорости работы в измерение научной точности.
+
+### Почему это важно
+
+План может снизить барьер доступа для ограниченного круга академических команд. Его значение стоит оценивать по условиям участия и проверяемым результатам использования. Новость касается инфраструктуры исследований: она не подтверждает клиническую эффективность, не даёт универсального доступа и не заменяет научную проверку предложенных идей.
+
+## English version
+
+OpenAI's [October 15 announcement](https://openai.com/index/introducing-the-rosalind-academic-plan) introduces the Rosalind Academic Plan for labs at US universities. Eligible participants can receive up to 30 Business Standard seats at no charge for up to 12 months. Access to the specialized GPT-Rosalind model requires separate approval. The API is not currently included.
+
+The announcement also states that research data shared through the plan is not used to train the company’s models by default. This is a change in access arrangements for a research tool, rather than an unrestricted model release. The announcement distinguishes labs at universities with an existing Enterprise agreement from those without one, providing different application routes. The number of sponsored seats should therefore be read together with eligibility, duration and the review process.
+
+The company describes GPT-Rosalind and its associated workbench as supporting life-sciences research. Examples in the announcement come from participating researchers and the provider. They illustrate applications but do not constitute an independent comparison of effectiveness across laboratories. An access programme also cannot establish that a scientific result suggested by a model has been experimentally confirmed.
+
+It helps to separate the cost of entry from the cost of completing a study. Sponsoring software access removes a particular expense. Testing hypotheses, organizing data and providing expert work remain parts of the project. A free product seat and a cost-free scientific discovery are different propositions, measured at different levels.
+
+Imagine a lab comparing two approaches to finding relevant publications. This is an editorial illustration, rather than a result we claim for GPT-Rosalind. A useful assessment would define relevant sources, acceptable omissions and a way to verify references beforehand. Having access does not answer those questions, although it could make such an experiment possible for approved participants.
+
+Reproducibility raises a related issue. If a tool's response helps formulate a hypothesis, the grounds for it and the conditions under which it was produced should remain available. The hypothesis can then be assessed in a way appropriate to the research question. Workflow convenience and the reliability of a conclusion may be related, but one does not follow automatically from the other. A testimonial about speed should not silently become a measurement of scientific accuracy.
+
+For readers evaluating the announcement, the meaningful questions concern who can participate, which interfaces are covered and how results will be checked. Keeping those questions separate makes the programme easier to understand without turning an access policy into a claim about research outcomes.
+
+### Why it matters
+
+The plan could lower an access barrier for a defined group of academic teams. Its significance depends on participation conditions and verifiable outcomes from use. It concerns research infrastructure; it does not establish clinical effectiveness, provide universal access or replace scientific validation of proposed ideas.
+
+
+----- 10-steam-achievement-sets-beta (culture) — source: https://store.steampowered.com/news/app/593110/view/710037059469839141 -----
+
+## Русская версия
+
+Valve [объявила бета-тест Steam Achievement Sets](https://store.steampowered.com/news/app/593110/view/710037059469839141) — наборов, в которые разработчики могут объединять достижения игры. Объявление опубликовано 15 октября по UTC, уже ночью 16 октября по Москве. Новая структура позволяет отдельно показывать прогресс основной игры и дополнительного контента. Это функция бета-клиента и поддерживающих её игр, а не уже обязательное устройство всех достижений Steam.
+
+Valve описывает проблему длительно развивающихся игр: после дополнения прежний список может вырасти, а статус полного прохождения — стать менее понятным. Наборы дают разработчикам способ разделить такие цели. У каждого есть свой индикатор прогресса; ранее полученное подтверждение завершения сохраняется, даже если позже в набор добавляются новые достижения.
+
+Важное различие связано с DLC. Согласно объявлению, достижения дополнения не входят в общий прогресс, пока игрок не имеет доступа к соответствующему контенту. Поэтому итоговые количества могут различаться между друзьями. Это не обязательно ошибка сравнения: система пытается учитывать, какие задачи конкретный участник вообще способен выполнить.
+
+Обновлённая страница также позволяет сравнить прогресс с тремя друзьями, включая завершённые наборы и достижения дополнений. Этот предел указан в объявлении Valve. Появляется и архивирование отдельных достижений или целых наборов. Уже разблокировавшие их игроки сохраняют отображение результата, а недоступная цель не должна блокировать завершение для тех, кто её пропустил. Так интерфейс различает историческое достижение и возможность выполнить ту же задачу сейчас. Для сезонного контента эта разница особенно заметна.
+
+Если посмотреть на новость шире, здесь меняется определение знаменателя в показателе прогресса. Один список легко воспринимать как неизменный договор: выполнено столько-то из всего возможного. Но у развивающейся игры набор возможного меняется вместе с контентом и доступом. Отдельные группы помогают сделать эти изменения видимыми, не стирая уже полученный результат.
+
+Для читателя полезно сначала понять, что именно сравнивают два индикатора. В условной игре один может относиться к базовому набору, другой — ко всем доступным дополнениям. Одинаковый процент тогда не означает одинаковое число или сложность действий. Это редакционный пример того, почему подпись к счётчику не менее важна, чем сама красивая шкала.
+
+### Почему это важно
+
+Achievement Sets предлагают более ясную структуру целей для игр, которые продолжают расти. Практический эффект зависит от того, как конкретный разработчик организует наборы и архивирование. Пока корректно говорить о начале бета-теста и поддержанных играх, а не о завершённом переходе всего каталога Steam на новую систему.
+
+## English version
+
+Valve has [announced the Steam Achievement Sets beta](https://store.steampowered.com/news/app/593110/view/710037059469839141), allowing developers to organize achievements into groups. The announcement was published on October 15 UTC, already early October 16 in Moscow. The structure can distinguish base-game progress from additional content. It is a beta-client feature for supporting games, rather than a mandatory system already applied throughout Steam.
+
+Valve describes a problem with games that keep expanding: an update can enlarge the achievement list and complicate the meaning of prior completion. Sets give developers a way to separate those goals. Each has its own progress indicator, and a previously earned completion acknowledgement is preserved if more achievements are subsequently added to the set.
+
+DLC creates an important distinction. According to the announcement, additional-content achievements do not enter overall progress until the player has access to that content. Totals can therefore differ between friends. That is not necessarily a comparison error: the system is accounting for which tasks a particular player can actually complete.
+
+The refreshed page also supports comparisons with up to three friends, including completed sets and DLC achievements, according to Valve. Developers can also archive individual achievements or whole sets. Players who already unlocked them retain their record, while an unavailable objective should no longer block completion for someone who missed it. The interface thus distinguishes a historical accomplishment from the current ability to perform the same task. Seasonal content makes that difference particularly visible.
+
+Seen more broadly, the change concerns the denominator of a progress measure. A single list is easy to interpret as a stable agreement: so many objectives completed out of everything possible. In a changing game, however, what is possible can shift with content and access. Separate groups make those changes more visible without erasing an existing accomplishment.
+
+Before comparing two indicators, it therefore helps to identify what each covers. In a hypothetical game, one might describe the base set and the other all accessible expansions. Equal percentages would not necessarily represent the same number or difficulty of actions. This editorial example explains why a counter's label matters as much as its visual presentation.
+
+A further benefit of an explicit scope is that returning players can understand which part of their record changed. That is a design goal worth checking in actual games, rather than assuming that a new grouping interface automatically resolves every ambiguity.
+
+### Why it matters
+
+Achievement Sets offer a clearer structure for goals in games that continue to grow. The practical effect depends on how each developer organizes sets and archiving. For now, the verified development is the start of beta testing and support in participating games, rather than a completed migration of Steam's entire catalogue.
 
 
 ===== EDITION 37 — 2026-10-15 =====
