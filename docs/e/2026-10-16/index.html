@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-wire - выпуск №38 - 2026-10-16</title>
+<meta name="description" content="frontier-wire - an openly automated bilingual news wire.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<div class="edition-head">
+  <p class="kicker"><span class="lang-ru">Выпуск №38</span><span class="lang-en">Edition №38</span> &middot; 2026-10-16</p>
+  <div class="editorial">
+    <div class="lang-ru"><p>Утро соединяет подготовку космического полёта и способы извлекать пользу из больших массивов данных. NASA рассказывает о приборах MMX, исследователи Банка Англии читают объяснения бизнеса, а NVIDIA описывает будущий многоязычный корпус. В инструментах ИИ смотрим на управление композицией FLUX.3 и модульную сборку Granite Switch — с вниманием к тому, что уже доступно и что ещё предстоит проверить.</p></div>
+    <div class="lang-en"><p>This morning connects preparations for spaceflight with ways to make large collections of data useful. NASA details MMX instruments, Bank of England researchers examine business narratives, and NVIDIA describes a forthcoming multilingual corpus. In AI tools, we look at FLUX.3 layout control and Granite Switch's modular composition, keeping delivered capabilities separate from work still to be tested.</p></div>
+  </div>
+</div>
+<div class="grid"><article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="01-mmx-nasa-launch-preparations.html">
+    <span class="lang-ru">NASA описала свой вклад в MMX перед планируемым запуском к спутникам Марса</span>
+    <span class="lang-en">NASA details its MMX contribution ahead of the planned Mars-moon mission launch</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Миссия JAXA должна изучить Фобос и Деймос и вернуть образцы; запуск и доставка грунта ещё впереди.</span><span class="lang-en">JAXA plans to study Phobos and Deimos and return samples; launch and sample delivery remain ahead.</span></p>
+</article>
+<article class="card rubric-economy">
+
+  <span class="badge"><span class="lang-ru">Экономика</span><span class="lang-en">Economy</span></span>
+  <h3><a href="02-inflation-business-narratives.html">
+    <span class="lang-ru">Исследователи Банка Англии применили языковую модель к рассказам компаний об изменении цен</span>
+    <span class="lang-en">Bank of England researchers use a language model to examine firms’ pricing narratives</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Работа превращает тексты встреч с бизнесом в показатели, но не устанавливает причинный вклад факторов в общую инфляцию.</span><span class="lang-en">The study turns company-visit narratives into indicators without identifying causal contributions to aggregate inflation.</span></p>
+</article>
+<article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="03-flux3-layout-generation.html">
+    <span class="lang-ru">FLUX.3 Image Klein появился в Diffusers с управлением расположением частей изображения</span>
+    <span class="lang-en">FLUX.3 Image Klein reaches Diffusers with region-based layout control</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">В руководстве показаны генерация и редактирование по прямоугольным областям; время работы измерено на конкретном H100.</span><span class="lang-en">The guide demonstrates region-based generation and editing, with timings measured on a specific H100 setup.</span></p>
+</article>
+<article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="04-indic-pretraining-corpus-announcement.html">
+    <span class="lang-ru">NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков</span>
+    <span class="lang-en">NVIDIA and AI4Bharat announce a 2.8-trillion-token Indic corpus</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Материалы охватывают 22 языка, но основной корпус ещё обещан к выпуску, а переводы не заменяют местные оригинальные тексты.</span><span class="lang-en">The resource covers 22 languages, but the main corpus is still forthcoming and translations do not replace locally authored text.</span></p>
+</article>
+<article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="05-granite-switch-modular-models.html">
+    <span class="lang-ru">IBM представила Granite Switch 4.1: речь, диалог и классификация в одной сборке</span>
+    <span class="lang-en">IBM introduces Granite Switch 4.1 for speech, chat and classification in one composition</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Адаптеры используют общую основу и повторное использование контекста; заявления об ускорении принадлежат разработчикам.</span><span class="lang-en">Adapters share a base and reuse context; performance claims come from the developers.</span></p>
+</article></div>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков - frontier-wire</title>
+<meta name="description" content="The resource covers 22 languages, but the main corpus is still forthcoming and translations do not replace locally authored text.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-16/04-indic-pretraining-corpus-announcement.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "NVIDIA and AI4Bharat announce a 2.8-trillion-token Indic corpus", "alternativeHeadline": "NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков", "datePublished": "2026-10-16", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-16/04-indic-pretraining-corpus-announcement.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-16 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков</span><span class="lang-en">NVIDIA and AI4Bharat announce a 2.8-trillion-token Indic corpus</span></h1>
+  <p class="dek big"><span class="lang-ru">Материалы охватывают 22 языка, но основной корпус ещё обещан к выпуску, а переводы не заменяют местные оригинальные тексты.</span><span class="lang-en">The resource covers 22 languages, but the main corpus is still forthcoming and translations do not replace locally authored text.</span></p>
+
+  <div class="prose lang-ru"><p>В <a href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining">публикации от 16 октября</a> NVIDIA и AI4Bharat из IIT Madras описали Nemotron-pretraining-Indic-v1 — корпус примерно на 2,8 триллиона токенов для 22 индийских языков. Авторы одновременно раскрывают рецепт генерации и проверки данных. При этом сам большой корпус обозначен как ожидаемый к выпуску: новость нельзя читать как подтверждение, что весь набор уже доступен для скачивания.</p>
+<p>Важен не только объём, но и происхождение текста. Это преимущественно перенос отобранных англоязычных материалов в другие языки, с отдельными вариантами записи латиницей для части языков. Авторы сохраняют идентификаторы исходных документов и описывают проверки перевода. Такой процесс позволяет проследить происхождение записи, но не превращает её в независимый оригинальный текст местного автора.</p>
+<p>Для всех 22 языков заявлены данные в собственных письменностях; для двенадцати предусмотрена также латинская запись. Речь о разных формах индийского текста, не об английском переводе. Число токенов также требует определения. В публикации оно связано с конкретным токенизатором и учитывает разные переводы и варианты письменности. Несколько записей могут выражать содержание одного источника. Поэтому большой итог нельзя напрямую сравнивать с числом уникальных документов или считать числом различных идей. Для обучения существенны и объём, и разнообразие содержимого.</p>
+<p>В двенадцатиязычной части процесса переводчик одновременно выступает автоматическим оценщиком. Есть выборочные проверки людьми, однако авторы отмечают различие их охвата между языками и сохранение возможных ошибок. Оценка по внутренней шкале качества не означает соответствующий процент истинности или точности. Это правило отбора внутри конкретного процесса, которое само нуждается в проверке.</p>
+<p>Отдельно показано улучшение нескольких показателей после этапа дополнительного обучения с индийскими языками. Но на этом этапе использовалась смесь синтетического и естественного текста. Поэтому приписывать весь прирост только новому синтетическому корпусу было бы сильнее представленных данных. Такой вывод потребовал бы сравнения, в котором остальные условия действительно удерживаются одинаковыми.</p>
+<p>Для читателя можно сформулировать практическое различие. Перевод учебного объяснения делает это объяснение доступнее на другом языке. Он не добавляет автоматически знания о местной истории, разговорной норме или культурном контексте, отсутствовавшие в исходнике. Эти задачи требуют другого состава материалов. Именно поэтому авторы рассматривают синтетические данные как дополнение, а не замену естественным текстам.</p>
+<h3>Почему это важно</h3>
+<p>Анонс интересен масштабом и описанием воспроизводимого процесса. Следующий содержательный шаг — проверить доступность основной поставки, её условия использования и качество по каждому языку. Один общий счётчик токенов не показывает, насколько хорошо будущая модель будет понимать конкретное сообщество и его задачи.</p></div>
+  <div class="prose lang-en"><p>In an <a href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining">October 16 post</a>, NVIDIA and AI4Bharat at IIT Madras describe Nemotron-pretraining-Indic-v1, an approximately 2.8-trillion-token corpus covering 22 Indian languages. They also describe the generation and quality-assessment recipe. The main corpus is explicitly presented as forthcoming, so the announcement should not be read as confirmation that the entire collection is already available to download.</p>
+<p>Its provenance matters as much as its size. The resource largely transfers curated English material into other languages, with Latin-script variants for some of them. The authors retain source-document identifiers and describe translation checks. This makes records traceable, but does not turn a translation into an independently authored local source.</p>
+<p>Native-script data is described for all 22 languages, with romanized text for twelve. These are alternative forms of Indic text, not English translations. The token total also needs a definition. In the announcement, it depends on a particular tokenizer and includes translations and script variants that can share the same underlying source. A larger count is therefore not directly a count of unique documents or distinct ideas. Both quantity and content diversity matter when interpreting a proposed training resource.</p>
+<p>In the twelve-language workflow, the translating model also serves as an automated quality judge. Human checks are sampled, their coverage varies between languages, and errors may remain. A score on an internal quality rubric is not the corresponding percentage of factual accuracy. It is an acceptance rule within a particular process, and that rule needs evaluation too.</p>
+<p>The announcement separately reports improvements after a continued-pretraining stage involving Indian languages. That stage used a mixture of synthetic and naturally authored text. Attributing its entire benefit to the new synthetic corpus would therefore exceed the comparison. Establishing that contribution would require holding the other relevant conditions constant.</p>
+<p>A practical distinction helps explain the scope. Translating a technical explanation makes that explanation accessible in another language. It does not automatically add knowledge of local history, conversational conventions or cultural context missing from the source. Those needs call for different material. The authors accordingly present synthetic data as a complement to natural text, rather than a substitute.</p>
+<p>For anyone evaluating the eventual release, per-language inspection would be more informative than relying on the overall total. It would also be useful to distinguish a model that follows a preferred writing system from one that has acquired the knowledge needed for a particular application. Those outcomes can overlap without being identical.</p>
+<h3>Why it matters</h3>
+<p>The announcement combines scale with an explicit account of how data is produced. The next meaningful steps are checking the main release's availability, terms and language-specific quality. A single token counter cannot establish how well a future model will serve a particular community or task.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining">https://huggingface.co/blog/nvidia/scaling-indic-pretraining</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

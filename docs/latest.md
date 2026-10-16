@@ -1,21 +1,21 @@
-# frontier-wire — latest edition №37 (2026-10-15)
+# frontier-wire — latest edition №38 (2026-10-16)
 
-## Ai2 introduces HiRO-ACEv2 for detailed climate simulations, with a clear boundary / Ai2 представил HiRO-ACEv2: подробные климатические сценарии с важной границей применимости
-rubric: science · source: https://huggingface.co/blog/allenai/hiro-acev2
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/01-hiro-acev2-climate-emulator.md
+## NASA details its MMX contribution ahead of the planned Mars-moon mission launch / NASA описала свой вклад в MMX перед планируемым запуском к спутникам Марса
+rubric: science · source: https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-16/01-mmx-nasa-launch-preparations.md
 
-## Chandra links the cosmic Treble Clef to a galaxy-cluster collision / Chandra связала космический «скрипичный ключ» со столкновением скоплений галактик
-rubric: science · source: https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/02-chandra-treble-clef-cluster.md
+## Bank of England researchers use a language model to examine firms’ pricing narratives / Исследователи Банка Англии применили языковую модель к рассказам компаний об изменении цен
+rubric: economy · source: https://bankunderground.co.uk/2026/10/15/artificial-intelligence-meets-business-intelligence-the-anatomy-of-inflation/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-16/02-inflation-business-narratives.md
 
-## Liquid AI releases LFM2.5-24B-A2B for on-device agents / Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов
-rubric: ai · source: https://www.liquid.ai/blog/lfm2-5-24b-a2b
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/03-liquid-local-agent-model.md
+## FLUX.3 Image Klein reaches Diffusers with region-based layout control / FLUX.3 Image Klein появился в Diffusers с управлением расположением частей изображения
+rubric: ai · source: https://huggingface.co/blog/flux-3
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-16/03-flux3-layout-generation.md
 
-## TypeSafe introduces Jev 1.14 and experimental image-location answers / TypeSafe представила Jev 1.14 и экспериментальные ответы о положении объектов на изображении
-rubric: tech · source: https://typesafe.ai/blog/jev-1-14
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/04-jev-preview-image-boxes.md
+## NVIDIA and AI4Bharat announce a 2.8-trillion-token Indic corpus / NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков
+rubric: ai · source: https://huggingface.co/blog/nvidia/scaling-indic-pretraining
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-16/04-indic-pretraining-corpus-announcement.md
 
-## Anthropic details Scion, server-based version control for agent-scale changes / Anthropic рассказала о Scion: серверном контроле версий для потока изменений от агентов
-rubric: tech · source: https://www.anthropic.com/engineering/redesigning-source-control
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-15/05-anthropic-scion-source-control.md
+## IBM introduces Granite Switch 4.1 for speech, chat and classification in one composition / IBM представила Granite Switch 4.1: речь, диалог и классификация в одной сборке
+rubric: ai · source: https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-16/05-granite-switch-modular-models.md

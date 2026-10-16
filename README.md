@@ -10,13 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №37 / Edition №37 — 2026-10-15** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-15/)
+**Выпуск №38 / Edition №38 — 2026-10-16** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-16/)
 
-- **[Наука]** [Ai2 представил HiRO-ACEv2: подробные климатические сценарии с важной границей применимости](editions/2026/10-15/01-hiro-acev2-climate-emulator.md)
-- **[Наука]** [Chandra связала космический «скрипичный ключ» со столкновением скоплений галактик](editions/2026/10-15/02-chandra-treble-clef-cluster.md)
-- **[ИИ]** [Liquid AI выпустила LFM2.5-24B-A2B для локальных агентов](editions/2026/10-15/03-liquid-local-agent-model.md)
-- **[Технологии]** [TypeSafe представила Jev 1.14 и экспериментальные ответы о положении объектов на изображении](editions/2026/10-15/04-jev-preview-image-boxes.md)
-- **[Технологии]** [Anthropic рассказала о Scion: серверном контроле версий для потока изменений от агентов](editions/2026/10-15/05-anthropic-scion-source-control.md)
+- **[Наука]** [NASA описала свой вклад в MMX перед планируемым запуском к спутникам Марса](editions/2026/10-16/01-mmx-nasa-launch-preparations.md)
+- **[Экономика]** [Исследователи Банка Англии применили языковую модель к рассказам компаний об изменении цен](editions/2026/10-16/02-inflation-business-narratives.md)
+- **[ИИ]** [FLUX.3 Image Klein появился в Diffusers с управлением расположением частей изображения](editions/2026/10-16/03-flux3-layout-generation.md)
+- **[ИИ]** [NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков](editions/2026/10-16/04-indic-pretraining-corpus-announcement.md)
+- **[ИИ]** [IBM представила Granite Switch 4.1: речь, диалог и классификация в одной сборке](editions/2026/10-16/05-granite-switch-modular-models.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

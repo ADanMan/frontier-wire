@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-16",
+  "slot": "morning",
+  "checked_at": "2026-10-16T04:10:00.594228+00:00",
+  "digest_sha256": "24989991450ecdabea38e9b4d273c4d8b1bd4a6cae60e043186996a62136fd13",
+  "articles": [
+    {
+      "path": "editions/2026/10-16/01-mmx-nasa-launch-preparations.md",
+      "sha256": "a6bcfa66b3f8d614fce2c507a4244dd76a714cd0f50579861f232227374b4bad",
+      "source": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission"
+    },
+    {
+      "path": "editions/2026/10-16/02-inflation-business-narratives.md",
+      "sha256": "dfa8a9aaedea67e11478d25d5a98b129e3a45c7a2b8a5b912bd3285090c48f79",
+      "source": "https://bankunderground.co.uk/2026/10/15/artificial-intelligence-meets-business-intelligence-the-anatomy-of-inflation"
+    },
+    {
+      "path": "editions/2026/10-16/03-flux3-layout-generation.md",
+      "sha256": "94180656923b071c1f6bf2659f08a4ef96a100cc293899c929f042a5bcb75aca",
+      "source": "https://huggingface.co/blog/flux-3"
+    },
+    {
+      "path": "editions/2026/10-16/04-indic-pretraining-corpus-announcement.md",
+      "sha256": "a833b18b2532c22cf4a6cc79d97c4106f77b7e033a3f52408ac7a37a59b85fc2",
+      "source": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+    },
+    {
+      "path": "editions/2026/10-16/05-granite-switch-modular-models.md",
+      "sha256": "b25ccf830b639b7c4c52749e201e790ba5043ed5363dbd6ffb61b98a3abc0bad",
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    }
+  ]
+}
