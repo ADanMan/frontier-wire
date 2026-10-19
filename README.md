@@ -10,18 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №38 / Edition №38 — 2026-10-16** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-16/)
+**Выпуск №39 / Edition №39 — 2026-10-19** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-19/)
 
-- **[Наука]** [NASA описала свой вклад в MMX перед планируемым запуском к спутникам Марса](editions/2026/10-16/01-mmx-nasa-launch-preparations.md)
-- **[Экономика]** [Исследователи Банка Англии применили языковую модель к рассказам компаний об изменении цен](editions/2026/10-16/02-inflation-business-narratives.md)
-- **[ИИ]** [FLUX.3 Image Klein появился в Diffusers с управлением расположением частей изображения](editions/2026/10-16/03-flux3-layout-generation.md)
-- **[ИИ]** [NVIDIA и AI4Bharat анонсировали корпус на 2,8 трлн токенов для индийских языков](editions/2026/10-16/04-indic-pretraining-corpus-announcement.md)
-- **[ИИ]** [IBM представила Granite Switch 4.1: речь, диалог и классификация в одной сборке](editions/2026/10-16/05-granite-switch-modular-models.md)
-- **[Наука]** [NASA показало Эль-Ниньо через температуру, высоту и цвет океана](editions/2026/10-16/06-el-nino-satellite-observations.md)
-- **[Экономика]** [Стенограммы MPC помогли исследователям сопоставить объяснения и голоса по ставке](editions/2026/10-16/07-mpc-historical-transcript-analysis.md)
-- **[ИИ]** [Muse Spark Open получил руководство по запуску мультимодальной модели с открытыми весами](editions/2026/10-16/08-muse-spark-open-integration.md)
-- **[ИИ]** [OpenAI предложила академическим лабораториям США план доступа к GPT-Rosalind](editions/2026/10-16/09-rosalind-academic-plan.md)
-- **[Культура]** [Valve начала бета-тест наборов достижений Steam с отдельным прогрессом для DLC](editions/2026/10-16/10-steam-achievement-sets-beta.md)
+- **[Культура]** [Мастерская при храме Санама раскрывает производство царских предметов в Куше](editions/2026/10-19/01-sanam-faience-workshop.md)
+- **[Технологии]** [Два обновления LLM затронули зависимости плагина Datasette и отладочный подсчёт токенов](editions/2026/10-19/02-llm-plugin-dependency-and-echo-fixes.md)
+- **[Наука]** [NASA опубликовало осенний снимок Бещад: лес и горные луга меняют цвет по-разному](editions/2026/10-19/03-bieszczady-landsat-autumn.md)
+- **[ИИ]** [Beam вышел с Apache 2.0 и рецептами запуска и дообучения крупной модели](editions/2026/10-19/04-beam-open-model-recipes.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

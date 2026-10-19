@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beam вышел с Apache 2.0 и рецептами запуска и дообучения крупной модели - frontier-wire</title>
+<meta name="description" content="The October 16 announcement describes 501 billion parameters and integrations, while explicitly separating small demonstrations from benchmarks.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-19/04-beam-open-model-recipes.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Beam arrives with Apache 2.0 and recipes for serving and adapting a large model", "alternativeHeadline": "Beam вышел с Apache 2.0 и рецептами запуска и дообучения крупной модели", "datePublished": "2026-10-19", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/reflection-beam", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-19/04-beam-open-model-recipes.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-19 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Beam вышел с Apache 2.0 и рецептами запуска и дообучения крупной модели</span><span class="lang-en">Beam arrives with Apache 2.0 and recipes for serving and adapting a large model</span></h1>
+  <p class="dek big"><span class="lang-ru">Анонс от 16 октября описывает 501 млрд параметров и открытые интеграции; небольшие демонстрации отдельно названы иллюстративными.</span><span class="lang-en">The October 16 announcement describes 501 billion parameters and integrations, while explicitly separating small demonstrations from benchmarks.</span></p>
+
+  <div class="prose lang-ru"><p>Hugging Face в <a href="https://huggingface.co/blog/reflection-beam">анонсе от 16 октября</a> представила Beam — текстовую модель Reflection с лицензией Apache 2.0. Описаны примерно 501 миллиард параметров всего и 23 миллиарда активных на токен, контекст до миллиона токенов и варианты весов BF16, FP8 и NVFP4. В сегодняшний выпуск новость входит с исходной датой: это не объявление о новом релизе 19 октября.</p>
+<p>Содержательная часть анонса — не только веса, но и способы работы с ними. Руководство охватывает запуск через несколько библиотек, вызовы инструментов и адаптацию модели. Авторы показывают рецепты обучения с обновлением небольших адаптеров и с обновлением всей модели. Это разные вычислительные задачи; наличие примера не означает, что обе доступны на одном и том же оборудовании.</p>
+<p>Архитектура сочетает ограниченное локальное внимание с отдельными слоями, которые обращаются к полному контексту. Такой выбор влияет на рост кэша при длинном запросе. Но экономия в одной структуре памяти не отменяет необходимости разместить веса большой модели. В частности, активное число параметров нельзя читать как полный размер требуемой памяти: оно описывает используемую на шаге часть сети.</p>
+<p>Особого внимания заслуживает раздел с пробными задачами. Hugging Face прямо называет его иллюстративной проверкой, а не бенчмарком. Несколько заданий выполнялись по одному разу с разными уровнями рассуждения. Такие примеры позволяют изучить поведение и формат ответа, однако не устанавливают устойчивый процент успеха на будущих задачах. Подробный сохранённый результат полезнее красивой галочки именно возможностью проверить, что считалось успехом.</p>
+<p>В одном из примеров адаптации отдельно измеряется следование выбранному языку. Это конкретное свойство, которое нельзя автоматически приравнять к правильности рассуждения. Модель может точно соблюдать язык ответа и всё же ошибаться по существу. Разделение этих критериев делает описание эксперимента понятнее и помогает избежать слишком широкого вывода из узкой проверки.</p>
+<p>Для команды, сравнивающей варианты развёртывания, полезно удерживать неизменными задачу, критерии результата и ограничение ресурсов. Затем можно раздельно оценивать совместимость, качество и затраты. Лицензия отвечает на вопрос о разрешённых способах использования, а измерения — о практических свойствах конкретной конфигурации. Один ответ не подменяет другой.</p>
+<h3>Почему это важно</h3>
+<p>Beam добавляет вариант крупной модели с открытой лицензией и описанными путями настройки. Наиболее полезная часть публикации — возможность связать заявление с рецептом и примером проверки. Выбор инструмента всё равно требует оценки завершённых задач, а не переноса результата небольшой демонстрации на любую рабочую нагрузку.</p></div>
+  <div class="prose lang-en"><p>Hugging Face's <a href="https://huggingface.co/blog/reflection-beam">October 16 announcement</a> introduces Reflection's Beam, a text model released under Apache 2.0. It describes approximately 501 billion total parameters, 23 billion active per token, a context window of up to a million tokens, and BF16, FP8 and NVFP4 checkpoints. This edition retains the original date; it does not describe an additional October 19 release.</p>
+<p>The substance extends beyond the weights to ways of using them. The guide covers serving through several libraries, tool calls and adaptation. Its training recipes include both small-adapter updates and full-model updates. Those are different computational workloads, and the existence of examples does not imply they require identical hardware.</p>
+<p>The architecture combines limited local attention with selected layers that attend to the full context. That choice affects how the cache grows as a prompt becomes longer. Savings in one memory structure do not remove the need to accommodate a large set of weights. In particular, the active-parameter count is not a complete memory requirement: it describes the portion of the network used at a step.</p>
+<p>The trial-task section deserves careful interpretation. Hugging Face explicitly labels it illustrative evaluation, not a benchmark. A handful of tasks were attempted once at different reasoning levels. Such examples can expose behaviour and response structure, but cannot establish a stable success rate on future work. A saved result is useful precisely because it lets readers inspect what counted as success, rather than relying on a positive marker alone.</p>
+<p>One adaptation example separately measures adherence to a requested language. That is a specific property, not an automatic measure of reasoning correctness. A response can use the intended language accurately while being wrong about the underlying problem. Separating those criteria makes the experiment easier to understand and prevents a narrow result from acquiring an unjustifiably broad interpretation.</p>
+<p>For a team comparing deployment options, a sensible assessment would keep the task, outcome criteria and resource limit constant. Compatibility, output quality and cost could then be considered separately. The licence describes permitted uses; measurements describe practical behaviour in a particular configuration. One does not supply the answer to the other.</p>
+<p>The availability of a recipe also creates an opportunity to document a comparison clearly. That opportunity matters more than assuming a published setup will be an economical fit for every user or every scale of deployment.</p>
+<h3>Why it matters</h3>
+<p>Beam adds a large-model option with an open licence and documented adaptation routes. The useful contribution is the connection between claims, recipes and inspectable examples. Choosing a tool still requires evaluating completed tasks rather than generalizing from a small demonstration to every workload.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/reflection-beam">https://huggingface.co/blog/reflection-beam</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

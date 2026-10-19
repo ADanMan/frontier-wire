@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-19",
+  "slot": "evening",
+  "checked_at": "2026-10-19T16:05:19.198572+00:00",
+  "digest_sha256": "f99c96a6fc0a563733f0baefbc612e6359b485d6eaa92fe0670408db6f590133",
+  "articles": [
+    {
+      "path": "editions/2026/10-19/01-sanam-faience-workshop.md",
+      "sha256": "03585bf7cae5fd489f89604b38b6f89d2c9bb6d9a34bef56c7fd8f43d85782c2",
+      "source": "https://www.cambridge.org/core/product/identifier/S0003598X26104347/type/journal_article"
+    },
+    {
+      "path": "editions/2026/10-19/02-llm-plugin-dependency-and-echo-fixes.md",
+      "sha256": "e706ea330f5d134ec7746a0b7183fde2b38d517190de58f9d16cc8a513ebf186",
+      "source": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette"
+    },
+    {
+      "path": "editions/2026/10-19/03-bieszczady-landsat-autumn.md",
+      "sha256": "79a775c8d0e516a6a071247604fa2fe862c4de1307c5a593b12031dfc35b47a5",
+      "source": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains"
+    },
+    {
+      "path": "editions/2026/10-19/04-beam-open-model-recipes.md",
+      "sha256": "21f1fb7fe3e8d368719bfc0bad0b15df3c36aec73cd48a483542586dd753dde8",
+      "source": "https://huggingface.co/blog/reflection-beam"
+    }
+  ]
+}

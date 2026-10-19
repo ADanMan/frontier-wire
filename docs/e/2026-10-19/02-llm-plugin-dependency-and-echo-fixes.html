@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Два обновления LLM затронули зависимости плагина Datasette и отладочный подсчёт токенов - frontier-wire</title>
+<meta name="description" content="The llm-tools-datasette fix and llm-echo release address separate compatibility and debugging tasks.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-19/02-llm-plugin-dependency-and-echo-fixes.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Two LLM updates address a Datasette dependency and simulated token accounting", "alternativeHeadline": "Два обновления LLM затронули зависимости плагина Datasette и отладочный подсчёт токенов", "datePublished": "2026-10-19", "inLanguage": ["ru", "en"], "isBasedOn": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-19/02-llm-plugin-dependency-and-echo-fixes.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-10-19 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Два обновления LLM затронули зависимости плагина Datasette и отладочный подсчёт токенов</span><span class="lang-en">Two LLM updates address a Datasette dependency and simulated token accounting</span></h1>
+  <p class="dek big"><span class="lang-ru">Исправление llm-tools-datasette и релиз llm-echo решают разные задачи совместимости и диагностики.</span><span class="lang-en">The llm-tools-datasette fix and llm-echo release address separate compatibility and debugging tasks.</span></p>
+
+  <div class="prose lang-ru"><p>Саймон Уиллисон 18 октября выпустил два небольших обновления вокруг своей программы LLM. В <a href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette/">llm-tools-datasette 0.1.1</a> исправлена зависимость: переход основной программы на httpx2 оставил без нужного пакета плагины, которые использовали httpx, но не объявляли его самостоятельно. Автор прямо называет Datasette одним из затронутых плагинов.</p>
+<p>Второй релиз, <a href="https://simonwillison.net/2026/Oct/18/llm-echo/">llm-echo 0.5</a>, касается отладки. Этот плагин предоставляет имитацию модели: она возвращает переданный запрос, не обращаясь к настоящей языковой модели. Обновление учитывает в симулированном использовании токенов вызовы инструментов, системные запросы и токены рассуждения. Слово «симулированном» здесь принципиально: речь не о проверке реального счёта какого-либо облачного провайдера.</p>
+<p>Оба изменения напоминают, что работа инструмента складывается из нескольких контрактов. Плагин может правильно формировать запрос и при этом не запускаться из-за отсутствующей зависимости. Отладочная модель может возвращать ожидаемый текст, но не воспроизводить часть служебных показателей. Внешне похожая неисправность поэтому способна находиться на разных уровнях системы.</p>
+<p>У проблемы с зависимостью есть понятная механика. Если приложение случайно обеспечивает наличие пакета, расширение может работать до тех пор, пока приложение не меняет собственный набор библиотек. Сам факт вчерашнего успешного запуска не означает, что расширение описало все свои требования. Этот случай показывает, почему совместимость зависит не только от публичного интерфейса, но и от того, какие условия объявлены явно.</p>
+<p>Для воспроизводимой диагностики также полезно записать версии основной программы и расширения, состав окружения и точный способ запуска: тогда исправление можно проверить повторно в сопоставимых условиях. Отладочный двойник решает другую задачу: позволяет отделить обработку запроса от качества ответа живой модели. Например, разработчик может проверить, что нужный системный текст и параметры вообще дошли до следующего слоя. Это редакционный пример применения, а не наш запуск обновления. Такая проверка полезна именно потому, что не требует одновременно объяснять поведение модели и программы вокруг неё.</p>
+<p>Однако имитация не превращается в полноценное измерение всех свойств настоящего сервиса. Она может помочь проверить путь данных и вывод статистики, но сама по себе не подтверждает точность ответа, задержку или стоимость у другого поставщика. Для каждого из этих свойств нужен соответствующий источник измерения.</p>
+<h3>Почему это важно</h3>
+<p>Небольшие релизы делают видимыми части инфраструктуры, которые легко пропустить за обсуждением моделей. Здесь конкретно исправлены установка зависимости и полнота отладочной имитации. Полезный вывод — проверять совместимость и диагностику отдельно, чтобы сбой одного слоя не принимать за недостаток другого.</p></div>
+  <div class="prose lang-en"><p>Simon Willison published two small updates around his LLM application on October 18. <a href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette/">llm-tools-datasette 0.1.1</a> fixes a dependency issue: moving the main application to httpx2 affected plugins that used httpx without declaring their own dependency. The author identifies the Datasette plugin as one affected example.</p>
+<p>The second release, <a href="https://simonwillison.net/2026/Oct/18/llm-echo/">llm-echo 0.5</a>, concerns debugging. It provides a stand-in model that repeats a supplied prompt without calling an actual language model. Its updated simulated token usage accounts for tool calls, system prompts and reasoning tokens. “Simulated” matters: this is not verification of a real cloud provider's bill.</p>
+<p>Together, the changes illustrate several different contracts within a tool. A plugin might construct a request correctly but fail to start because a dependency is missing. A debugging model might return the expected text while omitting part of the supporting statistics. Failures that appear similar from outside can therefore arise at different layers.</p>
+<p>The dependency mechanism is straightforward. If an application happens to provide a library, an extension may keep working until the application's own package choices change. A successful run yesterday does not establish that the extension declared all its requirements. This case shows why compatibility depends on explicit conditions as well as on the visible interface.</p>
+<p>For reproducible diagnosis, recording the application and extension versions, environment and invocation also helps make a later comparison meaningful. A debugging double addresses a different question: separating request handling from the quality of a live model's response. For example, a developer could inspect whether the intended system text and parameters reached the next layer at all. That is an editorial illustration, rather than our execution of the release. The check is useful precisely because it avoids having to explain model behaviour and surrounding software simultaneously.</p>
+<p>The simulation nevertheless does not measure every property of a genuine service. It can help inspect the data path and presentation of usage information, without establishing response accuracy, latency or cost at another provider. Each of those properties requires an appropriate measurement source.</p>
+<p>A disciplined investigation can therefore narrow the problem before changing the model. First establish whether the plugin loads and receives the expected input; then investigate what a real provider does with that input. The releases provide concrete fixes for parts of this process, rather than a universal assurance that every extension is compatible.</p>
+<h3>Why it matters</h3>
+<p>Small releases expose infrastructure that is easy to overlook in discussions of models. Here, the concrete improvements concern dependency installation and the completeness of a debugging simulation. Checking compatibility and diagnostics separately helps avoid attributing a failure in one layer to the wrong component.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette/">https://simonwillison.net/2026/Oct/18/llm-tools-datasette/</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

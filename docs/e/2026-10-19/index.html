@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-wire - выпуск №39 - 2026-10-19</title>
+<meta name="description" content="frontier-wire - an openly automated bilingual news wire.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<div class="edition-head">
+  <p class="kicker"><span class="lang-ru">Выпуск №39</span><span class="lang-en">Edition №39</span> &middot; 2026-10-19</p>
+  <div class="editorial">
+    <div class="lang-ru"><p>Сегодня четыре материала о том, как читать следы работы: археологические, спутниковые и программные. Мастерская Санама связывает предметы с производством, Landsat показывает осень в Бещадах, а два обновления LLM помогают различать ошибки зависимостей и диагностики. В анонсе Beam отдельно смотрим на лицензию, вычислительные требования и границы небольших демонстраций.</p></div>
+    <div class="lang-en"><p>Today's four stories examine evidence left by craft, landscapes and software. A Sanam workshop connects objects with production, Landsat records autumn in Bieszczady, and two LLM updates distinguish dependency failures from debugging behaviour. In Beam's announcement, we separate licensing, computational requirements and the limits of small demonstrations.</p></div>
+  </div>
+</div>
+<div class="grid"><article class="card rubric-culture">
+
+  <span class="badge"><span class="lang-ru">Культура</span><span class="lang-en">Culture</span></span>
+  <h3><a href="01-sanam-faience-workshop.html">
+    <span class="lang-ru">Мастерская при храме Санама раскрывает производство царских предметов в Куше</span>
+    <span class="lang-en">A Sanam temple workshop reveals royal craft production in Kush</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Новое исследование связывает следы изготовления фаянса с властью, но авторы не распространяют один пример на всю экономику.</span><span class="lang-en">The study connects faience-production remains with royal authority, while cautioning against generalizing from one workshop.</span></p>
+</article>
+<article class="card rubric-tech">
+
+  <span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span>
+  <h3><a href="02-llm-plugin-dependency-and-echo-fixes.html">
+    <span class="lang-ru">Два обновления LLM затронули зависимости плагина Datasette и отладочный подсчёт токенов</span>
+    <span class="lang-en">Two LLM updates address a Datasette dependency and simulated token accounting</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Исправление llm-tools-datasette и релиз llm-echo решают разные задачи совместимости и диагностики.</span><span class="lang-en">The llm-tools-datasette fix and llm-echo release address separate compatibility and debugging tasks.</span></p>
+</article>
+<article class="card rubric-science">
+  <img class="card-img" src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/autumn-paints-poland&#x27;s-bieszczady-mountains/poland_bieszczady_oli2_20261008_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="" loading="lazy">
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="03-bieszczady-landsat-autumn.html">
+    <span class="lang-ru">NASA опубликовало осенний снимок Бещад: лес и горные луга меняют цвет по-разному</span>
+    <span class="lang-en">NASA publishes an autumn view of Bieszczady forests and mountain meadows</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Изображение дня за 19 октября снято Landsat 9 ещё 8 октября; это наблюдение ландшафта, а не новый климатический рекорд.</span><span class="lang-en">The October 19 image of the day was captured by Landsat 9 on October 8, documenting a landscape rather than a new climate record.</span></p>
+</article>
+<article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="04-beam-open-model-recipes.html">
+    <span class="lang-ru">Beam вышел с Apache 2.0 и рецептами запуска и дообучения крупной модели</span>
+    <span class="lang-en">Beam arrives with Apache 2.0 and recipes for serving and adapting a large model</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Анонс от 16 октября описывает 501 млрд параметров и открытые интеграции; небольшие демонстрации отдельно названы иллюстративными.</span><span class="lang-en">The October 16 announcement describes 501 billion parameters and integrations, while explicitly separating small demonstrations from benchmarks.</span></p>
+</article></div>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
