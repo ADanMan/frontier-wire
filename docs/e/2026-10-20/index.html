@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-wire - выпуск №40 - 2026-10-20</title>
+<meta name="description" content="frontier-wire - an openly automated bilingual news wire.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<div class="edition-head">
+  <p class="kicker"><span class="lang-ru">Выпуск №40</span><span class="lang-en">Edition №40</span> &middot; 2026-10-20</p>
+  <div class="editorial">
+    <div class="lang-ru"><p>Сегодня пять историй о том, как получить данные, на которые можно опереться: от программного устройства Trainium до движения белков в нейронах. Спутниковая гравиметрия уточняет карту воды, NASA упорядочивает расчёт механических нагрузок, а полевые учёты показывают разные результаты в двух частях одного залива. В каждом случае сохраняем масштаб вывода: доступный интерфейс ещё нужно испытать на своей задаче, а ранний сигнал не равен окончательному результату.</p></div>
+    <div class="lang-en"><p>Today's five stories examine how useful evidence is produced, from a software device for Trainium to protein movement inside neurons. Satellite gravimetry refines a water map, NASA standardises mechanical-load analysis, and field surveys find different conditions across one bay. Throughout, we preserve the scope of each finding: an available interface still needs workload testing, and an early signal is not a final outcome.</p></div>
+  </div>
+</div>
+<div class="grid"><article class="card rubric-tech">
+
+  <span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span>
+  <h3><a href="01-torchneuron-native-pytorch.html">
+    <span class="lang-ru">TorchNeuron предлагает запускать PyTorch на Trainium через привычные интерфейсы</span>
+    <span class="lang-en">TorchNeuron brings familiar PyTorch interfaces to Trainium</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Публичная бета назначена на 20 октября; совместимость кода и производительность конкретной нагрузки остаются разными вопросами.</span><span class="lang-en">The public beta is dated October 20, while code compatibility and workload performance remain separate questions.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="02-grace-human-water-storage.html">
+    <span class="lang-ru">NASA уточнило карту водных запасов и связей с деятельностью человека</span>
+    <span class="lang-en">NASA refines a water-storage map and its links to human activity</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Новая публикация разбирает тренды 2002–2025 годов: более подробная пространственная картина получена ценой временной детализации.</span><span class="lang-en">The new feature examines 2002–2025 trends, gaining spatial detail at the expense of temporal resolution.</span></p>
+</article>
+<article class="card rubric-tech">
+
+  <span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span>
+  <h3><a href="03-nasa-shock-vibration-workflow.html">
+    <span class="lang-ru">NASA стандартизирует расчёт ударов и вибраций перед космическими пусками</span>
+    <span class="lang-en">NASA standardises shock and vibration modelling before launch</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Инженеры Kennedy используют шаблон конечных элементов для независимой проверки условий полёта и транспортировки.</span><span class="lang-en">Kennedy engineers use a finite-element template to examine flight and transport environments independently.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="04-chesapeake-juvenile-striped-bass.html">
+    <span class="lang-ru">Учёт молоди лаврака показывает разные результаты в двух частях Чесапикского залива</span>
+    <span class="lang-en">Juvenile striped bass surveys show different conditions across Chesapeake Bay</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">В Виргинии поколение 2026 года оценено как среднее; в Мэриленде индекс вырос, но остался ниже местной нормы.</span><span class="lang-en">Virginia reports an average 2026 year class; Maryland&#x27;s index improved but remained below its own long-term average.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="05-nastic-accretion-bio.html">
+    <span class="lang-ru">Платформу NASTIC для наблюдения за белками в нейронах выводят в коммерческие исследования</span>
+    <span class="lang-en">NASTIC protein-tracking platform moves into commercial research</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Университет Queensland сообщил о стартапе Accretion Bio; речь об инструменте раннего поиска препаратов, а не о новом лечении.</span><span class="lang-en">The University of Queensland announces Accretion Bio, an early drug-discovery venture rather than a new treatment.</span></p>
+</article></div>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

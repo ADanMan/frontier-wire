@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-20",
+  "slot": "evening",
+  "checked_at": "2026-10-20T16:11:05.837123+00:00",
+  "digest_sha256": "46ebbddd76cabc7ab66c3cc8f975c4006cd70ad9e02919f538a080362ee9ab6d",
+  "articles": [
+    {
+      "path": "editions/2026/10-20/01-torchneuron-native-pytorch.md",
+      "sha256": "25ad85190b8313d274c2e57a6267d17a3a680f6be5a6458d6b77f6a8936ddc82",
+      "source": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium"
+    },
+    {
+      "path": "editions/2026/10-20/02-grace-human-water-storage.md",
+      "sha256": "a10841fad4e74c5d6e75916e0949f097ac07d2b0bd4e8e0ac9ba351eee0b0b57",
+      "source": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle"
+    },
+    {
+      "path": "editions/2026/10-20/03-nasa-shock-vibration-workflow.md",
+      "sha256": "10d18dc82f918d1bbfa3ba32ead215617bccce6fddd21fc7fa433541da3ef62d",
+      "source": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis"
+    },
+    {
+      "path": "editions/2026/10-20/04-chesapeake-juvenile-striped-bass.md",
+      "sha256": "75f95d4b24aca1b609ed6a0ba77815b384f58df01d1a198534012785170f354b",
+      "source": "https://www.vims.edu/newsandevents/topstories/2026/2026-virgnia-juvenile-striped-bass-survey.php"
+    },
+    {
+      "path": "editions/2026/10-20/05-nastic-accretion-bio.md",
+      "sha256": "36e40465de94bf545e0d2894fe2a86223685c3d4dadb806b70318a86e62c0777",
+      "source": "https://news.uq.edu.au/2026-10-uq-technology-opens-new-front-alzheimers-and-parkinsons-drug-discovery"
+    }
+  ]
+}

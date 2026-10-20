@@ -10,12 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №39 / Edition №39 — 2026-10-19** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-19/)
+**Выпуск №40 / Edition №40 — 2026-10-20** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-20/)
 
-- **[Культура]** [Мастерская при храме Санама раскрывает производство царских предметов в Куше](editions/2026/10-19/01-sanam-faience-workshop.md)
-- **[Технологии]** [Два обновления LLM затронули зависимости плагина Datasette и отладочный подсчёт токенов](editions/2026/10-19/02-llm-plugin-dependency-and-echo-fixes.md)
-- **[Наука]** [NASA опубликовало осенний снимок Бещад: лес и горные луга меняют цвет по-разному](editions/2026/10-19/03-bieszczady-landsat-autumn.md)
-- **[ИИ]** [Beam вышел с Apache 2.0 и рецептами запуска и дообучения крупной модели](editions/2026/10-19/04-beam-open-model-recipes.md)
+- **[Технологии]** [TorchNeuron предлагает запускать PyTorch на Trainium через привычные интерфейсы](editions/2026/10-20/01-torchneuron-native-pytorch.md)
+- **[Наука]** [NASA уточнило карту водных запасов и связей с деятельностью человека](editions/2026/10-20/02-grace-human-water-storage.md)
+- **[Технологии]** [NASA стандартизирует расчёт ударов и вибраций перед космическими пусками](editions/2026/10-20/03-nasa-shock-vibration-workflow.md)
+- **[Наука]** [Учёт молоди лаврака показывает разные результаты в двух частях Чесапикского залива](editions/2026/10-20/04-chesapeake-juvenile-striped-bass.md)
+- **[Наука]** [Платформу NASTIC для наблюдения за белками в нейронах выводят в коммерческие исследования](editions/2026/10-20/05-nastic-accretion-bio.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
