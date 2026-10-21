@@ -1,21 +1,21 @@
-# frontier-wire — latest edition №40 (2026-10-20)
+# frontier-wire — latest edition №41 (2026-10-21)
 
-## TorchNeuron brings familiar PyTorch interfaces to Trainium / TorchNeuron предлагает запускать PyTorch на Trainium через привычные интерфейсы
-rubric: tech · source: https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-20/01-torchneuron-native-pytorch.md
+## FairStress tests whether model decisions stay equally robust when demographic signals change / FairStress проверяет, одинаково ли устойчивы решения языковой модели при смене демографических признаков
+rubric: ai · source: https://huggingface.co/blog/allenai/fairstress
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-21/01-fairstress-decision-robustness.md
 
-## NASA refines a water-storage map and its links to human activity / NASA уточнило карту водных запасов и связей с деятельностью человека
-rubric: science · source: https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-20/02-grace-human-water-storage.md
+## Hugging Face details native Google TPU support through TorchTPU / Hugging Face описал нативную поддержку Google TPU через TorchTPU
+rubric: tech · source: https://huggingface.co/blog/hf-torchtpu
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-21/02-torchtpu-hugging-face.md
 
-## NASA standardises shock and vibration modelling before launch / NASA стандартизирует расчёт ударов и вибраций перед космическими пусками
-rubric: tech · source: https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-20/03-nasa-shock-vibration-workflow.md
+## NASA tests a thin airfoil for future Mars helicopters / NASA испытывает тонкий профиль лопасти для будущих марсианских вертолётов
+rubric: science · source: https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-21/03-mars-helicopter-airfoil.md
 
-## Juvenile striped bass surveys show different conditions across Chesapeake Bay / Учёт молоди лаврака показывает разные результаты в двух частях Чесапикского залива
-rubric: science · source: https://www.vims.edu/newsandevents/topstories/2026/2026-virgnia-juvenile-striped-bass-survey.php
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-20/04-chesapeake-juvenile-striped-bass.md
+## NASA details testing milestones for VIPER and crewed lunar rovers / NASA уточнило этапы подготовки VIPER и пилотируемых лунных роверов
+rubric: science · source: https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-21/04-lunar-rover-testing-update.md
 
-## NASTIC protein-tracking platform moves into commercial research / Платформу NASTIC для наблюдения за белками в нейронах выводят в коммерческие исследования
-rubric: science · source: https://news.uq.edu.au/2026-10-uq-technology-opens-new-front-alzheimers-and-parkinsons-drug-discovery
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-20/05-nastic-accretion-bio.md
+## NASA assigns work on the SR-1 Freedom power module / NASA распределяет работы по энергетическому модулю аппарата SR-1 Freedom
+rubric: tech · source: https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-21/05-sr1-power-module-contracts.md

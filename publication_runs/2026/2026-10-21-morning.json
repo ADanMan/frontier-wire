@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-21",
+  "slot": "morning",
+  "checked_at": "2026-10-21T04:07:38.448738+00:00",
+  "digest_sha256": "64fc454358120c09d8ad7ab66a7f65dc86dacd9c2ce5c38230b4cb7859d7d992",
+  "articles": [
+    {
+      "path": "editions/2026/10-21/01-fairstress-decision-robustness.md",
+      "sha256": "dcb3876d94820f0d610633919fc187c7e215e82182de63ee59e7afb64016cb7a",
+      "source": "https://huggingface.co/blog/allenai/fairstress"
+    },
+    {
+      "path": "editions/2026/10-21/02-torchtpu-hugging-face.md",
+      "sha256": "d13a001d5a3b63d8290dc00d153ddc9cd06a89c1831431a7642c748893e45e73",
+      "source": "https://huggingface.co/blog/hf-torchtpu"
+    },
+    {
+      "path": "editions/2026/10-21/03-mars-helicopter-airfoil.md",
+      "sha256": "1c3e4e41a5e4b83d57ce80279a5861562b3c72515c666e0a9bad253741222985",
+      "source": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights"
+    },
+    {
+      "path": "editions/2026/10-21/04-lunar-rover-testing-update.md",
+      "sha256": "e51d201cc55c2fe1387c84c494bfd7742f50a9f2a6eec2b4e6b9275a65789bb1",
+      "source": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers"
+    },
+    {
+      "path": "editions/2026/10-21/05-sr1-power-module-contracts.md",
+      "sha256": "3304002c155bc8e9342806d1d8d1f665652c9b72f28fd032b19f20c56839bb50",
+      "source": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module"
+    }
+  ]
+}

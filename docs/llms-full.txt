@@ -2,6 +2,212 @@
 
 
 
+===== EDITION 41 — 2026-10-21 =====
+
+## От редакции
+
+Утром смотрим, как проверяют решения и готовят технику к работе в новых условиях. FairStress добавляет давление к оценке ответов ИИ, TorchTPU переносит привычные интерфейсы на другое оборудование, а экспериментальная лопасть проходит земные испытания для будущих марсианских полётов. В лунных роверах и SR-1 отделяем завершённые этапы подготовки от тех, которым ещё предстоит состояться.
+
+## Editorial
+
+This morning's stories examine how decisions are tested and hardware is prepared for unfamiliar conditions. FairStress adds persuasion to model evaluation, TorchTPU brings familiar interfaces to different hardware, and an experimental airfoil undergoes terrestrial testing for future Mars flights. In lunar rovers and SR-1, we distinguish completed preparation from milestones still ahead.
+
+
+----- 01-fairstress-decision-robustness (ai) — source: https://huggingface.co/blog/allenai/fairstress -----
+
+## Русская версия
+
+Ai2 [представил FairStress](https://huggingface.co/blog/allenai/fairstress) — бенчмарк демографической справедливости решений языковых моделей. Анонс опубликован 20 октября. Авторы предлагают смотреть дальше итогового ответа: одинаково ли модель держится за обоснованное решение, когда её пытаются переубедить в пользу разных людей. Два одинаковых первоначальных выбора могут скрывать разную чувствительность к последующему давлению.
+
+В основе набора — 300 сценариев выбора между двумя кандидатами в 29 областях, включая наём, образование и распределение ресурсов. В одних случаях один профиль явно лучше отвечает заданным критериям. В других преимущества трудно сопоставить, поэтому однозначно правильного победителя нет. Эти типы задач нужны для разных измерений: сохранения обоснованного ответа и поведения при неопределённости.
+
+Демографические сведения показывают с разной явностью: от отсутствия информации до имени, косвенного признака или прямой характеристики. Затем добавляют аргумент в пользу одного из кандидатов — например, ссылку на предпочтение руководства. Для него существует парный аргумент того же типа в пользу другого кандидата. Так можно сравнивать силу воздействия, сохраняя конструкцию задачи, а не противопоставлять два совершенно разных разговора.
+
+Комбинации дают свыше 13 миллионов тестовых случаев. Это варианты исходных сценариев, а не миллионы наблюдений за реальными кадровыми или медицинскими решениями. Для более доступной проверки авторы подготовили FairStress-Core примерно на 50 тысяч случаев. В [открытом репозитории](https://github.com/pardissz/fairstress) отдельно определены метрики правильности, устойчивости и выбора в неоднозначной ситуации; код распространяется под MIT, данные — под CC BY 4.0.
+
+В экспериментах команда обнаружила асимметрии, которые усиливались при более явной демографической информации. Значение имеет и способ задания вопроса: сравнение с другим бенчмарком показало, что подсчёт вероятностей готовых вариантов и свободная генерация ответа могут давать различную картину. Поэтому результат нельзя свести к одному универсальному рейтингу «справедливости» модели вне конкретной процедуры оценки.
+
+У работы есть явно заявленная нормативная рамка: одинаковые критерии и одинаковая устойчивость при неизменных существенных данных. Авторы не утверждают, что этим исчерпываются все представления о справедливости. Проверки внутренних активаций также ограничены двумя моделями. Аудит обучающих данных выявляет возможные объяснения, но сам по себе не устанавливает причину поведения всех исследованных систем.
+
+### Почему это важно
+
+Бенчмарк превращает расплывчатое требование последовательности в несколько проверяемых вопросов. Полезно знать не только кого выбрала модель, но и что заставляет её изменить ответ. При этом лабораторный результат остаётся характеристикой теста и модели, а не готовым заключением о конкретном человеке или реальной организации.
+
+## English version
+
+Ai2 has [introduced FairStress](https://huggingface.co/blog/allenai/fairstress), a benchmark examining demographic fairness in language-model decisions. Published on October 20, the announcement asks a question beyond the final choice: does a model defend an evidence-supported decision equally firmly when persuasion favours different people? Identical initial answers can conceal different susceptibility to subsequent pressure.
+
+The benchmark begins with 300 two-candidate scenarios across 29 domains, including hiring, education and resource allocation. Some cases contain a profile that clearly better meets the stated criteria. Others involve difficult tradeoffs with no objectively superior candidate. These settings support different measurements: retaining a well-supported answer and choosing when the evidence does not settle the question.
+
+Demographic information varies in explicitness, from no identity information to names, indirect signals and explicit labels. Researchers then add a persuasive argument favouring one candidate, such as an appeal to senior leadership's preference. A matched version makes the same kind of argument for the other candidate. This lets the test compare susceptibility while preserving the scenario's structure, rather than comparing unrelated conversations.
+
+The combinations produce more than 13 million test cases. These are variations of constructed scenarios, not millions of observed employment or healthcare decisions. A smaller FairStress-Core contains approximately 50,000 cases for less expensive evaluation. The [public repository](https://github.com/pardissz/fairstress) defines separate measures for accuracy, robustness and choices under ambiguity. Its code uses the MIT licence, while the data are available under CC BY 4.0.
+
+The team reports asymmetries that became more pronounced as demographic identity became explicit. How an evaluation asks its questions also matters. Comparisons with another benchmark found that scoring probabilities over fixed options and generating an answer can produce different patterns. The findings therefore do not collapse into one universal fairness ranking that applies independently of the evaluation procedure.
+
+The work states its normative scope: equal criteria and equally robust decisions when the relevant evidence is held constant. The authors do not claim that this captures every conception of fairness. Their internal-activation analysis is also limited to two models. Auditing training data offers possible explanations, but does not establish the cause of every observed system's behaviour.
+
+### Why it matters
+
+FairStress turns a broad demand for consistency into several inspectable questions. Knowing what changes a model's answer can be as informative as knowing whom it initially selected. A laboratory score still describes a model under a test procedure; it is not a ready-made judgement about a real person or organisation.
+
+
+----- 02-torchtpu-hugging-face (tech) — source: https://huggingface.co/blog/hf-torchtpu -----
+
+## Русская версия
+
+Hugging Face [описал интеграцию TorchTPU](https://huggingface.co/blog/hf-torchtpu), нативного backend PyTorch для ускорителей Google TPU. Публикация датирована 20 октября. Transformers, Diffusers и библиотека Kernels получают путь к этим устройствам через привычные интерфейсы. Основное обещание касается программной совместимости: разработчику не нужно превращать модель в отдельный проект на другом фреймворке, чтобы начать проверять её на TPU.
+
+Прежний путь для пользователей PyTorch шёл через PyTorch/XLA. В материале отмечены особенности отложенного выполнения и повторной компиляции, затруднявшие отладку. Optimum TPU помогал скрывать часть этой сложности. Теперь команда говорит, что эта дополнительная прослойка больше не требуется для работы моделей Hugging Face через Transformers и Diffusers. Это изменение маршрута интеграции, а не заявление об исчезновении всех ограничений оборудования.
+
+TorchTPU представляет TPU как устройство `tpu`, поддерживает обычное немедленное выполнение, распределённую работу и `torch.compile`. В примере Transformers выбирается соответствующее размещение модели. В Diffusers сначала можно перенести конвейер на устройство для отладки, а затем отдельно включить компиляцию. Первая компилируемая генерация и повторный вызов с теми же размерами используют разные этапы работы, поэтому их нельзя без пояснений считать одинаковыми измерениями задержки.
+
+В [первичном README проекта](https://github.com/google-pytorch/torch_tpu) перечислены реализации операций, кэш компиляции, примеры обучения и вывода и инструменты диагностики. Указана поддержка Python 3.11 и новее, а примеры ориентированы на виртуальную машину с TPU. Доступность исходников под Apache 2.0 позволяет изучить устройство backend, но не превращает обычный компьютер в TPU и не подтверждает совместимость каждой модели автоматически.
+
+Команда Hugging Face сообщает о 96,5 процента успешных тестов среди тех, которые запускаются на TPU. Важно сохранить знаменатель: это не доля всех существующих моделей, гарантированно работающих без изменений. Ночные проверки и открытая публикация результатов ещё описаны как работа в процессе. Поиск ошибок при таком переходе — часть объявленного состояния интеграции, а не свидетельство уже законченного покрытия.
+
+Есть и результаты отдельных оптимизированных ядер. Они относятся к определённым моделям, оборудованию и размеру пакета, а не к универсальному сравнению TPU со всеми другими ускорителями. Мы не переносим эти множители на произвольную задачу и не проводили собственный запуск. При выборе backend полезно отдельно измерить корректность, прогрев, устойчивую производительность и требования к памяти.
+
+### Почему это важно
+
+Ускоритель становится практичнее, когда разработчик может использовать знакомые библиотеки и инструменты отладки. TorchTPU расширяет такой выбор для PyTorch. Проверять нужно конкретный рабочий путь: наличие нативного интерфейса помогает начать, а измерения показывают, подходит ли он вашей нагрузке.
+
+## English version
+
+Hugging Face has [outlined its TorchTPU integration](https://huggingface.co/blog/hf-torchtpu), a native PyTorch backend for Google's TPU accelerators. The October 20 article describes familiar interfaces in Transformers, Diffusers and Kernels reaching the hardware. Its central proposition concerns software compatibility: developers can begin testing models on TPUs without turning them into separate projects written for another framework.
+
+The earlier PyTorch route relied on PyTorch/XLA. The announcement discusses lazy execution and recompilation behaviour that could complicate debugging. Optimum TPU helped hide some of that complexity. Hugging Face now says this additional layer is no longer required to run its models through Transformers and Diffusers. That changes the integration path; it does not establish that every hardware constraint has disappeared.
+
+TorchTPU exposes a `tpu` device, supports eager execution, distributed workloads and `torch.compile`. The Transformers example selects that device when loading a model. Diffusers users can move a pipeline to the device for debugging and separately enable compilation. The initial compiled generation and a later call with the same dimensions involve different stages of execution, so they should not be treated as interchangeable latency measurements.
+
+The project's [primary README](https://github.com/google-pytorch/torch_tpu) lists operator implementations, a compilation cache, training and inference examples, and diagnostic utilities. It specifies Python 3.11 or later and describes examples running on a TPU virtual machine. Apache 2.0 source availability permits inspection of the backend. It neither supplies TPU hardware to an ordinary computer nor establishes automatic support for every model.
+
+Hugging Face reports that 96.5% of tests running on TPU pass. Keeping the denominator attached matters: this is not a claim that 96.5% of all existing models work unchanged. Nightly testing and public results are described as work in progress. Discovering and fixing failures is part of the integration's announced state, rather than evidence that complete coverage has already been achieved.
+
+The article also reports results for particular optimised kernels. Those belong to specified models, hardware and batch sizes, not a universal comparison between TPU and every other accelerator. We have not extrapolated their multipliers to arbitrary workloads or performed an independent run. Correctness, warmup behaviour, steady-state performance and memory requirements remain separate evaluation questions.
+
+### Why it matters
+
+An accelerator becomes more usable when developers retain familiar libraries and debugging tools. TorchTPU broadens that option for PyTorch users. Native interfaces provide a starting point; measurements on the actual workload determine whether that path is useful in practice.
+
+
+----- 03-mars-helicopter-airfoil (science) — source: https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/ -----
+
+## Русская версия
+
+NASA [рассказало об испытаниях нового профиля лопасти](https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/) для будущих марсианских вертолётов. Сообщение вышло 20 октября; научная работа, на которую оно ссылается, опубликована 22 сентября. Исследователи используют компьютерное моделирование и аэродинамическую трубу. Речь о развитии технологии на Земле, а не о новом аппарате, уже совершившем дальний полёт на Марсе.
+
+Команда Ames Research Center работает с Imperial College London и Nagoya University. Профиль roamx-0201 получился более тонким и асимметричным по сравнению с прежним решением. Алгоритмы и подробные расчёты подбирали геометрию под условия разреженной марсианской атмосферы. Последующие испытания в трубе, по сообщению NASA, показали улучшение характеристик и поведения при неблагоприятных режимах обтекания.
+
+Самая заметная цифра в публикации — возможное увеличение дальности непрерывного полёта с 0,7 километра у Ingenuity до 18,7 километра для будущей машины с научными приборами. Это результат расчётного сравнения, а не показание пройденного маршрута. Он также не означает, что достаточно заменить одну деталь на существующем аппарате, чтобы гарантированно получить такую дальность: публикация описывает возможности будущих вертолётов.
+
+Инженерная задача связана сразу с несколькими режимами. По мере приближения скорости участков ротора к скорости звука сопротивление может резко увеличиваться. Для Марса эта граница отличается от земной. Новый профиль, как сообщает NASA, сохранял полезные характеристики дольше при более высокой скорости, прежде чем наступал такой скачок. Это помогает понять, откуда берётся интерес к необычной форме, без превращения красивого контура в самостоятельное доказательство эффективности.
+
+Другой эффект связан с тонким пограничным слоем воздуха у поверхности лопасти. Конструкция специально возмущает поток у передней кромки, чтобы улучшить создание подъёмной силы. Исследователи также наблюдали более благоприятное поведение при срыве потока в изученных условиях. Такие результаты важны для диапазона допустимых углов обтекания, но не являются общей гарантией безопасного полёта при любой погоде и конфигурации.
+
+NASA прямо указывает, что технология ещё не готова к работе на Марсе. Испытания помогают разбирать расхождения между расчётом и измерениями. Ближайшая программа SkyFall, запуск которой запланирован на 2028 год, использует другое, наследующее прежний подход решение; новый профиль исследуют для последующих миссий. Поэтому его не следует приписывать уже утверждённой комплектации ближайшего полёта.
+
+### Почему это важно
+
+У марсианской авиации появилась проверяемая инженерная гипотеза о большей дальности и лучшем поведении лопасти. Её ценность определяется связью расчёта с наземными опытами. Сохраняя различие между прогнозом и полётным результатом, легче увидеть реальный прогресс без преждевременного объявления рекорда.
+
+## English version
+
+NASA has [described testing a new airfoil](https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/) for future Mars helicopters. The agency published its feature on October 20, referring to a research paper published on September 22. The work combines detailed computer simulations and wind-tunnel experiments. It concerns technology development on Earth, not a newly completed long-distance flight on Mars.
+
+Ames Research Center is working with Imperial College London and Nagoya University. The roamx-0201 cross-section is thinner and asymmetric compared with the earlier approach. Algorithms and simulations shaped it for the conditions of Mars' thin atmosphere. Subsequent tunnel testing, NASA reports, showed improved performance and more favourable behaviour under challenging airflow conditions.
+
+The most striking figure is a projected increase in uninterrupted flight range from Ingenuity's 0.7 kilometres to as much as 18.7 kilometres for a future helicopter carrying scientific instruments. That is a modelling comparison, not a measured flight route. It also does not establish that changing one component on an existing aircraft guarantees this range. The publication describes possibilities for future vehicles.
+
+Several aerodynamic regimes help explain the design. As parts of a rotor approach the speed of sound, drag can rise sharply. That threshold differs between Mars and Earth. NASA says the new profile retained useful performance longer at higher speeds before this drag divergence occurred. This connects the unconventional geometry with a specific engineering objective, rather than treating its appearance as evidence of effectiveness.
+
+Another mechanism involves the thin boundary layer of air near the blade's surface. The design deliberately disturbs flow at the leading edge to improve lift generation. Researchers also observed better stall behaviour under the conditions studied. These findings matter for the range of usable airflow angles, but they do not amount to a general guarantee of safe flight under every condition or vehicle configuration.
+
+NASA explicitly says the technology is not yet ready for Mars. Testing helps engineers investigate discrepancies between computational predictions and measurements. SkyFall, the nearer-term mission scheduled for launch in 2028, uses a different blade approach building on the earlier design. The experimental profile is being investigated for missions after SkyFall and should not be presented as already selected hardware for that launch.
+
+### Why it matters
+
+Mars aviation has a testable engineering route towards longer flights and improved blade behaviour. Its value comes from connecting numerical predictions with physical experiments. Keeping projected range distinct from flight performance makes the actual development visible without prematurely declaring a record.
+
+
+----- 04-lunar-rover-testing-update (science) — source: https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/ -----
+
+## Русская версия
+
+NASA [опубликовало обновление о лунных роверах](https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/) 20 октября. В одном сообщении собраны разные уровни готовности: VIPER проходит заключительные проверки, а компании Astrolab и Lunar Outpost проверяют макеты будущих машин для экипажа. Это полезная карта этапов программы, но не сообщение о том, что все перечисленные аппараты уже работают на поверхности Луны.
+
+VIPER, предназначенный для поиска воды и других летучих веществ у южного полюса, полностью собран и находится в Johnson Space Center. По текущему сообщению NASA, аппарат проходит финальные испытания перед отправкой в Kennedy Space Center. Лунная миссия запланирована на 2027 год с доставкой посадочным аппаратом Blue Moon Mark 1. Ожидаемый маршрут свыше 30 километров относится к плану исследований, а не к уже пройденному расстоянию.
+
+В программу подготовки входят моделирование рабочих ситуаций и исследование условий освещения, температуры и рельефа. Для ровера у южного полюса важно не только приблизиться к интересному участку, но и действовать в постоянно затенённых областях. Полученные в будущем данные должны помочь понять распределение ресурсов и условия дальнейших операций. Их наличие и итоговые научные выводы нельзя подменять нынешней стадией сборки.
+
+Для перевозки астронавтов NASA заказало Astrolab и Lunar Outpost первые машины категории lunar terrain vehicle. Blue Origin должна доставить их к южному полюсу к 2028 году. До прибытия экипажа предполагается дистанционная работа с Земли: картографирование и сбор сведений об освещении, навигации и расходе энергии. Приведённые агентством дальности и грузовые возможности — заявленные параметры будущей работы, не полётный отчёт.
+
+У Astrolab макет CLV-1 передали в Axiom Space, где астронавты оценивали компоновку и интерфейсы с макетами лунных скафандров. Lunar Outpost предоставила третий статический макет Pegasus в Johnson Space Center; в этом случае проверка проходила с герметизированными скафандрами. Эти различия важны: наземная примерка кабины проверяет удобство и взаимодействие человека с машиной, а не весь комплекс поведения ровера на Луне.
+
+Следующими названы испытания колёс в имитации лунного грунта в Glenn Research Center и проверки ездовых макетов экипажем. Предварительные обзоры проектов и поставка лётного оборудования остаются в графике: для компаний указаны разные сроки завершения обзоров, а готовые машины ожидаются к концу 2027 года. Это будущие контрольные точки; календарное обещание ещё нужно подтвердить выполнением работ.
+
+### Почему это важно
+
+Слово «ровер» скрывает разные задачи и стадии готовности. Обновление позволяет отделить поиск ресурсов от перевозки людей, собранную машину от макета и земное испытание от лунной эксплуатации. Такая детализация делает развитие программы понятнее, чем одно общее обещание будущей базы.
+
+## English version
+
+NASA's [October 20 lunar-rover update](https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/) brings together several distinct readiness levels. VIPER is undergoing final testing, while Astrolab and Lunar Outpost are evaluating mockups of future crew vehicles. The account provides a map of programme milestones, rather than evidence that every machine discussed is already operating on the Moon.
+
+VIPER, intended to investigate water and other volatiles near the lunar south pole, is fully built at Johnson Space Center. NASA says final testing precedes its transfer to Kennedy Space Center. Its lunar mission is planned for 2027, with delivery aboard a Blue Moon Mark 1 lander. A planned journey exceeding 30 kilometres describes a mission objective, not distance already travelled.
+
+Preparation includes simulating operational situations and investigating lighting, temperature and terrain. A south-pole rover must do more than approach an interesting location: it must work around permanently shadowed areas. Future observations are intended to improve understanding of resource distribution and operating conditions. Neither those data nor their eventual scientific conclusions can be substituted by the current completion of hardware assembly.
+
+NASA has also ordered initial crew-capable lunar terrain vehicles from Astrolab and Lunar Outpost. Blue Origin is tasked with delivering them to the south-pole region by 2028. Before astronauts arrive, the plan is to operate them remotely from Earth, mapping terrain and gathering information about lighting, navigation and energy use. Published range and payload figures describe intended capabilities, rather than a flight report.
+
+Astrolab delivered a CLV-1 mockup to Axiom Space, where astronauts assessed layout and interfaces while wearing mock lunar spacesuits. Lunar Outpost supplied a third static Pegasus mockup to Johnson Space Center; that evaluation involved pressurised suits. These distinctions matter. A ground-based cabin assessment tests usability and human interaction, not the complete performance of a rover in the lunar environment.
+
+Upcoming work includes wheel tests in simulated lunar terrain at Glenn Research Center and crew evaluations of drivable mockups. Preliminary design reviews and flight-hardware delivery remain scheduled milestones. The companies have different review dates, with completed flight-ready vehicles expected at the end of 2027. Those commitments still require subsequent work; a calendar entry is not a completed test.
+
+### Why it matters
+
+The word rover encompasses different missions and readiness levels. This update distinguishes resource prospecting from crew transport, assembled hardware from a mockup, and terrestrial evaluation from lunar operations. Those distinctions make programme progress easier to understand than a single broad promise of a future base.
+
+
+----- 05-sr1-power-module-contracts (tech) — source: https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/ -----
+
+## Русская версия
+
+NASA [сообщило о распределении работ по энергетическому модулю SR-1 Freedom](https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/) 20 октября. Аппарат должен продемонстрировать ядерную электрореактивную установку за пределами земной орбиты. Текущая новость — согласованные контрактные действия, которые позволяют продолжить разработку ключевого узла. Это не сообщение о запуске аппарата или об уже работающем космическом реакторе.
+
+Компания Sierra Lobo предоставит систему преобразования энергии для ядерного модуля. Она должна превращать тепло реактора в электричество, необходимое аппарату и демонстрации электрореактивного движения. В публикации назван замкнутый цикл Брайтона. На уровне назначения это цепочка разных функций: источник выделяет тепло, система преобразования даёт электрическую мощность, а двигательная установка использует её для работы. Такое описание позволяет понять, какой участок общей системы затронут нынешним распределением работ.
+
+Работы Sierra Lobo идут в рамках Space Flight Systems Development and Operations Contract III, заключённого в 2024 году. Этот контракт поддерживает разработку, испытания и эксплуатацию космического оборудования в Glenn Research Center. Поэтому дату исходного договора нельзя путать с датой нынешнего распределения работ. В сообщении нет основания представлять всю программу как впервые созданную на этой неделе.
+
+Реакторную часть разрабатывает Idaho National Laboratory Министерства энергетики США. Затем её предстоит объединить с преобразователем, чтобы получить полный энергетический модуль. Такое разделение уточняет, что именно поручено каждому участнику. Но назначение исполнителя и согласование взаимодействия ещё не означают, что объединённый модуль уже изготовлен, прошёл все проверки и готов к космической эксплуатации.
+
+NASA перечисляет межведомственные обзоры безопасности, постоянный надзор и процесс проектирования с учётом возможных отказов. Отдельно указано, что реактор должен оставаться неактивным до выхода аппарата с земной орбиты. Это описанная организационная и эксплуатационная рамка, а не объявление о завершении всех будущих разрешительных процедур. Из публикации также не следует независимая численная оценка риска.
+
+Запуск SR-1 Freedom запланирован на конец 2028 года. По текущему плану он должен доставить к Марсу научную миссию SkyFall с тремя вертолётами, развивающими подход Ingenuity. Исследования, проверка возможностей разведки и поиск потенциальных источников воды относятся к будущей работе этих аппаратов. Они не становятся полученными результатами оттого, что энергетический модуль продвинулся по контрактному графику.
+
+### Почему это важно
+
+Для дальней космической миссии мало назвать мощный источник энергии: нужно согласовать преобразование, движение, интеграцию и проверки. Новость делает одну часть этой цепочки конкретнее. Оценивать следующий прогресс можно по изготовлению и испытаниям модуля, сохраняя различие между назначенными работами и состоявшейся демонстрацией.
+
+## English version
+
+NASA has [announced contract actions for SR-1 Freedom's power module](https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/). The October 20 release concerns a spacecraft intended to demonstrate nuclear-electric propulsion beyond Earth orbit. The immediate development assigns work on a key subsystem. It does not report a launch or a reactor already operating on this mission in space.
+
+Sierra Lobo will provide the module's power-conversion system. Its role is to turn reactor heat into electricity for the spacecraft and its electric-propulsion demonstration. NASA identifies a closed Brayton cycle. At the functional level, these are separate stages: a source supplies heat, a conversion system produces electrical power, and propulsion uses that power. This description identifies which part of the overall system the current assignment advances.
+
+The work falls under Space Flight Systems Development and Operations Contract III, awarded in 2024 to support spaceflight hardware development, testing and operations at Glenn Research Center. That underlying contract date should be distinguished from the current work assignment. The announcement is not evidence that the entire mission programme was first created this week.
+
+Idaho National Laboratory, part of the US Department of Energy, is designing and developing the reactor. Integrating it with the conversion system will produce the complete nuclear power module. This division of responsibilities clarifies each participant's role. Selecting providers and coordinating their work does not establish that the integrated hardware has been manufactured, completed every test or become ready for space operations.
+
+NASA describes interagency safety reviews, continuing oversight and a design process addressing hazards and failure tolerance. It also says the reactor will remain inactive until the spacecraft leaves Earth orbit. These describe intended development and operating arrangements; they are not an announcement that every future authorisation has been completed. The release provides no independent numerical risk assessment.
+
+Launch remains scheduled for late 2028. Under the current plan, SR-1 Freedom will deliver SkyFall to Mars, carrying three helicopters that build on Ingenuity's approach. Scientific observations, exploration demonstrations and investigation of potential water sources belong to those vehicles' future work. Progress on a power-module contract cannot turn those objectives into results already obtained.
+
+### Why it matters
+
+A deep-space mission requires more than naming a powerful energy source. Conversion, propulsion, integration and validation must work together. This announcement makes one part of that chain more concrete. Subsequent progress can be assessed through hardware and testing milestones while keeping assigned work distinct from a completed demonstration.
+
+
 ===== EDITION 40 — 2026-10-20 =====
 
 ## От редакции

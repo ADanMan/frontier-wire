@@ -10,13 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №40 / Edition №40 — 2026-10-20** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-20/)
+**Выпуск №41 / Edition №41 — 2026-10-21** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-21/)
 
-- **[Технологии]** [TorchNeuron предлагает запускать PyTorch на Trainium через привычные интерфейсы](editions/2026/10-20/01-torchneuron-native-pytorch.md)
-- **[Наука]** [NASA уточнило карту водных запасов и связей с деятельностью человека](editions/2026/10-20/02-grace-human-water-storage.md)
-- **[Технологии]** [NASA стандартизирует расчёт ударов и вибраций перед космическими пусками](editions/2026/10-20/03-nasa-shock-vibration-workflow.md)
-- **[Наука]** [Учёт молоди лаврака показывает разные результаты в двух частях Чесапикского залива](editions/2026/10-20/04-chesapeake-juvenile-striped-bass.md)
-- **[Наука]** [Платформу NASTIC для наблюдения за белками в нейронах выводят в коммерческие исследования](editions/2026/10-20/05-nastic-accretion-bio.md)
+- **[ИИ]** [FairStress проверяет, одинаково ли устойчивы решения языковой модели при смене демографических признаков](editions/2026/10-21/01-fairstress-decision-robustness.md)
+- **[Технологии]** [Hugging Face описал нативную поддержку Google TPU через TorchTPU](editions/2026/10-21/02-torchtpu-hugging-face.md)
+- **[Наука]** [NASA испытывает тонкий профиль лопасти для будущих марсианских вертолётов](editions/2026/10-21/03-mars-helicopter-airfoil.md)
+- **[Наука]** [NASA уточнило этапы подготовки VIPER и пилотируемых лунных роверов](editions/2026/10-21/04-lunar-rover-testing-update.md)
+- **[Технологии]** [NASA распределяет работы по энергетическому модулю аппарата SR-1 Freedom](editions/2026/10-21/05-sr1-power-module-contracts.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
