@@ -10,13 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №41 / Edition №41 — 2026-10-21** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-21/)
+**Выпуск №42 / Edition №42 — 2026-10-24** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-24/)
 
-- **[ИИ]** [FairStress проверяет, одинаково ли устойчивы решения языковой модели при смене демографических признаков](editions/2026/10-21/01-fairstress-decision-robustness.md)
-- **[Технологии]** [Hugging Face описал нативную поддержку Google TPU через TorchTPU](editions/2026/10-21/02-torchtpu-hugging-face.md)
-- **[Наука]** [NASA испытывает тонкий профиль лопасти для будущих марсианских вертолётов](editions/2026/10-21/03-mars-helicopter-airfoil.md)
-- **[Наука]** [NASA уточнило этапы подготовки VIPER и пилотируемых лунных роверов](editions/2026/10-21/04-lunar-rover-testing-update.md)
-- **[Технологии]** [NASA распределяет работы по энергетическому модулю аппарата SR-1 Freedom](editions/2026/10-21/05-sr1-power-module-contracts.md)
+- **[ИИ]** [Kimi K3.1 Pro появился в сервисах Moonshot; публикация весов обещана к 4 ноября](editions/2026/10-24/01-kimi-k31-pro-api-release.md)
+- **[Технологии]** [Разбор MPS в PyTorch 2.15 показывает, где Mac терял скорость и память](editions/2026/10-24/02-pytorch-mps-memory-kernels.md)
+- **[Наука]** [Swift завершил научные наблюдения после почти 22 лет работы](editions/2026/10-24/03-swift-science-mission-ends.md)
+- **[Наука]** [Два цвета свечения помогают отделить активность генов растения от фоновых изменений](editions/2026/10-24/04-two-colour-plant-reporters.md)
+- **[Наука]** [NASA обновило схемы лунных посадок и программу испытаний Artemis III](editions/2026/10-24/05-artemis-lander-architecture.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

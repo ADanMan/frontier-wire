@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-24",
+  "slot": "morning",
+  "checked_at": "2026-10-24T04:03:42.877978+00:00",
+  "digest_sha256": "d5cf34868a42c562db095c0adc499b2c8b0964d2552054fe3d7e981e5b9657e9",
+  "articles": [
+    {
+      "path": "editions/2026/10-24/01-kimi-k31-pro-api-release.md",
+      "sha256": "0795f4e2011a7f966b1e2d31d44fcf9a675e81b5a2ac73c48314f047c4cf51f4",
+      "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+    },
+    {
+      "path": "editions/2026/10-24/02-pytorch-mps-memory-kernels.md",
+      "sha256": "a5eedbdbe059e4f84c22c95367f3923c6fd4aea31edf9403916cd0589874bc75",
+      "source": "https://huggingface.co/blog/mps-pytorch-2-15"
+    },
+    {
+      "path": "editions/2026/10-24/03-swift-science-mission-ends.md",
+      "sha256": "731a8b7b0b66525989e0a7d048e10e51d6b938c1df13b3db9f56cb0e148f69b0",
+      "source": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends"
+    },
+    {
+      "path": "editions/2026/10-24/04-two-colour-plant-reporters.md",
+      "sha256": "f14380ada7ce274abd0963017a946d008c6ae6dfbf1f769bbe20eaa9fffcae5e",
+      "source": "https://lms.mrc.ac.uk/breakthrough-makes-glow-in-the-dark-biology-a-powerful-new-measurement-tool"
+    },
+    {
+      "path": "editions/2026/10-24/05-artemis-lander-architecture.md",
+      "sha256": "0195350a5484c2141911b950bec45f11f08fd1e775c3518a319fa6006aaf0e21",
+      "source": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions"
+    }
+  ]
+}

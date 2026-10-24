@@ -2,6 +2,212 @@
 
 
 
+===== EDITION 42 — 2026-10-24 =====
+
+## От редакции
+
+Сегодня пять материалов о том, что уже работает, что удалось измерить и что ещё обещано. Kimi открывает доступ к новой модели, разработчики MPS разбирают расход памяти, Swift оставляет архив после завершения наблюдений, а второй цвет помогает точнее читать свечение растений. В обновлённых планах Artemis отдельно смотрим на маршрут каждого посадочного аппарата и проверки, которые должны предшествовать высадке.
+
+## Editorial
+
+Today's five stories separate what is available, what has been measured and what remains promised. Kimi adds model access, MPS developers examine memory use, Swift leaves an archive after observations end, and a second colour makes plant luminescence more informative. In the revised Artemis plans, we examine each lander's route and the tests intended to precede a landing.
+
+
+----- 01-kimi-k31-pro-api-release (ai) — source: https://www.kimi.ai/blog/kimi-k3-1-pro -----
+
+## Русская версия
+
+Moonshot [представила Kimi K3.1 Pro](https://www.kimi.ai/blog/kimi-k3-1-pro), первую модель новой серии K3.1, с заявленным окном контекста в миллион токенов. Анонс 23 октября сообщает о доступности в продуктах Kimi и через API. Одновременно компания обещает опубликовать полные веса к 4 ноября 2026 года. Это два разных этапа: пользоваться удалённым сервисом можно раньше, чем получить модель для собственного запуска.
+
+Основой стала Kimi K3 после дополнительного обучения. Разработчик описывает увеличение вычислительных затрат на этот этап и совместную работу над обучающими средами, длинным контекстом и инфраструктурой экспериментов. Среди заявленных направлений улучшения — программирование, создание трёхмерных объектов и многошаговая работа с документами. Такая формулировка описывает цели и оценки команды, а не независимо установленное превосходство в каждой из этих областей.
+
+Отдельно представлена версия Highspeed. Moonshot заявляет для неё скорость в два–три раза выше обычной K3.1 Pro. Это характеристика из анонса, без нашего собственного измерения задержки. При оценке подобного предложения важно заранее определить, что именно считать скоростью: ожидание первого ответа, генерацию текста или завершение всей задачи с инструментами. Один множитель без такого контекста не отвечает на все эти вопросы.
+
+В технических материалах есть и проверяемые детали методики. Например, для Terminal-Bench 4.0 компания приводит результат 65,7 процента и указывает использование оболочки Claude Code. Для большинства оценок по умолчанию выбран максимальный уровень рассуждений. Сравнения с другими системами местами используют опубликованные ими результаты. Поэтому таблицу нельзя автоматически читать как один полностью одинаковый эксперимент над всеми участниками.
+
+Демонстрации трёхмерного моделирования и программирования показывают возможный рабочий процесс с инструментами. Они полезны как примеры того, какой результат предлагает проверить разработчик, но не сообщают частоту успешного завершения любых пользовательских проектов. Аналогично большой контекст задаёт вместимость входа, а не гарантию безошибочного использования каждого документа на всей его длине. Это граница нашего прочтения характеристик, не новый тест модели.
+
+Каналы доступа перечислены раздельно: веб-продукт, приложения, Kimi Work, Kimi Code и API. Для корпоративной среды администратор должен отдельно включить новую модель; в анонсе указано, что первоначально доступ выключен. Обещание весов также следует проверять по факту будущей публикации и её условиям. Мы не запускали платные запросы, не скачивали модель и не подтверждаем её производительность собственным бенчмарком.
+
+### Почему это важно
+
+Новая модель расширяет выбор сервисов для сложных задач, но доступность, открытость и качество измеряются по-разному. Полезная точка отсчёта здесь — доступный сервис сегодня, документированная процедура тестирования и отдельно назначенный срок публикации весов. Эти различия помогают оценивать релиз без преждевременного объявления уже состоявшейся открытой поставки.
+
+## English version
+
+Moonshot has [introduced Kimi K3.1 Pro](https://www.kimi.ai/blog/kimi-k3-1-pro), the first model in its K3.1 series, with a stated one-million-token context window. The October 23 announcement says it is available in Kimi products and through the API. Full model weights are promised by November 4, 2026. Those are separate milestones: access to a hosted service can precede a model's availability for self-hosting.
+
+K3.1 Pro builds on Kimi K3 through additional post-training. The developer describes increased compute for that stage alongside work on training environments, long-context inference and experimentation infrastructure. Coding, three-dimensional creation and multi-step document work are among the reported areas of improvement. These are the team's claims and assessments, rather than independently established superiority in every domain.
+
+A separate Highspeed version is also announced. Moonshot says it runs two to three times faster than standard K3.1 Pro. We have not measured that claim. Assessing such a figure requires deciding what speed means: time to the first response, text generation rate, or completion time for an entire tool-assisted task. One multiplier cannot answer all those questions without further context.
+
+The technical material provides useful methodological details. For Terminal-Bench 4.0, Moonshot reports 65.7% using the Claude Code harness. Most evaluations default to maximum reasoning effort. Some comparisons draw competing systems' scores from their published reports. The resulting table should therefore not automatically be interpreted as one identically configured experiment across every participant.
+
+The coding and 3D demonstrations illustrate potential workflows involving tools. They provide examples of outcomes that readers can investigate, rather than an observed success rate for arbitrary user projects. Likewise, a large context window specifies input capacity, not error-free use of every document throughout that window. This is a boundary on our interpretation of the specifications, not an additional model evaluation.
+
+Access channels are listed separately: the web product, apps, Kimi Work, Kimi Code and API. Enterprise administrators must enable the model, with access initially switched off according to the announcement. The promised weights should also be assessed when they are actually published and their terms can be examined. We have not made paid API calls, downloaded the model or independently benchmarked it.
+
+### Why it matters
+
+The release adds another service for complex tasks, while availability, openness and quality remain separate questions. The useful starting points are present hosted access, documented evaluation procedures and a distinct future date for the weights. Keeping those boundaries explicit avoids presenting a promised open release as an already completed delivery.
+
+
+----- 02-pytorch-mps-memory-kernels (tech) — source: https://huggingface.co/blog/mps-pytorch-2-15 -----
+
+## Русская версия
+
+Команда PyTorch в Hugging Face [опубликовала разбор изменений MPS в версии 2.15](https://huggingface.co/blog/mps-pytorch-2-15). Материал датирован 20 октября и впервые попадает в нашу подборку сегодня. Он посвящён выполнению моделей на Apple silicon через графический backend MPS. Авторы предлагают проверять кандидат выпуска отдельно; мы не представляем эту публикацию как подтверждение уже завершённого стабильного релиза или автоматического обновления компьютеров читателей.
+
+Одна группа изменений касается перехода от MPSGraph к специализированным ядрам Metal. Команда ищет узкие места на реальных моделях и переносит соответствующие операции в более подходящий путь выполнения. При последовательной генерации текста это особенно заметно на маленьких порциях данных: вычисления очередного токена отличаются от обработки большого начального запроса. Поэтому ускорение отдельной операции и сокращение времени полного ответа — связанные, но разные измерения.
+
+Самый наглядный пример — декодирование видео в Wan2.2. Для указанного в статье 28-частного прохода VAE пиковая память драйвера снизилась примерно с 270 до 8 гигабайт после изменения операции дополнения тензоров. В той же таблице пик текущих выделений под тензоры меняется гораздо меньше: примерно с 4,42 до 4,10 гигабайта. Речь не об уменьшении размера самой модели в десятки раз, а об устранении конкретного расхода в пути выполнения.
+
+Другое направление — хранение значений FP8 и масштабированное матричное умножение. Один байт на значение занимает вдвое меньше места, чем двухбайтовые FP16 или BF16. Однако из этой арифметики не следует, что вся программа потребует ровно половину прежней памяти. В ней остаются другие данные и промежуточные результаты; численный формат также нужно оценивать вместе с качеством вычисления для своей задачи.
+
+В разборе приведены улучшения линейной алгебры, свёрток, потоков MPS и корректности отдельных операций. Есть и опубликованные измерения скорости, но они привязаны к формам тензоров, модели и оборудованию. Особенно осторожно следует читать общий множитель для языковых моделей: внутри материала описаны разные уровни сравнения. Мы не переносим одно число на все Mac и не выдаём его за собственное измерение.
+
+Требования указаны явно: Apple silicon, macOS 15 или новее и Python 3.11 или новее. Отдельная часть статьи посвящена будущей 2.16, включая изменения, ещё находящиеся на рассмотрении. Эти планы нельзя зачислять в уже доступные возможности 2.15. Здесь полезнее следить за точной версией и конкретной исправленной операцией, чем за общим обещанием «всё стало быстрее».
+
+### Почему это важно
+
+Локальная модель может упираться в программный путь, а не только в размер памяти или характеристики чипа. Разбор показывает, как искать причину по слоям измерения. Для практической оценки нужны корректный результат, воспроизводимая нагрузка и раздельный учёт тензоров, резервов и памяти драйвера.
+
+## English version
+
+Hugging Face's PyTorch team has [reviewed MPS changes in PyTorch 2.15](https://huggingface.co/blog/mps-pytorch-2-15). Published on October 20, the article receives its first coverage here today. It concerns model execution on Apple silicon through the MPS backend. The authors invite testing a release candidate separately; this feature does not establish that a stable release has already been completed or readers' computers updated.
+
+One group of changes replaces MPSGraph paths with specialised Metal kernels. The team investigates bottlenecks in real models and moves relevant operations to more suitable implementations. During sequential text generation, the small workload for each new token differs from processing a large initial prompt. A faster operation and a faster complete response are therefore related but distinct measurements.
+
+The clearest example concerns Wan2.2 video decoding. For the article's specified 28-tile VAE decode, peak driver memory falls from roughly 270 GiB to 8 GiB after a padding change. In the same table, peak current tensor allocation changes much less, from about 4.42 GiB to 4.10 GiB. This is not a manyfold reduction in the model's own size. It addresses a particular memory cost in its execution path.
+
+Another development adds FP8 value storage and scaled matrix multiplication. One byte per value takes half the space of two-byte FP16 or BF16. That arithmetic does not establish that an entire application will need exactly half its former memory. Other data and intermediate results remain, while a numerical format must also be assessed against the workload's required output quality.
+
+The review covers linear algebra, convolutions, MPS streams and correctness fixes. It includes speed measurements tied to tensor shapes, models and hardware. Overall language-model speedup figures deserve particular care because the article discusses different comparison levels. We do not apply a single multiplier to every Mac or present the published measurements as our own tests.
+
+Requirements are explicit: Apple silicon, macOS 15 or later and Python 3.11 or later. A separate section looks ahead to 2.16, including work still under review. Those plans should not be counted as delivered 2.15 features. Tracking the exact version and corrected operation is more informative than a blanket claim that everything has become faster.
+
+### Why it matters
+
+A local model can be constrained by its software execution path as well as memory capacity and chip specifications. This review illustrates how to investigate the cause through separate measurements. A practical assessment needs correct output, a reproducible workload and distinctions between tensor allocations, reserved space and driver memory.
+
+
+----- 03-swift-science-mission-ends (science) — source: https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/ -----
+
+## Русская версия
+
+NASA [сообщило о завершении научной миссии обсерватории Neil Gehrels Swift](https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/). Последнее наблюдение выполнено 20 октября, сообщение опубликовано 23 октября. Спутник опустился ниже 275 километров над поверхностью Земли. Усилившееся атмосферное торможение мешает телескопам устойчиво удерживать астрономические цели. Вход в атмосферу ожидается в ближайшие недели; публикация не утверждает, что аппарат уже сошёл с орбиты.
+
+Swift запустили 20 ноября 2004 года с основной программой на два года. Фактическая работа продолжалась более чем в десять раз дольше. Его специализацией были быстро меняющиеся события, прежде всего гамма-всплески. Обсерватория должна была заметить вспышку, определить положение, передать координаты другим инструментам и повернуть собственные телескопы, пока послесвечение не исчезло. По описанию NASA, обычно на такую реакцию уходило около минуты.
+
+Эта скорость связывала гамма-наблюдение с рентгеновским, оптическим и ультрафиолетовым исследованием одного события. Она особенно важна для коротких всплесков: их яркая начальная фаза может закончиться раньше, чем обычный наблюдатель успеет переназначить телескоп. Swift стал не просто регистратором сигналов, а участником совместной работы нескольких обсерваторий. Именно этот способ наблюдения составляет значительную часть его наследия.
+
+За время миссии аппарат наблюдал свыше двух тысяч гамма-всплесков и более 1400 сверхновых. Его данные использовались примерно в семи тысячах научных публикаций. Кроме исходной задачи, обсерватория изучала активные галактики, разрушение звёзд чёрными дырами, астероиды и кометы. Планирование позволяло быстро принимать внешние запросы и организовывать повторные наблюдения выбранных источников.
+
+Окончание работы спутника не означает исчезновения полученных данных. NASA описывает открытый архив объёмом около 12 терабайт, включающий почти 22 года измерений яркости, спектры в разных диапазонах и более полутора миллионов изображений ультрафиолетового и оптического телескопа. Эти материалы можно использовать для новых вопросов и сопоставления с последующими событиями. Это сохранённый исследовательский ресурс, а не обещание будущего продолжения наблюдений самим Swift.
+
+Агентство рассматривает, как поддержать быструю реакцию другими существующими и будущими средствами. В сообщении нет объявления уже введённой полной замены обсерватории. Поэтому завершение Swift оставляет две разные задачи: сохранить и использовать архив, а также восстановить недостающую оперативную возможность. Успешное решение первой не устраняет автоматически потребность во второй.
+
+### Почему это важно
+
+Мимолётное космическое событие нельзя поставить на паузу. Swift показал ценность системы, которая быстро соединяет обнаружение, координаты и наблюдения в нескольких диапазонах. Его научный результат продолжится через архив, даже когда новые сигналы придётся встречать другим инструментам.
+
+## English version
+
+NASA has [announced the end of the Neil Gehrels Swift Observatory's science mission](https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/). Its final observation took place on October 20, with the announcement published on October 23. The spacecraft is now below 275 kilometres above Earth. Increased atmospheric drag prevents its telescopes from maintaining a steady view of astronomical targets. Re-entry is expected within weeks; the announcement does not say it has already occurred.
+
+Swift launched on November 20, 2004, for a two-year primary mission. Its actual working life exceeded that duration more than tenfold. It specialised in rapidly changing phenomena, particularly gamma-ray bursts. The observatory had to detect an outburst, locate it, communicate coordinates to other instruments and turn its own telescopes before the afterglow faded. NASA says this response typically took about a minute.
+
+That speed connected gamma-ray detection with X-ray, optical and ultraviolet studies of the same event. It was especially important for short bursts, whose initial bright phase can end before a conventionally scheduled telescope is redirected. Swift became more than a signal detector: it supported coordinated observing across a network of facilities. That operating approach is a major part of its legacy.
+
+During its mission, Swift observed more than 2,000 gamma-ray bursts and over 1,400 supernovae. Its data contributed to approximately 7,000 scientific papers. Beyond the original task, it investigated active galaxies, stars disrupted by black holes, asteroids and comets. Flexible planning supported rapid external requests and repeated monitoring of selected sources.
+
+Ending spacecraft operations does not erase those observations. NASA describes a publicly available archive of approximately 12 terabytes, including nearly 22 years of brightness measurements, multiwavelength spectra and more than 1.5 million images from its Ultraviolet/Optical Telescope. Researchers can use this material to address new questions and compare later events with earlier conditions. It is an existing scientific resource, not a promise that Swift itself will resume observing.
+
+The agency is exploring how current and future capabilities can maintain rapid response. Its announcement does not identify an already operational, complete replacement. Swift's conclusion therefore leaves separate tasks: preserving and exploiting its archive, and addressing the observing capability that has ended. Success with the first does not automatically remove the need for the second.
+
+### Why it matters
+
+A transient cosmic event cannot be paused. Swift demonstrated the value of rapidly connecting detection, coordinates and observations across several wavelengths. Its scientific contribution continues through the archive, even as other instruments must respond to newly arriving signals.
+
+
+----- 04-two-colour-plant-reporters (science) — source: https://lms.mrc.ac.uk/breakthrough-makes-glow-in-the-dark-biology-a-powerful-new-measurement-tool/ -----
+
+## Русская версия
+
+Исследователи MRC Laboratory of Medical Sciences [описали двухцветные светящиеся репортёры](https://lms.mrc.ac.uk/breakthrough-makes-glow-in-the-dark-biology-a-powerful-new-measurement-tool/), помогающие наблюдать активность генов в живых растениях. Сообщение института и публикация в Nature Plants датированы 23 октября. Команда Karen Sarkisyan работала с Light Bio и другими партнёрами. Главное изменение — измерять отношение двух цветов, а не судить о процессе только по тому, насколько ярко светится растение.
+
+Биологический репортёр связывает интересующий исследователя процесс с заметным сигналом. Но у автономного свечения есть помеха: его интенсивность меняется вместе с обменом веществ, температурой и доступностью кислорода. Более яркий участок поэтому не обязательно означает более активную работу конкретного гена. Исследователь может заметить реальную перемену света и неверно объяснить её происхождение.
+
+Для внутреннего сравнения авторы получили вариант грибной люциферазы со смещённым к красному свечением и соединили его с зелёным репортёром. Отношение сигналов позволяет лучше отделять нужную биологическую активность от общих физиологических колебаний. Это принцип измерения с опорой внутри той же системы: вместо одной меняющейся величины появляются два связанных наблюдения. Важно, что речь идёт о специально созданной исследовательской системе, а не о свойстве любых обычных растений.
+
+В демонстрациях команда отслеживала защитные и иммунные сигнальные пути растений. Были видны локальные реакции рядом с участками инфекции даже при сильных изменениях общей яркости, связанных с метаболизмом. Авторы также сообщают о работе подхода с грибными и бактериальными путями биолюминесценции. Это результаты проверки инструмента в описанных системах; они не равны автоматически готовому полевому тесту на любой возбудитель.
+
+Практический интерес связан с длительным наблюдением без регулярного добавления светящегося реагента. Институт описывает съёмку в темноте как способ следить за молекулярными процессами. Однако доступность изображения ещё не отменяет контроль, калибровку и ограничения интерпретации. Смена цвета является измерительным сигналом, а не самостоятельным диагнозом состояния всего растения или универсальной оценкой здоровья урожая.
+
+В перспективе исследователи обсуждают растения-индикаторы среды и перенос подхода в животные ткани и модели заболеваний. Эти направления пока нужно отличать от выполненных опытов на растениях. Возможность наблюдать процесс месяцами или годами также названа потенциалом, а не описанием уже завершённого многолетнего наблюдения. Мы опираемся на полный институциональный разбор, не приписывая ему доказательств будущих медицинских применений.
+
+### Почему это важно
+
+Яркий сигнал полезен только тогда, когда понятно, что именно он измеряет. Второй цвет даёт исследователю дополнительную опору для такого различения. Это улучшение качества наблюдений: оно помогает задавать более точные вопросы о защитных реакциях растений, сохраняя границу между экспериментальным измерением и будущим приложением.
+
+## English version
+
+Researchers at the MRC Laboratory of Medical Sciences have [described two-colour autoluminescent reporters](https://lms.mrc.ac.uk/breakthrough-makes-glow-in-the-dark-biology-a-powerful-new-measurement-tool/) for following gene activity in living plants. The institute's announcement and the Nature Plants study are dated October 23. Karen Sarkisyan's group worked with Light Bio and other collaborators. The central change is to measure a ratio between two colours instead of interpreting overall brightness alone.
+
+A biological reporter connects a process of interest with an observable signal. Autonomous light production introduces a complication: intensity can change with metabolism, temperature and oxygen availability. A brighter region therefore does not necessarily indicate stronger activity of a particular gene. An investigator can observe a genuine change in light while misidentifying its source.
+
+The researchers developed a red-shifted fungal luciferase and paired it with a green reporter. Comparing their signals helps distinguish the desired biological activity from shared physiological fluctuations. This provides an internal reference within the same system: two related measurements replace reliance on a single changing value. It is an engineered research system, rather than a property of ordinary unmodified plants.
+
+In demonstrations, the team followed plant defence and immune-signalling pathways. Local responses near infection sites remained detectable despite large metabolism-related changes in overall brightness. The researchers also report applying the approach across fungal and bacterial bioluminescence pathways. Those are findings in the systems described, not evidence of a field-ready test for every pathogen.
+
+One practical attraction is extended observation without repeatedly adding a light-producing reagent. The institute describes imaging in darkness as a way to follow molecular processes. However, obtaining an image does not eliminate controls, calibration or limits on interpretation. A colour change is a measurement signal, rather than a complete diagnosis of a plant or a universal assessment of crop health.
+
+Potential applications include environmental sentinel plants and adaptations for animal tissues and disease models. Those directions need to remain separate from the plant experiments already performed. Monitoring for months or years is also described as a possibility, not a completed multiyear observation. Our account draws on the full institutional explanation without treating prospective medical applications as demonstrated outcomes.
+
+### Why it matters
+
+A bright signal becomes useful evidence only when its meaning is understood. A second colour supplies an additional reference for making that distinction. The advance improves observation quality and enables more precise questions about plant defences, while preserving the boundary between an experimental measurement and a future application.
+
+
+----- 05-artemis-lander-architecture (science) — source: https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/ -----
+
+## Русская версия
+
+NASA [описало изменённые схемы работы лунных посадочных аппаратов](https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/) SpaceX и Blue Origin. Сообщение опубликовано 23 октября вместе с [подробностями испытательной Artemis III](https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/). Цель высадок остаётся в 2028 году, но предварительная миссия 2027 года должна пройти на низкой околоземной орбите. Это обновление планов и требований, а не отчёт о состоявшейся посадке.
+
+Для Starship HLS сохраняется накопление и передача криогенного топлива на земной орбите. В изменённой схеме посадочный аппарат ожидает Orion там же; после стыковки Starship должен направить объединённую связку к низкой лунной орбите. NASA работает над изменениями Orion для такого взаимодействия. По замыслу агентства, другой маршрут снижает потребности посадочного аппарата в топливе и упрощает возвращение экипажа с поверхности к Orion. Это ожидаемые преимущества архитектуры, которые ещё предстоит подтвердить.
+
+Blue Origin для ускоренной программы откладывает передачу топлива и предлагает три последовательно отделяемые транспортные ступени. Они должны отправить Blue Moon Mark 2 Alpha к эллиптической полярной орбите Луны. Встреча с Orion планируется уже там. Два подхода поэтому нельзя свести к одному общему маршруту или одинаковой схеме заправки: каждому поставщику назначена своя последовательность операций.
+
+Обеим компаниям требуется беспилотная демонстрация перед высадкой людей. NASA также уточняет, что после изменения контрактов ни один поставщик ещё не закреплён за конкретной ближайшей посадочной миссией. Выбор первой системы зависит от готовности. Это важнее, чем попытка уже сейчас объявить победителя по иллюстрации аппарата или месту компании в старом расписании.
+
+Artemis III должна проверить взаимодействие Orion с испытательными версиями обеих систем в земной орбите. В плане примерно 14-дневной миссии экипаж сначала стыкуется с Blue Moon и оценивает внутренние системы. Затем предусмотрена стыковка со Starship длительностью до двух часов; входить в него астронавты не будут. Такая разница определяет, какие сведения даст каждая часть испытаний, и не позволяет считать их взаимозаменяемыми.
+
+Программа включает проверку программного обеспечения, связи, управления, процедур экипажа и совместной работы команд. После этих действий запланированы дополнительные исследования Orion. Пока это будущие контрольные точки, а не пройденная сертификация. Их смысл — обнаружить проблемы взаимодействия раньше полёта к Луне, сохраняя отдельные требования к последующим беспилотным и пилотируемым этапам.
+
+### Почему это важно
+
+Лунная посадка зависит от всей цепочки — топливной логистики, перелёта, встречи и возвращения. Обновление делает эту цепочку конкретнее для двух разных аппаратов. Судить о продвижении можно по выполненным демонстрациям и готовности систем, не подменяя их календарной целью 2028 года.
+
+## English version
+
+NASA has [outlined revised operating concepts for the SpaceX and Blue Origin lunar landers](https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/). Published on October 23, the update accompanies [details of the Artemis III test mission](https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/). Crewed landings remain targeted for 2028, while the preceding 2027 mission is planned for low Earth orbit. These are updated requirements and plans, not completed landing operations.
+
+Starship HLS retains in-space aggregation and transfer of cryogenic propellant in Earth orbit. Under the revised concept, the lander waits there for Orion. After docking, Starship would send the combined stack towards low lunar orbit. NASA is working on Orion modifications for this interaction. The agency expects the revised route to reduce lander propellant requirements and simplify the surface crew's return to Orion. Those are intended architectural advantages awaiting demonstration.
+
+Blue Origin's accelerated approach defers propellant transfer and uses three sequentially separating transfer stages. They would send the Blue Moon Mark 2 Alpha lander towards an elliptical polar lunar orbit, where it would meet Orion. The two providers therefore do not share one operating sequence or refuelling concept. Each route has its own dependencies.
+
+Both companies must perform an uncrewed demonstration before carrying astronauts to the surface. NASA also says the revised contracts no longer assign either provider to a specific near-term landing mission. Selecting the first system depends on readiness. That distinction matters more than declaring a winner from an artist's illustration or an earlier schedule.
+
+Artemis III is intended to test Orion's interaction with test versions of both systems in Earth orbit. During the approximately 14-day mission, astronauts would first dock with Blue Moon and assess internal systems. A subsequent Starship docking would last up to two hours, without astronauts entering Starship. Those different activities produce different evidence and should not be treated as equivalent evaluations.
+
+The plan covers software, communications, control, crew procedures and coordination between operating teams. Additional Orion investigations would follow. These remain future milestones rather than completed certification. Their purpose is to identify integration problems before a lunar flight while retaining separate requirements for later uncrewed and crewed demonstrations.
+
+### Why it matters
+
+A lunar landing depends on an entire chain of propellant logistics, transfer, rendezvous and return. This update makes that chain more explicit for two different vehicles. Progress can be assessed through completed demonstrations and system readiness, without substituting the calendar target of 2028 for demonstrated capability.
+
+
 ===== EDITION 41 — 2026-10-21 =====
 
 ## От редакции

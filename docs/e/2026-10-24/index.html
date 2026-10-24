@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-wire - выпуск №42 - 2026-10-24</title>
+<meta name="description" content="frontier-wire - an openly automated bilingual news wire.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<div class="edition-head">
+  <p class="kicker"><span class="lang-ru">Выпуск №42</span><span class="lang-en">Edition №42</span> &middot; 2026-10-24</p>
+  <div class="editorial">
+    <div class="lang-ru"><p>Сегодня пять материалов о том, что уже работает, что удалось измерить и что ещё обещано. Kimi открывает доступ к новой модели, разработчики MPS разбирают расход памяти, Swift оставляет архив после завершения наблюдений, а второй цвет помогает точнее читать свечение растений. В обновлённых планах Artemis отдельно смотрим на маршрут каждого посадочного аппарата и проверки, которые должны предшествовать высадке.</p></div>
+    <div class="lang-en"><p>Today's five stories separate what is available, what has been measured and what remains promised. Kimi adds model access, MPS developers examine memory use, Swift leaves an archive after observations end, and a second colour makes plant luminescence more informative. In the revised Artemis plans, we examine each lander's route and the tests intended to precede a landing.</p></div>
+  </div>
+</div>
+<div class="grid"><article class="card rubric-ai">
+
+  <span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span>
+  <h3><a href="01-kimi-k31-pro-api-release.html">
+    <span class="lang-ru">Kimi K3.1 Pro появился в сервисах Moonshot; публикация весов обещана к 4 ноября</span>
+    <span class="lang-en">Kimi K3.1 Pro reaches Moonshot services, with weights promised by November 4</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Анонс разделяет доступ через сервис и будущий выпуск весов; результаты тестов остаются заявлениями разработчика.</span><span class="lang-en">The announcement separates service access from a future weight release, with benchmark results attributed to the developer.</span></p>
+</article>
+<article class="card rubric-tech">
+
+  <span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span>
+  <h3><a href="02-pytorch-mps-memory-kernels.html">
+    <span class="lang-ru">Разбор MPS в PyTorch 2.15 показывает, где Mac терял скорость и память</span>
+    <span class="lang-en">A PyTorch 2.15 MPS review traces performance and memory bottlenecks on Macs</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Команда Hugging Face описала FP8, специализированные Metal-ядра и исправление расхода памяти при декодировании видео.</span><span class="lang-en">Hugging Face&#x27;s team details FP8, specialised Metal kernels and a video-decoding driver-memory fix.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="03-swift-science-mission-ends.html">
+    <span class="lang-ru">Swift завершил научные наблюдения после почти 22 лет работы</span>
+    <span class="lang-en">Swift ends science observations after nearly 22 years</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Последнее наблюдение состоялось 20 октября; вход в атмосферу ещё ожидается, а архив остаётся доступным исследователям.</span><span class="lang-en">The final observation occurred on October 20; atmospheric re-entry is still expected, while the archive remains available.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="04-two-colour-plant-reporters.html">
+    <span class="lang-ru">Два цвета свечения помогают отделить активность генов растения от фоновых изменений</span>
+    <span class="lang-en">Two-colour glow helps separate plant gene activity from physiological background</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Исследователи MRC используют отношение сигналов как внутреннюю проверку, наблюдая защитные реакции возле участков инфекции.</span><span class="lang-en">MRC researchers use a signal ratio as an internal reference while observing defence responses near infection sites.</span></p>
+</article>
+<article class="card rubric-science">
+
+  <span class="badge"><span class="lang-ru">Наука</span><span class="lang-en">Science</span></span>
+  <h3><a href="05-artemis-lander-architecture.html">
+    <span class="lang-ru">NASA обновило схемы лунных посадок и программу испытаний Artemis III</span>
+    <span class="lang-en">NASA revises lunar-landing architectures and Artemis III testing plans</span>
+  </a></h3>
+  <p class="dek"><span class="lang-ru">Два поставщика готовят разные маршруты, а испытательные стыковки 2027 года должны предшествовать высадкам, намеченным на 2028-й.</span><span class="lang-en">Two providers are preparing different routes, with 2027 docking tests intended to precede landings targeted for 2028.</span></p>
+</article></div>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
