@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-25",
+  "slot": "morning",
+  "checked_at": "2026-10-25T04:09:35.467969+00:00",
+  "digest_sha256": "b8a9c314a01df34c6d0b441f8f9a3cd5770afb0d4db9912381715ee513852683",
+  "articles": [
+    {
+      "path": "editions/2026/10-25/01-litpivot-literature-workflow.md",
+      "sha256": "04a4f23f4420bfc4054ebf8d684d090a39292a04c0d1fe119bc840b90317353e",
+      "source": "https://huggingface.co/blog/allenai/litpivot"
+    },
+    {
+      "path": "editions/2026/10-25/02-cerebras-model-pipeline.md",
+      "sha256": "3ea2198d96aa89eee9990659c9493099398fbeb00ba68b9a561e7dc49cf7cb2c",
+      "source": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    },
+    {
+      "path": "editions/2026/10-25/03-titanium-steel-pitting.md",
+      "sha256": "25872004664f0a2c2bca02f63e3bd84ac5e3d4951d63507a49f8ffe10f2e5aeb",
+      "source": "https://www.tohoku.ac.jp/en/press/where_does_pitting_corrosion_start_in_titanium_stainless_steel.html"
+    },
+    {
+      "path": "editions/2026/10-25/04-single-shot-plasma-scattering.md",
+      "sha256": "823ae41aab95779eadebc0b20110684f4a866c41347c10464b0862e44fd3ebed",
+      "source": "https://www.nifs.ac.jp/news/research/261019.html"
+    }
+  ]
+}

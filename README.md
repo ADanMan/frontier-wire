@@ -10,13 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №42 / Edition №42 — 2026-10-24** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-24/)
+**Выпуск №43 / Edition №43 — 2026-10-25** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-25/)
 
-- **[ИИ]** [Kimi K3.1 Pro появился в сервисах Moonshot; публикация весов обещана к 4 ноября](editions/2026/10-24/01-kimi-k31-pro-api-release.md)
-- **[Технологии]** [Разбор MPS в PyTorch 2.15 показывает, где Mac терял скорость и память](editions/2026/10-24/02-pytorch-mps-memory-kernels.md)
-- **[Наука]** [Swift завершил научные наблюдения после почти 22 лет работы](editions/2026/10-24/03-swift-science-mission-ends.md)
-- **[Наука]** [Два цвета свечения помогают отделить активность генов растения от фоновых изменений](editions/2026/10-24/04-two-colour-plant-reporters.md)
-- **[Наука]** [NASA обновило схемы лунных посадок и программу испытаний Artemis III](editions/2026/10-24/05-artemis-lander-architecture.md)
+- **[ИИ]** [Ai2 показал, как LitPivot связывает правку исследовательской идеи с выбором литературы](editions/2026/10-25/01-litpivot-literature-workflow.md)
+- **[Технологии]** [Cerebras объяснила, как раскладывает большую модель по цепочке вычислительных пластин](editions/2026/10-25/02-cerebras-model-pipeline.md)
+- **[Наука]** [Исследователи нашли включения, с которых начинается коррозия стали с добавкой титана](editions/2026/10-25/03-titanium-steel-pitting.md)
+- **[Наука]** [Один рентгеновский импульс помогает измерить плазму сразу на нескольких масштабах](editions/2026/10-25/04-single-shot-plasma-scattering.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

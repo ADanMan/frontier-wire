@@ -2,6 +2,173 @@
 
 
 
+===== EDITION 43 — 2026-10-25 =====
+
+## От редакции
+
+Сегодня четыре материала о том, как устроен результат за общим названием технологии. LitPivot связывает правку идеи с выбором литературы, Cerebras объясняет размещение модели по вычислительным стадиям, а материаловеды ищут конкретные включения, с которых начинается коррозия. В плазменном эксперименте смотрим, как сохранить сигналы, которые обычная защита камеры скрывает вместе с ярким центром пучка.
+
+## Editorial
+
+Today's four stories look beneath broad technology labels to the mechanisms producing a result. LitPivot connects idea revision with literature selection, Cerebras explains model placement across compute stages, and materials researchers identify inclusions where corrosion can begin. A plasma experiment examines how to retain signals normally hidden along with the beam's intense centre.
+
+
+----- 01-litpivot-literature-workflow (ai) — source: https://huggingface.co/blog/allenai/litpivot -----
+
+## Русская версия
+
+Ai2 [опубликовал 23 октября обзор LitPivot](https://huggingface.co/blog/allenai/litpivot), системы для развития исследовательских идей с опорой на научную литературу. Работа выполнена совместно с University of Pennsylvania. Система помогает менять предложение, когда прочитанная статья показывает уже решённую задачу или подсказывает другое направление. Это свежий разбор существующей разработки: её препринт появился в апреле, последняя указанная версия датирована 22 сентября. Представление на UIST 2026 ещё заявлено как предстоящее.
+
+В центре интерфейса находится короткое исследовательское предложение. Система выделяет в нём постановку проблемы, предполагаемый вклад и план проверки. Пользователь выбирает конкретную часть, а соседняя панель группирует релевантные статьи по соответствующему признаку. Так разговор о том, существует ли проблема, не смешивается автоматически с вопросом, подходит ли выбранный эксперимент для её изучения.
+
+Далее исследователь сам выбирает работы, на которые должна опираться оценка. LitPivot предлагает критику с подтверждающими фрагментами и вариант правки. После изменения предложения литература ранжируется заново; система также отмечает места, которые могли перестать соответствовать новой идее. Предложение можно принять, отредактировать или отклонить. Это организация взаимодействия с источниками, а не автоматическое присвоение идее статуса научного открытия.
+
+В лабораторной проверке участвовали 17 исследователей. Каждый разрабатывал одну назначенную идею с LitPivot, другую — с базовым инструментом, сочетавшим текстовый редактор и ИИ-чат о выбранных статьях. В обоих условиях использовалась одна коллекция литературы. Два эксперта, не знавшие, какой инструмент применялся, оценивали единственный критерий: насколько хорошо предложение использует релевантные работы для своего обоснования. У LitPivot оценки были выше.
+
+Эта формулировка результата важна. Участники также сообщали о лучшем понимании литературы и росте воспринимаемой новизны и полезности идей. Но самооценка новизны и экспертная оценка опоры на источники — разные показатели. Ни один из них не устанавливает, что будущие эксперименты обязательно дадут значимый результат или что система проверила всю мировую литературу по теме.
+
+В дополнительном исследовании пять человек работали над собственными проектами по 30 минут. Это даёт примеры применения на разных стадиях, но остаётся небольшой проверкой рабочего процесса. Наш вывод из описания — ценность здесь в явном выборе доказательств и пересмотре критериев по мере изменения текста. Система облегчает такую работу, сохраняя за исследователем решения о том, каким источникам и предложениям доверять.
+
+### Почему это важно
+
+Полезная правка научной идеи зависит от того, с какими работами её сравнивают. LitPivot делает эту зависимость видимой прямо в редакторе. Оценивать подход стоит по качеству обоснования и удобству проверки источников, сохраняя различие между улучшенным предложением и доказанным научным результатом.
+
+## English version
+
+Ai2 has [published an October 23 overview of LitPivot](https://huggingface.co/blog/allenai/litpivot), a system for developing research ideas through engagement with the literature. Built with University of Pennsylvania collaborators, it helps revise proposals when a paper reveals an already addressed problem or suggests another direction. This is a new explanation of existing research: the preprint appeared in April, with its latest listed version dated September 22. Presentation at UIST 2026 is still described as forthcoming.
+
+The interface centres on a short research proposal. It distinguishes the problem, intended contribution and evaluation plan. A researcher selects one part, and an adjacent panel groups relevant papers around that facet. Evidence that a problem exists can then be considered separately from whether a proposed experiment would adequately investigate it.
+
+Researchers choose the papers that should inform an assessment. LitPivot offers a critique with supporting excerpts and a suggested revision. After changes, it reranks the literature and flags passages that may no longer fit the revised idea. Suggestions can be accepted, edited or rejected. This organises interaction with evidence rather than automatically certifying a scientific discovery.
+
+The laboratory evaluation involved 17 researchers. Each developed one assigned idea with LitPivot and another with a baseline combining a text editor and an AI tool for questions about selected papers. Both conditions used the same paper collection. Two domain experts, unaware of the tool used, rated one criterion: how well the proposal used relevant literature to support and justify its idea. LitPivot proposals received higher ratings.
+
+That wording matters. Participants also reported stronger understanding of the literature and perceived improvements in novelty and usefulness. Self-reported novelty and expert-rated grounding are different measurements. Neither establishes that future experiments will succeed or that the system has checked the entire global literature on a subject.
+
+A follow-up involved five researchers using the system on their own projects for 30 minutes. It provides examples across project stages while remaining a small workflow study. Our reading is that the useful design feature is explicit evidence selection and reconsideration as the proposal changes. Researchers retain responsibility for deciding which sources and revisions deserve their confidence.
+
+### Why it matters
+
+A useful revision depends on which prior work an idea is compared against. LitPivot makes that relationship visible within the editor. Its approach should be assessed through grounding quality and inspectable evidence, while keeping an improved proposal distinct from a demonstrated scientific result.
+
+
+----- 02-cerebras-model-pipeline (tech) — source: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras -----
+
+## Русская версия
+
+Cerebras [опубликовала инженерный разбор размещения крупных моделей](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras) на своих wafer-scale ускорителях. Материал датирован 22 октября. Главный вопрос простой: как поместить веса триллионного масштаба в систему, если на одной пластине WSE-3T доступно 44 гигабайта встроенной памяти? Ответ компании — распределить модель по нескольким пластинам и организовать прохождение промежуточных результатов через последовательность стадий.
+
+Иллюстрацией служит Kimi K3, а не вчерашняя K3.1 Pro. Для расчёта приняты четыре бита на вес, восьмибитный KV-кэш и средний запрос на 256 тысяч токенов. Это исходные допущения примера, не универсальные параметры каждого развёртывания. При изменении точности хранения, длины контекста или устройства модели меняются и требования к памяти, поэтому итоговое число ускорителей нельзя переносить на произвольный сервис.
+
+В упрощённой раскладке авторы оценивают слой примерно в 16 гигабайт. На пластине с полным вниманием оставляют один слой и место под KV-кэш запросов. Для слоёв линейного внимания используется другое состояние, не растущее таким же образом с длиной контекста; в примере помещают два слоя на пластину. Из 69 линейных и 24 остальных слоёв получается иллюстративная конфигурация на 59 пластинах. Она объясняет ход расчёта, а не является независимым аудитом готовой установки.
+
+После размещения весов между стадиями передаются активации — промежуточные результаты вычисления. Веса соответствующих слоёв остаются на своих местах. Это похоже на последовательность рабочих постов: один запрос проходит дальше, но каждый пост может одновременно заниматься другим запросом. Поэтому последовательное устройство модели не означает, что вся система обязательно ждёт завершения единственного пользователя.
+
+Каждая стадия может обрабатывать и небольшую группу запросов. При меньших группах приоритетом становится скорость отдельного ответа; увеличение группы помогает суммарной пропускной способности. Одновременно каждый активный запрос требует собственного состояния на пластинах с полным вниманием. Свободная память под такой кэш ограничивает число запросов в работе, даже если вычислительные стадии способны принимать больше задач.
+
+Компания отдельно подчёркивает, что конкурентность и размер группы не исчерпывают оценку эффективности. Сравнивать нужно и общий выпуск токенов, энергопотребление и скорость отдельного потока при сопоставимых условиях. Мы не проводили испытаний и не превращаем заявленные поставщиком скорости в общий рейтинг ускорителей. Полезный результат публикации — возможность увидеть, какие именно допущения стоят за рассказом о большой модели на маленькой относительно её весов памяти одного чипа.
+
+### Почему это важно
+
+Размер модели сам по себе не говорит, как устроен обслуживающий её кластер. Разбор связывает память весов, память состояния и движение данных. Это помогает задавать более точные вопросы о задержке и нагрузке вместо сравнения систем по одному эффектному числу токенов в секунду.
+
+## English version
+
+Cerebras has [published an engineering explanation of large-model deployment](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras) on wafer-scale accelerators. Dated October 22, it addresses a basic question: how can trillion-scale model weights fit into a system whose individual WSE-3T wafer contains 44 GB of on-chip memory? The company's answer distributes layers across wafers and passes intermediate results through a pipeline.
+
+The illustrative model is Kimi K3, rather than the newly announced K3.1 Pro. The calculation assumes four-bit weights, an eight-bit KV cache and an average 256,000-token request. Those are example assumptions, not universal deployment settings. Storage precision, context length and model architecture change the memory requirements, so the resulting accelerator count cannot simply be applied to an arbitrary service.
+
+The simplified mapping estimates approximately 16 GB per layer. A wafer with a full-attention layer reserves additional space for request KV caches. Linear-attention layers use a different state that does not grow in the same way with context length; the example places two such layers on a wafer. With 69 linear-attention and 24 remaining layers, the illustration yields 59 wafers. It explains the calculation rather than providing an independent audit of an operating installation.
+
+Once weights are placed, activations travel between stages while the corresponding layer weights remain resident. Think of successive workstations: a request advances, but each station can simultaneously process another request. A sequential model therefore does not require the entire system to wait for one user to finish before another begins.
+
+Each stage can also process a small group of requests. Smaller groups prioritise individual response speed, while larger ones can improve aggregate throughput. Meanwhile, every active request needs its own state on full-attention wafers. The memory available for that cache limits concurrency even when compute stages could accept more work.
+
+The company notes that concurrency and group size do not fully describe efficiency. Aggregate token output, power consumption and individual stream speed must be considered under comparable conditions. We have not tested the system or converted supplier-reported speeds into a universal accelerator ranking. The useful contribution is making assumptions visible behind the account of a model much larger than one chip's memory.
+
+### Why it matters
+
+Model size alone does not explain the cluster serving it. This account connects weight storage, request-state memory and data movement. Those distinctions support more useful questions about latency and load than comparing systems through one striking tokens-per-second figure.
+
+
+----- 03-titanium-steel-pitting (science) — source: https://www.tohoku.ac.jp/en/press/where_does_pitting_corrosion_start_in_titanium_stainless_steel.html -----
+
+## Русская версия
+
+Tohoku University [сообщил об исследовании точечной коррозии стали с титаном](https://www.tohoku.ac.jp/en/press/where_does_pitting_corrosion_start_in_titanium_stainless_steel.html). Университетская публикация датирована 23 октября, научная статья вышла онлайн 22 октября в npj Materials Degradation. Работа рассматривает ферритный сплав Fe–16Cr типа 430. Вывод относится к тому, где начинается повреждение в изученной системе, а не к объявлению всех нержавеющих сталей ненадёжными.
+
+В среде с хлорид-ионами, например морской воде, на стали могут возникать небольшие углубления — питтинг. Их начало часто связано с микроскопическими включениями внутри материала. Титан добавляют, чтобы преобразовать легко растворяющийся сульфид марганца в более устойчивые соединения. Но под общим названием «включение с титаном» скрываются разные составы, поэтому сам факт присутствия элемента ещё не объясняет поведение каждого такого участка.
+
+Обычные включения слишком малы для удобного раздельного изучения: речь о нескольких микрометрах. Исследователи подготовили модельные образцы с контролируемым составом включений и сравнили их электрохимическое поведение. Такой подход позволяет менять интересующий признак более последовательно, чем при наблюдении множества неодинаковых частиц в готовом коммерческом металле. Затем результаты сопоставили с поведением настоящей стали, содержащей титан.
+
+Сравнивались MnS, смешанный сульфид (Mn,Ti)S, TiS₂ и нитрид титана TiN. Легче всего растворялся MnS; далее шли смешанный сульфид и TiS₂. TiN в исследованном диапазоне не растворялся. Последнее ограничение существенно: это результат при рассмотренных условиях, а не утверждение о неразрушимости соединения в любой среде и при любом воздействии.
+
+В реальном сплаве диапазон потенциалов начала питтинга совпадал с диапазоном растворения смешанного сульфида в модельных образцах. Анализ участков возникновения повреждений также выявил концентрации марганца и серы. Совокупность этих наблюдений указывает, что даже небольшие количества (Mn,Ti)S могут становиться точками начала коррозии в стали с титаном. Здесь связь поддержана и контролируемым сравнением, и наблюдением материала, для которого ставился исходный вопрос.
+
+Практическое следствие касается управления составом включений. Нельзя оценивать улучшение только по тому, добавлен ли титан в сплав: важно, какие частицы в итоге образуются. Университет называет исследование действия кальция следующим шагом. Это ещё не выполненный результат и не готовая универсальная рецептура для промышленности. Публикация также не устанавливает срок службы каждого изделия, изготовленного из такой стали.
+
+### Почему это важно
+
+Небольшая неоднородность может определять начало заметного повреждения. Работа уточняет, какой именно тип включения стоит проверять при повышении стойкости материала. Вместо общего обещания «добавка защищает» появляется более конкретный вопрос о составе, условиях и месте зарождения коррозии.
+
+## English version
+
+Tohoku University has [reported research into pitting in titanium-containing stainless steel](https://www.tohoku.ac.jp/en/press/where_does_pitting_corrosion_start_in_titanium_stainless_steel.html). Its release is dated October 23, following online publication in npj Materials Degradation on October 22. The work examines ferritic Fe–16Cr steel of Type 430. It concerns where damage begins in the studied system, rather than declaring all stainless steels unreliable.
+
+Chloride-containing environments such as seawater can produce small corrosion pits. Initiation often involves microscopic inclusions within the metal. Titanium is added to transform readily dissolved manganese sulfide into more stable compounds. However, titanium-containing inclusions can have different compositions. The element's presence alone does not explain every particle's behaviour.
+
+Commercial-steel inclusions are only a few micrometres across, making separate examination difficult. The researchers prepared model specimens with controlled inclusion compositions and compared their electrochemical behaviour. That approach varies the feature of interest more systematically than observing many dissimilar particles in a finished alloy. They then compared the findings with actual titanium-containing steel.
+
+Four inclusion types were examined: MnS, mixed (Mn,Ti)S, TiS₂ and titanium nitride, TiN. MnS dissolved most readily, followed by the mixed sulfide and TiS₂. TiN did not dissolve within the range examined. That boundary matters: it describes the investigated conditions, not indestructibility in every environment.
+
+In actual steel, the potential range for pit initiation corresponded to the mixed sulfide's dissolution range in model specimens. Analysis of initiation sites also identified concentrated manganese and sulfur. Together, these observations indicate that small quantities of (Mn,Ti)S can initiate pitting in titanium-containing steel. The interpretation connects a controlled comparison with observations in the material that motivated the original question.
+
+The practical implication concerns control of inclusion chemistry. Assessing improvement requires asking which particles form, rather than merely whether titanium was added. The university identifies calcium's influence as the next research step. That is not yet a completed finding or a universal industrial formulation. The release also does not establish a service life for every product made from the alloy.
+
+### Why it matters
+
+A small material heterogeneity can determine where a larger failure begins. This work narrows the inclusion type worth investigating when improving corrosion resistance. It replaces a broad expectation that an additive protects the metal with a more specific question about composition, conditions and initiation sites.
+
+
+----- 04-single-shot-plasma-scattering (science) — source: https://www.nifs.ac.jp/news/research/261019.html -----
+
+## Русская версия
+
+Японский National Institute for Fusion Science [описал способ измерять структуру плазмы одним рентгеновским импульсом](https://www.nifs.ac.jp/news/research/261019.html) сразу на нескольких пространственных масштабах. Научная работа вышла в Communications Physics 16 октября, институтское сообщение — 19-го, англоязычный разбор попал в текущий дайджест через публикацию 24 октября. Эти даты различаются: мы не представляем метод как впервые обнародованный сегодня результат.
+
+Задача возникает потому, что плазма быстро меняется и не воспроизводится совершенно одинаково в каждом опыте. Если крупные и мелкие структуры измерять в разных запусках, их различия могут отражать не только масштаб, но и другую реализацию процесса. Команда хотела получить информацию о широком диапазоне размеров в одном измерении. В описанном опыте охвачен диапазон от 10 до 500 нанометров с временным разрешением меньше пикосекунды.
+
+Использован метод малоуглового рентгеновского рассеяния. Это не обычная фотография отдельных частиц: детектор регистрирует картину рассеяния, по которой исследователи восстанавливают сведения о структуре. В стандартной схеме слишком яркий центр пучка закрывают непрозрачным экраном, защищая камеру. Но вместе с ним скрывается часть слабоуглового сигнала, полезного для изучения более крупных структур.
+
+В новой схеме центр не закрывают полностью, а ослабляют свет фильтром с неодинаковой толщиной. Сильные и слабые участки сигнала становятся доступны одной камере. Институт сообщает об увеличении измеряемого диапазона интенсивности более чем в сто раз. Это характеристика диапазона детектирования, не стократное ускорение эксперимента или улучшение всех видов разрешения одновременно.
+
+Опыты проводились на установке SACLA. Исследователи наблюдали, как упорядоченная структура кремниевых стержней переходит из твёрдого состояния в плазменное и расширяется после воздействия лазера. Изменения дифракционных пиков дали сведения о разрушении структуры. Для изучения динамики команда также меняла задержку между возбуждающим и измеряющим импульсами. Поэтому одиночное пространственное измерение не следует путать с записью всей временной последовательности за один кадр.
+
+Сопоставление измерений и моделирования помогло связать начальную структуру с поглощением энергии. Это результат для изученной мишени и условий, а не готовая демонстрация энергетической установки. Возможное применение к другим быстро меняющимся образцам институт обсуждает как перспективу. Любой такой перенос потребует собственной проверки диапазона сигналов и способов интерпретации, даже если принцип уменьшения потери информации выглядит полезным.
+
+### Почему это важно
+
+Наблюдение быстрого процесса зависит от того, какую часть сигнала прибор вынужден скрывать. Новый подход позволяет одновременно увидеть больше пространственных масштабов. Его ценность — в более полной проверке структуры одного состояния, при ясном различении пространственного охвата, временного разрешения и серии измерений.
+
+## English version
+
+Japan's National Institute for Fusion Science has [described measuring plasma structure across several spatial scales with one X-ray pulse](https://www.nifs.ac.jp/news/research/261019.html). The Communications Physics paper appeared on October 16, followed by the institutional release on October 19 and an English-language account in the current digest on October 24. These dates are distinct; the result is not presented as first disclosed today.
+
+Plasma evolves rapidly and cannot be reproduced identically in every experiment. Measuring large and small structures in separate runs can mix differences in scale with differences between realisations. The researchers wanted a broad spatial range within one measurement. Their experiment covered structures from 10 to 500 nanometres with sub-picosecond temporal resolution.
+
+The technique uses small-angle X-ray scattering. Rather than directly photographing individual particles, the detector records a scattering pattern from which structural information is inferred. Conventional arrangements block the beam's intense centre to protect the camera. That also hides very-small-angle signals that carry information about larger structures.
+
+The new arrangement attenuates the centre with a filter of varying thickness instead of blocking it entirely. Strong and weak parts of the signal then fall within one camera's measurable range. The institute reports more than a hundredfold expansion in measurable intensity range. That concerns detection range, not a hundredfold increase in experimental speed or every form of resolution.
+
+Experiments at SACLA examined a regularly arranged silicon-rod target as laser excitation transformed it from solid material into expanding plasma. Changes in diffraction peaks supplied evidence about structural collapse. To investigate dynamics, the team also varied the delay between excitation and measurement pulses. A single spatial measurement should therefore not be confused with recording the entire temporal sequence in one frame.
+
+Comparing observations with simulations helped connect initial structure with energy absorption. This is a result for the studied target and conditions, rather than a demonstrated energy-producing installation. The institute discusses other rapidly changing samples as prospective applications. Such transfers would need their own validation of signal range and interpretation, even when the principle of retaining more information is promising.
+
+### Why it matters
+
+Observing a fast process depends partly on which signals an instrument must hide. This approach makes more spatial scales available together. Its value is a fuller structural measurement of one state, with spatial coverage, temporal resolution and a sequence of measurements kept conceptually separate.
+
+
 ===== EDITION 42 — 2026-10-24 =====
 
 ## От редакции
