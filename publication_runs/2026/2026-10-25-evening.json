@@ -1,0 +1,24 @@
+{
+  "status": "ready",
+  "date": "2026-10-25",
+  "slot": "evening",
+  "checked_at": "2026-10-25T16:06:34.617340+00:00",
+  "digest_sha256": "35ca07d63302c2dd228578a4dbcbf3aab590e25c8bf1f95be68e62ed4b4d0b7f",
+  "articles": [
+    {
+      "path": "editions/2026/10-25/05-decisions-api-general-availability.md",
+      "sha256": "19153c23571567d88c4be19d3e6f8b780363a3dd22a4bc8208cfa3c53bce2a28",
+      "source": "https://openai.com/index/decisions-api"
+    },
+    {
+      "path": "editions/2026/10-25/06-frontier-training-containment-update.md",
+      "sha256": "80b2935d7fdae6b2cad07a66c106b6f03f8d810cfe134677e24f4d533c300f62",
+      "source": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    {
+      "path": "editions/2026/10-25/07-habitat-storage-multitenancy.md",
+      "sha256": "bf7e10e7a868e8a53e018c738582387ab7bed0c8426631638f03d07348f6d88d",
+      "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    }
+  ]
+}

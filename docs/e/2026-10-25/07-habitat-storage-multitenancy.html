@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Habitat возвращает общие базы с защитой от слишком шумных соседей - frontier-wire</title>
+<meta name="description" content="OpenAI&#x27;s second engineering installment examines the tradeoff between workload isolation and capacity planning.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-25/07-habitat-storage-multitenancy.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Habitat returns to shared storage with stronger noisy-neighbor controls", "alternativeHeadline": "Habitat возвращает общие базы с защитой от слишком шумных соседей", "datePublished": "2026-10-25", "inLanguage": ["ru", "en"], "isBasedOn": "https://openai.com/index/scaling-storage-one-billion-users-part-two", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-25/07-habitat-storage-multitenancy.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-10-25 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Habitat возвращает общие базы с защитой от слишком шумных соседей</span><span class="lang-en">Habitat returns to shared storage with stronger noisy-neighbor controls</span></h1>
+  <p class="dek big"><span class="lang-ru">Вторая часть инженерного разбора OpenAI объясняет компромисс между изоляцией нагрузок и планированием ресурсов.</span><span class="lang-en">OpenAI&#x27;s second engineering installment examines the tradeoff between workload isolation and capacity planning.</span></p>
+
+  <div class="prose lang-ru"><p>Хранилище можно разделить между многими командами, но тогда особенно прожорливый сосед способен испортить жизнь остальным. Можно выдать каждому собственную площадку, но её придётся отдельно рассчитывать и обслуживать. OpenAI 23 октября опубликовала <a href="https://openai.com/index/scaling-storage-one-billion-users-part-two">вторую часть истории Habitat</a>, где объясняет возвращение к общим контейнерам Azure Cosmos DB после периода разделения нагрузок. Это продолжение сентябрьского материала Frontier Wire о платформе, с новыми подробностями устройства баз данных.</p>
+<p>Контейнер здесь — единица организации данных и выделенной пропускной способности базы, а не пользовательская папка. При совместной работе разные задачи конкурируют за реальные ресурсы под логическим разделением. Поэтому аккуратная граница в интерфейсе ещё не гарантирует, что тяжёлая фоновая операция не помешает интерактивному запросу. Именно это имеют в виду под «шумным соседом»: проблема касается распределения мощности, а не смешивания пользовательских документов.</p>
+<p>Выделение отдельных контейнеров уменьшило область возможного сбоя, но принесло другой счёт. Каждой продуктовой команде пришлось планировать собственные потребности, а рост новой функции перестал сглаживаться общей нагрузкой. Резервировать достаточно мощности для неожиданного всплеска и одновременно не держать лишние ресурсы — разные цели. Рассказ интересен тем, что авторы не представляют изоляцию универсальным ответом: организационные издержки тоже влияют на надёжность.</p>
+<p>Возврат к совместному размещению, по описанию инженеров, сопровождался ограничением наиболее горячих ключей и приоритетами запросов. Фоновую работу можно притормозить раньше, чем операции, которых ждёт человек. Это меняет смысл общей базы: она становится управляемой очередью потребностей с разной срочностью, а не обещанием всем одинаковой скорости при любом поведении соседей. Перенос данных между вариантами размещения остаётся отдельной частью платформы.</p>
+<p>Авторы также разбирают задержки чтения. Близость данных, кеширование и сокращение накладных расходов сервиса работают вместе; выводить всё улучшение из одного языка программирования было бы неверно. В частности, обновление кешей связано с потоком изменений базы. Полезно различать доступный рядом сохранённый объект и запрос, которому всё-таки нужно идти в основное хранилище: ускорение обычного случая не делает все обращения одинаковыми.</p>
+<h3>Почему это важно</h3>
+<p>Разбор даёт практическую картину решений, которые редко видны за ответом ИИ-приложения. Это рассказ самих операторов системы, а не независимый сравнительный тест облачных баз. Его стоит читать как набор компромиссов: кому принадлежит планирование, какая работа получает приоритет и как система ведёт себя при перегрузке. Для собственной инфраструктуры полезнее перенести эти вопросы, чем копировать название базы или архитектуру компании другого масштаба. Удобство продукта зависит и от таких приземлённых решений.</p></div>
+  <div class="prose lang-en"><p>A shared database lets many teams use the same capacity, but an unusually demanding neighbor can disrupt everyone else. Give each team its own allocation and someone must plan and operate each one separately. On October 23, OpenAI published <a href="https://openai.com/index/scaling-storage-one-billion-users-part-two">the second installment of its Habitat engineering account</a>, explaining a return to shared Azure Cosmos DB containers after a period of separating workloads. It adds database-level detail to the platform story Frontier Wire covered in September.</p>
+<p>A container here is a unit of database organization and allocated throughput, rather than a folder belonging to a user. Different workloads can compete for physical resources beneath their logical boundaries. A tidy separation in an interface therefore does not guarantee that a heavy background operation cannot affect an interactive request. That is the noisy-neighbor problem in this account: contention for capacity, rather than a claim that users' documents are mixed together.</p>
+<p>Separate containers reduced the potential scope of failures but introduced another bill. Product teams had to plan their own requirements, and the growth of a new feature no longer disappeared into the aggregate load. Keeping enough spare capacity for an unexpected surge and avoiding excessive reservations are different objectives. The account is useful because it does not treat isolation as a universal answer. The organizational work required to maintain it also shapes operational reliability.</p>
+<p>According to the engineers, the move back to sharing involved throttling the hottest keys and assigning requests different priorities. Background processing can be slowed before operations that a person is actively waiting for. A shared database then becomes a managed allocation among demands of differing urgency, rather than a promise of identical performance regardless of neighboring behavior. Moving data between placements remains a separate capability of the platform rather than something this arrangement makes unnecessary.</p>
+<p>The authors also examine read latency. Locating data nearby, caching and reducing service overhead work together; crediting the result entirely to a programming-language change would miss that combination. Cache updates are tied to a feed of database changes. It is helpful to distinguish a nearby cached object from a request that still needs the underlying store. Improving the typical path does not make every request equally fast or eliminate the consequences of distance.</p>
+<h3>Why it matters</h3>
+<p>The account describes decisions that sit behind an AI application's visible answer. It comes from the system's operators and is not an independent comparison of cloud databases. Its value is in the tradeoffs: who owns capacity planning, which work gets priority and how overload is handled. For another organization, those questions are more transferable than a database brand or an architecture built for a different scale. Product usability depends on this ordinary infrastructure work as well as on the model generating a response.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://openai.com/index/scaling-storage-one-billion-users-part-two">https://openai.com/index/scaling-storage-one-billion-users-part-two</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

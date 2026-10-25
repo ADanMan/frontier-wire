@@ -16,6 +16,9 @@
 - **[Технологии]** [Cerebras объяснила, как раскладывает большую модель по цепочке вычислительных пластин](editions/2026/10-25/02-cerebras-model-pipeline.md)
 - **[Наука]** [Исследователи нашли включения, с которых начинается коррозия стали с добавкой титана](editions/2026/10-25/03-titanium-steel-pitting.md)
 - **[Наука]** [Один рентгеновский импульс помогает измерить плазму сразу на нескольких масштабах](editions/2026/10-25/04-single-shot-plasma-scattering.md)
+- **[ИИ]** [Decisions API выходит из беты с ответами из заданного набора](editions/2026/10-25/05-decisions-api-general-availability.md)
+- **[ИИ]** [OpenAI рассказала, как усилила изоляцию моделей после паузы в обучении](editions/2026/10-25/06-frontier-training-containment-update.md)
+- **[Технологии]** [Habitat возвращает общие базы с защитой от слишком шумных соседей](editions/2026/10-25/07-habitat-storage-multitenancy.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

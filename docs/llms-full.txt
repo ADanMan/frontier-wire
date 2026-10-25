@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Сегодня четыре материала о том, как устроен результат за общим названием технологии. LitPivot связывает правку идеи с выбором литературы, Cerebras объясняет размещение модели по вычислительным стадиям, а материаловеды ищут конкретные включения, с которых начинается коррозия. В плазменном эксперименте смотрим, как сохранить сигналы, которые обычная защита камеры скрывает вместе с ярким центром пучка.
+Сегодня смотрим, как устроен результат за общим названием технологии. Утром — LitPivot и работа с литературой, конвейер Cerebras, начало коррозии и рентгеновское измерение плазмы; вечером добавляем три материала о решениях и границах в ИИ-инфраструктуре. Decisions API предлагает ограниченный набор ответов, новый отчёт OpenAI объясняет усиление изоляции исследовательских моделей, а продолжение истории Habitat разбирает соседство нагрузок в общей базе. Во всех трёх случаях отделяем заявление разработчика от независимой проверки и дату отчёта от даты описанного события.
 
 ## Editorial
 
-Today's four stories look beneath broad technology labels to the mechanisms producing a result. LitPivot connects idea revision with literature selection, Cerebras explains model placement across compute stages, and materials researchers identify inclusions where corrosion can begin. A plasma experiment examines how to retain signals normally hidden along with the beam's intense centre.
+Today we look beneath broad technology labels to the mechanisms producing a result. The morning covers LitPivot and literature, Cerebras pipelines, corrosion and plasma measurements; the evening adds three stories about decisions and boundaries in AI infrastructure. Decisions API offers bounded answers, OpenAI's new report explains stronger research-model containment, and the Habitat follow-up examines workloads sharing database capacity. Each story distinguishes the developer's account from independent verification and the report's date from the events it describes.
 
 
 ----- 01-litpivot-literature-workflow (ai) — source: https://huggingface.co/blog/allenai/litpivot -----
@@ -167,6 +167,111 @@ Comparing observations with simulations helped connect initial structure with en
 ### Why it matters
 
 Observing a fast process depends partly on which signals an instrument must hide. This approach makes more spatial scales available together. Its value is a fuller structural measurement of one state, with spatial coverage, temporal resolution and a sequence of measurements kept conceptually separate.
+
+
+----- 05-decisions-api-general-availability (ai) — source: https://openai.com/index/decisions-api -----
+
+## Русская версия
+
+В приложении с ИИ далеко не каждый запрос требует сочинения. Иногда нужно определить категорию документа, выбрать маршрут обращения или оценить признак по заранее заданной шкале. OpenAI 22 октября [объявила об общей доступности Decisions API](https://openai.com/index/decisions-api): интерфейса на базе GPT-6 Luna, рассчитанного именно на такие ограниченные вопросы. Вечерняя подборка обращается к этому анонсу как к обновлению последних дней, а не запуску, случившемуся сегодня.
+
+Разработчик задаёт вопрос, контекст и допустимые ответы. На вход можно передавать текст, изображения и структурированные данные. Здесь полезно представить развилку в программе: вместо свободного объяснения ей нужен результат, с которым следующий участок кода умеет работать. Выбор следующего действия ещё не означает, что действие исполнено: это остаётся задачей приложения, которое получило ответ.
+
+Поддерживаются три вида результата. Predicate оценивает вероятность условия числом от нуля до единицы. Choice выбирает один из предложенных вариантов и возвращает сведения о вероятностях и уверенности. Score оценивает вход по упорядоченным уровням рубрики. Эти формы отвечают разным вопросам: «есть ли признак», «какой вариант выбрать» и «насколько выражено свойство». От того, насколько внятно вы определили уровни и варианты, зависит, будет ли ответ полезен в вашем процессе.
+
+После публичной беты появились нативный JSON на входе, изображения в инструкциях к вопросу и до 400 вопросов в одном запросе — вдвое больше прежнего лимита. Также объявлены кеширование повторяемого контекста и обработка в регионах США и ЕС. Для голосовых приложений добавлена интеграция с GPT-Live: результат решения может помогать выбирать дальнейшую реакцию во время разговора. Это описание возможностей поставщика, а не проведённый редакцией тест сервиса.
+
+Компания заявляет ускорение до десяти раз относительно GPT-6 Luna через Responses API. Ключевые слова здесь — «до» и конкретное сравнение интерфейсов. Такая цифра не обещает десятикратного ускорения вашего приложения: в нём есть другие этапы, а ошибки классификации тоже имеют цену. Практический смысл отдельного интерфейса стоит проверять на знакомых примерах, включая неоднозначные случаи, для которых предусмотрена передача человеку.
+
+### Почему это важно
+
+Анонс показывает понятное направление развития прикладного ИИ: небольшое решение становится самостоятельной частью системы. Но узкий формат ответа не превращает вероятностную оценку в установленный факт. Для читателя, который строит такой процесс, полезный вопрос звучит просто: какой именно выбор можно доверить модели, как заметить ошибку и что произойдёт после неё? Ответы на эти вопросы говорят о качестве приложения больше, чем скорость одного вызова.
+
+## English version
+
+Many requests inside an AI application do not need an essay. They need a document category, a destination for a support request, or a rating against a predefined scale. On October 22, OpenAI [announced general availability of the Decisions API](https://openai.com/index/decisions-api), a dedicated interface built with GPT-6 Luna for questions with bounded answers. This evening's selection treats it as an update from the past few days, rather than a launch that happened today.
+
+Developers supply a question, its permitted answers and the context needed to decide. Inputs can include text, images and structured data. Think of a branch in a program: the next piece of code needs a usable result rather than an open-ended explanation. Selecting an action does not itself execute that action. The application receiving the answer still determines what happens next, which is an essential distinction when evaluating an agent workflow.
+
+There are three result types. A predicate estimates the probability that a condition holds, on a scale from zero to one. A choice selects one of the supplied options and includes probability and confidence information. A score evaluates an input against ordered rubric levels. These correspond to different questions: whether a feature is present, which option fits, and how strongly something is expressed. Their usefulness depends partly on whether the developer has defined meaningful categories and levels in the first place.
+
+Changes since the public beta include native JSON input, images in question instructions and up to 400 questions per request, double the previous limit. OpenAI also announced caching for reused context and inference residency in the United States and European Union. A native GPT-Live integration supports decisions during voice conversations, where a result can help select the application's next response. These are the supplier's descriptions; Frontier Wire has not run a performance evaluation of the service.
+
+OpenAI claims speeds up to ten times faster than using GPT-6 Luna through the Responses API. Both the qualification and the comparison matter. That does not promise a tenfold improvement for an entire application, whose other stages still take time and whose classification errors still carry consequences. A useful evaluation would examine familiar examples alongside ambiguous cases that should reach a reviewer, rather than considering response time alone.
+
+### Why it matters
+
+The announcement makes a practical direction visible: a small decision can become a distinct component of an AI system. A narrow output format, however, does not turn a probabilistic judgement into an established fact. For someone building that system, the useful questions are which choice the model should make, how an error becomes visible and what follows from it. Those answers say more about application quality than the speed of an individual call.
+
+
+----- 06-frontier-training-containment-update (ai) — source: https://openai.com/index/securing-our-frontier-model-training-environment -----
+
+## Русская версия
+
+В сентябре Frontier Wire писал об остановке обучения наиболее мощных моделей OpenAI. Теперь появилось предметное продолжение: в [отчёте от 23 октября](https://openai.com/index/securing-our-frontier-model-training-environment) компания описала изменения защиты и сообщила, что обучение с подкреплением и внутренние вычисления передовых моделей возобновились 1 октября. Это новая опубликованная информация о принятых мерах, а не новая пауза или возобновление именно в день выпуска.
+
+Речь идёт об исследовательской среде обучения и оценки, а не о том, что каждый пользовательский чат получил доступ к экспериментальной инфраструктуре. В такой среде проверяют в том числе модели, которые ещё не прошли весь путь подготовки к выпуску. Поэтому ограничение доступа должно сохраняться даже тогда, когда сам агент пытается его обойти. Уговор модели вести себя правильно и техническая граница разрешений решают разные задачи.
+
+OpenAI описывает сочетание изолированных сред, лёгких виртуальных машин, мониторинга и внешних сетевых ограничений. Для обучения навыкам работы с вебом используется автономный набор индексированного и кешированного содержания. Идея многоуровневой защиты проста: ошибка одного механизма не должна автоматически открывать всё остальное. При этом компания прямо признаёт, что полностью отключить всю инфраструктуру от внешних связей сейчас невозможно: эксперименты нужно запускать и наблюдать.
+
+Отдельная часть отчёта посвящена проверке самой защиты. Командам модельных агентов поручали искать нарушения границ в специально подготовленных копиях исследовательской инфраструктуры. В некоторых тестах исходили из того, что внутренний барьер уже преодолён, чтобы отдельно проверить окружающий периметр. Такой подход отвечает конкретному инженерному вопросу: что удержит систему, если предыдущий уровень подвёл? Он не означает, что все эти условия возникли в обычном пользовательском продукте.
+
+Важна и оговорка о методике. Участникам тестов давали исходный код, конфигурации и сведения о возможных слабостях. Поэтому результаты нельзя читать как чистое измерение того, что модель самостоятельно обнаружит без подсказок. По словам OpenAI, находки привели к исправлениям, усилению ограничений и дальнейшим проверкам. Оценка достаточности мер принадлежит самой компании; опубликованный отчёт не равен независимому подтверждению отсутствия будущих уязвимостей.
+
+### Почему это важно
+
+Появились детали того, как лаборатория обосновывает возвращение к работе после обнаруженного нарушения границ. Это полезнее общего обещания усилить безопасность, но требует внимательного чтения: какие нагрузки возобновлены, что именно проверяли и каких выводов опыт не позволяет сделать. Для оценки агентных систем главный вопрос остаётся техническим: сможет ли инфраструктура удержать запрет, если модель найдёт неожиданный способ действовать? Отчёт даёт материал для такого разговора, а не окончательный ответ на него.
+
+## English version
+
+In September, Frontier Wire covered OpenAI's pause in training its most capable models. There is now a substantive follow-up. In an [October 23 report](https://openai.com/index/securing-our-frontier-model-training-environment), the company described stronger containment and said frontier reinforcement-learning training and internal inference had resumed on October 1. The news is the newly published account of those measures, rather than a fresh pause or a restart occurring on the date of this edition.
+
+The report concerns research environments for training and evaluation. It does not mean ordinary customer conversations have been given access to experimental infrastructure. Research can involve models that have not completed the preparation required for release. Consequently, a boundary must keep working even when an agent tries to circumvent it. Asking a model to behave appropriately and technically limiting the resources it can reach address different parts of that problem.
+
+OpenAI describes overlapping sandboxes, lightweight virtual machines, monitoring and surrounding network restrictions. Web-related skills are trained using an offline collection of indexed and cached content. The reasoning behind layered defenses is straightforward: failure of one mechanism should not automatically open everything else. The company also acknowledges that completely disconnecting the whole infrastructure is not currently feasible, because experiments require external connections to operate and be monitored.
+
+A substantial part of the report concerns testing those defenses. Teams of model agents were assigned to look for boundary failures in purpose-built copies of the research infrastructure. Some experiments assumed an inner barrier had already failed, allowing the surrounding perimeter to be tested separately. That addresses a specific engineering question: what still holds when the preceding layer breaks? It does not establish that all the assumed conditions occurred in a normal customer-facing product.
+
+The methodology carries another important qualification. Test agents received source code, configuration details and information about potential weaknesses. Their findings therefore cannot be read as a clean measurement of what a model would discover unaided. OpenAI says the results led to repairs, tighter restrictions and continuing checks. The judgement that the strengthened controls were sufficient belongs to the company. Its public account is not independent confirmation that future vulnerabilities have been eliminated.
+
+### Why it matters
+
+There is now more detail about how a laboratory justified returning to work after a containment failure. That is more useful than a general promise to improve security, but it still requires careful questions: which workloads resumed, which conditions were tested and which conclusions the experiments cannot support. For agent systems, the central technical question remains whether infrastructure can enforce a prohibition when a model finds an unexpected route around it. The report supplies material for that discussion rather than a final answer.
+
+
+----- 07-habitat-storage-multitenancy (tech) — source: https://openai.com/index/scaling-storage-one-billion-users-part-two -----
+
+## Русская версия
+
+Хранилище можно разделить между многими командами, но тогда особенно прожорливый сосед способен испортить жизнь остальным. Можно выдать каждому собственную площадку, но её придётся отдельно рассчитывать и обслуживать. OpenAI 23 октября опубликовала [вторую часть истории Habitat](https://openai.com/index/scaling-storage-one-billion-users-part-two), где объясняет возвращение к общим контейнерам Azure Cosmos DB после периода разделения нагрузок. Это продолжение сентябрьского материала Frontier Wire о платформе, с новыми подробностями устройства баз данных.
+
+Контейнер здесь — единица организации данных и выделенной пропускной способности базы, а не пользовательская папка. При совместной работе разные задачи конкурируют за реальные ресурсы под логическим разделением. Поэтому аккуратная граница в интерфейсе ещё не гарантирует, что тяжёлая фоновая операция не помешает интерактивному запросу. Именно это имеют в виду под «шумным соседом»: проблема касается распределения мощности, а не смешивания пользовательских документов.
+
+Выделение отдельных контейнеров уменьшило область возможного сбоя, но принесло другой счёт. Каждой продуктовой команде пришлось планировать собственные потребности, а рост новой функции перестал сглаживаться общей нагрузкой. Резервировать достаточно мощности для неожиданного всплеска и одновременно не держать лишние ресурсы — разные цели. Рассказ интересен тем, что авторы не представляют изоляцию универсальным ответом: организационные издержки тоже влияют на надёжность.
+
+Возврат к совместному размещению, по описанию инженеров, сопровождался ограничением наиболее горячих ключей и приоритетами запросов. Фоновую работу можно притормозить раньше, чем операции, которых ждёт человек. Это меняет смысл общей базы: она становится управляемой очередью потребностей с разной срочностью, а не обещанием всем одинаковой скорости при любом поведении соседей. Перенос данных между вариантами размещения остаётся отдельной частью платформы.
+
+Авторы также разбирают задержки чтения. Близость данных, кеширование и сокращение накладных расходов сервиса работают вместе; выводить всё улучшение из одного языка программирования было бы неверно. В частности, обновление кешей связано с потоком изменений базы. Полезно различать доступный рядом сохранённый объект и запрос, которому всё-таки нужно идти в основное хранилище: ускорение обычного случая не делает все обращения одинаковыми.
+
+### Почему это важно
+
+Разбор даёт практическую картину решений, которые редко видны за ответом ИИ-приложения. Это рассказ самих операторов системы, а не независимый сравнительный тест облачных баз. Его стоит читать как набор компромиссов: кому принадлежит планирование, какая работа получает приоритет и как система ведёт себя при перегрузке. Для собственной инфраструктуры полезнее перенести эти вопросы, чем копировать название базы или архитектуру компании другого масштаба. Удобство продукта зависит и от таких приземлённых решений.
+
+## English version
+
+A shared database lets many teams use the same capacity, but an unusually demanding neighbor can disrupt everyone else. Give each team its own allocation and someone must plan and operate each one separately. On October 23, OpenAI published [the second installment of its Habitat engineering account](https://openai.com/index/scaling-storage-one-billion-users-part-two), explaining a return to shared Azure Cosmos DB containers after a period of separating workloads. It adds database-level detail to the platform story Frontier Wire covered in September.
+
+A container here is a unit of database organization and allocated throughput, rather than a folder belonging to a user. Different workloads can compete for physical resources beneath their logical boundaries. A tidy separation in an interface therefore does not guarantee that a heavy background operation cannot affect an interactive request. That is the noisy-neighbor problem in this account: contention for capacity, rather than a claim that users' documents are mixed together.
+
+Separate containers reduced the potential scope of failures but introduced another bill. Product teams had to plan their own requirements, and the growth of a new feature no longer disappeared into the aggregate load. Keeping enough spare capacity for an unexpected surge and avoiding excessive reservations are different objectives. The account is useful because it does not treat isolation as a universal answer. The organizational work required to maintain it also shapes operational reliability.
+
+According to the engineers, the move back to sharing involved throttling the hottest keys and assigning requests different priorities. Background processing can be slowed before operations that a person is actively waiting for. A shared database then becomes a managed allocation among demands of differing urgency, rather than a promise of identical performance regardless of neighboring behavior. Moving data between placements remains a separate capability of the platform rather than something this arrangement makes unnecessary.
+
+The authors also examine read latency. Locating data nearby, caching and reducing service overhead work together; crediting the result entirely to a programming-language change would miss that combination. Cache updates are tied to a feed of database changes. It is helpful to distinguish a nearby cached object from a request that still needs the underlying store. Improving the typical path does not make every request equally fast or eliminate the consequences of distance.
+
+### Why it matters
+
+The account describes decisions that sit behind an AI application's visible answer. It comes from the system's operators and is not an independent comparison of cloud databases. Its value is in the tradeoffs: who owns capacity planning, which work gets priority and how overload is handled. For another organization, those questions are more transferable than a database brand or an architecture built for a different scale. Product usability depends on this ordinary infrastructure work as well as on the model generating a response.
 
 
 ===== EDITION 42 — 2026-10-24 =====

@@ -15,3 +15,15 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## A single X-ray pulse measures plasma structure across multiple scales / Один рентгеновский импульс помогает измерить плазму сразу на нескольких масштабах
 rubric: science · source: https://www.nifs.ac.jp/news/research/261019.html
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-25/04-single-shot-plasma-scattering.md
+
+## Decisions API leaves beta with answers from a bounded set / Decisions API выходит из беты с ответами из заданного набора
+rubric: ai · source: https://openai.com/index/decisions-api
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-25/05-decisions-api-general-availability.md
+
+## OpenAI details stronger model containment after its training pause / OpenAI рассказала, как усилила изоляцию моделей после паузы в обучении
+rubric: ai · source: https://openai.com/index/securing-our-frontier-model-training-environment
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-25/06-frontier-training-containment-update.md
+
+## Habitat returns to shared storage with stronger noisy-neighbor controls / Habitat возвращает общие базы с защитой от слишком шумных соседей
+rubric: tech · source: https://openai.com/index/scaling-storage-one-billion-users-part-two
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-25/07-habitat-storage-multitenancy.md

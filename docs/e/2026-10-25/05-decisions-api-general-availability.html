@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decisions API выходит из беты с ответами из заданного набора - frontier-wire</title>
+<meta name="description" content="OpenAI offers a dedicated interface for classification and next-step selection rather than long-form responses.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-25/05-decisions-api-general-availability.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Decisions API leaves beta with answers from a bounded set", "alternativeHeadline": "Decisions API выходит из беты с ответами из заданного набора", "datePublished": "2026-10-25", "inLanguage": ["ru", "en"], "isBasedOn": "https://openai.com/index/decisions-api", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-25/05-decisions-api-general-availability.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-25 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Decisions API выходит из беты с ответами из заданного набора</span><span class="lang-en">Decisions API leaves beta with answers from a bounded set</span></h1>
+  <p class="dek big"><span class="lang-ru">OpenAI предлагает отдельный интерфейс для классификации и выбора следующего шага, а не длинного ответа.</span><span class="lang-en">OpenAI offers a dedicated interface for classification and next-step selection rather than long-form responses.</span></p>
+
+  <div class="prose lang-ru"><p>В приложении с ИИ далеко не каждый запрос требует сочинения. Иногда нужно определить категорию документа, выбрать маршрут обращения или оценить признак по заранее заданной шкале. OpenAI 22 октября <a href="https://openai.com/index/decisions-api">объявила об общей доступности Decisions API</a>: интерфейса на базе GPT-6 Luna, рассчитанного именно на такие ограниченные вопросы. Вечерняя подборка обращается к этому анонсу как к обновлению последних дней, а не запуску, случившемуся сегодня.</p>
+<p>Разработчик задаёт вопрос, контекст и допустимые ответы. На вход можно передавать текст, изображения и структурированные данные. Здесь полезно представить развилку в программе: вместо свободного объяснения ей нужен результат, с которым следующий участок кода умеет работать. Выбор следующего действия ещё не означает, что действие исполнено: это остаётся задачей приложения, которое получило ответ.</p>
+<p>Поддерживаются три вида результата. Predicate оценивает вероятность условия числом от нуля до единицы. Choice выбирает один из предложенных вариантов и возвращает сведения о вероятностях и уверенности. Score оценивает вход по упорядоченным уровням рубрики. Эти формы отвечают разным вопросам: «есть ли признак», «какой вариант выбрать» и «насколько выражено свойство». От того, насколько внятно вы определили уровни и варианты, зависит, будет ли ответ полезен в вашем процессе.</p>
+<p>После публичной беты появились нативный JSON на входе, изображения в инструкциях к вопросу и до 400 вопросов в одном запросе — вдвое больше прежнего лимита. Также объявлены кеширование повторяемого контекста и обработка в регионах США и ЕС. Для голосовых приложений добавлена интеграция с GPT-Live: результат решения может помогать выбирать дальнейшую реакцию во время разговора. Это описание возможностей поставщика, а не проведённый редакцией тест сервиса.</p>
+<p>Компания заявляет ускорение до десяти раз относительно GPT-6 Luna через Responses API. Ключевые слова здесь — «до» и конкретное сравнение интерфейсов. Такая цифра не обещает десятикратного ускорения вашего приложения: в нём есть другие этапы, а ошибки классификации тоже имеют цену. Практический смысл отдельного интерфейса стоит проверять на знакомых примерах, включая неоднозначные случаи, для которых предусмотрена передача человеку.</p>
+<h3>Почему это важно</h3>
+<p>Анонс показывает понятное направление развития прикладного ИИ: небольшое решение становится самостоятельной частью системы. Но узкий формат ответа не превращает вероятностную оценку в установленный факт. Для читателя, который строит такой процесс, полезный вопрос звучит просто: какой именно выбор можно доверить модели, как заметить ошибку и что произойдёт после неё? Ответы на эти вопросы говорят о качестве приложения больше, чем скорость одного вызова.</p></div>
+  <div class="prose lang-en"><p>Many requests inside an AI application do not need an essay. They need a document category, a destination for a support request, or a rating against a predefined scale. On October 22, OpenAI <a href="https://openai.com/index/decisions-api">announced general availability of the Decisions API</a>, a dedicated interface built with GPT-6 Luna for questions with bounded answers. This evening's selection treats it as an update from the past few days, rather than a launch that happened today.</p>
+<p>Developers supply a question, its permitted answers and the context needed to decide. Inputs can include text, images and structured data. Think of a branch in a program: the next piece of code needs a usable result rather than an open-ended explanation. Selecting an action does not itself execute that action. The application receiving the answer still determines what happens next, which is an essential distinction when evaluating an agent workflow.</p>
+<p>There are three result types. A predicate estimates the probability that a condition holds, on a scale from zero to one. A choice selects one of the supplied options and includes probability and confidence information. A score evaluates an input against ordered rubric levels. These correspond to different questions: whether a feature is present, which option fits, and how strongly something is expressed. Their usefulness depends partly on whether the developer has defined meaningful categories and levels in the first place.</p>
+<p>Changes since the public beta include native JSON input, images in question instructions and up to 400 questions per request, double the previous limit. OpenAI also announced caching for reused context and inference residency in the United States and European Union. A native GPT-Live integration supports decisions during voice conversations, where a result can help select the application's next response. These are the supplier's descriptions; Frontier Wire has not run a performance evaluation of the service.</p>
+<p>OpenAI claims speeds up to ten times faster than using GPT-6 Luna through the Responses API. Both the qualification and the comparison matter. That does not promise a tenfold improvement for an entire application, whose other stages still take time and whose classification errors still carry consequences. A useful evaluation would examine familiar examples alongside ambiguous cases that should reach a reviewer, rather than considering response time alone.</p>
+<h3>Why it matters</h3>
+<p>The announcement makes a practical direction visible: a small decision can become a distinct component of an AI system. A narrow output format, however, does not turn a probabilistic judgement into an established fact. For someone building that system, the useful questions are which choice the model should make, how an error becomes visible and what follows from it. Those answers say more about application quality than the speed of an individual call.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://openai.com/index/decisions-api">https://openai.com/index/decisions-api</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
