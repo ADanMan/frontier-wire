@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-26",
+  "slot": "evening",
+  "checked_at": "2026-10-26T16:07:48.461959+00:00",
+  "digest_sha256": "243200edc95abd41d47e8c4f2382dc1b2e1c10ecb843acaa11ddad170213e93e",
+  "articles": [
+    {
+      "path": "editions/2026/10-26/01-iphone-duo-repairability.md",
+      "sha256": "2a7ccedc8177c9b0102cd560c7c7fc8a453331d003edad9a33fbd52e91004ed6",
+      "source": "https://www.ifixit.com/News/119895/iphone-duo-teardown"
+    },
+    {
+      "path": "editions/2026/10-26/02-coral-reef-ecosystem-risk.md",
+      "sha256": "f352451f9dbd858e51e24b128d583c92e277201b6c84878262a407d2d2835500",
+      "source": "https://iucn.org/press-release/202610/virtually-all-coral-reef-ecosystems-face-high-risk-collapse-50-years-iucn-red"
+    },
+    {
+      "path": "editions/2026/10-26/03-cristal-deployment-tests.md",
+      "sha256": "b51f6f2973c3b0bb66fe60caa8fabb0e98dd4b4ed4ce8adc8a598d79a53e35db",
+      "source": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings"
+    },
+    {
+      "path": "editions/2026/10-26/04-pace-autumn-pigment-maps.md",
+      "sha256": "391da6abc056032cd21c72d8b9135f2a6119e6e946f0d5c356779b06a1c979fa",
+      "source": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites"
+    },
+    {
+      "path": "editions/2026/10-26/05-nasa-usda-earth-data.md",
+      "sha256": "52c226fb9e1a4b41ce58796dcd3b8a07967f6de9c3cf6d3a5d6d19c5fc1ff386",
+      "source": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture"
+    }
+  ]
+}

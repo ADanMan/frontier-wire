@@ -10,15 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №43 / Edition №43 — 2026-10-25** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-25/)
+**Выпуск №44 / Edition №44 — 2026-10-26** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-26/)
 
-- **[ИИ]** [Ai2 показал, как LitPivot связывает правку исследовательской идеи с выбором литературы](editions/2026/10-25/01-litpivot-literature-workflow.md)
-- **[Технологии]** [Cerebras объяснила, как раскладывает большую модель по цепочке вычислительных пластин](editions/2026/10-25/02-cerebras-model-pipeline.md)
-- **[Наука]** [Исследователи нашли включения, с которых начинается коррозия стали с добавкой титана](editions/2026/10-25/03-titanium-steel-pitting.md)
-- **[Наука]** [Один рентгеновский импульс помогает измерить плазму сразу на нескольких масштабах](editions/2026/10-25/04-single-shot-plasma-scattering.md)
-- **[ИИ]** [Decisions API выходит из беты с ответами из заданного набора](editions/2026/10-25/05-decisions-api-general-availability.md)
-- **[ИИ]** [OpenAI рассказала, как усилила изоляцию моделей после паузы в обучении](editions/2026/10-25/06-frontier-training-containment-update.md)
-- **[Технологии]** [Habitat возвращает общие базы с защитой от слишком шумных соседей](editions/2026/10-25/07-habitat-storage-multitenancy.md)
+- **[Технологии]** [Разбор iPhone Duo отделяет удобство ремонта от надёжности сгиба](editions/2026/10-26/01-iphone-duo-repairability.md)
+- **[Наука]** [Оценка IUCN показывает будущий риск для рифов, а не уже исчезнувшие 96 процентов](editions/2026/10-26/02-coral-reef-ecosystem-risk.md)
+- **[Технологии]** [CRISTAL раскрыл солнечные панели на земле перед серией наземных испытаний](editions/2026/10-26/03-cristal-deployment-tests.md)
+- **[Наука]** [PACE следит за осенними листьями по пигментам, а не только по красивому цвету](editions/2026/10-26/04-pace-autumn-pigment-maps.md)
+- **[Технологии]** [NASA и USDA расширяют сотрудничество по спутниковым данным для сельского хозяйства](editions/2026/10-26/05-nasa-usda-earth-data.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
