@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Сегодня четыре материала о том, что остаётся за внешне убедительным результатом. Perseverance измеряет пыль, которая не стряхивается, Cloudflare разбирает исправленное нарушение изоляции, а ThinkingBox связывает обучение с проверкой реальных изменений в базе. В ансамбле Granite смотрим, почему несколько прогнозов могут упростить выбор модели, но не отменяют измерения ошибок и качества интервалов. Даты и границы результатов сохраняем: свежее раскрытие не означает новый инцидент, повторяемость на стенде не становится гарантией, а узкий прогноз не обязательно точен.
+Сегодня восемь материалов о том, как прочитать результат вместе с его границами. Утренние темы — марсианская пыль, исправленный сбой Cloudflare, обучение ThinkingBox и прогнозы Granite — вечером дополняют рабочие задачи в ChatGPT, учёт климатической помощи, учебный квест Polar Peaks и тесты моделей на Trainium. В данных важны выборка и знаменатель, в обучении — то, что действительно усвоено, а в совместимости — точный смысл успешного теста. Сохраняем даты первоисточников и отделяем наблюдение от вывода, который ещё требует проверки.
 
 ## Editorial
 
-Today's four stories examine what remains behind an apparently convincing result. Perseverance measures dust that does not shake away, Cloudflare explains a repaired isolation failure, and ThinkingBox connects learning with checks of actual database changes. The Granite ensemble shows why combining forecasts can simplify model selection while leaving error and interval evaluation essential. Dates and limits stay explicit: a fresh disclosure is not a new incident, benchmark repeatability is not a guarantee, and a narrow forecast is not necessarily accurate.
+Today's eight stories examine how to read a result together with its limits. The morning's Mars dust, repaired Cloudflare incident, ThinkingBox training and Granite forecasts are joined by ChatGPT work activities, climate-aid accounting, the Polar Peaks lesson and Trainium model tests. Samples and denominators matter in data, learning outcomes in education, and the meaning of a successful test in compatibility. Original source dates stay explicit, with observations distinguished from conclusions that still require additional evidence.
 
 
 ----- 01-perseverance-ultrafine-dust (science) — source: https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/ -----
@@ -151,6 +151,146 @@ Convenience has a resource cost. The recipe loads four checkpoints, increasing i
 ### Why it matters
 
 The ensemble provides a reasonable starting hypothesis when the best architecture is unknown in advance. Its value is easier to judge against a strong individual model on identical historical forecast windows. Central-prediction error, interval quality and resource requirements are separate properties. A simple combination can make model selection more convenient, while leaving the essential task intact: checking whether its forecasts help with the specific decisions being made and which kinds of error matter most in that setting.
+
+
+----- 05-signals-work-activities (economy) — source: https://openai.com/index/chatgpt-expanding-world-of-work -----
+
+## Русская версия
+
+Какие рабочие задачи люди приносят в ChatGPT? OpenAI 26 октября [выпустила новые данные Signals](https://openai.com/index/chatgpt-expanding-world-of-work), связывающие использование сервиса со 165 категориями деятельности почти в ста странах. Данные разбиты по кварталам от начала 2025 года до третьего квартала 2026-го. Это возможность изучать структуру обращений к одному продукту, а не готовый ответ на вопрос, сколько рабочих мест ИИ создал или заменил за тот же период.
+
+Для классификации используется O*NET — система, которая объединяет задачи разных профессий в более общие виды работы. Так подготовку учебного материала, программирование или анализ деловых данных можно сравнивать в единой рамке. Однако категория сообщения не равна профессии отправителя. Один человек может обращаться за помощью с разными задачами, а похожий запрос могут делать представители разных занятий. Переносить таблицу видов деятельности прямо в список исчезающих специальностей означало бы сменить предмет измерения.
+
+Набор касается рабочих сообщений на индивидуальных тарифах ChatGPT. Корпоративные сообщения и использование Codex в него не входят. Поэтому статистика не описывает всю работу с ИИ внутри организаций и тем более все используемые ими продукты. Увидеть рост доли определённой категории — значит увидеть изменение состава наблюдаемых сообщений. Само по себе оно ещё не показывает, стали ли люди быстрее, улучшилось ли качество результата или изменилось число занятых в соответствующей сфере.
+
+Авторы приводят пример: среди 74 стран, наблюдаемых во всех кварталах, средняя доля десяти наиболее распространённых видов деятельности снизилась с 56,0 до 51,1 процента. Это сравнение относится к классифицированным рабочим сообщениям и конкретной группе стран. Оно говорит о меньшей концентрации использования, но не превращается в показатель разнообразия всей экономики. Причины различий между странами ещё предстоит исследовать с дополнительными данными, а не выбирать по одному красивому графику.
+
+OpenAI сообщает, что публикует агрегированные показатели, исключает малые группы и добавляет статистический шум для защиты сообщений; классификация выполняется автоматизированно. Это описание процедуры поставщика данных. В статье нет отдельных разговоров или личных примеров пользователей. Для исследователя также важна [страница данных и методики](https://openai.com/signals/data-download/): сравнение с другими источниками требует понимать определения, границы выборки и изменения классификации, а не только скачать таблицу с удобными названиями колонок.
+
+### Почему это важно
+
+Новый набор полезен как наблюдение за тем, какую работу люди поручают помощнику. Он может помогать формулировать гипотезы о различиях между странами и изменении практик. Но данные использования, результаты труда и состояние рынка труда — три разных слоя. Чем яснее эта граница, тем легче обсуждать влияние ИИ без поспешного перехода от числа сообщений к выводу о судьбе профессии или доказанному экономическому эффекту.
+
+## English version
+
+Which work activities do people bring to ChatGPT? On October 26, OpenAI [released new Signals data](https://openai.com/index/chatgpt-expanding-world-of-work) connecting use of the service with 165 activity categories across nearly a hundred countries. Quarterly observations run from the beginning of 2025 through the third quarter of 2026. The release offers a way to study requests made to one product, rather than an immediate answer to how many jobs AI created or displaced during the same period.
+
+The classification draws on O*NET, which groups occupation-specific tasks into broader work activities. Preparing instructional materials, programming and analyzing business data can therefore be compared within a common framework. A message category is not the sender's occupation, however. One person can seek help with many activities, while similar requests can come from people doing different jobs. Converting the activity table directly into a list of disappearing professions would change what is being measured without supplying the evidence needed for that change.
+
+The dataset covers work-related messages on individual ChatGPT plans. It excludes enterprise messages and Codex use. Consequently, it does not describe all AI activity inside organizations, much less every product they use. An increasing share for one category indicates a change in the composition of observed messages. By itself, it does not establish that people work faster, produce better results or experience a change in employment in the relevant sector. Those are separate outcomes requiring additional observations and analysis.
+
+The authors provide one example: across 74 countries observed in every quarter, the average share of the ten most common activities fell from 56.0 to 51.1 percent. The comparison concerns classified work messages within that particular set of countries. It indicates less concentrated use, rather than measuring the diversity of an entire economy. Explaining country differences will require further research and other data, instead of selecting a convenient causal story from the appearance of one chart.
+
+OpenAI says it publishes aggregate statistics, withholds small-group results and adds statistical noise to protect messages, with classification performed automatically. That is the data provider's account of its procedure. No individual conversations or personal user examples are reproduced here. The accompanying [data and methodology page](https://openai.com/signals/data-download/) is also relevant: comparisons with other sources require attention to definitions, sample boundaries and classification changes, rather than merely downloading a table with familiar-looking column names and treating all its measures as interchangeable.
+
+### Why it matters
+
+The release is useful evidence about the work people ask an assistant to help with. It can support hypotheses about differences between countries and changing practices. Product usage, work outcomes and labor-market conditions nevertheless remain distinct layers. Keeping them separate makes it easier to discuss AI's economic role without jumping from message counts to a conclusion about a profession's future or claiming an economic effect that this dataset alone does not demonstrate.
+
+
+----- 06-climate-aid-accounting (economy) — source: https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change -----
+
+## Русская версия
+
+Деньги могут одновременно строить больницу и улучшать её энергоэффективность. Какую часть такого проекта считать климатической помощью? В [разборе Our World in Data от 26 октября](https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change) Ханна Ритчи и Пабло Арриагада исследуют этот вопрос на данных OECD Rio Markers. Их работа полезна не только итоговой суммой, но и объяснением того, почему метка в базе не отвечает автоматически на вопрос о новой сумме, выделенной именно ради климата.
+
+Авторы рассматривают обязательства по двусторонней официальной помощи развитию за 2024 год. Из примерно 210 миллиардов долларов около 145 миллиардов относятся к конкретным проектам. Климатически связанными отмечены проекты примерно на 50 миллиардов. Получается около трети проектной части, но меньшая доля всей двусторонней помощи. Это не конкурирующие оценки одной и той же величины: у них разные знаменатели. Кроме того, обязательство финансирования не следует незаметно переименовывать в уже произведённый расход.
+
+Разметка различает смягчение изменения климата и адаптацию к его последствиям; проект может попадать сразу в обе группы. Есть и другая ось: климат бывает основной или вторичной целью. По разбору, больше половины климатически связанного финансирования приходится на проекты со вторичной целью. В счёт включается вся стоимость такого проекта, а не отдельно рассчитанная доля, которую можно приписать климатическому эффекту. Поэтому сумма помеченных проектов не равна дополнительным затратам только на климат.
+
+Если оставить лишь проекты с основной климатической целью, доля в двусторонней проектной помощи снижается с 34 до 13 процентов. Но и это не раскрывает окончательно, состоялся бы проект без климатической повестки. Водоснабжение и энергетика решают задачи развития сами по себе. Система категорий помогает увидеть структуру целей, однако не создаёт наблюдение за альтернативным миром, в котором донор принял другое решение. Для такого вывода нужны исследования истории конкретных программ и бюджетных изменений.
+
+Авторы разделяют два риска: вытеснение других задач климатическими проектами и простое переобозначение прежней помощи без новых денег. Эти процессы могут сосуществовать, но представленная статистика не определяет их точные размеры. Было бы ошибкой превратить её в доказательство, что конкретная программа здравоохранения уже потеряла средства из-за климата. Столь же неверно считать любую климатическую метку подтверждением, что донор увеличил общий объём поддержки, а не изменил описание существующего проекта.
+
+### Почему это важно
+
+Спор о приоритетах помощи становится содержательнее, когда участники сначала договариваются, что считают. Проектная сумма, основная цель, дополнительное финансирование и реально перечисленные деньги — разные показатели. Разбор показывает, какие вопросы можно задать имеющейся базе и где требуется более подробная проверка. Так числовой аргумент помогает понять бюджетный выбор, а не только подкрепляет заранее выбранную позицию в споре о климате и развитии.
+
+## English version
+
+Funding can build a hospital while also improving its energy efficiency. How much of that project should count as climate aid? In an [October 26 Our World in Data analysis](https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change), Hannah Ritchie and Pablo Arriagada examine the question using OECD Rio Markers data. The value of the analysis lies partly in explaining why a database label does not automatically identify new money provided specifically because of climate change, even when the headline total appears clear.
+
+The authors examine commitments of bilateral official development assistance in 2024. Of roughly 210 billion dollars, about 145 billion relates to specific projects. Projects worth approximately 50 billion are tagged as climate-related. That is around a third of the project-specific component, but a smaller share of all bilateral aid. These are different denominators, rather than rival estimates of an identical quantity. A funding commitment should also not silently become an expenditure already made, because the two describe different stages of financing.
+
+The tags distinguish climate mitigation from adaptation, and a project can address both. A second distinction concerns whether climate is the principal or a secondary objective. According to the analysis, more than half of climate-related funding concerns projects with a secondary climate objective. The full project value is counted, rather than a separately calculated fraction attributable to its climate benefit. The sum of tagged projects therefore does not equal additional spending devoted solely to climate action or an estimate of each project's marginal climate cost.
+
+Counting only projects with a principal climate objective lowers the share of bilateral project aid from 34 to 13 percent. Even that does not settle whether a project would have existed without climate considerations. Water supply and energy infrastructure also meet development needs in their own right. Categories help describe stated objectives but do not provide an observation of an alternative world in which a donor chose differently. Establishing that would require examining program histories and changes in budget allocation more closely.
+
+The authors separate two concerns: climate projects displacing other priorities, and existing assistance being relabeled without new money. Both can occur, but the presented statistics do not establish their exact sizes. Turning the dataset into proof that a particular health program has already lost funding because of climate priorities would overstate the evidence. Treating every climate label as proof that a donor increased its overall contribution would be equally unwarranted, since a label can change without the total budget changing.
+
+### Why it matters
+
+Debate about aid priorities becomes more useful when participants first establish what is being counted. Project value, principal objective, additional financing and money actually disbursed are separate measures. The analysis identifies questions that the available data can address and others requiring closer investigation. That makes a numerical argument useful for understanding budget choices, rather than merely giving a precise-looking statistic to a position already chosen in the debate over climate and development.
+
+
+----- 07-polar-peaks-ai-literacy (culture) — source: https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/ -----
+
+## Русская версия
+
+Знакомство с ИИ можно начать с вопроса о том, как проверить модель, а не только как задать ей запрос. Google Research и Stanford Accelerator for Learning 26 октября [представили Polar Peaks](https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/) — третий интерактивный урок серии AI Quests для детей 11–14 лет. В нём участник действует как исследователь, работающий с картой нейронных связей. Это образовательный сценарий, вдохновлённый наукой, а не объявление о завершённой карте человеческого мозга.
+
+Сюжет связан с потерей памяти игрового персонажа. Вместе с виртуальными наставниками школьники выполняют задания по сканированию и картированию нейронов, очистке данных и тестированию модели. Такое построение меняет фокус: результат зависит не только от того, что система выдала, но и от подготовки входных данных и последующей проверки. При этом сообщение описывает замысел создателей. Оно ещё не показывает, насколько успешно каждый ученик усвоит эти идеи в реальном классе.
+
+Основой сюжета стала коннектомика — исследование связей в нервной системе. Авторы связывают урок с многолетней работой Google и картированием мозга плодовой мушки. Разные масштабы здесь стоит удерживать отдельно: реальный научный проект служит источником материала, а игровая задача помогает познакомиться с подходом. Выполнение квеста не становится профессиональным анализом нейронных данных и не подтверждает клинический вывод о памяти конкретного человека. Переход от учебного примера к исследованию требует других условий.
+
+Google сообщает о более чем четырёхстах тысячах завершённых квестов серии и локализации на десять языков. Это показатель выполнения заданий, а не число уникальных учеников, доказанный прирост знаний или результат независимого испытания качества обучения. Нельзя автоматически приписать весь накопленный объём новому Polar Peaks: он относится к серии, в которой раньше появились темы прогнозирования наводнений и обнаружения заболеваний глаз. Важны единица счёта и круг уроков, к которому относится число.
+
+Для преподавателей одновременно объявлены обучающие модули. В момент сообщения доступны модули для первых двух квестов; сопровождение третьего обещано в следующем месяце. Значит, не все материалы учителя уже выпущены одновременно с самой игрой. Школьному использованию также нужен педагогический контекст: какие вопросы обсудить после прохождения и как связать увиденное с программой. Это вывод о способе читать анонс, а не дополнительная функция, которую редакция приписывает продукту без проверки.
+
+### Почему это важно
+
+Задания по очистке данных и проверке результата дают более предметный вход в грамотность об ИИ, чем одно знакомство с интерфейсом. Полезно, что человек остаётся участником проверки. Дальнейшая оценка такого урока должна касаться того, какие понятия дети понимают и могут применить после игры. Популярность и привлекательный научный сюжет помогают заинтересовать, но образовательный результат требует отдельного наблюдения и обсуждения с учителями.
+
+## English version
+
+An introduction to AI can begin with how to test a model as well as how to prompt one. On October 26, Google Research and the Stanford Accelerator for Learning [introduced Polar Peaks](https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/), the third interactive lesson in AI Quests for students aged eleven to fourteen. Participants take the role of researchers working with neural connections. It is a science-inspired educational scenario, rather than an announcement that a complete human-brain map has been produced.
+
+The story concerns a game character's memory loss. With virtual mentors, students undertake neuron-scanning and mapping tasks, data cleaning and model testing. This places attention on more than the output alone: preparing inputs and checking results also matter. The announcement nevertheless describes the creators' educational design. It does not establish how successfully every learner will understand those ideas in a real classroom, where prior knowledge, teacher support and the surrounding discussion can influence what students take away.
+
+The setting draws on connectomics, the study of connections in nervous systems. The authors relate it to Google's long-running research and work mapping the fruit-fly brain. These scales should remain distinct. An actual scientific project supplies inspiration, while a game introduces an approach. Completing the quest is not equivalent to professional analysis of neural data or a clinical finding about an individual's memory. Moving from an educational example to research requires different evidence, expertise and conditions than the scenario provides.
+
+Google reports more than four hundred thousand completed quests across the series and localization into ten languages. Completions are not the same as unique students, measured learning gains or an independent assessment of educational effectiveness. Nor should the cumulative total be assigned entirely to the newly introduced Polar Peaks. The series already contained quests about flood forecasting and eye-disease detection. The unit being counted and the set of lessons covered by a statistic both matter when interpreting its scale.
+
+Teacher-training modules are being released alongside the initiative. At the time of the announcement, modules for the first two quests were accessible, while the third quest's module was expected the following month. Not every teacher resource therefore arrived at the same time as the new game. Classroom use also involves pedagogical context: what to discuss afterward and how to connect the activity to the curriculum. That is an implication for reading the announcement, rather than an additional product feature independently verified by Frontier Wire.
+
+### Why it matters
+
+Data-cleaning and testing tasks offer a more concrete introduction to AI literacy than interface familiarity alone. Keeping people involved in verification is a useful part of that framing. Evaluating the lesson's educational value will require examining which ideas learners understand and can use afterward. Popularity and an appealing scientific story may generate interest, while the learning outcome still needs its own observation and discussion with teachers rather than being inferred from the existence of a game.
+
+
+----- 08-trainium-model-support-tests (tech) — source: https://huggingface.co/blog/torch-neuronx-model-support -----
+
+## Русская версия
+
+После анонса нового backend возникает практический вопрос: какие модели действительно удалось запустить в проверенной конфигурации? В [материале Hugging Face от 23 октября](https://huggingface.co/blog/torch-neuronx-model-support) описана публичная таблица совместимости Transformers с AWS Trainium через torch-neuronx. Это продолжение истории TorchNeuron, о которой Frontier Wire писал 20 октября. Новое здесь — результаты конкретных запусков, их версии и воспроизводимые скрипты, а не повторное объявление самого вычислительного backend.
+
+В интерфейсе можно искать модель и выбирать версии компилятора Neuron и библиотеки Transformers. Строка показывает исход проверки, число ядер, время запуска с учётом компиляции и пиковое потребление памяти устройства. Наличие модели в популярных списках не означает, что её обязательно проверили. Для пропущенных позиций может быть указана причина: недостаточный приоритет и реальная несовместимость — разные ситуации. Поэтому пустое место или отсутствие успешного результата нельзя читать как один универсальный диагноз.
+
+Тест на момент публикации ограничен моделями Transformers для генерации текста и преобразования изображения с текстом в текст. Проверяются варианты, помещающиеся на четырёх устройствах Trainium2, максимум шестнадцати ядрах. Другие задачи и библиотеки обозначены как планы расширения. Такая граница важна: имя общей платформы не превращает выборку испытанных конфигураций в полный каталог возможностей любого ускорителя или любой модели, которую можно найти в Hub. Список имеет заявленную область покрытия.
+
+Сам запуск генерирует тридцать два токена и проверяет результат. На одном ядре токены сравниваются с выполнением того же checkpoint на CPU. При распределённом запуске небольшая модель-судья оценивает связность английского текста. Эти два критерия не одинаковы: проверка связности не доказывает полное численное совпадение и не измеряет качество решения произвольной пользовательской задачи. Авторы отдельно говорят, что PASS ничего не утверждает о пропускной способности или длинных продолжениях.
+
+Результаты хранятся в публичном наборе данных вместе с ошибками, версиями компонентов и использованным скриптом. Это позволяет изучать конкретную конфигурацию, а не полагаться на устное обещание поддержки. Время первого запуска включает компиляцию, поэтому его также нельзя напрямую выдавать за скорость обычного запроса после прогрева. Редакция читала описание методики, но не арендовала Trainium, не запускала модели и не воспроизводила опубликованные строки независимо на собственном оборудовании.
+
+### Почему это важно
+
+Таблица полезна как проверяемая отправная точка перед переносом нагрузки. Она уточняет, что именно запускали и по какому признаку сочли результат успешным. Для практического решения останутся отдельные вопросы: нужная длина контекста, корректность на своих данных, скорость и стоимость. Хороший каталог совместимости помогает поставить эти проверки точнее, но не заменяет их словом PASS и не обещает одинакового поведения после смены версии стека.
+
+## English version
+
+A backend announcement leaves a practical question: which models have actually run in a tested configuration? A [Hugging Face article published October 23](https://huggingface.co/blog/torch-neuronx-model-support) describes a public support table for Transformers models on AWS Trainium through torch-neuronx. This follows the TorchNeuron introduction Frontier Wire covered on October 20. The new development is a collection of specific outcomes, versions and reproducible scripts, rather than another announcement of the backend itself or an assumption that every Hub model already works.
+
+The interface lets readers search for a model and choose Neuron compiler and Transformers versions. Each row reports the outcome, core count, wall time including compilation and peak device memory. Appearing in a popularity ranking does not establish that a model has been tested. Omitted entries can have different reasons, including lack of prioritization or actual incompatibility. An absent result should therefore not be interpreted as one universal failure diagnosis, especially without checking the explanation and the version combination being displayed.
+
+At publication, coverage is limited to Transformers text-generation and image-text-to-text models. Tested configurations fit on four Trainium2 devices, or at most sixteen cores. Other tasks and libraries are described as possible extensions. Those boundaries matter: a platform's general name does not turn a selected set of runs into an exhaustive catalogue of every accelerator configuration or model available on the Hub. The table has an explicit coverage area that readers need to preserve when discussing what its results imply.
+
+The test generates thirty-two tokens and checks them. On a single core, tokens are compared with a CPU execution of the same checkpoint. For sharded models, a small judge model checks whether the text is fluent English. These are different criteria. Fluency does not demonstrate complete numerical agreement, and neither procedure establishes performance on every user task. The authors explicitly state that PASS makes no claim about throughput or longer generations, even if the short demonstration produces readable output.
+
+Results are stored in a public dataset together with errors, component versions and the script used. That makes a particular configuration inspectable instead of leaving support as an informal promise. First-run wall time includes compilation, so it should not be presented directly as the speed of an ordinary request after warm-up. Frontier Wire has read the methodology account but has not rented Trainium hardware, run the models or independently reproduced the published rows on its own infrastructure.
+
+### Why it matters
+
+The table offers an evidence-based starting point before moving a workload. It identifies what was run and which criterion defined success. Actual deployment still raises separate questions about required context length, correctness on relevant data, speed and cost. A useful compatibility catalogue makes those tests more specific without replacing them with a PASS label or promising unchanged behavior after a different stack version is selected for a future run.
 
 
 ===== EDITION 44 — 2026-10-26 =====

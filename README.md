@@ -16,6 +16,10 @@
 - **[Технологии]** [Cloudflare раскрыла исправленный сбой изоляции запросов GLM-5.3](editions/2026/10-27/02-cloudflare-kv-isolation-report.md)
 - **[ИИ]** [ThinkingBox использует проверку базы как награду для обучения агента](editions/2026/10-27/03-thinkingbox-training-repeatability.md)
 - **[ИИ]** [IBM объединяет четыре модели Granite для прогнозирования временных рядов](editions/2026/10-27/04-granite-forecast-ensemble.md)
+- **[Экономика]** [OpenAI открыла данные о рабочих задачах, с которыми обращаются к ChatGPT](editions/2026/10-27/05-signals-work-activities.md)
+- **[Экономика]** [Климатическая метка проекта ещё не показывает, сколько новой помощи получил климат](editions/2026/10-27/06-climate-aid-accounting.md)
+- **[Культура]** [Polar Peaks знакомит школьников с ИИ через очистку данных и проверку модели](editions/2026/10-27/07-polar-peaks-ai-literacy.md)
+- **[Технологии]** [Таблица Trainium показывает, какие модели прошли конкретный короткий тест](editions/2026/10-27/08-trainium-model-support-tests.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
