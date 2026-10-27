@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBM объединяет четыре модели Granite для прогнозирования временных рядов - frontier-wire</title>
+<meta name="description" content="A recipe without retraining reduces architecture selection, but does not guarantee a better forecast on every series.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-27/04-granite-forecast-ensemble.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "IBM combines four Granite models for time-series forecasting", "alternativeHeadline": "IBM объединяет четыре модели Granite для прогнозирования временных рядов", "datePublished": "2026-10-27", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-27/04-granite-forecast-ensemble.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-27 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">IBM объединяет четыре модели Granite для прогнозирования временных рядов</span><span class="lang-en">IBM combines four Granite models for time-series forecasting</span></h1>
+  <p class="dek big"><span class="lang-ru">Рецепт без дообучения сокращает выбор между архитектурами, но не гарантирует лучший прогноз на каждом ряду.</span><span class="lang-en">A recipe without retraining reduces architecture selection, but does not guarantee a better forecast on every series.</span></p>
+
+  <div class="prose lang-ru"><p>Предобученная модель временного ряда избавляет от части работы с обучением, но оставляет вопрос: какую архитектуру выбрать для ваших данных? В <a href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1">разборе IBM Research от 22 октября</a> представлен ансамбль из четырёх моделей Granite. В сегодняшнем дайджесте это первое для нашего архива рассмотрение рецепта последних дней. Он объединяет прогнозы готовых моделей, а не превращает их веса в одну новую нейросеть и не требует подгонки весов ансамбля по тестовым ответам.</p>
+<p>По умолчанию участники получают одинаковое влияние при объединении вероятностных прогнозов. На выходе доступны медиана и квантили — несколько уровней распределения возможных исходов. Практический смысл ансамбля в том, что ошибки разных архитектур не обязаны совпадать. Однако это аргумент в пользу проверки комбинации, а не доказательство, что любое добавление модели улучшит результат. Качество участников и их различия остаются существенными, даже если интерфейс объединения выглядит простым.</p>
+<p>Предложен и альтернативный вариант IQR: больший вес получают модели с более узким прогнозным разбросом. Здесь авторы прямо отмечают ловушку — узкий интервал может означать самоуверенность, а не высокую точность. Система способна предпочесть такой прогноз именно потому, что он выглядит определённым. Поэтому выбор между равным влиянием и адаптивным взвешиванием следует делать по наблюдаемой работе на подходящих данных, а не по внешней привлекательности более узкого диапазона.</p>
+<p>В сравнении на 97 конфигурациях GIFT-Eval оба ансамбля улучшили агрегированную ошибку точечного прогноза MASE относительно отдельных участников. Но преимущество над лучшей одиночной моделью невелико: 0,683 против 0,685 у варианта по умолчанию. При этом лучшая агрегированная вероятностная метрика осталась за отдельной PatchTST-FM-r2. Это результаты разработчиков на срезе таблицы от 20 октября, а не независимый тест редакции или универсальное первое место среди всех возможных систем.</p>
+<p>Удобство имеет цену: нужно загрузить четыре набора весов, что увеличивает время и потребление памяти по сравнению с одним участником. Каналы многомерного ряда в текущем рецепте прогнозируются независимо, без использования связей между ними. Номинальный интервал между квантилями 0,1 и 0,9 также ещё не доказывает фактическое покрытие восьмидесяти процентов будущих значений. Такое покрытие нужно измерять, особенно когда распределение данных меняется после внедрения.</p>
+<h3>Почему это важно</h3>
+<p>Ансамбль предлагает разумную стартовую гипотезу для случая, когда заранее неизвестно, какая архитектура подойдёт лучше. Его ценность легче оценить сравнением на одинаковых исторических окнах с сильной одиночной моделью. Ошибка центрального прогноза, качество интервалов и затраты ресурсов — отдельные характеристики. Простая комбинация может быть удобна, но удобство выбора не отменяет проверки того, насколько прогноз помогает именно вашей задаче и какие ошибки для неё наиболее существенны.</p></div>
+  <div class="prose lang-en"><p>A pretrained time-series model removes some training work but leaves a choice: which architecture fits the data? An <a href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1">IBM Research explanation published October 22</a> presents an ensemble of four Granite models. Today's digest brings the recipe its first coverage in our archive. It combines forecasts from existing members rather than merging their weights into one new neural network, and the aggregation does not require fitting ensemble weights to test answers or retraining the participating models.</p>
+<p>The default recipe gives members equal influence when pooling probabilistic forecasts. Outputs include the median and quantiles, representing different levels of the predicted distribution. The rationale is that errors from different architectures need not coincide. That supports testing a combination, rather than proving that adding any model must improve a forecast. Member quality and diversity still matter even when the interface makes combining their predictions appear straightforward and hides much of the configuration from the downstream application.</p>
+<p>An alternative IQR recipe gives more influence to forecasts with a narrower spread. The authors explicitly identify a trap: a narrow interval can reflect overconfidence rather than accuracy. A system may favor that forecast precisely because it appears more certain. Choosing between equal influence and adaptive weighting therefore requires observed performance on representative data. The visual appeal of a tighter range does not establish that the range is well calibrated or that it will contain the outcomes people actually observe.</p>
+<p>Across 97 GIFT-Eval configurations, both ensembles improved aggregate point-forecast MASE relative to their individual members. The default recipe's margin over the strongest single member was small: 0.683 against 0.685. Meanwhile, the best aggregate probabilistic score remained with the individual PatchTST-FM-r2 model. These are developer-reported comparisons using an October 20 leaderboard snapshot, rather than an independent Frontier Wire test or a universal first-place ranking among every forecasting system that could be considered.</p>
+<p>Convenience has a resource cost. The recipe loads four checkpoints, increasing inference time and memory relative to a single member. In the current implementation, channels of a multivariate series are forecast independently, without cross-channel information. An interval between the 0.1 and 0.9 quantiles also does not establish actual eighty-percent coverage of future observations. That coverage needs to be measured, particularly when the data distribution changes after deployment and previously useful uncertainty estimates may cease to match reality.</p>
+<h3>Why it matters</h3>
+<p>The ensemble provides a reasonable starting hypothesis when the best architecture is unknown in advance. Its value is easier to judge against a strong individual model on identical historical forecast windows. Central-prediction error, interval quality and resource requirements are separate properties. A simple combination can make model selection more convenient, while leaving the essential task intact: checking whether its forecasts help with the specific decisions being made and which kinds of error matter most in that setting.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1">https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

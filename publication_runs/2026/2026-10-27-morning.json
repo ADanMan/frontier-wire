@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-27",
+  "slot": "morning",
+  "checked_at": "2026-10-27T04:03:49.508838+00:00",
+  "digest_sha256": "e7abdc7a7e8e9117edc5044e5991f7a893f1d3ba59f5a342bcdd420af36ca65e",
+  "articles": [
+    {
+      "path": "editions/2026/10-27/01-perseverance-ultrafine-dust.md",
+      "sha256": "2744279da02bfc5a52e286391aeaa69f732326a35cd73d82ae8984e6e0e7b3ec",
+      "source": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust"
+    },
+    {
+      "path": "editions/2026/10-27/02-cloudflare-kv-isolation-report.md",
+      "sha256": "72bb92e7b0be4decfa729dd9abd0091c268d1e9fdfdfd73ca01cfeb8101970bd",
+      "source": "https://blog.cloudflare.com/kv-cache-exposure-remediation"
+    },
+    {
+      "path": "editions/2026/10-27/03-thinkingbox-training-repeatability.md",
+      "sha256": "eb2d0540613d323ec2c381eeb8c539c4fa898a32bc91d0747016ed1f63b7970c",
+      "source": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    {
+      "path": "editions/2026/10-27/04-granite-forecast-ensemble.md",
+      "sha256": "5f1d865c6b2826c6fd0c66575e1f594f5f1341de3ad11c144cb3a3301c26f3d3",
+      "source": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+    }
+  ]
+}

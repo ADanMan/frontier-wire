@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloudflare раскрыла исправленный сбой изоляции запросов GLM-5.3 - frontier-wire</title>
+<meta name="description" content="The company reported 155 affected responses and explained why successful HTTP status did not establish correct processing.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-27/02-cloudflare-kv-isolation-report.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Cloudflare discloses a repaired GLM-5.3 request-isolation failure", "alternativeHeadline": "Cloudflare раскрыла исправленный сбой изоляции запросов GLM-5.3", "datePublished": "2026-10-27", "inLanguage": ["ru", "en"], "isBasedOn": "https://blog.cloudflare.com/kv-cache-exposure-remediation/", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-27/02-cloudflare-kv-isolation-report.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-10-27 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Cloudflare раскрыла исправленный сбой изоляции запросов GLM-5.3</span><span class="lang-en">Cloudflare discloses a repaired GLM-5.3 request-isolation failure</span></h1>
+  <p class="dek big"><span class="lang-ru">Компания сообщила о 155 затронутых ответах и объяснила, почему успешный HTTP-статус не подтверждал корректность обработки.</span><span class="lang-en">The company reported 155 affected responses and explained why successful HTTP status did not establish correct processing.</span></p>
+
+  <div class="prose lang-ru"><p>Успешный код ответа сервера ещё не доказывает, что данные разных пользователей остались разделены. В <a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/">раскрытии от 26 октября Cloudflare</a> описала исправленный инцидент с моделью GLM-5.3 в Workers AI. По данным компании, с 27 августа по 9 сентября 155 ответов содержали данные из более ранних запросов других клиентов к той же модели. Это новая публикация о прежнем сбое, а не сообщение, что утечка впервые произошла сегодня.</p>
+<p>Cloudflare связывает проблему с сочетанием конфигурации своей инфраструктуры и ошибки движка SGLang. Объявленное контекстное окно и фактическая ёмкость промежуточной памяти не были согласованы. Обработка запроса, который не помещался, должна была закончиться ошибкой, но в распределённой схеме завершалась некорректно. В результате генерация могла учитывать состояние, оставшееся от другой сессии. Здесь достаточно понимать нарушение владения памятью; техническая инструкция для воспроизведения читателю не нужна.</p>
+<p>По отчёту, исследователь сообщил о проблеме 8 сентября. На следующий день компания воспроизвела её, ограничила доступ к модели, изменила конфигурацию и движок, затем восстановила сервис. Cloudflare утверждает, что другие размещённые в Workers AI модели этим конкретным инцидентом не затронуты. Эти границы важны: нельзя автоматически переносить вывод на любой сервис с GLM, на все модели платформы или на каждый вариант использования SGLang.</p>
+<p>Компания также пишет, что не обнаружила свидетельств преднамеренной эксплуатации после исключения собственных проверок и действий исследователя. Это результат её расследования, а не доказательство математической невозможности незамеченного злоупотребления. Редакция не публикует содержимое чужих запросов, личности клиентов или собственные предположения о пострадавших. Число ответов тоже не следует подменять числом пользователей: это разные единицы учёта, и отчёт не даёт оснований считать их одинаковыми.</p>
+<p>Самая полезная инженерная деталь касается испытаний. Перед запуском проверяли статусы HTTP и производительность длинных запросов, но этого оказалось недостаточно для проверки правильности ответа. После инцидента добавлены более прямые проверки конфигурации и обработчиков ошибок, а исправления согласованы с разработчиками SGLang. Более широкие способы контроля целостности памяти в отчёте частично остаются будущей работой. Их нельзя описывать как уже завершённую универсальную защиту от всех сходных ошибок.</p>
+<h3>Почему это важно</h3>
+<p>Сервис может выглядеть работоспособным по внешним показателям и при этом нарушать более глубокое требование изоляции. Отчёт даёт конкретный пример разницы между доступностью, корректностью и конфиденциальностью. Для оценки инфраструктуры ИИ полезно спрашивать не только, вернулся ли ответ, но и как проверено происхождение состояния, из которого он получен. При этом нынешняя публикация остаётся отчётом оператора о расследовании и мерах, а не независимым аудитом всей платформы.</p></div>
+  <div class="prose lang-en"><p>A successful server response does not establish that different users' data remained isolated. In an <a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/">October 26 disclosure, Cloudflare</a> described a repaired incident involving GLM-5.3 on Workers AI. The company reported that, between August 27 and September 9, 155 responses contained data from earlier requests by other customers using the same model. The new development is publication of the account, rather than a claim that the exposure first occurred today or remains active now.</p>
+<p>Cloudflare attributes the problem to a combination of its infrastructure configuration and an SGLang inference-engine bug. The advertised context window and actual intermediate-memory capacity were not aligned. A request that could not fit should have produced an error, but the distributed processing path handled that outcome incorrectly. Generation could consequently use state left by another session. Understanding that failure of memory ownership is sufficient for this news account; reproducing the issue is not necessary to explain its significance.</p>
+<p>According to the report, a researcher notified Cloudflare on September 8. The company reproduced the issue the following day, restricted access to the model, changed the configuration and engine, and restored service. Cloudflare says no other model hosted on Workers AI was affected by this particular incident. Those boundaries matter. The finding should not automatically be generalized to every GLM service, every model on the platform or every possible SGLang deployment, whose configurations and processing paths may differ.</p>
+<p>The company also says it found no evidence of deliberate exploitation after excluding its own testing and the researcher's activity. That is a conclusion from its investigation, rather than proof that unobserved misuse was mathematically impossible. Frontier Wire is not reproducing other customers' request contents or speculating about affected identities. The reported response count should not become a user count either. They are different units, and the account does not establish that the two numbers are interchangeable.</p>
+<p>The most useful engineering lesson concerns testing. Before launch, successful HTTP statuses and long-request performance had been checked, but those signals did not establish correct output. The response includes more direct configuration and error-path checks, alongside fixes coordinated with SGLang maintainers. Some broader memory-integrity measures described in the report remain future work. They should not be presented as an already completed, universal defense against every related failure that might arise in a distributed inference system.</p>
+<h3>Why it matters</h3>
+<p>A service can appear healthy in external metrics while violating a deeper isolation requirement. The account provides a concrete distinction between availability, correctness and confidentiality. Evaluating AI infrastructure means asking not only whether a response arrived but how the provenance of the state behind it was checked. The disclosure remains the operator's account of an investigation and remediation, rather than an independent audit establishing the security of the entire platform under all conditions.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/">https://blog.cloudflare.com/kv-cache-exposure-remediation/</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

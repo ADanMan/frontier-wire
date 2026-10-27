@@ -1,21 +1,17 @@
-# frontier-wire — latest edition №44 (2026-10-26)
+# frontier-wire — latest edition №45 (2026-10-27)
 
-## iPhone Duo teardown separates repair access from fold durability / Разбор iPhone Duo отделяет удобство ремонта от надёжности сгиба
-rubric: tech · source: https://www.ifixit.com/News/119895/iphone-duo-teardown
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-26/01-iphone-duo-repairability.md
+## Perseverance measures dust that clings to spacesuit materials for years / Perseverance измерил пыль, которая годами держится на материалах скафандра
+rubric: science · source: https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-27/01-perseverance-ultrafine-dust.md
 
-## IUCN reef assessment measures future risk, not 96 percent already lost / Оценка IUCN показывает будущий риск для рифов, а не уже исчезнувшие 96 процентов
-rubric: science · source: https://iucn.org/press-release/202610/virtually-all-coral-reef-ecosystems-face-high-risk-collapse-50-years-iucn-red
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-26/02-coral-reef-ecosystem-risk.md
+## Cloudflare discloses a repaired GLM-5.3 request-isolation failure / Cloudflare раскрыла исправленный сбой изоляции запросов GLM-5.3
+rubric: tech · source: https://blog.cloudflare.com/kv-cache-exposure-remediation/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-27/02-cloudflare-kv-isolation-report.md
 
-## CRISTAL opens its solar arrays on the ground ahead of environmental tests / CRISTAL раскрыл солнечные панели на земле перед серией наземных испытаний
-rubric: tech · source: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-26/03-cristal-deployment-tests.md
+## ThinkingBox turns database checks into agent-training rewards / ThinkingBox использует проверку базы как награду для обучения агента
+rubric: ai · source: https://huggingface.co/blog/microsoft/thinkingbox-training
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-27/03-thinkingbox-training-repeatability.md
 
-## PACE tracks autumn foliage through pigments rather than color alone / PACE следит за осенними листьями по пигментам, а не только по красивому цвету
-rubric: science · source: https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-26/04-pace-autumn-pigment-maps.md
-
-## NASA and USDA expand cooperation on Earth data for agriculture / NASA и USDA расширяют сотрудничество по спутниковым данным для сельского хозяйства
-rubric: tech · source: https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-26/05-nasa-usda-earth-data.md
+## IBM combines four Granite models for time-series forecasting / IBM объединяет четыре модели Granite для прогнозирования временных рядов
+rubric: ai · source: https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-27/04-granite-forecast-ensemble.md

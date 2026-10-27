@@ -10,13 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №44 / Edition №44 — 2026-10-26** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-26/)
+**Выпуск №45 / Edition №45 — 2026-10-27** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-27/)
 
-- **[Технологии]** [Разбор iPhone Duo отделяет удобство ремонта от надёжности сгиба](editions/2026/10-26/01-iphone-duo-repairability.md)
-- **[Наука]** [Оценка IUCN показывает будущий риск для рифов, а не уже исчезнувшие 96 процентов](editions/2026/10-26/02-coral-reef-ecosystem-risk.md)
-- **[Технологии]** [CRISTAL раскрыл солнечные панели на земле перед серией наземных испытаний](editions/2026/10-26/03-cristal-deployment-tests.md)
-- **[Наука]** [PACE следит за осенними листьями по пигментам, а не только по красивому цвету](editions/2026/10-26/04-pace-autumn-pigment-maps.md)
-- **[Технологии]** [NASA и USDA расширяют сотрудничество по спутниковым данным для сельского хозяйства](editions/2026/10-26/05-nasa-usda-earth-data.md)
+- **[Наука]** [Perseverance измерил пыль, которая годами держится на материалах скафандра](editions/2026/10-27/01-perseverance-ultrafine-dust.md)
+- **[Технологии]** [Cloudflare раскрыла исправленный сбой изоляции запросов GLM-5.3](editions/2026/10-27/02-cloudflare-kv-isolation-report.md)
+- **[ИИ]** [ThinkingBox использует проверку базы как награду для обучения агента](editions/2026/10-27/03-thinkingbox-training-repeatability.md)
+- **[ИИ]** [IBM объединяет четыре модели Granite для прогнозирования временных рядов](editions/2026/10-27/04-granite-forecast-ensemble.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

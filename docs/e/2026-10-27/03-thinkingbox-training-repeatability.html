@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkingBox использует проверку базы как награду для обучения агента - frontier-wire</title>
+<meta name="description" content="The follow-up examines both average Qwen success and tasks completed correctly in all twenty attempts.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-27/03-thinkingbox-training-repeatability.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "ThinkingBox turns database checks into agent-training rewards", "alternativeHeadline": "ThinkingBox использует проверку базы как награду для обучения агента", "datePublished": "2026-10-27", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/microsoft/thinkingbox-training", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-27/03-thinkingbox-training-repeatability.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-27 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">ThinkingBox использует проверку базы как награду для обучения агента</span><span class="lang-en">ThinkingBox turns database checks into agent-training rewards</span></h1>
+  <p class="dek big"><span class="lang-ru">В новом разборе важен не только средний успех Qwen, но и число задач, решённых во всех двадцати попытках.</span><span class="lang-en">The follow-up examines both average Qwen success and tasks completed correctly in all twenty attempts.</span></p>
+
+  <div class="prose lang-ru"><p>Если агент говорит «готово», это ещё не значит, что нужная запись появилась в базе. Об этой идее ThinkingBox Frontier Wire уже писал в начале октября. В <a href="https://huggingface.co/blog/microsoft/thinkingbox-training">продолжении Microsoft и Hugging Face от 22 октября</a> проверку сохранённого результата используют уже как награду при дообучении. Это новый этап работы с фреймворком, а не повторный анонс исходного стенда. Сегодня рассматриваем его с явно указанной датой публикации.</p>
+<p>Для задачи с конкретным итоговым состоянием можно проверить, что действительно изменилось после работы агента. Правильный результат даёт положительную награду, отсутствующее или лишнее изменение — отказ. При этом не обязательно требовать единственную последовательность вызовов инструментов. Агент может найти другой путь, если тот приводит к допустимому состоянию. Это полезное разделение: оценивать цель процесса и проверять его побочные эффекты можно независимо от того, насколько убедительно исполнитель описывает собственную работу.</p>
+<p>Авторы сообщают, что после пятидесяти шагов обучения Qwen3.8-27B средний успех вырос с 51,70 до 60,78 процента. Число задач, выполненных правильно во всех двадцати зафиксированных попытках, увеличилось с 38 до 107 из 507. Последний показатель — наблюдавшаяся повторяемость на заданном наборе, а не обещание безошибочности при любом будущем запуске. Двадцать успешных испытаний конечны и не превращаются в универсальную гарантию производственного поведения.</p>
+<p>Есть и менее эффектная, но важная оговорка: охват задач, решённых хотя бы однажды за двадцать попыток, немного снизился. Иными словами, модель стала стабильнее на части заданий, но это не означает одинакового расширения всех способностей. Разные показатели отвечают на разные вопросы. Для редкой исследовательской находки может быть интересен хотя бы один успех; для повторяющейся операции над записью базы важнее, насколько часто правильный исход воспроизводится.</p>
+<p>Обучающие задачи отделены от тестового набора, однако сохраняют общий фреймворк, стиль заданий и часть инфраструктуры. Поэтому перенос нельзя растягивать до вывода о надёжности любых деловых процессов. Кроме того, большинство проверок исполнимы напрямую, но меньшая часть использует модельного судью для узких требований. Публичные примеры не равны частному обучающему пулу исследования. Редакция не запускала обучение и не проверяла заявленные результаты независимо; это отчёт авторов.</p>
+<h3>Почему это важно</h3>
+<p>Работа связывает критерий завершения задачи с обучением, а не оставляет его только финальным экзаменом. Главный практический вопрос — какое состояние означает успех и какие изменения недопустимы. Определив это, можно обсуждать и среднюю точность, и повторяемость, не подменяя одно другим. Рост показателя в конкретном стенде полезен как свидетельство метода, но применять вывод к собственному процессу следует через отдельную проверку его условий и последствий.</p></div>
+  <div class="prose lang-en"><p>An agent saying that work is complete does not establish that the correct database record exists. Frontier Wire covered that ThinkingBox idea earlier in October. In a <a href="https://huggingface.co/blog/microsoft/thinkingbox-training">Microsoft and Hugging Face follow-up published October 22</a>, checks of the saved outcome become rewards for post-training. This is a further use of the framework rather than another announcement of the original benchmark. Today's coverage keeps the source date explicit instead of presenting the experiment as newly conducted this morning.</p>
+<p>For a task with a specified terminal state, the system can inspect what changed after the agent worked. A correct outcome earns a positive reward; missing, wrong or extra effects fail. The evaluator need not demand one particular sequence of tool calls. An agent can find another acceptable route to the same outcome. That separates the goal and side effects of a process from how persuasively the agent describes its work, or whether its chosen sequence resembles a reference solution.</p>
+<p>The authors report that fifty training steps raised Qwen3.8-27B's average success from 51.70 to 60.78 percent. Tasks passed on every one of twenty recorded attempts increased from 38 to 107 out of 507. The latter measures observed repeatability on a particular benchmark. It does not promise perfect behavior in every future execution. Twenty successful trials remain a finite observation, rather than becoming a universal guarantee about production reliability under different users, tools, policies or operating conditions.</p>
+<p>There is a less spectacular but important qualification: coverage of tasks solved at least once in twenty attempts declined slightly. The model became more repeatable on part of the task set without uniformly broadening every capability. Different metrics address different needs. A research search may value finding one solution eventually; a recurring operation on a database record may depend more on how consistently the correct result can be reproduced. Neither purpose can be reduced to a single headline success number.</p>
+<p>Training tasks are separate from the benchmark, but share its framework, task style and some infrastructure. Transfer should therefore not be generalized to every business workflow. Most outcome checks are directly executable, while a minority invoke a model judge for narrow requirements. Public samples are also not the private training pool used in the experiment. Frontier Wire has not run the training or independently reproduced the results; these are the authors' reported findings and methodological limits.</p>
+<h3>Why it matters</h3>
+<p>The work connects task completion criteria with learning instead of reserving them for a final examination. The practical starting question is what state counts as success and which other changes are unacceptable. Once that is explicit, average accuracy and repeatability can be discussed separately. An improvement in this environment is evidence about an approach, while extending it to another process requires checking that process's own conditions and consequences rather than assuming the same gain will carry over.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/microsoft/thinkingbox-training">https://huggingface.co/blog/microsoft/thinkingbox-training</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
