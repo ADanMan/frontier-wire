@@ -19,3 +19,19 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## CHAPEA crew prepares to leave its Earth-based Mars habitat on October 31 / Экипаж CHAPEA готовится выйти из земного «Марса» 31 октября
 rubric: science · source: https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-28/05-chapea-exit-planned.md
+
+## Anthropic expands discounted Claude access for US government buyers / Anthropic расширяет скидку на Claude для госорганизаций США
+rubric: ai · source: https://www.anthropic.com/news/expanding-partnership-gsa
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-28/06-claude-government-discount.md
+
+## M6 MacBook Pro opens for preorders ahead of November 6 availability / MacBook Pro с M6 принимает предзаказы, продажи начнутся 6 ноября
+rubric: tech · source: https://www.financialcontent.com/article/bizwire-2026-10-27-apple-introduces-the-new-14-inch-macbook-pro-with-m6
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-28/07-macbook-pro-m6-preorders.md
+
+## Landsat reveals the volcanic landscape beneath Chiricahua's rock spires / Landsat показывает вулканическое основание каменных столбов Чирикауа
+rubric: science · source: https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-28/08-chiricahua-landsat-geology.md
+
+## Iceberg A-81 slows near South Georgia's underwater shelf / Айсберг A-81 замедлился у подводного шельфа Южной Георгии
+rubric: science · source: https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/10-28/09-a81-south-georgia-drift.md

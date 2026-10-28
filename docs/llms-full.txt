@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Сегодня пять материалов о том, как идея проходит путь до работающей системы. Ai2 проверяет устойчивость оценок научной новизны, Liquid AI предлагает специализировать компактные модели, а Oracle готовит доступ к бизнес-приложениям через ChatGPT. У NASA две разные подготовки: щит будущего инфракрасного телескопа и ожидаемый выход экипажа из земного аналога марсианского жилища. Смотрим на конкретные шаги и на то, какой результат каждый из них уже позволяет подтвердить.
+Сегодня девять материалов о том, как отличить объявление, подготовку и наблюдаемый результат. Утром разбирались с оценкой новизны у Ai2, специализацией LFM3, планами Oracle для ChatGPT, щитом NEO Surveyor и ожидаемым выходом экипажа CHAPEA. Вечером добавились условия закупки Claude, предзаказы MacBook Pro с M6 и два спутниковых сюжета NASA: вулканический ландшафт Чирикауа и дрейф A-81 у Южной Георгии. В каждом случае смотрим на даты и пределы того, что уже подтверждено.
 
 ## Editorial
 
-Today's five stories follow ideas on their way toward working systems. Ai2 examines the stability of research-novelty judgements, Liquid AI offers compact models for specialization, and Oracle is developing access to business applications through ChatGPT. NASA reports two different preparations: a future infrared telescope's sunshade and the planned departure of a crew from an Earth-based Mars habitat. Each story looks at the concrete step taken and what its evidence can establish so far.
+Today's nine stories distinguish announcements, preparations and observed results. The morning covered Ai2's novelty judgements, LFM3 specialization, Oracle's ChatGPT plans, NEO Surveyor's sunshade and CHAPEA's expected crew departure. The evening adds Claude purchasing terms, M6 MacBook Pro preorders and two NASA satellite stories: Chiricahua's volcanic landscape and A-81's drift near South Georgia. Each account checks the dates and the limits of what the evidence already establishes.
 
 
 ----- 01-ai2-novelty-judges (ai) — source: https://huggingface.co/blog/allenai/novelty-bench -----
@@ -186,6 +186,146 @@ The planned ceremony and the scientific findings follow different timelines. Cov
 ### Why it matters
 
 A long expedition consists of ordinary activities competing for limited time and resources. An Earth analog lets researchers examine how those activities work together before flight. The expected departure will be a visible milestone, while scientific value depends on what patterns the collected evidence can support. Keeping those events separate is useful: completing a phase and establishing a finding relevant to future missions require different evidence. The first can be announced now; the second needs its own analysis and explanation.
+
+
+----- 06-claude-government-discount (ai) — source: https://www.anthropic.com/news/expanding-partnership-gsa -----
+
+## Русская версия
+
+Anthropic расширяет условия, на которых американские государственные организации могут покупать Claude. В [объявлении от 27 октября](https://www.anthropic.com/news/expanding-partnership-gsa) компания описала новое соглашение с Управлением общих служб США, GSA. Оно предусматривает скидку 40% на Claude Enterprise, Claude for Government и API Claude. Условия распространяются также на органы власти штатов, местные, племенные и территориальные администрации. Это предложение для определённой категории заказчиков, а не общее снижение цены подписки для всех пользователей.
+
+Здесь важно разнести три календаря. Прямые покупки по новым условиям, согласно объявлению, доступны уже сейчас. Маршрут через облачных провайдеров должен появиться в ближайшие месяцы. Отдельную программу помощи с внедрением компания собирается запустить в ближайшие недели. Поэтому фраза «соглашение действует» ещё не означает, что любая организация сегодня может использовать любой из перечисленных способов закупки и уже получает весь обещанный набор сопровождения.
+
+Для бюджета есть ещё одно существенное условие: минимальное обязательство по расходам не требуется, оплата зависит от потребления. Но скидка сама по себе не даёт готовой оценки стоимости проекта. Чтобы получить такую оценку, заказчику нужно понимать, что именно сотрудники будут делать с моделью, как часто и в каком объёме. Сравнение тарифов без сценария использования оставляет главный множитель неизвестным. Выгодная цена единицы работы и небольшая итоговая сумма — разные вопросы.
+
+С технической точки зрения объявление касается способа приобретения существующих продуктов. Его не следует читать как самостоятельный результат испытаний качества модели на каждой государственной задаче. Допустим, ведомству нужен помощник для поиска по внутренним документам. Тогда в оценке проекта всё равно остаются подбор корпуса, права доступа, проверка ответов и правила передачи результата человеку. Скидка меняет одну строку такого расчёта, но не выполняет остальные пункты автоматически.
+
+Это также помогает правильно сравнивать способы внедрения. Уже используемая облачная среда может быть важнее самой возможности купить продукт напрямую, если под неё построены рабочие процессы организации. Пока обещанный облачный маршрут не открыт, его нельзя считать готовой заменой существующей закупке. Практический вопрос здесь звучит конкретно: какие условия доступны выбранному заказчику сейчас и какие ещё требуют ожидания? Ответ зависит от маршрута покупки, а не только от числа в заголовке.
+
+### Почему это важно
+
+Доступность ИИ для большой организации складывается из цены, закупки и реальной работы внутри её процессов. Новое соглашение меняет первые два элемента и обещает поддержку третьего. Для читателя полезно следить за ними отдельно: опубликованная скидка уже имеет определённые условия, а будущие каналы продаж и помощь с внедрением ещё должны стать работающими предложениями. Именно это различие позволяет оценивать объявление без предположения, что весь переход уже завершён.
+
+## English version
+
+Anthropic is expanding the terms under which US government organizations can purchase Claude. In its [October 27 announcement](https://www.anthropic.com/news/expanding-partnership-gsa), the company described a new agreement with the General Services Administration, or GSA. It offers a 40% discount on Claude Enterprise, Claude for Government and the Claude API, extending eligibility to state, local, tribal and territorial governments. This is an offer for a defined category of buyers rather than a general reduction in subscription prices for everyone using the products.
+
+Three timelines need to be kept separate. According to the announcement, direct purchasing under the new terms is available now. Purchasing through cloud providers is expected in the coming months. A dedicated implementation-support program is planned for the coming weeks. An agreement being in effect therefore does not establish that every organization can already use every advertised purchasing route or receive the entire support offering. Those components reach availability on different schedules, even though they appear in the same announcement.
+
+Another relevant budget condition is the absence of a minimum spending commitment: buyers pay for consumption. A discount alone still cannot produce a project-cost estimate. An organization first needs to identify what employees will do with the model, how often they will do it and at what volume. Comparing unit prices without a usage scenario leaves the main multiplier unknown. An attractive price for each operation and a small total bill are separate questions that need different inputs to answer.
+
+Technically, the announcement changes how existing products can be acquired. It is not a separate test result establishing model quality for every government task. Consider an agency exploring an assistant that searches internal documents. Evaluating that project still involves selecting the document collection, controlling access, checking answers and deciding when a person reviews the result. A purchasing discount changes one line in that assessment; it does not automatically complete the rest of the work required to make the system useful.
+
+This distinction also helps compare deployment routes. An existing cloud environment could matter to an organization's workflows even when direct purchasing is already possible. Until the promised cloud route opens, it should not be treated as an available replacement for the current arrangement. The practical question is specific: which terms can this buyer use now, and which require waiting? The answer depends on the purchasing route as well as the percentage advertised in the announcement.
+
+### Why it matters
+
+Organizational access to AI combines price, procurement and actual operation within working processes. This agreement changes the first two and promises support for the third. Tracking them separately makes the development easier to assess: the published discount has defined terms, while future sales routes and implementation assistance still need to become available offerings. That is a more useful checkpoint than assuming the entire transition has already happened.
+
+
+----- 07-macbook-pro-m6-preorders (tech) — source: https://www.financialcontent.com/article/bizwire-2026-10-27-apple-introduces-the-new-14-inch-macbook-pro-with-m6 -----
+
+## Русская версия
+
+Apple открывает предзаказы на 14-дюймовый MacBook Pro с M6 28 октября, а начало доступности назначено на 6 ноября. Компания сообщила об этом в [пресс-релизе от 27 октября, распространённом через BusinessWire](https://www.financialcontent.com/article/bizwire-2026-10-27-apple-introduces-the-new-14-inch-macbook-pro-with-m6). Между этими датами есть разница: сегодня можно оформить заказ, но это не означает, что ноутбук уже поступил в обычную продажу или доставлен покупателям. Для оценки устройства пока доступно прежде всего описание самого производителя.
+
+В объявленной конфигурации M6 получает 12 процессорных и 12 графических ядер, а также два 16-ядерных блока Neural Engine. Базовый объём объединённой памяти составляет 16 ГБ, верхняя конфигурация — 32 ГБ. Apple указывает пропускную способность памяти до 170 ГБ/с. Устройство сохраняет экран Liquid Retina XDR; среди соединений названы Wi-Fi 7, Bluetooth 6, HDMI, MagSafe 3, три Thunderbolt 4, слот SDXC и разъём для наушников. Перечень портов описывает объявленную модель, без добавления возможностей из слухов о других будущих ноутбуках.
+
+Для работы с локальными моделями набор этих чисел полезен, но ещё недостаточен. Объём памяти определяет, сколько данных можно держать доступными одновременно; скорость обмена влияет на другую часть нагрузки. По одному показателю нельзя рассчитать качество ответов модели или удобство конкретного приложения. Для содержательного сравнения понадобятся одинаковые модель, настройки и рабочая задача. Иначе более быстрый запуск одного примера легко принять за универсальный выигрыш во всех сценариях, хотя сам пример этого не проверяет.
+
+Похожая осторожность нужна с заявлением об автономности до 24 часов. Это результат условий тестирования Apple, а не обещание такого времени при любой нагрузке. Если ваша работа состоит из длительной обработки данных или непрерывных запросов к локальной модели, рекламная верхняя граница не заменяет проверку именно такого режима. В пресс-релизе также есть сравнения производительности, однако редакция не проводила независимых измерений и не выдаёт цифры поставщика за результаты собственного теста устройства.
+
+Что тогда уже можно вынести из анонса? Во-первых, конкретные параметры предлагаемой конфигурации. Во-вторых, сроки, когда заказ и фактическая доступность должны стать разными этапами одной покупки. В-третьих, список вопросов для будущего обзора: одинаковая ли использована нагрузка, какая выбрана память, сколько энергии потребляет система и как ведёт себя при долгой работе. Такие вопросы связывают спецификацию с практикой, вместо того чтобы заранее объявлять любой новый чип решением всех задач.
+
+### Почему это важно
+
+Ноутбук всё чаще оценивают одновременно как обычный рабочий компьютер и как площадку для локального ИИ. Анонс M6 даёт исходные параметры такого обсуждения. Следующий проверяемый шаг — доступность 6 ноября и испытания реальных устройств с понятными настройками. До этого разумно различать спецификацию, обещанный сценарий и измеренную производительность: каждый из этих уровней отвечает на свой вопрос о повседневной работе.
+
+## English version
+
+Apple is opening preorders for the 14-inch MacBook Pro with M6 on October 28, with availability scheduled for November 6. The company set out those dates in its [October 27 press release distributed through BusinessWire](https://www.financialcontent.com/article/bizwire-2026-10-27-apple-introduces-the-new-14-inch-macbook-pro-with-m6). Ordering and receiving a product are distinct milestones. Preorders opening today does not mean the laptop is already generally available or has reached buyers. The evidence available for assessing the device at this point comes primarily from the manufacturer's own description of its announced hardware.
+
+The announced M6 configuration has a 12-core CPU, a 12-core GPU and dual 16-core Neural Engines. Unified memory starts at 16 GB and can be configured up to 32 GB, with Apple quoting memory bandwidth of up to 170 GB per second. The machine retains a Liquid Retina XDR display. Its listed connections include Wi-Fi 7, Bluetooth 6, HDMI, MagSafe 3, three Thunderbolt 4 ports, SDXC and a headphone jack. Those are the specifications in this release, without importing rumored features from other possible future laptops.
+
+For local AI workloads, these numbers are useful starting points rather than a complete assessment. Memory capacity describes how much can remain available at once; bandwidth addresses another part of the workload. Neither number alone predicts answer quality or the experience of using a particular application. A meaningful comparison needs the same model, settings and task. Otherwise, a faster run of one example can be mistaken for a universal improvement across scenarios that the example has never actually tested.
+
+The same distinction applies to Apple's claim of up to 24 hours of battery life. It reflects the company's testing conditions rather than a promise for every workload. Someone processing data for long periods or making continuous requests to a local model needs evidence from that operating pattern. A published upper limit cannot supply it. The release also contains performance comparisons, but Frontier Wire has not independently measured this laptop and is not presenting supplier figures as results of its own testing.
+
+What is already established by the announcement is more concrete: the offered configuration, the separate ordering and availability dates, and questions for subsequent reviews. Useful tests would explain the workload, memory configuration, energy use and behavior during sustained operation. Those details connect a specification to actual work. Without them, a chip announcement cannot determine whether the laptop will improve a particular user's workflow or by how much. The next evidence needs to come from a clearly described task rather than a broader interpretation of a headline.
+
+### Why it matters
+
+A laptop is increasingly assessed both as an everyday work machine and as a platform for local AI. The M6 announcement supplies initial parameters for that discussion. November 6 availability and tests of actual devices will provide the next checkpoints. Keeping specifications, proposed use cases and measured performance separate helps readers understand what each new piece of evidence can establish about daily work.
+
+
+----- 08-chiricahua-landsat-geology (science) — source: https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/ -----
+
+## Русская версия
+
+Каменные столбы Чирикауа на юго-востоке Аризоны трудно рассмотреть по отдельности со спутника, зато видна геология, которая сделала их возможными. NASA Earth Observatory 28 октября [опубликовала разбор ландшафта по снимку Landsat 9](https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/). Сам кадр получен 2 июля 2026 года прибором OLI. Это свежая публикация об уже снятой территории, а не сообщение о новом извержении или о возникновении скал за последние несколько дней.
+
+История рельефа начинается примерно 27 миллионов лет назад. По описанию NASA, серия мощных извержений покрыла эту область пеплом, пемзой и материалом пирокластических потоков. Часть отложений превратилась в спёкшийся риолитовый туф, толщина которого местами приближалась к 500 метрам. Когда магматическая камера опустела, поверхность над ней обрушилась. Так возникла кальдера Turkey Creek — впадина приблизительно 19 километров шириной и 1500 метров глубиной. Эти размеры относятся к описываемой геологической структуре, а не к высоте отдельных сегодняшних столбов.
+
+Следующий этап продолжался гораздо дольше отдельного извержения. Выветривание и эрозия постепенно вырезали из туфа каньоны, шпили и причудливые группы останцов. Поэтому знакомый по наземным фотографиям каменный лес — результат сочетания первоначального материала и его дальнейшего разрушения. На спутниковом изображении этот туфовый ландшафт выглядит серым. Извилистые долины, в том числе Rhyolite Canyon и Bonita Canyon, выделяются растительностью. Отдельные столбы слишком малы, чтобы уверенно различить их на данном кадре; превращать каждый светлый пиксель в конкретную скалу было бы ошибкой.
+
+Растительность добавляет к геологической картине другой масштаб. Здесь сходятся четыре биогеографических региона: пустыни Сонора и Чиуауа, Скалистые горы и Сьерра-Мадре. NASA описывает горы Чирикауа как один из «небесных островов» Аризоны — изолированных горных массивов среди пустынной равнины. Такая география помогает понять, почему соседние участки выглядят по-разному. В кадре совмещаются следы древних процессов, направление современных долин и распределение растительности, а не только эффектная форма нескольких скал.
+
+У этого способа наблюдения есть понятная граница. Вид сверху хорош для связей между участками территории, но подробности отдельного останца требуют другого масштаба изображения. Дата снимка также ограничивает вывод: он показывает состояние начала июля, а не непрерывную запись всего, что происходило после. Публикация не сообщает об измеренной новой скорости эрозии и не доказывает резкое изменение растительности. Её задача — объяснить видимый рисунок местности через уже известные процессы формирования рельефа.
+
+### Почему это важно
+
+Спутниковые данные полезны не только для поиска свежих катастроф. Они позволяют связать знакомый объект с более крупной системой: отдельную скалу — с толщей породы, каньон — с историей вулканического комплекса, зелёную долину — с окружающей сухой местностью. Разбор Чирикауа показывает именно такой переход масштаба. Зная дату съёмки и предел различимых деталей, читатель получает содержательное объяснение изображения, а не просто красивую фотографию с орбиты.
+
+## English version
+
+Chiricahua's individual rock spires in southeastern Arizona are difficult to distinguish from orbit, but the broader geology that made them possible is visible. On October 28, NASA Earth Observatory [published an explanation of the landscape using Landsat 9 imagery](https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/). The OLI instrument acquired the image on July 2, 2026. This is a newly published account of an earlier observation, not news of a fresh eruption or of rock formations appearing within the past few days.
+
+The landscape's history begins approximately 27 million years ago. NASA describes powerful eruptions covering the area with ash, pumice and material carried by pyroclastic flows. Some deposits hardened into welded rhyolitic tuff that approached 500 meters thick in places. As the magma chamber emptied, the surface above it collapsed, creating the Turkey Creek caldera, roughly 19 kilometers wide and 1,500 meters deep. Those dimensions describe the geological depression discussed in the account, rather than the height of individual spires visible to visitors today.
+
+The next stage lasted far longer than a single eruption. Weathering and erosion gradually carved the tuff into canyons, pinnacles and groups of unusual rock formations. The landscape familiar from ground-level photographs therefore reflects both its original material and the processes that subsequently wore it away. In the satellite image, the eroding tuff appears gray. Vegetated stream valleys, including Rhyolite Canyon and Bonita Canyon, wind through it. Individual spires are too small to identify confidently in this view; a bright pixel cannot simply be assigned to a particular rock.
+
+Vegetation adds another scale to the geological picture. Four biogeographic regions meet here: the Sonoran Desert, Chihuahuan Desert, Rocky Mountains and Sierra Madre. NASA places the Chiricahua Mountains among Arizona's “sky islands,” isolated ranges rising above surrounding desert. That setting helps explain why neighboring parts of the image look different. The scene combines the legacy of ancient processes, the routes of present-day valleys and the distribution of vegetation. Its scientific interest extends beyond the striking outline of any single formation seen from the ground.
+
+There are clear limits to this perspective. An overhead view helps establish relationships across an area, while details of an individual pinnacle need a different scale of observation. Acquisition time matters too: this image records early July rather than continuously documenting everything that happened afterward. The feature does not report a newly measured erosion rate or establish a sudden vegetation change. It explains the visible landscape through the processes responsible for shaping it, without turning an illustration of those processes into evidence of a newly detected event.
+
+### Why it matters
+
+Satellite observations serve more purposes than detecting fresh disasters. They can connect a familiar object with a larger system: a rock with its surrounding deposit, a canyon with a volcanic complex, or a green valley with adjacent dry terrain. Chiricahua illustrates that change of scale. Knowing when the image was acquired and which details it resolves makes the explanation more useful than an attractive orbital photograph alone.
+
+
+----- 09-a81-south-georgia-drift (science) — source: https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/ -----
+
+## Русская версия
+
+Айсберг A-81 подошёл к Южной Георгии и заметно замедлил движение у края её подводного шельфа. NASA Earth Observatory [описала его путь 27 октября](https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/), опираясь в том числе на снимок прибора MODIS со спутника Terra от 20 октября. Важно различать дату рассказа и дату наблюдения: изображение показывает конкретный этап дрейфа, а не положение ледяной глыбы в каждый последующий день. Окончательная остановка или разрушение A-81 в публикации не установлены.
+
+Он отделился от антарктического шельфового ледника Бранта в январе 2023 года. NASA приводит для отколовшейся глыбы площадь около 1550 квадратных километров. Более трёх лет айсберг провёл в море Уэдделла, двигаясь вдоль побережья с циркуляцией его вод. К маю 2026 года он достиг оконечности Антарктического полуострова, затем вышел севернее, в море Скоша. К концу октября маршрут привёл его к Южной Георгии, примерно в 2300 километрах к северо-северо-западу от исходного ледника.
+
+Замедление перед островом заметили исследователи, на которых ссылается NASA: Ян Лизер из австралийского Бюро метеорологии и Кристофер Шуман из Мэрилендского университета, ныне на пенсии. По их оценке, айсберг, по-видимому, задевал край подводного шельфа. Такая формулировка сохраняет неопределённость наблюдения. Она не равна подтверждённому сообщению о долговременной посадке на мель. Ранее другой айсберг, A-23A, действительно сел здесь на мель и позднее распался, однако его история не определяет заранее судьбу A-81.
+
+У нынешнего путешествия был долгий пролог. Трещина Chasm 1 в леднике Бранта оставалась относительно стабильной около 35 лет, вновь начала расти примерно в 2012 году и заметно ускорилась к 2019-му. Откол произошёл лишь в январе 2023-го. Эти этапы напоминают, что образование айсберга и последующий дрейф — разные процессы с разными временными масштабами. Быстрое перемещение на одном участке пути нельзя переносить на весь срок его существования или на скорость подготовки самого откола.
+
+NASA отмечает и другие крупные отколы Бранта: A-74 в 2021 году и A-83 в 2024-м. При этом образование айсбергов — нормальная часть жизненного цикла шельфовых ледников. Одного такого события недостаточно, чтобы приписать ему отдельную климатическую причину. Точно так же снимок рядом с островом сам по себе не измеряет последствия для животных или морских экосистем. Публикация даёт наблюдаемую траекторию и осторожное объяснение замедления, а не оценку уже произошедшего экологического ущерба.
+
+### Почему это важно
+
+История A-81 показывает, как спутниковые наблюдения связывают отдельный кадр с многолетним движением большого объекта. Для понимания происходящего нужны и дата изображения, и последовательность предыдущих этапов, и рельеф под водой. Следующее наблюдение может уточнить, продолжится ли дрейф или возникнет длительная остановка. Пока наиболее точный вывод скромнее: айсберг достиг района Южной Георгии и замедлился у шельфа, а дальнейший исход ещё требует данных.
+
+## English version
+
+Iceberg A-81 has approached South Georgia and slowed near the edge of the island's underwater shelf. NASA Earth Observatory [described its journey on October 27](https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/), using an October 20 image from the MODIS instrument aboard Terra. Publication and observation dates are different: the picture records a particular stage of the drift, not the berg's position on every subsequent day. The account does not establish that A-81 has permanently stopped or broken apart after reaching the island's vicinity.
+
+The berg separated from Antarctica's Brunt Ice Shelf in January 2023. NASA gives its area at calving as approximately 1,550 square kilometers. It spent more than three years in the Weddell Sea, carried along the coast by its circulating waters. By May 2026 it had reached the tip of the Antarctic Peninsula, before moving north into the Scotia Sea. By late October it approached South Georgia, approximately 2,300 kilometers north-northwest of the ice shelf where its journey began. That distance describes the change in location rather than a complete measurement of every turn along the route.
+
+NASA attributes the observed slowdown to analysis by Jan Lieser of Australia's Bureau of Meteorology and retired University of Maryland researcher Christopher Shuman. The berg appeared to be bumping along the underwater shelf's edge. That wording preserves uncertainty: it is not equivalent to confirmation of a lasting grounding. Another iceberg, A-23A, previously ran aground near South Georgia and later broke apart, but a different berg's history does not establish what A-81 will do next under its own conditions.
+
+The journey also had a long prelude. Chasm 1, a rift in the Brunt Ice Shelf, was relatively stable for approximately 35 years. It began growing again around 2012 and was advancing rapidly by 2019, yet separation did not occur until January 2023. Formation and subsequent drift therefore involve different processes and timescales. Rapid movement along one section of a route cannot describe the entire lifespan of the iceberg, much less the period during which the fracture that eventually released it was developing.
+
+NASA also notes other large Brunt calving events: A-74 in 2021 and A-83 in 2024. Calving is a normal component of an ice shelf's life cycle, so one event alone cannot establish a particular climatic cause. Likewise, an image of a berg near an island does not measure consequences for wildlife or marine ecosystems. This account provides an observed route and a cautious interpretation of slowing movement, rather than an assessment of ecological damage that has already occurred in the area.
+
+### Why it matters
+
+A-81 shows how satellite observations connect a single image with years of movement. Interpreting the scene requires its acquisition date, earlier stages of the journey and the underwater landscape. Further observations can establish whether drift resumes or a longer stop develops. The supported conclusion for now is narrower: the iceberg has reached South Georgia's vicinity and slowed at the shelf, while its subsequent fate still requires evidence.
 
 
 ===== EDITION 45 — 2026-10-27 =====

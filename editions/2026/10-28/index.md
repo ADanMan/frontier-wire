@@ -5,8 +5,8 @@ edition: 46
 
 ## От редакции
 
-Сегодня пять материалов о том, как идея проходит путь до работающей системы. Ai2 проверяет устойчивость оценок научной новизны, Liquid AI предлагает специализировать компактные модели, а Oracle готовит доступ к бизнес-приложениям через ChatGPT. У NASA две разные подготовки: щит будущего инфракрасного телескопа и ожидаемый выход экипажа из земного аналога марсианского жилища. Смотрим на конкретные шаги и на то, какой результат каждый из них уже позволяет подтвердить.
+Сегодня девять материалов о том, как отличить объявление, подготовку и наблюдаемый результат. Утром разбирались с оценкой новизны у Ai2, специализацией LFM3, планами Oracle для ChatGPT, щитом NEO Surveyor и ожидаемым выходом экипажа CHAPEA. Вечером добавились условия закупки Claude, предзаказы MacBook Pro с M6 и два спутниковых сюжета NASA: вулканический ландшафт Чирикауа и дрейф A-81 у Южной Георгии. В каждом случае смотрим на даты и пределы того, что уже подтверждено.
 
 ## Editorial
 
-Today's five stories follow ideas on their way toward working systems. Ai2 examines the stability of research-novelty judgements, Liquid AI offers compact models for specialization, and Oracle is developing access to business applications through ChatGPT. NASA reports two different preparations: a future infrared telescope's sunshade and the planned departure of a crew from an Earth-based Mars habitat. Each story looks at the concrete step taken and what its evidence can establish so far.
+Today's nine stories distinguish announcements, preparations and observed results. The morning covered Ai2's novelty judgements, LFM3 specialization, Oracle's ChatGPT plans, NEO Surveyor's sunshade and CHAPEA's expected crew departure. The evening adds Claude purchasing terms, M6 MacBook Pro preorders and two NASA satellite stories: Chiricahua's volcanic landscape and A-81's drift near South Georgia. Each account checks the dates and the limits of what the evidence already establishes.

@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "date": "2026-10-28",
+  "slot": "evening",
+  "checked_at": "2026-10-28T16:07:56.519001+00:00",
+  "digest_sha256": "14f9dc61f5350b62315b1d77e995a4e9d25fe05e3256a08840a6a2208b02b7f7",
+  "articles": [
+    {
+      "path": "editions/2026/10-28/06-claude-government-discount.md",
+      "sha256": "5d15ba3f485072398b34af604d753ae679575587ed32bf5d04ef201ea1d46ac8",
+      "source": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+      "path": "editions/2026/10-28/07-macbook-pro-m6-preorders.md",
+      "sha256": "73790e6e3786679b80dea75a4820894d739d6408a8bc8d39a9772c5349856e33",
+      "source": "https://www.financialcontent.com/article/bizwire-2026-10-27-apple-introduces-the-new-14-inch-macbook-pro-with-m6"
+    },
+    {
+      "path": "editions/2026/10-28/08-chiricahua-landsat-geology.md",
+      "sha256": "72510784f0f98c2032491564c22cf3a6e6487638fd7df758d50c40ded78239f9",
+      "source": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks"
+    },
+    {
+      "path": "editions/2026/10-28/09-a81-south-georgia-drift.md",
+      "sha256": "6ccab0d5494ec6e9e91209d3cee932fe8e755e4487c6aa642e7f60338dafde22",
+      "source": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia"
+    }
+  ]
+}

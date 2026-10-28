@@ -17,6 +17,10 @@
 - **[Технологии]** [Oracle готовит доступ к бизнес-приложениям через ChatGPT](editions/2026/10-28/03-oracle-chatgpt-workspace.md)
 - **[Наука]** [Щит NEO Surveyor будет закрывать телескоп от Солнца и давать ему питание](editions/2026/10-28/04-neo-surveyor-sunshade.md)
 - **[Наука]** [Экипаж CHAPEA готовится выйти из земного «Марса» 31 октября](editions/2026/10-28/05-chapea-exit-planned.md)
+- **[ИИ]** [Anthropic расширяет скидку на Claude для госорганизаций США](editions/2026/10-28/06-claude-government-discount.md)
+- **[Технологии]** [MacBook Pro с M6 принимает предзаказы, продажи начнутся 6 ноября](editions/2026/10-28/07-macbook-pro-m6-preorders.md)
+- **[Наука]** [Landsat показывает вулканическое основание каменных столбов Чирикауа](editions/2026/10-28/08-chiricahua-landsat-geology.md)
+- **[Наука]** [Айсберг A-81 замедлился у подводного шельфа Южной Георгии](editions/2026/10-28/09-a81-south-georgia-drift.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
