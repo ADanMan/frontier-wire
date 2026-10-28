@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-10-28",
+  "slot": "morning",
+  "checked_at": "2026-10-28T09:12:55.684476+00:00",
+  "digest_sha256": "24861248802945967fbba503ff25a507464183140bbd944bd17ae473d9948f94",
+  "articles": [
+    {
+      "path": "editions/2026/10-28/01-ai2-novelty-judges.md",
+      "sha256": "d0696e62bbb5113d69d60f6541d41b15be9e65781f1040cb782a1d01598cbf59",
+      "source": "https://huggingface.co/blog/allenai/novelty-bench"
+    },
+    {
+      "path": "editions/2026/10-28/02-lfm3-specialized-models.md",
+      "sha256": "3a36d9a56454c3f9653198ccedd95b47fdcce1836e12f6b0ca5499d20577b30e",
+      "source": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
+    {
+      "path": "editions/2026/10-28/03-oracle-chatgpt-workspace.md",
+      "sha256": "783db2f9d8d72e7af87e7b44d89f036c74b461d4f5ff6205853675dd61b9cd79",
+      "source": "https://openai.com/index/oracle-apps-in-chatgpt"
+    },
+    {
+      "path": "editions/2026/10-28/04-neo-surveyor-sunshade.md",
+      "sha256": "0263fd53b4d8fa1854f31bb01ac55200c3d7b6e858966ca4acdaccd27604ff36",
+      "source": "https://science.nasa.gov/blogs/neo-surveyor/2026/10/26/sunshade-for-nasas-neo-surveyor-mission-ready-for-its-day-in-sun"
+    },
+    {
+      "path": "editions/2026/10-28/05-chapea-exit-planned.md",
+      "sha256": "fa5575f4960217606dcefe55aaf2de3264b0ab47956adf1bc779cb0ee6efb1e1",
+      "source": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation"
+    }
+  ]
+}

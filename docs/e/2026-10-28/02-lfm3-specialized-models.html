@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LFM3 разводит текст, зрение и звук по компактным моделям с общей основой - frontier-wire</title>
+<meta name="description" content="Liquid AI introduced six variants intended for specialization and deployment close to the application.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-28/02-lfm3-specialized-models.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "LFM3 puts text, vision and audio models on a shared compact backbone", "alternativeHeadline": "LFM3 разводит текст, зрение и звук по компактным моделям с общей основой", "datePublished": "2026-10-28", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/LiquidAI/lfm3", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-28/02-lfm3-specialized-models.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-28 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">LFM3 разводит текст, зрение и звук по компактным моделям с общей основой</span><span class="lang-en">LFM3 puts text, vision and audio models on a shared compact backbone</span></h1>
+  <p class="dek big"><span class="lang-ru">Liquid AI представила шесть вариантов семейства для специализации и работы рядом с приложением.</span><span class="lang-en">Liquid AI introduced six variants intended for specialization and deployment close to the application.</span></p>
+
+  <div class="prose lang-ru"><p>Приложению, которое читает документы, и голосовому помощнику не обязательно нужна одна и та же модель. Liquid AI 27 октября <a href="https://huggingface.co/blog/LiquidAI/lfm3">представила семейство LFM3</a>: шесть компактных вариантов с общей языковой основой. В набор входят текстовая, визуальная, аудио- и объединённая мультимодальная модели, а также две модели структурированных решений. Главный ракурс анонса — возможность выбирать входные данные и специализацию, сохраняя общую основу семейства.</p>
+<p>Базовая LFM3-1.7B объединяет короткие свёртки, локальное и глобальное внимание. Разные компоненты обрабатывают контекст разными способами, вместо того чтобы заставлять все слои работать одинаково. По описанию разработчика, это часть подхода к компактности и длинному контексту. Заявленное окно текстовой модели составляет 256 тысяч токенов. Но размер допустимого контекста сам по себе не устанавливает, насколько точно приложение извлечёт нужный факт из длинного документа или сколько памяти потребует конкретный запуск.</p>
+<p>Визуальный вариант принимает текст, изображения и видео, а аудиоверсия работает с текстом и звуком и может отвечать речью. Omni объединяет эти входы. Для разработчика это выбор тракта обработки, а не просто новое имя общего чат-бота. Поддержка видео также не означает, что все варианты семейства видят кадры, а наличие речи у одной модели нельзя автоматически переносить на текстовый checkpoint. Различия между участниками нужно сохранять при обсуждении возможностей.</p>
+<p>Два варианта d1 предназначены для структурированных решений по заданным вопросам. Они отличаются от свободного порождения длинного ответа: приложению могут требоваться выбор, оценка или координаты объекта. При этом качество такого решения нужно проверять на своей задаче. Упоминание калиброванных вероятностей в анонсе — характеристика, заявленная поставщиком, а не проведённый редакцией тест на новом наборе. Число в структурированном поле остаётся оценкой системы и не превращает неоднозначный вход в бесспорный факт.</p>
+<p>Liquid AI делает акцент на дообучении каждого варианта на одной GPU и развёртывании на пользовательских устройствах. Это описание предлагаемого процесса, а не обещание одинаковых требований для любых данных и режимов. Ресурсы зависят от выбранной модели, точности представления и длины входа. Сравнения скорости и качества в публикации принадлежат разработчику. Мы не скачивали веса, не запускали код и не проверяли анонсированные результаты самостоятельно; приведённые примеры объясняют назначение семейства.</p>
+<h3>Почему это важно</h3>
+<p>Семейство предлагает собирать приложение вокруг нужной модальности и узкого результата. Такой выбор может упростить обсуждение требований: какие данные поступают, какой ответ нужен и где выполняется обработка. Он не отменяет проверки ошибок, задержек и памяти на реальном сценарии. Содержательная часть анонса — связанный набор моделей для разных входов, который даёт разработчику варианты специализации. Преимущество конкретного варианта предстоит измерять в контексте будущего продукта.</p></div>
+  <div class="prose lang-en"><p>An application reading documents and a voice assistant do not necessarily need the same model. On October 27, Liquid AI <a href="https://huggingface.co/blog/LiquidAI/lfm3">introduced the LFM3 family</a>: six compact variants sharing a language backbone. The release includes text, vision, audio and combined multimodal models, alongside two structured-decision variants. The central proposition is choosing the appropriate inputs and specialization while retaining a common foundation, rather than treating every application as a request for an identical general-purpose conversational system.</p>
+<p>The LFM3-1.7B backbone combines short convolutions, sliding-window attention and global attention. Different components handle context in different ways instead of making every layer follow the same pattern. The developer presents this as part of its approach to compactness and long inputs. The text model has a stated context window of 256 thousand tokens. That limit alone does not establish how accurately an application retrieves a fact from a long document or how much memory a particular execution will require.</p>
+<p>The vision variant accepts text, images and video; the audio model works with text and sound and can produce speech. Omni combines those inputs. This is a choice of processing path rather than merely another name for a chatbot. Video support does not mean every family member can inspect frames, and speech capabilities should not automatically be assigned to a text checkpoint. Those differences matter when translating a family-level announcement into requirements for a particular application or deployment environment.</p>
+<p>The two d1 variants address structured decisions over supplied questions. Their output differs from open-ended long-form generation: an application may need a choice, score or object location. The quality of that decision still needs evaluation on the intended task. Calibrated probabilities are a supplier claim here, rather than a Frontier Wire test on an additional dataset. A number in a structured field remains an estimate from the system and does not turn an ambiguous input into an indisputable fact.</p>
+<p>Liquid AI emphasizes single-GPU fine-tuning and deployment on end-user devices. That describes a proposed workflow, not identical requirements for every dataset and operating mode. Resource needs depend on the selected variant, numerical precision and input length. Performance comparisons in the release belong to the developer. We have not downloaded weights, executed the examples or independently checked the reported results; the examples explain the family's intended uses rather than establishing performance for a product that has not yet been evaluated.</p>
+<h3>Why it matters</h3>
+<p>The family offers a way to organize an application around its required modality and output. That can make requirements more concrete: which data arrives, which result is needed and where processing happens. It leaves error, latency and memory testing essential on a real scenario. The substantive announcement is a related set of models supporting different inputs and specialization paths. Whether one is advantageous for a particular product remains a question to measure in that product's operating context.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/LiquidAI/lfm3">https://huggingface.co/blog/LiquidAI/lfm3</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

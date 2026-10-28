@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ai2 проверил, почему ИИ меняет вердикт о новизне научной идеи - frontier-wire</title>
+<meta name="description" content="A new benchmark reveals sensitivity to question wording, especially when evaluating generated ideas.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-10-28/01-ai2-novelty-judges.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Ai2 tests why AI changes its verdict on a research idea's novelty", "alternativeHeadline": "Ai2 проверил, почему ИИ меняет вердикт о новизне научной идеи", "datePublished": "2026-10-28", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/allenai/novelty-bench", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-10-28/01-ai2-novelty-judges.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-10-28 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Ai2 проверил, почему ИИ меняет вердикт о новизне научной идеи</span><span class="lang-en">Ai2 tests why AI changes its verdict on a research idea&#x27;s novelty</span></h1>
+  <p class="dek big"><span class="lang-ru">Новый набор тестов показывает чувствительность оценок к формулировке вопроса, особенно для сгенерированных идей.</span><span class="lang-en">A new benchmark reveals sensitivity to question wording, especially when evaluating generated ideas.</span></p>
+
+  <div class="prose lang-ru"><p>Научную идею мало придумать: нужно понять, добавляет ли она что-то к уже известному. Когда эту проверку поручают языковой модели, несколько слов в вопросе могут заметно изменить ответ. Ai2 27 октября <a href="https://huggingface.co/blog/allenai/novelty-bench">представил исследование и тестовый набор для таких судей</a>. Авторы проверяли, как на оценку новизны влияют инструкции, поиск литературы и способ сравнения идей. Результат касается надёжности процедуры оценки, а не способности ИИ окончательно решить, что считать научным открытием.</p>
+<p>В одном опыте GPT-5.4 сравнивал пары из человеческой и сгенерированной идеи. Инструкция, сообщавшая, что рецензенты признали новой ровно одну из них, давала 93,5 процента точности. После перехода к более простому вопросу показатель упал до 40,9 процента. Пары оставались прежними. Такое изменение показывает, что решение зависит от рамки задания; оно не означает, что сама научная ценность идеи поменялась между двумя запусками или что тот же эффект неизбежен у каждой модели.</p>
+<p>Для человеческих идей команда использовала рецензии ICLR 2026. В группу с сильными свидетельствами новизны вошли 154 идеи, в противоположную — 145. Отбор учитывал явные суждения рецензентов, а не только принятие или отклонение статьи. Это содержательное различие: работа может быть полезной без большого нового результата, а оригинальная идея может иметь другие недостатки. Но такой отбор всё равно описывает конкретное научное сообщество и заданные правила включения в набор.</p>
+<p>В отдельной части человеческие идеи сопоставили с идеями простого генератора без поиска и итераций. Предположение об их меньшей новизне авторы называют слабой разметкой, а не проверенным фактом о каждом примере. Дополнительная экспертная проверка охватила тридцать пар, преимущественно из трудных случаев. Эти ограничения не отменяют наблюдаемой смены ответов при переформулировке: саму нестабильность можно заметить даже без окончательного согласия, какой вариант в каждой паре действительно оригинальнее.</p>
+<p>Больше поиска и вычислений также не обеспечивали устойчивого улучшения во всех рассмотренных настройках. Для читателя это повод раздельно оценивать источники, критерий и воспроизводимость суждения. Уверенно написанный отзыв ещё не показывает, какие работы были проверены и насколько вердикт сохраняется при разумной смене инструкции. Редакция опирается на полный институциональный разбор Ai2 и не выдаёт его результаты за собственное воспроизведение эксперимента или независимую экспертизу всех идей.</p>
+<h3>Почему это важно</h3>
+<p>Автоматический отбор исследовательских направлений требует проверки самого оценщика. Если формулировка меняет порядок предпочтений, сравнение двух генераторов может отражать устройство судьи. Новый набор помогает сделать эту проблему измеримой. Практический вывод скромнее лозунга о замене рецензентов: прежде чем опираться на балл новизны, нужно выяснить его устойчивость и понять, на каких свидетельствах он основан. Иначе удобная цифра придаёт лишнюю определённость ещё открытому научному вопросу.</p></div>
+  <div class="prose lang-en"><p>Generating a research idea leaves another task: establishing what it adds to existing knowledge. When a language model makes that judgement, a few words in the question can substantially change the answer. On October 27, Ai2 <a href="https://huggingface.co/blog/allenai/novelty-bench">introduced a study and benchmark for novelty judges</a>, examining prompts, literature retrieval and comparison formats. The findings concern the reliability of an evaluation procedure, rather than establishing that AI can definitively decide what counts as a scientific discovery across every field and research setting.</p>
+<p>In one experiment, GPT-5.4 compared pairs containing a human-authored and a generated idea. An instruction saying reviewers had identified exactly one idea as novel produced 93.5 percent accuracy. Switching to a simpler question reduced it to 40.9 percent, with the same pairs. The change shows sensitivity to the task's framing. It does not mean the underlying contribution changed between runs or that every model will exhibit the same shift under every possible wording of the question.</p>
+<p>For human-authored ideas, the researchers mined ICLR 2026 reviews. A pool with strong evidence of novelty contained 154 ideas; a lower-novelty pool contained 145. Selection used explicit reviewer statements rather than paper acceptance alone. That distinction matters: useful work can lack a major original contribution, while an original idea can have other weaknesses. The resulting sample nevertheless reflects a particular research community and specified inclusion rules, rather than providing an exhaustive standard for judging originality everywhere in science.</p>
+<p>A separate setting paired human ideas with outputs from a simple generator operating without search or iterative feedback. The assumption that those generated ideas were less novel is described as weak labeling, not a verified judgement for every example. An additional expert check covered thirty pairs, weighted toward difficult cases. These limitations do not erase the observed verdict changes. Instability under rephrasing can be measured even without final agreement about which idea in every pair is genuinely more original.</p>
+<p>More retrieval and computation did not consistently improve every evaluated setup either. Readers should therefore consider the evidence retrieved, the criterion applied and the repeatability of the judgement separately. A confident review does not establish which prior work was examined or whether the verdict survives reasonable prompt changes. Frontier Wire is reporting Ai2's complete institutional account, rather than independently reproducing its experiments or claiming to have conducted an expert review of all the ideas included in the benchmark.</p>
+<h3>Why it matters</h3>
+<p>Automated selection of research directions requires evaluating the evaluator. If wording changes preferences, a comparison between two idea generators may partly measure how the judge was configured. The benchmark makes that problem easier to study. The practical implication is narrower than replacing peer review: before relying on a novelty score, establish how stable it is and which evidence supports it. Otherwise a convenient number gives an unresolved scientific question more certainty than the evaluation can justify.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/allenai/novelty-bench">https://huggingface.co/blog/allenai/novelty-bench</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
