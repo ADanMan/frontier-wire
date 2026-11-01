@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-11-01",
+  "slot": "evening",
+  "checked_at": "2026-11-01T16:07:08.468733+00:00",
+  "digest_sha256": "1cee63c50fc90a7620d389fe78fe6319e71c3f579edced847cbe1cb2d7d28cb2",
+  "articles": [
+    {
+      "path": "editions/2026/11-01/03-nesformer-compiled-cpu.md",
+      "sha256": "34e079760b9394b4c95cbd03a199d7cfd8a30a2091c23cd39c04bb410daf33bb",
+      "source": "https://github.com/dbreunig/nesformer"
+    },
+    {
+      "path": "editions/2026/11-01/04-vega-island-exposed-ice.md",
+      "sha256": "25ab1c12efbce70a98264ac8029ef7c7bcdbfe3eb7bd65f87ec1cee525ef944c",
+      "source": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright"
+    }
+  ]
+}

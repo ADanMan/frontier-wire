@@ -5,8 +5,8 @@ edition: 47
 
 ## От редакции
 
-Воскресное утро — два материала о следующих шагах космических программ. NASA собирает сведения о возможном обслуживании Hubble и готовит выставку MAX POWER на 6–8 ноября. В обоих случаях отделяем опубликованный план от ещё не полученного результата.
+Воскресный выпуск объединяет четыре материала о том, что именно подтверждает демонстрация или объявление. Утром — варианты обслуживания Hubble и программа MAX POWER; вечером — процессор NES в весах модели и спутниковое сравнение ледяного острова Вега. Проверяем границы экспериментов, даты наблюдений и разницу между планом и результатом.
 
 ## Editorial
 
-Sunday morning brings two stories about the next steps in space programs. NASA is gathering information on possible Hubble servicing and preparing MAX POWER for November 6–8. Both accounts distinguish a published plan from a result that has yet to be established.
+Sunday brings four stories about what a demonstration or announcement actually establishes. Morning coverage of Hubble servicing options and MAX POWER is joined by an NES CPU compiled into model weights and a satellite comparison of icy Vega Island. Each account checks experimental boundaries, observation dates and the distinction between plans and results.

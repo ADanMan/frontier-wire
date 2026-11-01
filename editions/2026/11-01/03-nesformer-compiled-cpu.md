@@ -1,0 +1,42 @@
+---
+date: 2026-11-01
+rubric: tech
+title_ru: NESformer поместил процессор NES в веса модели, но оставил графику снаружи
+title_en: NESformer puts an NES CPU in model weights while keeping graphics outside
+dek_ru: Эксперимент компилирует вычисления вместо обучения на играх; скорость и поддержка картриджей остаются ограниченными.
+dek_en: The experiment compiles computation instead of learning games, with substantial speed and cartridge limitations.
+source: https://github.com/dbreunig/nesformer
+generated: true
+---
+
+## Русская версия
+
+Можно ли запустить старую игру внутри архитектуры языковой модели? Проект Дрю Бройнига [NESformer](https://github.com/dbreunig/nesformer), привлёкший внимание в технических обзорах 30 октября, отвечает на более точный вопрос: можно ли скомпилировать процессор консоли в веса совместимого checkpoint. Полный README описывает именно такую конструкцию. Веса здесь не обучались по записям игровых сессий: компилятор вычислил их так, чтобы модель последовательно выдавала журнал исполнения процессорных инструкций. Это существенно отличается от системы, которая угадывает следующий кадр по увиденным примерам.
+
+Внутри находятся ядро 6502, два килобайта рабочей памяти и программное содержимое картриджа. Для состояния машины используется механизм Gated DeltaNet архитектуры Qwen3.5. Небольшая внешняя программа отвечает за остальную консоль: рисует изображение, читает управление и подаёт прерывания. Поэтому выражение «NES в модели» требует уточнения. Графический блок PPU не перенесён в веса, а звук отсутствует. Изображение игры возникает в совместной работе скомпилированного процессора и обычного программного окружения, а не целиком внутри одного нейросетевого вычисления.
+
+README отдельно описывает проверку. Автор сравнивал эталонный процессор с известными тестами и другим эмулятором, затем сопоставлял выдачу схемы и checkpoint с эталонными трассами. Для нескольких тестовых запусков заявлено совпадение кадров и последовательностей инструкций. Это проверяемое описание процедуры и результатов разработчика, но редакция не воспроизводила её самостоятельно. Совпадение конкретных прогонов также не равнозначно доказательству полной совместимости со всеми играми и всеми особенностями настоящей консоли.
+
+Ограничения перечислены прямо. Поддерживаются картриджи NROM, использующие mapper 0; переключение банков памяти пока не реализовано. Неофициальные инструкции и переход к коду в оперативной памяти останавливают выполнение. Некоторые детали графики приближены, ряд прерываний отсутствует. Даже быстрый движок, по измерениям автора, работает в 150–290 раз медленнее настоящей NES. Обычная загрузка через transformers ещё медленнее. Поэтому эффектная демонстрация не превращает проект в удобную замену традиционного эмулятора для повседневной игры.
+
+Интереснее здесь способ устройства эксперимента. Архитектура модели выступает формой представления вычислительной схемы, а не только носителем статистически выученных закономерностей. Компилятор задаёт поведение, состояние хранит память машины, а токены фиксируют шаги исполнения. Именно это позволяет сравнивать результат с детерминированным эталоном. Успех такого сравнения говорит о конкретной реализации процессора и не означает, что обычная разговорная модель внезапно научилась безошибочно исполнять произвольные программы по текстовой просьбе пользователя.
+
+### Почему это важно
+
+NESformer полезен как открытый инженерный опыт с чётко обозначенными границами. В нём можно различить, что вычисляет модель, что делает внешняя программа и как проверяется соответствие. Для новостей об ИИ это хороший набор вопросов: каким способом получено поведение, на чём его проверили и где оно перестаёт работать? Ответы здесь содержательнее самого зрелищного кадра игры и не требуют приписывать эксперименту универсальные возможности.
+
+## English version
+
+Can an old game run inside a language-model architecture? Drew Breunig's [NESformer project](https://github.com/dbreunig/nesformer), highlighted in technical coverage on October 30, addresses a more precise question: can a console CPU be compiled into the weights of a compatible checkpoint? Its full README describes that construction. The weights were not trained on recordings of gameplay. A compiler computed them so that the model emits a CPU execution trace token by token. This is fundamentally different from predicting the next picture from examples of previously observed games.
+
+The model contains a 6502 core, two kilobytes of work RAM and the cartridge's program contents. It uses the Qwen3.5 architecture's Gated DeltaNet mechanism to hold machine state. A small host program supplies the rest of the console: drawing the picture, reading controller input and injecting interrupts. Saying that an NES is inside the model therefore needs qualification. The PPU graphics component is outside the weights, and there is no sound. The visible game emerges from the compiled CPU working with a conventional software environment, rather than the entire console operating within one neural computation.
+
+Verification is described separately. The author compared a reference CPU against established tests and another emulator, then compared circuit and checkpoint outputs with reference traces. Several test runs reportedly produced matching frames and instruction sequences. That is an inspectable account of the developer's procedure and results, but Frontier Wire has not reproduced it independently. Matching particular runs does not prove compatibility with every game or every hardware behavior. The distinction matters even when the demonstration appears visually convincing and the test descriptions are unusually specific.
+
+The limitations are explicit. Supported cartridges use NROM, or mapper 0; bank switching is not implemented. Unofficial instructions and jumps into code in RAM halt execution. Some graphics details are approximate, and some interrupts are absent. Even the fast engine reportedly runs 150–290 times slower than a real NES in the author's measurements. Loading the checkpoint through stock transformers is slower still. This makes the project a computational demonstration rather than a practical replacement for a conventional emulator used for everyday gaming.
+
+The more interesting aspect is how the experiment is constructed. A model architecture becomes a representation of a computational circuit, rather than only a container for statistically learned patterns. The compiler specifies behavior, persistent state holds machine memory, and tokens record execution steps. That arrangement permits comparison against a deterministic reference. Successful comparisons support this specific CPU implementation; they do not establish that an ordinary conversational model has acquired error-free execution of arbitrary programs in response to a natural-language request from a user.
+
+### Why it matters
+
+NESformer is useful as an open engineering experiment with stated boundaries. Readers can separate what the model computes, what the host supplies and how agreement is checked. Those are valuable questions for AI demonstrations generally: how was the behavior obtained, what tested it, and where does it stop working? Here the answers are more informative than a striking gameplay frame, without requiring a claim of universal computational competence.

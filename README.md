@@ -14,6 +14,8 @@
 
 - **[Наука и технологии]** [NASA собирает предложения по обслуживанию Hubble и подъёму его орбиты](editions/2026/11-01/01-hubble-servicing-options.md)
 - **[Наука и технологии]** [NASA назначила лунное обновление и показ X-59 на MAX POWER](editions/2026/11-01/02-max-power-november-program.md)
+- **[Технологии и наука]** [NESformer поместил процессор NES в веса модели, но оставил графику снаружи](editions/2026/11-01/03-nesformer-compiled-cpu.md)
+- **[Технологии и наука]** [Снимки острова Вега показывают, почему тёмный лёд важнее сходства с черепом](editions/2026/11-01/04-vega-island-exposed-ice.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

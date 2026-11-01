@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Воскресное утро — два материала о следующих шагах космических программ. NASA собирает сведения о возможном обслуживании Hubble и готовит выставку MAX POWER на 6–8 ноября. В обоих случаях отделяем опубликованный план от ещё не полученного результата.
+Воскресный выпуск объединяет четыре материала о том, что именно подтверждает демонстрация или объявление. Утром — варианты обслуживания Hubble и программа MAX POWER; вечером — процессор NES в весах модели и спутниковое сравнение ледяного острова Вега. Проверяем границы экспериментов, даты наблюдений и разницу между планом и результатом.
 
 ## Editorial
 
-Sunday morning brings two stories about the next steps in space programs. NASA is gathering information on possible Hubble servicing and preparing MAX POWER for November 6–8. Both accounts distinguish a published plan from a result that has yet to be established.
+Sunday brings four stories about what a demonstration or announcement actually establishes. Morning coverage of Hubble servicing options and MAX POWER is joined by an NES CPU compiled into model weights and a satellite comparison of icy Vega Island. Each account checks experimental boundaries, observation dates and the distinction between plans and results.
 
 
 ----- 01-hubble-servicing-options (science) — source: https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/ -----
@@ -81,6 +81,76 @@ Sunday's program includes a student-challenge announcement and an appearance by 
 ### Why it matters
 
 A large expo can generate several streams of news at once. Its calendar helps readers prepare to follow them separately: lunar infrastructure, experimental aviation, scientific instruments and crew operations. The substantive checkpoints will be individual presentations and supporting publications. Hardware being present at an event does not itself demonstrate a new technical result, while a promised program update is not equivalent to a completed implementation milestone.
+
+
+----- 03-nesformer-compiled-cpu (tech) — source: https://github.com/dbreunig/nesformer -----
+
+## Русская версия
+
+Можно ли запустить старую игру внутри архитектуры языковой модели? Проект Дрю Бройнига [NESformer](https://github.com/dbreunig/nesformer), привлёкший внимание в технических обзорах 30 октября, отвечает на более точный вопрос: можно ли скомпилировать процессор консоли в веса совместимого checkpoint. Полный README описывает именно такую конструкцию. Веса здесь не обучались по записям игровых сессий: компилятор вычислил их так, чтобы модель последовательно выдавала журнал исполнения процессорных инструкций. Это существенно отличается от системы, которая угадывает следующий кадр по увиденным примерам.
+
+Внутри находятся ядро 6502, два килобайта рабочей памяти и программное содержимое картриджа. Для состояния машины используется механизм Gated DeltaNet архитектуры Qwen3.5. Небольшая внешняя программа отвечает за остальную консоль: рисует изображение, читает управление и подаёт прерывания. Поэтому выражение «NES в модели» требует уточнения. Графический блок PPU не перенесён в веса, а звук отсутствует. Изображение игры возникает в совместной работе скомпилированного процессора и обычного программного окружения, а не целиком внутри одного нейросетевого вычисления.
+
+README отдельно описывает проверку. Автор сравнивал эталонный процессор с известными тестами и другим эмулятором, затем сопоставлял выдачу схемы и checkpoint с эталонными трассами. Для нескольких тестовых запусков заявлено совпадение кадров и последовательностей инструкций. Это проверяемое описание процедуры и результатов разработчика, но редакция не воспроизводила её самостоятельно. Совпадение конкретных прогонов также не равнозначно доказательству полной совместимости со всеми играми и всеми особенностями настоящей консоли.
+
+Ограничения перечислены прямо. Поддерживаются картриджи NROM, использующие mapper 0; переключение банков памяти пока не реализовано. Неофициальные инструкции и переход к коду в оперативной памяти останавливают выполнение. Некоторые детали графики приближены, ряд прерываний отсутствует. Даже быстрый движок, по измерениям автора, работает в 150–290 раз медленнее настоящей NES. Обычная загрузка через transformers ещё медленнее. Поэтому эффектная демонстрация не превращает проект в удобную замену традиционного эмулятора для повседневной игры.
+
+Интереснее здесь способ устройства эксперимента. Архитектура модели выступает формой представления вычислительной схемы, а не только носителем статистически выученных закономерностей. Компилятор задаёт поведение, состояние хранит память машины, а токены фиксируют шаги исполнения. Именно это позволяет сравнивать результат с детерминированным эталоном. Успех такого сравнения говорит о конкретной реализации процессора и не означает, что обычная разговорная модель внезапно научилась безошибочно исполнять произвольные программы по текстовой просьбе пользователя.
+
+### Почему это важно
+
+NESformer полезен как открытый инженерный опыт с чётко обозначенными границами. В нём можно различить, что вычисляет модель, что делает внешняя программа и как проверяется соответствие. Для новостей об ИИ это хороший набор вопросов: каким способом получено поведение, на чём его проверили и где оно перестаёт работать? Ответы здесь содержательнее самого зрелищного кадра игры и не требуют приписывать эксперименту универсальные возможности.
+
+## English version
+
+Can an old game run inside a language-model architecture? Drew Breunig's [NESformer project](https://github.com/dbreunig/nesformer), highlighted in technical coverage on October 30, addresses a more precise question: can a console CPU be compiled into the weights of a compatible checkpoint? Its full README describes that construction. The weights were not trained on recordings of gameplay. A compiler computed them so that the model emits a CPU execution trace token by token. This is fundamentally different from predicting the next picture from examples of previously observed games.
+
+The model contains a 6502 core, two kilobytes of work RAM and the cartridge's program contents. It uses the Qwen3.5 architecture's Gated DeltaNet mechanism to hold machine state. A small host program supplies the rest of the console: drawing the picture, reading controller input and injecting interrupts. Saying that an NES is inside the model therefore needs qualification. The PPU graphics component is outside the weights, and there is no sound. The visible game emerges from the compiled CPU working with a conventional software environment, rather than the entire console operating within one neural computation.
+
+Verification is described separately. The author compared a reference CPU against established tests and another emulator, then compared circuit and checkpoint outputs with reference traces. Several test runs reportedly produced matching frames and instruction sequences. That is an inspectable account of the developer's procedure and results, but Frontier Wire has not reproduced it independently. Matching particular runs does not prove compatibility with every game or every hardware behavior. The distinction matters even when the demonstration appears visually convincing and the test descriptions are unusually specific.
+
+The limitations are explicit. Supported cartridges use NROM, or mapper 0; bank switching is not implemented. Unofficial instructions and jumps into code in RAM halt execution. Some graphics details are approximate, and some interrupts are absent. Even the fast engine reportedly runs 150–290 times slower than a real NES in the author's measurements. Loading the checkpoint through stock transformers is slower still. This makes the project a computational demonstration rather than a practical replacement for a conventional emulator used for everyday gaming.
+
+The more interesting aspect is how the experiment is constructed. A model architecture becomes a representation of a computational circuit, rather than only a container for statistically learned patterns. The compiler specifies behavior, persistent state holds machine memory, and tokens record execution steps. That arrangement permits comparison against a deterministic reference. Successful comparisons support this specific CPU implementation; they do not establish that an ordinary conversational model has acquired error-free execution of arbitrary programs in response to a natural-language request from a user.
+
+### Why it matters
+
+NESformer is useful as an open engineering experiment with stated boundaries. Readers can separate what the model computes, what the host supplies and how agreement is checked. Those are valuable questions for AI demonstrations generally: how was the behavior obtained, what tested it, and where does it stop working? Here the answers are more informative than a striking gameplay frame, without requiring a claim of universal computational competence.
+
+
+----- 04-vega-island-exposed-ice (science) — source: https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/ -----
+
+## Русская версия
+
+На острове Вега у Антарктического полуострова лёд и каменные выступы складываются в профиль, похожий на череп. Но в [публикации NASA Earth Observatory от 30 октября](https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/) важнее другая деталь: на одном из двух спутниковых кадров большие участки выглядят темнее, потому что снег не закрывает лёд. Иллюстрации получены прибором OLI на Landsat 9. Их даты — 22 марта 2025 года и 10 октября 2026-го, а не два последовательных дня нынешней осени.
+
+Мнимые черты лица имеют геологические объяснения. Выступающий из льда участок скалы, нунатак, напоминает глазницу. Боковая морена образует линию «рта», а ледник Bahía del Diablo — «челюсть». Это удобная визуальная подсказка, чтобы найти части ландшафта, но она не является самостоятельным научным признаком. Исследовательский вопрос начинается с того, чем покрыта поверхность, как различаются сезоны и какие наблюдения помогают объяснить увиденное на изображении.
+
+Мартовский кадр относится к началу южной осени, октябрьский — к весне. Снег на изображении 2025 года соответствует обычно влажному для региона марту. В октябре 2026-го на больших площадях виден открытый лёд. NASA объясняет выбор разных лет тем, что в марте 2026 года остров закрывали облака. Поэтому пару нельзя безоговорочно читать как сравнение одинаковой даты двух лет или как прямое измерение изменения за один сезон. У неё есть полезная информация, но также вполне конкретные ограничения сопоставимости.
+
+Гляциолог Маури Пелто, на которого ссылается NASA, связывает открытый лёд отчасти с повышенными температурами зимы 2026 года, особенно июня. По его объяснению, накопление нового снега было ограниченным, а сублимация и выдувание дополнительно уменьшали покров. Это интерпретация наблюдений специалистом, а не рассчитанная редакцией доля влияния каждого процесса. Более тёмный лёд поглощает больше солнечной энергии, чем снег, поэтому состояние поверхности важно для предстоящего сезона таяния по мере удлинения и потепления дней.
+
+У острова есть и более длинная история измерений. NASA напоминает о картографировании ледников с использованием ранних снимков Landsat, аэрофотографий и топографических карт в исследовании 1982 года. Тогда были описаны 29 ледников Веги. Bahía del Diablo внимательно наблюдают с южного лета 1998–1999 годов; исследователи измерили общее сокращение его массы. Это отдельный временной ряд, а не результат вычисления по двум иллюстрациям свежей публикации. Такое различие позволяет соединять наглядный пример с наблюдениями, не подменяя один тип свидетельства другим.
+
+### Почему это важно
+
+Спутниковая фотография может привлечь необычной формой, но её смысл раскрывают дата, сезон, прибор и сопутствующие измерения. Здесь сравнение показывает роль снежного покрова и объясняет, почему открытый тёмный лёд меняет энергетический баланс поверхности. Для количественного вывода о массе нужны соответствующие данные и метод. Разделять изображение, объяснение и многолетний ряд полезно: так интересная иллюстрация остаётся входом в исследование, а не превращается в неподтверждённую цифру.
+
+## English version
+
+Ice and exposed rock on Vega Island near the Antarctic Peninsula form a profile resembling a skull. In NASA Earth Observatory's [October 30 feature](https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/), however, another detail matters more: broad areas look darker in one of the two satellite scenes because snow is not covering the ice. Both images were acquired by Landsat 9's OLI instrument. Their dates are March 22, 2025, and October 10, 2026, rather than two consecutive days during the current northern autumn.
+
+The apparent facial features have physical explanations. An exposed rock protruding through the ice, a nunatak, resembles an eye socket. A lateral moraine forms the apparent mouth, while Bahía del Diablo Glacier makes the jaw. These are helpful visual cues for locating parts of the landscape, but the resemblance is not itself a scientific indicator. The useful questions concern surface cover, seasonal differences and the additional observations available to explain what appears in the image, rather than the face a viewer happens to recognize.
+
+The March scene represents the beginning of southern autumn, whereas October is spring. Snow in the 2025 image fits the region's typically wet March conditions. In October 2026, extensive areas show exposed ice. NASA explains that clouds obscured the island in March 2026, accounting for the choice of different years. The pair should therefore not be read uncritically as matching annual dates or a direct measurement of change across a single season. It contains useful information alongside specific limits on how the scenes can be compared.
+
+Glaciologist Mauri Pelto, cited by NASA, attributes the exposed ice partly to above-average temperatures during the 2026 winter, particularly June. His interpretation includes limited accumulation of new snow, further reduced by sublimation and wind scouring. That is an expert explanation of observations, rather than a calculation by this publication assigning an exact contribution to each process. Darker bare ice absorbs more solar energy than snow, making surface conditions relevant to the approaching melt season as days become longer and warmer in the Southern Hemisphere.
+
+The island also has a longer observational record. NASA recalls a 1982 study using early Landsat imagery, aerial photography and topographic maps to catalog 29 glaciers on Vega. Bahía del Diablo has been monitored closely since the southern summer of 1998–1999, with researchers measuring an overall decline in its mass. That evidence is a separate time series, not a mass-change calculation derived from the two pictures in this new feature. Keeping those sources distinct connects an accessible illustration with research without substituting one form of evidence for another.
+
+### Why it matters
+
+A satellite image may attract attention through an unusual shape, but its meaning depends on date, season, instrument and accompanying measurements. This comparison illustrates snow cover and explains why darker exposed ice affects the surface's energy balance. Quantifying mass change needs suitable data and a method. Separating the image, its interpretation and the longer record lets an engaging picture provide an entry into research rather than an unsupported numerical conclusion.
 
 
 ===== EDITION 46 — 2026-10-28 =====
