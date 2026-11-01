@@ -10,17 +10,10 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №46 / Edition №46 — 2026-10-28** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-10-28/)
+**Выпуск №47 / Edition №47 — 2026-11-01** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-01/)
 
-- **[ИИ]** [Ai2 проверил, почему ИИ меняет вердикт о новизне научной идеи](editions/2026/10-28/01-ai2-novelty-judges.md)
-- **[ИИ]** [LFM3 разводит текст, зрение и звук по компактным моделям с общей основой](editions/2026/10-28/02-lfm3-specialized-models.md)
-- **[Технологии]** [Oracle готовит доступ к бизнес-приложениям через ChatGPT](editions/2026/10-28/03-oracle-chatgpt-workspace.md)
-- **[Наука]** [Щит NEO Surveyor будет закрывать телескоп от Солнца и давать ему питание](editions/2026/10-28/04-neo-surveyor-sunshade.md)
-- **[Наука]** [Экипаж CHAPEA готовится выйти из земного «Марса» 31 октября](editions/2026/10-28/05-chapea-exit-planned.md)
-- **[ИИ]** [Anthropic расширяет скидку на Claude для госорганизаций США](editions/2026/10-28/06-claude-government-discount.md)
-- **[Технологии]** [MacBook Pro с M6 принимает предзаказы, продажи начнутся 6 ноября](editions/2026/10-28/07-macbook-pro-m6-preorders.md)
-- **[Наука]** [Landsat показывает вулканическое основание каменных столбов Чирикауа](editions/2026/10-28/08-chiricahua-landsat-geology.md)
-- **[Наука]** [Айсберг A-81 замедлился у подводного шельфа Южной Георгии](editions/2026/10-28/09-a81-south-georgia-drift.md)
+- **[Наука и технологии]** [NASA собирает предложения по обслуживанию Hubble и подъёму его орбиты](editions/2026/11-01/01-hubble-servicing-options.md)
+- **[Наука и технологии]** [NASA назначила лунное обновление и показ X-59 на MAX POWER](editions/2026/11-01/02-max-power-november-program.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

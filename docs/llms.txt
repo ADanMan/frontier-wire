@@ -17,6 +17,8 @@ Publisher: Danila Katalshov — https://adanman.github.io
 - Repository: https://github.com/ADanMan/frontier-wire
 
 ## Latest articles
+- [NASA seeks industry options for servicing Hubble and raising its orbit](https://adanman.github.io/frontier-wire/e/2026-11-01/01-hubble-servicing-options.html) — An information request remains open until November 30, exploring capabilities rather than approving a rescue mission.
+- [NASA schedules a Moon Base update and X-59 display at MAX POWER](https://adanman.github.io/frontier-wire/e/2026-11-01/02-max-power-november-program.html) — The November 6–8 program combines aviation, space hardware and crew appearances, with the events still ahead.
 - [Ai2 tests why AI changes its verdict on a research idea's novelty](https://adanman.github.io/frontier-wire/e/2026-10-28/01-ai2-novelty-judges.html) — A new benchmark reveals sensitivity to question wording, especially when evaluating generated ideas.
 - [LFM3 puts text, vision and audio models on a shared compact backbone](https://adanman.github.io/frontier-wire/e/2026-10-28/02-lfm3-specialized-models.html) — Liquid AI introduced six variants intended for specialization and deployment close to the application.
 - [Oracle is developing access to business applications through ChatGPT](https://adanman.github.io/frontier-wire/e/2026-10-28/03-oracle-chatgpt-workspace.html) — The partners described an AI Workspace governed by company permissions and a U.S. Marketplace purchasing route.
@@ -35,5 +37,3 @@ Publisher: Danila Katalshov — https://adanman.github.io
 - [Polar Peaks introduces AI through data cleaning and model testing](https://adanman.github.io/frontier-wire/e/2026-10-27/07-polar-peaks-ai-literacy.html) — A new Google Research and Stanford Accelerator for Learning quest uses neuroscience as its teaching setting.
 - [A Trainium support table shows which models passed a specific short test](https://adanman.github.io/frontier-wire/e/2026-10-27/08-trainium-model-support-tests.html) — Hugging Face publishes stack versions, scripts and outcomes, while PASS does not measure throughput or long generations.
 - [iPhone Duo teardown separates repair access from fold durability](https://adanman.github.io/frontier-wire/e/2026-10-26/01-iphone-duo-repairability.html) — iFixit awarded a provisional 5 out of 10, noting accessible batteries and a difficult inner-display replacement.
-- [IUCN reef assessment measures future risk, not 96 percent already lost](https://adanman.github.io/frontier-wire/e/2026-10-26/02-coral-reef-ecosystem-risk.html) — Climate projections sharply change threat classifications in a global analysis of 127 ecoregions.
-- [CRISTAL opens its solar arrays on the ground ahead of environmental tests](https://adanman.github.io/frontier-wire/e/2026-10-26/03-cristal-deployment-tests.html) — The ice-monitoring satellite moves from assembly toward qualification, with launch targeted for late 2027 to early 2028.

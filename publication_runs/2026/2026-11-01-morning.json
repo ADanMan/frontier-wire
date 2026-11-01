@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-11-01",
+  "slot": "morning",
+  "checked_at": "2026-11-01T04:04:23.683331+00:00",
+  "digest_sha256": "fa2414293f882406ae37c4fe0090c4fcc50daa8c86b2e097c623910f5f395ad5",
+  "articles": [
+    {
+      "path": "editions/2026/11-01/01-hubble-servicing-options.md",
+      "sha256": "a69efb9b61e79e0b5d65ea6285f09f4e7316825f4f427feb24c06b7b0bf07344",
+      "source": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope"
+    },
+    {
+      "path": "editions/2026/11-01/02-max-power-november-program.md",
+      "sha256": "49434dead3ac5f5be7a0e5c183da5cd95d8445a1a109d549a4f7600d88960a5f",
+      "source": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants"
+    }
+  ]
+}
