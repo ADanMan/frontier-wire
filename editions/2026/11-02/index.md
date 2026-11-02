@@ -5,8 +5,8 @@ edition: 48
 
 ## От редакции
 
-Утром два материала о том, как сделать результат проверяемым. ProtoStar начинает конкурс с историческим климатическим прогнозом, а новое инженерное эссе ставит вопрос о принятии ИИ-кода. Разбираем актуальные правила, информационные границы и то, чего ещё не доказывают пройденные тесты.
+Сегодня четыре материала о том, как читать результаты и их границы. Утром — старт ProtoStar и принятие ИИ-кода; вечером — сравнение памяти моделей на длинных ответах и октябрьские снимки каньона Пенсильвании. Отделяем проверенный вывод от гипотезы, дату публикации — от даты наблюдения.
 
 ## Editorial
 
-Two morning stories examine what makes a result testable. ProtoStar begins a historical climate-prediction challenge, while a new engineering essay raises the question of accepting AI-written code. We examine current rules, information boundaries and what passing tests still cannot establish.
+Four stories examine results and their limits. Morning coverage of ProtoStar and accepting AI-written code is joined by a model-memory comparison on long answers and October imagery of Pennsylvania’s canyon. Each account separates findings from hypotheses and publication dates from observation dates.

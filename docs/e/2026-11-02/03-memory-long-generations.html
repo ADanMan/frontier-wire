@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Короткий ответ ещё не проверяет память модели на длинном рассуждении - frontier-wire</title>
+<meta name="description" content="A new author-reported comparison of sliding windows and hybrid memory highlights generation length as a separate evaluation dimension.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-02/03-memory-long-generations.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Short answers do not establish how a model remembers during long reasoning", "alternativeHeadline": "Короткий ответ ещё не проверяет память модели на длинном рассуждении", "datePublished": "2026-11-02", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-02/03-memory-long-generations.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-11-02 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Короткий ответ ещё не проверяет память модели на длинном рассуждении</span><span class="lang-en">Short answers do not establish how a model remembers during long reasoning</span></h1>
+  <p class="dek big"><span class="lang-ru">Новое авторское сравнение скользящего окна и гибридной памяти показывает, почему длину генерации нужно учитывать отдельно.</span><span class="lang-en">A new author-reported comparison of sliding windows and hybrid memory highlights generation length as a separate evaluation dimension.</span></p>
+
+  <div class="prose lang-ru"><p>В <a href="https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention">публикации от 2 ноября</a> исследователь Lukas, известный как sirluk, сравнивает варианты памяти моделей при одинаковом бюджете. В его опытах скользящее окно хорошо работает на коротких ответах, а гибрид Bifocal помогает на длинных математических генерациях. Автор оговаривает статистическую неопределённость общего среднего. Редакция не воспроизводила эксперимент. Это ограниченное исследовательское сообщение, а не доказательство превосходства одной архитектуры для любых задач и любых размеров моделей.</p>
+<p>Разберём, почему сама постановка вопроса важна. Длина входного документа и длина ответа — две независимые характеристики нагрузки. Можно передать системе большой справочник и попросить одно название. Можно дать короткое условие, после которого потребуется много промежуточных вычислений. В первом случае полезную информацию нужно найти во входе, во втором — сохранить ещё и то, что система выработала по ходу ответа. Одинаковое число входных символов не делает эти сценарии одинаковыми.</p>
+<p>Представим условную задачу составления расписания. В начале перечислены комнаты, ограничения времени и уже занятые интервалы. Затем система последовательно добавляет десятки встреч. Даже если каждое новое назначение выглядит правдоподобно рядом с предыдущим, оно должно оставаться согласованным с исходным запретом на пересечение. Проверка только первой встречи не показывает, сохранится ли это свойство в конце длинного результата. Такой пример иллюстрирует критерий оценки; это не дополнительный опыт автора публикации и не выполненный нами тест.</p>
+<p>Чтобы понять разницу, можно заранее определить проверяемые условия: число конфликтов, соблюдение исходных ограничений, корректность последнего назначения. Важно проверять конечный результат, а не считать длину объяснения признаком его качества. Длинный текст может содержать повторение или неверный промежуточный шаг. И наоборот, короткий корректный ответ не обязан раскрывать все внутренние причины успеха. Поэтому группировка по длине помогает сформулировать гипотезу, но сама по себе ещё не объясняет, почему одна система справилась лучше другой.</p>
+<p>Отдельный вопрос — честность ресурсного сравнения. Если двум решениям разрешить разный объём памяти, итог смешает устройство алгоритма и количество доступного ресурса. Если уравнять память, но изменить обучение, останется другой возможный источник различия. Чтобы принимать инженерное решение, полезно знать, что именно было зафиксировано, какая часть нагрузки измерена и насколько результаты применимы к вашему сценарию. Здесь речь об устройстве сравнения, а не о рекомендации заменить уже работающую инфраструктуру по одному заголовку.</p>
+<h3>Почему это важно</h3>
+<p>Тест с коротким ответом и тест с длинной генерацией задают разные вопросы к системе. Новая публикация делает это различие предметом конкретного сравнения, сохраняя ограничения выводов. Практический вывод для читателя — спрашивать не только о размере контекстного окна, но и о форме работы: что модель получает, сколько должна произвести и по каким проверяемым условиям оценивается итог. Такой набор вопросов полезнее универсального обещания «лучшей памяти» без описания нагрузки.</p></div>
+  <div class="prose lang-en"><p>In a <a href="https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention">November 2 research post</a>, Lukas, known as sirluk, compares model-memory designs under a matched budget. His experiments favor sliding windows on short answers, while the Bifocal hybrid helps with long mathematical generations. The author qualifies the statistical uncertainty of the overall average. Frontier Wire has not reproduced the experiment. This is a bounded research report, rather than proof that one architecture wins for every task and every model size deployed in practice.</p>
+<p>The framing itself deserves attention. Input length and output length are independent properties of a workload. A system might receive a large reference book and be asked for a single name. Alternatively, a short question might require many intermediate calculations. In the first case, useful information must be recovered from the input; in the second, the system also needs to preserve work produced during its response. Giving two tasks the same number of input characters does not make them equivalent memory tests or establish that success transfers between them.</p>
+<p>Consider a hypothetical scheduling task. Its opening lists rooms, time constraints and intervals that are already occupied. The system then adds dozens of meetings. Even if each new assignment looks plausible alongside the previous one, it must remain consistent with the original prohibition on overlaps. Checking only the first assignment does not establish whether that condition survives to the end of a long result. This example illustrates an evaluation criterion; it is neither an additional experiment reported by the author nor a test performed by this publication.</p>
+<p>One could specify observable acceptance conditions in advance: conflicts, compliance with initial constraints and correctness of the final assignment. The result matters more than treating the length of an explanation as a quality signal. A long response can repeat itself or contain an incorrect intermediate step. Conversely, a short correct answer need not reveal every reason for its success. Grouping outputs by length can therefore help formulate a hypothesis without, by itself, explaining why one system performed better than another under the conditions of a particular evaluation.</p>
+<p>Resource matching is another question. If two solutions receive different amounts of memory, their outcomes combine algorithm design with resource availability. Matching memory while changing training leaves another potential explanation for a difference. An engineering decision benefits from knowing what was held constant, which part of the workload was measured and how closely the conditions resemble the intended application. These are questions about interpreting a comparison, not instructions to replace working infrastructure on the strength of a headline or extrapolate a small experiment to an unrelated deployment.</p>
+<h3>Why it matters</h3>
+<p>A short-answer test and a long-generation test ask different things of a system. This post makes the distinction an explicit comparison while qualifying its conclusions. Readers should ask about more than context-window size: what does the model receive, how much must it produce, and which observable conditions determine whether the result succeeds? That set of questions is more useful than a universal promise of better memory without a workload description or a clear account of the evidence supporting it.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention">https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

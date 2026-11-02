@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Утром два материала о том, как сделать результат проверяемым. ProtoStar начинает конкурс с историческим климатическим прогнозом, а новое инженерное эссе ставит вопрос о принятии ИИ-кода. Разбираем актуальные правила, информационные границы и то, чего ещё не доказывают пройденные тесты.
+Сегодня четыре материала о том, как читать результаты и их границы. Утром — старт ProtoStar и принятие ИИ-кода; вечером — сравнение памяти моделей на длинных ответах и октябрьские снимки каньона Пенсильвании. Отделяем проверенный вывод от гипотезы, дату публикации — от даты наблюдения.
 
 ## Editorial
 
-Two morning stories examine what makes a result testable. ProtoStar begins a historical climate-prediction challenge, while a new engineering essay raises the question of accepting AI-written code. We examine current rules, information boundaries and what passing tests still cannot establish.
+Four stories examine results and their limits. Morning coverage of ProtoStar and accepting AI-written code is joined by a model-memory comparison on long answers and October imagery of Pennsylvania’s canyon. Each account separates findings from hypotheses and publication dates from observation dates.
 
 
 ----- 01-protostar-climate-challenge (science) — source: https://huggingface.co/blog/announcing-project-protostar -----
@@ -81,6 +81,76 @@ These examples distinguish several kinds of evidence. Testing specific values es
 ### Why it matters
 
 The development is a clearly qualified engineering argument, not new proof of faster software delivery. Concrete acceptance examples make that argument useful to discuss. An agent can help produce implementation and gather evidence, but announcing success does not broaden the evidence's coverage. Teams still face testable questions: what outcome was required, which cases were actually checked, and which decisions cannot yet be inferred from the results? Answering them makes delegation meaningful without confusing generated work with accepted behavior.
+
+
+----- 03-memory-long-generations (ai) — source: https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention -----
+
+## Русская версия
+
+В [публикации от 2 ноября](https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention) исследователь Lukas, известный как sirluk, сравнивает варианты памяти моделей при одинаковом бюджете. В его опытах скользящее окно хорошо работает на коротких ответах, а гибрид Bifocal помогает на длинных математических генерациях. Автор оговаривает статистическую неопределённость общего среднего. Редакция не воспроизводила эксперимент. Это ограниченное исследовательское сообщение, а не доказательство превосходства одной архитектуры для любых задач и любых размеров моделей.
+
+Разберём, почему сама постановка вопроса важна. Длина входного документа и длина ответа — две независимые характеристики нагрузки. Можно передать системе большой справочник и попросить одно название. Можно дать короткое условие, после которого потребуется много промежуточных вычислений. В первом случае полезную информацию нужно найти во входе, во втором — сохранить ещё и то, что система выработала по ходу ответа. Одинаковое число входных символов не делает эти сценарии одинаковыми.
+
+Представим условную задачу составления расписания. В начале перечислены комнаты, ограничения времени и уже занятые интервалы. Затем система последовательно добавляет десятки встреч. Даже если каждое новое назначение выглядит правдоподобно рядом с предыдущим, оно должно оставаться согласованным с исходным запретом на пересечение. Проверка только первой встречи не показывает, сохранится ли это свойство в конце длинного результата. Такой пример иллюстрирует критерий оценки; это не дополнительный опыт автора публикации и не выполненный нами тест.
+
+Чтобы понять разницу, можно заранее определить проверяемые условия: число конфликтов, соблюдение исходных ограничений, корректность последнего назначения. Важно проверять конечный результат, а не считать длину объяснения признаком его качества. Длинный текст может содержать повторение или неверный промежуточный шаг. И наоборот, короткий корректный ответ не обязан раскрывать все внутренние причины успеха. Поэтому группировка по длине помогает сформулировать гипотезу, но сама по себе ещё не объясняет, почему одна система справилась лучше другой.
+
+Отдельный вопрос — честность ресурсного сравнения. Если двум решениям разрешить разный объём памяти, итог смешает устройство алгоритма и количество доступного ресурса. Если уравнять память, но изменить обучение, останется другой возможный источник различия. Чтобы принимать инженерное решение, полезно знать, что именно было зафиксировано, какая часть нагрузки измерена и насколько результаты применимы к вашему сценарию. Здесь речь об устройстве сравнения, а не о рекомендации заменить уже работающую инфраструктуру по одному заголовку.
+
+### Почему это важно
+
+Тест с коротким ответом и тест с длинной генерацией задают разные вопросы к системе. Новая публикация делает это различие предметом конкретного сравнения, сохраняя ограничения выводов. Практический вывод для читателя — спрашивать не только о размере контекстного окна, но и о форме работы: что модель получает, сколько должна произвести и по каким проверяемым условиям оценивается итог. Такой набор вопросов полезнее универсального обещания «лучшей памяти» без описания нагрузки.
+
+## English version
+
+In a [November 2 research post](https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention), Lukas, known as sirluk, compares model-memory designs under a matched budget. His experiments favor sliding windows on short answers, while the Bifocal hybrid helps with long mathematical generations. The author qualifies the statistical uncertainty of the overall average. Frontier Wire has not reproduced the experiment. This is a bounded research report, rather than proof that one architecture wins for every task and every model size deployed in practice.
+
+The framing itself deserves attention. Input length and output length are independent properties of a workload. A system might receive a large reference book and be asked for a single name. Alternatively, a short question might require many intermediate calculations. In the first case, useful information must be recovered from the input; in the second, the system also needs to preserve work produced during its response. Giving two tasks the same number of input characters does not make them equivalent memory tests or establish that success transfers between them.
+
+Consider a hypothetical scheduling task. Its opening lists rooms, time constraints and intervals that are already occupied. The system then adds dozens of meetings. Even if each new assignment looks plausible alongside the previous one, it must remain consistent with the original prohibition on overlaps. Checking only the first assignment does not establish whether that condition survives to the end of a long result. This example illustrates an evaluation criterion; it is neither an additional experiment reported by the author nor a test performed by this publication.
+
+One could specify observable acceptance conditions in advance: conflicts, compliance with initial constraints and correctness of the final assignment. The result matters more than treating the length of an explanation as a quality signal. A long response can repeat itself or contain an incorrect intermediate step. Conversely, a short correct answer need not reveal every reason for its success. Grouping outputs by length can therefore help formulate a hypothesis without, by itself, explaining why one system performed better than another under the conditions of a particular evaluation.
+
+Resource matching is another question. If two solutions receive different amounts of memory, their outcomes combine algorithm design with resource availability. Matching memory while changing training leaves another potential explanation for a difference. An engineering decision benefits from knowing what was held constant, which part of the workload was measured and how closely the conditions resemble the intended application. These are questions about interpreting a comparison, not instructions to replace working infrastructure on the strength of a headline or extrapolate a small experiment to an unrelated deployment.
+
+### Why it matters
+
+A short-answer test and a long-generation test ask different things of a system. This post makes the distinction an explicit comparison while qualifying its conclusions. Readers should ask about more than context-window size: what does the model receive, how much must it produce, and which observable conditions determine whether the result succeeds? That set of questions is more useful than a universal promise of better memory without a workload description or a clear account of the evidence supporting it.
+
+
+----- 04-pine-creek-gorge-landsat (science) — source: https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/ -----
+
+## Русская версия
+
+Глубокую извилистую полосу среди осеннего леса Пенсильвании можно прочитать как историю реки, которую ледник заставил изменить направление. NASA Earth Observatory 2 ноября [опубликовала разбор Pine Creek Gorge](https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/), известного как «Гранд-Каньон Пенсильвании». Основное изображение получено прибором OLI спутника Landsat 8 25 октября 2026 года. На странице также сопоставлены кадры от 9 и 25 октября: дата новой публикации не означает, что все показанные наблюдения сделаны сегодня.
+
+Ущелье проходит через плато Аллегейни и достигает глубины около 460 метров. Его протяжённость — примерно 72 километра, от Ансонии к югу, до места, где Pine Creek соединяется с западным рукавом Саскуэханны. Наибольшие глубины находятся около Уотервилла. В отличие от привычного образа пустынного каньона с голыми крутыми стенами, здешний рельеф обрамлён густо заросшими склонами. Осенняя листва делает эту структуру особенно заметной, но сам каньон сформировался задолго до нынешней смены цветов.
+
+Ледники сыграли ключевую роль, хотя вырезал ущелье не сам лёд. Раньше Pine Creek тёк на север. Во время последнего ледникового периода наступавший с северо-востока лёд перегородил реку, а долина заполнилась озёрами. Когда они переполнились, вода направилась на юг. После отступления ледника река уже углубляла новое русло; оставшиеся камни и песок дополнительно мешали возвращению к прежнему северному направлению. Талые воды продолжали формировать долину и усиливать её врезание в окружающий ландшафт.
+
+Сегодня вокруг ущелья растут северные лиственные и смешанные дубовые леса с тсугой и белой сосной. В октябрьском сравнении видна сезонная смена окраски. Но у лесного покрова есть и человеческая история. В XIX веке спрос на древесину привёл сюда заготовителей: сосны ценили для корабельных мачт, кору тсуги использовали при дублении кожи. До появления железных дорог брёвна сплавляли по реке. К началу XX века многолетние вырубки оставили настолько оголённые земли, что местность получила прозвище «Пенсильванская пустыня».
+
+С тех пор лес вернулся. NASA описывает нынешний ландшафт и его обитателей как восстановившуюся среду, а не как нетронутую территорию без истории использования. Это важная разница при чтении спутникового изображения: плотный зелёный или золотистый покров сам по себе не говорит, что здесь всегда было так же. Для такого вывода нужны исторические сведения, которые дополняют наблюдение с орбиты. И два осенних кадра не позволяют количественно измерить весь путь восстановления леса за столетие.
+
+### Почему это важно
+
+В одном изображении встречаются процессы с разным временем: ледниковое изменение стока, многолетнее формирование ущелья, история вырубки и нынешняя смена листьев. Спутник показывает современный рисунок местности, а геология и архивные сведения объясняют его происхождение. Разбор NASA полезен именно этим соединением масштабов. Он не сообщает о новом развороте реки или внезапно возникшем каньоне, а показывает, почему сегодняшний осенний вид имеет такую форму и почему лесной пейзаж нельзя понимать без его прошлого.
+
+## English version
+
+A deep, winding line through Pennsylvania's autumn forest can be read as the history of a river forced to change direction by a glacier. On November 2, NASA Earth Observatory [published an account of Pine Creek Gorge](https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/), often called Pennsylvania's Grand Canyon. The main view was acquired by Landsat 8's OLI instrument on October 25, 2026. The feature also compares October 9 and October 25 scenes. A new publication date therefore does not mean that every observation displayed on the page was acquired today.
+
+The gorge crosses the Allegheny Plateau and reaches approximately 460 meters deep. It extends roughly 72 kilometers south from Ansonia to Pine Creek's confluence with the West Branch Susquehanna River, reaching its greatest depths near Waterville. Unlike the familiar image of a desert canyon with steep, exposed walls, densely vegetated slopes outline this landscape. Autumn foliage makes that structure particularly striking, but the gorge itself formed long before the present seasonal change in the color of its surrounding trees.
+
+Glaciers had a central role even though ice did not directly carve the canyon. Pine Creek once flowed north. During the last ice age, glaciers advancing from the northeast blocked the river and filled the valley with lakes. Eventually those lakes overflowed, sending water south. As the ice retreated, the river was becoming entrenched in its new route. Rocks and sand left behind further prevented a return to northward flow. Meltwater continued rushing through the valley, deepening it and shaping the terrain now visible in the satellite view.
+
+Northern hardwood and mixed oak forests now cover the surrounding slopes, with hemlock and white pine among them. The October comparison records seasonal color change, but the forest also has a human history. Nineteenth-century demand for wood brought logging to the area: white pines were valued for ship masts, while hemlock bark supplied leather tanning. Before railroads, large drives carried logs downstream. By the early twentieth century, decades of cutting had left such barren land that the area acquired the nickname Pennsylvania Desert. The present canopy should not erase that earlier transformation.
+
+The forest has since returned. NASA describes today's landscape and wildlife as a recovered environment rather than territory without a history of use. That distinction matters when interpreting orbital imagery: dense green or gold cover does not show that the land always looked this way. Historical information supplies evidence that the current image cannot contain by itself. Nor can two autumn views quantify the entire century-long course of forest recovery. Seasonal comparison and long-term landscape history require different observations, even when they concern the same place on the map.
+
+### Why it matters
+
+One scene brings together processes operating on different timescales: glacial redirection of drainage, development of a gorge, logging history and current leaf color. The satellite records today's pattern, while geology and historical evidence explain its origins. NASA's feature connects those scales. It does not report a newly reversed river or a suddenly formed canyon; it explains why the present autumn landscape has this shape and why a wooded view needs to be understood alongside its past.
 
 
 ===== EDITION 47 — 2026-11-01 =====

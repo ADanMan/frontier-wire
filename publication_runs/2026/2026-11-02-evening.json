@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-11-02",
+  "slot": "evening",
+  "checked_at": "2026-11-02T16:00:10.612902+00:00",
+  "digest_sha256": "1745d06af5f1452be26a1f923133200984b5f8fd8e9035b210d5486f29f5948b",
+  "articles": [
+    {
+      "path": "editions/2026/11-02/03-memory-long-generations.md",
+      "sha256": "d1375e578a016a1fb1024c35c0cadd75904a41b7d3e0cbecf3575429f16b28d2",
+      "source": "https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention"
+    },
+    {
+      "path": "editions/2026/11-02/04-pine-creek-gorge-landsat.md",
+      "sha256": "f8910030120df9669b3471a1ee24a402641320a9938289d84b49ed67009d35e7",
+      "source": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon"
+    }
+  ]
+}
