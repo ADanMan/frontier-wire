@@ -2,6 +2,87 @@
 
 
 
+===== EDITION 48 — 2026-11-02 =====
+
+## От редакции
+
+Утром два материала о том, как сделать результат проверяемым. ProtoStar начинает конкурс с историческим климатическим прогнозом, а новое инженерное эссе ставит вопрос о принятии ИИ-кода. Разбираем актуальные правила, информационные границы и то, чего ещё не доказывают пройденные тесты.
+
+## Editorial
+
+Two morning stories examine what makes a result testable. ProtoStar begins a historical climate-prediction challenge, while a new engineering essay raises the question of accepting AI-written code. We examine current rules, information boundaries and what passing tests still cannot establish.
+
+
+----- 01-protostar-climate-challenge (science) — source: https://huggingface.co/blog/announcing-project-protostar -----
+
+## Русская версия
+
+На 2 ноября назначен старт первого конкурса ProtoStar — инициативы по повторному использованию открытых научных материалов. В [анонсе от 29 октября](https://huggingface.co/blog/announcing-project-protostar) организаторы представили климатическую задачу, которую проводит Carnegie Mellon. Она предлагает проверять прогнозы на известных наблюдениях, а не ждать десятилетия, чтобы узнать, сработала ли модель. На момент утреннего выпуска мы проверили доступную страницу правил, но не регистрировали команду и не отправляли прогнозы от имени владельца сайта.
+
+Между анонсом и [текущими условиями конкурса](https://cmu-ospo-protostar-challenge-climate-risk-intelligence.hf.space/) есть важное расхождение. Первый описывает горизонт до 2026 года, тогда как страница задания требует прогнозировать 2019–2025 годы по сведениям, доступным до конца 2018-го. Именно второй диапазон использован в этой статье. Само наличие более подробной страницы не объясняет причину изменения; предполагать её или обещать будущие сроки оценки из старого текста было бы неверно. Перед участием условия следует сверить ещё раз.
+
+Данные охватывают 210 городов США. Четыре показателя — средняя годовая температура, годовые осадки, самый жаркий день и градусо-дни охлаждения, связанные с потребностью в кондиционировании. Срок конкурса указан как 2–13 ноября. Текущая страница отделяет промежуточную проверку 2019–2021 годов от итоговой 2022–2025; таблица лидеров пока обозначена как ожидаемая. Это правила предстоящего сравнения, а не уже опубликованный результат превосходства какого-либо метода.
+
+Интерес задачи — в устройстве проверки. Рассмотрим простой мысленный пример: система всегда повторяет среднее прошлых лет. Такая система может выглядеть скучно, но задаёт ясную точку отсчёта. Более сложная модель должна показать, какую дополнительную информацию она извлекла, вместо того чтобы выигрывать только за счёт большего числа параметров. Если предсказание хуже простой базы, сложность сама по себе не даёт основания считать подход полезнее. Это методологическое рассуждение, а не оценка ещё не представленных конкурсных решений.
+
+Вторая трудность — утечка будущего. Например, данные о потреблении электричества за прогнозируемый жаркий год могут косвенно подсказать температуру даже без колонки с погодой. Такое сравнение уже отвечало бы на другой вопрос: можно ли восстановить известный исход по его последствиям? Для честного прогноза нужно сохранить границу доступной информации. Полезно также отделять качество численного предсказания от разумности предлагаемой меры адаптации: небольшая ошибка модели не доказывает эффективность конкретного городского решения.
+
+### Почему это важно
+
+Открыть набор данных недостаточно, чтобы показать его исследовательскую ценность. Конкурс предлагает конкретный способ проверить повторное использование: указать информационную границу, получить воспроизводимые прогнозы и сравнить их с базой. Результаты ещё впереди. Пока наиболее содержательная новость — старт проверяемой задачи и доступные правила, включая уточнённый горизонт. Это позволяет обсуждать будущие выводы на уровне условий эксперимента, а не заранее объявленной победы ИИ над статистикой.
+
+## English version
+
+November 2 is the scheduled opening of the first ProtoStar challenge, part of an initiative supporting reuse of open scientific resources. The [October 29 announcement](https://huggingface.co/blog/announcing-project-protostar) introduced a climate task hosted by Carnegie Mellon. It proposes testing predictions against observations that already exist, rather than waiting decades to discover whether a model worked. For this morning edition, we checked the available rules page but did not register a team or submit forecasts on the site owner's behalf.
+
+There is a material difference between the announcement and the [current challenge instructions](https://cmu-ospo-protostar-challenge-climate-risk-intelligence.hf.space/). The former describes a horizon through 2026, while the task page specifies forecasts for 2019–2025 using information available through the end of 2018. This article uses the latter range. The existence of more detailed instructions does not explain why the horizon changed. Inferring a reason, or carrying forward evaluation dates from the older account, would go beyond the evidence. Participants should check the rules again before entering.
+
+The task covers 210 US cities and four indicators: annual average temperature, total precipitation, the hottest day and cooling degree days associated with air-conditioning demand. The stated competition dates are November 2–13. The current page separates a live evaluation period of 2019–2021 from final evaluation on 2022–2025, and still labels its leaderboard as coming soon. These are arrangements for a comparison, rather than published evidence that any particular method has already won. Availability of the instructions is not the same event as completion of the evaluation.
+
+The design of that comparison is the interesting part. Consider a hypothetical system that always repeats a historical average. It may appear unambitious, but it supplies a clear reference. A more complex model has to establish what additional information it extracts, rather than relying on its parameter count to suggest an advantage. If its predictions are worse than that simple reference, complexity alone does not make it more useful. This is a methodological observation, not an assessment of challenge entries that have yet to be presented or evaluated.
+
+Another difficulty is information leakage. Electricity consumption during a hot target year, for example, could indirectly reveal temperature without containing a weather column. That would answer a different question: can an outcome be reconstructed from its consequences? A genuine forecast needs to preserve the boundary of available information. Numerical accuracy should also be separated from the merits of an adaptation proposal. A small prediction error does not establish that a particular urban intervention will be effective or justify conclusions about its practical consequences without further evidence.
+
+### Why it matters
+
+Publishing data alone does not demonstrate its research value. This challenge offers a concrete way to examine reuse: specify an information boundary, produce reproducible predictions and compare them with a reference. Results remain ahead. The substantive development now is a scheduled, testable task with accessible rules and a clarified horizon. That provides a basis for discussing experimental conditions without declaring in advance that AI has defeated conventional statistical approaches.
+
+
+----- 02-ai-code-acceptance-evidence (tech) — source: https://picon.dev/en/publications/ai-assisted-engineering/ -----
+
+## Русская версия
+
+Армандо Пикон 1 ноября опубликовал [эссе об инженерии с помощью ИИ](https://picon.dev/en/publications/ai-assisted-engineering/). Его тезис: делегирование реализации не отменяет ответственности за выбор задачи и принятие результата. Автор прямо обозначает текст как рабочую позицию, а не контролируемое исследование. Поэтому из него нельзя вывести процент экономии времени или вывод о замене профессии. Для нашей подборки это повод разобрать один практический вопрос: какое свидетельство позволяет принять изменение, если его автором был агент?
+
+Рассмотрим собственный условный пример редакции, не описанный как внедрение у автора. В интернет-магазине меняется расчёт суммы корзины: бесплатная доставка должна появляться только после достижения порога. Агент предлагает исправление и тест, который проверяет покупку заметно выше этого порога. Тест проходит. Но он ещё не отвечает, что происходит ровно на границе, ниже неё и после удаления товара. Зелёный результат подтверждает выбранный пример, а не автоматически весь смысл требования.
+
+Теперь допустим, что тест копирует формулу из реализации. Если в обеих местах допущена одинаковая ошибка сравнения, совпадение будет устойчивым и повторяемым. Это полезный мысленный контрпример к привычке считать повторяемость достаточным признаком правильности. Нужен независимый ожидаемый исход, выведенный из правила продукта. В нашем примере можно заранее составить таблицу небольшого числа граничных корзин и проверить точную стоимость доставки для каждой. Это рассуждение об устройстве проверки, а не отчёт о найденном дефекте реального магазина.
+
+Есть и другая граница. Даже правильная формула не доказывает, что выбранное правило вообще соответствует намерению владельца продукта. Возможно, порог считают после скидки, а возможно — до неё. Если это не определено, дополнительные прогоны не устранят неоднозначность. Здесь требуется решение человека, имеющего право определить поведение. Его следует сделать видимым, чтобы следующий разработчик или агент не восстанавливал условие из догадок. Количество сгенерированных строк не отвечает на вопрос, было ли принято такое решение.
+
+Из этих примеров следует различать три вида свидетельств. Проверка конкретных значений устанавливает поведение на выбранных входах. Просмотр изменения помогает понять, не затронуты ли посторонние части системы. Оценка через интерфейс показывает, как результат предъявлен пользователю. Ни один вид не подменяет остальные. Для изменения текста достаточно одного масштаба проверки; для расчёта денег нужен другой. Соразмерность здесь важнее максимального числа автоматических действий, если они всё равно проверяют одно и то же предположение.
+
+### Почему это важно
+
+Новость — появление ясно оговорённой инженерной позиции, а не новое доказательство роста производительности. Её полезно обсуждать через конкретные примеры принятия результата. Агент может ускорить получение реализации и помочь собрать свидетельства, но заявление об успехе само по себе не добавляет им покрытия. Важный вопрос для команды остаётся проверяемым: какой исход требовался, какие случаи действительно проверили и какие решения ещё нельзя вывести из полученных результатов? Именно ответы делают передачу работы осмысленной.
+
+## English version
+
+Armando Picón published an [essay on AI-assisted engineering](https://picon.dev/en/publications/ai-assisted-engineering/) on November 1. Its central position is that delegating implementation does not remove responsibility for choosing the task and accepting the result. The author explicitly presents a working position rather than a controlled study. It cannot establish a percentage productivity gain or a conclusion about replacing a profession. For this edition, it provides a reason to examine one practical question: what evidence supports accepting a change when an agent produced it?
+
+Consider an original hypothetical example from Frontier Wire, rather than a deployment reported by the essay's author. An online store changes its basket calculation so that delivery becomes free only after reaching a threshold. An agent supplies a patch and a test covering a purchase comfortably above that threshold. The test passes. It has not established what happens exactly at the boundary, just below it or after removing an item. A green result supports the selected case rather than automatically establishing the entire intended behavior.
+
+Now suppose the test copies the implementation's formula. If both contain the same comparison error, agreement can be stable and repeatable. This is a useful counterexample to treating repeatability as sufficient evidence of correctness. The expected outcome needs an independent basis in the product rule. In this example, a small table of boundary baskets could be specified beforehand, with the exact delivery charge expected for each. That is reasoning about verification design, not an account of a defect discovered in a real shop or an experiment we performed against deployed commerce software.
+
+There is another boundary. Even a correct formula does not show that the selected rule matches the product owner's intention. Perhaps the threshold applies after discounts, or perhaps before them. If that remains unspecified, additional runs will not resolve the ambiguity. Someone authorized to define the behavior needs to make the decision visible, so that a subsequent developer or agent does not reconstruct it by guessing. The number of generated lines cannot answer whether such a decision has been made, recorded or reflected in the implementation.
+
+These examples distinguish several kinds of evidence. Testing specific values establishes behavior on selected inputs. Reviewing the change helps identify effects outside the intended scope. Exercising the interface shows how the result is presented to a user. None replaces the others. A wording change warrants a different scale of review from a monetary calculation. Proportionality matters more than maximizing the number of automated actions when those actions all test the same assumption. Repeating one narrow check cannot supply coverage of cases that were never included.
+
+### Why it matters
+
+The development is a clearly qualified engineering argument, not new proof of faster software delivery. Concrete acceptance examples make that argument useful to discuss. An agent can help produce implementation and gather evidence, but announcing success does not broaden the evidence's coverage. Teams still face testable questions: what outcome was required, which cases were actually checked, and which decisions cannot yet be inferred from the results? Answering them makes delegation meaningful without confusing generated work with accepted behavior.
+
+
 ===== EDITION 47 — 2026-11-01 =====
 
 ## От редакции

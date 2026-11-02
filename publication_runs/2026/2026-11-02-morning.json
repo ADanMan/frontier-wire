@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-11-02",
+  "slot": "morning",
+  "checked_at": "2026-11-02T04:09:45.691377+00:00",
+  "digest_sha256": "769d37567406d6c70e6eead544a6f3fc7756e6c393aff14ee476b12a69413a50",
+  "articles": [
+    {
+      "path": "editions/2026/11-02/01-protostar-climate-challenge.md",
+      "sha256": "af5202c432f3147074272cd12b9da1eb3408e85eef1c96f19616df6f8b324b99",
+      "source": "https://huggingface.co/blog/announcing-project-protostar"
+    },
+    {
+      "path": "editions/2026/11-02/02-ai-code-acceptance-evidence.md",
+      "sha256": "93b1bd7cae7a22e21ab6d65d16bbbd1e37b3d123574da4fe8ef002a9c38876af",
+      "source": "https://picon.dev/en/publications/ai-assisted-engineering"
+    }
+  ]
+}
