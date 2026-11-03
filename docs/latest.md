@@ -1,17 +1,13 @@
-# frontier-wire — latest edition №48 (2026-11-02)
+# frontier-wire — latest edition №49 (2026-11-03)
 
-## ProtoStar starts a climate challenge tested against observed years / ProtoStar начинает климатический конкурс с проверкой на уже наблюдавшихся годах
-rubric: science · source: https://huggingface.co/blog/announcing-project-protostar
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-02/01-protostar-climate-challenge.md
+## Pando changes Git's server side for parallel development / Pando меняет серверную сторону Git ради множества параллельных изменений
+rubric: tech · source: https://openai.com/index/scaling-git-at-openai
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-03/01-pando-git-service.md
 
-## Who accepts AI-written code when the same system wrote the tests? / Кто принимает ИИ-код, если тесты написала та же система
-rubric: tech · source: https://picon.dev/en/publications/ai-assisted-engineering/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-02/02-ai-code-acceptance-evidence.md
+## Grid Protectors proposes flexible demand from future compute campuses / Grid Protectors предлагает будущим вычислительным кампусам снижать нагрузку в пики
+rubric: tech · source: https://openai.com/index/grid-protectors-program
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-03/02-grid-protectors-demand.md
 
-## Short answers do not establish how a model remembers during long reasoning / Короткий ответ ещё не проверяет память модели на длинном рассуждении
-rubric: ai · source: https://huggingface.co/blog/sirluk/sliding-window-beats-linear-attention
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-02/03-memory-long-generations.md
-
-## Landsat shows Pennsylvania's autumn canyon and a river's reversed course / Landsat показал осенний каньон Пенсильвании и следы разворота реки
-rubric: science · source: https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-02/04-pine-creek-gorge-landsat.md
+## OpenAI raises bug bounties and prepares another defensive sprint / OpenAI повышает bug bounty и готовит новый защитный спринт
+rubric: tech · source: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-03/03-security-incentives-sprint.md

@@ -1,0 +1,24 @@
+{
+  "status": "ready",
+  "date": "2026-11-03",
+  "slot": "morning",
+  "checked_at": "2026-11-03T04:07:45.440692+00:00",
+  "digest_sha256": "ad796f001dd2d81fee5beb18c84c59b0198206db8571d376cfce020d1387b7aa",
+  "articles": [
+    {
+      "path": "editions/2026/11-03/01-pando-git-service.md",
+      "sha256": "bd2ed317d9225c17bcec95d16928199a5200f576d0bfb91a79009519a12ea6fc",
+      "source": "https://openai.com/index/scaling-git-at-openai"
+    },
+    {
+      "path": "editions/2026/11-03/02-grid-protectors-demand.md",
+      "sha256": "fb19b2ab18ec42c1dd0828c18b7fbf5bc7581a359cdd5629884baf50a90e3a96",
+      "source": "https://openai.com/index/grid-protectors-program"
+    },
+    {
+      "path": "editions/2026/11-03/03-security-incentives-sprint.md",
+      "sha256": "da898acf02626edc7290af7dc3a573f8a224f67138d99740c24679e9201f9d18",
+      "source": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+    }
+  ]
+}

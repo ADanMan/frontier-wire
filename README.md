@@ -10,12 +10,11 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №48 / Edition №48 — 2026-11-02** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-02/)
+**Выпуск №49 / Edition №49 — 2026-11-03** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-03/)
 
-- **[Наука и технологии]** [ProtoStar начинает климатический конкурс с проверкой на уже наблюдавшихся годах](editions/2026/11-02/01-protostar-climate-challenge.md)
-- **[Наука и технологии]** [Кто принимает ИИ-код, если тесты написала та же система](editions/2026/11-02/02-ai-code-acceptance-evidence.md)
-- **[ИИ и наука]** [Короткий ответ ещё не проверяет память модели на длинном рассуждении](editions/2026/11-02/03-memory-long-generations.md)
-- **[ИИ и наука]** [Landsat показал осенний каньон Пенсильвании и следы разворота реки](editions/2026/11-02/04-pine-creek-gorge-landsat.md)
+- **[Технологии]** [Pando меняет серверную сторону Git ради множества параллельных изменений](editions/2026/11-03/01-pando-git-service.md)
+- **[Технологии]** [Grid Protectors предлагает будущим вычислительным кампусам снижать нагрузку в пики](editions/2026/11-03/02-grid-protectors-demand.md)
+- **[Технологии]** [OpenAI повышает bug bounty и готовит новый защитный спринт](editions/2026/11-03/03-security-incentives-sprint.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
