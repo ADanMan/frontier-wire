@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Утром три материала об инфраструктуре, которая остаётся за ответом модели. Pando обслуживает параллельную работу с Git, Grid Protectors предлагает гибкое потребление энергии будущими кампусами, а обновлённые bug bounty сопровождают подготовку защитного спринта. В источниках от 2 ноября отделяем работающую систему от планов и показатели транспорта — от качества конечного результата.
+За день восемь материалов об инфраструктуре, проверках и наблюдениях. Утренние Pando, Grid Protectors и защитные программы дополнены контрактами тестирования Transformers и сравнением агентских оболочек. В научной части — разные пути тихоокеанских штормов, будущие пролёты ESCAPADE и недостающий кислород карликовых галактик. Различаем дату снимка, результат анализа и ещё не выполненный план.
 
 ## Editorial
 
-Three morning stories examine infrastructure behind a model's output. Pando serves parallel Git workflows, Grid Protectors proposes flexible electricity demand from future campuses, and revised bug bounties accompany preparations for a defensive sprint. Reading the November 2 sources, we separate operating systems from plans and transport metrics from the quality of the final result.
+Eight stories cover infrastructure, verification and observation. Morning reports on Pando, Grid Protectors and defensive programs are joined by Transformers testing contracts and an agent-harness comparison. Science coverage follows Pacific storm evolution, ESCAPADE's upcoming flybys and an oxygen shortfall in dwarf galaxies. Each account distinguishes image acquisition, analyzed findings and plans that remain ahead.
 
 
 ----- 01-pando-git-service (tech) — source: https://openai.com/index/scaling-git-at-openai -----
@@ -116,6 +116,181 @@ Evaluating these measures requires more than looking at the largest reward. Rele
 ### Why it matters
 
 Rewards and defensive sprints affect different parts of one process. The former attract outside attention and encourage useful reports; the latter organize investigation and repair within a team. These announcements change incentives and describe a next step. Evidence of effectiveness will come from the work's results rather than the existence of a program. Keeping those levels separate avoids both unsupported allegations and the opposite mistake of promising complete protection on the basis of an announcement alone.
+
+
+----- 04-transformers-contracts (ai) — source: https://huggingface.co/blog/transformers-mic -----
+
+## Русская версия
+
+Hugging Face 3 ноября [представила Model Integration Contracts](https://huggingface.co/blog/transformers-mic), или MIC: уменьшенный образец модели, исполняемый сценарий использования и проверенный ожидаемый результат. Идея — раньше замечать изменения поведения на дешёвой проверке. Авторы отдельно оговаривают неполное покрытие и необходимость полноразмерных тестов. Редакция прочитала описание, но не запускала опубликованные эксперименты. Это предложение по организации интеграционных проверок, а не обещание, что маленький образец обнаружит любую ошибку большой модели.
+
+Разберём общий смысл такого контракта на независимом условном примере. Представим библиотеку обработки таблиц: после обновления она всё ещё открывает файл и выдаёт числа. Проверка «ничего не упало» проходит. Но если порядок столбцов изменился, пользовательский расчёт может получить неверные данные. Чтобы обнаружить это, нужно проверить не только запуск, но и конкретный сценарий с известным ожидаемым выходом. Тот же логический вопрос возникает у библиотек моделей: какие свойства действительно проверены, если выполнение завершилось без исключения?
+
+У уменьшенного примера есть понятное преимущество: его легче повторять при каждом изменении. Но уменьшение должно сохранять именно ту структуру, ради которой поставлен тест. Если условная система содержит два разных пути обработки, а компактный образец оставляет только один, быстрый зелёный результат ничего не говорит о втором. Это не причина отказаться от сокращения, а требование заранее определить, что обязан представлять тестовый объект. Размер сам по себе не является ни гарантией качества, ни признаком бесполезности проверки.
+
+Не менее важен ожидаемый результат. Если его автоматически переписывать после каждого изменения, сравнение перестанет замечать регрессии: новое поведение станет новой нормой без отдельного решения. Напротив, навсегда замороженное ожидание может блокировать осмысленное исправление. Поэтому изменение эталона должно отвечать на вопрос, почему теперь правильно другое поведение. Это общий принцип приёмки, а не утверждение, что у конкретного опубликованного контракта обнаружена такая проблема. Эталон полезен ровно настолько, насколько понятно его происхождение и назначение.
+
+Есть также различие между повторением и объяснением. Совпадение результата даёт ограниченное свидетельство о выбранном пути выполнения в известной среде. Оно не доказывает качество модели на всех пользовательских запросах или точность на другой аппаратной платформе. Для переноса вывода нужно понимать, какие условия изменились. Полезный набор проверок поэтому включает быстрые узкие тесты и более дорогие случаи, которые первый слой не способен представить. Они дополняют друг друга, вместо того чтобы соревноваться за право называться единственной достаточной проверкой.
+
+### Почему это важно
+
+Рост числа поддерживаемых моделей усложняет раннее обнаружение регрессий. MIC предлагает явную единицу такого контроля, сохраняя оговорки о покрытии. Для читателя важнее не название формата, а связь между объектом, действием и ожидаемым исходом. Если эта связь видна, можно обсуждать, какой тип изменения тест поймает, какой пропустит и почему. Именно это превращает набор зелёных отметок в понятное свидетельство о поведении, не приписывая ему универсальную полноту.
+
+## English version
+
+On November 3, Hugging Face [introduced Model Integration Contracts](https://huggingface.co/blog/transformers-mic), or MICs: a reduced model fixture, a runnable usage path and reviewed expected results. The proposal aims to detect behavioral changes earlier through inexpensive checks. Its authors explicitly retain full-model testing and acknowledge incomplete coverage. Frontier Wire read the account but did not run its experiments. This is a proposal for organizing integration checks, rather than a guarantee that a miniature fixture can detect every fault in a larger model or every future change to its implementation.
+
+An independent hypothetical example illustrates the underlying logic. Imagine a table-processing library that still opens a file and returns numbers after an update. A check that nothing crashed passes. If the column order changed, however, a user's calculation might receive the wrong values. Detecting that requires a particular workflow with a known expected output, rather than successful execution alone. The analogous question for model libraries concerns which properties were tested when a run completed without raising an exception. Completion is evidence, but its meaning depends on the check that produced it.
+
+A reduced example is easier to repeat for every change, but reduction must preserve the structure the test is supposed to examine. If a hypothetical system has two processing paths and its compact fixture retains only one, a fast green result says nothing about the second. That is not a reason to reject small fixtures. It is a reason to specify what the test object must represent. Size alone establishes neither adequate coverage nor uselessness, and the appropriate reduction depends on the property being protected against regression.
+
+Expected results need equal care. Automatically replacing them after every change would make new behavior the norm without an acceptance decision. Permanently freezing them could instead block a legitimate fix. Updating a reference therefore needs an explanation of why different behavior is now correct. This is a general acceptance principle, not a claim that a particular published MIC has that problem. A reference is useful to the extent that its origin and purpose are understood by someone deciding whether an observed difference should be accepted or investigated.
+
+Repetition is also distinct from explanation. Matching an output provides bounded evidence about a selected execution path in a known environment. It does not establish model quality on every user request or equivalent behavior on another hardware platform. Transferring the conclusion requires understanding which conditions changed. A useful verification portfolio can consequently include narrow, inexpensive tests and costly cases that the first layer cannot represent. They complement one another rather than competing to become the single sufficient check for every possible integration concern or deployment setting.
+
+### Why it matters
+
+Supporting more models makes early regression detection harder. MIC offers an explicit unit of control while retaining coverage caveats. The important connection is between the fixture, the action and the expected outcome. When it is visible, teams can discuss which changes a test should catch, which it might miss and why. That makes passing checks interpretable evidence about behavior without turning them into a universal guarantee of correctness.
+
+
+----- 05-cuga-harness-comparison (ai) — source: https://huggingface.co/blog/ibm-research/cuga-harness -----
+
+## Русская версия
+
+IBM Research 3 ноября [опубликовала сравнение CUGA, Hermes и Deep Agents](https://huggingface.co/blog/ibm-research/cuga-harness) с одной моделью на AppWorld. Авторы указывают различия конфигураций, ограниченную выборку и отсутствие проверки механизмов политик в этих запусках. Это исследование команды CUGA, а не независимая сертификация. Его полезно читать как конкретный пример влияния агентского окружения, не превращая результат в универсальный рейтинг для разработки кода, личного помощника и корпоративного процесса одновременно.
+
+Под оболочкой здесь понимается система вокруг модели, которая организует шаги и взаимодействие с инструментами. Чтобы оценить значение такой организации, рассмотрим собственный условный пример редакции. Помощнику нужно найти все записи определённого типа в приложении с постраничной выдачей. Модель может правильно понять запрос, но конечный список всё равно окажется неполным, если программа остановится после первой страницы. Ошибка результата в этом случае не сводится к знанию фактов или качеству языка: важен порядок получения и проверки данных.
+
+Теперь добавим требование перед изменением записи показать её человеку. Получение полного списка не доказывает соблюдение этого требования. Система может успешно завершить задачу по одному критерию и нарушить другой. Поэтому полезно отдельно оценивать способность выполнить работу и механизм, который ограничивает допустимые действия. Наш пример не описывает реальный платёж или доступ к чьим-либо аккаунтам. Он показывает, почему показатель завершения задач нельзя без дополнительной проверки читать как показатель соблюдения всех правил эксплуатации.
+
+Одинаковая модель — полезное условие сравнения, но не единственное. Для интерпретации нужны настройки инструментов, способы восстановления после ошибки, лимиты и критерии успеха. Если сравниваются разные готовые конфигурации, вывод относится прежде всего к этим конфигурациям в выбранной задаче. Он не отвечает автоматически на вопрос, что получится после другой настройки или в иной предметной области. Это не отменяет ценность опыта: он помогает поставить следующий проверяемый вопрос вместо поиска безусловного победителя по одному числу.
+
+Есть и важное различие между демонстрацией и повторяемой оценкой. Один удачный запуск показывает возможность. Серия вариантов помогает увидеть устойчивость. Но даже устойчивость на тестовых приложениях ещё не доказывает готовность к реальной системе с её состоянием, правами и последствиями ошибок. Для переноса результата понадобятся собственные случаи и понятные границы проверки. Полезно заранее определить, что считается неполной работой, допустим ли повтор и какие изменения требуют отдельного решения, а не восстанавливать эти условия после неожиданного поведения.
+
+### Почему это важно
+
+Новости об агентах часто называют модель так, словно она одна объясняет всё поведение. Новый разбор напоминает об окружающей программе и её настройках, одновременно обозначая границы опыта. Для читателя практический вопрос конкретен: какой набор модели, инструментов и правил проверяли на какой работе? Ответ помогает понять применимость результата. Без него даже аккуратно подсчитанный процент не объясняет, подойдёт ли система для задачи, где цена неполного списка или лишнего действия совсем другая.
+
+## English version
+
+On November 3, IBM Research [published a comparison of CUGA, Hermes and Deep Agents](https://huggingface.co/blog/ibm-research/cuga-harness) using one model on AppWorld. The authors identify configuration differences, a limited sample and the absence of policy-enforcement testing in those runs. This is a study by the CUGA team rather than independent certification. It offers a concrete example of how an agent's surrounding system matters, without establishing one universal ranking for coding, personal assistance and enterprise processes at the same time.
+
+A harness is the system around a model that organizes steps and tool interactions. An original hypothetical example illustrates why that organization matters. Suppose an assistant must find every record of a certain kind in an application with paginated results. The model could correctly understand the request, yet the final list would still be incomplete if the program stopped after the first page. The failure would not reduce to factual knowledge or language quality. The order in which information is obtained and checked would matter to the outcome.
+
+Now add a requirement to show a record to a person before changing it. Retrieving the complete list does not establish compliance with that requirement. A system could finish the task under one criterion while failing another. Capability to perform work and enforcement of permitted actions consequently deserve separate evaluation. This example describes no real payment or account access. It demonstrates why task completion cannot be read as compliance with every operational rule without additional checks designed to measure those rules and the points where they must hold.
+
+Holding the model constant is useful but does not hold everything constant. Tool settings, recovery behavior, limits and success criteria are needed to interpret the comparison. When different ready-made configurations are evaluated, the finding applies first to those configurations on the chosen workload. It does not automatically answer what would happen after tuning or in a different domain. That limitation does not remove the experiment's value: it helps formulate the next testable question rather than selecting an unconditional winner from a single reported number or a broad product description.
+
+Demonstration and repeatable evaluation are also distinct. One successful run establishes possibility; variants help examine consistency. Consistency on test applications still does not prove readiness for a real system with its own state, permissions and consequences of failure. Transferring a result requires suitable cases and a defined verification boundary. Teams can specify in advance what counts as incomplete work, whether retries are acceptable and which changes require a separate decision. Reconstructing those conditions only after unexpected behavior would make the acceptance process much harder to interpret and reproduce.
+
+### Why it matters
+
+Agent coverage often names the model as though it explained the whole system's behavior. This comparison draws attention to the surrounding program and its configuration while qualifying the experiment's scope. The useful question is concrete: which combination of model, tools and rules was evaluated on what work? Its answer makes a result interpretable. Without that context, even a carefully calculated completion rate cannot establish suitability for a task where an incomplete list or an extra action has different consequences.
+
+
+----- 06-pacific-storm-transition (science) — source: https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/ -----
+
+## Русская версия
+
+Один спутниковый взгляд на Тихий океан соединяет две разные стадии жизни штормов. NASA Earth Observatory 3 ноября [разобрала активный сезон тайфунов](https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/): In-fa находился около Марианских островов, а остатки Champi приближались к Аляске. Основной кадр получен камерой EPIC аппарата DSCOVR 29 октября. Другой снимок, прибором MODIS на Terra, показывает In-fa 30 октября. Это датированные наблюдения и объяснение процессов, а не текущий прогноз для жителей затронутых районов.
+
+У In-fa выделялись почти круглая форма и крупный глаз. NASA относит такое сочетание признаков к кольцевым тропическим циклонам. У них обычно нет выраженных внешних спиральных полос дождя, характерных для более привычного вида тайфуна. По приведённому агентством исследованию, кольцевые системы редки и способны дольше сохранять силу в неблагоприятных условиях. Однако внешний вид конкретного кадра не позволяет самостоятельно предсказать весь дальнейший маршрут или последствия шторма. Для этого нужны другие наблюдения и метеорологические расчёты.
+
+Champi к моменту изображения прошёл другой этап — внетропический переход. Тропический циклон получает энергию от тепла и влаги тёплого океана. Внетропическая система использует температурные различия между воздушными массами и обычно формирует фронты. Меняется и рисунок облаков: вместо компактной симметрии возникают большие закрученные полосы, напоминающие запятую. Поэтому выражение «бывший тайфун» не означает, что от него обязательно осталась только безобидная облачность. Это прежде всего смена физического устройства шторма.
+
+Метеоролог NASA Гэри Партика объясняет ещё одно различие: при переходе поле ветра расширяется, даже если сами ветры не становятся сильнее. В случае Champi он осторожно описывает взаимодействие остатков с системой Берингова моря. Среднеширотный шторм, вероятно, существовал бы и без них, но их вовлечение могло его усилить. Такая формулировка не приписывает одному тайфуну происхождение всей погоды региона и сохраняет границу между наблюдаемым взаимодействием и более широким причинным выводом.
+
+В публикации активность сезона также обсуждается в контексте Эль-Ниньо. Партика называет его вероятным участником повышенной активности, а не единственным доказанным объяснением каждого отдельного случая. Важно не смешивать климатическую обстановку, число штормов и ущерб в конкретном населённом пункте. Это разные уровни анализа. Снимок помогает увидеть структуру системы, но сам по себе не измеряет все последствия на земле и не заменяет местные сообщения о фактических условиях.
+
+### Почему это важно
+
+Один сезон даёт очень разные штормы, и их название не описывает всю дальнейшую эволюцию. In-fa иллюстрирует особую форму тропического циклона, Champi — переход к другому источнику энергии и более широкому полю ветра. Разбор NASA полезен как объяснение этих различий. Даты наблюдений и осторожная причинная формулировка позволяют читать его содержательно, не превращая научную иллюстрацию конца октября в выдуманное предупреждение о сегодняшней погоде.
+
+## English version
+
+A satellite view of the Pacific connects two different stages in storm evolution. On November 3, NASA Earth Observatory [examined an active typhoon season](https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/): In-fa was near the Mariana Islands while Champi's remnants approached Alaska. The main image came from DSCOVR's EPIC camera on October 29. A separate MODIS view from Terra shows In-fa on October 30. These are dated observations with a physical explanation, rather than a current forecast for people in the affected regions or a new warning issued by this publication.
+
+In-fa displayed an almost circular shape and a large eye, characteristics associated with annular tropical cyclones. These systems typically lack the prominent outer spiral rainbands familiar from many typhoon pictures. The analysis cited by NASA describes annular storms as rare and capable of maintaining strength longer under unfavorable conditions. Recognizing the structure in a particular image does not independently predict the storm's subsequent track or impacts. Those questions require additional observations and meteorological calculations rather than a visual classification alone.
+
+Champi had undergone a different process: extratropical transition. A tropical cyclone draws energy from the heat and moisture of warm ocean water. An extratropical system draws on temperature differences between air masses and generally develops fronts. Its cloud structure changes too, with broad, curling bands resembling a comma replacing a more compact symmetry. Calling a system an ex-typhoon therefore does not mean it has necessarily become harmless cloud. The phrase primarily describes a change in the storm's physical organization and energy source as it moves into a different environment.
+
+NASA meteorologist Gary Partyka explains another distinction: the wind field expands during transition, even when the winds themselves do not become stronger. For Champi, he cautiously describes interaction between its remnants and the Bering Sea system. A midlatitude storm would probably have existed without those remnants, but their involvement appears to have helped intensify it. That interpretation does not attribute all regional weather to one typhoon. It preserves the distinction between an observed interaction and a much broader causal claim about the origin of an entire weather system.
+
+The feature also discusses seasonal activity in the context of El Niño. Partyka calls it a likely contributor to elevated activity rather than the sole established explanation of every event. Climatic background, storm counts and damage in a particular settlement are different levels of analysis. A satellite scene helps reveal structure but does not measure every consequence on the ground or replace local reports about actual conditions. Keeping those questions separate is especially important when interpreting a retrospective scientific explanation during an ongoing storm season.
+
+### Why it matters
+
+One season can produce very different storms, and a system's name does not describe its entire evolution. In-fa illustrates a distinctive tropical structure; Champi demonstrates a transition to another energy source and a wider wind field. NASA's account explains those differences. Observation dates and cautious causal language make it useful without turning a late-October scientific illustration into an invented warning about today's weather.
+
+
+----- 07-escapade-earth-flybys (science) — source: https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/ -----
+
+## Русская версия
+
+Два аппарата ESCAPADE готовятся снова пройти рядом с Землёй, чтобы отправиться к Марсу. NASA в [сообщении от 2 ноября](https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/) описало предстоящие пролёты с включением двигателя. Первый назначен примерно на 5 утра 7 ноября по восточному стандартному времени США, второй — примерно на 6 утра 9 ноября. На момент этого выпуска манёвры ещё впереди: успешное завершение нельзя вывести из опубликованного расписания или анимации будущей траектории.
+
+Каждый аппарат должен совместить гравитационный пролёт с приблизительно девятиминутным включением двигателя около точки наибольшего сближения. Земля изменит направление и скорость движения, а дополнительный импульс поможет сформировать путь к Марсу. NASA описывает этот вариант как powered flyby, или манёвр Оберта. Важно само сочетание двух действий: это не обычное изображение свободного пролёта и не сообщение, что межпланетный участок уже завершён. Точность получившейся траектории потребует отдельной проверки после операции.
+
+Необычный маршрут связан со временем старта. ESCAPADE запустили в ноябре 2025 года, когда Земля и Марс находились по разные стороны Солнца. Вместо прямого перелёта аппараты выполнили петлю вокруг области точки Лагранжа L2 системы Солнце—Земля и вернулись к нашей планете. Такая схема позволила дождаться более подходящего взаимного положения. В объяснении NASA это пример маршрута, который меняет привычную последовательность «запуск — сразу курс к Марсу», а не отменяет ограничения небесной механики.
+
+После запланированных пролётов предусмотрен примерно десятимесячный путь. Даты прибытия указаны как 7 и 9 сентября 2027 года. Несколько дней после включений двигателей команда будет уточнять, насколько точно аппараты направлены к цели. В дальнейшем предусмотрены коррекции. Поэтому даже правильное первичное выполнение манёвра не означает отсутствие последующей навигационной работы. У миссии есть несколько последовательно проверяемых этапов, и каждый даёт свой тип информации о состоянии аппаратов и их движении.
+
+Научная задача у пары общая: изучать взаимодействие солнечного ветра с марсианской средой и потерю атмосферы планеты. Два аппарата должны работать совместно, позволяя наблюдать среду не из одной точки. NASA также сообщает о дополнительных наблюдениях земного магнитного хвоста по пути, но подробные результаты ещё планируется представить. Из самого факта сбора данных нельзя заранее извлечь конкретное новое открытие; его содержание станет ясно из отдельного анализа и публикации команды.
+
+### Почему это важно
+
+Межпланетная миссия начинается не только с выбора ракеты, но и с выбора времени и геометрии пути. ESCAPADE показывает, как ожидание и возвращение к Земле становятся частью маршрута к другой планете. Ближайшая проверка — реальные пролёты 7 и 9 ноября, затем уточнение траекторий. Научная работа у Марса остаётся будущим этапом, поэтому рассказ об интересной навигационной схеме должен сохранять различие между планом, выполненным манёвром и полученным исследовательским результатом.
+
+## English version
+
+The two ESCAPADE spacecraft are preparing to pass Earth again before heading toward Mars. In its [November 2 update](https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/), NASA described upcoming powered flybys. The first is scheduled around 5 a.m. US Eastern Standard Time on November 7, with the second around 6 a.m. on November 9. At publication these maneuvers remain ahead. Successful execution cannot be inferred from a schedule or an animation showing the intended trajectory, and neither spacecraft should yet be described as having completed this stage.
+
+Each vehicle is to combine a gravity-assisted encounter with an engine firing lasting approximately nine minutes near closest approach. Earth's gravity changes its direction and speed, while the additional impulse helps establish the Mars-bound path. NASA calls this a powered flyby, also known as an Oberth maneuver. The combination is central: this is neither simply a depiction of an unpowered encounter nor a report that the interplanetary leg is complete. The resulting trajectory's precision will need separate assessment after the operation has actually occurred.
+
+The unusual route follows from launch timing. ESCAPADE launched in November 2025 with Earth and Mars on opposite sides of the Sun. Instead of going directly to Mars, the spacecraft followed a loop around the Earth–Sun L2 region before returning toward Earth. This allowed them to wait for a more suitable planetary alignment. NASA's explanation illustrates a route that changes the familiar sequence of launching and immediately setting off for Mars, rather than removing the constraints imposed by orbital mechanics or making launch timing irrelevant to mission planning.
+
+After the planned flybys, the mission faces approximately ten months of cruise. Arrival dates are listed as September 7 and 9, 2027. In the days following the engine burns, the team will establish how accurately the spacecraft are aimed. Further trajectory corrections are planned during the journey. Even successful initial execution therefore would not mean subsequent navigation work is unnecessary. The mission has several independently assessable stages, each providing different information about the vehicles' condition and motion as their route progresses toward the destination.
+
+The pair's scientific objective is to examine how the solar wind interacts with the Martian environment and contributes to atmospheric loss. Working together should provide observations from more than one location. NASA also reports additional measurements in Earth's magnetotail during the route so far, with detailed findings planned for later release. Collecting information does not by itself establish a particular discovery. Its significance will become clearer through the team's analysis and a separate scientific account of what the observations support and where their interpretation remains limited.
+
+### Why it matters
+
+Interplanetary missions involve choices about timing and geometry as well as launch vehicles. ESCAPADE shows how waiting and returning to Earth can become part of a route to another planet. The next checkpoints are the actual November 7 and 9 encounters and the subsequent trajectory assessment. Mars science remains a future stage, so the navigation story needs to keep plans, completed maneuvers and established research findings distinct.
+
+
+----- 08-dwarf-galaxies-oxygen (science) — source: https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/ -----
+
+## Русская версия
+
+В карликовых галактиках обнаружено меньше кислорода, чем ожидалось из истории его образования звёздами. NASA 2 ноября [представило исследование проекта GLOW](https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/), охватившее 37 близких галактик. Работа опубликована в The Astrophysical Journal. Речь не об исчезновении химического элемента и не о кислородной атмосфере, похожей на земную. Учёные оценивают, сколько вещества произведено и где оно находится относительно звёзд, межзвёздного газа и окружения галактик.
+
+Кислород выбран как удобный индикатор более широкой химической истории. Он образуется в звёздах, сравнительно хорошо наблюдается, а процессы его производства достаточно изучены. Если оценить звёздное население и историю звездообразования, можно сопоставить ожидаемое количество элемента с наблюдаемым. Это не буквальная перепись каждого атома. Вывод строится на совместном анализе наблюдений и моделей, поэтому важно понимать, какие компоненты изучались и что остаётся за пределами прямых измерений.
+
+Исследователи использовали архивные оптические изображения Hubble, позволяющие различать отдельные звёзды в этих близких системах. Их дополнили сведениями Spitzer, Very Large Array и Australia Telescope Compact Array. Выбор соседних карликовых галактик имеет значение: для большинства более далёких объектов такую детализацию звёзд получить нельзя. Поэтому выборка даёт подробный взгляд на конкретный класс доступных систем, а не одинаково прямое измерение всех карликовых галактик во Вселенной.
+
+В интерпретации команды существенную роль играют галактические ветры, питаемые массивными звёздами и взрывами сверхновых. Они способны выносить вещество из небольших галактик. Новые результаты указывают, что удаление кислорода может быть эффективнее, чем предсказывают нынешние модели. Но направление вывода не следует расширять до утверждения, будто всё недостающее вещество уже найдено. Остаётся неизвестным, какая доля находится в разреженном окружении галактики, а какая ушла ещё дальше, в межгалактическую среду.
+
+Это различие важно и для будущих наблюдений. Установить дефицит внутри системы — одна задача, проследить весь путь выброшенного вещества — другая. NASA описывает планы расширить исследование на ещё более маломассивные объекты и подробнее изучать массивные звёзды в части нынешней выборки. Такие наблюдения должны уточнять историю, но их ещё нельзя включать в список уже полученных результатов. Архивные данные, новый анализ и будущая программа имеют разные даты и разную степень завершённости.
+
+### Почему это важно
+
+Химическая эволюция галактики зависит не только от рождения звёзд, но и от того, что система удерживает после их жизни. Кислород позволяет проследить этот обмен между галактикой и её окружением. Исследование GLOW уточняет масштаб проблемы и показывает, где модели нуждаются в проверке. Научная интрига остаётся конкретной: как эффективно небольшие галактики теряют произведённые элементы и где они оказываются? Ответ требует продолжения наблюдений, а не превращения слова «недостающий» в рассказ о нарушении физических законов.
+
+## English version
+
+Dwarf galaxies contain less oxygen than expected from the history of production by their stars. On November 2, NASA [presented the GLOW project's study](https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/), covering 37 nearby systems and published in The Astrophysical Journal. This is not a disappearance of a chemical element or a discussion of Earth-like oxygen atmospheres. Researchers are assessing how much material was produced and where it resides among stars, interstellar gas and the regions surrounding galaxies. The distinction matters for interpreting what missing means in this context.
+
+Oxygen provides a useful tracer of a broader chemical history. Stars produce it, it is relatively accessible to observation, and its production is well understood. Estimating stellar populations and star-formation histories allows researchers to compare expected amounts with observed material. This is not a literal census of every atom. The conclusion combines observations and modeling, making it important to understand which components were examined and which remain outside direct measurement. A shortfall is an inference about that accounting rather than evidence that matter stopped obeying physical laws.
+
+The team used archival optical Hubble images that resolve individual stars in these nearby galaxies. Additional information came from Spitzer, the Very Large Array and the Australia Telescope Compact Array. Choosing nearby dwarf systems matters: comparable stellar detail is not available for most more distant examples. The sample therefore supplies a detailed view of a particular accessible population rather than an equally direct measurement of every dwarf galaxy in the universe. Its strength comes from the depth of the observations as well as the number of systems analyzed.
+
+The team's interpretation emphasizes galactic winds powered by massive stars and supernova explosions. Those processes can drive material out of small galaxies. The findings suggest that oxygen removal can be more efficient than current models predict. That conclusion should not be expanded into a claim that all missing material has been located. It remains uncertain how much sits in the diffuse regions surrounding the galaxies and how much has traveled farther into intergalactic space. Those possibilities have different implications and require evidence beyond the deficit within the systems themselves.
+
+The distinction also shapes future observations. Establishing an internal shortfall is one task; reconstructing the entire journey of expelled material is another. NASA describes plans to extend work to still lower-mass systems and examine massive stars in some present targets more closely. Those observations could refine the history but cannot yet be counted as completed findings. Archival acquisition, a new analysis and a future observing program have different dates and different levels of completion, even when they contribute to one continuing research question.
+
+### Why it matters
+
+A galaxy's chemical evolution depends on what remains after stars live and die as well as on how many stars form. Oxygen helps trace exchange with its surroundings. GLOW refines the problem and indicates where models need testing. The question is concrete: how effectively do small galaxies lose elements they produce, and where does that material go? Further observations are needed, rather than interpreting a missing inventory as a violation of physics.
 
 
 ===== EDITION 48 — 2026-11-02 =====

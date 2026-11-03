@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBM сравнила три агентские оболочки с одной моделью - frontier-wire</title>
+<meta name="description" content="A new CUGA, Hermes and Deep Agents comparison examines the surrounding system, without measuring business-policy enforcement.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-03/05-cuga-harness-comparison.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "IBM compares three agent harnesses using the same model", "alternativeHeadline": "IBM сравнила три агентские оболочки с одной моделью", "datePublished": "2026-11-03", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/ibm-research/cuga-harness", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-03/05-cuga-harness-comparison.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-11-03 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">IBM сравнила три агентские оболочки с одной моделью</span><span class="lang-en">IBM compares three agent harnesses using the same model</span></h1>
+  <p class="dek big"><span class="lang-ru">Новый разбор CUGA, Hermes и Deep Agents показывает влияние окружения; тест не измеряет соблюдение корпоративных правил.</span><span class="lang-en">A new CUGA, Hermes and Deep Agents comparison examines the surrounding system, without measuring business-policy enforcement.</span></p>
+
+  <div class="prose lang-ru"><p>IBM Research 3 ноября <a href="https://huggingface.co/blog/ibm-research/cuga-harness">опубликовала сравнение CUGA, Hermes и Deep Agents</a> с одной моделью на AppWorld. Авторы указывают различия конфигураций, ограниченную выборку и отсутствие проверки механизмов политик в этих запусках. Это исследование команды CUGA, а не независимая сертификация. Его полезно читать как конкретный пример влияния агентского окружения, не превращая результат в универсальный рейтинг для разработки кода, личного помощника и корпоративного процесса одновременно.</p>
+<p>Под оболочкой здесь понимается система вокруг модели, которая организует шаги и взаимодействие с инструментами. Чтобы оценить значение такой организации, рассмотрим собственный условный пример редакции. Помощнику нужно найти все записи определённого типа в приложении с постраничной выдачей. Модель может правильно понять запрос, но конечный список всё равно окажется неполным, если программа остановится после первой страницы. Ошибка результата в этом случае не сводится к знанию фактов или качеству языка: важен порядок получения и проверки данных.</p>
+<p>Теперь добавим требование перед изменением записи показать её человеку. Получение полного списка не доказывает соблюдение этого требования. Система может успешно завершить задачу по одному критерию и нарушить другой. Поэтому полезно отдельно оценивать способность выполнить работу и механизм, который ограничивает допустимые действия. Наш пример не описывает реальный платёж или доступ к чьим-либо аккаунтам. Он показывает, почему показатель завершения задач нельзя без дополнительной проверки читать как показатель соблюдения всех правил эксплуатации.</p>
+<p>Одинаковая модель — полезное условие сравнения, но не единственное. Для интерпретации нужны настройки инструментов, способы восстановления после ошибки, лимиты и критерии успеха. Если сравниваются разные готовые конфигурации, вывод относится прежде всего к этим конфигурациям в выбранной задаче. Он не отвечает автоматически на вопрос, что получится после другой настройки или в иной предметной области. Это не отменяет ценность опыта: он помогает поставить следующий проверяемый вопрос вместо поиска безусловного победителя по одному числу.</p>
+<p>Есть и важное различие между демонстрацией и повторяемой оценкой. Один удачный запуск показывает возможность. Серия вариантов помогает увидеть устойчивость. Но даже устойчивость на тестовых приложениях ещё не доказывает готовность к реальной системе с её состоянием, правами и последствиями ошибок. Для переноса результата понадобятся собственные случаи и понятные границы проверки. Полезно заранее определить, что считается неполной работой, допустим ли повтор и какие изменения требуют отдельного решения, а не восстанавливать эти условия после неожиданного поведения.</p>
+<h3>Почему это важно</h3>
+<p>Новости об агентах часто называют модель так, словно она одна объясняет всё поведение. Новый разбор напоминает об окружающей программе и её настройках, одновременно обозначая границы опыта. Для читателя практический вопрос конкретен: какой набор модели, инструментов и правил проверяли на какой работе? Ответ помогает понять применимость результата. Без него даже аккуратно подсчитанный процент не объясняет, подойдёт ли система для задачи, где цена неполного списка или лишнего действия совсем другая.</p></div>
+  <div class="prose lang-en"><p>On November 3, IBM Research <a href="https://huggingface.co/blog/ibm-research/cuga-harness">published a comparison of CUGA, Hermes and Deep Agents</a> using one model on AppWorld. The authors identify configuration differences, a limited sample and the absence of policy-enforcement testing in those runs. This is a study by the CUGA team rather than independent certification. It offers a concrete example of how an agent's surrounding system matters, without establishing one universal ranking for coding, personal assistance and enterprise processes at the same time.</p>
+<p>A harness is the system around a model that organizes steps and tool interactions. An original hypothetical example illustrates why that organization matters. Suppose an assistant must find every record of a certain kind in an application with paginated results. The model could correctly understand the request, yet the final list would still be incomplete if the program stopped after the first page. The failure would not reduce to factual knowledge or language quality. The order in which information is obtained and checked would matter to the outcome.</p>
+<p>Now add a requirement to show a record to a person before changing it. Retrieving the complete list does not establish compliance with that requirement. A system could finish the task under one criterion while failing another. Capability to perform work and enforcement of permitted actions consequently deserve separate evaluation. This example describes no real payment or account access. It demonstrates why task completion cannot be read as compliance with every operational rule without additional checks designed to measure those rules and the points where they must hold.</p>
+<p>Holding the model constant is useful but does not hold everything constant. Tool settings, recovery behavior, limits and success criteria are needed to interpret the comparison. When different ready-made configurations are evaluated, the finding applies first to those configurations on the chosen workload. It does not automatically answer what would happen after tuning or in a different domain. That limitation does not remove the experiment's value: it helps formulate the next testable question rather than selecting an unconditional winner from a single reported number or a broad product description.</p>
+<p>Demonstration and repeatable evaluation are also distinct. One successful run establishes possibility; variants help examine consistency. Consistency on test applications still does not prove readiness for a real system with its own state, permissions and consequences of failure. Transferring a result requires suitable cases and a defined verification boundary. Teams can specify in advance what counts as incomplete work, whether retries are acceptable and which changes require a separate decision. Reconstructing those conditions only after unexpected behavior would make the acceptance process much harder to interpret and reproduce.</p>
+<h3>Why it matters</h3>
+<p>Agent coverage often names the model as though it explained the whole system's behavior. This comparison draws attention to the surrounding program and its configuration while qualifying the experiment's scope. The useful question is concrete: which combination of model, tools and rules was evaluated on what work? Its answer makes a result interpretable. Without that context, even a carefully calculated completion rate cannot establish suitability for a task where an incomplete list or an extra action has different consequences.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/ibm-research/cuga-harness">https://huggingface.co/blog/ibm-research/cuga-harness</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

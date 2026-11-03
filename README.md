@@ -15,6 +15,11 @@
 - **[Технологии]** [Pando меняет серверную сторону Git ради множества параллельных изменений](editions/2026/11-03/01-pando-git-service.md)
 - **[Технологии]** [Grid Protectors предлагает будущим вычислительным кампусам снижать нагрузку в пики](editions/2026/11-03/02-grid-protectors-demand.md)
 - **[Технологии]** [OpenAI повышает bug bounty и готовит новый защитный спринт](editions/2026/11-03/03-security-incentives-sprint.md)
+- **[ИИ и наука]** [Transformers предлагает проверять интеграции моделей небольшими контрактами](editions/2026/11-03/04-transformers-contracts.md)
+- **[ИИ и наука]** [IBM сравнила три агентские оболочки с одной моделью](editions/2026/11-03/05-cuga-harness-comparison.md)
+- **[ИИ и наука]** [NASA показала два разных пути тихоокеанских тайфунов](editions/2026/11-03/06-pacific-storm-transition.md)
+- **[ИИ и наука]** [Два аппарата ESCAPADE готовятся разогнаться у Земли по пути к Марсу](editions/2026/11-03/07-escapade-earth-flybys.md)
+- **[ИИ и наука]** [У 37 карликовых галактик недосчитались кислорода](editions/2026/11-03/08-dwarf-galaxies-oxygen.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

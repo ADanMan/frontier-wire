@@ -5,8 +5,8 @@ edition: 49
 
 ## От редакции
 
-Утром три материала об инфраструктуре, которая остаётся за ответом модели. Pando обслуживает параллельную работу с Git, Grid Protectors предлагает гибкое потребление энергии будущими кампусами, а обновлённые bug bounty сопровождают подготовку защитного спринта. В источниках от 2 ноября отделяем работающую систему от планов и показатели транспорта — от качества конечного результата.
+За день восемь материалов об инфраструктуре, проверках и наблюдениях. Утренние Pando, Grid Protectors и защитные программы дополнены контрактами тестирования Transformers и сравнением агентских оболочек. В научной части — разные пути тихоокеанских штормов, будущие пролёты ESCAPADE и недостающий кислород карликовых галактик. Различаем дату снимка, результат анализа и ещё не выполненный план.
 
 ## Editorial
 
-Three morning stories examine infrastructure behind a model's output. Pando serves parallel Git workflows, Grid Protectors proposes flexible electricity demand from future campuses, and revised bug bounties accompany preparations for a defensive sprint. Reading the November 2 sources, we separate operating systems from plans and transport metrics from the quality of the final result.
+Eight stories cover infrastructure, verification and observation. Morning reports on Pando, Grid Protectors and defensive programs are joined by Transformers testing contracts and an agent-harness comparison. Science coverage follows Pacific storm evolution, ESCAPADE's upcoming flybys and an oxygen shortfall in dwarf galaxies. Each account distinguishes image acquisition, analyzed findings and plans that remain ahead.
