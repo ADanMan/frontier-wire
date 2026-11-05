@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-11-05",
+  "slot": "evening",
+  "checked_at": "2026-11-05T16:06:01.986127+00:00",
+  "digest_sha256": "669238dfb50ee06a4278c9abdeb18e838403339a45b37b9685e175d4d24df813",
+  "articles": [
+    {
+      "path": "editions/2026/11-05/01-phonon-local-speech.md",
+      "sha256": "6450f423b12f1ee98871166839992c5b0fb7ec873b947e8fac17d69df3977952",
+      "source": "https://huggingface.co/blog/phonon-tts"
+    },
+    {
+      "path": "editions/2026/11-05/02-dharma-document-fields.md",
+      "sha256": "c81985c60a082194e43291762b09fd4fe83acdb4c86d699e4ec24a21bb8332a6",
+      "source": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+    },
+    {
+      "path": "editions/2026/11-05/03-cyprus-land-bridges.md",
+      "sha256": "8b8e15fc805a4727a807448319fd5e4d2e91e588291ba4e024a28e0988f94562",
+      "source": "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites"
+    },
+    {
+      "path": "editions/2026/11-05/04-m30-galactic-history.md",
+      "sha256": "501ab11836e4048509b2f0c77fcc8e4d687110f6377db1b1d0b87ccfbb9359d7",
+      "source": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars"
+    },
+    {
+      "path": "editions/2026/11-05/05-splice-drone-landing.md",
+      "sha256": "59600ee93ebd46eaed13740b8d3118560365130568d6bfd145610bdf1e97499c",
+      "source": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings"
+    }
+  ]
+}

@@ -10,16 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №49 / Edition №49 — 2026-11-03** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-03/)
+**Выпуск №50 / Edition №50 — 2026-11-05** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-05/)
 
-- **[Технологии]** [Pando меняет серверную сторону Git ради множества параллельных изменений](editions/2026/11-03/01-pando-git-service.md)
-- **[Технологии]** [Grid Protectors предлагает будущим вычислительным кампусам снижать нагрузку в пики](editions/2026/11-03/02-grid-protectors-demand.md)
-- **[Технологии]** [OpenAI повышает bug bounty и готовит новый защитный спринт](editions/2026/11-03/03-security-incentives-sprint.md)
-- **[ИИ и наука]** [Transformers предлагает проверять интеграции моделей небольшими контрактами](editions/2026/11-03/04-transformers-contracts.md)
-- **[ИИ и наука]** [IBM сравнила три агентские оболочки с одной моделью](editions/2026/11-03/05-cuga-harness-comparison.md)
-- **[ИИ и наука]** [NASA показала два разных пути тихоокеанских тайфунов](editions/2026/11-03/06-pacific-storm-transition.md)
-- **[ИИ и наука]** [Два аппарата ESCAPADE готовятся разогнаться у Земли по пути к Марсу](editions/2026/11-03/07-escapade-earth-flybys.md)
-- **[ИИ и наука]** [У 37 карликовых галактик недосчитались кислорода](editions/2026/11-03/08-dwarf-galaxies-oxygen.md)
+- **[ИИ]** [Phonon показывает локальную речь, но лицензии вариантов различаются](editions/2026/11-05/01-phonon-local-speech.md)
+- **[ИИ]** [Dharma отделяет распознавание страницы от извлечения нужных полей](editions/2026/11-05/02-dharma-document-fields.md)
+- **[Наука]** [Landsat показывает, как два сухопутных моста изменили южный берег Кипра](editions/2026/11-05/03-cyprus-land-bridges.md)
+- **[Наука]** [Новый портрет M30 показывает, как наблюдения накапливают историю](editions/2026/11-05/04-m30-galactic-history.md)
+- **[Наука]** [SPLICE проверила выбор посадочной площадки на земном дроне](editions/2026/11-05/05-splice-drone-landing.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

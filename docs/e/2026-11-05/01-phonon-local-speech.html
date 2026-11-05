@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phonon показывает локальную речь, но лицензии вариантов различаются - frontier-wire</title>
+<meta name="description" content="Gradium&#x27;s new account discusses previously released models, with quality, speed and usage terms requiring separate assessment.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-05/01-phonon-local-speech.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Phonon demonstrates local speech with different licenses across variants", "alternativeHeadline": "Phonon показывает локальную речь, но лицензии вариантов различаются", "datePublished": "2026-11-05", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/phonon-tts", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-05/01-phonon-local-speech.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-11-05 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Phonon показывает локальную речь, но лицензии вариантов различаются</span><span class="lang-en">Phonon demonstrates local speech with different licenses across variants</span></h1>
+  <p class="dek big"><span class="lang-ru">В новом разборе Gradium речь идёт о ранее открытых моделях; качество, скорость и условия использования требуют отдельных проверок.</span><span class="lang-en">Gradium&#x27;s new account discusses previously released models, with quality, speed and usage terms requiring separate assessment.</span></p>
+
+  <div class="prose lang-ru"><p>Gradium 5 ноября <a href="https://huggingface.co/blog/phonon-tts">опубликовала подробности Phonon</a>, локального синтеза речи. Модели были открыты раньше, поэтому это новый разбор, а не первый выпуск всех компонентов сегодня. Англоязычная версия 31m имеет Apache 2.0; многоязычная 40m — некоммерческую лицензию. Авторы описывают работу на устройстве без сервера. Редакция не проводила собственных звуковых или скоростных испытаний и не переносит название статьи о лидерстве в рейтинге на любые устройства, языки и задачи.</p>
+<p>Главное различие здесь — между возможностью выполнить вычисление и условиями использования конкретного варианта. Два файла с похожими названиями могут иметь разные разрешения. Поэтому при выборе компонента полезно установить, какой именно артефакт рассматривается, какая лицензия к нему приложена и какие дополнительные данные нужны приложению. Нельзя вывести условия всей линейки из лицензии одной версии. Это объяснение способа чтения анонса, а не юридическое заключение о конкретном коммерческом продукте или обещание, что любая сборка автоматически свободна от ограничений.</p>
+<p>Локальное исполнение тоже нужно понимать в границах приложения. Если сам синтез не требует сервера, это ещё не описывает все остальные функции программы: загрузку файлов, обновления, аналитику или работу интерфейса. Для условного офлайн-помощника можно сформулировать понятный опыт: заранее установить нужные компоненты, отключить сеть и проверить выбранные фразы. Результат такого опыта относился бы к конкретной сборке и условиям. Мы его здесь не выполняли и не объявляем целое стороннее приложение проверенным по одному свойству модели.</p>
+<p>Качество речи также складывается из разных вопросов. Разборчиво ли звучат слова? Правильно ли прочитаны дата и сокращение? Как долго пользователь ждёт начала звука? Продолжает ли система работать с приемлемой скоростью на длинном тексте? Эти критерии могут расходиться. Красивый короткий пример не устанавливает правильность всех чисел, а быстрое начало не гарантирует равномерное воспроизведение целой страницы. Для сравнения нужны одинаковые тексты и понятная процедура, а не только субъективное впечатление от одного голоса.</p>
+<p>Полезен и заранее выбранный набор ошибок. Например, в условном дикторском приложении можно отдельно проверить список фамилий, адреса, числа и границы предложений. Это собственные примеры редакции, не результаты команды Gradium. Они показывают, почему итоговый выбор зависит от сценария. Озвучивание короткой игровой реплики и чтение технической инструкции предъявляют разные требования. Перенос общего рейтинга на конкретную задачу требует свидетельств именно для неё, даже если размер модели подходит памяти устройства.</p>
+<h3>Почему это важно</h3>
+<p>Локальный синтез расширяет выбор архитектуры голосового приложения. Новый разбор помогает поставить вопросы о варианте модели, условиях использования и проверяемом поведении. Но решение нельзя свести к одному числу размера или месту в таблице. Для читателя содержателен полный набор: что именно запускается, где выполняется вычисление и насколько хорошо оно справляется с нужным текстом. Так обещание офлайн-речи превращается в проверяемый сценарий, сохраняя границу между описанием разработчика и собственным испытанием.</p></div>
+  <div class="prose lang-en"><p>On November 5, Gradium <a href="https://huggingface.co/blog/phonon-tts">published a closer account of Phonon</a>, its on-device speech synthesis. The models were opened earlier, so this is a new explanation rather than the first release of every component today. The English 31m variant uses Apache 2.0, while multilingual 40m has noncommercial terms. The authors describe server-free operation. Frontier Wire has not conducted listening or speed tests and does not extend the headline's leaderboard claim to every device, language and workload.</p>
+<p>Execution capability and permission to use a particular variant are separate questions. Two artifacts with similar names can carry different terms. Selecting a component consequently requires identifying the exact artifact, its accompanying license and the additional resources an application needs. The license for one version cannot establish the terms for an entire family. This is an explanation of how to read the announcement, rather than a legal conclusion about a particular commercial product or a promise that every possible build is automatically free of restrictions.</p>
+<p>Local inference also needs to be understood within an application's boundaries. A synthesis step that requires no server does not describe every other function: downloads, updates, analytics or interface behavior. A hypothetical offline assistant could be checked by installing its required components in advance, disconnecting the network and trying selected phrases. Such a result would concern that specific build and environment. We have not performed that experiment here, nor certified a third-party application simply because one model component is described as capable of local execution.</p>
+<p>Speech quality combines several questions. Are words intelligible? Are a date and an abbreviation read correctly? How long does the user wait before audio begins? Does the system maintain suitable playback over a long passage? These criteria can diverge. An attractive short sample does not establish correct reading of every number, while quick startup does not guarantee smooth delivery of a full page. A useful comparison needs identical texts and an explicit procedure, rather than a subjective impression of one voice or an assumption that a small model necessarily meets all the requirements.</p>
+<p>Predetermined failure cases can help. A hypothetical narration app might separately check names, addresses, numerical values and sentence boundaries. These are Frontier Wire's examples, not results reported by Gradium. They illustrate why selection depends on the workload. Speaking a short game line and reading a technical instruction impose different requirements. Applying a general ranking to a specific use case needs evidence for that use case, even when the model's size fits the device's memory and the developer has shown an appealing demonstration under other conditions.</p>
+<h3>Why it matters</h3>
+<p>On-device synthesis broadens the architectural choices for voice applications. This account helps frame questions about model variants, usage terms and observable behavior. Selection cannot be reduced to a file size or leaderboard position. The useful combination is the exact artifact, where computation occurs and how well it handles the intended text. That turns an offline-speech promise into a testable scenario while retaining the distinction between a developer's description and an independently performed evaluation.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/phonon-tts">https://huggingface.co/blog/phonon-tts</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
