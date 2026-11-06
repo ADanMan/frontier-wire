@@ -1,21 +1,21 @@
-# frontier-wire — latest edition №50 (2026-11-05)
+# frontier-wire — latest edition №51 (2026-11-06)
 
-## Phonon demonstrates local speech with different licenses across variants / Phonon показывает локальную речь, но лицензии вариантов различаются
-rubric: ai · source: https://huggingface.co/blog/phonon-tts
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-05/01-phonon-local-speech.md
+## Cosmos 3 separates scene generation from validating a physical world / Cosmos 3 разводит генерацию сцены и проверку физического мира
+rubric: ai · source: https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-06/01-cosmos-interactive-worlds.md
 
-## Dharma separates page transcription from extracting requested fields / Dharma отделяет распознавание страницы от извлечения нужных полей
-rubric: ai · source: https://huggingface.co/blog/Dharma-AI/dharma-field-extractor
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-05/02-dharma-document-fields.md
+## Gemini Omni 1.2 Flash extends clips and adds conversational editing / Gemini Omni 1.2 Flash удлиняет клипы и предлагает правки разговором
+rubric: ai · source: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-06/02-omni-longer-video.md
 
-## Landsat shows the land bridges that reshaped southern Cyprus / Landsat показывает, как два сухопутных моста изменили южный берег Кипра
-rubric: science · source: https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-05/03-cyprus-land-bridges.md
+## Australian universities connect AI access with assessment rules / Австралийские университеты связывают доступ к ИИ с правилами оценки знаний
+rubric: tech · source: https://openai.com/index/australian-universities-ai-native-graduates
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-06/03-university-ai-assessment.md
 
-## A new M30 portrait shows how observations accumulate history / Новый портрет M30 показывает, как наблюдения накапливают историю
-rubric: science · source: https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-05/04-m30-galactic-history.md
+## NASA presents X-70 as a reconfigurable flight-research platform / NASA представило X-70 как перенастраиваемую платформу лётных испытаний
+rubric: science · source: https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-06/04-x70-research-platform.md
 
-## SPLICE tests landing-site selection aboard an Earth-based drone / SPLICE проверила выбор посадочной площадки на земном дроне
-rubric: science · source: https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-05/05-splice-drone-landing.md
+## NASA selects three companies to develop Ka-band relay concepts / NASA выбрало три компании для разработки Ka-band ретрансляции
+rubric: science · source: https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-06/05-ka-band-relay-concepts.md

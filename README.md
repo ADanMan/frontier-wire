@@ -10,13 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №50 / Edition №50 — 2026-11-05** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-05/)
+**Выпуск №51 / Edition №51 — 2026-11-06** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-06/)
 
-- **[ИИ]** [Phonon показывает локальную речь, но лицензии вариантов различаются](editions/2026/11-05/01-phonon-local-speech.md)
-- **[ИИ]** [Dharma отделяет распознавание страницы от извлечения нужных полей](editions/2026/11-05/02-dharma-document-fields.md)
-- **[Наука]** [Landsat показывает, как два сухопутных моста изменили южный берег Кипра](editions/2026/11-05/03-cyprus-land-bridges.md)
-- **[Наука]** [Новый портрет M30 показывает, как наблюдения накапливают историю](editions/2026/11-05/04-m30-galactic-history.md)
-- **[Наука]** [SPLICE проверила выбор посадочной площадки на земном дроне](editions/2026/11-05/05-splice-drone-landing.md)
+- **[ИИ и технологии]** [Cosmos 3 разводит генерацию сцены и проверку физического мира](editions/2026/11-06/01-cosmos-interactive-worlds.md)
+- **[ИИ и технологии]** [Gemini Omni 1.2 Flash удлиняет клипы и предлагает правки разговором](editions/2026/11-06/02-omni-longer-video.md)
+- **[ИИ и технологии]** [Австралийские университеты связывают доступ к ИИ с правилами оценки знаний](editions/2026/11-06/03-university-ai-assessment.md)
+- **[Наука]** [NASA представило X-70 как перенастраиваемую платформу лётных испытаний](editions/2026/11-06/04-x70-research-platform.md)
+- **[Наука]** [NASA выбрало три компании для разработки Ka-band ретрансляции](editions/2026/11-06/05-ka-band-relay-concepts.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

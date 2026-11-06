@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-11-06",
+  "slot": "morning",
+  "checked_at": "2026-11-06T04:01:57.413848+00:00",
+  "digest_sha256": "38a11a21b4c3a906eeb4e4b4a9c5f7e95a56564542bb55e646967aa6a3a40733",
+  "articles": [
+    {
+      "path": "editions/2026/11-06/01-cosmos-interactive-worlds.md",
+      "sha256": "e75a05c37e05f91975c48cfa107afbd1705b6e8eab86701ed6e6c01543a22ac1",
+      "source": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+    },
+    {
+      "path": "editions/2026/11-06/02-omni-longer-video.md",
+      "sha256": "027b1af48b2a18c80096ec1ef337f5c828d694c26af40db5595a5f294e32bc53",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+    },
+    {
+      "path": "editions/2026/11-06/03-university-ai-assessment.md",
+      "sha256": "596e5002334e2b68f06e0163064177fb9af721c9a0b6fe8cf15c83087b64c685",
+      "source": "https://openai.com/index/australian-universities-ai-native-graduates"
+    },
+    {
+      "path": "editions/2026/11-06/04-x70-research-platform.md",
+      "sha256": "4f0b9e1a082e9940d23209b1ba6ae258d2ea41bf74f119c2688a35a0d6230a19",
+      "source": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research"
+    },
+    {
+      "path": "editions/2026/11-06/05-ka-band-relay-concepts.md",
+      "sha256": "154fcf9e5423542fe80aff14ba9bcba363256620886b09fce77fc178442e5ac5",
+      "source": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications"
+    }
+  ]
+}
