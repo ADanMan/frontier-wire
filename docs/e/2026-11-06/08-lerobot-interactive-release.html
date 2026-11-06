@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeRobot 0.7 добавил диалог с работающей политикой робота - frontier-wire</title>
+<meta name="description" content="The November 5 release brings interactive sessions, streamed training data and remote inference.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-06/08-lerobot-interactive-release.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "LeRobot 0.7 adds interaction with a running robot policy", "alternativeHeadline": "LeRobot 0.7 добавил диалог с работающей политикой робота", "datePublished": "2026-11-06", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/lerobot/lerobot-release-v070", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-06/08-lerobot-interactive-release.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-11-06 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">LeRobot 0.7 добавил диалог с работающей политикой робота</span><span class="lang-en">LeRobot 0.7 adds interaction with a running robot policy</span></h1>
+  <p class="dek big"><span class="lang-ru">Релиз от 5 ноября объединяет интерактивные сессии, потоковое обучение и удалённый inference.</span><span class="lang-en">The November 5 release brings interactive sessions, streamed training data and remote inference.</span></p>
+
+  <div class="prose lang-ru"><p>Команда LeRobot 5 ноября <a href="https://huggingface.co/blog/lerobot/lerobot-release-v070">описала версию 0.7.0</a>. В ней появились интерактивные сессии, потоковое чтение обучающих данных и удалённое выполнение модели. Вопросы о сцене и самостоятельный выбор подзадач требуют политики, способной генерировать текст, либо внешнего планировщика. Это важное условие совместимости: установка новой библиотеки сама по себе не превращает любую подключённую руку в универсального собеседника. Редакция не запускала релиз на физическом оборудовании и не проверяла заявленную производительность.</p>
+<p>Практический смысл диалога можно рассмотреть на независимом примере. Оператор просит убрать предмет, затем замечает, что цель сформулирована неудачно. Возможность уточнить задание полезна только тогда, когда понятно, к какому состоянию относится уточнение. Команда «возьми другой» двусмысленна, если машина уже начала движение. Поэтому при оценке такого интерфейса стоит проверять не только понимание фразы, но и момент её применения. Удобство разговора и предсказуемость управления должны рассматриваться вместе, а не по отдельности.</p>
+<p>Нужны и ясные границы между наблюдением, решением и действием. В нашем условном испытании можно сначала попросить систему описать сцену, затем назвать выбранную цель и только после этого разрешить движение. Это предложение по организации пилота, не описание режима, гарантированного авторами релиза. Оно помогает увидеть, на каком этапе возникло расхождение. Правильный ответ на вопрос о картинке ещё не подтверждает точность движения; правильно выбранная цель тоже не объясняет, как система поведёт себя при неожиданном препятствии.</p>
+<p>Удалённое выполнение добавляет отдельный предмет проверки. Для любого такого проекта полезно заранее определить, что должно происходить при устаревшем наблюдении, задержке ответа или потере связи. Рассказ об успешной команде не заменяет проверки этих состояний. Здесь не требуется заранее объявлять конкретную реализацию ненадёжной: требуется измерить поведение в условиях, которые важны для вашей установки. Порог приемлемой задержки зависит от задачи, поэтому переносить случайное число из чужого примера было бы плохой отправной точкой.</p>
+<p>То же относится к работе с большими данными. Для воспроизводимого сравнения нужно сохранить идентификатор набора, параметры отбора и условия запуска. Иначе изменение результата можно ошибочно приписать модели, хотя поменялись входные примеры. Полезный первый опыт должен быть небольшим и объяснимым: известная задача, фиксированный набор и понятный способ сверить результат. Масштабирование стоит оценивать после этого, когда уже есть исходная точка для сравнения времени, ресурсов и качества.</p>
+<h3>Почему это важно</h3>
+<p>Новый интерфейс расширяет пространство экспериментов, но ценность релиза проявится в конкретном рабочем процессе. Разумный пилот проверяет понимание команд, исполнение и восстановление после сбоя отдельно. Так проще понять, что именно улучшилось и какие ограничения остаются существенными для вашего робота.</p></div>
+  <div class="prose lang-en"><p>The LeRobot team <a href="https://huggingface.co/blog/lerobot/lerobot-release-v070">described version 0.7.0 on November 5</a>. It introduces interactive sessions, streamed training data and remote model execution. Scene questions and autonomous subtask selection require a text-generating policy or an external planner. That compatibility condition matters: installing a library does not turn every connected arm into a general conversational robot. We have not tested the release on physical equipment or independently verified its performance claims. This is a software announcement, not a hardware review.</p>
+<p>An independent hypothetical example illustrates the interface question. An operator asks a robot to clear an object, then realises the request was poorly specified. Changing the instruction is useful only if everyone understands which state the update applies to. “Take the other one” becomes ambiguous when movement has already begun. Evaluating the interface should therefore examine the timing of an instruction as well as its interpretation. Conversational convenience and predictable control belong in the same assessment, rather than being treated as unrelated benefits.</p>
+<p>Observation, decision and action also deserve distinct checks. In our hypothetical pilot, an evaluator could first ask for a scene description, then a target selection, and only afterward permit movement. This is a proposed testing arrangement, not a mode we claim the release guarantees. It helps locate a disagreement. Correctly answering a visual question does not establish accurate motion, while selecting the right target does not explain what will happen when an unexpected obstacle appears. Each step needs evidence appropriate to the claim being made.</p>
+<p>Remote execution creates another area to examine. Any such project should specify expected behaviour when observations become stale, replies arrive late or the connection disappears. A successful command sequence is insufficient evidence about those states. This does not require declaring a particular implementation unreliable in advance; it requires measuring behaviour under conditions relevant to the installation. Acceptable delay depends on the task, so copying an arbitrary threshold from somebody else's example would provide a weak basis for an operational decision.</p>
+<p>Large data workflows need similar discipline. A reproducible comparison should retain dataset identifiers, selection settings and run conditions. Otherwise, a change caused by different input examples might be attributed to the model. A useful first experiment can remain small and legible: a known task, a fixed collection and an explicit way to check the result. Scaling becomes easier to assess once that baseline exists, because time, resource use and quality can then be compared against something well specified.</p>
+<h3>Why it matters</h3>
+<p>The release broadens the experiments developers can attempt, but its value depends on a particular workflow. A sensible pilot checks instruction understanding, execution and recovery separately. That makes it easier to identify the improvement and to determine which remaining constraints matter for the robot and task under consideration.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/lerobot/lerobot-release-v070">https://huggingface.co/blog/lerobot/lerobot-release-v070</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

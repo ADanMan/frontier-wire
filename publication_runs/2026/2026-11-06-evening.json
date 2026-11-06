@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-11-06",
+  "slot": "evening",
+  "checked_at": "2026-11-06T16:07:07.400002+00:00",
+  "digest_sha256": "a7b2c38aaf55d6efd8057d34c6ca6cefce6cd3ea4c8f03ec00873da60756eb15",
+  "articles": [
+    {
+      "path": "editions/2026/11-06/06-toyblocks-controlled-robotics.md",
+      "sha256": "d28fc5f7327b5abb7dfba54b89abc14908c534a01aa9d6d44a09b113c7a3ad88",
+      "source": "https://huggingface.co/blog/allenai/toyblocks"
+    },
+    {
+      "path": "editions/2026/11-06/07-asr-accent-evaluation.md",
+      "sha256": "140bda2dea073b07cccd7756ae861ba8a66444cd82b2b40511570c6f12a7da67",
+      "source": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    },
+    {
+      "path": "editions/2026/11-06/08-lerobot-interactive-release.md",
+      "sha256": "cf0ea44e9d86e0c17a14e81bfa53e831a20eedb314b507347bd936829bd08008",
+      "source": "https://huggingface.co/blog/lerobot/lerobot-release-v070"
+    },
+    {
+      "path": "editions/2026/11-06/09-iss-final-solar-array.md",
+      "sha256": "1a3f9014f69b59708ba7f77cd916c98ebd017f58fe72429e8d32a857b026dc7d",
+      "source": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array"
+    },
+    {
+      "path": "editions/2026/11-06/10-goosenecks-orbital-view.md",
+      "sha256": "d41ee3417581140ba6df9aebc6c4f7291b0ebc40660dcb45607922ba1b179b06",
+      "source": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks"
+    }
+  ]
+}

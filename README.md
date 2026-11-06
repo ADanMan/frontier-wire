@@ -17,6 +17,11 @@
 - **[ИИ и технологии]** [Австралийские университеты связывают доступ к ИИ с правилами оценки знаний](editions/2026/11-06/03-university-ai-assessment.md)
 - **[Наука]** [NASA представило X-70 как перенастраиваемую платформу лётных испытаний](editions/2026/11-06/04-x70-research-platform.md)
 - **[Наука]** [NASA выбрало три компании для разработки Ka-band ретрансляции](editions/2026/11-06/05-ka-band-relay-concepts.md)
+- **[ИИ и технологии]** [ToyBlocks превращает кубики в стенд для проверки роботов](editions/2026/11-06/06-toyblocks-controlled-robotics.md)
+- **[ИИ и технологии]** [Open ASR Leaderboard добавил египетский и нигерийский английский](editions/2026/11-06/07-asr-accent-evaluation.md)
+- **[ИИ и технологии]** [LeRobot 0.7 добавил диалог с работающей политикой робота](editions/2026/11-06/08-lerobot-interactive-release.md)
+- **[Наука]** [МКС завершила установку восьми дополнительных солнечных батарей](editions/2026/11-06/09-iss-final-solar-array.md)
+- **[Наука]** [Снимок Goosenecks показывает реку, врезавшуюся в старые изгибы](editions/2026/11-06/10-goosenecks-orbital-view.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

@@ -5,8 +5,8 @@ edition: 51
 
 ## От редакции
 
-Утром пять материалов о новых возможностях и условиях их проверки. Cosmos 3 предлагает интерактивные миры, Omni 1.2 Flash — более длинное видео, а австралийские университеты связывают доступ к ИИ с оценкой знаний. В научной части NASA представило X-70 и выбрало исполнителей для Ka-band связи. Отделяем инструмент от готового результата, план от выполнения и предельный контракт от текущих расходов.
+Десять материалов дня связывают новые инструменты с проверкой результата: утром — Cosmos 3, Omni, университеты, X-70 и Ka-band, вечером — ToyBlocks, акценты в ASR и LeRobot. На МКС подтверждён монтаж последней IROSA, а фотография Goosenecks объясняет старые изгибы реки с орбиты. Сохраняем даты первоисточников и различаем демонстрацию, эксперимент и завершённую работу.
 
 ## Editorial
 
-Five morning stories examine new capabilities and how to assess them. Cosmos 3 offers interactive worlds, Omni 1.2 Flash extends video, and Australian universities connect AI access with assessment. NASA introduces X-70 and selects companies for Ka-band relay work. Each account distinguishes tools from outcomes, plans from execution and potential contract values from current expenditure.
+Ten stories connect new tools with evidence: the morning covered Cosmos 3, Omni, universities, X-70 and Ka-band; the evening adds ToyBlocks, ASR accents and LeRobot. NASA confirms installation of the final IROSA, while an orbital view explains the San Juan River's inherited bends. Source dates remain explicit, keeping demonstrations, experiments and completed work distinct.
