@@ -5,8 +5,8 @@ edition: 52
 
 ## От редакции
 
-Утром четыре материала о том, как проверить работу и сохранить её смысл. BioBasicsBench разбирает лабораторные свидетельства, OpenAI и Hacktron планируют исследовать связи сервисов, а Cognitive Tours предлагает маршрут от цели к коду. NASA опубликовало программу вычислительных демонстраций на середину ноября; отделяем анонсы от результатов и сохраняем реальные даты источников.
+Шесть материалов дня связывают новые инструменты с качеством свидетельств: утром — BioBasicsBench, Hacktron, Cognitive Tours и программа NASA, вечером — harness adapters и лунный массив De Gerlache-Kocher. В обучении агентов смотрим на условия оценки, на Луне — на геометрию наблюдения и осторожность выводов. Сохраняем реальные даты первоисточников и различаем анонсы, эксперименты и решения о будущих миссиях.
 
 ## Editorial
 
-Four morning stories examine evidence and the reasons behind technical work. BioBasicsBench concerns laboratory interpretation, OpenAI and Hacktron plan to investigate service connections, and Cognitive Tours links goals to code. NASA has published its mid-November computing demonstration programme; announcements remain distinct from outcomes, with source dates explicit.
+Six stories connect new tools with evidence: the morning covered BioBasicsBench, Hacktron, Cognitive Tours and NASA's programme; the evening adds harness adapters and the lunar De Gerlache-Kocher massif. Agent training calls for attention to evaluation conditions, while the Moon's terrain brings observing geometry into focus. Source dates remain explicit, keeping announcements, experiments and future mission decisions distinct.

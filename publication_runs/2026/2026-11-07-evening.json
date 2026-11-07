@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-11-07",
+  "slot": "evening",
+  "checked_at": "2026-11-07T16:07:47.502664+00:00",
+  "digest_sha256": "f13df251721b249ca37626bb759a25b88f5afb95c0d23c80a62bef81faf7e375",
+  "articles": [
+    {
+      "path": "editions/2026/11-07/05-harness-adapters-evaluation.md",
+      "sha256": "78d7e3d5249d17617ed398b92eaba32d999b9da155248e36da6cb13a665a4c70",
+      "source": "https://huggingface.co/blog/harness-hub/harness-adapters"
+    },
+    {
+      "path": "editions/2026/11-07/06-lunar-massif-perspective.md",
+      "sha256": "c444ff1514ad51b46a5406dd22f2477eff8186ca26d84134ac98c6461a6dff87",
+      "source": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif"
+    }
+  ]
+}

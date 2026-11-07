@@ -16,6 +16,8 @@
 - **[ИИ и технологии]** [OpenAI и Hacktron проверят границы между подключёнными сервисами](editions/2026/11-07/02-hacktron-service-boundaries.md)
 - **[ИИ и технологии]** [Cognitive Tours предлагает сохранять причины изменений вместе с кодом](editions/2026/11-07/03-cognitive-tours-understanding.md)
 - **[Наука]** [NASA опубликовало программу демонстраций на Supercomputing 2026](editions/2026/11-07/04-nasa-supercomputing-programme.md)
+- **[ИИ и технологии]** [Harness adapters предлагают обучать модель под конкретную агентную среду](editions/2026/11-07/05-harness-adapters-evaluation.md)
+- **[Наука]** [Сегодняшний APOD показывает южный полюс Луны с выгодного ракурса](editions/2026/11-07/06-lunar-massif-perspective.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

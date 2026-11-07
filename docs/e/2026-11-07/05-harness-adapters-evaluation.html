@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harness adapters предлагают обучать модель под конкретную агентную среду - frontier-wire</title>
+<meta name="description" content="The authors describe LoRA and tool-call screening, while early results do not establish reliability across arbitrary tasks.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-07/05-harness-adapters-evaluation.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Harness adapters target the environment an agent actually uses", "alternativeHeadline": "Harness adapters предлагают обучать модель под конкретную агентную среду", "datePublished": "2026-11-07", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/harness-hub/harness-adapters", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-07/05-harness-adapters-evaluation.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">ИИ</span><span class="lang-en">AI</span></span> &middot; 2026-11-07 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Harness adapters предлагают обучать модель под конкретную агентную среду</span><span class="lang-en">Harness adapters target the environment an agent actually uses</span></h1>
+  <p class="dek big"><span class="lang-ru">Авторы описали LoRA и проверку вызовов; ранние результаты не устанавливают надёжность на любых задачах.</span><span class="lang-en">The authors describe LoRA and tool-call screening, while early results do not establish reliability across arbitrary tasks.</span></p>
+
+  <div class="prose lang-ru"><p>Команда Harness Hub 6 ноября <a href="https://huggingface.co/blog/harness-hub/harness-adapters">описала harness adapters</a>: небольшие LoRA-дополнения, обучаемые с подкреплением внутри pi, opencode и hermes. Вызовы инструментов проверяет safeagents. Авторы сообщают о ранних положительных результатах, но набор Repo2RLEnvs заметно смещён к созданию проектов: 253 из 270 задач относятся к build. Редакция не запускала обучение и не воспроизводила оценку. Публикация интересна способом привязать обучение к рабочей среде, а не обещанием универсального улучшения любого программирующего агента.</p>
+<p>Чтобы понять практический вопрос, рассмотрим самостоятельный условный пример. Одной модели дают одинаковое задание в двух приложениях. В первом она видит отдельные действия для чтения и изменения файла, во втором — общий интерфейс команд. Даже если цель совпадает, путь к ней различается. Поэтому сравнение только названий моделей оставляет часть условий за кадром. Для собственной проверки полезно сохранять версию приложения, перечень доступных действий и исходное состояние проекта. Иначе нельзя понять, какое изменение повлияло на итоговый результат.</p>
+<p>Отдельный критерий — что считать успешным решением. Представим, что программа должна исправить расчёт, а оценка проверяет лишь наличие выходного файла. Такой экзамен допускает результат, который выглядит завершённым, но не выполняет исходную задачу. Это наш пример недостаточного критерия, а не найденная ошибка нового набора. При проверке оценщика полезно заранее убедиться, что он различает правильное решение, пустую заготовку и неверную реализацию. Удобный численный балл имеет смысл лишь вместе с объяснением того, за какое поведение он выдан.</p>
+<p>Эффективность тоже требует аккуратного определения. Меньшее количество действий может означать удачный путь, но может означать пропущенную проверку. В условном сравнении стоит сначала установить, что оба варианта действительно решают задачу, и только затем сравнивать затраты. Полезно также учитывать неудачные попытки, а не только короткие успешные сессии. Иначе выборка будет показывать красивый финал, скрывая цену поиска. Эти соображения относятся к устройству сравнения и не добавляют непроверенных цифр к результатам команды.</p>
+<p>Наконец, ограничитель действий и обученная модель отвечают на разные вопросы. Один механизм может предотвращать известные нежелательные шаги, другой — влиять на выбор следующего действия. Наличие первого не доказывает корректность всего решения, как и высокий балл модели не описывает все свойства среды. Для небольшого пилота лучше выбрать собственные типичные задачи, зафиксировать критерии и разобрать причины каждого провала. Это даёт более полезный ответ о применимости, чем перенос общего впечатления от чужой демонстрации.</p>
+<h3>Почему это важно</h3>
+<p>Разработчикам предлагают оценивать связку модели и конкретного рабочего интерфейса. При выборе такого дополнения стоит спрашивать, на каких задачах измерено улучшение и какие виды работы остались почти вне проверки. Ранний результат может быть поводом для собственного испытания, но его границы должны оставаться видимыми.</p></div>
+  <div class="prose lang-en"><p>The Harness Hub team <a href="https://huggingface.co/blog/harness-hub/harness-adapters">described harness adapters on November 6</a>: small LoRA additions trained with reinforcement learning inside pi, opencode and hermes, with safeagents screening tool calls. The authors report encouraging early results, but Repo2RLEnvs is heavily weighted toward building projects: 253 of its 270 tasks are build tasks. We have not run the training or reproduced the evaluation. The interesting proposition is adaptation to a working environment, rather than a guarantee of universal improvement for coding agents.</p>
+<p>An independent hypothetical example illustrates the practical question. Give one model the same assignment in two applications. The first exposes separate actions for reading and editing files, while the second offers a general command interface. Even with an identical goal, the route differs. Comparing model names alone therefore leaves some operating conditions unspecified. A local assessment should retain the application version, available actions and starting project state. Without them, it becomes difficult to identify which change affected the outcome or to reconstruct a disputed result later.</p>
+<p>Success criteria deserve a separate examination. Imagine a programme intended to fix a calculation, but an evaluator that checks only whether an output file exists. That test could accept apparently finished work that fails the actual assignment. This is our example of an inadequate criterion, not a defect we found in the announced collection. An evaluator should distinguish a correct solution, an empty stub and an incorrect implementation. A convenient score becomes meaningful only when its relationship to the intended behaviour is explicit and can be examined independently.</p>
+<p>Efficiency also needs a careful definition. Fewer actions might reflect a better route, but could reflect a missing check. In a hypothetical comparison, first establish that both variants genuinely solve the task, then compare their resource use. Failed attempts matter alongside short successful sessions. Otherwise, a selected set can display polished outcomes while concealing the cost of reaching them. These are considerations about comparison design, rather than additional performance figures attributed to the authors or claims about deployments we have not observed ourselves.</p>
+<p>Finally, an action filter and a trained model answer different questions. One mechanism may prevent known undesirable steps, while the other changes how a next action is selected. The presence of the first does not establish correctness of the entire solution, just as a high model score does not describe every property of its environment. A modest pilot should use representative local tasks, fixed criteria and a review of each failure. That offers more practical guidance about applicability than transferring an impression from someone else's demonstration.</p>
+<h3>Why it matters</h3>
+<p>The proposal makes the combination of model and working interface an explicit evaluation target. Prospective users should ask which tasks support an improvement claim and which kinds of work received little coverage. An early result can justify a local experiment, provided its boundaries remain visible rather than becoming a general promise.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/harness-hub/harness-adapters">https://huggingface.co/blog/harness-hub/harness-adapters</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
