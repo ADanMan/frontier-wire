@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cognitive Tours предлагает сохранять причины изменений вместе с кодом - frontier-wire</title>
+<meta name="description" content="A preprint describes navigation through decisions and evidence, with team benefits still to be evaluated.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-07/03-cognitive-tours-understanding.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Cognitive Tours proposes preserving the reasons behind code changes", "alternativeHeadline": "Cognitive Tours предлагает сохранять причины изменений вместе с кодом", "datePublished": "2026-11-07", "inLanguage": ["ru", "en"], "isBasedOn": "https://arxiv.org/html/2611.08456v1", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-07/03-cognitive-tours-understanding.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-11-07 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Cognitive Tours предлагает сохранять причины изменений вместе с кодом</span><span class="lang-en">Cognitive Tours proposes preserving the reasons behind code changes</span></h1>
+  <p class="dek big"><span class="lang-ru">Препринт описывает навигацию по решениям и свидетельствам; пользу для команд ещё предстоит измерить.</span><span class="lang-en">A preprint describes navigation through decisions and evidence, with team benefits still to be evaluated.</span></p>
+
+  <div class="prose lang-ru"><p>Маргарет-Энн Стори в <a href="https://arxiv.org/html/2611.08456v1">препринте Cognitive Tours от 5 ноября</a> описывает веб-прототип для маршрутов через цели, решения, код и тесты. Человек составляет объяснение, ИИ помогает находить пропуски и устаревшие связи. Автор прямо отмечает: снижение когнитивного долга пока не доказано. Это проект инструмента и исследовательская гипотеза, а не завершённое сравнительное испытание. Редакция прочитала полную работу, но не проверяла прототип на собственной команде или длительном проекте.</p>
+<p>Разберём независимый условный пример. Разработчик добавил ограничение на повторное действие, потому что внешняя система иногда присылает один запрос дважды. Спустя месяц другой участник видит лишнюю проверку и хочет её удалить. Сам код показывает, что происходит, но не обязательно объясняет, почему это понадобилось. Для сохранения смысла полезна короткая цепочка: ситуация пользователя, принятое решение, участок реализации и проверка ожидаемого поведения. Это наш пример возможного применения идеи, а не описанный в статье случай или результат её экспериментов.</p>
+<p>Такая цепочка полезна лишь тогда, когда её можно проверить. Ссылка на файл без конкретного вопроса оставляет читателя один на один с исходниками. Уверенное объяснение без связи с актуальной реализацией может быть ещё хуже, потому что создаёт ложное чувство понимания. Поэтому при собственном испытании стоит попросить нового участника не пересказать текст, а предсказать последствия небольшого изменения. Если он может назвать затронутый сценарий и найти подтверждение в проверке, объяснение выполняет содержательную работу.</p>
+<p>Есть и цена сопровождения. В нашем условном проекте после изменения внешнего сервиса прежняя причина ограничения может исчезнуть. Тогда оставшаяся заметка станет историческим свидетельством, но перестанет описывать текущую необходимость. Полезно явно помечать такие переходы и сохранять дату решения. Автоматическое обнаружение расхождений может предложить вопрос для проверки, однако не должно само превращать догадку в новую историю проекта. Тот, кто знает обстоятельства, должен подтвердить, что именно поменялось и какие выводы теперь допустимы.</p>
+<p>Для небольшого пилота не требуется описывать сразу весь репозиторий. Можно выбрать один важный пользовательский сценарий и попросить двух участников отдельно объяснить его ограничения до и после знакомства с маршрутом. Это редакционное предложение по оценке, а не валидированный метод из препринта. Стоит также учитывать потраченное время: объяснение, которое никто не успевает поддерживать, может оказаться неподходящим для данного рабочего процесса. Качество документа нельзя измерять только количеством узлов, ссылок или красиво оформленных страниц.</p>
+<h3>Почему это важно</h3>
+<p>При работе с ИИ стоит сохранять не только итоговый код, но и объяснимую связь между задачей и решением. Cognitive Tours делает это самостоятельным предметом проектирования. Его практическая ценность будет зависеть от того, помогает ли такой маршрут людям понимать изменения при разумной цене сопровождения; ответ на этот вопрос ещё открыт.</p></div>
+  <div class="prose lang-en"><p>Margaret-Anne Storey's <a href="https://arxiv.org/html/2611.08456v1">November 5 preprint on Cognitive Tours</a> describes a web prototype for curated routes through goals, decisions, code and tests. People author explanations while AI helps identify omissions and stale connections. The author explicitly states that reducing cognitive debt has not yet been validated. This is a tool design and research proposition, rather than a completed comparative evaluation. We read the full paper but have not assessed the prototype with our own team or a long-running project.</p>
+<p>An independent hypothetical example illustrates the underlying question. A developer adds a restriction on repeated actions because an external system sometimes submits the same request twice. A month later, another contributor notices the extra check and considers removing it. The code reveals what happens without necessarily explaining why it became necessary. A short chain could preserve the user situation, the decision, its implementation and evidence of the expected behaviour. This example is our illustration, not a case reported in the paper or a result from its experiments.</p>
+<p>Such a chain is useful only when its account can be examined. A file link without a specific question leaves readers alone with the source. A confident explanation disconnected from the current implementation can be worse, because it creates an unwarranted sense of understanding. A local assessment could ask a newcomer to predict the effects of a small change instead of merely repeating the explanation. Identifying the affected scenario and locating relevant evidence would provide a more meaningful indication of what the reader learned.</p>
+<p>Maintenance has a cost as well. In our hypothetical project, a change to the external service might remove the original reason for the restriction. The surviving note would remain historical evidence but cease to establish a present requirement. Marking such transitions and retaining decision dates would help. An automated discrepancy report can suggest a question to investigate, but should not turn a guess into the project's new history. Someone familiar with the circumstances still needs to confirm what changed and which conclusions remain justified.</p>
+<p>A small pilot need not document an entire repository. It could select one important user scenario and ask two participants to explain its constraints independently before and after following a route. That is an editorial assessment suggestion, not a validated method from the preprint. Time spent creating and updating the account also matters: a guide that nobody can maintain may be unsuitable for a particular workflow. The number of nodes, links or attractively presented pages is insufficient evidence of its value to readers.</p>
+<h3>Why it matters</h3>
+<p>AI-assisted development creates a reason to preserve an explainable connection between a problem and its implementation alongside the code itself. Cognitive Tours treats that connection as a design problem. Its practical value will depend on whether routes improve people's understanding at a reasonable maintenance cost. The paper leaves that empirical question open rather than claiming it is already resolved.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://arxiv.org/html/2611.08456v1">https://arxiv.org/html/2611.08456v1</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

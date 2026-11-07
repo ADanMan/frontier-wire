@@ -10,18 +10,12 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №51 / Edition №51 — 2026-11-06** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-06/)
+**Выпуск №52 / Edition №52 — 2026-11-07** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-07/)
 
-- **[ИИ и технологии]** [Cosmos 3 разводит генерацию сцены и проверку физического мира](editions/2026/11-06/01-cosmos-interactive-worlds.md)
-- **[ИИ и технологии]** [Gemini Omni 1.2 Flash удлиняет клипы и предлагает правки разговором](editions/2026/11-06/02-omni-longer-video.md)
-- **[ИИ и технологии]** [Австралийские университеты связывают доступ к ИИ с правилами оценки знаний](editions/2026/11-06/03-university-ai-assessment.md)
-- **[Наука]** [NASA представило X-70 как перенастраиваемую платформу лётных испытаний](editions/2026/11-06/04-x70-research-platform.md)
-- **[Наука]** [NASA выбрало три компании для разработки Ka-band ретрансляции](editions/2026/11-06/05-ka-band-relay-concepts.md)
-- **[ИИ и технологии]** [ToyBlocks превращает кубики в стенд для проверки роботов](editions/2026/11-06/06-toyblocks-controlled-robotics.md)
-- **[ИИ и технологии]** [Open ASR Leaderboard добавил египетский и нигерийский английский](editions/2026/11-06/07-asr-accent-evaluation.md)
-- **[ИИ и технологии]** [LeRobot 0.7 добавил диалог с работающей политикой робота](editions/2026/11-06/08-lerobot-interactive-release.md)
-- **[Наука]** [МКС завершила установку восьми дополнительных солнечных батарей](editions/2026/11-06/09-iss-final-solar-array.md)
-- **[Наука]** [Снимок Goosenecks показывает реку, врезавшуюся в старые изгибы](editions/2026/11-06/10-goosenecks-orbital-view.md)
+- **[Наука]** [BioBasicsBench проверяет, когда лабораторные данные не дают ответа](editions/2026/11-07/01-biobasicsbench-lab-evidence.md)
+- **[ИИ и технологии]** [OpenAI и Hacktron проверят границы между подключёнными сервисами](editions/2026/11-07/02-hacktron-service-boundaries.md)
+- **[ИИ и технологии]** [Cognitive Tours предлагает сохранять причины изменений вместе с кодом](editions/2026/11-07/03-cognitive-tours-understanding.md)
+- **[Наука]** [NASA опубликовало программу демонстраций на Supercomputing 2026](editions/2026/11-07/04-nasa-supercomputing-programme.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
