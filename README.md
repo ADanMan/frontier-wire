@@ -17,6 +17,9 @@
 - **[ИИ и технологии]** [GitHub открыл общий доступ к работе с кодом из Slack и Teams](editions/2026/11-08/03-github-chat-integration.md)
 - **[ИИ и технологии]** [ASUS анонсировала компактную внешнюю Radeon с 16 ГБ памяти](editions/2026/11-08/04-asus-usb4-graphics.md)
 - **[Наука]** [IBM запустила Quantum System Two в чикагской лаборатории](editions/2026/11-08/05-ibm-chicago-quantum-system.md)
+- **[Наука]** [NASA открыло студенческий конкурс лунных проектов на $1 млн](editions/2026/11-08/06-moon-base-student-challenge.md)
+- **[ИИ и технологии]** [AST SpaceMobile планирует собственную ракету Blacklift](editions/2026/11-08/07-blacklift-development-plan.md)
+- **[Наука]** [Сегодняшний APOD возвращается к европейскому болиду 2017 года](editions/2026/11-08/08-apod-fireball-observation.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Пять утренних материалов — о ресурсах, людях и проверке результата. NASA объявило лунные контракты и новый набор астронавтов, GitHub перенёс работу с кодом в командные разговоры, ASUS показала внешнюю графику, а IBM запустила квантовую систему в Чикаго. Отличаем рамочный потолок от заказа, анонс от испытания и работающую установку от будущего прикладного эффекта; даты первоисточников остаются явными.
+Восемь материалов дня — о ресурсах, людях и свидетельствах. К утренним новостям NASA, GitHub, ASUS и IBM добавились студенческий лунный конкурс, план Blacklift и сегодняшний APOD об архивном болиде. Различаем договор, проект и готовую систему, а дату публикации фотографии сохраняем отдельно от даты наблюдения.
 
 ## Editorial
 
-Five morning stories concern resources, people and evidence. NASA announces lunar contracts and astronaut recruitment, GitHub brings coding into team conversations, ASUS introduces external graphics, and IBM brings a quantum system online in Chicago. Contract ceilings remain distinct from task orders, announcements from tests, and operational equipment from future application benefits, with source dates explicit.
+Eight stories cover resources, people and evidence. The morning's NASA, GitHub, ASUS and IBM reports are joined by a lunar student challenge, Blacklift plans and today's APOD about an archival fireball. Contracts, projects and operational systems remain distinct, while an image's publication date stays separate from its observation date.
 
 
 ----- 01-moon-base-contracts (science) — source: https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/ -----
@@ -186,6 +186,111 @@ An organisation considering an experiment can start with a narrow task and a suc
 ### Why it matters
 
 Chicago gains an operating platform for quantum research. That is a substantive infrastructure milestone, distinct from a future relocation and evidence of advantages on individual workloads. Subsequent results will be most informative when they retain comparison conditions and allow readers to understand precisely what was tested using the new system.
+
+
+----- 06-moon-base-student-challenge (science) — source: https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/ -----
+
+## Русская версия
+
+NASA 8 ноября [объявило Moon Base Student Challenge](https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/) с заявленным объёмом $1 млн. Конкурс открыт для команд американских старших школ и учебных заведений послешкольного образования. Агентство представило его на мероприятии MAX POWER во Флориде. Это новая образовательная кампания, отдельная от освещённых утром контрактов на лунную инфраструктуру и набора астронавтов. Участие в проектировании не означает автоматического получения заказа, включения решения в миссию или назначения кого-либо в будущий экипаж.
+
+Командам предложены шесть направлений: генерация и хранение энергии, строительство, системы жизнеобеспечения, передвижение по поверхности, коммуникационные сети и безопасность астронавтов. Такой перечень показывает, что длительная работа на Луне требует не одного аппарата, а согласованных функций. При этом публикация приглашает разрабатывать решения, а не подтверждает готовность конкретной системы. Слово «конкурс» здесь важно сохранить: оценка представленных идей и последующая практическая реализация — разные процессы, и второй не следует автоматически из первого даже для сильного предложения.
+
+Для участия требуется регистрация через NASA STEM Gateway; окно открыто до 25 января 2027 года. Агентство описывает конкурс как многоэтапный, а среди типов результатов называет сравнение вариантов, концептуальные предложения и материалы для обсуждения с заинтересованными сторонами. Предварительный специализированный инженерный или технический опыт не требуется. Это не отменяет официальных условий допуска и правил оценки. NASA направляет за полным описанием на сайт конкурса; краткий анонс нельзя считать достаточным основанием для вывода о соответствии конкретной команды всем требованиям.
+
+Программу подготовило подразделение STEM Engagement совместно с Moon Base Program. Администрированием занимается Institute of Competition Sciences по контракту с NASA Center of Excellence for Collaborative Innovation. Такая организация позволяет отделить образовательную цель от решения о выборе поставщика лётного оборудования. Миллион долларов в заголовке также не означает миллион каждому участнику. В новости следует сохранять общий масштаб объявленной программы, не выдумывая распределение денег по этапам, число победителей или гарантированную сумму для отдельной школы.
+
+На самостоятельном условном примере можно представить проект энергоснабжения. Полезная команда должна объяснить не только желаемую мощность, но и то, какую задачу решает система, какие ограничения приняты и почему выбран один вариант вместо другого. Это редакционная иллюстрация работы над концепцией, а не дополнительное требование конкурса. Чётко записанные допущения позволяют другому человеку рассмотреть предложение и задать вопросы. Без них привлекательный рисунок может скрыть несовместимые ожидания участников, преподавателя и того, кто оценивает результат.
+
+### Почему это важно
+
+Конкурс даёт учащимся отдельный путь участия в обсуждении лунных технологий через проектную работу. Его ближайший проверяемый этап — регистрация и подготовка предложений. Следить стоит за официальными правилами и результатами последующих стадий, сохраняя разницу между учебной концепцией, выбранной идеей и техникой, действительно готовой к полёту.
+
+## English version
+
+NASA [announced the Moon Base Student Challenge on November 8](https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/), describing a $1 million competition for teams at US high schools and post-secondary institutions. It introduced the initiative during MAX POWER in Florida. This is a new educational campaign, separate from the lunar infrastructure contracts and astronaut recruitment covered this morning. Participation in design work does not automatically mean receiving a procurement award, inclusion of a concept in a mission or assignment of a participant to a future crew.
+
+Teams can address six categories: power generation and storage, construction, life support, surface mobility, communications networks and astronaut safety. The range illustrates that sustained lunar operations need coordinated functions rather than a single vehicle. The release nevertheless invites solutions rather than establishing the readiness of any particular system. Retaining the word competition matters: assessing submitted ideas and subsequently implementing them are different processes. Even a strong concept does not automatically establish that the second process has begun or that every interface and operating condition has been resolved.
+
+Participants must register through NASA STEM Gateway, with registration open until January 25, 2027. The agency describes a multiphase challenge and identifies deliverables such as trade studies, concept proposals and stakeholder briefings. Prior specialised engineering or technical experience is not required. That does not remove official eligibility and evaluation conditions. NASA directs readers to the competition website for complete details; the short announcement alone should not be treated as a determination that a particular team satisfies every requirement or has completed the necessary registration formalities.
+
+The Office of STEM Engagement developed the challenge with the Moon Base Program. The Institute of Competition Sciences administers it through a contract with NASA's Center of Excellence for Collaborative Innovation. This organisational arrangement helps distinguish educational work from selection of a flight-hardware supplier. The headline amount also does not mean one million dollars for every participant. Reporting should preserve the programme's stated overall scale without inventing allocations between phases, the number of winners or a guaranteed payment to an individual school. Those details need their own official support.
+
+An independent hypothetical power-supply project illustrates the design question. A team can explain the task its system serves, the assumptions it accepts and why it selected one option over another, alongside the desired output. That is an editorial example, not an extra competition requirement. Explicit assumptions let another person examine the proposal and ask useful questions. Without them, an attractive drawing might conceal incompatible expectations among participants, a teacher and an evaluator. Project work becomes more informative when its reasoning can be inspected along with the final presentation.
+
+### Why it matters
+
+The competition gives students a distinct route into discussing lunar technology through design work. Its immediate milestones are registration and proposal preparation. Official rules and later results will matter, while an educational concept, a selected idea and hardware ready to fly should remain separate stages in any account of progress.
+
+
+----- 07-blacklift-development-plan (tech) — source: https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/ex99-1.htm -----
+
+## Русская версия
+
+AST SpaceMobile 6 ноября [объявила о разработке Blacklift](https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/ex99-1.htm), ракеты для вывода BlueBird на низкую орбиту. Компания планирует использовать двигатели Miranda и Vira от Firefly, получить лицензию на их производство и начать полёты в конце 2028 года. Это заявление компании, размещённое в EDGAR, о будущей системе. Оно не подтверждает готовность всей ракеты, завершение её испытаний или достигнутую частоту запусков. Редакция не проверяла технические расчёты и производственные возможности участников проекта.
+
+Почему такая новость интересна отдельно от очередного спутника? На самостоятельном условном примере производитель может захотеть управлять большей частью пути от сборки аппарата до его работы на орбите. Но объединение этапов внутри одной организации создаёт не только возможности, но и дополнительные задачи. Нужно согласовать готовность нескольких систем, проверить переходы между ними и подтвердить работоспособность всей последовательности. Это общая логика проекта, а не измеренная оценка затрат или успеха именно Blacklift и не рекомендация покупать или продавать ценные бумаги.
+
+Стоит различать несколько видов свидетельств. Договорённость о компонентах показывает, как организация намерена получить часть необходимых средств. Отдельный компонент может иметь собственную программу проверки. Интегрированная система, в свою очередь, должна пройти проверку как целое. Даже подробное описание первого уровня не закрывает вопросы второго и третьего. В условном проекте полезно заранее составить перечень этапов и понять, какой результат подтверждает каждый из них. Тогда следующий анонс можно будет сопоставить с конкретным изменением состояния, а не с общим впечатлением от названия.
+
+Срок в таком сообщении также следует читать как план. Между целевой датой и завершённым полётом могут появляться новые сведения, изменяющие график. Это не повод заранее объявлять проект невозможным или обещать его успех. Это основание сохранять исходную формулировку и отслеживать проверяемые рубежи. Редакционный вопрос прост: что стало известно нового и какую именно неопределённость это снимает? Ответ должен опираться на следующий источник, а не на уверенность участников обсуждения или механическое повторение обещанного года.
+
+Для сравнения стратегий недостаточно общего тезиса о независимости от поставщиков. В нашем условном примере полезно знать, как устроен резервный путь, что считается приемлемой задержкой и какие функции остаются у партнёров. Без таких условий две разные схемы трудно сравнить содержательно. Эти вопросы не добавляют к релизу нераскрытые договорённости и не устанавливают чьё-либо преимущество. Они помогают отличить направление развития от уже полученного эксплуатационного результата, который можно оценить по фактическому выполнению поставленной задачи.
+
+### Почему это важно
+
+Blacklift обозначает намерение расширить контроль над доступом к орбите. Практический смысл проекта будет определяться последующими техническими и производственными этапами. Пока подтверждено объявление плана и его участников; будущий полёт и заявленные преимущества должны оставаться отдельными вопросами до появления соответствующих свидетельств и результатов, доступных для проверки.
+
+## English version
+
+AST SpaceMobile [announced Blacklift development on November 6](https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/ex99-1.htm), a launcher for deploying BlueBird satellites into low Earth orbit. It plans to use Firefly's Miranda and Vira engines, license their manufacture and begin flights in late 2028. This is a company statement filed through EDGAR about a future system. It does not establish whole-vehicle readiness, completed qualification or an achieved launch cadence. We have not verified the participants' engineering calculations or manufacturing capabilities independently.
+
+Why consider the announcement separately from another satellite deployment? In an independent hypothetical example, a manufacturer might seek greater control of the route from spacecraft assembly to orbital operations. Bringing stages into one organisation creates additional responsibilities alongside potential opportunities. Several systems must become ready together, their interfaces need examination, and the sequence must function as a whole. That is general project reasoning, not a measured assessment of Blacklift's cost or likelihood of success. It is also not a recommendation to buy or sell any security.
+
+Different kinds of evidence should remain distinct. A component agreement explains how an organisation intends to obtain some necessary capabilities. An individual component may have its own validation history. The integrated system then needs assessment as a system. A detailed description of the first level cannot settle every question at the second and third. A hypothetical project could define milestones in advance and specify the result required to establish each one. A later announcement could then be matched to a concrete status change rather than a general impression created by a programme name.
+
+A target date should likewise remain a plan. New information between an announcement and a completed flight may change the schedule. That is not a reason to declare the project impossible in advance or promise it will succeed. It is a reason to preserve the original qualification and follow observable milestones. The editorial question is what has newly become known and which uncertainty that evidence actually resolves. The answer should rely on a subsequent source rather than confidence in a discussion or repeated references to a promised year.
+
+Comparing strategies requires more than a general claim of supplier independence. In our hypothetical case, useful questions concern fallback arrangements, acceptable delay and functions retained by partners. Without those conditions, different operating models are difficult to compare meaningfully. These questions add no undisclosed contractual terms and establish no organisation's superiority. They help distinguish a development direction from an operational outcome that could be evaluated against actual completion of a specified task. The distinction also makes later changes easier to interpret without rewriting earlier statements as accomplished facts.
+
+### Why it matters
+
+Blacklift signals an intention to expand control over orbital access. Its practical value will depend on later engineering and production milestones. The announcement and named participants are established; a future flight and claimed benefits remain separate questions until evidence and results supporting them become available for examination.
+
+
+----- 08-apod-fireball-observation (science) — source: https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/ -----
+
+## Русская версия
+
+В [APOD за 8 ноября 2026 года](https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/) NASA вернулось к фотографии яркого болида, сделанной Ollie Taylor 14 ноября 2017 года в итальянских Доломитах. Вспышка случайно попала в экспозицию. В пояснении измеренную траекторию над Германией связывают с возможным происхождением у радианта Северных Таурид. Это публикация об архивном наблюдении, а не известие о сегодняшнем падении. Саму защищённую авторским правом фотографию мы не воспроизводим; читатель может открыть её у источника.
+
+Разница дат здесь важнее эффектного заголовка. Изображение дня выбирают в определённый день, но изображённое событие может относиться к другому году. Если потерять подпись, старый кадр легко принять за срочное сообщение. В самостоятельном условном примере пользователь увидел бы яркий след и решил, что рядом только что произошло опасное событие. Дата наблюдения сразу меняет смысл. Поэтому при пересказе фотографии нужно сохранять происхождение и контекст, а не только впечатление, которое производит свет на снимке.
+
+Один кадр также имеет пределы. Он показывает наблюдаемую картину из конкретного места и при конкретных условиях, но не обязан содержать все сведения для определения пути объекта. Для проверки более широкого вывода полезно понимать, какие данные использовались помимо изображения. Это общий вопрос к свидетельствам, а не дополнительный результат анализа болида редакцией. Мы не вычисляли скорость, массу, энергию или возможное место нахождения вещества по фотографии и не выдаём предположения о них за данные первоисточника.
+
+Так же аккуратно следует читать связь с метеорным потоком. Формулировка о согласованности с происхождением не превращается автоматически в утверждение, что одно изображение доказывает все детали истории объекта. Полезно сохранять степень уверенности автора и различать видимое на снимке, измеренное отдельно и предложенное объяснение. В условном разборе это могли бы быть три самостоятельных поля заметки. Такой способ записи помогает не смешивать впечатляющее наблюдение с выводом, для которого потребуется другая информация или дополнительная проверка.
+
+Сегодняшняя публикация представляет интерес как пример того, как случайное наблюдение получает объяснение спустя время. Но из неё нельзя вывести прогноз конкретной яркой вспышки на сегодняшнюю ночь в вашем городе. Для любого собственного наблюдения понадобятся актуальные условия места и времени; один архивный эпизод их не устанавливает. Не стоит также превращать яркость на экране в оценку риска. Это редакционные границы пересказа, а не новая оценка безопасности конкретного небесного события или обещание определённого зрелища читателю.
+
+### Почему это важно
+
+Архивная фотография остаётся полезной научной иллюстрацией, если её дата и происхождение не теряются. Сегодняшний APOD даёт повод посмотреть на событие с объяснением, сохраняя разницу между кадром, измерением и интерпретацией. Такая точность помогает получать знания из изображения и не распространять старую вспышку как новость о происшествии сегодняшнего дня.
+
+## English version
+
+NASA's [November 8, 2026 APOD](https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/) revisits Ollie Taylor's photograph of a bright fireball taken in the Italian Dolomites on November 14, 2017. The flash entered the exposure by chance. Its explanation connects the measured track over Germany with a possible origin near the Northern Taurids' radiant. This is a publication about an archival observation, not news of a fall today. We do not reproduce the copyrighted photograph; readers can view it at the source.
+
+The difference between those dates matters more than a dramatic headline. A picture of the day is selected on a particular date, while the event shown can belong to another year. Remove the caption and an old frame can become apparent breaking news. In an independent hypothetical example, someone might see a brilliant trail and assume a dangerous incident has just occurred nearby. The acquisition date immediately changes that interpretation. Reporting an image should therefore preserve its provenance and context alongside the impression its light creates on screen.
+
+A single frame also has limits. It records a view from a particular location under particular conditions, without necessarily supplying every observation needed to determine an object's path. A wider conclusion invites questions about information used beyond the photograph itself. That is a general evidential consideration, not an additional analysis of this fireball by our publication. We have not calculated speed, mass, energy or a possible material recovery location from the image, and we do not present guesses about those quantities as source data.
+
+Association with a meteor shower deserves similar care. Language about consistency with an origin should not automatically become a claim that one photograph proves every detail of an object's history. It helps to retain the author's uncertainty and distinguish what is visible, what was measured separately and what explanation is proposed. A hypothetical observation note could maintain those as three separate fields. Doing so prevents an impressive sight from being confused with a conclusion that would require other evidence or further checks beyond what a viewer can see.
+
+Today's publication is interesting as an example of a chance observation presented with an explanation over time. It cannot predict a particular bright flash above a reader's city tonight. Any personal observing plan would need current conditions for the relevant place and time; one archival episode does not establish them. Screen brightness should not become a risk estimate either. These are editorial boundaries for interpreting the account, not a new safety assessment of a specific celestial event or a promise of a particular spectacle to readers.
+
+### Why it matters
+
+Archival photography remains a useful scientific illustration when its date and provenance stay attached. Today's APOD offers an opportunity to view an event with an explanation while distinguishing the frame, measurements and interpretation. That precision supports learning from the image without recirculating an old flash as news of something happening today.
 
 
 ===== EDITION 52 — 2026-11-07 =====

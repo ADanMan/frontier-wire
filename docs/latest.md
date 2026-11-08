@@ -19,3 +19,15 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## IBM brings Quantum System Two online at a Chicago laboratory / IBM запустила Quantum System Two в чикагской лаборатории
 rubric: science · source: https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/05-ibm-chicago-quantum-system.md
+
+## NASA opens a $1 million lunar student design challenge / NASA открыло студенческий конкурс лунных проектов на $1 млн
+rubric: science · source: https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/06-moon-base-student-challenge.md
+
+## AST SpaceMobile plans its own Blacklift launcher / AST SpaceMobile планирует собственную ракету Blacklift
+rubric: tech · source: https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/ex99-1.htm
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/07-blacklift-development-plan.md
+
+## Today’s APOD revisits a European fireball from 2017 / Сегодняшний APOD возвращается к европейскому болиду 2017 года
+rubric: science · source: https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/08-apod-fireball-observation.md

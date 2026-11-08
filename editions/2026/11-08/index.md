@@ -5,8 +5,8 @@ edition: 53
 
 ## От редакции
 
-Пять утренних материалов — о ресурсах, людях и проверке результата. NASA объявило лунные контракты и новый набор астронавтов, GitHub перенёс работу с кодом в командные разговоры, ASUS показала внешнюю графику, а IBM запустила квантовую систему в Чикаго. Отличаем рамочный потолок от заказа, анонс от испытания и работающую установку от будущего прикладного эффекта; даты первоисточников остаются явными.
+Восемь материалов дня — о ресурсах, людях и свидетельствах. К утренним новостям NASA, GitHub, ASUS и IBM добавились студенческий лунный конкурс, план Blacklift и сегодняшний APOD об архивном болиде. Различаем договор, проект и готовую систему, а дату публикации фотографии сохраняем отдельно от даты наблюдения.
 
 ## Editorial
 
-Five morning stories concern resources, people and evidence. NASA announces lunar contracts and astronaut recruitment, GitHub brings coding into team conversations, ASUS introduces external graphics, and IBM brings a quantum system online in Chicago. Contract ceilings remain distinct from task orders, announcements from tests, and operational equipment from future application benefits, with source dates explicit.
+Eight stories cover resources, people and evidence. The morning's NASA, GitHub, ASUS and IBM reports are joined by a lunar student challenge, Blacklift plans and today's APOD about an archival fireball. Contracts, projects and operational systems remain distinct, while an image's publication date stays separate from its observation date.

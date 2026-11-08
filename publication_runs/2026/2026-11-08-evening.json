@@ -1,0 +1,24 @@
+{
+  "status": "ready",
+  "date": "2026-11-08",
+  "slot": "evening",
+  "checked_at": "2026-11-08T16:09:02.784970+00:00",
+  "digest_sha256": "a866faf8381676663aa413e74ca0bdb872d0ec5bc79f7b57278096eea8c4a652",
+  "articles": [
+    {
+      "path": "editions/2026/11-08/06-moon-base-student-challenge.md",
+      "sha256": "db26ab187e8a2bf16dcaa4f1fafc7766dc9041d62dc568283766c634f38f641e",
+      "source": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge"
+    },
+    {
+      "path": "editions/2026/11-08/07-blacklift-development-plan.md",
+      "sha256": "ff04945de22261bb3c316d37a90f4ff879342caf9648663377f88b80955dd2d0",
+      "source": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/ex99-1.htm"
+    },
+    {
+      "path": "editions/2026/11-08/08-apod-fireball-observation.md",
+      "sha256": "06d06f02756d26556d3ad4c892ea0bb7db276d2642668bc511f017d472883070",
+      "source": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor"
+    }
+  ]
+}
