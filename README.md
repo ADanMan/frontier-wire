@@ -10,14 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №52 / Edition №52 — 2026-11-07** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-07/)
+**Выпуск №53 / Edition №53 — 2026-11-08** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-08/)
 
-- **[Наука]** [BioBasicsBench проверяет, когда лабораторные данные не дают ответа](editions/2026/11-07/01-biobasicsbench-lab-evidence.md)
-- **[ИИ и технологии]** [OpenAI и Hacktron проверят границы между подключёнными сервисами](editions/2026/11-07/02-hacktron-service-boundaries.md)
-- **[ИИ и технологии]** [Cognitive Tours предлагает сохранять причины изменений вместе с кодом](editions/2026/11-07/03-cognitive-tours-understanding.md)
-- **[Наука]** [NASA опубликовало программу демонстраций на Supercomputing 2026](editions/2026/11-07/04-nasa-supercomputing-programme.md)
-- **[ИИ и технологии]** [Harness adapters предлагают обучать модель под конкретную агентную среду](editions/2026/11-07/05-harness-adapters-evaluation.md)
-- **[Наука]** [Сегодняшний APOD показывает южный полюс Луны с выгодного ракурса](editions/2026/11-07/06-lunar-massif-perspective.md)
+- **[Наука]** [NASA объявило лунные контракты и разработку ровера PROMISE](editions/2026/11-08/01-moon-base-contracts.md)
+- **[Наука]** [NASA открыло новый набор кандидатов в астронавты](editions/2026/11-08/02-nasa-astronaut-applications.md)
+- **[ИИ и технологии]** [GitHub открыл общий доступ к работе с кодом из Slack и Teams](editions/2026/11-08/03-github-chat-integration.md)
+- **[ИИ и технологии]** [ASUS анонсировала компактную внешнюю Radeon с 16 ГБ памяти](editions/2026/11-08/04-asus-usb4-graphics.md)
+- **[Наука]** [IBM запустила Quantum System Two в чикагской лаборатории](editions/2026/11-08/05-ibm-chicago-quantum-system.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
