@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-11-12",
+  "slot": "evening",
+  "checked_at": "2026-11-12T16:02:57.419211+00:00",
+  "digest_sha256": "78930c446383414dfbf2b21f8eb8ff8e4cc6ac74668e215a4a4fc64ceaff7f2b",
+  "articles": [
+    {
+      "path": "editions/2026/11-12/01-gemini-bounded-decisions.md",
+      "sha256": "fd7f94dead18464c37c3bbd3274ddd730bdc0f13710bc8e40dde3e0d6a707581",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
+    },
+    {
+      "path": "editions/2026/11-12/02-pooling-aware-search.md",
+      "sha256": "2121b28a1c32d1a2990a951400a2454d16908d289140a3c5e6a8db6cdd0c1d73",
+      "source": "https://huggingface.co/blog/token-pooling"
+    },
+    {
+      "path": "editions/2026/11-12/03-hubble-roman-lens-gallery.md",
+      "sha256": "296c4754da6239e486a3ae73109100883fa776ea64e493a55f363bede5c89f17",
+      "source": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman"
+    },
+    {
+      "path": "editions/2026/11-12/04-flow-country-peat-carbon.md",
+      "sha256": "e604190674837a722a320ff0647addaaf00161230a39774e2990765ae338d5c1",
+      "source": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country"
+    },
+    {
+      "path": "editions/2026/11-12/05-endeavour-photographic-history.md",
+      "sha256": "89ec85ccefe7453d01783645c4b32ebd3604853d4ab010d6c6830135386bf956",
+      "source": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la"
+    }
+  ]
+}

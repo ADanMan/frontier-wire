@@ -10,16 +10,13 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №53 / Edition №53 — 2026-11-08** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-08/)
+**Выпуск №54 / Edition №54 — 2026-11-12** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-12/)
 
-- **[Наука]** [NASA объявило лунные контракты и разработку ровера PROMISE](editions/2026/11-08/01-moon-base-contracts.md)
-- **[Наука]** [NASA открыло новый набор кандидатов в астронавты](editions/2026/11-08/02-nasa-astronaut-applications.md)
-- **[ИИ и технологии]** [GitHub открыл общий доступ к работе с кодом из Slack и Teams](editions/2026/11-08/03-github-chat-integration.md)
-- **[ИИ и технологии]** [ASUS анонсировала компактную внешнюю Radeon с 16 ГБ памяти](editions/2026/11-08/04-asus-usb4-graphics.md)
-- **[Наука]** [IBM запустила Quantum System Two в чикагской лаборатории](editions/2026/11-08/05-ibm-chicago-quantum-system.md)
-- **[Наука]** [NASA открыло студенческий конкурс лунных проектов на $1 млн](editions/2026/11-08/06-moon-base-student-challenge.md)
-- **[ИИ и технологии]** [AST SpaceMobile планирует собственную ракету Blacklift](editions/2026/11-08/07-blacklift-development-plan.md)
-- **[Наука]** [Сегодняшний APOD возвращается к европейскому болиду 2017 года](editions/2026/11-08/08-apod-fireball-observation.md)
+- **[ИИ и технологии]** [Gemini Decisions API оценивает варианты вместо написания ответа](editions/2026/11-12/01-gemini-bounded-decisions.md)
+- **[ИИ и технологии]** [Поисковую модель предлагают обучать сразу под сжатое представление](editions/2026/11-12/02-pooling-aware-search.md)
+- **[Наука]** [Галерея линз Hubble готовит вопросы для наблюдений Roman](editions/2026/11-12/03-hubble-roman-lens-gallery.md)
+- **[Наука]** [Flow Country показывает, почему незаметный ландшафт хранит много углерода](editions/2026/11-12/04-flow-country-peat-carbon.md)
+- **[Культура]** [Фотографы NASA вспоминают последний перелёт Endeavour](editions/2026/11-12/05-endeavour-photographic-history.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

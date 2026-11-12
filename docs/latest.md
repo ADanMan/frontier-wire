@@ -1,33 +1,21 @@
-# frontier-wire — latest edition №53 (2026-11-08)
+# frontier-wire — latest edition №54 (2026-11-12)
 
-## NASA announces lunar contracts and development of PROMISE / NASA объявило лунные контракты и разработку ровера PROMISE
-rubric: science · source: https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/01-moon-base-contracts.md
+## Gemini Decisions API scores options instead of writing an answer / Gemini Decisions API оценивает варианты вместо написания ответа
+rubric: ai · source: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/01-gemini-bounded-decisions.md
 
-## NASA opens applications for a new astronaut candidate class / NASA открыло новый набор кандидатов в астронавты
-rubric: science · source: https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/02-nasa-astronaut-applications.md
+## Training search models for the compressed representation they will use / Поисковую модель предлагают обучать сразу под сжатое представление
+rubric: ai · source: https://huggingface.co/blog/token-pooling
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/02-pooling-aware-search.md
 
-## GitHub makes its Slack and Teams coding integration generally available / GitHub открыл общий доступ к работе с кодом из Slack и Teams
-rubric: ai · source: https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/03-github-chat-integration.md
+## A Hubble lens gallery frames questions for Roman observations / Галерея линз Hubble готовит вопросы для наблюдений Roman
+rubric: science · source: https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/03-hubble-roman-lens-gallery.md
 
-## ASUS announces a compact external Radeon with 16GB of memory / ASUS анонсировала компактную внешнюю Radeon с 16 ГБ памяти
-rubric: tech · source: https://press.asus.com/news/press-releases/asus-xg-core-radeon-rx-9060-xt-lp-external-graphics-dock
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/04-asus-usb4-graphics.md
+## Flow Country shows why an unassuming landscape stores so much carbon / Flow Country показывает, почему незаметный ландшафт хранит много углерода
+rubric: science · source: https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/04-flow-country-peat-carbon.md
 
-## IBM brings Quantum System Two online at a Chicago laboratory / IBM запустила Quantum System Two в чикагской лаборатории
-rubric: science · source: https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/05-ibm-chicago-quantum-system.md
-
-## NASA opens a $1 million lunar student design challenge / NASA открыло студенческий конкурс лунных проектов на $1 млн
-rubric: science · source: https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/06-moon-base-student-challenge.md
-
-## AST SpaceMobile plans its own Blacklift launcher / AST SpaceMobile планирует собственную ракету Blacklift
-rubric: tech · source: https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/ex99-1.htm
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/07-blacklift-development-plan.md
-
-## Today’s APOD revisits a European fireball from 2017 / Сегодняшний APOD возвращается к европейскому болиду 2017 года
-rubric: science · source: https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-08/08-apod-fireball-observation.md
+## NASA photographers revisit Endeavour’s final ferry flight / Фотографы NASA вспоминают последний перелёт Endeavour
+rubric: culture · source: https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/05-endeavour-photographic-history.md

@@ -2,6 +2,192 @@
 
 
 
+===== EDITION 54 — 2026-11-12 =====
+
+## От редакции
+
+Пять вечерних материалов — о том, что сохраняется за пределами первого впечатления. Gemini предлагает оценивать варианты, поисковые модели учат работать со сжатыми представлениями, Hubble готовит вопросы для Roman, а Flow Country скрывает большой запас углерода под невысокой растительностью. История фотографов Endeavour возвращает внимание к подготовке известного кадра; различаем даты публикаций, наблюдений и будущих событий.
+
+## Editorial
+
+Five evening stories look beyond first impressions. Gemini scores options, retrieval models learn compressed representations, Hubble frames questions for Roman, and Flow Country stores carbon beneath low vegetation. Endeavour's photographers reveal the preparation behind familiar images, with publication dates, observations and future events kept distinct.
+
+
+----- 01-gemini-bounded-decisions (ai) — source: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ -----
+
+## Русская версия
+
+Google 11 ноября [представила Gemini Decisions API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) с моделью Gemini Decision 1. Интерфейс оценивает заданные варианты: да или нет, выбор из списка и балл по упорядоченной шкале. Вместе с решением возвращаются вероятности и уверенность. Это иной формат работы, чем открытый текстовый ответ. Редакция не тестировала endpoint и не воспроизводила заявленные сравнения. Само наличие численного показателя не устанавливает, насколько хорошо он отражает ошибки на неизвестных заранее данных конкретного пользователя.
+
+Практический смысл можно объяснить на самостоятельном условном примере. Сервис получает обращение и должен направить его одной из нескольких команд. Свободное описание проблемы полезно человеку, но программе нужен определённый следующий шаг. Ограниченный список делает этот переход явным. При этом качество зависит от самих вариантов: если нужной категории нет, система всё равно может выбрать одну из предложенных. Поэтому при проектировании такой проверки стоит заранее решить, как обозначить ситуацию, для которой список не подходит или данных недостаточно.
+
+Уверенность и правильность также не следует смешивать. В условном пилоте можно собрать примеры, где ответ известен, сгруппировать решения по указанной уверенности и посмотреть, как часто они действительно верны. Это наша иллюстрация проверки, а не дополнительный результат Google. Один удачный пример ничего не говорит о поведении на редких случаях. Полезно отдельно рассмотреть неоднозначные запросы и изменения входных данных, чтобы средний показатель не скрывал проблему в небольшой, но существенной части рабочего процесса.
+
+Следующий вопрос — что делает приложение после оценки. Низкое число может отправлять случай на уточнение, а высокое — допускать заранее ограниченное действие. Но подходящий порог зависит от последствий ошибки, и его нельзя взять из чужого примера без проверки. В нашем условном маршрутизаторе неверное направление письма и неверное разрешение необратимого действия имели бы разную цену. Это рассуждение об устройстве системы, не утверждение о том, что новый интерфейс сам определяет допустимость любого следующего шага.
+
+Важно измерять и весь путь до результата. Быстрое получение оценок не обязательно равно быстрому завершению задачи, если после него требуются дополнительные запросы или исправления. Для сравнения полезно сохранять одинаковые входы, критерии и правила обработки исключений. Тогда станет понятнее, помогает ли новый формат именно данному приложению. Мы не добавляем к анонсу собственные показатели задержки, стоимости или точности и не переносим заявленную производительность автоматически на другой объём контекста, набор вопросов или режим работы.
+
+### Почему это важно
+
+Решение из фиксированного набора может быть удобнее длинного ответа там, где приложению нужен определённый переход. Главный вопрос — насколько список вариантов и поведение при неопределённости соответствуют задаче. Новый API предлагает формат, а надёжный рабочий процесс потребует собственной проверки решений и их последствий.
+
+## English version
+
+Google [introduced the Gemini Decisions API on November 11](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/), powered by Gemini Decision 1. It evaluates supplied options through yes/no checks, multiple choice and ordered rubric scores, returning probabilities and confidence alongside decisions. That differs from an open-ended textual response. We have not tested the endpoint or reproduced its comparisons. A numeric confidence value alone does not establish how well it reflects errors on a particular user's previously unseen inputs or operational setting.
+
+An independent hypothetical example illustrates the interface question. A service receives a request and must route it to one of several teams. A free-form description can help a person, while software needs a specified next step. A bounded list makes that transition explicit. Its quality nevertheless depends on the options: if the necessary category is missing, the system might still select a supplied alternative. A design should therefore establish how to represent cases outside the list or those lacking enough evidence for a justified choice.
+
+Confidence and correctness also need separate examination. A hypothetical pilot could collect examples with known answers, group decisions by reported confidence and inspect how often they are right. That illustrates an assessment approach, not an additional Google result. One successful example says little about rare cases. Ambiguous requests and changes in input conditions deserve attention so that an overall figure does not conceal a problem affecting a smaller but consequential part of a workflow. Evaluation should make those boundaries visible before decisions acquire practical consequences.
+
+The next question is what an application does with the score. A lower value might trigger clarification, while a higher one might permit a narrowly specified action. An appropriate threshold depends on the cost of error and cannot simply be copied from another example without validation. In our hypothetical router, misdirecting a message and authorising an irreversible operation would have different consequences. That concerns system design; it does not claim the new interface independently determines whether every possible next action is acceptable or properly authorised.
+
+Measurement should also cover the complete route to an outcome. Obtaining a score quickly need not mean completing a task quickly if further requests or corrections follow. Comparisons benefit from identical inputs, criteria and exception-handling rules. Those conditions make it clearer whether the format helps a particular application. We add no independently measured latency, cost or accuracy figures, and do not automatically transfer announced performance to different context sizes, question collections or operating modes. Each broader claim would need evidence appropriate to its scope.
+
+### Why it matters
+
+A fixed-set decision can be more useful than a long answer when an application needs an explicit transition. The important question is whether the options and treatment of uncertainty fit the task. The API supplies a format, while a dependable workflow still needs evaluation of decisions and their consequences.
+
+
+----- 02-pooling-aware-search (ai) — source: https://huggingface.co/blog/token-pooling -----
+
+## Русская версия
+
+Том Аарсен 11 ноября [описал обучение с учётом token pooling](https://huggingface.co/blog/token-pooling) для многовекторного поиска. В его примере объединение векторов документов сопровождается специальной обучающей целью. При одинаковом бюджете сжатия показатель NanoBEIR nDCG@10 вырос с 49,03 до 51,23. Это результат автора на определённой конфигурации, а не наша независимая проверка. Он не означает одинакового выигрыша на любом наборе документов или автоматического уменьшения всех расходов поискового сервиса в той же пропорции.
+
+Общий вопрос понятен и без деталей модели. В самостоятельном условном примере архив содержит подробные документы, а поиску нужно отличать два похожих запроса. Если сократить представление, можно сохранить общую тему и потерять небольшое, но важное различие. Тогда индекс станет компактнее, однако нужный результат опустится ниже. Такой пример объясняет, почему экономию места полезно оценивать вместе с качеством поиска. Он не описывает конкретную ошибку опубликованной модели и не добавляет к эксперименту несуществующий набор измерений.
+
+Для собственной проверки стоит сначала определить, что означает успешный поиск. Один пользователь ищет конкретную запись, другой — несколько источников по широкой теме. Показатель, удобный для первого сценария, может недостаточно описывать второй. Поэтому полезно заранее собрать запросы и ожидаемые релевантные документы, включая трудные различия. Это редакционная рекомендация по испытанию, а не утверждение о составе авторского набора. Фиксированный список случаев позволяет увидеть, какие ответы изменились после сжатия, а не ограничиваться впечатлением от среднего числа.
+
+Сравнение должно сохранять условия. Если одновременно заменить модель, документы и способ оценки, станет трудно понять причину улучшения. В нашем условном пилоте можно сначала сравнить два представления на одном корпусе, а затем отдельно проверить перенос на новые материалы. Особенно полезны случаи, где различие между хорошим и плохим результатом мало заметно по общей теме. Тогда компактность проверяется не только на очевидных примерах, но и на тех деталях, ради которых пользователь вообще задаёт уточняющий запрос.
+
+Ещё один вопрос — полный размер и стоимость системы. Меньше векторов не означает автоматически такую же экономию во всём приложении. Для собственного проекта нужно отдельно учитывать данные, индекс, подготовку и выдачу результата. Мы не вычисляли эти расходы для опубликованного примера и не приписываем автору универсальную оценку. Практически полезно записать, какие именно ресурсы измеряются и на каком этапе. Тогда техническая оптимизация не превратится в обещание, которое относится к другой части системы и не подтверждается экспериментом.
+
+### Почему это важно
+
+Сжатое представление становится частью того, чему учат модель, а не только последующим ограничением. Проверять такой подход стоит на одинаковом бюджете и реальных поисковых задачах. Новость даёт воспроизводимую отправную точку, но полезность для другого корпуса определяется сохранёнными различиями и качеством результатов, которые нужны его пользователям.
+
+## English version
+
+Tom Aarsen [described token-pooling-aware training on November 11](https://huggingface.co/blog/token-pooling) for multi-vector retrieval. His example combines merged document vectors with a corresponding training objective. At a matched compression budget, NanoBEIR nDCG@10 rises from 49.03 to 51.23. That is the author's result under specified conditions, not our independent reproduction. It does not imply identical gains on every document collection or that every cost of operating a search service decreases in the same proportion. Those are separate claims requiring separate measurements.
+
+The underlying question can be understood without model details. In an independent hypothetical archive, search must distinguish two similar requests within detailed documents. A smaller representation might retain the general subject but lose a small, important distinction. The index would become more compact while the needed result moves down the ranking. That explains why storage should be assessed alongside retrieval quality. It does not describe a particular failure of the released model or add an experiment and measurements that the author never reported.
+
+A local assessment should first establish what successful retrieval means. One user needs a specific record, while another wants several sources on a broad topic. A metric useful for the first scenario may not fully describe the second. It helps to prepare queries and expected relevant documents beforehand, including difficult distinctions. That is an editorial testing suggestion, not a claim about the author's evaluation collection. A fixed set makes it possible to inspect which answers changed after compression instead of relying on an impression created by one average score.
+
+Comparisons also need stable conditions. Replacing the model, documents and evaluation procedure together would make the cause of an improvement difficult to identify. A hypothetical pilot could first compare representations on one corpus, then separately test transfer to new material. Cases where good and poor results share almost the same general topic can be especially informative. Compression is then examined on the details motivating a precise query, rather than only on obvious examples that would be easy for many representations to distinguish correctly.
+
+Total system size and operating cost deserve their own measurements. Fewer vectors do not automatically imply a proportional saving throughout an application. A local project should distinguish document storage, index storage, preparation and result delivery. We have not calculated those costs for the published example or attributed a universal estimate to its author. Specifying the resource and processing stage helps prevent a technical optimisation from becoming a promise about a different component that the experiment did not measure. Clear accounting improves the usefulness of the comparison.
+
+### Why it matters
+
+The compressed representation becomes part of what the model learns, rather than only a later constraint. The approach deserves assessment at matched budgets and on actual retrieval tasks. It provides a reproducible starting point, while value on another corpus depends on preserving distinctions and returning the results its users need.
+
+
+----- 03-hubble-roman-lens-gallery (science) — source: https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/ -----
+
+## Русская версия
+
+NASA 12 ноября [опубликовало галерею гравитационных линз Hubble](https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/), которая помогает готовить дальнейшие наблюдения телескопа Roman. На изображениях далёкие галактики выглядят дугами, кольцами или несколькими копиями. Причина — массивная галактика на переднем плане отклоняет и усиливает свет фонового объекта. Сегодняшний материал показывает разнообразие таких конфигураций и объясняет будущую исследовательскую работу. Он не сообщает, что природа тёмной материи уже окончательно установлена по этой подборке или что все намеченные наблюдения выполнены.
+
+Гравитационная линза здесь работает как естественный инструмент. По искажению изображения исследователи оценивают количество и распределение массы в объекте переднего плана, включая невидимую составляющую. Но красивое кольцо ещё не равно готовой модели: нужно связать наблюдаемый рисунок с конкретным распределением вещества. Различные формы полезны именно тем, что дают разные условия проверки. В галерее есть пара дуг от совместного действия двух галактик и почти полное кольцо при особенно удачном взаимном расположении источника и линзы.
+
+Материал разделяет роли обсерваторий. Hubble подробно рассматривает отдельные объекты в видимом и ультрафиолетовом свете, с некоторыми инфракрасными возможностями. Roman охватывает значительно более широкое поле преимущественно в инфракрасном диапазоне. Поэтому один инструмент помогает изучить подробности конкретной линзы, а другой — собрать более многочисленную выборку. Это взаимодополнение, а не простая замена старого телескопа новым. Если широкий обзор выделит особенно интересный объект, подробные наблюдения могут снова понадобиться для его объяснения.
+
+Один из вопросов касается малых сгущений тёмной материи. NASA описывает поиск небольших отклонений в линзированных дугах, которые могли бы указывать на такие структуры. Теория холодной тёмной материи предсказывает множество малых сгущений; исследователи хотят проверить это ожидание. Слова о возможном подтверждении или опровержении нельзя сокращать до уже сделанного открытия. Нужны наблюдения, модели и сопоставление объяснений. Публикация формулирует направление исследования, а не гарантирует заранее, какой ответ даст более широкая выборка и последующий анализ.
+
+Полезны и менее громкие детали. В одной галактике переднего плана видна полоса пыли, которая может скрывать часть кольца. Инфракрасные наблюдения, менее чувствительные к такому поглощению, помогут выяснить, насколько оно полно. Сами линзы первоначально обнаружили с помощью DESI в Китт-Пике, затем наблюдал Hubble. Такая последовательность показывает, как поиск кандидата, подробный кадр и дальнейшее уточнение работают вместе. Ни один этап не обязан содержать все ответы, которые исследователи получат из объединённых данных.
+
+### Почему это важно
+
+Галерея превращает общий разговор о тёмной материи в конкретные наблюдаемые формы и проверяемые вопросы. Для читателя важно видеть, что измеряется сейчас и что ещё предстоит проверить. Широкий обзор и подробные изображения дают разные свидетельства; их совместная работа полезнее, когда выводы не опережают наблюдения.
+
+## English version
+
+NASA [published a gallery of Hubble gravitational lenses on November 12](https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/), helping prepare further observations with Roman. Distant galaxies appear as arcs, rings or multiple images because a massive foreground galaxy bends and magnifies their light. The account presents varied configurations and explains forthcoming research. It does not report that this gallery has settled the nature of dark matter or that every planned observation has already been completed. Visible examples and the conclusions researchers hope to test remain separate parts of the story.
+
+A gravitational lens acts as a natural observing instrument. Researchers use distortions to estimate the quantity and distribution of foreground mass, including its unseen component. A striking ring is not itself a finished model: the observed pattern must be connected to a specific mass distribution. Different forms provide different conditions for checking that relationship. The gallery includes a pair of arcs produced by two foreground galaxies together and a nearly complete ring resulting from particularly favourable alignment between the background source and foreground lens.
+
+The article distinguishes the observatories' roles. Hubble examines individual objects in detail using visible and ultraviolet light, with some infrared coverage. Roman surveys a substantially wider field primarily in infrared. One instrument therefore supports detailed investigation of particular lenses, while the other can gather a larger population. This is complementary work rather than straightforward replacement of an older telescope. An especially interesting object found in a wide survey may still require close examination to understand the structure responsible for its appearance or to test competing interpretations.
+
+One research question concerns small dark-matter clumps. NASA describes looking for subtle imperfections in lensed arcs that might indicate such structures. Cold dark matter theory predicts numerous small clumps, and investigators want to test that expectation. The possibility of confirming or challenging an interpretation should not be rewritten as an accomplished discovery. Observations, models and comparison of explanations are still required. The publication sets out a research direction without guaranteeing what answer a broader sample and subsequent analysis will eventually provide or how every individual object will behave.
+
+Less dramatic details can also be informative. One foreground galaxy has a visible dust lane that may conceal part of a ring. Infrared observations, less obscured by dust, could help establish whether that ring is more complete. The lenses were originally identified with DESI at Kitt Peak and subsequently observed by Hubble. That sequence demonstrates how candidate discovery, detailed imaging and later clarification contribute different evidence. No single stage must supply every answer that researchers might obtain from the combined observations and modelling effort.
+
+### Why it matters
+
+The gallery connects broad questions about dark matter with observable forms and specific tests. Readers should distinguish what is measured now from what remains to be investigated. Wide surveys and detailed images provide different evidence, and their collaboration is most informative when conclusions do not run ahead of the observations intended to support them.
+
+
+----- 04-flow-country-peat-carbon (science) — source: https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/ -----
+
+## Русская версия
+
+NASA Earth Observatory 12 ноября [представило Flow Country на севере Шотландии](https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/) как пример покровных болот и их углеродного запаса. Изображение получено прибором OLI спутника Landsat 8 4 марта 2024 года. Это сегодняшняя публикация с пояснением старого наблюдения, а не сообщение о резком изменении территории за последние сутки. На первый взгляд пейзаж неброский: вода, мхи, травы и вереск. Но именно свойства почвы делают такую экосистему важной для длительного хранения органического вещества.
+
+Механизм связан с переувлажнением. В насыщенной водой почве микроорганизмы не могут полностью разложить отмершие растения. Частично разложившийся материал накапливается слоями торфа, богатого углеродом. Для покровных болот нужны обильные осадки, плохой дренаж и небольшая потеря воды через испарение и растения. Поэтому такой ландшафт нельзя оценивать только по высоте деревьев или количеству зелени на фотографии. Значительная часть его важного содержимого находится ниже поверхности и формировалась гораздо дольше, чем длится одно спутниковое наблюдение.
+
+По данным материала, покровные болота занимают около 120 тысяч квадратных километров в мире. Северошотландские торфяники распространяются примерно на 1900 квадратных километров и включают более 30 видов сфагнума. В некоторых частях Flow Country торф накапливался свыше девяти тысяч лет, а толщина отложений превышает восемь метров — эти оценки NASA приводит со ссылкой на UNESCO. Возраст накопления не следует путать с датой снимка. Спутниковый кадр показывает современную поверхность, а сведения о глубине и истории требуют других источников данных.
+
+На изображении тёмно-коричневые участки болот перемежаются озёрами. Светло-зелёная территория вокруг Терсо справа — сельскохозяйственные земли, а более тёмные геометрические пятна в центре — хвойные посадки. Такой разбор полезнее, чем считать все зелёные участки одинаковой природной средой. Весенняя съёмка также имеет контекст: в это время поверхность особенно насыщена водой и начинается накопление новой биомассы. Одно состояние сезона не следует автоматически переносить на весь год или принимать за измерение каждого процесса в почве.
+
+Источник отдельно различает покровные болота и торфяники в целом. Для всех мировых торфяников приводится примерно 3% площади суши и запас более 600 гигатонн углерода. Нельзя приписывать эту глобальную величину одной шотландской территории или только показанному типу болот. Точно так же запас не равен ежегодному поглощению: это разные показатели. Публикация объясняет значение накопленного вещества, но не даёт оснований вычислять по одному изображению сегодняшний баланс конкретного участка или результат отдельного природоохранного проекта.
+
+### Почему это важно
+
+Невысокая растительность может скрывать большой и очень старый углеродный запас. Flow Country помогает понять, почему оценка экосистемы требует внимания к воде и почве, а не только к видимой зелени. Снимок становится содержательнее вместе с датой, сезонным контекстом и точным различением местных и глобальных величин.
+
+## English version
+
+NASA Earth Observatory [featured northern Scotland's Flow Country on November 12](https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/) to explain blanket bogs and their carbon storage. Landsat 8's OLI instrument captured the view on March 4, 2024. This is a current publication interpreting an earlier observation, rather than a report of abrupt change during the past day. The landscape can look unremarkable: water, mosses, grasses and heather. Its soil properties nevertheless make it important for retaining organic material over long periods, beyond what a surface view alone might suggest.
+
+Waterlogging explains the mechanism. Microbes cannot completely break down dead plants in saturated soils, allowing partially decayed material to accumulate as carbon-rich peat. Blanket bogs require abundant rainfall, poor drainage and limited water loss through evaporation and plants. Their value therefore cannot be judged only by tree height or visible greenery. Much of the important material lies beneath the surface and accumulated over a period far longer than a satellite observation. A photograph records a view, while explaining the ecosystem requires understanding that less visible process.
+
+The article puts worldwide blanket-bog coverage at around 120,000 square kilometres. Northern Scotland's peat bogs extend across approximately 1,900 square kilometres and support more than thirty sphagnum species. Some parts of Flow Country have accumulated peat for over nine thousand years, with deposits exceeding eight metres, according to UNESCO figures cited by NASA. Accumulation history is distinct from the image date. The satellite shows the surface, while deposit depth and historical development require other evidence rather than being directly measurable from this single view.
+
+Dark-brown bog areas are interspersed with lakes. Light-green land around Thurso on the right is farmland, while darker geometric patches toward the centre are conifer plantations. Distinguishing these features is more informative than treating every green area as the same ecosystem. Spring timing also matters: the surface is particularly waterlogged and new biomass starts accumulating. That seasonal state should not automatically be extended across the year or interpreted as a measurement of every process occurring below ground. The explanation gives the visible pattern a more specific context.
+
+The source separately describes blanket bogs and peatlands as a whole. For all global peatlands, it cites approximately three percent of land area and more than 600 gigatons of stored carbon. Those worldwide figures should not be assigned to one Scottish landscape or solely to the bog type pictured. Stored carbon is also different from annual uptake. The article explains the significance of an accumulated stock, without supporting calculation of a particular site's present carbon balance or the outcome of a specific conservation project from one image alone.
+
+### Why it matters
+
+Low vegetation can conceal a large, ancient carbon stock. Flow Country illustrates why assessment needs attention to water and soil, not only visible greenery. The image becomes more informative when its date, seasonal conditions and the distinction between local and global quantities remain attached to the explanation of what the landscape stores.
+
+
+----- 05-endeavour-photographic-history (culture) — source: https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/ -----
+
+## Русская версия
+
+NASA 12 ноября [опубликовало воспоминания фотографов о перевозке Endeavour в Лос-Анджелес](https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/). Шаттл совершил последний перелёт на модифицированном Boeing 747 21 сентября 2012 года. Повод вернуться к истории — новая экспозиция California Science Center: агентство сообщает о предстоящем открытии в выходные, начинающиеся 13 ноября, с Endeavour в вертикальном положении. На момент этого выпуска открытие ещё впереди. Сегодняшняя статья рассказывает об архивной работе, а не о новом полёте шаттла.
+
+Главные участники рассказа — фотографы Carla Thomas и Jim Ross и видеограф Lori Losey из NASA Armstrong. Они не просто нажали кнопку в удачный момент: команда заранее обсуждала маршрут и способы съёмки. Losey вспоминает, что добивалась двух самолётов сопровождения в районе Лос-Анджелеса, чтобы разделить фото и видео. Чередование высот и позиций помогало обоим экипажам получить нужные виды. Здесь важна связь между видимым итогом и подготовкой, которая обычно остаётся за пределами опубликованного кадра и его короткой подписи.
+
+Endeavour сопровождали F/A-18 и F-15 NASA, а сотрудники съёмочной группы находились на задних местах. В планировании участвовали California Science Center, FAA, аэропорт Лос-Анджелеса и Johnson Space Center. Thomas предварительно пролетела маршрут на вертолёте полиции Лос-Анджелеса, чтобы проверить условия и препятствия. У знака Hollywood дополнительное внимание требовали склон, линии электропередачи и радиоантенны. Это конкретные детали организационной работы, а не призыв повторять подобную съёмку или утверждение, что одного знакомства с фотографией достаточно для её безопасного воспроизведения.
+
+Маршрут проходил над узнаваемыми местами: Golden Gate Bridge, Griffith Park, Disneyland, Los Angeles Memorial Coliseum, Getty Center и другими точками. Фотографы вспоминают не только технику, но и людей на земле, наблюдавших перевозку. Такие изображения сохраняют сразу две истории: перемещение большого инженерного объекта и общественное внимание к нему. В публикации виден и переход от транспортной операции к музейной памяти. Позднейшая экспозиция использует прошлое событие, но не превращает его в современную действующую космическую программу или новый запуск.
+
+Сам Endeavour выполнил 25 миссий и помог начать сборку Международной космической станции, доставляя первые компоненты. В постоянном доме в Samuel Oschin Air and Space Center его должны показывать вместе с частью изображений финального перелёта. Для читателя это повод различать историю аппарата, его последнюю перевозку и устройство будущего показа. Статья не подтверждает, что посетитель уже сегодня увидит всё описанное. Практические условия посещения следует уточнять по актуальной информации музея, а не выводить из ретроспективного рассказа агентства.
+
+### Почему это важно
+
+Известный кадр часто кажется случайной удачей, но за ним могут стоять маршрут, согласования и слаженная работа нескольких экипажей. История Endeavour делает эту подготовку видимой. Она также помогает сохранить временную точность: перелёт относится к 2012 году, воспоминания опубликованы сегодня, а новая музейная глава ещё должна открыться.
+
+## English version
+
+NASA [published photographers' recollections of Endeavour's move to Los Angeles on November 12](https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/). The shuttle made its final flight atop a modified Boeing 747 on September 21, 2012. The occasion is a new California Science Center display: NASA describes an opening during the weekend beginning November 13, with Endeavour upright in launch position. At the time of this edition, that opening remains ahead. The article revisits archival work rather than reporting a new shuttle flight or launch.
+
+The account centres on NASA Armstrong photographers Carla Thomas and Jim Ross and videographer Lori Losey. Their work involved more than pressing a shutter at a fortunate moment: the team planned the route and how to capture it. Losey recalls advocating two chase aircraft around Los Angeles, separating photography from video. Alternating altitudes and positions helped both crews obtain the intended views. That connects the familiar final images with preparation usually absent from a published frame and its brief caption, making the production process part of the historical record.
+
+NASA F/A-18s and an F-15 escorted Endeavour, with imaging staff occupying rear seats. Planning involved the California Science Center, FAA, Los Angeles International Airport and Johnson Space Center. Thomas previewed the route in a Los Angeles police helicopter to examine conditions and obstacles. Near the Hollywood sign, the hillside, power lines and radio antennas required particular attention. These are details of organised work, not instructions to repeat the photography or a suggestion that familiarity with a picture would be sufficient to reproduce such operations safely.
+
+The route included landmarks such as the Golden Gate Bridge, Griffith Park, Disneyland, the Los Angeles Memorial Coliseum and Getty Center. Photographers remember people watching from the ground as well as the aircraft themselves. The images preserve two intertwined histories: movement of a large engineering object and public attention to that event. The account also shows a transition from a transportation operation to museum memory. A later display draws on the earlier event without turning it into a present operating shuttle programme or a newly completed mission.
+
+Endeavour flew twenty-five missions and helped begin International Space Station assembly by delivering early components. Its permanent home in the Samuel Oschin Air and Space Center is intended to display it alongside some final-flight imagery. Readers should distinguish the spacecraft's service history, its final ferry journey and the arrangement of a forthcoming exhibition. The article does not establish that visitors can already see everything described today. Practical visiting conditions belong in current museum information rather than assumptions drawn from a retrospective agency account or an expected opening date.
+
+### Why it matters
+
+A famous image can appear to be a lucky moment while depending on routing, coordination and several flight crews. Endeavour's story makes that preparation visible. It also preserves the timeline: the flight occurred in 2012, the recollections appear today, and the next museum chapter is still due to open rather than already completed.
+
+
 ===== EDITION 53 — 2026-11-08 =====
 
 ## От редакции
