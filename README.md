@@ -10,13 +10,11 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №54 / Edition №54 — 2026-11-12** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-12/)
+**Выпуск №55 / Edition №55 — 2026-11-13** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-13/)
 
-- **[ИИ и технологии]** [Gemini Decisions API оценивает варианты вместо написания ответа](editions/2026/11-12/01-gemini-bounded-decisions.md)
-- **[ИИ и технологии]** [Поисковую модель предлагают обучать сразу под сжатое представление](editions/2026/11-12/02-pooling-aware-search.md)
-- **[Наука]** [Галерея линз Hubble готовит вопросы для наблюдений Roman](editions/2026/11-12/03-hubble-roman-lens-gallery.md)
-- **[Наука]** [Flow Country показывает, почему незаметный ландшафт хранит много углерода](editions/2026/11-12/04-flow-country-peat-carbon.md)
-- **[Культура]** [Фотографы NASA вспоминают последний перелёт Endeavour](editions/2026/11-12/05-endeavour-photographic-history.md)
+- **[ИИ и технологии]** [Google Search получает Gemini 4 Hydrogen](editions/2026/11-13/01-hydrogen-search.md)
+- **[Наука]** [Экипаж МКС готовит Dragon к возвращению научных образцов](editions/2026/11-13/02-dragon-return-preparations.md)
+- **[Наука]** [Navajo Reservoir резко выросло после осенних дождей](editions/2026/11-13/03-navajo-reservoir-rise.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

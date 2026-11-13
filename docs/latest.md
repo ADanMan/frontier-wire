@@ -1,21 +1,13 @@
-# frontier-wire — latest edition №54 (2026-11-12)
+# frontier-wire — latest edition №55 (2026-11-13)
 
-## Gemini Decisions API scores options instead of writing an answer / Gemini Decisions API оценивает варианты вместо написания ответа
-rubric: ai · source: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/01-gemini-bounded-decisions.md
+## Google Search gains Gemini 4 Hydrogen / Google Search получает Gemini 4 Hydrogen
+rubric: ai · source: https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-13/01-hydrogen-search.md
 
-## Training search models for the compressed representation they will use / Поисковую модель предлагают обучать сразу под сжатое представление
-rubric: ai · source: https://huggingface.co/blog/token-pooling
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/02-pooling-aware-search.md
+## ISS crew prepares Dragon to return research samples / Экипаж МКС готовит Dragon к возвращению научных образцов
+rubric: science · source: https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-13/02-dragon-return-preparations.md
 
-## A Hubble lens gallery frames questions for Roman observations / Галерея линз Hubble готовит вопросы для наблюдений Roman
-rubric: science · source: https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/03-hubble-roman-lens-gallery.md
-
-## Flow Country shows why an unassuming landscape stores so much carbon / Flow Country показывает, почему незаметный ландшафт хранит много углерода
-rubric: science · source: https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/04-flow-country-peat-carbon.md
-
-## NASA photographers revisit Endeavour’s final ferry flight / Фотографы NASA вспоминают последний перелёт Endeavour
-rubric: culture · source: https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-12/05-endeavour-photographic-history.md
+## Navajo Reservoir rises sharply after autumn rains / Navajo Reservoir резко выросло после осенних дождей
+rubric: science · source: https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-13/03-navajo-reservoir-rise.md

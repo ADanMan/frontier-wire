@@ -1,0 +1,24 @@
+{
+  "status": "ready",
+  "date": "2026-11-13",
+  "slot": "morning",
+  "checked_at": "2026-11-13T04:02:37.347225+00:00",
+  "digest_sha256": "247d09e93a0eedc9fbde3f3a446847c46c55a66bb00e03e0ed6cfdc09c64386e",
+  "articles": [
+    {
+      "path": "editions/2026/11-13/01-hydrogen-search.md",
+      "sha256": "87c277e47ed6b9a0cb35cce1c2f1af8cc4324a2b2c4f447f21b0dba2963b8cfd",
+      "source": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade"
+    },
+    {
+      "path": "editions/2026/11-13/02-dragon-return-preparations.md",
+      "sha256": "2c6a111e2d534f73a11ceced13938f73852e82493ab0024e2c6f0bf2ac8d6a17",
+      "source": "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits"
+    },
+    {
+      "path": "editions/2026/11-13/03-navajo-reservoir-rise.md",
+      "sha256": "79dd620acc90809cd9c88e2326542e3f2f6563c8bc3b37d586ac668009e52a21",
+      "source": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir"
+    }
+  ]
+}

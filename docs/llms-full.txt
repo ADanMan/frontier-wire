@@ -2,6 +2,122 @@
 
 
 
+===== EDITION 55 — 2026-11-13 =====
+
+## От редакции
+
+Три утренних материала — о поиске, возвращении исследований и воде. Google обновляет Search, экипаж МКС готовит Dragon, а снимки Navajo Reservoir показывают последствия сильных дождей. Сохраняем даты источников и отделяем объявленные возможности, подготовку и накопленные изменения от уже завершённых результатов.
+
+## Editorial
+
+Three morning stories cover search, research returns and water. Google updates Search, the ISS crew prepares Dragon, and Navajo Reservoir imagery shows the effects of heavy rain. Source dates remain explicit, distinguishing announced capabilities, preparation and accumulated changes from completed outcomes.
+
+
+----- 01-hydrogen-search (ai) — source: https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/ -----
+
+## Русская версия
+
+Google 12 ноября [объявила о Gemini 4 Hydrogen в Search](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/). Компания описывает улучшенное понимание составных вопросов, параллельный поиск по подтемам, ссылки и более наглядные ответы. По её сообщению, обновление доступно глобально. Это заявление поставщика о новом поисковом опыте, а не независимое сравнение редакции. Мы не проверяли доступность во всех аккаунтах и не измеряли качество выдачи. Доступ к новому интерфейсу сам по себе не доказывает правильность каждого ответа на сложный вопрос.
+
+На самостоятельном условном примере полезность составного запроса понятна. Человек хочет сравнить несколько устройств, но одновременно задаёт ограничения по размеру, совместимости и условиям использования. Хороший ответ должен сохранить все эти условия. Если он подробно рассмотрел два и потерял третье, красивая таблица может выглядеть убедительнее, чем заслуживает. Поэтому при собственной проверке полезно заранее выписать ограничения и сверить каждое с результатом. Это редакционный пример оценки, а не описание задания из опубликованного теста Google или утверждение о найденной нами ошибке.
+
+Ссылки также нужно читать в связи с конкретным выводом. Наличие нескольких источников рядом с текстом не означает, что каждый из них подтверждает все предложения. В условном сравнении одна страница может описывать размеры, другая — совместимость, третья — иной вариант устройства. Полезный результат должен позволять проследить эту связь. Если вопрос меняется в продолжении разговора, стоит проверить, что ограничения сохранились и доказательства всё ещё относятся к нужной конфигурации. Иначе уточнение незаметно изменит предмет сравнения или оставит часть исходной задачи без ответа.
+
+Отдельный вопрос — актуальность. Даже аккуратно найденная страница может относиться к другой дате или прежним условиям. В нашем условном примере нужно знать, что именно сравнивают: характеристики на момент выпуска, текущую доступность или прошлый опыт автора. Эти вопросы требуют разных свидетельств. Сводный ответ полезнее, когда сохраняет даты и различает утверждение производителя с независимым наблюдением. Мы не добавляем к анонсу неподтверждённые сведения о внутреннем устройстве модели и не выводим из его названия универсальную способность решать любую информационную задачу.
+
+Практическое сравнение нового поиска можно начать с небольшого набора знакомых вопросов. Для каждого стоит записать ожидаемые условия ответа и то, какие ошибки будут существенными. Затем полезно оценивать полноту, проверяемость и время до подтверждённого результата отдельно. Это позволяет увидеть пользу без предположения, что более длинная или визуально насыщенная выдача автоматически лучше. Такой пилот не обязан охватывать всё: важнее понять, как система справляется с конкретными потребностями, чем переносить впечатление от одного удачного ответа на все будущие запросы.
+
+### Почему это важно
+
+Поиск всё чаще объединяет обнаружение страниц и подготовку готового объяснения. Пользователю становится важнее видеть, какие условия учтены и откуда взят каждый существенный вывод. Обновление интерфейса может помочь, но проверяемые ссылки, даты и полнота ответа остаются хорошими критериями его практической ценности.
+
+## English version
+
+Google [announced Gemini 4 Hydrogen in Search on November 12](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/). It describes better handling of multipart questions, parallel searches across subtopics, links and more visual answers, with global availability. This is the supplier's account of an updated search experience rather than our independent comparison. We have not checked every account or measured result quality. Access to a new interface alone does not establish that each answer to a complex question is correct or complete.
+
+An independent hypothetical example illustrates the evaluation question. Someone compares several devices while imposing constraints on size, compatibility and operating conditions. A good response needs to preserve every constraint. Covering two thoroughly while losing the third can produce a convincing table that does not satisfy the request. A local assessment could list the requirements beforehand and check each against the result. This is an editorial example, not a task from Google's published evaluation or a failure we claim to have observed in the new product.
+
+Links also need to be connected to particular conclusions. Several sources beside an answer do not establish that every source supports every sentence. In our hypothetical comparison, one page might document dimensions, another compatibility and a third a different device configuration. A useful result makes those relationships traceable. When a conversation continues, it is worth checking that the original constraints survived and the evidence still concerns the intended configuration. Otherwise, a clarification could quietly change the subject or leave part of the original task unanswered while the response appears comprehensive.
+
+Freshness is a separate issue. Even a correctly retrieved page might concern an earlier date or superseded conditions. The hypothetical comparison should specify whether it examines launch specifications, present availability or an author's past experience. Those questions need different evidence. A synthesis becomes more useful when it retains dates and distinguishes manufacturer statements from independent observations. We add no unsupported description of the model's internal design and do not infer universal problem-solving ability from its name or the general language of a launch announcement.
+
+A practical comparison can begin with a small collection of familiar questions. For each, write down the required conditions and which errors would matter. Completeness, traceability and time to a verified outcome can then be assessed separately. That makes benefits visible without assuming a longer or more visual response is automatically better. A pilot need not cover everything; understanding performance on specific needs is more informative than transferring an impression from one successful answer to all future requests, especially those involving unfamiliar sources or changing facts.
+
+### Why it matters
+
+Search increasingly combines finding pages with producing an explanation. Users benefit from seeing which conditions were considered and where important conclusions came from. An interface upgrade may help, while checkable links, dates and completeness remain useful criteria for judging its practical value on a particular task.
+
+
+----- 02-dragon-return-preparations (science) — source: https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/ -----
+
+## Русская версия
+
+NASA 12 ноября [описало подготовку грузового Dragon к отправлению с МКС](https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/). Корабль доставил более 6300 фунтов исследований, оборудования и припасов 15 октября. Теперь часть экспериментов завершается, а материалы готовят для возвращения и анализа на Земле. Это новый этап после ранее освещённой доставки, но ещё не сообщение о состоявшемся отстыковывании или приводнении. В тексте агентства основная работа четверга связана с упаковкой груза, исследованиями и обслуживанием снаряжения экипажа.
+
+Среди материалов, которые готовят к возвращению, названы бактериальная ДНК и напечатанные на 3D-принтере кровеносные сосуды. Также обратно отправляют специальное световое оборудование, испытывавшееся более трёх лет для воспроизведения естественного ритма освещения и поддержки сна экипажа. Перечень показывает разные виды возвращаемого груза: результаты исследований и использованные установки. Однако сама упаковка не является научным выводом. Оценка образцов на Земле остаётся последующей работой, и из сегодняшнего сообщения нельзя извлечь ещё не опубликованные результаты этих исследований.
+
+Anil Menon и Jessica Watkins начали загружать полезные грузы в Dragon. NASA объясняет, что заключительную передачу критичных образцов из переносных морозильников и инкубаторов планируют накануне ухода корабля. Menon также работал с Joshua Kutryk над размещением и закреплением груза. Важна не только вместимость: распределение массы должно обеспечить подходящий центр тяжести для возвращения и приводнения в Тихом океане. Это конкретная часть подготовки, а не подтверждение того, что все операции уже завершены и возвращённые материалы поступили исследователям.
+
+Параллельно Luke Delaney подготовил Life Science Glovebox в японском модуле Kibo для будущего ботанического исследования MVP-Plant-02. Его задача — изучать реакцию растений на заболевание в микрогравитации и получать знания для обеспечения дальнейших экспедиций. Подготовка рабочего места не означает, что исследование уже дало ответ. Позднее Delaney очищал системы охлаждения и вентиляции двух скафандров, использовавшихся Menon и Kutryk во время выходов 29 октября и 5 ноября. Таким образом, научные задачи соседствуют с обычной, необходимой технической работой.
+
+В российском сегменте NASA упоминает изучение получения высокочистых полупроводниковых кристаллов, упражнения с расшифровкой голосовых отчётов и обновление учёта мест хранения. Эти сведения дают картину рабочего дня, но не позволяют объявлять завершённой разработку нового промышленного процесса или универсального помощника экипажа. Полезно сохранять масштаб каждого сообщения. Работа с образцом, подготовка установки, техническое обслуживание и опубликованный результат отвечают на разные вопросы, даже если все они описаны рядом в одном коротком станционном отчёте.
+
+### Почему это важно
+
+Возвращение исследований требует такой же внимательной организации, как их доставка. Упаковка, температурные условия и распределение массы связывают орбитальную работу с будущим анализом на Земле. Новость подтверждает подготовительный этап; дальнейшее отправление и научные результаты нужно оценивать по следующим сообщениям, не подменяя их нынешним планом.
+
+## English version
+
+NASA [reported preparations for cargo Dragon's departure from the ISS on November 12](https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/). The spacecraft delivered over 6,300 pounds of research, hardware and supplies on October 15. Some investigations are now concluding, with material being prepared for return and analysis on Earth. This advances beyond the previously covered delivery, but does not report completed undocking or splashdown. The agency's Thursday account combines packing, research activities and equipment maintenance rather than announcing the completion of the return mission.
+
+Material being prepared includes bacterial DNA and 3D-printed blood vessels. Specialised lighting hardware is also returning after more than three years of testing intended to reproduce natural daylight patterns and support crew sleep. These examples distinguish research samples from equipment used aboard the station. Packing either kind is not itself a scientific finding. Earth-based analysis remains subsequent work, and the report does not establish unpublished outcomes from those investigations. Listing an experiment's subject should not become a claim that its intended benefit has already been demonstrated.
+
+Anil Menon and Jessica Watkins began loading payloads into Dragon. NASA says the final transfer of critical samples from portable freezers and incubators is planned for the day before departure. Menon also worked with Joshua Kutryk on arranging and securing the load. Capacity is not the only consideration: mass distribution must provide an appropriate centre of gravity for reentry and Pacific splashdown. That describes a specific preparation task, rather than confirmation that every operation has finished or that material has already reached researchers on the ground.
+
+Meanwhile, Luke Delaney prepared the Life Science Glovebox in Japan's Kibo module for the upcoming MVP-Plant-02 investigation. It will examine plant responses to disease in microgravity to inform support for future exploration crews. Preparing the workspace does not mean the study has produced an answer. Delaney later cleaned cooling and ventilation systems in two spacesuits worn by Menon and Kutryk during the October 29 and November 5 spacewalks. Scientific work therefore proceeds alongside necessary technical maintenance, with each activity occupying a distinct stage in the station's operations.
+
+For the Russian segment, NASA mentions work on high-purity semiconductor crystals, practice transcribing audio reports and updates to stowage inventories. These observations help describe a working day without establishing completion of a new industrial process or a universal crew assistant. Retaining the scale of each statement matters. Handling samples, preparing equipment, maintaining systems and publishing a result answer different questions, even when they appear together in a short station report. A useful account should preserve those differences rather than treating all activity as an accomplished research breakthrough.
+
+### Why it matters
+
+Returning research needs organisation just as delivery does. Packing, temperature conditions and load balance connect orbital work to future analysis on Earth. The report confirms a preparatory stage; spacecraft departure and scientific outcomes should be assessed through subsequent evidence rather than being inferred from the present plan.
+
+
+----- 03-navajo-reservoir-rise (science) — source: https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/ -----
+
+## Русская версия
+
+NASA Earth Observatory 11 ноября [сопоставило два снимка Navajo Reservoir](https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/) после сильных дождей на юго-западе США. Кадры Landsat 9 получены 20 сентября и 7 ноября 2026 года. За этот период уровень водохранилища поднялся почти на 18 метров, по данным инженерного корпуса армии США, приведённым в материале. Это наблюдение за накопленным изменением, а не сообщение о подъёме на такую величину за один день. Дата статьи, даты снимков и период измерения должны оставаться различимыми.
+
+На 7 ноября водохранилище достигло самого высокого уровня с августа 2019 года. Источник указывает 108% среднего для этой даты объёма против 60% на 20 сентября. Здесь особенно важно слово «среднего»: речь не о заполнении выше максимальной физической вместимости. Такое прочтение меняло бы смысл числа. NASA также отмечает снижение сбросов из плотины 16 и 17 сентября. Поэтому объяснение состояния водоёма должно учитывать не только впечатляющий вид береговой линии, но и сопровождающие сведения о режиме управления водой и исходных условиях.
+
+Дожди пришли несколькими волнами в конце октября и начале ноября. Реки Сан-Хуан, Пьедра и другие получили большой сток. В ряде мест уровни достигали рекордных или близких к ним величин, а паводки причинили ущерб. Рост запаса воды и опасность для населённых пунктов могут происходить одновременно. Увеличение водохранилища не превращает весь эпизод в безусловно благоприятное событие. В то же время ущерб от паводка не отменяет наблюдаемого пополнения воды — это разные последствия одного периода очень влажной погоды.
+
+Материал связывает слабое весеннее пополнение с дефицитом снега зимой 2025–2026 годов. Осенние осадки дали краткосрочное облегчение: карты U.S. Drought Monitor, использующие спутниковые и наземные наблюдения, показывали улучшение. Но долгосрочная засуха в отдельных местах сохранялась. Поэтому нынешнее изменение нельзя пересказывать как окончательное решение водной проблемы региона. Для более широкого вывода потребовались бы последующие наблюдения за осадками, запасами и расходом воды, а не только два изображения выбранного водоёма после интенсивных дождей и сведения об одном сезонном эпизоде.
+
+В источнике обсуждается и погодный контекст: низкоширотная область пониженного давления и необычно тёплая океанская поверхность помогали сильным осадкам. Условия El Niño могут повышать вероятность переноса влажных штормов вглубь юго-запада. Это описание вероятностной связи, а не обещание одинаковой погоды каждый год или точный прогноз для конкретного города. Спутниковое сравнение делает результат видимым; объяснение причин опирается на дополнительные метеорологические данные. Эти уровни свидетельств полезно не смешивать при чтении материала или его распространении.
+
+### Почему это важно
+
+Два кадра помогают увидеть, насколько быстро может меняться водоём после экстремальных осадков. Правильный вывод требует сохранить масштаб времени и смысл процентов. Краткосрочное пополнение, паводковый ущерб и долгосрочная засуха не исключают друг друга; оценивать их нужно отдельно, по соответствующим данным и последующим наблюдениям.
+
+## English version
+
+NASA Earth Observatory [compared two views of Navajo Reservoir on November 11](https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/) following heavy rain in the US Southwest. Landsat 9 acquired the images on September 20 and November 7, 2026. During that interval, the reservoir rose nearly eighteen metres, according to US Army Corps of Engineers data cited in the article. This describes accumulated change rather than a rise of that magnitude within one day. Publication date, image dates and measurement interval should remain distinct when interpreting the comparison.
+
+By November 7, the reservoir reached its highest level since August 2019. The source gives 108 percent of its average capacity for that date, compared with sixty percent on September 20. Average is the crucial qualification: the figure does not mean water exceeded maximum physical capacity. Removing that word would change the claim. NASA also notes reduced dam releases on September 16 and 17. Understanding reservoir conditions therefore requires information about management and starting conditions alongside the striking change visible in the shoreline, rather than attributing every detail to the photographs alone.
+
+Repeated rain arrived in late October and early November. The San Juan, Piedra and other rivers swelled with runoff. Some locations experienced record or near-record levels and damaging floods. An increased water stock and danger to communities can occur simultaneously. Reservoir growth does not make the episode unconditionally beneficial. Equally, flood damage does not erase observed replenishment: they are different consequences of a very wet period. A useful account preserves both rather than selecting whichever interpretation best matches a positive or negative headline about the same event.
+
+The article connects limited spring replenishment with snow drought during winter 2025–26. Autumn precipitation brought short-term relief, with US Drought Monitor maps combining satellite and ground observations showing improvement. Longer-term drought nevertheless persisted in places. The change should therefore not be reported as a final solution to regional water scarcity. A broader conclusion would need subsequent observations of precipitation, storage and water use, rather than two images of one reservoir after intense rainfall and information about a single seasonal episode. Different timescales answer different questions about recovery.
+
+The source also discusses meteorological context: a low-latitude low-pressure system and unusually warm ocean conditions contributed to the heavy rain. El Niño can increase the likelihood of moisture-bearing storms reaching the Southwest interior. That is a probabilistic relationship, not a promise of identical weather each year or a precise forecast for one city. Satellite comparison makes the outcome visible, while explaining causes relies on additional weather evidence. Keeping those roles separate makes the interpretation more accurate and helps avoid stretching an illustration beyond the conclusions supported by the accompanying data.
+
+### Why it matters
+
+Two images show how quickly a reservoir can change after extreme precipitation. Interpretation depends on retaining the time interval and the meaning of percentages. Short-term replenishment, damaging floods and long-term drought are compatible outcomes, requiring separate assessment using appropriate observations rather than a single sweeping conclusion.
+
+
 ===== EDITION 54 — 2026-11-12 =====
 
 ## От редакции
