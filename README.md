@@ -15,6 +15,9 @@
 - **[ИИ и технологии]** [Google Search получает Gemini 4 Hydrogen](editions/2026/11-13/01-hydrogen-search.md)
 - **[Наука]** [Экипаж МКС готовит Dragon к возвращению научных образцов](editions/2026/11-13/02-dragon-return-preparations.md)
 - **[Наука]** [Navajo Reservoir резко выросло после осенних дождей](editions/2026/11-13/03-navajo-reservoir-rise.md)
+- **[ИИ и технологии]** [llama.cpp 1.0.0 делает несовместимость библиотек заметнее](editions/2026/11-13/04-llama-library-versioning.md)
+- **[ИИ и технологии]** [LLMON размечает, где инструкция, а где данные](editions/2026/11-13/05-llmon-structured-context.md)
+- **[Наука]** [Мангры восстанавливаются глобально, но потери по регионам остаются](editions/2026/11-13/06-mangrove-rebound.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

@@ -5,8 +5,8 @@ edition: 55
 
 ## От редакции
 
-Три утренних материала — о поиске, возвращении исследований и воде. Google обновляет Search, экипаж МКС готовит Dragon, а снимки Navajo Reservoir показывают последствия сильных дождей. Сохраняем даты источников и отделяем объявленные возможности, подготовку и накопленные изменения от уже завершённых результатов.
+Шесть материалов дня объединяют поиск, сопровождение систем и наблюдения за Землёй. К утренним Google Search, Dragon и Navajo Reservoir добавились llama.cpp 1.0.0, экспериментальный LLMON и глобальный разворот в площади мангров. Сохраняем границы между релизом, проверенной интеграцией и исследовательским результатом, а глобальные тенденции сверяем с региональными различиями.
 
 ## Editorial
 
-Three morning stories cover search, research returns and water. Google updates Search, the ISS crew prepares Dragon, and Navajo Reservoir imagery shows the effects of heavy rain. Source dates remain explicit, distinguishing announced capabilities, preparation and accumulated changes from completed outcomes.
+Six stories connect search, system maintenance and Earth observation. The morning's Google Search, Dragon and Navajo Reservoir reports are joined by llama.cpp 1.0.0, experimental LLMON and a reversal in global mangrove area. Releases, validated integrations and research findings remain distinct, with global trends examined alongside regional differences.

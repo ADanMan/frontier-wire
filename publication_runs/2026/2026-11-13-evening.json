@@ -1,0 +1,24 @@
+{
+  "status": "ready",
+  "date": "2026-11-13",
+  "slot": "evening",
+  "checked_at": "2026-11-13T16:09:57.188794+00:00",
+  "digest_sha256": "ffabb15680fee2ea0611d27c545a7c81c796183654b228192b7c02e7cf29edaf",
+  "articles": [
+    {
+      "path": "editions/2026/11-13/04-llama-library-versioning.md",
+      "sha256": "c05e5f9a2ec7123fede39ad71475cf8134dd84db404371603ec0f5899eaa3dbc",
+      "source": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+    },
+    {
+      "path": "editions/2026/11-13/05-llmon-structured-context.md",
+      "sha256": "81f418de0a5b9a33efbb382fc5e4bedfe7125a42182d275aeaaa8ca3f1411af1",
+      "source": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+    },
+    {
+      "path": "editions/2026/11-13/06-mangrove-rebound.md",
+      "sha256": "ba85083e5a5e1d68b7e9c93ee61527a37a3924047a25a330e52658c64a095f03",
+      "source": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves"
+    }
+  ]
+}

@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Три утренних материала — о поиске, возвращении исследований и воде. Google обновляет Search, экипаж МКС готовит Dragon, а снимки Navajo Reservoir показывают последствия сильных дождей. Сохраняем даты источников и отделяем объявленные возможности, подготовку и накопленные изменения от уже завершённых результатов.
+Шесть материалов дня объединяют поиск, сопровождение систем и наблюдения за Землёй. К утренним Google Search, Dragon и Navajo Reservoir добавились llama.cpp 1.0.0, экспериментальный LLMON и глобальный разворот в площади мангров. Сохраняем границы между релизом, проверенной интеграцией и исследовательским результатом, а глобальные тенденции сверяем с региональными различиями.
 
 ## Editorial
 
-Three morning stories cover search, research returns and water. Google updates Search, the ISS crew prepares Dragon, and Navajo Reservoir imagery shows the effects of heavy rain. Source dates remain explicit, distinguishing announced capabilities, preparation and accumulated changes from completed outcomes.
+Six stories connect search, system maintenance and Earth observation. The morning's Google Search, Dragon and Navajo Reservoir reports are joined by llama.cpp 1.0.0, experimental LLMON and a reversal in global mangrove area. Releases, validated integrations and research findings remain distinct, with global trends examined alongside regional differences.
 
 
 ----- 01-hydrogen-search (ai) — source: https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/ -----
@@ -116,6 +116,111 @@ The source also discusses meteorological context: a low-latitude low-pressure sy
 ### Why it matters
 
 Two images show how quickly a reservoir can change after extreme precipitation. Interpretation depends on retaining the time interval and the meaning of percentages. Short-term replenishment, damaging floods and long-term drought are compatible outcomes, requiring separate assessment using appropriate observations rather than a single sweeping conclusion.
+
+
+----- 04-llama-library-versioning (tech) — source: https://huggingface.co/blog/ggml-org/llama-cpp-v1 -----
+
+## Русская версия
+
+Команда ggml-org 13 ноября [объявила библиотеки llama.cpp и ggml версии 1.0.0](https://huggingface.co/blog/ggml-org/llama-cpp-v1). Для несовместимых изменений публичного C API и ABI предусмотрено повышение основной версии. Это важный сигнал для разработчиков зависимых приложений. Сегодняшняя новость касается границ совместимости и правил выпуска, а не доказанного ускорения любой модели. Редакция не собирала новые библиотеки и не проверяла их на пользовательском оборудовании; объявленный номер версии не заменяет проверку конкретного приложения, его настроек и сценария работы.
+
+На самостоятельном условном примере смысл понятен. Программа использует внешнюю библиотеку, затем разработчик заменяет её более новой сборкой. Если интерфейс изменился, проблема может проявиться уже при сборке или позже при запуске. Явный номер помогает понять, где ожидать подобные изменения, но не выполняет всю работу сопровождения. Для собственного проекта полезно сохранить исходную рабочую конфигурацию и знать, какие функции приложение действительно использует. Это общая иллюстрация зависимости, а не описание обнаруженного дефекта в сегодняшнем релизе или инструкция менять чью-либо систему.
+
+Совместимость и качество результата — разные свойства. Программа может продолжить запускаться, но обработка конкретного ввода всё равно требует проверки. В условном пилоте стоит взять несколько привычных задач и сравнить ответы, ошибки и затраты с прежним вариантом. Если одновременно заменить библиотеку, модель и параметры, объяснить изменения станет сложнее. Более полезно понимать, что именно поменялось и какое свидетельство подтверждает нужное поведение. Такой подход помогает обсуждать результат точнее, чем общий отзыв о том, что новая версия кажется заметно лучше или хуже.
+
+Имеет значение и способ доставки. Пользователь приложения может получать библиотеку через готовую сборку, а разработчик — напрямую из проекта. Эти пути способны обновляться в разное время. Поэтому фраза «вышла версия» не обязательно означает, что она уже установлена во всех зависимых продуктах. В самостоятельном сравнении нужно записать фактическую версию, а не только название программы. Это вопрос воспроизводимости проверки, не утверждение о графике конкретного магазина, менеджера пакетов или стороннего интерфейса, для которого мы не читали отдельное сообщение о выпуске.
+
+Для команды, поддерживающей интеграцию, полезно заранее определить, что будет означать успешное обновление. Например, ожидаемые функции доступны, прежние документы обрабатываются и ошибки остаются понятными. Это редакционный пример критериев, а не новый тест, выполненный нами над llama.cpp. Хорошая граница версии облегчает планирование, но сама по себе не устанавливает пригодность всех сочетаний оборудования и данных. Конкретное подтверждение должно относиться к конкретной сборке и задаче, иначе обещание совместимости будет прочитано шире, чем позволяет опубликованное правило.
+
+### Почему это важно
+
+У локального ИИ много зависимых приложений, которым нужны понятные сигналы об изменениях. Релиз делает эту договорённость явнее. Практическая польза проявится в сопровождении и проверяемых обновлениях: номер помогает заметить границу, а уверенность в рабочем результате появляется после испытания нужного сценария.
+
+## English version
+
+The ggml-org team [announced version 1.0.0 of the llama.cpp and ggml libraries on November 13](https://huggingface.co/blog/ggml-org/llama-cpp-v1). Incompatible changes to public C APIs and ABIs will trigger major-version increases. This gives downstream developers a clearer compatibility signal. The announcement concerns interface boundaries and release rules, rather than establishing faster execution for every model. We have not built the libraries or tested them on user hardware. A version number does not replace assessment of a particular application, configuration and workload.
+
+An independent hypothetical example explains the significance. An application uses an external library, and its developer later substitutes a newer build. An interface change might cause a build failure or appear only at runtime. Explicit versioning helps identify where to expect such changes, without performing all maintenance work. A project benefits from retaining its known working configuration and understanding which functions it actually consumes. This illustrates a dependency relationship, not a defect found in today's release or an instruction to modify anyone's existing system.
+
+Compatibility and output quality remain different properties. A programme may still start, while processing particular inputs requires verification. A hypothetical pilot could compare familiar tasks, responses, errors and resource use against the earlier version. Replacing the library, model and settings together would make differences harder to explain. It is more informative to know what changed and which evidence supports the intended behaviour. That supports a more precise discussion than an overall impression that a new release feels substantially better or worse, especially when several components can affect the outcome.
+
+Distribution paths matter too. An end user may receive the library inside an application package, while a developer obtains it directly from the project. Those routes can update at different times. Saying a version has been released therefore does not establish that every dependent product already includes it. A comparison should record the actual version rather than only an application name. This concerns reproducibility, not a claim about a particular store, package manager or third-party interface whose separate release announcement we have not examined or whose installed state we have not inspected.
+
+A team maintaining an integration can define successful upgrading beforehand. For example, needed functions remain available, existing documents are processed and error reporting remains understandable. These are editorial examples of criteria, not additional llama.cpp tests conducted by this publication. A useful version boundary supports planning without certifying every combination of hardware and data. Evidence should concern a particular build and task; otherwise, a compatibility commitment may be interpreted more broadly than the published rule supports. Keeping the scope explicit makes subsequent reports easier to compare.
+
+### Why it matters
+
+Local AI applications need understandable signals about changes in their dependencies. This release makes that agreement clearer. Its practical value lies in maintenance and verifiable upgrades: a version identifies a boundary, while confidence in an operating result comes from testing the scenario an application actually needs.
+
+
+----- 05-llmon-structured-context (ai) — source: https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite -----
+
+## Русская версия
+
+IBM Granite 12 ноября [представила LLMON и два экспериментальных preview](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite) на базе Granite 4.1 3B и 8B. Формат явно обозначает инструкции, данные и связи между частями контекста. Авторы исследуют устойчивость к косвенным prompt injection и прямо называют такое поведение обученным, а не принудительной гарантией. Preview предназначено для экспериментов, не production. Редакция не запускала модели. Сегодняшняя новость — предложение формата и доступных исследовательских инструментов, а не подтверждение, что проблема подмены инструкций решена во всех ситуациях.
+
+Общий вопрос удобно объяснить на самостоятельном условном примере. Помощник получает документ для краткого пересказа. Внутри документа есть фраза, похожая на приказ изменить задачу. Для человека различие часто очевидно: это текст, который нужно прочитать, а не новое поручение автора запроса. У программы такое различие должно сохраняться на всём пути обработки. Это редакционная иллюстрация границы между содержимым и полномочием, а не воспроизведение атаки или дополнительный результат из опубликованных испытаний конкретной модели.
+
+Явная структура полезна только вместе с корректным использованием. Если приложение неправильно пометит происхождение текста, аккуратный формат сам по себе не исправит ошибку. В условном испытании нужно отдельно проверить, как сформирован вход, что увидела модель и почему следующий шаг разрешён. Эти уровни отвечают на разные вопросы. Хорошее поведение на одном примере не устанавливает устойчивость всей системы. Особенно важно не делать из удобного обозначения обещание, что любые внешние данные автоматически становятся безопасными независимо от дальнейших действий приложения и его доступных возможностей.
+
+Сравнение подходов требует одинаковой задачи. В нашем условном пилоте можно сохранить исходный документ, ожидаемый результат и критерии нарушения, затем рассмотреть разные способы передачи контекста. Если одновременно меняются модель, данные и оценщик, причину результата трудно установить. Это предложение по проверке, а не заявленный нами эксперимент. Полезно учитывать не только очевидные неудачи, но и случаи, когда ответ выглядит нормальным, однако теряет важное ограничение исходного поручения или начинает ссылаться на материал, который вообще не относится к поставленному вопросу.
+
+Есть и вопрос сопровождения. Формат, модель и приложение должны одинаково понимать назначение передаваемых компонентов. В условном проекте документация должна объяснять, какие части входа приходят извне, а какие задаёт сама программа. Это не требует публиковать частные данные или истории разговоров. Достаточно описать схему и проверить её на разрешённых примерах. Такая работа помогает отличить свойства отдельной модели от свойств всей интеграции и не переносить исследовательские результаты на систему, в которой условия уже существенно отличаются от изученных авторами.
+
+### Почему это важно
+
+Структура контекста становится самостоятельным предметом обучения и оценки. LLMON предлагает способ сделать отношения между частями входа явнее, сохраняя экспериментальный статус. Практический вывод — проверять и формат, и поведение модели, и действия приложения; ни один из этих уровней не заменяет остальные одной формулировкой о защищённости.
+
+## English version
+
+IBM Granite [introduced LLMON and two experimental previews on November 12](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite), based on Granite 4.1 3B and 8B. The format explicitly marks instructions, data and relationships within context. The authors investigate indirect prompt-injection resistance while describing the behaviour as learned rather than an enforced guarantee. The previews are for experimentation, not production. We have not run the models. This is a format and research-tool announcement, not confirmation that instruction substitution has been solved in every setting.
+
+An independent hypothetical example explains the boundary. An assistant receives a document to summarise, containing a sentence resembling an order to change the task. A person may readily distinguish material to read from a new instruction issued by the requester. A software workflow needs to preserve that distinction throughout processing. This is an editorial illustration of content and authority, not an attack reproduction or another result from the models' published evaluation. Keeping those concepts separate helps make the practical question understandable without inventing a new security finding.
+
+Explicit structure also depends on correct application use. If software mislabels the origin of text, a tidy format alone cannot repair that mistake. A hypothetical assessment should separately inspect input construction, what the model receives and why a subsequent action is authorised. Those layers answer different questions. Good behaviour on one example cannot establish resilience of the complete system. It is particularly important not to turn a useful notation into a promise that arbitrary external data automatically become safe regardless of the application's later actions and available capabilities.
+
+Comparisons need matching tasks. A local pilot could preserve the original document, expected result and violation criteria, then examine different ways of providing context. Changing the model, data and evaluator together would make the cause of an outcome difficult to identify. This is a testing suggestion, not an experiment conducted by this publication. Alongside obvious failures, an evaluator can consider apparently ordinary responses that lose a key requirement or rely on material unrelated to the question. Such cases help specify what successful handling should mean for the intended workflow.
+
+Maintenance introduces another question. The format, model and application need a consistent interpretation of the supplied components. In a hypothetical project, documentation could identify which input parts originate externally and which the software supplies itself. That does not require publishing private data or conversation histories. A schema and authorised examples can support examination. This distinguishes properties of one model from those of an integration, avoiding automatic transfer of research results to a setting whose conditions differ substantially from the authors' evaluation or whose operating permissions introduce separate issues.
+
+### Why it matters
+
+Context structure becomes an explicit target for training and assessment. LLMON proposes clearer relationships between input components while retaining experimental status. Practical evaluation should consider the format, model behaviour and application actions together. No single layer replaces the others through a general statement about protection, and the announcement appropriately leaves room for further testing.
+
+
+----- 06-mangrove-rebound (science) — source: https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/ -----
+
+## Русская версия
+
+NASA Earth Observatory 13 ноября [разобрало глобальное восстановление мангровых лесов](https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/) по спутниковым данным. Исследование, о котором рассказывает материал, использует Landsat за 1984–2023 годы. Авторы обнаружили около трёх тысяч квадратных километров потерь до 2010 года, а затем почти две тысячи квадратных километров прироста. Это многолетняя смена направления, а не площадь, выросшая за текущий день. Сегодняшняя дата относится к объяснительной публикации NASA; её нельзя превращать в дату всех наблюдений и результатов, которые в ней обсуждаются.
+
+Прирост оказался особенно заметен в Азии, Австралии и Южной Америке. По оценке исследователей, примерно две трети расширения связаны с освоением новых территорий, а треть — с восстановлением и повторным ростом на деградировавших участках. Эти механизмы не стоит смешивать. Новые деревья на ранее незанятом участке и улучшение состояния существовавшего леса дают разные сведения. Помимо площади авторы рассматривали плотность полога; в некоторых регионах он стал более сомкнутым, что материал связывает с менее деградировавшим состоянием лесов.
+
+Иллюстрация показывает район Мьей в Мьянме. Снимки сделаны 14 февраля 2010 года прибором TM Landsat 5 и 2 февраля 2026 года OLI Landsat 9. На части территории мангры заняли бывшие рисовые поля. Для страны NASA приводит прежнюю потерю 28,6% площади между 1980-ми и 2010 годом и последующее увеличение примерно на 10%. Эти проценты относятся к разным периодам и основаниям сравнения. Их нельзя просто вычесть друг из друга и объявить точной долей восстановленного исходного леса без дополнительного расчёта и описания методики.
+
+У расширения есть несколько объяснений. Отложения осадочного материала создают новые илистые площадки, которые могут заселять деревья. В отдельных местах важны восстановительные меры и охрана. На границах ареала потепление и более редкие заморозки позволяют манграм занимать прежде холодные участки. Это не означает, что каждый прирост имеет одну причину или что потепление в целом полезно для всех прибрежных экосистем. Разные регионы требуют своего разбора, а глобальная сумма не показывает автоматически состояние конкретного берега, деревни или охраняемой территории.
+
+Потери также продолжаются. В дельте Нигера они повлияли на уменьшение площади мангров Западной и Центральной Африки после 2010 года. Северная Америка и юг Африки испытывали деградацию после тропических циклонов. Мангры важны как местообитания морских организмов, хранилища углерода и защита берегов от эрозии и штормовых нагонов. Поэтому даже положительное глобальное направление не позволяет считать охрану законченной задачей. Локальное повреждение остаётся значимым, независимо от того, насколько благоприятно выглядит общий график изменения площади на всей планете.
+
+### Почему это важно
+
+Спутниковый ряд показывает возможность восстановления после длительных потерь, сохраняя сложную географию результата. Для оценки нужно различать площадь, плотность полога, новое заселение и восстановление прежних участков. Хорошая глобальная новость становится полезнее, когда не скрывает региональные проблемы и не заменяет многолетний анализ впечатлением от одной пары изображений.
+
+## English version
+
+NASA Earth Observatory [examined a global mangrove rebound on November 13](https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/). The research discussed uses Landsat observations from 1984 to 2023. Researchers identified nearly three thousand square kilometres of losses before 2010, followed by almost two thousand square kilometres of expansion. That describes a multi-year reversal, not forest growth occurring today. The current date belongs to NASA's explanatory publication and should not become the date of every observation or underlying research result discussed in its account.
+
+Expansion was particularly apparent in Asia, Australia and South America. Researchers attribute approximately two-thirds of the increase to colonisation of new areas and one-third to restoration and regrowth in degraded areas. Those mechanisms should remain distinct. Trees occupying previously unoccupied land and improved condition within earlier forest provide different information. The study also examines canopy density, with more closed canopies in some regions described as a sign of less degraded forests. An area total alone cannot capture all of those changes in ecosystem condition.
+
+The illustration concerns Myanmar's Myeik District. Landsat 5's TM acquired the earlier image on February 14, 2010, and Landsat 9's OLI captured the later view on February 2, 2026. Some mangroves replaced former rice fields. NASA cites a national mangrove-area loss of 28.6 percent between the 1980s and 2010, followed by approximately ten percent growth. These percentages concern different periods and comparison bases. Subtracting them would not automatically establish a precise share of original forest restored without further calculation and an explicit account of the method.
+
+Several processes can explain expansion. Sediment deposition creates mudflats that trees can colonise. Restoration and protection matter in some locations. At range boundaries, warmer conditions and fewer freezes can permit growth in previously colder areas. That does not establish a single explanation for every gain or imply that warming benefits all coastal ecosystems. Different regions require their own analysis, and a global total does not automatically reveal the condition of a particular coast, community or protected area. The scale of the evidence should remain attached to its interpretation.
+
+Losses continue too. In the Niger Delta, they contributed to reduced mangrove area in West and Central Africa after 2010. North America and southern Africa experienced degradation following tropical cyclones. Mangroves serve as marine habitat, carbon stores and protection against erosion and storm surges. A positive global direction therefore does not establish that conservation work is finished. Local damage remains consequential regardless of how favourable the worldwide area trend appears. Neither a global gain nor an individual example can replace examination of conditions where decisions and protection measures are needed.
+
+### Why it matters
+
+The satellite record demonstrates recovery after sustained losses while preserving a complicated regional picture. Assessment should distinguish area, canopy density, new colonisation and regrowth. An encouraging global result becomes more informative when it does not hide local problems or replace analysis across decades with an impression from a single image pair.
 
 
 ===== EDITION 54 — 2026-11-12 =====
