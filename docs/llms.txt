@@ -17,6 +17,9 @@ Publisher: Danila Katalshov — https://adanman.github.io
 - Repository: https://github.com/ADanMan/frontier-wire
 
 ## Latest articles
+- [Roman instruments align ahead of the next starlight-control stage](https://adanman.github.io/frontier-wire/e/2026-11-14/01-roman-instrument-alignment.html) — NASA confirms a commissioning milestone, distinct from completion of all scientific preparations.
+- [XYBench asks whether an answer solves the underlying problem](https://adanman.github.io/frontier-wire/e/2026-11-14/02-xybench-underlying-goals.html) — Ai2 distinguishes literal requests from goals, with current coverage limited to English procedural questions.
+- [SimReady validates asset properties while grasping tests the whole scene](https://adanman.github.io/frontier-wire/e/2026-11-14/03-simready-task-validation.html) — NVIDIA describes a constrained pick-and-place example without establishing reliability on physical hardware.
 - [Google Search gains Gemini 4 Hydrogen](https://adanman.github.io/frontier-wire/e/2026-11-13/01-hydrogen-search.html) — The announcement targets complex questions, while individual answers still need verification.
 - [ISS crew prepares Dragon to return research samples](https://adanman.github.io/frontier-wire/e/2026-11-13/02-dragon-return-preparations.html) — NASA describes cargo packing and suit maintenance, with spacecraft departure still ahead.
 - [Navajo Reservoir rises sharply after autumn rains](https://adanman.github.io/frontier-wire/e/2026-11-13/03-navajo-reservoir-rise.html) — Satellite views show water gains, while short-term drought relief does not erase every long-term deficit.
@@ -34,6 +37,3 @@ Publisher: Danila Katalshov — https://adanman.github.io
 - [ASUS announces a compact external Radeon with 16GB of memory](https://adanman.github.io/frontier-wire/e/2026-11-08/04-asus-usb4-graphics.html) — XG Core connects through USB4, with host and application compatibility requiring separate checks.
 - [IBM brings Quantum System Two online at a Chicago laboratory](https://adanman.github.io/frontier-wire/e/2026-11-08/05-ibm-chicago-quantum-system.html) — The system is operating at Hyde Park Labs, while relocation to IQMP remains a future step.
 - [NASA opens a $1 million lunar student design challenge](https://adanman.github.io/frontier-wire/e/2026-11-08/06-moon-base-student-challenge.html) — Registration runs to January 25, while a concept competition remains distinct from ordering flight hardware.
-- [AST SpaceMobile plans its own Blacklift launcher](https://adanman.github.io/frontier-wire/e/2026-11-08/07-blacklift-development-plan.html) — The November 6 primary release describes future development using Firefly engines, with launch still ahead.
-- [Today’s APOD revisits a European fireball from 2017](https://adanman.github.io/frontier-wire/e/2026-11-08/08-apod-fireball-observation.html) — The image appears on November 8, 2026, without reporting a new fall.
-- [BioBasicsBench tests when laboratory evidence cannot support an answer](https://adanman.github.io/frontier-wire/e/2026-11-07/01-biobasicsbench-lab-evidence.html) — OpenAI introduced 100 tasks, while analysis scores remain distinct from readiness for independent laboratory work.

@@ -10,14 +10,11 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №55 / Edition №55 — 2026-11-13** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-13/)
+**Выпуск №56 / Edition №56 — 2026-11-14** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-14/)
 
-- **[ИИ и технологии]** [Google Search получает Gemini 4 Hydrogen](editions/2026/11-13/01-hydrogen-search.md)
-- **[Наука]** [Экипаж МКС готовит Dragon к возвращению научных образцов](editions/2026/11-13/02-dragon-return-preparations.md)
-- **[Наука]** [Navajo Reservoir резко выросло после осенних дождей](editions/2026/11-13/03-navajo-reservoir-rise.md)
-- **[ИИ и технологии]** [llama.cpp 1.0.0 делает несовместимость библиотек заметнее](editions/2026/11-13/04-llama-library-versioning.md)
-- **[ИИ и технологии]** [LLMON размечает, где инструкция, а где данные](editions/2026/11-13/05-llmon-structured-context.md)
-- **[Наука]** [Мангры восстанавливаются глобально, но потери по регионам остаются](editions/2026/11-13/06-mangrove-rebound.md)
+- **[Наука]** [Приборы Roman выровнены, следующий этап — управление светом](editions/2026/11-14/01-roman-instrument-alignment.md)
+- **[ИИ и технологии]** [XYBench проверяет, помогает ли ответ решить исходную проблему](editions/2026/11-14/02-xybench-underlying-goals.md)
+- **[ИИ и технологии]** [SimReady проверяет свойства модели, а захват — всю сцену](editions/2026/11-14/03-simready-task-validation.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)

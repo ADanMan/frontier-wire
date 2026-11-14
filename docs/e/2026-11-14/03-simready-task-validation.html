@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SimReady проверяет свойства модели, а захват — всю сцену - frontier-wire</title>
+<meta name="description" content="NVIDIA describes a constrained pick-and-place example without establishing reliability on physical hardware.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-14/03-simready-task-validation.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "SimReady validates asset properties while grasping tests the whole scene", "alternativeHeadline": "SimReady проверяет свойства модели, а захват — всю сцену", "datePublished": "2026-11-14", "inLanguage": ["ru", "en"], "isBasedOn": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-14/03-simready-task-validation.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-11-14 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">SimReady проверяет свойства модели, а захват — всю сцену</span><span class="lang-en">SimReady validates asset properties while grasping tests the whole scene</span></h1>
+  <p class="dek big"><span class="lang-ru">NVIDIA описала ограниченный сценарий pick-and-place; он не устанавливает надёжность на реальном оборудовании.</span><span class="lang-en">NVIDIA describes a constrained pick-and-place example without establishing reliability on physical hardware.</span></p>
+
+  <div class="prose lang-ru"><p>NVIDIA 13 ноября <a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">опубликовала пример pick-and-place с SimReady</a>. В Isaac Sim объединяются рука UR17G, захват Robotiq 2F-140 и банка. Авторы разделяют проверку свойств отдельных моделей и испытание собранной сцены. Положение предмета известно, движения заданы, зрение не используется; вывод о надёжности реального робота не заявлен. Редакция не запускала сценарий. Это учебный пример работы с подготовленными активами, а не самостоятельная демонстрация универсального манипулятора, способного справляться с любыми предметами и неизвестными условиями.</p>
+<p>Общий смысл различия можно разобрать на самостоятельном условном примере. У двух компонентов корректно описаны размеры и точки соединения. По отдельности они проходят проверку, но после объединения движение может оказаться неподходящим для задачи. Причина будет не обязательно в одном файле: значение имеют расположение объектов, управление и последовательность действий. Это редакционная иллюстрация интеграции, не дополнительный дефект опубликованных активов. Она показывает, почему проверка свойств полезна, но не заменяет наблюдение за поведением всей системы в заданной сцене.</p>
+<p>Для содержательного испытания важно заранее описать успех. Предмет должен оказаться в нужном месте, а не просто на мгновение подняться над поверхностью. В условном пилоте полезно различать подход, захват, перенос и освобождение: тогда видно, где именно последовательность перестала соответствовать ожиданию. Один итоговый флаг «готово» скрывает эти различия. Мы не добавляем к примеру собственные измерения или требования производителя. Речь о том, как сделать результат наблюдаемым и объяснимым, чтобы успешный кадр не подменял оценку всего действия от начала до конца.</p>
+<p>Повторяемость условий тоже имеет значение. Если после неудачи одновременно изменить положение предмета, настройки и траекторию, станет трудно понять, что помогло. В самостоятельном сравнении стоит сохранять исходное состояние и менять один существенный фактор за раз. Это общий способ разбирать поведение, а не инструкция проводить испытания на физическом роботе. Виртуальная сцена позволяет задавать контролируемые случаи, но её результаты должны оставаться привязанными к принятой модели, а не автоматически распространяться на среду, где действуют другие материалы, нагрузки и ограничения.</p>
+<p>Есть и вопрос о переносе. Для настоящей установки понадобятся отдельные сведения о рабочем пространстве, оборудовании и допустимых действиях. Их нельзя получить только из просмотра ролика. Даже совпадающие названия компонентов не устанавливают совпадение всех условий. Поэтому полезно явно записывать, что моделируется, что упрощено и что вообще не проверялось. Это делает пример пригоднее для дальнейшего исследования: следующий участник понимает границы опыта и может поставить новый вопрос, вместо того чтобы считать отсутствующие сведения подтверждением универсальной работоспособности всей предлагаемой схемы.</p>
+<h3>Почему это важно</h3>
+<p>Подготовленные модели экономят часть работы, но результат задачи зависит от всей сцены и управления. Новость показывает полезное разделение уровней проверки. Для читателя важнее увидеть условия и критерии успеха, чем принять удачный виртуальный перенос за готовность произвольной робототехнической системы к работе в реальном мире.</p></div>
+  <div class="prose lang-en"><p>NVIDIA <a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">published a SimReady pick-and-place example on November 13</a>. It combines a UR17G arm, Robotiq 2F-140 gripper and can in Isaac Sim, distinguishing asset-property validation from testing the assembled scene. Object position is known, movement is scripted and vision is absent; physical-robot robustness is not established. We have not run the example. This is a tutorial using prepared assets, rather than an independent demonstration of a universal manipulator handling arbitrary objects under unknown conditions.</p>
+<p>An independent hypothetical example explains the distinction. Two components have correctly described dimensions and connection points. Each passes individual checks, but their combination may still move in a way unsuitable for the task. The cause need not lie in either file alone: object placement, control and action sequence matter too. This is an editorial illustration of integration, not another defect identified in the released assets. It shows why validating properties is useful while remaining different from observing whole-system behaviour in a specified scene.</p>
+<p>A meaningful assessment should define success beforehand. An object needs to reach the intended destination rather than merely rise above a surface momentarily. A hypothetical pilot could distinguish approach, grasp, transfer and release, making departures from expected behaviour easier to locate. One completed flag conceals those differences. We add no measurements or manufacturer requirements to the announced example. The question is how to make the result observable and interpretable so that one successful frame does not substitute for checking an action from beginning to end.</p>
+<p>Reproducible conditions also matter. After a failure, changing object position, settings and trajectory together would make it difficult to identify the effective correction. An independent comparison benefits from retaining the starting state and varying one important factor at a time. That is a general method for examining behaviour, not a procedure for physical-robot testing. A virtual scene supports controlled cases, while its findings remain tied to the chosen model rather than automatically extending to an environment with different materials, loads and operational constraints that have not been examined.</p>
+<p>Transfer introduces further questions. A physical installation needs separate information about workspace, equipment and permitted actions, which cannot be obtained from watching a video alone. Matching component names do not establish that every relevant condition is identical. Explicitly recording what is modelled, simplified or untested makes an example more useful for further investigation. Another participant can then understand its boundaries and ask a new question instead of treating missing information as evidence of universal capability. The distinction supports learning from a demonstration without inflating what it proves.</p>
+<h3>Why it matters</h3>
+<p>Prepared assets reduce part of the setup work, but task outcomes depend on the whole scene and controller. The example highlights different validation levels. Readers benefit more from explicit conditions and success criteria than from interpreting a successful virtual transfer as readiness of an arbitrary robotic system for real-world operation.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

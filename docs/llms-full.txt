@@ -2,6 +2,122 @@
 
 
 
+===== EDITION 56 — 2026-11-14 =====
+
+## От редакции
+
+Три утренних материала — о точности постановки и проверки задачи. Roman завершил выравнивание приборов, XYBench исследует помощь при ошибочном подходе, а SimReady показывает разницу между свойствами модели и поведением всей сцены. Сохраняем реальные даты источников и границы каждого результата.
+
+## Editorial
+
+Three morning stories concern defining and checking a task precisely. Roman completes instrument alignment, XYBench examines assistance with mistaken approaches, and SimReady distinguishes asset properties from whole-scene behaviour. Source dates and the boundaries of each result remain explicit.
+
+
+----- 01-roman-instrument-alignment (science) — source: https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/ -----
+
+## Русская версия
+
+NASA 13 ноября [сообщило о точном выравнивании приборов Roman](https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/). Это новый этап настройки обсерватории, отдельный от ранее описанной галереи линз Hubble для будущих исследований. Команда уточнила взаимное положение оптики и инструментов после запуска. Сообщение не означает, что все испытания завершены или что каждый намеченный научный результат уже получен. Важно сохранить конкретный масштаб новости: подтверждена необходимая подготовительная работа, после которой предстоят следующие операции с системой и наблюдения, проверяющие её возможности.
+
+На Земле оптику уже выравнивали, но вибрации запуска, изменение температуры и отсутствие привычной гравитационной нагрузки могут вызывать небольшие смещения. Поэтому команда проводила тестовые наблюдения и уточняла внутреннюю карту телескопа. Исследователи сравнивали ожидаемые положения звёзд с тем, где они действительно оказались на изображениях. Разница позволяла корректировать дальнейшее наведение. Это не просто получение красивого кадра: прибор должен знать, как связать положение объекта на небе с конкретным местом на детекторе и как удерживать эту связь во время наблюдения.
+
+Wide Field Instrument содержит 18 детекторов и выполняет сразу две роли. Он собирает основные широкопольные данные и следит за опорными звёздами для наведения и удержания телескопа. Даже когда коронограф изучает соседнюю звезду, этот инструмент может наблюдать другой участок неба и помогать сохранять устойчивость. NASA отмечает возможность получить дополнительные глубокие поля параллельно коронографическим наблюдениям. Это ожидаемый полезный результат такого режима, а не объявление уже опубликованного обзора со всеми проверенными характеристиками и готовыми выводами о населении галактик.
+
+Коронограф должен подавлять яркий свет звезды, чтобы увидеть гораздо более слабые сигналы рядом с ней. Для этого используются маски и другие оптические элементы. Команда меняла положение вторичного зеркала, небольшого связующего зеркала и компонентов самого прибора. Но геометрическое выравнивание — первый шаг. Следующим этапом предстоит задействовать более трёх тысяч подвижных элементов деформируемых зеркал. Они помогают изменять световую волну и последовательно убирать мешающий свет. Успех первого этапа нельзя считать автоматическим подтверждением результата следующего, более сложного процесса.
+
+Разница между лабораторией и космосом тоже сохранена в сообщении. NASA указывает, что нужные подходы демонстрировались в искусственной космической среде на Земле, а дальнейшая работа должна проверить активное управление светом в реальных условиях. Такой переход требует отдельных свидетельств. Читателю полезно спрашивать, какая операция уже выполнена, что именно измерили и что ещё только планируют. Это помогает понять смысл технического рубежа без превращения любой настройки в готовое открытие планеты или окончательное завершение всей программы ввода обсерватории в научную эксплуатацию.
+
+### Почему это важно
+
+Точность наведения связывает устройство телескопа с качеством будущих измерений. Выравнивание делает следующий этап возможным, но не подменяет его результат. Новость показывает, как научная готовность складывается из последовательных проверок, где каждый подтверждённый шаг отвечает на свой вопрос и оставляет другие задачи открытыми до следующих наблюдений.
+
+## English version
+
+NASA [reported precise alignment of Roman's instruments on November 13](https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/). This is a new commissioning milestone, separate from the previously covered Hubble lens gallery supporting future research. The team refined the relationship between optics and instruments after launch. It does not mean every test is finished or every intended scientific result has been obtained. The development has a specific scope: necessary preparation is complete, while further system operations and observations remain to establish subsequent capabilities.
+
+The optics were aligned on Earth, but launch vibration, temperature changes and the absence of familiar gravitational loading can produce small shifts. The team therefore conducted test observations to refine the telescope's internal map. Scientists compared expected star positions with actual locations in the images, using the differences to adjust future pointing. This involves more than obtaining an attractive frame. The instrument must relate a location in the sky to a particular detector position and preserve that relationship throughout an observation, despite tiny drifts requiring correction.
+
+The Wide Field Instrument contains eighteen detectors and serves two roles. It collects primary wide-field observations and tracks guide stars to support pointing and stability. Even while the coronagraph studies a nearby star, the wide-field instrument can watch another patch of sky and help keep the observatory steady. NASA describes the opportunity to acquire additional deep fields alongside coronagraph observations. That is an anticipated benefit of the operating mode, not an announcement that a completed survey with fully checked characteristics and galaxy-population conclusions has already been published.
+
+The coronagraph must suppress bright starlight to reveal much fainter nearby signals. Masks and other optical components contribute to that process. The team adjusted the secondary mirror, a smaller connecting mirror and elements within the instrument. Geometrical alignment is nevertheless only an initial step. Next comes exercising more than three thousand moving elements in its deformable mirrors, which manipulate the light wave to progressively reject interfering starlight. Completing the first stage cannot automatically establish success in the next, more complex process or guarantee its eventual scientific yield.
+
+The announcement also preserves the distinction between laboratory and space conditions. NASA says the approach has been demonstrated in an artificial space environment on Earth, while subsequent work will test active starlight control under actual conditions. That transition requires its own evidence. Readers can ask which operation is complete, what was measured and what remains planned. Those questions give a technical milestone meaning without turning every adjustment into a planet discovery or treating a single completed step as the end of an observatory's entire commissioning programme.
+
+### Why it matters
+
+Pointing accuracy connects telescope engineering with the quality of future measurements. Alignment enables the next stage without substituting for its outcome. The announcement shows scientific readiness emerging through successive checks, each answering a particular question while leaving other tasks open until further observations establish their results.
+
+
+----- 02-xybench-underlying-goals (ai) — source: https://huggingface.co/blog/allenai/xybench -----
+
+## Русская версия
+
+Ai2 13 ноября [представил XYBench](https://huggingface.co/blog/allenai/xybench) — оценку того, как помощники отвечают на вопросы, основанные на неверном выборе подхода. Набор включает 8115 примеров. Авторы отдельно рассматривают наличие полезного решения и то, насколько ответ действительно сосредоточен на цели пользователя. Текущее покрытие — английские, преимущественно процедурные вопросы. Редакция не воспроизводила эксперименты. Это исследовательский инструмент для определённой проблемы, а не доказательство, что любому помощнику следует заменять явно сформулированное поручение собственной догадкой о том, чего человек на самом деле хочет.
+
+Самостоятельный условный пример показывает, почему различие полезно. Пользователь просит увеличить размер файла, потому что не может отправить его через форму. Настоящая причина может оказаться совсем иной, но из одной короткой фразы её нельзя уверенно установить. Хороший ответ должен сначала разобраться в наблюдаемом затруднении. Это редакционная иллюстрация, не случай из опубликованного набора. Она также показывает предел: предположение о цели не становится разрешением менять данные или выполнять действия, которые человек не поручал и которые могут оказаться неуместными.
+
+Есть разница между упоминанием альтернативы и её понятным объяснением. В условном ответе можно перечислить десять способов выполнить буквально запрошенное действие, а полезную проверку оставить одной строкой в конце. Формально нужная мысль присутствует, но читатель может её не заметить. Поэтому при оценке полезно рассматривать не только список советов, но и порядок, ясность и связь с описанным симптомом. Это не дополнительные измеренные результаты Ai2, а способ объяснить, почему наличие отдельной правильной фразы ещё не описывает всю полезность ответа.
+
+Для собственного сравнения стоит заранее записать, какие сведения доступны помощнику и какие выводы из них действительно следуют. Если оценщик знает скрытую причину, а в вопросе нет достаточного контекста, он может несправедливо ожидать уверенного диагноза. Полезнее различать обоснованное уточнение, осторожное предположение и прямой вывод. Такая схема не утверждает, что опубликованный набор содержит именно этот недостаток. Она даёт читателю вопросы к любому подобному тесту, чтобы оценка способности помогать не превращалась в награду за самоуверенное угадывание невысказанных обстоятельств.
+
+Наконец, задача пользователя может быть вполне осознанной. Даже необычный способ не обязательно ошибочен: ограничения проекта иногда неизвестны внешнему наблюдателю. В условном рабочем процессе помощник может предложить объяснение и альтернативу, сохраняя выбор за человеком. Для практической пользы важно не просто возражать, а показать, какое наблюдение вызывает сомнение и какое уточнение его снимет. Это редакционный принцип работы с неопределённостью, а не универсальная инструкция менять каждую просьбу или навязывать собственный вариант решения независимо от контекста и явных предпочтений пользователя.
+
+### Почему это важно
+
+Полезность ответа шире буквального выполнения выбранного способа, но требует уважения к цели и условиям пользователя. XYBench делает это различие предметом оценки. Применять выводы стоит в пределах изученного языка и типа задач, отдельно проверяя способность уточнять ситуацию, объяснять альтернативу и сохранять понятную связь с исходной проблемой.
+
+## English version
+
+Ai2 [introduced XYBench on November 13](https://huggingface.co/blog/allenai/xybench), assessing how assistants respond when a question rests on a mistaken approach. It contains 8,115 examples and separately considers whether an answer includes a useful solution and whether it actually focuses on the user's goal. Current coverage concerns English, mainly procedural questions. We have not reproduced the experiments. This is a research instrument for a particular problem, not evidence that assistants should replace every explicit assignment with their own guess about what a person really wants.
+
+An independent hypothetical example illustrates the distinction. Someone asks how to enlarge a file because a form will not accept it. The cause might be different from their assumption, but one short sentence cannot establish that confidently. A useful response should first understand the observed difficulty. This is our illustration, not an example from the published collection. It also reveals a boundary: inferred intent does not authorise changing data or performing unrequested actions that might be inappropriate. Clarification and explanation remain different from permission to act.
+
+Mentioning an alternative and explaining it clearly are also different achievements. A hypothetical answer could list ten ways to perform the literal request while leaving a useful diagnostic check as one sentence at the end. The relevant idea would technically appear, yet the reader might miss it. Evaluation can therefore examine order, clarity and connection to the described symptom alongside the inventory of advice. These are explanatory considerations, not additional Ai2 measurements. They show why one correct phrase does not by itself describe the usefulness of the entire response.
+
+A local comparison should record which information the assistant receives and which conclusions that evidence supports. If an evaluator knows a hidden cause absent from the question, it might unfairly expect a confident diagnosis. It is more useful to distinguish justified clarification, tentative interpretation and a direct conclusion. This does not assert that the released benchmark has that defect. It supplies questions for interpreting any such test, so assessment of helpfulness does not accidentally reward confident guessing about unstated circumstances or treat uncertainty as an automatic failure.
+
+Finally, users may deliberately choose unusual methods. Project constraints can be unknown to an outside observer, making an apparently inefficient approach reasonable. In a hypothetical workflow, an assistant can explain its concern and offer an alternative while preserving the person's choice. Practical value comes from identifying the observation prompting doubt and what clarification would resolve it. That is an editorial principle for handling uncertainty, not a universal instruction to rewrite requests or insist on a preferred solution regardless of context, explicit preferences or the user's authority over their own task.
+
+### Why it matters
+
+Helpful answers can go beyond literal execution of a selected method while respecting the user's goals and conditions. XYBench makes that distinction measurable. Conclusions should remain within the studied language and task types, with separate attention to clarification, explanation of alternatives and a clear relationship to the underlying problem rather than confident reinterpretation alone.
+
+
+----- 03-simready-task-validation (tech) — source: https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place -----
+
+## Русская версия
+
+NVIDIA 13 ноября [опубликовала пример pick-and-place с SimReady](https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place). В Isaac Sim объединяются рука UR17G, захват Robotiq 2F-140 и банка. Авторы разделяют проверку свойств отдельных моделей и испытание собранной сцены. Положение предмета известно, движения заданы, зрение не используется; вывод о надёжности реального робота не заявлен. Редакция не запускала сценарий. Это учебный пример работы с подготовленными активами, а не самостоятельная демонстрация универсального манипулятора, способного справляться с любыми предметами и неизвестными условиями.
+
+Общий смысл различия можно разобрать на самостоятельном условном примере. У двух компонентов корректно описаны размеры и точки соединения. По отдельности они проходят проверку, но после объединения движение может оказаться неподходящим для задачи. Причина будет не обязательно в одном файле: значение имеют расположение объектов, управление и последовательность действий. Это редакционная иллюстрация интеграции, не дополнительный дефект опубликованных активов. Она показывает, почему проверка свойств полезна, но не заменяет наблюдение за поведением всей системы в заданной сцене.
+
+Для содержательного испытания важно заранее описать успех. Предмет должен оказаться в нужном месте, а не просто на мгновение подняться над поверхностью. В условном пилоте полезно различать подход, захват, перенос и освобождение: тогда видно, где именно последовательность перестала соответствовать ожиданию. Один итоговый флаг «готово» скрывает эти различия. Мы не добавляем к примеру собственные измерения или требования производителя. Речь о том, как сделать результат наблюдаемым и объяснимым, чтобы успешный кадр не подменял оценку всего действия от начала до конца.
+
+Повторяемость условий тоже имеет значение. Если после неудачи одновременно изменить положение предмета, настройки и траекторию, станет трудно понять, что помогло. В самостоятельном сравнении стоит сохранять исходное состояние и менять один существенный фактор за раз. Это общий способ разбирать поведение, а не инструкция проводить испытания на физическом роботе. Виртуальная сцена позволяет задавать контролируемые случаи, но её результаты должны оставаться привязанными к принятой модели, а не автоматически распространяться на среду, где действуют другие материалы, нагрузки и ограничения.
+
+Есть и вопрос о переносе. Для настоящей установки понадобятся отдельные сведения о рабочем пространстве, оборудовании и допустимых действиях. Их нельзя получить только из просмотра ролика. Даже совпадающие названия компонентов не устанавливают совпадение всех условий. Поэтому полезно явно записывать, что моделируется, что упрощено и что вообще не проверялось. Это делает пример пригоднее для дальнейшего исследования: следующий участник понимает границы опыта и может поставить новый вопрос, вместо того чтобы считать отсутствующие сведения подтверждением универсальной работоспособности всей предлагаемой схемы.
+
+### Почему это важно
+
+Подготовленные модели экономят часть работы, но результат задачи зависит от всей сцены и управления. Новость показывает полезное разделение уровней проверки. Для читателя важнее увидеть условия и критерии успеха, чем принять удачный виртуальный перенос за готовность произвольной робототехнической системы к работе в реальном мире.
+
+## English version
+
+NVIDIA [published a SimReady pick-and-place example on November 13](https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place). It combines a UR17G arm, Robotiq 2F-140 gripper and can in Isaac Sim, distinguishing asset-property validation from testing the assembled scene. Object position is known, movement is scripted and vision is absent; physical-robot robustness is not established. We have not run the example. This is a tutorial using prepared assets, rather than an independent demonstration of a universal manipulator handling arbitrary objects under unknown conditions.
+
+An independent hypothetical example explains the distinction. Two components have correctly described dimensions and connection points. Each passes individual checks, but their combination may still move in a way unsuitable for the task. The cause need not lie in either file alone: object placement, control and action sequence matter too. This is an editorial illustration of integration, not another defect identified in the released assets. It shows why validating properties is useful while remaining different from observing whole-system behaviour in a specified scene.
+
+A meaningful assessment should define success beforehand. An object needs to reach the intended destination rather than merely rise above a surface momentarily. A hypothetical pilot could distinguish approach, grasp, transfer and release, making departures from expected behaviour easier to locate. One completed flag conceals those differences. We add no measurements or manufacturer requirements to the announced example. The question is how to make the result observable and interpretable so that one successful frame does not substitute for checking an action from beginning to end.
+
+Reproducible conditions also matter. After a failure, changing object position, settings and trajectory together would make it difficult to identify the effective correction. An independent comparison benefits from retaining the starting state and varying one important factor at a time. That is a general method for examining behaviour, not a procedure for physical-robot testing. A virtual scene supports controlled cases, while its findings remain tied to the chosen model rather than automatically extending to an environment with different materials, loads and operational constraints that have not been examined.
+
+Transfer introduces further questions. A physical installation needs separate information about workspace, equipment and permitted actions, which cannot be obtained from watching a video alone. Matching component names do not establish that every relevant condition is identical. Explicitly recording what is modelled, simplified or untested makes an example more useful for further investigation. Another participant can then understand its boundaries and ask a new question instead of treating missing information as evidence of universal capability. The distinction supports learning from a demonstration without inflating what it proves.
+
+### Why it matters
+
+Prepared assets reduce part of the setup work, but task outcomes depend on the whole scene and controller. The example highlights different validation levels. Readers benefit more from explicit conditions and success criteria than from interpreting a successful virtual transfer as readiness of an arbitrary robotic system for real-world operation.
+
+
 ===== EDITION 55 — 2026-11-13 =====
 
 ## От редакции

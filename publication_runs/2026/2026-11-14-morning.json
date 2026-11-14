@@ -1,0 +1,24 @@
+{
+  "status": "ready",
+  "date": "2026-11-14",
+  "slot": "morning",
+  "checked_at": "2026-11-14T04:01:05.670907+00:00",
+  "digest_sha256": "4bb8e6eea1a27133d6fe5e05fa8a2a1457a5c8579f30279e6f5b5d4df8ab95e6",
+  "articles": [
+    {
+      "path": "editions/2026/11-14/01-roman-instrument-alignment.md",
+      "sha256": "7c2fa5e58f7e973695cc97496c3438a04d8d411cf98092f2dc24b9f4ad7cf9e5",
+      "source": "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science"
+    },
+    {
+      "path": "editions/2026/11-14/02-xybench-underlying-goals.md",
+      "sha256": "2a37f5dc3fa6e303878e421a60e0c94ffac04b46c141d1531edeb489eaad7dd7",
+      "source": "https://huggingface.co/blog/allenai/xybench"
+    },
+    {
+      "path": "editions/2026/11-14/03-simready-task-validation.md",
+      "sha256": "3bfb597ba19fde924914b31bcf14f2659542b0fd8cf7e9ad41ff37f206f456a9",
+      "source": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+    }
+  ]
+}
