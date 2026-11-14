@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "date": "2026-11-14",
+  "slot": "evening",
+  "checked_at": "2026-11-14T16:08:55.586711+00:00",
+  "digest_sha256": "c2cab94280ec2a92a3c1bbcbb023be7cdfe2de0f6935f77188a114f4dbcd6de8",
+  "articles": [
+    {
+      "path": "editions/2026/11-14/04-wallet-purchase-approval.md",
+      "sha256": "bc3f916414ca784102dbf7af809883c8e9065d805e6c3df3ef9328cf90b9302c",
+      "source": "https://openai.com/index/introducing-chatgpt-wallet"
+    },
+    {
+      "path": "editions/2026/11-14/05-apollo-surveyor-stereo.md",
+      "sha256": "46f77271df0c456ca82c0a0c541bf80bb2a5da24f40a59cc772051f997883b7c",
+      "source": "https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3"
+    }
+  ]
+}

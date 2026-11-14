@@ -6,11 +6,11 @@
 
 ## От редакции
 
-Три утренних материала — о точности постановки и проверки задачи. Roman завершил выравнивание приборов, XYBench исследует помощь при ошибочном подходе, а SimReady показывает разницу между свойствами модели и поведением всей сцены. Сохраняем реальные даты источников и границы каждого результата.
+Пять материалов дня — о постановке задач, проверке результата и контексте. К утренним Roman, XYBench и SimReady добавились ChatGPT Wallet с подтверждением покупок и сегодняшний APOD об Apollo 12. Сохраняем ограничения запуска продукта и различаем историческое событие, исходные кадры и их современное представление.
 
 ## Editorial
 
-Three morning stories concern defining and checking a task precisely. Roman completes instrument alignment, XYBench examines assistance with mistaken approaches, and SimReady distinguishes asset properties from whole-scene behaviour. Source dates and the boundaries of each result remain explicit.
+Five stories concern tasks, evidence and context. The morning's Roman, XYBench and SimReady reports are joined by ChatGPT Wallet's purchase approvals and today's Apollo 12 APOD. Product rollout limits remain explicit, with historical events, original frames and their current presentation kept distinct.
 
 
 ----- 01-roman-instrument-alignment (science) — source: https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/ -----
@@ -116,6 +116,76 @@ Transfer introduces further questions. A physical installation needs separate in
 ### Why it matters
 
 Prepared assets reduce part of the setup work, but task outcomes depend on the whole scene and controller. The example highlights different validation levels. Readers benefit more from explicit conditions and success criteria than from interpreting a successful virtual transfer as readiness of an arbitrary robotic system for real-world operation.
+
+
+----- 04-wallet-purchase-approval (tech) — source: https://openai.com/index/introducing-chatgpt-wallet/ -----
+
+## Русская версия
+
+OpenAI 13 ноября [представила ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet/). Первоначальный запуск через dots предназначен для пользователей ChatGPT Pro старше 18 лет в США с подходящими американскими картами. Перед каждой покупкой требуется проверка безопасности и одобрение пользователя; агент получает платёжный токен вместо настоящих реквизитов карты. Это описание поставщика, а не независимая проверка редакции. Мы не подключали карты и не совершали покупки. Более полная делегация с заранее заданными ограничениями описана как будущее направление, а не уже доступный режим без подтверждений.
+
+Практический вопрос можно разобрать на самостоятельном условном примере. Помощник нашёл нужную вещь, но перед оплатой изменились количество или условия доставки. Хорошее подтверждение должно относиться к тому варианту, который действительно будет приобретён. Общая просьба найти товар и согласие на конкретную операцию отвечают на разные вопросы. Это редакционная иллюстрация, не обнаруженный нами недостаток нового продукта. Она объясняет, почему путь от сравнения предложений до оплаты нужно рассматривать по этапам, сохраняя понятную связь между выбором человека и выполняемым действием.
+
+Отдельное значение имеет итоговая сумма. В условной покупке цена позиции может не совпадать с полной стоимостью после доставки и других условий. Поэтому удобство разговора не должно скрывать то, что пользователь проверяет перед решением. Здесь не требуется заранее считать конкретный интерфейс ненадёжным: требуется видеть, какие сведения подтверждаются и какой результат относится к этому подтверждению. Мы не добавляем к анонсу неподтверждённые тарифы, комиссии или правила банков и не переносим общий рассказ о продукте на каждую возможную карту и магазин.
+
+Есть и различие между передачей платежа и выполнением заказа. Даже успешная операция не означает, что товар уже доставлен или соответствует ожиданиям. В нашем условном примере полезно сохранять описание выбранного варианта и запись результата, чтобы впоследствии можно было понять, что произошло. Это общий принцип прослеживаемости, а не юридический совет о конкретном споре. Условия возврата и обслуживания требуют своих источников; их нельзя угадывать по названию кошелька или считать одинаковыми для всех продавцов только потому, что оплата инициирована через один интерфейс.
+
+Ограниченный запуск также следует отличать от универсальной доступности. Если продукт объявлен в определённом регионе и для определённой группы, это не означает, что он уже работает для любого читателя. Для оценки новостей полезно сохранять эти условия рядом с основной возможностью. Иначе короткий пересказ расширит обещание сильнее, чем исходный текст. Будущие изменения можно рассматривать по следующим объявлениям, не превращая намерение расширить делегирование в основание считать сегодняшнюю систему способной самостоятельно выполнять любые финансовые действия или распоряжаться всеми средствами человека.
+
+### Почему это важно
+
+Агентная покупка требует понятной границы между поиском, выбором и разрешённой оплатой. Новый продукт делает эту границу частью интерфейса. Практическую полезность стоит оценивать по ясности подтверждения и соответствию результата выбранному варианту, сохраняя региональные ограничения и не подменяя будущими планами текущие возможности запуска.
+
+## English version
+
+OpenAI [introduced ChatGPT Wallet on November 13](https://openai.com/index/introducing-chatgpt-wallet/). Initial rollout through dots is for ChatGPT Pro subscribers aged eighteen and over in the US with eligible US-issued cards. Each purchase requires a security check and user approval, while agents receive a payment token rather than actual card details. This is the provider's account, not our independent test. We have neither linked cards nor made purchases. Fuller delegation within preset limits is described as a future direction rather than an already available confirmation-free mode.
+
+An independent hypothetical example illustrates the practical question. An assistant finds an item, but quantity or delivery conditions change before payment. Meaningful approval needs to concern what will actually be purchased. A general request to find something and consent to a specific transaction answer different questions. This is an editorial illustration, not a flaw we discovered in the new product. It explains why comparison and payment should be examined as separate stages, retaining a clear relationship between the person's choice and the operation performed on their behalf.
+
+The total deserves separate attention. In a hypothetical purchase, an item's listed price may differ from the full amount after delivery and other conditions. Conversational convenience should not conceal what someone is reviewing before deciding. That does not require assuming a particular interface is unreliable; it requires understanding which details are approved and which outcome belongs to that approval. We add no unverified fees, tariffs or bank rules, and do not extend a general product announcement to every possible card and merchant regardless of the eligibility conditions stated by its provider.
+
+Payment and order fulfilment are also distinct. A successful transaction does not establish that an item has arrived or meets expectations. In our hypothetical example, preserving the selected configuration and outcome would help reconstruct what happened later. This is a general traceability consideration rather than legal advice about a dispute. Returns and servicing conditions need their own sources. They cannot be inferred from a wallet's name or assumed identical across sellers merely because payments began through the same interface. Different stages require evidence appropriate to the claim being made.
+
+A limited rollout should likewise remain distinct from universal availability. Announcing a product for a particular region and group does not mean every reader can already use it. Retaining those conditions beside the principal feature prevents a short summary from expanding the promise beyond its source. Future changes can be assessed through subsequent announcements. An intention to expand delegation is not grounds for describing today's system as authorised to perform arbitrary financial actions or control all of a person's money. Scope and availability remain substantive parts of the announcement.
+
+### Why it matters
+
+Agentic shopping needs a comprehensible boundary between discovery, selection and authorised payment. The product makes that boundary part of its interface. Practical value should be judged through clarity of approval and correspondence between the selected option and outcome, retaining regional limits and distinguishing future plans from present capabilities.
+
+
+----- 05-apollo-surveyor-stereo (culture) — source: https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/ -----
+
+## Русская версия
+
+В [APOD за 14 ноября](https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/) NASA показывает стереоскопическую сцену с Apollo 12 и Surveyor 3. На ней Pete Conrad посещает роботизированный аппарат в ноябре 1969 года. Сам Surveyor 3 опустился на внутренний склон небольшого кратера в апреле 1967 года, примерно двумя с половиной годами ранее. Сегодняшняя дата относится к публикации изображения. Это не новое посещение Луны и не сообщение, что аппарат работает в нынешней программе; историческое событие и его современное представление нужно читать отдельно.
+
+Стереоизображение собрано из двух кадров, снятых на поверхности Луны: AS12-48-7133 и AS12-48-7134. Их точки обзора немного различаются, приблизительно воспроизводя расстояние между глазами. Для просмотра анаглифа источник предлагает красно-синие очки. Такая форма представления помогает увидеть пространственные отношения, но не превращает обработанное изображение в отдельную новую съёмку. Важно знать, какие исходные материалы использовались и как они связаны. Тогда художественно и технически подготовленная сцена сохраняет документальное происхождение, а не воспринимается как один необработанный снимок без истории подготовки.
+
+На горизонте за дальней стенкой кратера виден лунный модуль Intrepid. По пояснению NASA, он сел менее чем в двухстах метрах от Surveyor 3. Эта величина придаёт сцене масштаб и объясняет возможность пешего посещения аппарата. Но по одному изображению не следует самостоятельно вычислять все расстояния или наклоны поверхности. Источник даёт конкретный контекст, а более подробная реконструкция потребовала бы других сведений. Редакция не проводила таких измерений и не приписывает точность геометрической модели тому, что здесь опубликовано как иллюстрация дня.
+
+Полезно различать три даты: посадку роботизированной станции, посещение её астронавтом и нынешнюю публикацию. Если убрать эту последовательность, кадр можно прочитать неверно. В самостоятельном условном примере старая фотография техники рядом с человеком могла бы выглядеть как сегодняшняя демонстрация совместной работы. Подпись меняет смысл: перед нами свидетельство истории, а не подтверждение текущей способности или состояния программы. Это редакционная иллюстрация работы с архивом, а не дополнительное утверждение о событии, которое отсутствует в коротком пояснении NASA и требует отдельного исследования.
+
+Авторство тоже является частью контекста. NASA указывает Apollo 12 и Alan Bean, а права на стереообработку — Kevin Frank. Саму композицию мы не копируем: её можно открыть у источника. Различие исходного кадра и последующей обработки помогает точнее описывать вклад каждого участника. Публичное размещение на сайте агентства не означает, что нужно стирать подпись или считать любую версию изображения лишённой отдельных условий использования. Для нашего пересказа достаточно ссылки и объяснения того, что показано и как устроено восприятие пространственной сцены.
+
+### Почему это важно
+
+Архивный кадр способен дать новый способ увидеть знакомое событие, сохраняя старую дату наблюдения. Сегодняшний APOD показывает, как две точки обзора создают объёмное впечатление. Читатель получает больше от изображения, когда различает историю миссии, исходные фотографии и позднейшее представление, не превращая их в новость о новом полёте.
+
+## English version
+
+NASA's [November 14 APOD](https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/) presents a stereoscopic scene of Apollo 12 and Surveyor 3. It shows Pete Conrad visiting the robotic spacecraft in November 1969. Surveyor 3 had landed on the inside slope of a small crater in April 1967, approximately two and a half years earlier. Today's date belongs to publication of the image. It is not a new lunar visit or a report that the spacecraft operates in a current programme. Historical events and their present presentation need separate interpretation.
+
+The stereo view combines two pictures taken on the lunar surface: AS12-48-7133 and AS12-48-7134. Their viewpoints differ slightly, approximating the separation between human eyes. The source suggests red-blue glasses for viewing the anaglyph. This presentation helps convey spatial relationships without becoming a new, separately acquired observation. Identifying the underlying material and its relationship preserves the scene's documentary provenance. A technically and visually prepared composition should not be mistaken for one unprocessed photograph without a history of preparation or a particular method behind its depth effect.
+
+Beyond the far crater wall, the lunar module Intrepid appears on the horizon. NASA places its landing less than two hundred metres from Surveyor 3. That figure supplies scale and context for the walking visit. One image does not support independently calculating every distance or terrain slope. The source provides particular contextual information, while a more detailed reconstruction would need further evidence. We have not performed such measurements and do not attribute a complete geometric model's accuracy to something published here as a picture of the day.
+
+Three dates therefore matter: the robotic spacecraft's landing, the astronaut's visit and current publication. Removing that sequence can change interpretation. In an independent hypothetical example, an old photograph of machinery beside a person could resemble a present demonstration of joint operations. The caption changes its meaning: it documents history rather than establishing a current capability or programme status. That is an editorial illustration of archival interpretation, not another statement about events absent from NASA's brief account or a substitute for a separate investigation of the historical mission.
+
+Credits also belong to the context. NASA identifies Apollo 12 and Alan Bean, with copyright in the stereo image credited to Kevin Frank. We do not reproduce the composition; readers can view it at the source. Distinguishing original photography from later processing helps describe each contribution accurately. Publication on an agency website is not a reason to remove attribution or assume every version has identical reuse conditions. A link and an explanation of the depicted scene and viewing method are sufficient for this account without copying the image itself.
+
+### Why it matters
+
+An archival photograph can offer a new way to see a familiar event while retaining its original observation date. Today's APOD illustrates how two viewpoints create an impression of depth. Readers gain more when mission history, source photographs and later presentation remain distinct, rather than being repackaged as news of another flight.
 
 
 ===== EDITION 55 — 2026-11-13 =====

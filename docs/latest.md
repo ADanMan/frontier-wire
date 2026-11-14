@@ -11,3 +11,11 @@ markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/
 ## SimReady validates asset properties while grasping tests the whole scene / SimReady проверяет свойства модели, а захват — всю сцену
 rubric: tech · source: https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place
 markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-14/03-simready-task-validation.md
+
+## ChatGPT Wallet links agent purchases to user approval / ChatGPT Wallet связывает покупку агента с подтверждением пользователя
+rubric: tech · source: https://openai.com/index/introducing-chatgpt-wallet/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-14/04-wallet-purchase-approval.md
+
+## Today’s APOD combines two lunar frames into a stereo scene / Сегодняшний APOD соединяет два лунных кадра в объёмную сцену
+rubric: culture · source: https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-14/05-apollo-surveyor-stereo.md

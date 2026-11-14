@@ -5,8 +5,8 @@ edition: 56
 
 ## От редакции
 
-Три утренних материала — о точности постановки и проверки задачи. Roman завершил выравнивание приборов, XYBench исследует помощь при ошибочном подходе, а SimReady показывает разницу между свойствами модели и поведением всей сцены. Сохраняем реальные даты источников и границы каждого результата.
+Пять материалов дня — о постановке задач, проверке результата и контексте. К утренним Roman, XYBench и SimReady добавились ChatGPT Wallet с подтверждением покупок и сегодняшний APOD об Apollo 12. Сохраняем ограничения запуска продукта и различаем историческое событие, исходные кадры и их современное представление.
 
 ## Editorial
 
-Three morning stories concern defining and checking a task precisely. Roman completes instrument alignment, XYBench examines assistance with mistaken approaches, and SimReady distinguishes asset properties from whole-scene behaviour. Source dates and the boundaries of each result remain explicit.
+Five stories concern tasks, evidence and context. The morning's Roman, XYBench and SimReady reports are joined by ChatGPT Wallet's purchase approvals and today's Apollo 12 APOD. Product rollout limits remain explicit, with historical events, original frames and their current presentation kept distinct.

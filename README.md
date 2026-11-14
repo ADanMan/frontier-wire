@@ -15,6 +15,8 @@
 - **[Наука]** [Приборы Roman выровнены, следующий этап — управление светом](editions/2026/11-14/01-roman-instrument-alignment.md)
 - **[ИИ и технологии]** [XYBench проверяет, помогает ли ответ решить исходную проблему](editions/2026/11-14/02-xybench-underlying-goals.md)
 - **[ИИ и технологии]** [SimReady проверяет свойства модели, а захват — всю сцену](editions/2026/11-14/03-simready-task-validation.md)
+- **[ИИ и технологии]** [ChatGPT Wallet связывает покупку агента с подтверждением пользователя](editions/2026/11-14/04-wallet-purchase-approval.md)
+- **[Культура]** [Сегодняшний APOD соединяет два лунных кадра в объёмную сцену](editions/2026/11-14/05-apollo-surveyor-stereo.md)
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
