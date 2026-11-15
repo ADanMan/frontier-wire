@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-15",
+  "slot": "evening",
+  "checked_at": "2026-11-15T16:09:15.078563+00:00",
+  "digest_sha256": "bad64874d0c66071550004911d2bc88a1bcf526cafcdec86dd97bcd8b706bd99",
+  "articles": [
+    {
+      "path": "editions/2026/11-15/01-datasette-compatibility.md",
+      "sha256": "0d1d4a51844fe9ce84d33b51bff22533a2743aa231478391d094b686edfbbccd",
+      "source": "https://simonwillison.net/2026/Nov/14/datasette-llm"
+    }
+  ]
+}

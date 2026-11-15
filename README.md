@@ -10,13 +10,10 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №56 / Edition №56 — 2026-11-14** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-14/)
+**Выпуск №57 / Edition №57 — 2026-11-15** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-15/)
 
-- **[Наука]** [Приборы Roman выровнены, следующий этап — управление светом](editions/2026/11-14/01-roman-instrument-alignment.md)
-- **[ИИ и технологии]** [XYBench проверяет, помогает ли ответ решить исходную проблему](editions/2026/11-14/02-xybench-underlying-goals.md)
-- **[ИИ и технологии]** [SimReady проверяет свойства модели, а захват — всю сцену](editions/2026/11-14/03-simready-task-validation.md)
-- **[ИИ и технологии]** [ChatGPT Wallet связывает покупку агента с подтверждением пользователя](editions/2026/11-14/04-wallet-purchase-approval.md)
-- **[Культура]** [Сегодняшний APOD соединяет два лунных кадра в объёмную сцену](editions/2026/11-14/05-apollo-surveyor-stereo.md)
+- **[Технологии]** [Datasette обновляет подключение моделей и старый плагин графиков](editions/2026/11-15/01-datasette-compatibility.md)
+
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
