@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datasette добавляет географические превью и ссылки между приложениями - frontier-wire</title>
+<meta name="description" content="Two new releases offer ways to connect data overviews with detailed views.">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="canonical" href="https://adanman.github.io/frontier-wire/e/2026-11-16/01-datasette-maps-links.html">
+<link rel="alternate" type="application/rss+xml" title="frontier-wire" href="https://adanman.github.io/frontier-wire/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Datasette adds geospatial previews and links between applications", "alternativeHeadline": "Datasette добавляет географические превью и ссылки между приложениями", "datePublished": "2026-11-16", "inLanguage": ["ru", "en"], "isBasedOn": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/", "author": {"@type": "Organization", "name": "frontier-wire (automated)", "url": "https://adanman.github.io/frontier-wire/"}, "publisher": {"@type": "Person", "name": "Danila Katalshov", "url": "https://adanman.github.io"}, "mainEntityOfPage": "https://adanman.github.io/frontier-wire/e/2026-11-16/01-datasette-maps-links.html"}</script>
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="masthead">
+  <a class="brand" href="../../index.html"><img class="logo" src="../../assets/logo.svg" alt="">FRONTIER<span>&mdash;</span>WIRE</a>
+  <nav>
+    <a href="../../archive.html" class="nav-link"><span class="lang-ru">Архив</span><span class="lang-en">Archive</span></a>
+    <a href="../../about.html" class="nav-link"><span class="lang-ru">Кухня</span><span class="lang-en">About</span></a>
+    <a href="https://github.com/ADanMan/frontier-wire" class="nav-link">GitHub</a>
+    <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </nav>
+</header>
+<main>
+<article class="article">
+  <p class="kicker"><span class="badge"><span class="lang-ru">Технологии</span><span class="lang-en">Tech</span></span> &middot; 2026-11-16 &middot; <a href="index.html"><span class="lang-ru">весь выпуск</span><span class="lang-en">full edition</span></a></p>
+  <h1><span class="lang-ru">Datasette добавляет географические превью и ссылки между приложениями</span><span class="lang-en">Datasette adds geospatial previews and links between applications</span></h1>
+  <p class="dek big"><span class="lang-ru">Два новых релиза соединяют обзор данных с переходом к подробностям.</span><span class="lang-en">Two new releases offer ways to connect data overviews with detailed views.</span></p>
+
+  <div class="prose lang-ru"><p>В сегодняшнем digest появились два новых способа показывать данные внутри Datasette. В <a href="https://simonwillison.net/2026/Nov/15/datasette-maplibre/">сообщении о datasette-maplibre 0.1a0</a> Саймон Уиллисон представил географический плагин на основе MapLibre GL и OpenFreeMap. Отдельный <a href="https://simonwillison.net/2026/Nov/15/datasette-apps/">релиз datasette-apps 0.4a0</a> добавил ссылки между приложениями. Оба первоисточника датированы 15 ноября и прочитаны полностью для выпуска за 16 ноября. Это новые изменения, отличные от вчерашних новостей о подключении моделей и плагине графиков; мы не выдаём дату подборки за дату объявления.</p>
+<p>В географическом плагине автор выделяет способ предварительного показа фигур GeoJSON. Сначала пользователь видит SVG-превью, а WebGL-представление загружается, когда объект попадает в видимую область. В заметке также есть ссылка на пример, где фигуры и точки с широтой и долготой показаны вместе. Такой интерфейс позволяет рассматривать разные виды географических данных рядом. Но сообщение не содержит сравнительного теста быстродействия, поэтому утверждать, что новый плагин ускоряет любую карту, было бы преждевременно.</p>
+<p>Уиллисон пишет, что большую часть плагина создал с помощью одного запроса к Claude Fable 5.2, опираясь на существующие расширения. Это его описание процесса разработки, а не измерение надёжности полученного кода. Автор предлагает демонстрацию в актуальном Datasette Lite: плагин и пример базы загружаются в браузере через Pyodide и WebAssembly. Редакция прочитала описание, но самостоятельно не запускала демонстрацию и не проверяла её на разных устройствах. Граница между опубликованной возможностью и нашим тестом здесь существенна.</p>
+<p>Другое обновление касается переходов между небольшими приложениями. Datasette Apps — это HTML- и JavaScript-приложения внутри Datasette, которые, согласно описанию автора, могут выполнять SQL-запросы к данным. Версия 0.4a0 позволяет приложению получать и использовать фрагмент адреса после знака решётки. Поддерживаемые схемы адресов также сообщаются Datasette Agent, чтобы он мог помогать создавать связанные приложения. Пример автора — отдельный поиск записей, ведущий в другое приложение с подробностями конкретной записи.</p>
+<p>Эти две новости можно связать условным редакционным примером, не приписывая релизам готовую интеграцию. Представьте каталог объектов: карта помогает выбрать интересующую область, а отдельный экран объясняет выбранную запись. Чтобы такой путь был полезен, человеку нужно понимать, какой объект он открыл и как вернуться к исходному выбору. Наличие карты и ссылки само по себе не подтверждает правильность координат, полноту каталога или соответствие записи выбранной точке. Проверять эти свойства придётся на собственных данных.</p>
+<h3>Почему это важно</h3>
+<p>Инструмент исследования становится удобнее, когда обзор и подробности можно соединить понятным переходом. Новые релизы предлагают элементы такого взаимодействия: предварительный показ геометрии и адресуемые состояния приложений. Пользователю стоит оценивать их вместе с качеством исходных данных и ясностью навигации, сохраняя различие между возможностями интерфейса и достоверностью результата.</p></div>
+  <div class="prose lang-en"><p>Today's digest brings two new ways of presenting data inside Datasette. In his <a href="https://simonwillison.net/2026/Nov/15/datasette-maplibre/">datasette-maplibre 0.1a0 announcement</a>, Simon Willison introduces a geospatial plugin combining MapLibre GL and OpenFreeMap. A separate <a href="https://simonwillison.net/2026/Nov/15/datasette-apps/">datasette-apps 0.4a0 release</a> adds links between applications. Both primary sources are dated November 15 and were read in full for this November 16 edition. These developments differ from yesterday's model-connection and chart-plugin coverage; the digest date does not replace the original announcement dates.</p>
+<p>For the geospatial plugin, Willison highlights how GeoJSON shapes are previewed. SVG previews appear first, with a WebGL preview loaded when the item scrolls into view. His note also links to an example showing shapes and latitude/longitude points on the same map. That offers a way to inspect different geographical representations together. The announcement does not provide a comparative performance benchmark, however, so it would be premature to claim that the plugin makes every map faster or reduces every workload by a measured amount.</p>
+<p>Willison says he built most of the plugin with one prompt to Claude Fable 5.2, using existing extensions as references. This is his account of the development process, rather than a reliability assessment of the resulting code. He supplies a demonstration for current Datasette Lite, loading the plugin and a sample database in the browser through Pyodide and WebAssembly. We read the description but did not independently run that demonstration or test it across devices. The distinction between an announced capability and our own verified runtime result remains explicit.</p>
+<p>The other update concerns moving between small applications. Datasette Apps are HTML and JavaScript applications within Datasette that, according to the author, can execute SQL queries against the data. Version 0.4a0 lets an application receive and use a URL fragment. Supported URL schemes are also reported to Datasette Agent so it can help build applications that link to each other. Willison's example separates an application that searches records from another that displays the details of an individual record.</p>
+<p>A hypothetical editorial example connects the two ideas without claiming a ready-made integration. Imagine a catalogue where a map offers an overview and a separate screen explains a selected entry. For that journey to work, a reader needs to understand which object was opened and how to return to the original selection. Having a map and a link does not establish coordinate accuracy, catalogue completeness or a correct match between the selected point and the record. Those properties require checks against the actual dataset.</p>
+<h3>Why it matters</h3>
+<p>Exploration becomes more useful when an overview and its underlying details can be connected intelligibly. These releases supply pieces of that interaction: geometry previews and addressable application states. Users should assess them alongside source-data quality and clear navigation, keeping interface capabilities separate from confidence in the result.</p></div>
+  <p class="srcline"><span class="lang-ru">Источник:</span><span class="lang-en">Source:</span> <a href="https://simonwillison.net/2026/Nov/15/datasette-maplibre/">https://simonwillison.net/2026/Nov/15/datasette-maplibre/</a></p>
+</article>
+</main>
+<footer>
+  <p class="lang-ru">Издание собирает и печатает открыто автоматизированная рутина &mdash; дважды в день, из настоящих источников. Издатель: <a href="https://adanman.github.io">Данила Катальшов</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p class="lang-en">This paper is written and shipped by an openly automated routine &mdash; twice a day, from real sources. Publisher: <a href="https://adanman.github.io">Danila Katalshov</a> &middot; <a href="https://t.me/adanman">Telegram</a> &middot; <a href="https://www.linkedin.com/in/danilakatalshov">LinkedIn</a></p>
+  <p><a href="https://github.com/ADanMan/frontier-wire">frontier-wire</a> &middot; MIT</p>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

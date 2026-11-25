@@ -10,9 +10,9 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №57 / Edition №57 — 2026-11-15** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-15/)
+**Предварительный выпуск №62 / Provisional edition №62 — 2026-11-25 — LOCAL DRAFT**
 
-- **[Технологии]** [Datasette обновляет подключение моделей и старый плагин графиков](editions/2026/11-15/01-datasette-compatibility.md)
+- **[Наука]** [NASA рассказывает, как любители помогают отслеживать килоновые](editions/2026/11-25/01-kilonova-catcher-network.md)
 
 <!-- EDITION:END -->
 

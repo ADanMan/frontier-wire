@@ -2,6 +2,271 @@
 
 
 
+===== EDITION 62 — 2026-11-25 =====
+
+## От редакции
+
+Сегодня короткий выпуск о совместной работе над быстрыми космическими событиями. NASA описывает сеть Kilonova Catcher, в которой любительские телескопы дополняют профессиональные наблюдения. Отделяем оповещение от подтверждённого открытия и историческую иллюстрацию от новой новости.
+
+## Editorial
+
+Today's short edition examines collaboration on fast-changing cosmic events. NASA describes Kilonova Catcher, where amateur telescopes complement professional observations. An alert stays distinct from a confirmed discovery, and a historical illustration from a new event.
+
+
+----- 01-kilonova-catcher-network (science) — source: https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/ -----
+
+## Русская версия
+
+NASA напомнило о сети Kilonova Catcher, которая соединяет астрономов-любителей с профессиональными исследователями для наблюдения быстротечных событий. В [материале от 24 ноября](https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/) агентство объясняет, как владельцы телескопов с камерами могут помогать искать и отслеживать свет после космических вспышек. Это описание действующего проекта, а не объявление о новой обнаруженной килоновой. Статья вошла в наш вечерний digest за 25 ноября; дата публикации источника сохранена отдельно от даты этой подборки.
+
+Нейтронные звёзды — чрезвычайно плотные остатки погибших звёзд. При их столкновении может возникнуть килоновая, свечение которой быстро слабеет. По объяснению NASA, такие события связаны с образованием тяжёлых элементов, включая золото и платину. Времени на наблюдение мало: яркость меняется за считаные дни, а одна обсерватория не может постоянно следить за всем небом. Именно здесь распределённая сеть наблюдателей получает практическую задачу: помогать искать источник и продолжать измерения по мере его угасания.
+
+Работа начинается с оповещения от гравитационно-волновых детекторов или космических телескопов. Добровольцы направляют свои инструменты в нужную область, чтобы помочь обнаружить и проследить меняющийся свет. Сеть также наблюдает послесвечения гамма-всплесков и другие короткоживущие явления. Из этого не следует, что любое оповещение уже является подтверждённой килоновой. В статье описан процесс поиска и последующих наблюдений, поэтому мы не подменяем сигнал к работе утверждением о готовом открытии или достоверной природе каждого кандидата.
+
+По данным NASA, в сети зарегистрировано более 150 участников на нескольких континентах. Их работа уже помогла подготовить более 64 официальных сообщений, распространяемых через General Coordinates Network. Наблюдатели также становились соавторами рецензируемых научных статей. Это показатели, приведённые агентством, а не самостоятельно пересчитанная редакцией статистика. Они относятся к накопленному участию сети, но не означают, что все эти сообщения описывают разные найденные килоновые. Число отчётов и число подтверждённых событий нельзя автоматически считать одним и тем же.
+
+Для участия, согласно материалу, нужен доступ к телескопу с камерой. NASA ведёт на сайт проекта с регистрацией; мы не регистрировались и никому не писали. Сеть готовится к последующим наблюдениям по новым оповещениям телескопа Roman. Это подготовка к будущей работе, а не отчёт о уже обработанных тысячах сигналов. Историческое изображение на странице показывает событие 2017 года в галактике NGC 4993 и его угасание на снимках Hubble. Иллюстрация не является доказательством нового события ноября 2026 года.
+
+### Почему это важно
+
+Быстротечную вспышку нужно не только заметить, но и наблюдать во времени. Распределённые инструменты и согласованный обмен данными могут дополнить возможности крупных обсерваторий. История Kilonova Catcher показывает конкретную форму участия любителей: доступ к оборудованию превращается в наблюдения, которые могут использовать исследователи. При этом оповещение, отчёт и научный вывод остаются разными этапами, и ценность работы лучше оценивать с учётом этой последовательности.
+
+## English version
+
+NASA has highlighted Kilonova Catcher, a network connecting amateur astronomers with professional researchers to observe short-lived cosmic events. Its [November 24 article](https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/) explains how people with access to camera-equipped telescopes can help find and follow fading light. This is an account of an existing project, rather than an announcement of a newly discovered kilonova. The article enters our November 25 evening digest with the source publication date kept separate from the date of this edition.
+
+Neutron stars are extremely dense remnants of dead stars. Their collisions can produce kilonovae whose light fades quickly. NASA explains that these events forge heavy elements including gold and platinum. The observing window is short: the light changes over days, and no single observatory can continuously watch the entire sky. A distributed network therefore has a practical role in finding a source and following its evolution, rather than relying on a single picture taken at one moment.
+
+Work begins with alerts from gravitational-wave detectors or space telescopes. Volunteers point their instruments at the relevant part of the sky to help locate and track changing light. The network also follows gamma-ray bursts and other brief events. That does not mean every alert is already a confirmed kilonova. NASA describes a search and follow-up process, so we do not turn a request for observations into a completed discovery or an established identification of every candidate's physical nature.
+
+According to NASA, the network has more than 150 registered members across several continents. Volunteers have contributed to more than 64 official reports distributed through the General Coordinates Network. Their observations have also earned them co-authorship in peer-reviewed scientific papers. Those figures come from the agency's account and were not independently recounted by this publication. They describe accumulated participation, not a tally of distinct kilonova discoveries. The number of reports and the number of confirmed astronomical events should not automatically be treated as equivalent.
+
+The stated equipment requirement is access to a telescope with a camera. NASA points prospective participants to the project's registration website; we did not register or contact anyone. The network is preparing to follow new alerts from the Roman telescope. That is preparation for future work, rather than a report that thousands of those alerts have already been handled. The page's historical illustration concerns a 2017 event in NGC 4993 and its fading in Hubble observations. It is not evidence of a new event in November 2026.
+
+### Why it matters
+
+A transient flash needs to be observed over time as well as initially noticed. Distributed instruments and coordinated reporting can complement major observatories. Kilonova Catcher illustrates a concrete contribution amateurs can make: access to equipment becomes observations researchers can use. An alert, an observational report and a scientific conclusion nevertheless remain different steps. Understanding that sequence makes the network's role clearer without mistaking participation statistics or a historical image for a new discovery.
+
+
+===== EDITION 61 — 2026-11-24 =====
+
+## От редакции
+
+Сегодня короткий выпуск об истории большой миссии. Новый фильм NASA посвящён созданию Europa Clipper, но будущие научные результаты не подменяются рассказом о подготовке. Сохраняем дату анонса и границы собственной проверки.
+
+## Editorial
+
+Today's short edition examines the history of a major mission. NASA's new film follows the making of Europa Clipper, while its future science remains distinct from the development story. The announcement date and limits of our verification stay explicit.
+
+
+----- 01-europa-concept-documentary (science) — source: https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/ -----
+
+## Русская версия
+
+NASA представило документальный фильм «The Europa Concept» о том, как создавалась миссия Europa Clipper. В [анонсе от 23 ноября](https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/) агентство сообщило о показе на NASA+, в приложении NASA и на своём сайте начиная с этой даты. Выпуск на YouTube описан как предстоящий, без конкретного срока. Материал вошёл в вечерний digest за 24 ноября. Мы прочитали полный анонс, но самостоятельно фильм не просматривали, поэтому не оцениваем его монтаж, полноту рассказа или художественные достоинства.
+
+В центре истории — путь от замысла до аппарата, отправленного в космос 14 октября 2024 года. Согласно NASA, официальная работа над миссией в Лаборатории реактивного движения началась в 2013 году. Следующие одиннадцать лет команда разрабатывала аппарат и набор из девяти научных инструментов к определённому окну взаимного расположения планет. Документальный повод здесь отличается от нового сообщения о запуске: старт уже состоялся два года назад, а научная программа у Юпитера ещё впереди.
+
+Europa Clipper предназначен для пролётов рядом с Европой, спутником Юпитера. Задача миссии — исследовать условия, которые могут быть пригодны для жизни в океане, предположительно скрытом под ледяной поверхностью. Анонс не сообщает об обнаружении жизни и не представляет такую находку как гарантированный итог полёта. Между изучением возможной обитаемости и подтверждением существования организмов остаётся важное различие. Формулировка цели помогает понять, какие вопросы задают исследователи, но сама по себе не даёт на них ответа.
+
+NASA описывает фильм как рассказ об инженерах и учёных, которые готовили аппарат к работе в тяжёлой радиационной среде у Юпитера. Среди препятствий на пути к старту названы пандемия и опасная погода возле космодрома перед запуском. Эти обстоятельства относятся к истории подготовки, а не доказывают сегодняшнее состояние каждого прибора. Чтобы оценивать текущую работу аппарата, потребовались бы отдельные технические сообщения. По одному анонсу фильма таких выводов мы не делаем и независимую проверку оборудования не заявляем.
+
+Контекст исследования Европы складывался задолго до нынешнего аппарата. В сообщении перечислены предыдущие наблюдения, от Pioneer и Voyager до Galileo, Cassini и Juno. Это последовательность источников знаний, на которой строится новая миссия, а не утверждение, что каждый прежний аппарат выполнял одинаковую программу. NASA подчёркивает участие множества специалистов в проектировании и создании Europa Clipper. Фильм посвящён именно этому коллективному процессу; будущие выводы миссии остаются будущими даже тогда, когда история её создания уже получила экранную форму.
+
+### Почему это важно
+
+Космический проект легко свести к одному дню старта или эффектному изображению. История подготовки возвращает в картину годы разработки, ограничения среды и работу разных команд. Смотреть такой фильм полезно с ясным разделением жанров: документальный рассказ объясняет путь к исследованию, а ответы о самой Европе потребуют наблюдений и научного анализа. Новый релиз даёт повод познакомиться с миссией, сохраняя это различие.
+
+## English version
+
+NASA has introduced “The Europa Concept,” a documentary about the development of Europa Clipper. Its [November 23 announcement](https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/) says the film would be available on NASA+, the NASA app and the agency's website starting that day. A YouTube release is described as coming soon, without a specific date. The announcement enters our November 24 evening digest with its original date intact. We read the complete primary article but did not independently watch the film, so this is not a review of its editing, completeness or artistic quality.
+
+The story follows the route from an early concept to a spacecraft launched on October 14, 2024. According to NASA, official mission work at the Jet Propulsion Laboratory began in 2013. An eleven-year effort followed to build the vehicle and its nine science instruments in time for a particular planetary alignment. This documentary release is therefore distinct from a new launch announcement: liftoff happened two years ago, while the mission's scientific programme at Jupiter is still ahead.
+
+Europa Clipper is intended to make flybys of Europa, Jupiter's moon. The mission examines conditions that could support life in the ocean thought to lie beneath the icy surface. The announcement does not report the discovery of life or promise that finding organisms is the inevitable result of the journey. Investigating potential habitability and confirming living organisms are different claims. The mission's stated purpose helps explain the questions researchers hope to address; describing those questions does not itself provide the answers.
+
+NASA presents the film as an account of engineers and scientists preparing a spacecraft for a demanding radiation environment near Jupiter. Its article names a pandemic and severe weather near the launch site among the obstacles encountered before departure. Those events belong to the development history, rather than independently establishing the current condition of every instrument. Assessing present spacecraft operations would require separate technical reports. We make no such assessment from a documentary announcement and claim no independent hardware verification.
+
+Knowledge of Europa also predates the current spacecraft. The announcement traces earlier observations through missions including Pioneer, Voyager, Galileo, Cassini and Juno. That sequence supplies context for the new mission; it does not imply that all those spacecraft conducted the same programme. NASA emphasises the many people involved in designing and building Europa Clipper. The film concerns that collective process. Future scientific findings remain prospective even when the history of preparing for them has already become a screen narrative.
+
+### Why it matters
+
+A space project can easily be reduced to launch day or a striking image. Its development story restores years of engineering, environmental constraints and collaboration to the picture. Such a documentary is best approached with a clear distinction between genres: it explains the route to an investigation, while answers about Europa itself will require observations and scientific analysis. The release offers an opportunity to learn about the mission without collapsing that distinction.
+
+
+===== EDITION 60 — 2026-11-19 =====
+
+## От редакции
+
+Два материала дня посвящены подготовке космической техники. В утреннем — условия конкурса AMPERE, в вечернем — план грузовой миссии CRS-25 к МКС. Различаем открытие конкурса 9 ноября и статью NASA от 18 ноября; будущие испытания и запуск остаются планами, а не достигнутыми результатами.
+
+## Editorial
+
+Two stories follow preparations for space technology. The morning report covers AMPERE competition terms, while the evening report examines the planned CRS-25 cargo mission to the station. The November 9 competition opening remains distinct from NASA's November 18 article; future tests and launch remain plans rather than achieved results.
+
+
+----- 01-ampere-prototype-challenge (tech) — source: https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/ -----
+
+## Русская версия
+
+Регистрация на конкурс NASA AMPERE для американских разработчиков двигателей Холла средней мощности [открылась 9 ноября](https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/). В [публикации от 18 ноября](https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/) агентство описывает призовой фонд в 500 тысяч долларов и три этапа работы. Статья от 18 ноября вошла в digest за 19 ноября; это дата отдельного материала NASA, а не открытия конкурса. Победители ещё не названы, испытания не представлены как завершённые, а участие конкретной компании не означает, что она уже получила заказ на космическую миссию.
+
+Двигатели Холла используют электрическое поле для ускорения рабочего газа. NASA описывает их как эффективную двигательную технологию для продолжительных миссий, спутников и автоматических аппаратов дальнего космоса. В этом объявлении речь идёт о доведении систем средней мощности до более зрелого состояния. Оно не сообщает о готовом новом двигателе с независимо подтверждёнными характеристиками. Поэтому конкурс стоит читать как путь к разработке и проверке прототипов, а не как отчёт о уже достигнутом техническом результате.
+
+На первом этапе участникам предстоит представить концептуальный проект, производственный план, а также прогнозы стоимости и характеристик. NASA может выбрать две команды для перехода ко второму этапу. Там они будут создавать прототипы и сотрудничать со специалистами агентства. Через бесплатное лицензирование команды смогут получить ранний доступ к разработанным NASA технологиям двигателей Холла, использующим криптон в качестве рабочего вещества. Это описанная возможность в рамках программы, а не обещание передачи любой технологии каждому подавшему заявку.
+
+Третий этап предусматривает испытания прототипов в исследовательском центре Glenn без платы со стороны участвующих команд. Каждая из двух выбранных команд может получить до 250 тысяч долларов. Здесь важны оба ограничения: число команд и верхняя граница суммы. Объявленный общий фонд нельзя автоматически превращать в гарантированную выплату каждому заявителю. Точно так же доступ к испытательной базе следует отличать от положительного результата испытаний: в сообщении ещё нет данных о том, как будущие прототипы поведут себя на стенде.
+
+Регистрация открыта до 27 января 2027 года, 17:00 по восточному стандартному времени США. AMPERE стал первым конкурсом серии Tech Maturation Prize. Проектом управляют Glenn и Лаборатория реактивного движения NASA; администрирование конкурса поручено Yet2. За полными правилами и требованиями к участникам агентство отправляет на официальный сайт конкурса. Эта заметка не заменяет эти документы и не подтверждает чью-либо пригодность к участию.
+
+### Почему это важно
+
+Технологии нужен проверяемый переход от идеи к изготовлению и испытаниям. В AMPERE денежная часть соседствует с доступом к специалистам, лицензированию и инфраструктуре. Такой набор позволяет обсуждать не только обещанные характеристики двигателя, но и то, как команда собирается их получить. Следующий содержательный результат программы — будущие решения об отборе и данные о прототипах; сегодня подтверждено именно объявление конкурса и его условий.
+
+## English version
+
+Registration for NASA’s AMPERE competition for US developers of mid-power Hall effect thrusters [opened on November 9](https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/). Its [November 18 article](https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/) describes a $500,000 prize pool and three phases of work. The November 18 article enters our November 19 digest as a separate NASA report, not the date the competition opened. Winners have not been named, testing is not presented as complete, and a company's participation would not by itself mean it had secured a contract for a space mission.
+
+Hall effect thrusters accelerate propellant gas using an electric field. NASA describes them as efficient propulsion technology for long-duration missions, satellites and robotic deep-space vehicles. This announcement concerns advancing the maturity of mid-power systems. It does not report a finished new engine with independently demonstrated performance. The competition should therefore be read as a route toward prototype development and evaluation, rather than evidence that a particular technical improvement has already been achieved by a selected team.
+
+In the first phase, participating teams will submit a concept design, manufacturing plan, and cost and performance projections. NASA may select two teams to advance to the second phase, where they would develop prototypes and collaborate with agency personnel. Through no-cost licensing, those teams can gain early access to NASA-developed Hall thruster technologies using krypton as propellant. That is a programme opportunity described in the announcement, rather than a promise to transfer every technology to every applicant who registers.
+
+The third phase calls for prototype testing at NASA Glenn without a charge to the participating teams. Two winning teams may receive up to $250,000 each. Both qualifications matter: the number of teams and the upper limit per award. The overall prize pool cannot be treated as a guaranteed payment to every entrant. Similarly, access to a test facility differs from a successful test result. The announcement contains no measurements showing how the future prototypes will perform on a stand.
+
+Registration remains open until January 27, 2027, at 5 p.m. Eastern Standard Time. AMPERE is the first competition in the Tech Maturation Prize series. Glenn and NASA's Jet Propulsion Laboratory manage the project, while Yet2 administers the challenge. NASA directs prospective entrants to the competition website for complete rules and eligibility requirements. This report does not replace those documents or establish that any particular organisation qualifies to enter.
+
+### Why it matters
+
+Technology needs an inspectable path from an idea to manufacturing and testing. AMPERE combines potential funding with access to expertise, licensing and facilities. That structure invites questions about how a team intends to reach its proposed performance, alongside what it promises to build. Future selection decisions and prototype evidence would be the next substantive developments. What is established today is the competition announcement and its stated terms, rather than a demonstrated new propulsion capability.
+
+
+----- 02-crs25-launch-plan (science) — source: https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/ -----
+
+## Русская версия
+
+NASA опубликовало расписание освещения грузовой миссии Northrop Grumman CRS-25 к Международной космической станции. Согласно [официальному анонсу от 18 ноября](https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/), запуск планируется не ранее 29 ноября, 10:47 по восточному стандартному времени США. Материал включён в вечернюю подборку за 19 ноября. Формулировка «не ранее» существенна: это целевая дата будущего события, а не подтверждение старта и не гарантия неизменности расписания. NASA, Northrop Grumman и SpaceX готовят отправку научного оборудования и запасов, но результат полёта ещё впереди.
+
+Корабль Cygnus XL должен доставить около 11 тысяч фунтов груза. Его планируют запустить на ракете Falcon 9 с комплекса SLC-40 на мысе Канаверал во Флориде. В сообщении приведена фотография предыдущей миссии CRS-24, стартовавшей в апреле. Этот исторический кадр не является свидетельством запуска CRS-25. Различать подпись к иллюстрации и основной текст особенно важно в новости, где новая миссия показана с помощью изображения уже завершённого этапа другой доставки.
+
+После прибытия к станции на 1 декабря намечен захват корабля роботизированной рукой Canadarm2. По плану NASA эту операцию выполнят астронавты Джессика Уоткинс и Люк Делани. Затем наземные специалисты установят корабль на обращённый к Земле порт модуля Unity, чтобы экипаж мог разгрузить его. Это последовательность разных операций: старт, прибытие, захват и установка не должны сливаться в одну дату. В анонсе они описаны как предстоящие, и в нашем материале сохраняется этот статус.
+
+Среди запланированных исследований NASA перечисляет работы по доставке лекарств, прогнозированию распространения рака, лечению потери мышечной массы, радиационным датчикам и производству пищи для длительных миссий. Это заявленные направления экспериментов, а не доказанные медицинские эффекты или уже полученные результаты. По расписанию корабль останется у станции до мая 2027 года. После этого он должен уйти с ненужными предметами и отходами, которые будут уничтожены вместе с ним при входе в атмосферу.
+
+Предстартовая телеконференция назначена на 23 ноября. Трансляцию запуска NASA планирует начать 29 ноября в 10:25 EST; освещение прибытия — 1 декабря в 01:10 EST, а захват — в 02:35 EST. Все эти часы даны в одной указанной агентством зоне, чтобы не смешивать время трансляции с временем операции. Корабль получил имя S.S. James «Jim» A. Lovell. Самостоятельно готовность техники мы не проверяли: основание новости — полный официальный анонс, а перед просмотром следует свериться с обновлениями NASA.
+
+### Почему это важно
+
+Грузовая миссия связывает научную программу станции с поставками оборудования и расходных материалов. Публичное расписание позволяет следить за отдельными этапами, не принимая обещание за результат. Для оценки выполнения миссии потребуются последующие сообщения о реальном старте, захвате и доставке; сегодня подтверждён именно опубликованный план.
+
+## English version
+
+NASA has published its coverage schedule for Northrop Grumman CRS-25, a cargo mission to the International Space Station. The [official November 18 advisory](https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/) targets launch no earlier than November 29 at 10:47 a.m. Eastern Standard Time. It enters this November 19 evening digest with the source date intact. “No earlier than” matters: this is a target for a future event, not confirmation of liftoff or a guarantee that the schedule will remain unchanged. NASA, Northrop Grumman and SpaceX are preparing a delivery whose flight outcome is still ahead.
+
+The Cygnus XL spacecraft is expected to carry approximately 11,000 pounds of cargo. A Falcon 9 rocket would launch it from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The advisory illustrates the story with a photograph from the earlier CRS-24 mission, which launched in April. That historical image is not evidence of a CRS-25 launch. Separating an illustration's caption from the new mission's status is particularly useful when a future delivery is represented by a previous flight.
+
+After arrival, the schedule calls for capture with the Canadarm2 robotic arm on December 1. NASA astronauts Jessica Watkins and Luke Delaney are assigned that operation in the announcement. Ground controllers would then install the spacecraft at the Unity module's Earth-facing port for unloading. Launch, arrival, capture and installation are distinct steps rather than interchangeable descriptions of one event. They remain prospective throughout this report, matching the status in the official advisory rather than turning a planned sequence into completed activity.
+
+NASA lists research intended to improve drug delivery, predict cancer spread, advance treatments for muscle loss, improve radiation sensing and support food production for long-duration missions. These are research objectives, not demonstrated medical benefits or results already obtained from the flight. The spacecraft is scheduled to remain at the station until May 2027. It would then depart carrying disposal items and other unneeded cargo, which would be destroyed with the vehicle during atmospheric re-entry.
+
+A prelaunch teleconference is scheduled for November 23. Launch coverage is planned to begin at 10:25 a.m. EST on November 29. Arrival coverage is scheduled for 1:10 a.m. EST on December 1, followed by capture at 2:35 a.m. EST. Keeping all these times in the advisory's stated zone helps distinguish a broadcast start from an operational milestone. The spacecraft is named S.S. James “Jim” A. Lovell. We have not independently checked hardware readiness; the complete official advisory is the basis of this report, and viewers should consult NASA's updates before watching.
+
+### Why it matters
+
+Cargo flights connect the station's scientific programme with supplies and equipment. A public schedule makes individual milestones easier to follow without confusing an intention with a result. Assessing execution will require later reports of actual liftoff, capture and delivery. What is established now is the published plan for the mission and its coverage.
+
+
+===== EDITION 59 — 2026-11-18 =====
+
+## От редакции
+
+Сегодня короткий научный выпуск о том, как данные превращаются в звук. Четыре сонификации NASA позволяют разобрать связь между наблюдением и его представлением. Сохраняем дату первоисточника и объясняем правила перевода, не выдавая музыку за запись космического звука.
+
+## Editorial
+
+Today's short science edition examines how observations become sound. Four NASA sonifications illustrate the relationship between data and their presentation. We preserve the source date and explain the mappings without describing the music as recorded sound from space.
+
+
+----- 01-chandra-star-sonifications (science) — source: https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/ -----
+
+## Русская версия
+
+NASA выпустило новый набор звуковых представлений астрономических данных. В [публикации Chandra от 17 ноября](https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/) описаны четыре сонификации: галактики M82, туманностей Ориона и Киля и области Ро Змееносца. Материал вошёл в digest за 18 ноября. Речь идёт о переводе наблюдений в звук по выбранным правилам, а не о записи микрофоном того, как звёзды звучат в космосе. Это важно для чтения новости: тембр и высота здесь помогают представить данные, но не заменяют объяснение способа преобразования.
+
+В случае M82 объединены рентгеновские данные Chandra, оптические наблюдения Hubble и инфракрасные изображения Webb и уже завершившего работу Spitzer. Сканирование напоминает движение радара; более ярким источникам соответствует большая громкость. Рентгеновскому излучению отведён самый высокий диапазон слышимых частот, инфракрасному — низкий фон и щипковые звуки. Оптические данные превращаются в разные музыкальные высоты и фактуры. Так один объект получает несколько различимых звуковых слоёв, каждый из которых связан с определённым набором наблюдений.
+
+Для туманности Ориона использована другая конкретная раскладка. Chandra видит здесь более тысячи молодых активных звёзд. В звуковой версии они представлены мерцающими звуками, а рассеянное рентгеновское свечение — чистыми высокими тонами. Инфракрасные данные Webb, показывающие газ и пыль, получают более низкие музыкальные тона, искажённые струнные и цифровую арфу. Важно не переносить автоматически все правила одной композиции на другую: NASA отдельно описывает соответствия для каждого из четырёх примеров.
+
+В туманности Киля отдельным молодым звёздам назначены короткие струнные звуки, а рассеянному рентгеновскому свечению — более протяжённые ноты. Инфракрасная структура туманности передана продолжительным звуком с инструментальными акцентами для отдельных особенностей. В области Ро Змееносца рентгеновские источники становятся высокими стеклянными тонами; облака и звёзды в инфракрасном изображении получают собственные звуковые обозначения. Пауза в середине этой композиции связана с тёмными пылевыми облаками, которые излучают мало света. Отсутствие звука здесь тоже является частью представления данных.
+
+Проект ведёт Chandra X-ray Center. В публикации названы специалист по визуализации Кимберли Арканд, астрофизик Мэтт Руссо и музыкант Эндрю Сантагвида из SYSTEM Sounds, а также консультант Кристин Малек. Редакция прочитала весь первоисточник, но самостоятельно не анализировала исходные наблюдения и не проверяла аудиодорожки. Поэтому мы описываем опубликованные соответствия, не делаем выводов о точности новых измерений и не представляем музыкальный выпуск как отдельное открытие о рождении звёзд.
+
+### Почему это важно
+
+Такая работа предлагает ещё один способ познакомиться со сложными наблюдениями. Польза звукового представления зависит от понятной легенды: что означает громкость, какому диапазону соответствует тембр и почему возникает пауза. Если эти правила сохранены рядом с произведением, слушатель может связать впечатление с данными. Без них легко принять художественное решение за физическое свойство самого объекта.
+
+## English version
+
+NASA has released a new collection that translates astronomical observations into sound. Its [Chandra article dated November 17](https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/) describes four sonifications: the galaxy M82, the Orion and Carina nebulae, and the Rho Ophiuchi region. The article enters our November 18 digest with its original publication date intact. These are representations built by mapping data to audio, rather than microphone recordings of stars in space. Pitch and timbre help present observations, but understanding them requires knowing the translation rules.
+
+For M82, the work combines Chandra X-ray observations, Hubble optical data and infrared views from Webb and the retired Spitzer telescope. A radar-like scan becomes louder where sources are brighter. X-rays occupy the highest audible frequency range, while infrared observations become a low drone and plucked sounds. Optical data receive different pitches and textures. The result separates several observational layers of the same target through distinct audible components, rather than presenting a single undifferentiated impression of the galaxy.
+
+The Orion Nebula uses its own particular arrangement. Chandra sees more than a thousand young, energetic stars there. In the sonification, stars become twinkling sounds and diffuse X-ray emission becomes pure high tones. Webb's infrared view of gas and dust receives lower musical tones, distorted string instruments and a digital harp. A listener should not automatically transfer every rule from one piece to another: NASA explains the correspondences separately for the four examples. The accompanying descriptions therefore matter as much as identifying the celestial target.
+
+In the Carina Nebula, individual young stars receive short string sounds, while diffuse X-ray emission receives longer string notes. The infrared nebula becomes a sustained sound punctuated by instruments marking particular features. For Rho Ophiuchi, X-ray sources become high, glassy tones; infrared clouds and stars have their own audible representations. A gap in the middle of that piece corresponds to dark dust clouds emitting very little light. Silence is consequently part of the mapping as well, and should be interpreted through the source's explanation rather than guessed from the listening experience alone.
+
+The Chandra X-ray Center leads the programme. NASA credits visualisation scientist Kimberly Arcand, astrophysicist Matt Russo and musician Andrew Santaguida of SYSTEM Sounds, along with consultant Christine Malec. We read the complete primary article but did not independently analyse the underlying observations or verify the audio tracks. Our report describes the published mappings. It does not claim a new physical measurement, independently established accuracy, or a separate discovery about stellar birth arising from the musical release itself.
+
+### Why it matters
+
+Sonification offers another route into complicated observations. Its usefulness depends on an intelligible legend: what loudness means, which data correspond to a timbre, and why a pause occurs. Keeping those rules alongside the work lets a listener connect the experience to its evidence. Without that explanation, a presentation choice can easily be mistaken for a physical property of the astronomical object.
+
+
+===== EDITION 58 — 2026-11-16 =====
+
+## От редакции
+
+Сегодня короткий выпуск о том, как переходить от обзора данных к подробностям. Два новых сообщения Datasette объединены в один материал о географических превью и ссылках между приложениями. Даты первоисточников и отсутствие независимого теста обозначены явно.
+
+## Editorial
+
+Today's short edition follows the path from a data overview to its details. Two new Datasette announcements form one story about geospatial previews and links between applications. Source dates and the limits of our verification remain explicit.
+
+
+----- 01-datasette-maps-links (tech) — source: https://simonwillison.net/2026/Nov/15/datasette-maplibre/ -----
+
+## Русская версия
+
+В сегодняшнем digest появились два новых способа показывать данные внутри Datasette. В [сообщении о datasette-maplibre 0.1a0](https://simonwillison.net/2026/Nov/15/datasette-maplibre/) Саймон Уиллисон представил географический плагин на основе MapLibre GL и OpenFreeMap. Отдельный [релиз datasette-apps 0.4a0](https://simonwillison.net/2026/Nov/15/datasette-apps/) добавил ссылки между приложениями. Оба первоисточника датированы 15 ноября и прочитаны полностью для выпуска за 16 ноября. Это новые изменения, отличные от вчерашних новостей о подключении моделей и плагине графиков; мы не выдаём дату подборки за дату объявления.
+
+В географическом плагине автор выделяет способ предварительного показа фигур GeoJSON. Сначала пользователь видит SVG-превью, а WebGL-представление загружается, когда объект попадает в видимую область. В заметке также есть ссылка на пример, где фигуры и точки с широтой и долготой показаны вместе. Такой интерфейс позволяет рассматривать разные виды географических данных рядом. Но сообщение не содержит сравнительного теста быстродействия, поэтому утверждать, что новый плагин ускоряет любую карту, было бы преждевременно.
+
+Уиллисон пишет, что большую часть плагина создал с помощью одного запроса к Claude Fable 5.2, опираясь на существующие расширения. Это его описание процесса разработки, а не измерение надёжности полученного кода. Автор предлагает демонстрацию в актуальном Datasette Lite: плагин и пример базы загружаются в браузере через Pyodide и WebAssembly. Редакция прочитала описание, но самостоятельно не запускала демонстрацию и не проверяла её на разных устройствах. Граница между опубликованной возможностью и нашим тестом здесь существенна.
+
+Другое обновление касается переходов между небольшими приложениями. Datasette Apps — это HTML- и JavaScript-приложения внутри Datasette, которые, согласно описанию автора, могут выполнять SQL-запросы к данным. Версия 0.4a0 позволяет приложению получать и использовать фрагмент адреса после знака решётки. Поддерживаемые схемы адресов также сообщаются Datasette Agent, чтобы он мог помогать создавать связанные приложения. Пример автора — отдельный поиск записей, ведущий в другое приложение с подробностями конкретной записи.
+
+Эти две новости можно связать условным редакционным примером, не приписывая релизам готовую интеграцию. Представьте каталог объектов: карта помогает выбрать интересующую область, а отдельный экран объясняет выбранную запись. Чтобы такой путь был полезен, человеку нужно понимать, какой объект он открыл и как вернуться к исходному выбору. Наличие карты и ссылки само по себе не подтверждает правильность координат, полноту каталога или соответствие записи выбранной точке. Проверять эти свойства придётся на собственных данных.
+
+### Почему это важно
+
+Инструмент исследования становится удобнее, когда обзор и подробности можно соединить понятным переходом. Новые релизы предлагают элементы такого взаимодействия: предварительный показ геометрии и адресуемые состояния приложений. Пользователю стоит оценивать их вместе с качеством исходных данных и ясностью навигации, сохраняя различие между возможностями интерфейса и достоверностью результата.
+
+## English version
+
+Today's digest brings two new ways of presenting data inside Datasette. In his [datasette-maplibre 0.1a0 announcement](https://simonwillison.net/2026/Nov/15/datasette-maplibre/), Simon Willison introduces a geospatial plugin combining MapLibre GL and OpenFreeMap. A separate [datasette-apps 0.4a0 release](https://simonwillison.net/2026/Nov/15/datasette-apps/) adds links between applications. Both primary sources are dated November 15 and were read in full for this November 16 edition. These developments differ from yesterday's model-connection and chart-plugin coverage; the digest date does not replace the original announcement dates.
+
+For the geospatial plugin, Willison highlights how GeoJSON shapes are previewed. SVG previews appear first, with a WebGL preview loaded when the item scrolls into view. His note also links to an example showing shapes and latitude/longitude points on the same map. That offers a way to inspect different geographical representations together. The announcement does not provide a comparative performance benchmark, however, so it would be premature to claim that the plugin makes every map faster or reduces every workload by a measured amount.
+
+Willison says he built most of the plugin with one prompt to Claude Fable 5.2, using existing extensions as references. This is his account of the development process, rather than a reliability assessment of the resulting code. He supplies a demonstration for current Datasette Lite, loading the plugin and a sample database in the browser through Pyodide and WebAssembly. We read the description but did not independently run that demonstration or test it across devices. The distinction between an announced capability and our own verified runtime result remains explicit.
+
+The other update concerns moving between small applications. Datasette Apps are HTML and JavaScript applications within Datasette that, according to the author, can execute SQL queries against the data. Version 0.4a0 lets an application receive and use a URL fragment. Supported URL schemes are also reported to Datasette Agent so it can help build applications that link to each other. Willison's example separates an application that searches records from another that displays the details of an individual record.
+
+A hypothetical editorial example connects the two ideas without claiming a ready-made integration. Imagine a catalogue where a map offers an overview and a separate screen explains a selected entry. For that journey to work, a reader needs to understand which object was opened and how to return to the original selection. Having a map and a link does not establish coordinate accuracy, catalogue completeness or a correct match between the selected point and the record. Those properties require checks against the actual dataset.
+
+### Why it matters
+
+Exploration becomes more useful when an overview and its underlying details can be connected intelligibly. These releases supply pieces of that interaction: geometry previews and addressable application states. Users should assess them alongside source-data quality and clear navigation, keeping interface capabilities separate from confidence in the result.
+
+
 ===== EDITION 57 — 2026-11-15 =====
 
 ## От редакции
