@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-26",
+  "slot": "evening",
+  "checked_at": "2026-11-26T17:11:06.162712+00:00",
+  "digest_sha256": "7279d38cbea21bb8e190ab2dd2a0ede4ced7e5ab42e3be01e5ee1649f440da05",
+  "articles": [
+    {
+      "path": "editions/2026/11-26/02-supplier-development.md",
+      "sha256": "34cae9a339b5506fa76022fb58bc7fc104569822041a803c8eababd7a447d2c9",
+      "source": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement"
+    }
+  ]
+}

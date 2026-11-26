@@ -14,6 +14,8 @@
 
 - **[Наука]** [NASA проверяет три культуры для будущих космических меню](editions/2026/11-26/01-space-crop-candidates.md)
 
+- **[Технологии]** [NASA обновляет программу поставщиков и сообщает о соглашении Boeing с GRACE](editions/2026/11-26/02-supplier-development.md)
+
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
