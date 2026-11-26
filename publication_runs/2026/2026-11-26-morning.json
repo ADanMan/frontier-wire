@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-26",
+  "slot": "morning",
+  "checked_at": "2026-11-26T04:06:20.744980+00:00",
+  "digest_sha256": "7a88e22c5c7e3691672de9d618fb0334213d55bc1360742603935a35ca442b80",
+  "articles": [
+    {
+      "path": "editions/2026/11-26/01-space-crop-candidates.md",
+      "sha256": "5f9108deac4bde0a1211e7c58ee7ad65031d73d1a4b17346d4a9725d991df668",
+      "source": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus"
+    }
+  ]
+}

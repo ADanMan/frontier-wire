@@ -1,5 +1,5 @@
-# frontier-wire — latest edition №62 (2026-11-25)
+# frontier-wire — latest edition №63 (2026-11-26)
 
-## NASA explains how amateur astronomers help track kilonovae / NASA рассказывает, как любители помогают отслеживать килоновые
-rubric: science · source: https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/
-markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-25/01-kilonova-catcher-network.md
+## NASA tests three crop candidates for future space menus / NASA проверяет три культуры для будущих космических меню
+rubric: science · source: https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/
+markdown: https://raw.githubusercontent.com/ADanMan/frontier-wire/main/editions/2026/11-26/01-space-crop-candidates.md

@@ -10,9 +10,9 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №62 / Edition №62 — 2026-11-25** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-25/)
+**Выпуск №63 / Edition №63 — 2026-11-26** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-26/)
 
-- **[Наука]** [NASA рассказывает, как любители помогают отслеживать килоновые](editions/2026/11-25/01-kilonova-catcher-network.md)
+- **[Наука]** [NASA проверяет три культуры для будущих космических меню](editions/2026/11-26/01-space-crop-candidates.md)
 
 <!-- EDITION:END -->
 
