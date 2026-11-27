@@ -10,11 +10,9 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №63 / Edition №63 — 2026-11-26** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-26/)
+**Выпуск №64 / Edition №64 — 2026-11-27** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-27/)
 
-- **[Наука]** [NASA проверяет три культуры для будущих космических меню](editions/2026/11-26/01-space-crop-candidates.md)
-
-- **[Технологии]** [NASA обновляет программу поставщиков и сообщает о соглашении Boeing с GRACE](editions/2026/11-26/02-supplier-development.md)
+- **[ИИ]** [В тесте визуального рассуждения генерация помощника снизила среднюю точность](editions/2026/11-27/01-generated-visual-helpers.md)
 
 <!-- EDITION:END -->
 

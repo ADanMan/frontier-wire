@@ -17,6 +17,7 @@ Publisher: Danila Katalshov — https://adanman.github.io
 - Repository: https://github.com/ADanMan/frontier-wire
 
 ## Latest articles
+- [Generated visual helpers reduced average accuracy in a reasoning study](https://adanman.github.io/frontier-wire/e/2026-11-27/01-generated-visual-helpers.html) — The preprint compares an added image with a baseline retaining the original and reports exceptions.
 - [NASA tests three crop candidates for future space menus](https://adanman.github.io/frontier-wire/e/2026-11-26/01-space-crop-candidates.html) — Strawberries, cucumbers and lemon basil face distinct selection stages before potential flight experiments.
 - [NASA updates supplier programme and reports Boeing–GRACE agreement](https://adanman.github.io/frontier-wire/e/2026-11-26/02-supplier-development.html) — Boeing funds the nearly $500,000 agreement; the article and signing ceremony have different dates.
 - [NASA explains how amateur astronomers help track kilonovae](https://adanman.github.io/frontier-wire/e/2026-11-25/01-kilonova-catcher-network.html) — Kilonova Catcher connects transient alerts with telescope observations around the world.
@@ -36,4 +37,3 @@ Publisher: Danila Katalshov — https://adanman.github.io
 - [Navajo Reservoir rises sharply after autumn rains](https://adanman.github.io/frontier-wire/e/2026-11-13/03-navajo-reservoir-rise.html) — Satellite views show water gains, while short-term drought relief does not erase every long-term deficit.
 - [llama.cpp 1.0.0 makes library compatibility boundaries clearer](https://adanman.github.io/frontier-wire/e/2026-11-13/04-llama-library-versioning.html) — The team establishes explicit version rules for public interfaces, while application upgrades still need validation.
 - [LLMON marks instructions and data as different context components](https://adanman.github.io/frontier-wire/e/2026-11-13/05-llmon-structured-context.html) — IBM introduced experimental Granite previews, with learned separation distinct from enforced security guarantees.
-- [Mangroves rebound globally while regional losses persist](https://adanman.github.io/frontier-wire/e/2026-11-13/06-mangrove-rebound.html) — NASA examines a long satellite record, without implying that the reported expansion happened today.

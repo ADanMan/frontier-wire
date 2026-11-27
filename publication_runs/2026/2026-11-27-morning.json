@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-27",
+  "slot": "morning",
+  "checked_at": "2026-11-27T04:01:16.558335+00:00",
+  "digest_sha256": "ed5635ff1294ded94d68cc20659245512da21a0eff4074784ecdcfa5d8ca95a1",
+  "articles": [
+    {
+      "path": "editions/2026/11-27/01-generated-visual-helpers.md",
+      "sha256": "2ee23fe80785fafb25737e82e5a4d4a93340ff90a558878e3382ffff22130521",
+      "source": "https://arxiv.org/abs/2611.34935v1"
+    }
+  ]
+}
