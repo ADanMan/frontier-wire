@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-27",
+  "slot": "evening",
+  "checked_at": "2026-11-27T17:17:33.939804+00:00",
+  "digest_sha256": "463dc9830568a83e16051cd8217e7ef2eff791fde173abd15bfd6da137d95e3a",
+  "articles": [
+    {
+      "path": "editions/2026/11-27/02-resolution-island.md",
+      "sha256": "8a5166a651ac311dd819557ad730ffe3846da24650905642b90ce8f84c714eb3",
+      "source": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+    }
+  ]
+}

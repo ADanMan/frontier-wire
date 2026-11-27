@@ -5,8 +5,8 @@ edition: 64
 
 ## От редакции
 
-Сегодня короткий выпуск об измеримой пользе промежуточной картинки для ИИ. Препринт проверяет статическую генерацию в визуальных вопросах и получает преимущественно отрицательный результат. Сохраняем исходное изображение в описании базы, отмечаем исключения и не распространяем вывод на непроверенные сценарии.
+Два материала дня — о картинке и том, что она действительно доказывает. Утром разбираем генерацию визуальных помощников для ИИ, вечером — спутниковый вид Резолюшена и историю островного убежища. Отделяем представление данных от проверенного результата и сохраняем даты исходных наблюдений.
 
 ## Editorial
 
-Today's short edition asks whether an intermediate picture measurably helps AI reasoning. A preprint tests static generation on visual questions and finds mostly negative results. Our account keeps the original image in the baseline, identifies exceptions and avoids extending the finding to untested settings.
+Two stories examine pictures and what they establish. The morning report covers generated visual helpers for AI; the evening report uses a satellite view of Resolution to explore an island refuge's history. Data presentation remains distinct from demonstrated outcomes, with original observation dates preserved.
