@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-28",
+  "slot": "morning",
+  "checked_at": "2026-11-28T08:24:35.860351+00:00",
+  "digest_sha256": "ae7f991461dc3b03891feae792b05e4e46b1f645cc53b9388e1c42e838371595",
+  "articles": [
+    {
+      "path": "editions/2026/11-28/01-ng25-research-systems.md",
+      "sha256": "547ea4aa706b458c64d31f9a153f4b40c1c9cdb98c0727719ef1365d40e42fb3",
+      "source": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research"
+    }
+  ]
+}

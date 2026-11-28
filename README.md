@@ -10,11 +10,9 @@
 ## Today's edition
 
 <!-- EDITION:START — the routine rewrites this block every run -->
-**Выпуск №64 / Edition №64 — 2026-11-27** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-27/)
+**Выпуск №65 / Edition №65 — 2026-11-28** · [читать на сайте / read online](https://adanman.github.io/frontier-wire/e/2026-11-28/)
 
-- **[ИИ]** [В тесте визуального рассуждения генерация помощника снизила среднюю точность](editions/2026/11-27/01-generated-visual-helpers.md)
-
-- **[Наука]** [NASA показывает, почему островное убежище не всегда изолировано](editions/2026/11-27/02-resolution-island.md)
+- **[Наука]** [NASA готовит к NG-25 камеру Ohalo III и систему для моделей тканей](editions/2026/11-28/01-ng25-research-systems.md)
 
 <!-- EDITION:END -->
 
