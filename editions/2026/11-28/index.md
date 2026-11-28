@@ -5,8 +5,8 @@ edition: 65
 
 ## От редакции
 
-Сегодня короткий выпуск об оборудовании, которое делает космический эксперимент возможным. NASA описывает две будущие проверки в составе NG-25: для растений и моделей тканей. Отделяем устройство системы и исследовательскую цель от результатов, которых ещё предстоит дождаться.
+Два научных материала дня — об оборудовании будущих экспериментов и наблюдении активного вулкана. К утреннему NG-25 добавился спутниковый вид Шивелуча. Отделяем планы от результатов, а дату снимка — от новой публикации и текущего состояния объекта.
 
 ## Editorial
 
-Today's short edition examines the equipment that enables a space experiment. NASA describes two planned NG-25 investigations involving plants and tissue models. System functions and research goals remain distinct from results that still lie ahead.
+Two science stories cover equipment for future experiments and observation of an active volcano. The morning NG-25 report is joined by a satellite view of Shivelyuch. Plans stay distinct from results, and image acquisition from publication and present conditions.

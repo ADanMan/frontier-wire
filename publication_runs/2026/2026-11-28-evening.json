@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "date": "2026-11-28",
+  "slot": "evening",
+  "checked_at": "2026-11-28T16:00:28.074640+00:00",
+  "digest_sha256": "02d02a390c6dba873f6079d6ce1911741b41d380b005a94595ced4ef7f45f21b",
+  "articles": [
+    {
+      "path": "editions/2026/11-28/02-shivelyuch-cloud-window.md",
+      "sha256": "dcd79c0dd892441a2aebfee504a1c9ae14b0bd654e5eb33429b3e4fab117a801",
+      "source": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in"
+    }
+  ]
+}

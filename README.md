@@ -14,6 +14,8 @@
 
 - **[Наука]** [NASA готовит к NG-25 камеру Ohalo III и систему для моделей тканей](editions/2026/11-28/01-ng25-research-systems.md)
 
+- **[Наука]** [Landsat показал кальдеру Шивелуча в окне облачности](editions/2026/11-28/02-shivelyuch-cloud-window.md)
+
 <!-- EDITION:END -->
 
 [Full archive →](editions/)
